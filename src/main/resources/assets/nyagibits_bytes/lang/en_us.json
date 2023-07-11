@@ -7,7 +7,8 @@
   "block.nyagibits_bytes.livisite_cobble": "Livisite Cobble",
   "block.nyagibits_bytes.polished_livisite": "Polished Livisite",
   "block.nyagibits_bytes.flake": "Flake",
+  "block.nyagibits_bytes.etched_living_wood": "Etched Living Wood",
 
   "itemGroup.nyagibits_bytes_tab_items": "Nyagi's Bits & Bytes Items",
-  "itemGroup.nyagibits_bytes_tab_blocks": "Nyagi's Bits & Bytes Items"
+  "itemGroup.nyagibits_bytes_tab_blocks": "Nyagi's Bits & Bytes Blocks"
 }
