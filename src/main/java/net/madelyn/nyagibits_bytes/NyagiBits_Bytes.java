@@ -1,4 +1,6 @@
 package net.madelyn.nyagibits_bytes;
+/*------------------------------------------------------------------------------
+--------------------------------------------------------------------------------*/
 
 import com.mojang.logging.LogUtils;
 import net.minecraftforge.api.distmarker.Dist;
