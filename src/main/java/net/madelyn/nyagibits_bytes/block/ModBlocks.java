@@ -22,7 +22,7 @@ public class ModBlocks {
 
     /*--------------------------------------------------------------------------------------
     Block authors:
-    Nyagi: [Livisite_Stone, Livisite_Cobble, Polished Livisite]
+    Nyagi: [Livisite_Stone, Livisite_Cobble, Polished Livisite, Flake]
     Flooter: []
     ---------------------------------------------------------------------------------------*/
 
@@ -43,6 +43,13 @@ public class ModBlocks {
     //Polished Livisite added 7/11/23 - Nyagi
     public static final RegistryObject<Block> POLISHED_LIVISITE = registerBlock("polished_livisite", () -> new Block(BlockBehaviour.Properties.of
             (Material.STONE).
+            strength(6f).
+            requiresCorrectToolForDrops()),
+            ModCreativeModeTab.NYAGIBITS_BYTES_BLOCKS);
+
+    //Flake added 7/11/23 - Nyagi
+    public static final RegistryObject<Block> FLAKE = registerBlock("flake", () -> new Block(BlockBehaviour.Properties.of
+            (Material.AMETHYST).
             strength(6f).
             requiresCorrectToolForDrops()),
             ModCreativeModeTab.NYAGIBITS_BYTES_BLOCKS);
