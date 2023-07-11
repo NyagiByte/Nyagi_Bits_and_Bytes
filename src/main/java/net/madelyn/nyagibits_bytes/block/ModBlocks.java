@@ -54,7 +54,7 @@ public class ModBlocks {
             requiresCorrectToolForDrops()),
             ModCreativeModeTab.NYAGIBITS_BYTES_BLOCKS);
 
-    //Etched Living Wood added 7/11/23
+    //Etched Living Wood added 7/11/23 - Nyagi
     public static final RegistryObject<Block> ETCHED_LIVING_WOOD = registerBlock("etched_living_wood", () -> new Block(BlockBehaviour.Properties.of
             (Material.WOOD).
             strength(6f).
