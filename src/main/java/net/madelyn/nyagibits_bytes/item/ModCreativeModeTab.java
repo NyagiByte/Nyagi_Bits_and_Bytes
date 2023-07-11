@@ -1,0 +1,19 @@
+package net.madelyn.nyagibits_bytes.item;
+
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.ItemStack;
+
+public class ModCreativeModeTab {
+    public static final CreativeModeTab NYAGIBITS_BYTES_ITEMS = new CreativeModeTab("nyagibits_bytes_tab_items") {
+        @Override
+        public ItemStack makeIcon() {
+            return new ItemStack(ModItems.Livisite_Alloy.get());
+        }
+    };
+    public static final CreativeModeTab NYAGIBITS_BYTES_BLOCKS = new CreativeModeTab("nyagibits_bytes_tab_blocks") {
+        @Override
+        public ItemStack makeIcon() {
+            return new ItemStack(ModItems.Livisite_Alloy.get());
+        }
+    };
+}

@@ -3,6 +3,8 @@ package net.madelyn.nyagibits_bytes;
 --------------------------------------------------------------------------------*/
 
 import com.mojang.logging.LogUtils;
+import net.madelyn.nyagibits_bytes.block.ModBlocks;
+import net.madelyn.nyagibits_bytes.item.ModItems;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -21,6 +23,13 @@ public class NyagiBits_Bytes {
 
     public NyagiBits_Bytes() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        //Registers adds items
+        ModItems.register(modEventBus);
+        //Register adds blocks
+        ModBlocks.register(modEventBus);
+
+
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
     }
