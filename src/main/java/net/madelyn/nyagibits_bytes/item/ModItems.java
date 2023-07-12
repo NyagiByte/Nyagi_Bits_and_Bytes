@@ -13,7 +13,7 @@ public class ModItems {
 
     /*--------------------------------------------------------------------------------------
     Item authors:
-    Nyagi: [Livisite_Alloy, Livisite Slate]
+    Nyagi: [Livisite_Alloy, Livisite Slate, Crude Abrasive, Pile of Cogs, Pile of Crude Mechanical Parts]
     Flooter: []
     ---------------------------------------------------------------------------------------*/
 
@@ -25,9 +25,19 @@ public class ModItems {
     //Livisite Alloy added 7/11/23 - Nyagi
     public static final RegistryObject<Item>
             Livisite_Alloy = ITEMS.register("livisite_alloy", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));//Livisite added 7/11/23 - Nyagi
+    //Livisite Slate added 7/11/23 - Nyagi
     public static final RegistryObject<Item>
             Livisite_Slate = ITEMS.register("livisite_slate", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
-    //Livisite Slate added 7/11/23 - Nyagi
+    //Crude Abrasive added 7/11/23 - Nyagi
+    public static final RegistryObject<Item>
+            Crude_Abrasive = ITEMS.register("crude_abrasive", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Pile of Cogs added 7/11/23 - Nyagi
+    public static final RegistryObject<Item>
+            Pile_of_Cogs = ITEMS.register("pile_of_cogs", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Pile of Crude Mechanical Parts added 7/11/23 - Nyagi
+    public static final RegistryObject<Item>
+    Pile_of_Crude_Mechanical_Parts = ITEMS.register("pile_of_crude_mechanical_parts", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+
 
     //--------------------------------------------------------------------------------------
     public static void register(IEventBus eventBus) {
