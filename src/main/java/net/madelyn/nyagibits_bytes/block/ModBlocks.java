@@ -26,7 +26,7 @@ public class ModBlocks {
     Flooter: []
     ---------------------------------------------------------------------------------------*/
 
-    //Livisite added 7/11/23 - Nyagi
+    //Livisite Stone added 7/11/23 - Nyagi
     public static final RegistryObject<Block> LIVISITE_STONE = registerBlock("livisite_stone", () -> new Block(BlockBehaviour.Properties.of
             (Material.STONE).
             strength(6f).
