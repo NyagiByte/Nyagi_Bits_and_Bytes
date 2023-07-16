@@ -24,6 +24,9 @@ public class ModBlocks {
     Block authors:
     Nyagi: [Livisite_Stone, Livisite_Cobble, Polished Livisite, Flake, Etched Living Wood]
     Flooter: []
+
+    Texture authors:
+    SoulRacer: [Livisite_stone]
     ---------------------------------------------------------------------------------------*/
 
     //Livisite Stone added 7/11/23 - Nyagi
