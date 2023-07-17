@@ -15,6 +15,9 @@ public class ModItems {
     Item authors:
     Nyagi: [Livisite_Alloy, Livisite Slate, Crude Abrasive, Pile of Cogs, Pile of Crude Mechanical Parts]
     Flooter: []
+
+    Texture authors:
+    SoulRacer: [Livisite_Alloy]
     ---------------------------------------------------------------------------------------*/
 
     //Textures are present in the path : resources > assets > nyagibits_byte > models > item

@@ -26,7 +26,7 @@ public class ModBlocks {
     Flooter: []
 
     Texture authors:
-    SoulRacer: [Livisite_stone]
+    SoulRacer: [Livisite_Stone]
     ---------------------------------------------------------------------------------------*/
 
     //Livisite Stone added 7/11/23 - Nyagi
