@@ -17,7 +17,7 @@ public class ModItems {
     Flooter: []
 
     Texture authors:
-    SoulRacer: [Livisite_Alloy]
+    SoulRacer: [Livisite_Alloy, Crude Abrasive]
     ---------------------------------------------------------------------------------------*/
 
     //Textures are present in the path : resources > assets > nyagibits_byte > models > item
