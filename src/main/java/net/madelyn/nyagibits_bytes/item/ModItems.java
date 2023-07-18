@@ -41,6 +41,24 @@ public class ModItems {
     public static final RegistryObject<Item>
     Pile_of_Crude_Mechanical_Parts = ITEMS.register("pile_of_crude_mechanical_parts", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
 
+    /*
+       SCIENCE ITEMS REGISTRATION
+     */
+    //Used/Crude Compression Test added 7/18/23 - Nyagi
+    public static final RegistryObject<Item>
+            Crude_Compression_Test = ITEMS.register("crude_compression_test", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_SCIENCE)));
+    public static final RegistryObject<Item>
+            Used_Crude_Compression_Test = ITEMS.register("used_crude_compression_test", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_SCIENCE)));    //Used/Crude Compression Test added 7/18/23 - Nyagi
+    //Used/Crude Statics Test added 7/18/23 - Nyagi
+    public static final RegistryObject<Item>
+            Statics_Compression_Test = ITEMS.register("crude_statics_test", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_SCIENCE)));
+    public static final RegistryObject<Item>
+            Used_Statics_Compression_Test = ITEMS.register("used_crude_statics_test", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_SCIENCE)));    //Used/Crude Compression Test added 7/18/23 - Nyagi
+    //Used/Crude Entropy Test added 7/18/23 - Nyagi
+    public static final RegistryObject<Item>
+            Crude_Entropy_Test = ITEMS.register("crude_entropy_test", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_SCIENCE)));
+    public static final RegistryObject<Item>
+            Used_Crude_Entropy_Test = ITEMS.register("used_crude_entropy_test", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_SCIENCE)));
 
     //--------------------------------------------------------------------------------------
     public static void register(IEventBus eventBus) {

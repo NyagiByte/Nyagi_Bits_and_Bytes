@@ -6,6 +6,18 @@
   "item.nyagibits_bytes.pile_of_cogs": "Pile Of Cogs",
   "item.nyagibits_bytes.pile_of_crude_mechanical_parts": "Pile Of Crude Mechanical Parts",
 
+
+
+  "item.nyagibits_bytes.crude_compression_test": "Crude Compression Test",
+  "item.nyagibits_bytes.crude_statics_test": "Crude Statics Test",
+  "item.nyagibits_bytes.crude_entropy_test": "Crude Entropy Test",
+
+  "item.nyagibits_bytes.used_crude_compression_test": "Used Crude Compression Test",
+  "item.nyagibits_bytes.used_crude_statics_test": "Used Crude Statics Test",
+  "item.nyagibits_bytes.used_crude_entropy_test": "Used Crude Entropy Test",
+
+
+
   "block.nyagibits_bytes.livisite_stone": "Livisite",
   "block.nyagibits_bytes.livisite_cobble": "Livisite Cobble",
   "block.nyagibits_bytes.polished_livisite": "Polished Livisite",
@@ -13,5 +25,6 @@
   "block.nyagibits_bytes.etched_living_wood": "Etched Living Wood",
 
   "itemGroup.nyagibits_bytes_tab_items": "Nyagi's Bits & Bytes Items",
-  "itemGroup.nyagibits_bytes_tab_blocks": "Nyagi's Bits & Bytes Blocks"
+  "itemGroup.nyagibits_bytes_tab_blocks": "Nyagi's Bits & Bytes Blocks",
+  "itemGroup.nyagibits_bytes_tab_science": "Nyagi's Bits & Bytes Science"
 }
