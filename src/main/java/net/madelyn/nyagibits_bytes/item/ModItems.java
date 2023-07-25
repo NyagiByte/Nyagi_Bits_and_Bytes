@@ -13,7 +13,8 @@ public class ModItems {
 
     /*--------------------------------------------------------------------------------------
     Item authors:
-    Nyagi: [Livisite_Alloy, Livisite Slate, Crude Abrasive, Pile of Cogs, Pile of Crude Mechanical Parts, crude/static/entropy science, Soil Sample, Sturdy Box]
+    Nyagi: [Livisite_Alloy, Livisite Slate, Crude Abrasive, Pile of Cogs, Pile of Crude Mechanical Parts, crude/static/entropy science, Soil Sample, Sturdy Box
+            Sealed Pouch]
     Flooter: []
 
     Texture authors:
@@ -49,6 +50,15 @@ public class ModItems {
     //Sturdy Box added 7/25/23 - Nyagi
     public static final RegistryObject<Item>
         Sturdy_Box = ITEMS.register("sturdy_box", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Sealed Pouch added 7/25/23 - Nyagi
+    public static final RegistryObject<Item>
+            Sealed_Pouch = ITEMS.register("sealed_pouch", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Salt Water added 7/25/23 - Nyagi
+    public static final RegistryObject<Item>
+            Salt_Water = ITEMS.register("bucket_of_salt_water", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Torn Wool Ball added 7/25/23 - Nyagi
+    public static final RegistryObject<Item>
+            Torn_Wool_Ball = ITEMS.register("torn_wool_ball", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
 
     /*
        SCIENCE ITEMS REGISTRATION
