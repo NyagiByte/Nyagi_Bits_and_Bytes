@@ -13,7 +13,7 @@ public class ModItems {
 
     /*--------------------------------------------------------------------------------------
     Item authors:
-    Nyagi: [Livisite_Alloy, Livisite Slate, Crude Abrasive, Pile of Cogs, Pile of Crude Mechanical Parts]
+    Nyagi: [Livisite_Alloy, Livisite Slate, Crude Abrasive, Pile of Cogs, Pile of Crude Mechanical Parts, crude/static/entropy science, Soil Sample, Sturdy Box]
     Flooter: []
 
     Texture authors:
@@ -25,9 +25,12 @@ public class ModItems {
     //Adding items here
 
     //--------------------------------------------------------------------------------------
+
+
+
     //Livisite Alloy added 7/11/23 - Nyagi
     public static final RegistryObject<Item>
-            Livisite_Alloy = ITEMS.register("livisite_alloy", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));//Livisite added 7/11/23 - Nyagi
+            Livisite_Alloy = ITEMS.register("livisite_alloy", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
     //Livisite Slate added 7/11/23 - Nyagi
     public static final RegistryObject<Item>
             Livisite_Slate = ITEMS.register("livisite_slate", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
@@ -39,7 +42,13 @@ public class ModItems {
             Pile_of_Cogs = ITEMS.register("pile_of_cogs", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
     //Pile of Crude Mechanical Parts added 7/11/23 - Nyagi
     public static final RegistryObject<Item>
-    Pile_of_Crude_Mechanical_Parts = ITEMS.register("pile_of_crude_mechanical_parts", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+        Pile_of_Crude_Mechanical_Parts = ITEMS.register("pile_of_crude_mechanical_parts", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Soil Sample added 7/25/23 - Nyagi
+    public static final RegistryObject<Item>
+        Soil_Sample = ITEMS.register("soil_sample", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Sturdy Box added 7/25/23 - Nyagi
+    public static final RegistryObject<Item>
+        Sturdy_Box = ITEMS.register("sturdy_box", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
 
     /*
        SCIENCE ITEMS REGISTRATION
