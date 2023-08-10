@@ -13,6 +13,9 @@
   "item.nyagibits_bytes.etched_redstone_plate": "Etched Redstone Plate",
   "item.nyagibits_bytes.crude_silicon_boule": "Crude Silicon Boule",
   "item.nyagibits_bytes.diamond_shard": "Diamond Shard",
+  "item.nyagibits_bytes.logic_dud": "Logic Dud",
+  "item.nyagibits_bytes.calculation_dud": "Calculation Dud",
+  "item.nyagibits_bytes.engineering_dud": "Engineering Dud",
 
   "item.nyagibits_bytes.lab_notebook": "Lab Notebook",
     "item.nyagibits_bytes.lab_notebook_with_crude_compression_data": "Lab Notebook With Crude Compression Data",

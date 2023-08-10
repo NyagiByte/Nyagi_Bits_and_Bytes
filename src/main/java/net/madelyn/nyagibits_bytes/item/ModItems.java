@@ -70,6 +70,15 @@ public class ModItems {
     //Diamond Shard added 8/10/23 - Nyagi
     public static final RegistryObject<Item>
             Diamond_Shard = ITEMS.register("diamond_shard", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Logic Dud added 8/10/23 - Nyagi
+    public static final RegistryObject<Item>
+            Logic_Dud = ITEMS.register("logic_dud", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Calculation Dud added 8/10/23 - Nyagi
+    public static final RegistryObject<Item>
+            Calculation_Dud = ITEMS.register("calculation_dud", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Engineering Dud added 8/10/23 - Nyagi
+    public static final RegistryObject<Item>
+            Engineering_Dud = ITEMS.register("engineering_dud", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
 
     //Ae2 Assembly added 8/10/23 - Nyagi
     public static final RegistryObject<Item>
