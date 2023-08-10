@@ -10,8 +10,33 @@
   "item.nyagibits_bytes.sealed_pouch": "Sealed Pouch",
   "item.nyagibits_bytes.bucket_of_salt_water": "Bucket of Salt Water",
   "item.nyagibits_bytes.torn_wool_ball": "Torn Wool Ball",
+  "item.nyagibits_bytes.etched_redstone_plate": "Etched Redstone Plate",
+  "item.nyagibits_bytes.crude_silicon_boule": "Crude Silicon Boule",
+  "item.nyagibits_bytes.diamond_shard": "Diamond Shard",
 
+  "item.nyagibits_bytes.lab_notebook": "Lab Notebook",
+    "item.nyagibits_bytes.lab_notebook_with_crude_compression_data": "Lab Notebook With Crude Compression Data",
+    "item.nyagibits_bytes.lab_notebook_with_crude_statics_data": "Lab Notebook With Crude Statics Data",
+    "item.nyagibits_bytes.lab_notebook_with_crude_entropy_data": "Lab Notebook With Crude Entropy Data",
 
+  "item.nyagibits_bytes.pen": "Pen",
+  "item.nyagibits_bytes.pen_assembly": "Pen Assembly",
+  "item.nyagibits_bytes.ball_bearing": "Ball Bearing",
+  "item.nyagibits_bytes.thin_casing": "Thin Casing",
+  "item.nyagibits_bytes.tiny_spring": "Tiny Spring",
+  "item.nyagibits_bytes.ink_cartridge": "Ink Cartridge",
+  "item.nyagibits_bytes.ink": "Ink",
+
+  "item.nyagibits_bytes.ae2_schematic": "Ae2 Schematic",
+  "item.nyagibits_bytes.ae2_assembly": "Ae2 Assembly",
+  "item.nyagibits_bytes.crystal_harmonizer": "Crystal Harmonizer",
+  "item.nyagibits_bytes.processor_stack": "Processor Stack",
+  "item.nyagibits_bytes.energized_frame": "Energized Frame",
+  "item.nyagibits_bytes.energized_wires": "Energized Wires",
+  "item.nyagibits_bytes.skystone_shielding": "Skystone Shielding",
+  "item.nyagibits_bytes.matter_converters": "Matter Converters",
+  "item.nyagibits_bytes.decorative_paneling": "Decorative Paneling",
+  "item.nyagibits_bytes.micro_tools": "Micro Tools",
 
   "item.nyagibits_bytes.crude_compression_test": "Crude Compression Test",
   "item.nyagibits_bytes.crude_statics_test": "Crude Statics Test",
@@ -31,5 +56,6 @@
 
   "itemGroup.nyagibits_bytes_tab_items": "Nyagi's Bits & Bytes Items",
   "itemGroup.nyagibits_bytes_tab_blocks": "Nyagi's Bits & Bytes Blocks",
-  "itemGroup.nyagibits_bytes_tab_science": "Nyagi's Bits & Bytes Science"
+  "itemGroup.nyagibits_bytes_tab_science": "Nyagi's Bits & Bytes Science",
+  "itemGroup.nyagibits_bytes_tab_schematics": "Nyagi's Bits & Bytes Schematics"
 }

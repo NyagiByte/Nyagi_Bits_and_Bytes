@@ -14,7 +14,8 @@ public class ModItems {
     /*--------------------------------------------------------------------------------------
     Item authors:
     Nyagi: [Livisite_Alloy, Livisite Slate, Crude Abrasive, Pile of Cogs, Pile of Crude Mechanical Parts, crude/static/entropy science, Soil Sample, Sturdy Box
-            Sealed Pouch]
+            Sealed Pouch, Lab Notebook, Lab Notebook with Crude/Static/Entropy Data, Ae2 Schematic, Pen, Pen Assembly, Ball Bearing, Thin Casing, Tiny Spring, Ink Cartridge,
+            Ink]
     Flooter: []
 
     Texture authors:
@@ -27,8 +28,9 @@ public class ModItems {
 
     //--------------------------------------------------------------------------------------
 
-
-
+    /*
+       GENERIC ITEMS
+     */
     //Livisite Alloy added 7/11/23 - Nyagi
     public static final RegistryObject<Item>
             Livisite_Alloy = ITEMS.register("livisite_alloy", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
@@ -59,7 +61,43 @@ public class ModItems {
     //Torn Wool Ball added 7/25/23 - Nyagi
     public static final RegistryObject<Item>
             Torn_Wool_Ball = ITEMS.register("torn_wool_ball", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Etched Redstone Plate added 8/10/23 - Nyagi
+    public static final RegistryObject<Item>
+            Etched_Redstone_Plate = ITEMS.register("etched_redstone_plate", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Crude Silicon Boule added 8/10/23 - Nyagi
+    public static final RegistryObject<Item>
+            Crude_Silicon_Boule = ITEMS.register("crude_silicon_boule", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Diamond Shard added 8/10/23 - Nyagi
+    public static final RegistryObject<Item>
+            Diamond_Shard = ITEMS.register("diamond_shard", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
 
+    //Ae2 Assembly added 8/10/23 - Nyagi
+    public static final RegistryObject<Item>
+            Ae2_Assembly = ITEMS.register("ae2_assembly", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+        //Crystal_Harmonizer added 8/10/23 - Nyagi
+        public static final RegistryObject<Item>
+                Crystal_Harmonizer = ITEMS.register("crystal_harmonizer", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+        //Processor_Stack added 8/10/23 - Nyagi
+        public static final RegistryObject<Item>
+                Processor_Stack = ITEMS.register("processor_stack", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+        //Energized_Frame added 8/10/23 - Nyagi
+        public static final RegistryObject<Item>
+                Energized_Frame = ITEMS.register("energized_frame", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+        //Energized_Wires added 8/10/23 - Nyagi
+        public static final RegistryObject<Item>
+                Energized_Wires = ITEMS.register("energized_wires", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+        //Skystone Shielding added 8/10/23 - Nyagi
+        public static final RegistryObject<Item>
+                Skystone_Shielding = ITEMS.register("skystone_shielding", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+        //Matter Converters added 8/10/23 - Nyagi
+        public static final RegistryObject<Item>
+                Matter_Converters = ITEMS.register("matter_converters", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+        //Decorative Paneling added 8/10/23 - Nyagi
+        public static final RegistryObject<Item>
+                Decorative_Paneling = ITEMS.register("decorative_paneling", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+        //MicroTools added 8/10/23 - Nyagi
+        public static final RegistryObject<Item>
+                Micro_Tools = ITEMS.register("micro_tools", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
     /*
        SCIENCE ITEMS REGISTRATION
      */
@@ -78,6 +116,38 @@ public class ModItems {
             Crude_Entropy_Test = ITEMS.register("crude_entropy_test", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_SCIENCE)));
     public static final RegistryObject<Item>
             Used_Crude_Entropy_Test = ITEMS.register("used_crude_entropy_test", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_SCIENCE)));
+    /*
+       SCIENCE DATA STORAGE
+     */
+    //added 8/10/23 - Nyagi
+    public static final RegistryObject<Item>
+            Lab_Notebook = ITEMS.register("lab_notebook", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_SCIENCE)));
+            public static final RegistryObject<Item>
+                Lab_Notebook_With_Crude_Compression_Data = ITEMS.register("lab_notebook_with_crude_compression_data", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_SCIENCE)));
+            public static final RegistryObject<Item>
+                Lab_Notebook_With_Crude_Statics_Data = ITEMS.register("lab_notebook_with_crude_statics_data", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_SCIENCE)));
+            public static final RegistryObject<Item>
+                Lab_Notebook_With_Crude_Entropy_Data = ITEMS.register("lab_notebook_with_crude_entropy_data", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_SCIENCE)));
+    public static final RegistryObject<Item>
+            Pen = ITEMS.register("pen", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_SCIENCE)));
+    public static final RegistryObject<Item>
+            Pen_Assembly = ITEMS.register("pen_assembly", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_SCIENCE)));
+    public static final RegistryObject<Item>
+            Ball_Bearing = ITEMS.register("ball_bearing", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_SCIENCE)));
+    public static final RegistryObject<Item>
+            Thin_Casing = ITEMS.register("thin_casing", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_SCIENCE)));
+    public static final RegistryObject<Item>
+            Tiny_Spring = ITEMS.register("tiny_spring", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_SCIENCE)));
+    public static final RegistryObject<Item>
+            Ink_Cartridge = ITEMS.register("ink_cartridge", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_SCIENCE)));
+    public static final RegistryObject<Item>
+            Ink = ITEMS.register("ink", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_SCIENCE)));
+
+    /*
+       SCHEMATICS
+     */
+    public static final RegistryObject<Item>
+        Ae2_Schematic = ITEMS.register("ae2_schematic", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_SCHEMATICS)));
 
     //--------------------------------------------------------------------------------------
     public static void register(IEventBus eventBus) {
