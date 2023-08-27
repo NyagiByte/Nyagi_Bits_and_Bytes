@@ -94,6 +94,9 @@ public class ModItems {
     //Basic Composite Plate added 8/27/23 - Nyagi
     public static final RegistryObject<Item>
             Basic_Composite_Plate = ITEMS.register("basic_composite_plate", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Blank Blueprint added 8/27/23 - Nyagi
+    public static final RegistryObject<Item>
+            Blank_Blueprint = ITEMS.register("blank_blueprint", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
 
     //Ae2 Assembly added 8/10/23 - Nyagi
     public static final RegistryObject<Item>
