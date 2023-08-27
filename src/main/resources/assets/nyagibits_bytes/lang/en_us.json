@@ -21,6 +21,9 @@
     "item.nyagibits_bytes.lab_notebook_with_crude_compression_data": "Lab Notebook With Crude Compression Data",
     "item.nyagibits_bytes.lab_notebook_with_crude_statics_data": "Lab Notebook With Crude Statics Data",
     "item.nyagibits_bytes.lab_notebook_with_crude_entropy_data": "Lab Notebook With Crude Entropy Data",
+    "item.nyagibits_bytes.lab_notebook_with_crude_acidics_data": "Lab Notebook With Crude Acidics Data",
+    "item.nyagibits_bytes.lab_notebook_with_crude_natural_arcana_data": "Lab Notebook With Natural Arcana Data",
+    "item.nyagibits_bytes.lab_notebook_with_crude_material_properties_data": "Lab Notebook With Crude Material Properties Data",
 
   "item.nyagibits_bytes.pen": "Pen",
   "item.nyagibits_bytes.pen_assembly": "Pen Assembly",
@@ -44,10 +47,16 @@
   "item.nyagibits_bytes.crude_compression_test": "Crude Compression Test",
   "item.nyagibits_bytes.crude_statics_test": "Crude Statics Test",
   "item.nyagibits_bytes.crude_entropy_test": "Crude Entropy Test",
+  "item.nyagibits_bytes.crude_acidics_test": "Crude Acidics Test",
+  "item.nyagibits_bytes.crude_natural_arcana_test": "Crude Natural Arcana Test",
+  "item.nyagibits_bytes.crude_material_properties_test": "Crude Material Properties Test",
 
   "item.nyagibits_bytes.used_crude_compression_test": "Used Crude Compression Test",
   "item.nyagibits_bytes.used_crude_statics_test": "Used Crude Statics Test",
   "item.nyagibits_bytes.used_crude_entropy_test": "Used Crude Entropy Test",
+  "item.nyagibits_bytes.used_crude_acidics_test": "Used Crude Acidics Test",
+  "item.nyagibits_bytes.used_crude_natural_arcana_test": "Used Crude Natural Arcana Test",
+  "item.nyagibits_bytes.used_crude_material_properties_test": "Used Crude Material Properties Test",
 
 
 
