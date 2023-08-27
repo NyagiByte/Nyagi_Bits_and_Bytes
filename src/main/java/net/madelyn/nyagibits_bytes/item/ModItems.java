@@ -88,6 +88,12 @@ public class ModItems {
     //Engineering Dud added 8/27/23 - Nyagi
     public static final RegistryObject<Item>
             Chemistry_Rack = ITEMS.register("chemistry_rack", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Basic Composite Material added 8/27/23 - Nyagi
+    public static final RegistryObject<Item>
+            Basic_Composite_Material = ITEMS.register("basic_composite_material", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Basic Composite Plate added 8/27/23 - Nyagi
+    public static final RegistryObject<Item>
+            Basic_Composite_Plate = ITEMS.register("basic_composite_plate", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
 
     //Ae2 Assembly added 8/10/23 - Nyagi
     public static final RegistryObject<Item>
