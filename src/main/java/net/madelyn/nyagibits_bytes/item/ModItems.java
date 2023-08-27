@@ -79,6 +79,15 @@ public class ModItems {
     //Engineering Dud added 8/10/23 - Nyagi
     public static final RegistryObject<Item>
             Engineering_Dud = ITEMS.register("engineering_dud", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Engineering Dud added 8/27/23 - Nyagi
+    public static final RegistryObject<Item>
+            Bottle_Of_Anthocyanin = ITEMS.register("bottle_of_anthocyanin", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Engineering Dud added 8/27/23 - Nyagi
+    public static final RegistryObject<Item>
+            Bottle_Of_Malic_And_Citric_Acid = ITEMS.register("bottle_of_malic_and_citric_acid", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Engineering Dud added 8/27/23 - Nyagi
+    public static final RegistryObject<Item>
+            Chemistry_Rack = ITEMS.register("chemistry_rack", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
 
     //Ae2 Assembly added 8/10/23 - Nyagi
     public static final RegistryObject<Item>
