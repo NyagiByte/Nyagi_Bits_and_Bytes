@@ -26,7 +26,7 @@ public class ModCreativeModeTab {
     public static final CreativeModeTab NYAGIBITS_BYTES_SCHEMATICS = new CreativeModeTab("nyagibits_bytes_tab_schematics") {
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(ModItems.Livisite_Alloy.get());
+            return new ItemStack(ModItems.Blank_Blueprint.get());
         }
     };
 }
