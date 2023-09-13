@@ -26,7 +26,8 @@ public class ModBlocks {
     Flooter: []
 
     Texture authors:
-    SoulRacer: [Livisite_Stone]
+    SoulRacer: [Livisite_Stone,  Livisite_Cobble, Polished Livisite, Flake, Etched Living Wood]
+    Tralomine: [Flake]
     ---------------------------------------------------------------------------------------*/
 
     //Livisite Stone added 7/11/23 - Nyagi
@@ -50,9 +51,10 @@ public class ModBlocks {
             requiresCorrectToolForDrops()),
             ModCreativeModeTab.NYAGIBITS_BYTES_BLOCKS);
 
-    //Flake added 7/11/23 - Nyagi
+    //Flake added 7/11/23 - Nyagi - Texture: Tralomine
     public static final RegistryObject<Block> FLAKE = registerBlock("flake", () -> new Block(BlockBehaviour.Properties.of
             (Material.AMETHYST).
+            noOcclusion().
             strength(6f).
             requiresCorrectToolForDrops()),
             ModCreativeModeTab.NYAGIBITS_BYTES_BLOCKS);
