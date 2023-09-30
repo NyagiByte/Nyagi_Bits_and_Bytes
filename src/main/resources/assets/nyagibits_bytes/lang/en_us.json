@@ -64,6 +64,15 @@
   "item.nyagibits_bytes.used_crude_natural_arcana_test": "Used Crude Natural Arcana Test",
   "item.nyagibits_bytes.used_crude_material_properties_test": "Used Crude Material Properties Test",
 
+  "item.nyagibits_bytes.raw_limonite": "Raw Limonite",
+  "item.nyagibits_bytes.raw_hematite": "Raw Hematite",
+  "item.nyagibits_bytes.raw_magnetite": "Raw Magnetite",
+  "item.nyagibits_bytes.raw_pyrite": "Raw Pyrite",
+  "item.nyagibits_bytes.raw_siderite": "Raw Siderite",
+  "item.nyagibits_bytes.raw_banded_iron": "Raw Banded Iron",
+  "item.nyagibits_bytes.raw_bog_iron": "Raw Bog Iron",
+  "item.nyagibits_bytes.raw_meteoric_iron": "Raw Meteoric Iron",
+
 
 
   "block.nyagibits_bytes.livisite_stone": "Livisite",
@@ -75,5 +84,6 @@
   "itemGroup.nyagibits_bytes_tab_items": "Nyagi's Bits & Bytes Items",
   "itemGroup.nyagibits_bytes_tab_blocks": "Nyagi's Bits & Bytes Blocks",
   "itemGroup.nyagibits_bytes_tab_science": "Nyagi's Bits & Bytes Science",
-  "itemGroup.nyagibits_bytes_tab_schematics": "Nyagi's Bits & Bytes Schematics"
+  "itemGroup.nyagibits_bytes_tab_schematics": "Nyagi's Bits & Bytes Schematics",
+  "itemGroup.nyagibits_bytes_tab_minerals": "Nyagi's Bits & Bytes Minerals"
 }

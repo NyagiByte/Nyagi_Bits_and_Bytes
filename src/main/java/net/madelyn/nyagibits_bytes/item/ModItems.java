@@ -198,6 +198,36 @@ public class ModItems {
     public static final RegistryObject<Item>
         Ae2_Schematic = ITEMS.register("ae2_schematic", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_SCHEMATICS)));
 
+     /*
+       Ore items
+     */
+    //Iron-related
+        //Limonite
+            public static final RegistryObject<Item>
+                    Raw_Limonite = ITEMS.register("raw_limonite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Hematite
+            public static final RegistryObject<Item>
+                    Raw_Hematite = ITEMS.register("raw_hematite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Magnetite
+            public static final RegistryObject<Item>
+                    Raw_Magnetite = ITEMS.register("raw_magnetite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Pyrite
+            public static final RegistryObject<Item>
+                    Raw_Pyrite = ITEMS.register("raw_pyrite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Siderite
+            public static final RegistryObject<Item>
+                    Raw_Siderite = ITEMS.register("raw_siderite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Banded Iron
+            public static final RegistryObject<Item>
+                    Raw_Banded_Iron = ITEMS.register("raw_banded_iron", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Bog Iron
+            public static final RegistryObject<Item>
+                    Raw_Bog_Iron = ITEMS.register("raw_bog_iron", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Meteoric
+            public static final RegistryObject<Item>
+                    Raw_Meteoric_Iron = ITEMS.register("raw_meteoric_iron", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+
+
     //--------------------------------------------------------------------------------------
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

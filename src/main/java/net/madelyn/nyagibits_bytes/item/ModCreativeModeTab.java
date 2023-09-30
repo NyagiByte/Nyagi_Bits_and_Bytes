@@ -20,13 +20,19 @@ public class ModCreativeModeTab {
     public static final CreativeModeTab NYAGIBITS_BYTES_SCIENCE = new CreativeModeTab("nyagibits_bytes_tab_science") {
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(ModItems.Livisite_Alloy.get());
+            return new ItemStack(ModItems.Lab_Notebook.get());
         }
     };
     public static final CreativeModeTab NYAGIBITS_BYTES_SCHEMATICS = new CreativeModeTab("nyagibits_bytes_tab_schematics") {
         @Override
         public ItemStack makeIcon() {
             return new ItemStack(ModItems.Blank_Blueprint.get());
+        }
+    };
+    public static final CreativeModeTab NYAGIBITS_BYTES_MINERALS = new CreativeModeTab("nyagibits_bytes_tab_minerals") {
+        @Override
+        public ItemStack makeIcon() {
+            return new ItemStack(ModItems.Raw_Hematite.get());
         }
     };
 }
