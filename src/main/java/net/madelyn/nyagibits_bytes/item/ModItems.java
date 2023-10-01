@@ -201,7 +201,7 @@ public class ModItems {
      /*
        Ore items
      */
-    //Iron-related
+    //Iron-related added 9/29/23 - Nyagi
         //Limonite
             public static final RegistryObject<Item>
                     Raw_Limonite = ITEMS.register("raw_limonite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
@@ -226,7 +226,31 @@ public class ModItems {
         //Meteoric
             public static final RegistryObject<Item>
                     Raw_Meteoric_Iron = ITEMS.register("raw_meteoric_iron", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
-
+    //Copper-related added 10/1/23 - Nyagi
+        //Chalcopyrite
+            public static final RegistryObject<Item>
+                    Raw_Chalcopyrite = ITEMS.register("raw_chalcopyrite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Malachite
+            public static final RegistryObject<Item>
+                    Raw_Malachite = ITEMS.register("raw_malachite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Azurite
+            public static final RegistryObject<Item>
+                    Raw_Azurite = ITEMS.register("raw_azurite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Tetrahedrite
+            public static final RegistryObject<Item>
+                    Raw_Tetrahedrite = ITEMS.register("raw_tetrahedrite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Enargite
+            public static final RegistryObject<Item>
+                    Raw_Enargite = ITEMS.register("raw_enargite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Chrysocolla
+            public static final RegistryObject<Item>
+                    Raw_Chrysocolla = ITEMS.register("raw_chrysocolla", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Tennanite
+            public static final RegistryObject<Item>
+                    Raw_Tennanite = ITEMS.register("raw_tennanite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Dioptase
+            public static final RegistryObject<Item>
+                    Raw_Dioptase = ITEMS.register("raw_dioptase", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
 
     //--------------------------------------------------------------------------------------
     public static void register(IEventBus eventBus) {
