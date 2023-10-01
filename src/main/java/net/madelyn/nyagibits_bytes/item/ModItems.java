@@ -276,6 +276,27 @@ public class ModItems {
         //Graphite
             public static final RegistryObject<Item>
                     Raw_Graphite = ITEMS.register("raw_graphite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+    //Gold&Silver-related added 10/1/23 - Nyagi
+        //Alluvial Slush
+            public static final RegistryObject<Item>
+                    Alluvial_Slush = ITEMS.register("alluvial_slush", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Native Cluster (Gold, Silver, Electrum)
+            public static final RegistryObject<Item>
+                    Native_Cluster = ITEMS.register("native_cluster", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Argentite
+            public static final RegistryObject<Item>
+                    Raw_Argentite = ITEMS.register("raw_argentite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Chlorargyrite
+            public static final RegistryObject<Item>
+                    Raw_Chlorargyrite = ITEMS.register("raw_chlorargyrite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Polybasite
+            public static final RegistryObject<Item>
+                    Raw_Polybasite = ITEMS.register("raw_polybasite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Proustite
+            public static final RegistryObject<Item>
+                    Raw_Proustite = ITEMS.register("raw_proustite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //
+        //
 
     //--------------------------------------------------------------------------------------
     public static void register(IEventBus eventBus) {
