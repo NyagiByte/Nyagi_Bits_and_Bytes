@@ -1,3 +1,57 @@
 {
-  "parent": "nyagibits_bytes:block/flake"
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"particle": "nyagibits_bytes:block/flake_outside",
+		"shell": "nyagibits_bytes:block/flake_outside",
+		"spacetime": "nyagibits_bytes:block/flake_inside"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#shell", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#shell", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#shell", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#shell", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#shell", "cullface": "up"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#shell", "cullface": "down"}
+			}
+		},
+		{
+			"from": [16, 16, 16],
+			"to": [0, 0, 0],
+			"faces": {
+				"north": {"uv": [15, 15, 16, 16], "texture": "#shell", "cullface": "north"},
+				"east": {"uv": [15, 15, 16, 16], "texture": "#shell", "cullface": "north"},
+				"south": {"uv": [15, 15, 16, 16], "texture": "#shell", "cullface": "north"},
+				"west": {"uv": [15, 15, 16, 16], "texture": "#shell", "cullface": "north"},
+				"up": {"uv": [15, 15, 16, 16], "texture": "#shell", "cullface": "north"},
+				"down": {"uv": [15, 15, 16, 16], "texture": "#shell", "cullface": "north"}
+			}
+		},
+		{
+			"from": [0.8, 0.8, 0.8],
+			"to": [15.2, 15.2, 15.2],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#spacetime", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#spacetime", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#spacetime", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#spacetime", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#spacetime", "cullface": "up"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#spacetime", "cullface": "down"}
+			}
+		}
+	],
+	"Comment": "Designed by Wiiv with Cubik Studio - https://cubik.studio",
+	"fixed": {
+		"rotation": [0, 180, 0],
+		"scale": [1.35, 1.35, 1]
+	},
+	"ground": {
+		"rotation": [0, 0, 0],
+		"translation": [0, 4.25, 0],
+		"scale": [2, 2, 2]
+	}
 }

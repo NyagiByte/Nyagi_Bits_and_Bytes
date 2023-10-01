@@ -251,6 +251,31 @@ public class ModItems {
         //Dioptase
             public static final RegistryObject<Item>
                     Raw_Dioptase = ITEMS.register("raw_dioptase", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+    //Coal-related added 10/1/23 - Nyagi
+        //Lignite
+            public static final RegistryObject<Item>
+                    Raw_Lignite = ITEMS.register("raw_lignite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Bituminous
+            public static final RegistryObject<Item>
+                    Raw_Bituminous = ITEMS.register("raw_bituminous", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Subbituminous
+            public static final RegistryObject<Item>
+                    Raw_Subbituminous = ITEMS.register("raw_subbituminous", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Anthracite
+            public static final RegistryObject<Item>
+                    Raw_Anthracite = ITEMS.register("raw_anthracite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Cannel Coal
+            public static final RegistryObject<Item>
+                    Raw_Cannel_Coal = ITEMS.register("raw_cannel_coal", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Jet
+            public static final RegistryObject<Item>
+                    Raw_Jet = ITEMS.register("raw_jet", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Peat
+            public static final RegistryObject<Item>
+                    Raw_Peat = ITEMS.register("raw_peat", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Graphite
+            public static final RegistryObject<Item>
+                    Raw_Graphite = ITEMS.register("raw_graphite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
 
     //--------------------------------------------------------------------------------------
     public static void register(IEventBus eventBus) {
