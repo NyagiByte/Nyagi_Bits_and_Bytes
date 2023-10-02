@@ -295,8 +295,13 @@ public class ModItems {
         //Proustite
             public static final RegistryObject<Item>
                     Raw_Proustite = ITEMS.register("raw_proustite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
-        //
-        //
+        //Electrum
+            public static final RegistryObject<Item>
+                    Raw_Electrum = ITEMS.register("raw_electrum", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Kustelite Electrum
+            public static final RegistryObject<Item>
+                    Raw_Kustelite_Electrum = ITEMS.register("raw_kustelite_electrum", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+
 
     //--------------------------------------------------------------------------------------
     public static void register(IEventBus eventBus) {
