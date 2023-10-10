@@ -54,7 +54,6 @@ public class ModBlocks {
     //Flake added 7/11/23 - Nyagi - Texture: Tralomine
     public static final RegistryObject<Block> FLAKE = registerBlock("flake", () -> new Block(BlockBehaviour.Properties.of
             (Material.AMETHYST).
-            noOcclusion().
             strength(6f).
             requiresCorrectToolForDrops()),
             ModCreativeModeTab.NYAGIBITS_BYTES_BLOCKS);

@@ -14,7 +14,7 @@ public class ModCreativeModeTab {
     public static final CreativeModeTab NYAGIBITS_BYTES_BLOCKS = new CreativeModeTab("nyagibits_bytes_tab_blocks") {
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(ModBlocks.LIVISITE_STONE.get());
+            return new ItemStack(ModBlocks.FLAKE.get());
         }
     };
     public static final CreativeModeTab NYAGIBITS_BYTES_SCIENCE = new CreativeModeTab("nyagibits_bytes_tab_science") {
