@@ -72,6 +72,7 @@
   "item.nyagibits_bytes.raw_banded_iron": "Raw Banded Iron",
   "item.nyagibits_bytes.raw_bog_iron": "Raw Bog Iron",
   "item.nyagibits_bytes.raw_meteoric_iron": "Raw Meteoric Iron",
+
   "item.nyagibits_bytes.raw_chalcopyrite": "Raw Chalcopyrite",
   "item.nyagibits_bytes.raw_malachite": "Raw Malachite",
   "item.nyagibits_bytes.raw_azurite": "Raw Azurite",
@@ -80,6 +81,7 @@
   "item.nyagibits_bytes.raw_chrysocolla": "Raw Chrysocolla",
   "item.nyagibits_bytes.raw_tennanite": "Raw Tennanite",
   "item.nyagibits_bytes.raw_dioptase": "Raw Dioptase",
+
   "item.nyagibits_bytes.raw_lignite": "Raw Lignite Coal",
   "item.nyagibits_bytes.raw_bituminous": "Raw Bituminous Coal",
   "item.nyagibits_bytes.raw_subbituminous": "Raw Sub-Bituminous Coal",
@@ -88,6 +90,7 @@
   "item.nyagibits_bytes.raw_jet": "Raw Jet Lignite",
   "item.nyagibits_bytes.raw_peat": "Raw Peat",
   "item.nyagibits_bytes.raw_graphite": "Raw Graphite",
+
   "item.nyagibits_bytes.alluvial_slush": "Alluvial Slush",
   "item.nyagibits_bytes.native_cluster": "Native Cluster",
   "item.nyagibits_bytes.raw_argentite": "Raw Argentite",
@@ -96,6 +99,24 @@
   "item.nyagibits_bytes.raw_proustite": "Raw Proustite",
   "item.nyagibits_bytes.raw_electrum": "Raw Electrum",
   "item.nyagibits_bytes.raw_kustelite_electrum": "Raw Kustelite Electrum",
+
+  "item.nyagibits_bytes.raw_cinnabar": "Raw Cinnabar",
+  "item.nyagibits_bytes.raw_metacinnabar": "Raw Metacinnabar",
+  "item.nyagibits_bytes.raw_corderoite": "Raw Corderoite",
+  "item.nyagibits_bytes.raw_basaltic_powder": "Raw Basaltic Powder",
+  "item.nyagibits_bytes.raw_calomel": "Raw Calomel",
+  "item.nyagibits_bytes.raw_native_mercury_spherules": "Raw Native Mercury Spherules",
+  "item.nyagibits_bytes.raw_montroydite": "Raw Montroydite",
+  "item.nyagibits_bytes.raw_granulated_obsidian": "Raw Granulated Obsidian",
+
+  "item.nyagibits_bytes.raw_kimberlite": "Raw Kimberlite",
+  "item.nyagibits_bytes.raw_lamproite": "Raw Lamproite",
+  "item.nyagibits_bytes.raw_lazurite": "Raw Lazurite",
+  "item.nyagibits_bytes.raw_lapis_lazuli": "Raw Lapis Lazuli",
+  "item.nyagibits_bytes.raw_beryllic_cluster": "Raw Beryllic Cluster",
+  "item.nyagibits_bytes.raw_fluorite": "Raw Fluorite",
+  "item.nyagibits_bytes.raw_chalcogenide_crystal_cluster": "Raw Chalcogenide Crystal Cluster",
+  "item.nyagibits_bytes.raw_salt_cluster": "Raw Salt Cluster",
 
 
 

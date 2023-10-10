@@ -301,7 +301,56 @@ public class ModItems {
         //Kustelite Electrum
             public static final RegistryObject<Item>
                     Raw_Kustelite_Electrum = ITEMS.register("raw_kustelite_electrum", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
-
+    //Redstone&Mercury-related added 10/9/23 - Nyagi
+        //Cinnabar
+            public static final RegistryObject<Item>
+                    Raw_Cinnabar = ITEMS.register("raw_cinnabar", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Metacinnabar
+            public static final RegistryObject<Item>
+                    Raw_Metacinnabar = ITEMS.register("raw_metacinnabar", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Corderoite
+            public static final RegistryObject<Item>
+                    Raw_Corderoite = ITEMS.register("raw_corderoite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Basaltic Powder
+            public static final RegistryObject<Item>
+                    Raw_Basaltic_Powder = ITEMS.register("raw_basaltic_powder", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Calomel
+            public static final RegistryObject<Item>
+                    Raw_Calomel = ITEMS.register("raw_calomel", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Native Mercury Spherules
+            public static final RegistryObject<Item>
+                    Raw_Native_Mercury_Spherules = ITEMS.register("raw_native_mercury_spherules", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Montroydite
+            public static final RegistryObject<Item>
+                    Raw_Montroydite = ITEMS.register("raw_montroydite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Granulated Obsidian
+            public static final RegistryObject<Item>
+                    Raw_Granulated_Obsidian = ITEMS.register("raw_granulated_obsidian", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+    //Crystals & Minerals Related added 10/9/23 - Nyagi
+        //Kimberlite
+            public static final RegistryObject<Item>
+                    Raw_Kimberlite = ITEMS.register("raw_kimberlite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Lamproite
+            public static final RegistryObject<Item>
+                    Raw_Lamproite = ITEMS.register("raw_lamproite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Lazurite
+            public static final RegistryObject<Item>
+                    Raw_Lazurite = ITEMS.register("raw_lazurite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Lapis Lazuli
+            public static final RegistryObject<Item>
+                    Raw_Lapis_Lazuli = ITEMS.register("raw_lapis_lazuli", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Beryllic Cluster (Emerald, Sapphire, Ruby)
+            public static final RegistryObject<Item>
+                    Raw_Beryllic_Cluster = ITEMS.register("raw_beryllic_cluster", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Fluorite
+            public static final RegistryObject<Item>
+                    Raw_Fluorite = ITEMS.register("raw_fluorite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Chalcogenide Crystal Cluster (Hawleyite, Selenite, Calaverite)
+            public static final RegistryObject<Item>
+                    Raw_Chalcogenide_Crystal_Cluster = ITEMS.register("raw_chalcogenide_crystal_cluster", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Salt Cluster (Sodium Chloride, Salt Peter, Rock Salt)
+            public static final RegistryObject<Item>
+                    Raw_Salt_Cluster = ITEMS.register("raw_salt_cluster", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
 
     //--------------------------------------------------------------------------------------
     public static void register(IEventBus eventBus) {
