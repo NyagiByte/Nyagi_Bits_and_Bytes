@@ -127,6 +127,15 @@
   "item.nyagibits_bytes.raw_prasiolite": "Raw Raw Prasiolite",
   "item.nyagibits_bytes.raw_meteoric_certus": "Raw Meteoric Certus",
 
+  "item.nyagibits_bytes.raw_zinc_carbonate": "Raw Zinc Carbonate",
+  "item.nyagibits_bytes.raw_sphalerite": "Raw Sphalerite",
+  "item.nyagibits_bytes.raw_smithsonite": "Raw Smithsonite",
+  "item.nyagibits_bytes.raw_hemimorphite": "Raw Hemimorphite",
+  "item.nyagibits_bytes.raw_wurtzite": "Raw Wurtzite",
+  "item.nyagibits_bytes.raw_hydrozincite": "Raw Hydrozincite",
+  "item.nyagibits_bytes.raw_willemite": "Raw Willemite",
+  "item.nyagibits_bytes.raw_franklinite": "Raw Franklinite",
+
 
 
   "block.nyagibits_bytes.livisite_stone": "Livisite",

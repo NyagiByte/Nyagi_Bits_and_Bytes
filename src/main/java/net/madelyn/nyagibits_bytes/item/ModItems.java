@@ -351,6 +351,7 @@ public class ModItems {
         //Salt Cluster (Sodium Chloride, Salt Peter, Rock Salt)
             public static final RegistryObject<Item>
                     Raw_Salt_Cluster = ITEMS.register("raw_salt_cluster", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+
     //Quartz Related added 10/13/23 - Nyagi
         //Herkimer Diamond (Water/Petroleum Inclusions)
             public static final RegistryObject<Item>
@@ -376,6 +377,32 @@ public class ModItems {
         //Meteoric Certus
             public static final RegistryObject<Item>
                 Raw_Meteoric_Certus = ITEMS.register("raw_meteoric_certus", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+
+    //Zinc Related added 10/13/23 - Nyagi
+        //Zinc Carbonate
+            public static final RegistryObject<Item>
+                    Raw_Zinc_Carbonate = ITEMS.register("raw_zinc_carbonate", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Sphalerite
+            public static final RegistryObject<Item>
+                    Raw_Sphalerite = ITEMS.register("raw_sphalerite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Smithsonite
+            public static final RegistryObject<Item>
+                    Raw_Smithsonite = ITEMS.register("raw_smithsonite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Hemimorphite
+            public static final RegistryObject<Item>
+                    Raw_Hemimorphite = ITEMS.register("raw_hemimorphite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Wurtzite
+            public static final RegistryObject<Item>
+                    Raw_Wurtzite = ITEMS.register("raw_wurtzite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Hydrozincite
+            public static final RegistryObject<Item>
+                    Raw_Hydrozincite= ITEMS.register("raw_hydrozincite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Willemite (Highly fluorescent (green))
+            public static final RegistryObject<Item>
+                    Raw_Willemite= ITEMS.register("raw_willemite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Franklinite
+            public static final RegistryObject<Item>
+                    Raw_Franklinite= ITEMS.register("raw_franklinite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
     //--------------------------------------------------------------------------------------
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
