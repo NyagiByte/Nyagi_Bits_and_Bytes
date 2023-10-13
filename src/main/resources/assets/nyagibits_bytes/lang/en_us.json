@@ -118,6 +118,15 @@
   "item.nyagibits_bytes.raw_chalcogenide_crystal_cluster": "Raw Chalcogenide Crystal Cluster",
   "item.nyagibits_bytes.raw_salt_cluster": "Raw Salt Cluster",
 
+  "item.nyagibits_bytes.raw_herkimer_diamond": "Raw Herkimer Diamond",
+  "item.nyagibits_bytes.raw_dendritic_agate": "Raw Dendritic Agate",
+  "item.nyagibits_bytes.raw_chalcedony": "Raw Chalcedony",
+  "item.nyagibits_bytes.raw_rutilated_quartz": "Raw Rutilated Quartz",
+  "item.nyagibits_bytes.raw_ametrine": "Raw Ametrine",
+  "item.nyagibits_bytes.raw_rose_quartz": "Raw Rose Quartz",
+  "item.nyagibits_bytes.raw_prasiolite": "Raw Raw Prasiolite",
+  "item.nyagibits_bytes.raw_meteoric_certus": "Raw Meteoric Certus",
+
 
 
   "block.nyagibits_bytes.livisite_stone": "Livisite",

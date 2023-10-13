@@ -351,7 +351,31 @@ public class ModItems {
         //Salt Cluster (Sodium Chloride, Salt Peter, Rock Salt)
             public static final RegistryObject<Item>
                     Raw_Salt_Cluster = ITEMS.register("raw_salt_cluster", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
-
+    //Quartz Related added 10/13/23 - Nyagi
+        //Herkimer Diamond (Water/Petroleum Inclusions)
+            public static final RegistryObject<Item>
+                Raw_Herkimer_Diamond = ITEMS.register("raw_herkimer_diamond", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Dendritic Agate
+            public static final RegistryObject<Item>
+                Raw_Dendritic_Agate = ITEMS.register("raw_dendritic_agate", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Chalcedony
+            public static final RegistryObject<Item>
+                Raw_Chalcedony = ITEMS.register("raw_chalcedony", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Rutilated quartz
+            public static final RegistryObject<Item>
+                Raw_Rutilated_Quartz = ITEMS.register("raw_rutilated_quartz", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Ametrine
+            public static final RegistryObject<Item>
+                Raw_Ametrine = ITEMS.register("raw_ametrine", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Rose Quartz
+            public static final RegistryObject<Item>
+                Raw_Rose_Quartz = ITEMS.register("raw_rose_quartz", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Prasiolite
+            public static final RegistryObject<Item>
+                Raw_Prasiolite = ITEMS.register("raw_prasiolite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Meteoric Certus
+            public static final RegistryObject<Item>
+                Raw_Meteoric_Certus = ITEMS.register("raw_meteoric_certus", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
     //--------------------------------------------------------------------------------------
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
