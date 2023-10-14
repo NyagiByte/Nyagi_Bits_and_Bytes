@@ -113,7 +113,7 @@
   "item.nyagibits_bytes.raw_lamproite": "Raw Lamproite",
   "item.nyagibits_bytes.raw_lazurite": "Raw Lazurite",
   "item.nyagibits_bytes.raw_lapis_lazuli": "Raw Lapis Lazuli",
-  "item.nyagibits_bytes.raw_beryllic_cluster": "Raw Beryllic Cluster",
+  "item.nyagibits_bytes.raw_prime_beryllic_cluster": "Raw Prime Beryllic Cluster",
   "item.nyagibits_bytes.raw_fluorite": "Raw Fluorite",
   "item.nyagibits_bytes.raw_chalcogenide_crystal_cluster": "Raw Chalcogenide Crystal Cluster",
   "item.nyagibits_bytes.raw_salt_cluster": "Raw Salt Cluster",
@@ -124,7 +124,7 @@
   "item.nyagibits_bytes.raw_rutilated_quartz": "Raw Rutilated Quartz",
   "item.nyagibits_bytes.raw_ametrine": "Raw Ametrine",
   "item.nyagibits_bytes.raw_rose_quartz": "Raw Rose Quartz",
-  "item.nyagibits_bytes.raw_prasiolite": "Raw Raw Prasiolite",
+  "item.nyagibits_bytes.raw_prasiolite": "Raw Prasiolite",
   "item.nyagibits_bytes.raw_meteoric_certus": "Raw Meteoric Certus",
 
   "item.nyagibits_bytes.raw_zinc_carbonate": "Raw Zinc Carbonate",
@@ -135,6 +135,15 @@
   "item.nyagibits_bytes.raw_hydrozincite": "Raw Hydrozincite",
   "item.nyagibits_bytes.raw_willemite": "Raw Willemite",
   "item.nyagibits_bytes.raw_franklinite": "Raw Franklinite",
+
+  "item.nyagibits_bytes.raw_bauxite": "Raw Bauxite",
+  "item.nyagibits_bytes.raw_feldspar": "Raw Feldspar",
+  "item.nyagibits_bytes.raw_clustered_beryl": "Raw Clustered Beryl",
+  "item.nyagibits_bytes.raw_cryolite": "Raw Cryolite",
+  "item.nyagibits_bytes.raw_spinel": "Raw Spinel",
+  "item.nyagibits_bytes.raw_turquoise": "Raw Turquoise",
+  "item.nyagibits_bytes.raw_garnet_slush": "Raw Garnet Slush",
+  "item.nyagibits_bytes.raw_native_aluminum": "Raw Native Aluminum",
 
 
 

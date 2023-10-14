@@ -339,9 +339,9 @@ public class ModItems {
         //Lapis Lazuli
             public static final RegistryObject<Item>
                     Raw_Lapis_Lazuli = ITEMS.register("raw_lapis_lazuli", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
-        //Beryllic Cluster (Emerald, Sapphire, Ruby)
+        //Prime Beryllic Cluster (Emerald, Sapphire, Ruby)
             public static final RegistryObject<Item>
-                    Raw_Beryllic_Cluster = ITEMS.register("raw_beryllic_cluster", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+                    Raw_Prime_Beryllic_Cluster = ITEMS.register("raw_prime_beryllic_cluster", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
         //Fluorite
             public static final RegistryObject<Item>
                     Raw_Fluorite = ITEMS.register("raw_fluorite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
@@ -403,6 +403,32 @@ public class ModItems {
         //Franklinite
             public static final RegistryObject<Item>
                     Raw_Franklinite= ITEMS.register("raw_franklinite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+
+    //Aluminum Related added 10/13/23 - Nyagi
+        //Bauxite
+            public static final RegistryObject<Item>
+                    Raw_Bauxite= ITEMS.register("raw_bauxite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Feldspar
+            public static final RegistryObject<Item>
+                    Raw_Feldspar= ITEMS.register("raw_feldspar", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Beryl (Clustered Beryl) (Emerald, Aquamarine, Morganite, Heliodor, Goshenite, Bixbite, Pezzottaite)
+            public static final RegistryObject<Item>
+                    Raw_Clustered_Beryl= ITEMS.register("raw_clustered_beryl", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Cryolite
+            public static final RegistryObject<Item>
+                    Raw_Cryolite= ITEMS.register("raw_cryolite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Spinel
+            public static final RegistryObject<Item>
+                    Raw_Spinel= ITEMS.register("raw_spinel", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Turquoise
+            public static final RegistryObject<Item>
+                    Raw_Turquoise= ITEMS.register("raw_turquoise", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Garnet Slush
+            public static final RegistryObject<Item>
+                    Raw_Garnet_Slush= ITEMS.register("raw_garnet_slush", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Native Aluminum (Extremely rare)
+            public static final RegistryObject<Item>
+                    Raw_Native_Aluminum= ITEMS.register("raw_native_aluminum", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
     //--------------------------------------------------------------------------------------
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
