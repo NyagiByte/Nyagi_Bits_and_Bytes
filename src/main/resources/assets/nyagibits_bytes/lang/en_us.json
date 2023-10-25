@@ -145,6 +145,15 @@
   "item.nyagibits_bytes.raw_garnet_slush": "Raw Garnet Slush",
   "item.nyagibits_bytes.raw_native_aluminum": "Raw Native Aluminum",
 
+  "item.nyagibits_bytes.raw_galena": "Raw Galena",
+  "item.nyagibits_bytes.raw_lead_sulphide": "Raw Lead Sulphide",
+  "item.nyagibits_bytes.raw_pyromorphite": "Raw Pyromorphite",
+  "item.nyagibits_bytes.raw_cerussite": "Raw Cerussite",
+  "item.nyagibits_bytes.raw_anglesite": "Raw Anglesite",
+  "item.nyagibits_bytes.raw_wulfenite": "Raw Wulfenite",
+  "item.nyagibits_bytes.raw_vanadinite": "Raw Vanadinite",
+  "item.nyagibits_bytes.raw_mimetite": "Raw Mimetite",
+
 
 
   "block.nyagibits_bytes.livisite_stone": "Livisite",
