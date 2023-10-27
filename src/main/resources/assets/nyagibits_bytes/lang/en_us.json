@@ -163,6 +163,15 @@
   "item.nyagibits_bytes.raw_meteoric_taenite": "Raw Meteoric Taenite",
   "item.nyagibits_bytes.raw_meteoric_kamacite": "Raw Meteoric Kamacite",
 
+  "item.nyagibits_bytes.raw_pitchblende": "Raw Pitchblende",
+  "item.nyagibits_bytes.raw_carnotite": "Raw Carnotite",
+  "item.nyagibits_bytes.raw_tyuyamunite": "Raw Tyuyamunite",
+  "item.nyagibits_bytes.raw_torbernite": "Raw Torbernite",
+  "item.nyagibits_bytes.raw_autunite": "Raw Autunite",
+  "item.nyagibits_bytes.raw_thorite": "Raw Thorite",
+  "item.nyagibits_bytes.raw_uranothorite": "Raw Uranothorite",
+  "item.nyagibits_bytes.raw_thorianite": "Raw Thorianite",
+
 
 
   "block.nyagibits_bytes.livisite_stone": "Livisite",

@@ -481,6 +481,34 @@ public class ModItems {
         //Meteoric Kamacite
             public static final RegistryObject<Item>
                     Raw_Meteoric_Kamacite = ITEMS.register("raw_meteoric_kamacite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+
+
+    //Uranium & Thorium Related added 10/27/23 - Nyagi
+        //Pitchblende
+            public static final RegistryObject<Item>
+                    Raw_Pitchblende = ITEMS.register("raw_pitchblende", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Carnotite
+            public static final RegistryObject<Item>
+                    Raw_Carnotite = ITEMS.register("raw_carnotite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Tyuyamunite
+            public static final RegistryObject<Item>
+                    Raw_Tyuyamunite = ITEMS.register("raw_tyuyamunite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Torbernite
+            public static final RegistryObject<Item>
+                    Raw_Torbernite = ITEMS.register("raw_torbernite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Autunite
+            public static final RegistryObject<Item>
+                    Raw_Autunite = ITEMS.register("raw_autunite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Thorite
+            public static final RegistryObject<Item>
+                    Raw_Thorite = ITEMS.register("raw_thorite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Uranothorite
+            public static final RegistryObject<Item>
+                    Raw_Uranothorite = ITEMS.register("raw_uranothorite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Thorianite
+            public static final RegistryObject<Item>
+                    Raw_Thorianite = ITEMS.register("raw_thorianite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+
     //--------------------------------------------------------------------------------------
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
