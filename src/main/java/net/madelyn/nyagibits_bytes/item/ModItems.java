@@ -455,6 +455,32 @@ public class ModItems {
         //Mimetite
             public static final RegistryObject<Item>
                     Raw_Mimetite = ITEMS.register("raw_mimetite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+
+    //Nickel Related added 10/27/23 - Nyagi
+        //Pentlandite
+            public static final RegistryObject<Item>
+                    Raw_Pentlandite = ITEMS.register("raw_pentlandite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Garnierite
+            public static final RegistryObject<Item>
+                    Raw_Garnierite = ITEMS.register("raw_garnierite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Saprolite
+            public static final RegistryObject<Item>
+                    Raw_Saprolite = ITEMS.register("raw_saprolite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Hardened Sulfide Flow
+            public static final RegistryObject<Item>
+                    Raw_Hardened_Sulfide_Flow = ITEMS.register("raw_hardened_sulfide_flow", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Millerite
+            public static final RegistryObject<Item>
+                    Raw_Millerite = ITEMS.register("raw_millerite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Nickeline
+            public static final RegistryObject<Item>
+                    Raw_Nickeline = ITEMS.register("raw_nickeline", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Meteoric Taenite
+            public static final RegistryObject<Item>
+                    Raw_Meteoric_Taenite = ITEMS.register("raw_meteoric_taenite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Meteoric Kamacite
+            public static final RegistryObject<Item>
+                    Raw_Meteoric_Kamacite = ITEMS.register("raw_meteoric_kamacite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
     //--------------------------------------------------------------------------------------
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

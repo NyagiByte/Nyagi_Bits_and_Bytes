@@ -154,6 +154,15 @@
   "item.nyagibits_bytes.raw_vanadinite": "Raw Vanadinite",
   "item.nyagibits_bytes.raw_mimetite": "Raw Mimetite",
 
+  "item.nyagibits_bytes.raw_pentlandite": "Raw Pentlandite",
+  "item.nyagibits_bytes.raw_garnierite": "Raw Garnierite",
+  "item.nyagibits_bytes.raw_saprolite": "Raw Saprolite",
+  "item.nyagibits_bytes.raw_hardened_sulfide_flow": "Raw Hardened Sulfide Flow",
+  "item.nyagibits_bytes.raw_millerite": "Raw Millerite",
+  "item.nyagibits_bytes.raw_nickeline": "Raw Nickeline",
+  "item.nyagibits_bytes.raw_meteoric_taenite": "Raw Meteoric Taenite",
+  "item.nyagibits_bytes.raw_meteoric_kamacite": "Raw Meteoric Kamacite",
+
 
 
   "block.nyagibits_bytes.livisite_stone": "Livisite",
