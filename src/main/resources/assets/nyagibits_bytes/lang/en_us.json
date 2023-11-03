@@ -172,6 +172,24 @@
   "item.nyagibits_bytes.raw_uranothorite": "Raw Uranothorite",
   "item.nyagibits_bytes.raw_thorianite": "Raw Thorianite",
 
+  "item.nyagibits_bytes.raw_cassiterite": "Raw Cassiterite",
+  "item.nyagibits_bytes.raw_stannite": "Raw Stannite",
+  "item.nyagibits_bytes.raw_cylindrite": "Raw Cylindrite",
+  "item.nyagibits_bytes.raw_franckeite": "Raw Franckeite",
+  "item.nyagibits_bytes.raw_canfieldite": "Raw Canfieldite",
+  "item.nyagibits_bytes.raw_teallite": "Raw Teallite",
+  "item.nyagibits_bytes.raw_brannerite": "Raw Brannerite",
+  "item.nyagibits_bytes.raw_orthoclase": "Raw Orthoclase",
+
+  "item.nyagibits_bytes.raw_saltpeter": "Raw Saltpeter",
+  "item.nyagibits_bytes.raw_borax": "Raw Borax",
+  "item.nyagibits_bytes.raw_compacted_limestone": "Raw Compacted Limestone",
+  "item.nyagibits_bytes.raw_volcanic_sulfur": "Raw Volcanic Sulfur",
+  "item.nyagibits_bytes.raw_rainbow_obsidian": "Raw Rainbow Obsidian",
+  "item.nyagibits_bytes.raw_petrified_wood": "Raw Petrified Wood",
+  "item.nyagibits_bytes.raw_chalk": "Raw Chalk",
+  "item.nyagibits_bytes.raw_trona": "Raw Trona",
+
 
 
   "block.nyagibits_bytes.livisite_stone": "Livisite",

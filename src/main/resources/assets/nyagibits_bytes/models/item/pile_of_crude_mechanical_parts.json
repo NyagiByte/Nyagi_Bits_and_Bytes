@@ -1,15 +1,16 @@
 {
 	"credit": "Made with Blockbench",
+        "parent": "minecraft:block/block",
 	"textures": {
 		"0": "create:block/andesite_casing",
-		"2": "create:block/deployer",
-		"3": "create:block/mechanical_press_head",
-		"4": "create:block/mechanical_press_pole",
-		"5": "create:block/gantry_shaft",
-		"6": "create:block/axis",
-		"7": "create:block/cogwheel",
-		"8": "nyagibits_bytes:block/cogwheel_small",
-		"9": "nyagibits_bytes:item/electrode_3d",
+		"1": "create:block/deployer",
+		"2": "create:block/mechanical_press_head",
+		"3": "create:block/mechanical_press_pole",
+		"4": "create:block/gantry_shaft",
+		"5": "create:block/axis",
+		"6": "create:block/cogwheel",
+		"7": "nyagibits_bytes:block/cogwheel_small",
+		"8": "create:item/electrode_3d",
 		"particle": "create:block/andesite_casing"
 	},
 	"elements": [

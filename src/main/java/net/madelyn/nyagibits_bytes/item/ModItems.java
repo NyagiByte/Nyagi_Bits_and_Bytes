@@ -482,7 +482,6 @@ public class ModItems {
             public static final RegistryObject<Item>
                     Raw_Meteoric_Kamacite = ITEMS.register("raw_meteoric_kamacite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
 
-
     //Uranium & Thorium Related added 10/27/23 - Nyagi
         //Pitchblende
             public static final RegistryObject<Item>
@@ -508,6 +507,59 @@ public class ModItems {
         //Thorianite
             public static final RegistryObject<Item>
                     Raw_Thorianite = ITEMS.register("raw_thorianite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+
+    //Tin Related added 11/3/23 - Nyagi
+        //Cassiterite
+            public static final RegistryObject<Item>
+                    Raw_Cassiterite = ITEMS.register("raw_cassiterite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Stannite
+            public static final RegistryObject<Item>
+                    Raw_Stannite = ITEMS.register("raw_stannite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Cylindrite
+            public static final RegistryObject<Item>
+                    Raw_Cylindrite = ITEMS.register("raw_cylindrite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Franckeite
+            public static final RegistryObject<Item>
+                    Raw_Franckeite = ITEMS.register("raw_franckeite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Canfieldite
+            public static final RegistryObject<Item>
+                    Raw_Canfieldite = ITEMS.register("raw_canfieldite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Teallite
+            public static final RegistryObject<Item>
+                    Raw_Teallite = ITEMS.register("raw_teallite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Brannerite
+            public static final RegistryObject<Item>
+                    Raw_Brannerite = ITEMS.register("raw_brannerite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Orthoclase
+            public static final RegistryObject<Item>
+                    Raw_Orthoclase = ITEMS.register("raw_orthoclase", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+
+    //Misc Processing Ores added 11/3/23 - Nyagi
+        //Saltpeter
+            public static final RegistryObject<Item>
+                    Raw_Saltpeter = ITEMS.register("raw_saltpeter", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Borax
+            public static final RegistryObject<Item>
+                    Raw_Borax = ITEMS.register("raw_borax", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Compacted Limestone
+            public static final RegistryObject<Item>
+                    Raw_Compacted_Limestone = ITEMS.register("raw_compacted_limestone", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Volcanic Sulfur
+            public static final RegistryObject<Item>
+                    Raw_Volcanic_Sulfur = ITEMS.register("raw_volcanic_sulfur", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Rainbow Obsidian
+            public static final RegistryObject<Item>
+                    Raw_Rainbow_Obsidian = ITEMS.register("raw_rainbow_obsidian", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Petrified Wood
+            public static final RegistryObject<Item>
+                    Raw_Petrified_Wood = ITEMS.register("raw_petrified_wood", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Chalk
+            public static final RegistryObject<Item>
+                    Raw_Chalk = ITEMS.register("raw_chalk", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Trona Ore (Baking Soda)
+            public static final RegistryObject<Item>
+                    Raw_Trona = ITEMS.register("raw_trona", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+
 
     //--------------------------------------------------------------------------------------
     public static void register(IEventBus eventBus) {
