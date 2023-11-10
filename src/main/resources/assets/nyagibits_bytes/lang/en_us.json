@@ -198,6 +198,12 @@
   "block.nyagibits_bytes.flake": "Flake",
   "block.nyagibits_bytes.etched_living_wood": "Etched Living Wood",
 
+  "block.nyagibits_bytes.conglomerate_iron_ore": "Conglomerate Iron Ore",
+  "block.nyagibits_bytes.dense_conglomerate_iron_ore": "Dense Conglomerate Iron Ore",
+  "block.nyagibits_bytes.hyper_conglomerate_iron_ore": "Hyper Conglomerate Iron Ore",
+  "block.nyagibits_bytes.techtonic_conglomerate_iron_ore": "Techtonic Conglomerate Iron Ore",
+  "block.nyagibits_bytes.core_conglomerate_iron_ore": "Core Conglomerate Iron Ore",
+
   "itemGroup.nyagibits_bytes_tab_items": "Nyagi's Bits & Bytes Items",
   "itemGroup.nyagibits_bytes_tab_blocks": "Nyagi's Bits & Bytes Blocks",
   "itemGroup.nyagibits_bytes_tab_science": "Nyagi's Bits & Bytes Science",

@@ -61,9 +61,46 @@ public class ModBlocks {
     //Etched Living Wood added 7/11/23 - Nyagi
     public static final RegistryObject<Block> ETCHED_LIVING_WOOD = registerBlock("etched_living_wood", () -> new Block(BlockBehaviour.Properties.of
             (Material.WOOD).
-            strength(6f).
+            strength(4f).
             requiresCorrectToolForDrops()),
             ModCreativeModeTab.NYAGIBITS_BYTES_BLOCKS);
+
+    //ORE BLOCKS
+    //Iron Related
+        //Conglomerate Iron Ore
+        public static final RegistryObject<Block> CONGLOMERATE_IRON_ORE = registerBlock("conglomerate_iron_ore", () -> new Block(BlockBehaviour.Properties.of
+            (Material.STONE).
+            strength(6f).
+            requiresCorrectToolForDrops()),
+            ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS);
+
+        //Dense Conglomerate Iron Ore
+        public static final RegistryObject<Block> DENSE_CONGLOMERATE_IRON_ORE = registerBlock("dense_conglomerate_iron_ore", () -> new Block(BlockBehaviour.Properties.of
+            (Material.STONE).
+            strength(12f).
+            requiresCorrectToolForDrops()),
+            ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS);
+
+        //Hyper Conglomerate Iron Ore
+        public static final RegistryObject<Block> HYPER_CONGLOMERATE_IRON_ORE = registerBlock("hyper_conglomerate_iron_ore", () -> new Block(BlockBehaviour.Properties.of
+            (Material.STONE).
+            strength(24f).
+            requiresCorrectToolForDrops()),
+            ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS);
+
+        //Techtonic Conglomerate Iron Ore
+        public static final RegistryObject<Block> TECHTONIC_CONGLOMERATE_IRON_ORE = registerBlock("techtonic_conglomerate_iron_ore", () -> new Block(BlockBehaviour.Properties.of
+            (Material.STONE).
+            strength(48f).
+            requiresCorrectToolForDrops()),
+            ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS);
+
+        //Core Conglomerate Iron Ore
+        public static final RegistryObject<Block> CORE_CONGLOMERATE_IRON_ORE = registerBlock("core_conglomerate_iron_ore", () -> new Block(BlockBehaviour.Properties.of
+            (Material.STONE).
+            strength(96f).
+            requiresCorrectToolForDrops()),
+            ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS);
 
     //--------------------------------------------------------------------------------------
     // DO NOT TOUCH BELOW
