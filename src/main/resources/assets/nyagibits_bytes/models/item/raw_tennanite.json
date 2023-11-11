@@ -1,0 +1,6 @@
+{
+  "parent" : "item/generated",
+  "textures" : {
+    "layer0" : "nyagibits_bytes:item/raw_tennanite"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": {"model": "nyagibits_bytes:block/dense_conglomerate_nickel_ore"}
+  }
+}

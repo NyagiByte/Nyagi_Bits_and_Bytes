@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": {"model": "nyagibits_bytes:block/conglomerate_iron_ore"}
+  }
+}

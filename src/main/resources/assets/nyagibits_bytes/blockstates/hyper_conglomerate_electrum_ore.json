@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": {"model": "nyagibits_bytes:block/hyper_conglomerate_electrum_ore"}
+  }
+}
