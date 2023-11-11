@@ -216,6 +216,72 @@
   "block.nyagibits_bytes.techtonic_conglomerate_copper_ore": "Techtonic Conglomerate Copper Ore",
   "block.nyagibits_bytes.core_conglomerate_copper_ore": "Core Conglomerate Copper Ore",
 
+  "block.nyagibits_bytes.conglomerate_tin_ore": "Conglomerate Tin Ore",
+  "block.nyagibits_bytes.dense_conglomerate_tin_ore": "Dense Conglomerate Tin Ore",
+  "block.nyagibits_bytes.hyper_conglomerate_tin_ore": "Hyper Conglomerate Tin Ore",
+  "block.nyagibits_bytes.techtonic_conglomerate_tin_ore": "Techtonic Conglomerate Tin Ore",
+  "block.nyagibits_bytes.core_conglomerate_tin_ore": "Core Conglomerate Tin Ore",
+
+  "block.nyagibits_bytes.conglomerate_uranium_ore": "Conglomerate Uranium Ore",
+  "block.nyagibits_bytes.dense_conglomerate_uranium_ore": "Dense Conglomerate Uranium Ore",
+  "block.nyagibits_bytes.hyper_conglomerate_uranium_ore": "Hyper Conglomerate Uranium Ore",
+  "block.nyagibits_bytes.techtonic_conglomerate_uranium_ore": "Techtonic Conglomerate Uranium Ore",
+  "block.nyagibits_bytes.core_conglomerate_uranium_ore": "Core Conglomerate Uranium Ore",
+
+  "block.nyagibits_bytes.conglomerate_nickel_ore": "Conglomerate Nickel Ore",
+  "block.nyagibits_bytes.dense_conglomerate_nickel_ore": "Dense Conglomerate Nickel Ore",
+  "block.nyagibits_bytes.hyper_conglomerate_nickel_ore": "Hyper Conglomerate Nickel Ore",
+  "block.nyagibits_bytes.techtonic_conglomerate_nickel_ore": "Techtonic Conglomerate Nickel Ore",
+  "block.nyagibits_bytes.core_conglomerate_nickel_ore": "Core Conglomerate Nickel Ore",
+
+  "block.nyagibits_bytes.conglomerate_lead_ore": "Conglomerate Lead Ore",
+  "block.nyagibits_bytes.dense_conglomerate_lead_ore": "Dense Conglomerate Lead Ore",
+  "block.nyagibits_bytes.hyper_conglomerate_lead_ore": "Hyper Conglomerate Lead Ore",
+  "block.nyagibits_bytes.techtonic_conglomerate_lead_ore": "Techtonic Conglomerate Lead Ore",
+  "block.nyagibits_bytes.core_conglomerate_lead_ore": "Core Conglomerate Lead Ore",
+
+  "block.nyagibits_bytes.conglomerate_bauxite_ore": "Conglomerate Bauxite Ore",
+  "block.nyagibits_bytes.dense_conglomerate_bauxite_ore": "Dense Conglomerate Bauxite Ore",
+  "block.nyagibits_bytes.hyper_conglomerate_bauxite_ore": "Hyper Conglomerate Bauxite Ore",
+  "block.nyagibits_bytes.techtonic_conglomerate_bauxite_ore": "Techtonic Conglomerate Bauxite Ore",
+  "block.nyagibits_bytes.core_conglomerate_bauxite_ore": "Core Conglomerate Bauxite Ore",
+
+  "block.nyagibits_bytes.conglomerate_zinc_ore": "Conglomerate Zinc Ore",
+  "block.nyagibits_bytes.dense_conglomerate_zinc_ore": "Dense Conglomerate Zinc Ore",
+  "block.nyagibits_bytes.hyper_conglomerate_zinc_ore": "Hyper Conglomerate Zinc Ore",
+  "block.nyagibits_bytes.techtonic_conglomerate_zinc_ore": "Techtonic Conglomerate Zinc Ore",
+  "block.nyagibits_bytes.core_conglomerate_zinc_ore": "Core Conglomerate Zinc Ore",
+
+  "block.nyagibits_bytes.conglomerate_quartz_ore": "Conglomerate Quartz Ore",
+  "block.nyagibits_bytes.dense_conglomerate_quartz_ore": "Dense Conglomerate Quartz Ore",
+  "block.nyagibits_bytes.hyper_conglomerate_quartz_ore": "Hyper Conglomerate Quartz Ore",
+  "block.nyagibits_bytes.techtonic_conglomerate_quartz_ore": "Techtonic Conglomerate Quartz Ore",
+  "block.nyagibits_bytes.core_conglomerate_quartz_ore": "Core Conglomerate Quartz Ore",
+
+  "block.nyagibits_bytes.conglomerate_gemstones_ore": "Conglomerate Gemstones Ore",
+  "block.nyagibits_bytes.dense_conglomerate_gemstones_ore": "Dense Conglomerate Gemstones Ore",
+  "block.nyagibits_bytes.hyper_conglomerate_gemstones_ore": "Hyper Conglomerate Gemstones Ore",
+  "block.nyagibits_bytes.techtonic_conglomerate_gemstones_ore": "Techtonic Conglomerate Gemstones Ore",
+  "block.nyagibits_bytes.core_conglomerate_gemstones_ore": "Core Conglomerate Gemstones Ore",
+
+  "block.nyagibits_bytes.conglomerate_redstone_ore": "Conglomerate Redstone Ore",
+  "block.nyagibits_bytes.dense_conglomerate_redstone_ore": "Dense Conglomerate Redstone Ore",
+  "block.nyagibits_bytes.hyper_conglomerate_redstone_ore": "Hyper Conglomerate Redstone Ore",
+  "block.nyagibits_bytes.techtonic_conglomerate_redstone_ore": "Techtonic Conglomerate Redstone Ore",
+  "block.nyagibits_bytes.core_conglomerate_redstone_ore": "Core Conglomerate Redstone Ore",
+
+  "block.nyagibits_bytes.conglomerate_electrum_ore": "Conglomerate Electrum Ore",
+  "block.nyagibits_bytes.dense_conglomerate_electrum_ore": "Dense Conglomerate Electrum Ore",
+  "block.nyagibits_bytes.hyper_conglomerate_electrum_ore": "Hyper Conglomerate Electrum Ore",
+  "block.nyagibits_bytes.techtonic_conglomerate_electrum_ore": "Techtonic Conglomerate Electrum Ore",
+  "block.nyagibits_bytes.core_conglomerate_electrum_ore": "Core Conglomerate Electrum Ore",
+
+  "block.nyagibits_bytes.conglomerate_migmamite_ore": "Conglomerate Migmamite Ore",
+  "block.nyagibits_bytes.dense_conglomerate_migmamite_ore": "Dense Conglomerate Migmamite Ore",
+  "block.nyagibits_bytes.hyper_conglomerate_migmamite_ore": "Hyper Conglomerate Migmamite Ore",
+  "block.nyagibits_bytes.techtonic_conglomerate_migmamite_ore": "Techtonic Conglomerate Migmamite Ore",
+  "block.nyagibits_bytes.core_conglomerate_migmamite_ore": "Core Conglomerate Migmamite Ore",
+
 
 
   "itemGroup.nyagibits_bytes_tab_items": "Nyagi's Bits & Bytes Items",
