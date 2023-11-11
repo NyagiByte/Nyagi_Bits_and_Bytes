@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "nyagibits_bytes:block/dense_conglomerate_quartz_ore"
-  }
-}
