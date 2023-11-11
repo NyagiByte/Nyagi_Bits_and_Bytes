@@ -204,6 +204,20 @@
   "block.nyagibits_bytes.techtonic_conglomerate_iron_ore": "Techtonic Conglomerate Iron Ore",
   "block.nyagibits_bytes.core_conglomerate_iron_ore": "Core Conglomerate Iron Ore",
 
+  "block.nyagibits_bytes.conglomerate_coal_ore": "Conglomerate Coal Ore",
+  "block.nyagibits_bytes.dense_conglomerate_coal_ore": "Dense Conglomerate Coal Ore",
+  "block.nyagibits_bytes.hyper_conglomerate_coal_ore": "Hyper Conglomerate Coal Ore",
+  "block.nyagibits_bytes.techtonic_conglomerate_coal_ore": "Techtonic Conglomerate Coal Ore",
+  "block.nyagibits_bytes.core_conglomerate_coal_ore": "Core Conglomerate Coal Ore",
+
+  "block.nyagibits_bytes.conglomerate_copper_ore": "Conglomerate Copper Ore",
+  "block.nyagibits_bytes.dense_conglomerate_copper_ore": "Dense Conglomerate Copper Ore",
+  "block.nyagibits_bytes.hyper_conglomerate_copper_ore": "Hyper Conglomerate Copper Ore",
+  "block.nyagibits_bytes.techtonic_conglomerate_copper_ore": "Techtonic Conglomerate Copper Ore",
+  "block.nyagibits_bytes.core_conglomerate_copper_ore": "Core Conglomerate Copper Ore",
+
+
+
   "itemGroup.nyagibits_bytes_tab_items": "Nyagi's Bits & Bytes Items",
   "itemGroup.nyagibits_bytes_tab_blocks": "Nyagi's Bits & Bytes Blocks",
   "itemGroup.nyagibits_bytes_tab_science": "Nyagi's Bits & Bytes Science",
