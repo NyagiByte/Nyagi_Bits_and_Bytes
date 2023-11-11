@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "nyagibits_bytes:block/techtonic_conglomerate_bauxite_ore"
-  }
-}
