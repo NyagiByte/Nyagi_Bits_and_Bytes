@@ -88,8 +88,8 @@ public class ModBlocks {
             requiresCorrectToolForDrops()),
             ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS);
 
-        //Techtonic Conglomerate Iron Ore
-        public static final RegistryObject<Block> TECHTONIC_CONGLOMERATE_IRON_ORE = registerBlock("tectonic_conglomerate_iron_ore", () -> new Block(BlockBehaviour.Properties.of
+        //Tectonic Conglomerate Iron Ore
+        public static final RegistryObject<Block> TECTONIC_CONGLOMERATE_IRON_ORE = registerBlock("tectonic_conglomerate_iron_ore", () -> new Block(BlockBehaviour.Properties.of
             (Material.STONE).
             strength(48f).
             requiresCorrectToolForDrops()),
@@ -124,8 +124,8 @@ public class ModBlocks {
             requiresCorrectToolForDrops()),
             ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS);
 
-        //Techtonic Conglomerate Coal Ore
-        public static final RegistryObject<Block> TECHTONIC_CONGLOMERATE_COAL_ORE = registerBlock("tectonic_conglomerate_coal_ore", () -> new Block(BlockBehaviour.Properties.of
+        //Tectonic Conglomerate Coal Ore
+        public static final RegistryObject<Block> TECTONIC_CONGLOMERATE_COAL_ORE = registerBlock("tectonic_conglomerate_coal_ore", () -> new Block(BlockBehaviour.Properties.of
             (Material.STONE).
             strength(48f).
             requiresCorrectToolForDrops()),
@@ -160,8 +160,8 @@ public class ModBlocks {
             requiresCorrectToolForDrops()),
             ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS);
 
-        //Techtonic Conglomerate Copper Ore
-        public static final RegistryObject<Block> TECHTONIC_CONGLOMERATE_COPPER_ORE = registerBlock("tectonic_conglomerate_copper_ore", () -> new Block(BlockBehaviour.Properties.of
+        //Tectonic Conglomerate Copper Ore
+        public static final RegistryObject<Block> TECTONIC_CONGLOMERATE_COPPER_ORE = registerBlock("tectonic_conglomerate_copper_ore", () -> new Block(BlockBehaviour.Properties.of
             (Material.STONE).
             strength(48f).
             requiresCorrectToolForDrops()),
@@ -196,8 +196,8 @@ public class ModBlocks {
                     requiresCorrectToolForDrops()),
             ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS);
 
-    //Techtonic Conglomerate Tin Ore
-    public static final RegistryObject<Block> TECHTONIC_CONGLOMERATE_TIN_ORE = registerBlock("tectonic_conglomerate_tin_ore", () -> new Block(BlockBehaviour.Properties.of
+    //Tectonic Conglomerate Tin Ore
+    public static final RegistryObject<Block> TECTONIC_CONGLOMERATE_TIN_ORE = registerBlock("tectonic_conglomerate_tin_ore", () -> new Block(BlockBehaviour.Properties.of
                             (Material.STONE).
                     strength(48f).
                     requiresCorrectToolForDrops()),
@@ -233,8 +233,8 @@ public class ModBlocks {
                     requiresCorrectToolForDrops()),
             ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS);
 
-    //Techtonic Conglomerate Uranium Ore
-    public static final RegistryObject<Block> TECHTONIC_CONGLOMERATE_URANIUM_ORE = registerBlock("tectonic_conglomerate_uranium_ore", () -> new Block(BlockBehaviour.Properties.of
+    //Tectonic Conglomerate Uranium Ore
+    public static final RegistryObject<Block> TECTONIC_CONGLOMERATE_URANIUM_ORE = registerBlock("tectonic_conglomerate_uranium_ore", () -> new Block(BlockBehaviour.Properties.of
                             (Material.STONE).
                     strength(48f).
                     requiresCorrectToolForDrops()),
@@ -270,8 +270,8 @@ public class ModBlocks {
                     requiresCorrectToolForDrops()),
             ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS);
 
-    //Techtonic Conglomerate Nickel Ore
-    public static final RegistryObject<Block> TECHTONIC_CONGLOMERATE_NICKEL_ORE = registerBlock("tectonic_conglomerate_nickel_ore", () -> new Block(BlockBehaviour.Properties.of
+    //Tectonic Conglomerate Nickel Ore
+    public static final RegistryObject<Block> TECTONIC_CONGLOMERATE_NICKEL_ORE = registerBlock("tectonic_conglomerate_nickel_ore", () -> new Block(BlockBehaviour.Properties.of
                             (Material.STONE).
                     strength(48f).
                     requiresCorrectToolForDrops()),
@@ -307,8 +307,8 @@ public class ModBlocks {
                     requiresCorrectToolForDrops()),
             ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS);
 
-    //Techtonic Conglomerate Lead Ore
-    public static final RegistryObject<Block> TECHTONIC_CONGLOMERATE_LEAD_ORE = registerBlock("tectonic_conglomerate_lead_ore", () -> new Block(BlockBehaviour.Properties.of
+    //Tectonic Conglomerate Lead Ore
+    public static final RegistryObject<Block> TECTONIC_CONGLOMERATE_LEAD_ORE = registerBlock("tectonic_conglomerate_lead_ore", () -> new Block(BlockBehaviour.Properties.of
                             (Material.STONE).
                     strength(48f).
                     requiresCorrectToolForDrops()),
@@ -344,8 +344,8 @@ public class ModBlocks {
                     requiresCorrectToolForDrops()),
             ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS);
 
-    //Techtonic Conglomerate Bauxite Ore
-    public static final RegistryObject<Block> TECHTONIC_CONGLOMERATE_BAUXITE_ORE = registerBlock("tectonic_conglomerate_bauxite_ore", () -> new Block(BlockBehaviour.Properties.of
+    //Tectonic Conglomerate Bauxite Ore
+    public static final RegistryObject<Block> TECTONIC_CONGLOMERATE_BAUXITE_ORE = registerBlock("tectonic_conglomerate_bauxite_ore", () -> new Block(BlockBehaviour.Properties.of
                             (Material.STONE).
                     strength(48f).
                     requiresCorrectToolForDrops()),
@@ -381,8 +381,8 @@ public class ModBlocks {
                     requiresCorrectToolForDrops()),
             ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS);
 
-    //Techtonic Conglomerate Zinc Ore
-    public static final RegistryObject<Block> TECHTONIC_CONGLOMERATE_ZINC_ORE = registerBlock("tectonic_conglomerate_zinc_ore", () -> new Block(BlockBehaviour.Properties.of
+    //Tectonic Conglomerate Zinc Ore
+    public static final RegistryObject<Block> TECTONIC_CONGLOMERATE_ZINC_ORE = registerBlock("tectonic_conglomerate_zinc_ore", () -> new Block(BlockBehaviour.Properties.of
                             (Material.STONE).
                     strength(48f).
                     requiresCorrectToolForDrops()),
@@ -418,8 +418,8 @@ public class ModBlocks {
                     requiresCorrectToolForDrops()),
             ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS);
 
-    //Techtonic Conglomerate Quartz Ore
-    public static final RegistryObject<Block> TECHTONIC_CONGLOMERATE_QUARTZ_ORE = registerBlock("tectonic_conglomerate_quartz_ore", () -> new Block(BlockBehaviour.Properties.of
+    //Tectonic Conglomerate Quartz Ore
+    public static final RegistryObject<Block> TECTONIC_CONGLOMERATE_QUARTZ_ORE = registerBlock("tectonic_conglomerate_quartz_ore", () -> new Block(BlockBehaviour.Properties.of
                             (Material.STONE).
                     strength(48f).
                     requiresCorrectToolForDrops()),
@@ -455,8 +455,8 @@ public class ModBlocks {
                     requiresCorrectToolForDrops()),
             ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS);
 
-    //Techtonic Conglomerate Gemstones Ore
-    public static final RegistryObject<Block> TECHTONIC_CONGLOMERATE_GEMSTONES_ORE = registerBlock("tectonic_conglomerate_gemstones_ore", () -> new Block(BlockBehaviour.Properties.of
+    //Tectonic Conglomerate Gemstones Ore
+    public static final RegistryObject<Block> TECTONIC_CONGLOMERATE_GEMSTONES_ORE = registerBlock("tectonic_conglomerate_gemstones_ore", () -> new Block(BlockBehaviour.Properties.of
                             (Material.STONE).
                     strength(48f).
                     requiresCorrectToolForDrops()),
@@ -492,8 +492,8 @@ public class ModBlocks {
                     requiresCorrectToolForDrops()),
             ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS);
 
-    //Techtonic Conglomerate Redstone Ore
-    public static final RegistryObject<Block> TECHTONIC_CONGLOMERATE_REDSTONE_ORE = registerBlock("tectonic_conglomerate_redstone_ore", () -> new Block(BlockBehaviour.Properties.of
+    //Tectonic Conglomerate Redstone Ore
+    public static final RegistryObject<Block> TECTONIC_CONGLOMERATE_REDSTONE_ORE = registerBlock("tectonic_conglomerate_redstone_ore", () -> new Block(BlockBehaviour.Properties.of
                             (Material.STONE).
                     strength(48f).
                     requiresCorrectToolForDrops()),
@@ -529,8 +529,8 @@ public class ModBlocks {
                     requiresCorrectToolForDrops()),
             ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS);
 
-    //Techtonic Conglomerate Electrum Ore
-    public static final RegistryObject<Block> TECHTONIC_CONGLOMERATE_ELECTRUM_ORE = registerBlock("tectonic_conglomerate_electrum_ore", () -> new Block(BlockBehaviour.Properties.of
+    //Tectonic Conglomerate Electrum Ore
+    public static final RegistryObject<Block> TECTONIC_CONGLOMERATE_ELECTRUM_ORE = registerBlock("tectonic_conglomerate_electrum_ore", () -> new Block(BlockBehaviour.Properties.of
                             (Material.STONE).
                     strength(48f).
                     requiresCorrectToolForDrops()),
@@ -568,8 +568,8 @@ public class ModBlocks {
                     requiresCorrectToolForDrops()),
             ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS);
 
-    //Techtonic Conglomerate Migmamite Ore
-    public static final RegistryObject<Block> TECHTONIC_CONGLOMERATE_MIGMAMITE_ORE = registerBlock("tectonic_conglomerate_migmamite_ore", () -> new Block(BlockBehaviour.Properties.of
+    //Tectonic Conglomerate Migmamite Ore
+    public static final RegistryObject<Block> TECTONIC_CONGLOMERATE_MIGMAMITE_ORE = registerBlock("tectonic_conglomerate_migmamite_ore", () -> new Block(BlockBehaviour.Properties.of
                             (Material.STONE).
                     strength(48f).
                     requiresCorrectToolForDrops()),
