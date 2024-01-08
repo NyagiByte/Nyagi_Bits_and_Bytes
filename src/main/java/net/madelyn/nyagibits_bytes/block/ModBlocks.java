@@ -33,21 +33,21 @@ public class ModBlocks {
     //Livisite Stone added 7/11/23 - Nyagi
     public static final RegistryObject<Block> LIVISITE_STONE = registerBlock("livisite_stone", () -> new Block(BlockBehaviour.Properties.of
             (Material.STONE).
-            strength(6f).
+            strength(2f).
             requiresCorrectToolForDrops()),
             ModCreativeModeTab.NYAGIBITS_BYTES_BLOCKS);
 
     //Livisite Cobble added 7/11/23 - Nyagi
     public static final RegistryObject<Block> LIVISITE_COBBLE = registerBlock("livisite_cobble", () -> new Block(BlockBehaviour.Properties.of
             (Material.STONE).
-            strength(6f).
+            strength(2f).
             requiresCorrectToolForDrops()),
             ModCreativeModeTab.NYAGIBITS_BYTES_BLOCKS);
 
     //Polished Livisite added 7/11/23 - Nyagi
     public static final RegistryObject<Block> POLISHED_LIVISITE = registerBlock("polished_livisite", () -> new Block(BlockBehaviour.Properties.of
             (Material.STONE).
-            strength(6f).
+            strength(2f).
             requiresCorrectToolForDrops()),
             ModCreativeModeTab.NYAGIBITS_BYTES_BLOCKS);
 
@@ -61,7 +61,7 @@ public class ModBlocks {
     //Etched Living Wood added 7/11/23 - Nyagi
     public static final RegistryObject<Block> ETCHED_LIVING_WOOD = registerBlock("etched_living_wood", () -> new Block(BlockBehaviour.Properties.of
             (Material.WOOD).
-            strength(4f).
+            strength(1f).
             requiresCorrectToolForDrops()),
             ModCreativeModeTab.NYAGIBITS_BYTES_BLOCKS);
 
