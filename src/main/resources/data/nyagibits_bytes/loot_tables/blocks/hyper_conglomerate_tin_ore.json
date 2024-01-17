@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 64,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:raw_cassiterite"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:raw_stannite"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:raw_cylindrite"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:raw_franckeite"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:raw_canfieldite"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:raw_teallite"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:raw_brannerite"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:raw_orthoclase"
+        }
+      ]
+    }
+  ]
+}

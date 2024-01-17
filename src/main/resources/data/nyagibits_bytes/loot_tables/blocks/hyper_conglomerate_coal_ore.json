@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 64,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:raw_lignite"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:raw_bituminous"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:raw_subbituminous"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:raw_anthracite"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:raw_cannel_coal"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:raw_jet"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:raw_peat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:raw_graphite"
+        }
+      ]
+    }
+  ]
+}

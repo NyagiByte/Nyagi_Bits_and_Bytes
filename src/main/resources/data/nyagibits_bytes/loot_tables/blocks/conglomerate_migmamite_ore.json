@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 4,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:raw_saltpeter"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:raw_borax"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:raw_compacted_limestone"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:raw_volcanic_sulfur"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:raw_rainbow_obsidian"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:raw_petrified_wood"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:raw_chalk"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:raw_trona"
+        }
+      ]
+    }
+  ]
+}

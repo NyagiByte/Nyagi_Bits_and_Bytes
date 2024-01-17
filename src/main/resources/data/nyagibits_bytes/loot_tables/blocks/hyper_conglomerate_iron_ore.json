@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 64,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:raw_limonite"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:raw_hematite"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:raw_magnetite"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:raw_pyrite"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:raw_siderite"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:raw_banded_iron"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:raw_bog_iron"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:raw_meteoric_iron"
+        }
+      ]
+    }
+  ]
+}

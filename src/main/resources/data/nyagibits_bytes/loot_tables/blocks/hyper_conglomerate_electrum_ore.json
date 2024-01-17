@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls":64,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:alluvial_slush"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:native_cluster"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:raw_argentite"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:raw_chlorargyrite"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:raw_polybasite"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:raw_proustite"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:raw_electrum"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:raw_kustelite_electrum"
+        }
+      ]
+    }
+  ]
+}
