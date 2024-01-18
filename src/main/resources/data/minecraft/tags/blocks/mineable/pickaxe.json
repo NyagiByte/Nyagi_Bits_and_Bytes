@@ -76,7 +76,19 @@
     "nyagibits_bytes:dense_conglomerate_migmamite_ore",
     "nyagibits_bytes:hyper_conglomerate_migmamite_ore",
     "nyagibits_bytes:tectonic_conglomerate_migmamite_ore",
-    "nyagibits_bytes:core_conglomerate_migmamite_ore"
+    "nyagibits_bytes:core_conglomerate_migmamite_ore",
+
+    "nyagibits_bytes:conglomerate_redstone_ore",
+    "nyagibits_bytes:dense_conglomerate_redstone_ore",
+    "nyagibits_bytes:hyper_conglomerate_redstone_ore",
+    "nyagibits_bytes:tectonic_conglomerate_redstone_ore",
+    "nyagibits_bytes:core_conglomerate_redstone_ore",
+
+    "nyagibits_bytes:conglomerate_gemstones_ore",
+    "nyagibits_bytes:dense_conglomerate_gemstones_ore",
+    "nyagibits_bytes:hyper_conglomerate_gemstones_ore",
+    "nyagibits_bytes:tectonic_conglomerate_gemstones_ore",
+    "nyagibits_bytes:core_conglomerate_gemstones_ore"
 
   ]
 }
