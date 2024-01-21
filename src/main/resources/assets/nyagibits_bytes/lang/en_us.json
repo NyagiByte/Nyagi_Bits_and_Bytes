@@ -282,6 +282,11 @@
   "block.nyagibits_bytes.tectonic_conglomerate_migmamite_ore": "Tectonic Conglomerate Migmamite Ore",
   "block.nyagibits_bytes.core_conglomerate_migmamite_ore": "Core Conglomerate Migmamite Ore",
 
+  "item.nyagibits_bytes.sapphire": "Sapphire",
+  "item.nyagibits_bytes.sapphire_dust": "Sapphire Dust",
+  "item.nyagibits_bytes.ruby": "Ruby",
+  "item.nyagibits_bytes.ruby_dust": "Ruby Dusty",
+
 
 
   "itemGroup.nyagibits_bytes_tab_items": "Nyagi's Bits & Bytes Items",

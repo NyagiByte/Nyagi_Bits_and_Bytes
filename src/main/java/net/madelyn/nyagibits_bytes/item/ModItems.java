@@ -560,6 +560,20 @@ public class ModItems {
             public static final RegistryObject<Item>
                     Raw_Trona = ITEMS.register("raw_trona", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
 
+    //Ore-related drops
+        //Sapphire
+            public static final RegistryObject<Item>
+                    Sapphire = ITEMS.register("sapphire", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Sapphire Dust
+            public static final RegistryObject<Item>
+                    Sapphire_Dust = ITEMS.register("sapphire_dust", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Ruby
+            public static final RegistryObject<Item>
+                    Ruby = ITEMS.register("ruby", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Ruby Dust
+            public static final RegistryObject<Item>
+                    Ruby_Dust = ITEMS.register("ruby_dust", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+
 
     //--------------------------------------------------------------------------------------
     public static void register(IEventBus eventBus) {
