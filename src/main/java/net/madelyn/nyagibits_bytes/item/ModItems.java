@@ -573,6 +573,42 @@ public class ModItems {
         //Ruby Dust
             public static final RegistryObject<Item>
                     Ruby_Dust = ITEMS.register("ruby_dust", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Aquamarine
+        public static final RegistryObject<Item>
+                    Aquamarine = ITEMS.register("aquamarine", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Aquamarine Dust
+        public static final RegistryObject<Item>
+                    Aquamarine_Dust = ITEMS.register("aquamarine_dust", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Morganite
+        public static final RegistryObject<Item>
+                    Morganite = ITEMS.register("morganite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Morganite Dust
+        public static final RegistryObject<Item>
+                    Morganite_Dust = ITEMS.register("morganite_dust", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Heliodor
+        public static final RegistryObject<Item>
+                    Heliodor = ITEMS.register("heliodor", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Heliodor Dust
+        public static final RegistryObject<Item>
+                    Heliodor_Dust = ITEMS.register("heliodor_dust", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Goshenite
+        public static final RegistryObject<Item>
+                    Goshenite = ITEMS.register("goshenite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Goshenite Dust
+        public static final RegistryObject<Item>
+                    Goshenite_Dust = ITEMS.register("goshenite_dust", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Bixbite
+        public static final RegistryObject<Item>
+                    Bixbite = ITEMS.register("bixbite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Bixbite Dust
+        public static final RegistryObject<Item>
+                    Bixbite_Dust = ITEMS.register("bixbite_dust", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Pezzottaite
+        public static final RegistryObject<Item>
+                    Pezzottaite = ITEMS.register("pezzottaite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+        //Pezzottaite Dust
+        public static final RegistryObject<Item>
+                    Pezzottaite_Dust = ITEMS.register("pezzottaite_dust", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
 
 
     //--------------------------------------------------------------------------------------
