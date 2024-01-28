@@ -50,6 +50,12 @@
   "item.nyagibits_bytes.decorative_paneling": "Decorative Paneling",
   "item.nyagibits_bytes.micro_tools": "Micro Tools",
 
+  "item.nyagibits_bytes.botania_schematic": "Botania Schematic",
+
+  "item.nyagibits_bytes.immersive_engineering_schematic": "Immersive Engineering Schematic",
+
+  "item.nyagibits_bytes.alchemistry_schematic": "Alchemistry Schematic",
+
   "item.nyagibits_bytes.crude_compression_test": "Crude Compression Test",
   "item.nyagibits_bytes.crude_statics_test": "Crude Statics Test",
   "item.nyagibits_bytes.crude_entropy_test": "Crude Entropy Test",

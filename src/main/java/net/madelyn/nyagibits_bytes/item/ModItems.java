@@ -150,7 +150,7 @@ public class ModItems {
             Crude_Natural_Arcana_Test = ITEMS.register("crude_natural_arcana_test", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_SCIENCE)));
     public static final RegistryObject<Item>
             Used_Crude_Natural_Arcana_Test = ITEMS.register("used_crude_natural_arcana_test", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_SCIENCE)));    //Used/Crude Compression Test added 7/18/23 - Nyagi
-    //Used/Crude Entropy Test added 8/27/23 - Nyagi
+    //Used/Crude Material Properties Test Test added 8/27/23 - Nyagi
     public static final RegistryObject<Item>
             Crude_Material_Properties_Test = ITEMS.register("crude_material_properties_test", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_SCIENCE)));
     public static final RegistryObject<Item>
@@ -197,6 +197,12 @@ public class ModItems {
             Blank_Blueprint = ITEMS.register("blank_blueprint", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_SCHEMATICS)));
     public static final RegistryObject<Item>
         Ae2_Schematic = ITEMS.register("ae2_schematic", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_SCHEMATICS)));
+    public static final RegistryObject<Item>
+        Botania_Schematic = ITEMS.register("botania_schematic", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_SCHEMATICS)));
+    public static final RegistryObject<Item>
+        Immersive_Engineering_Schematic = ITEMS.register("immersive_engineering_schematic", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_SCHEMATICS)));
+    public static final RegistryObject<Item>
+        Alchemistry_Schematic = ITEMS.register("alchemistry_schematic", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_SCHEMATICS)));
 
      /*
        Ore items
