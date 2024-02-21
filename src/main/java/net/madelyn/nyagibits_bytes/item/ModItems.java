@@ -122,6 +122,102 @@ public class ModItems {
         //MicroTools added 8/10/23 - Nyagi
         public static final RegistryObject<Item>
                 Micro_Tools = ITEMS.register("micro_tools", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            //Incomplete Controller added 2/20/24 - Nyagi
+            public static final RegistryObject<Item>
+                    Incomplete_Controller = ITEMS.register("incomplete_controller", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_INCOMPLETE_SEQUENCE_ITEMS)));
+            //Incomplete Cell Workbench added 2/20/24 - Nyagi
+            public static final RegistryObject<Item>
+                    Incomplete_Cell_Workbench = ITEMS.register("incomplete_cell_workbench", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_INCOMPLETE_SEQUENCE_ITEMS)));
+            //Incomplete ME Item Cell Housing added 2/20/24 - Nyagi
+            public static final RegistryObject<Item>
+                    Incomplete_ME_Item_Cell_Housing = ITEMS.register("incomplete_me_item_cell_housing", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_INCOMPLETE_SEQUENCE_ITEMS)));
+            //Incomplete Charged Quartz Fixture added 2/20/24 - Nyagi
+            public static final RegistryObject<Item>
+                    Incomplete_Charged_Quartz_Fixture = ITEMS.register("incomplete_charged_quartz_fixture", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_INCOMPLETE_SEQUENCE_ITEMS)));
+            //Incomplete Skystone Tank added 2/20/24 - Nyagi
+            public static final RegistryObject<Item>
+                    Incomplete_Skystone_Tank = ITEMS.register("incomplete_skystone_tank", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_INCOMPLETE_SEQUENCE_ITEMS)));
+            //Incomplete ME Interface added 2/20/24 - Nyagi
+            public static final RegistryObject<Item>
+                    Incomplete_ME_Interface = ITEMS.register("incomplete_me_interface", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_INCOMPLETE_SEQUENCE_ITEMS)));
+            //Incomplete Charger added 2/20/24 - Nyagi
+            public static final RegistryObject<Item>
+                    Incomplete_Charger = ITEMS.register("incomplete_charger", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_INCOMPLETE_SEQUENCE_ITEMS)));
+            //Incomplete 1k ME Storage Component added 2/20/24 - Nyagi
+            public static final RegistryObject<Item>
+                    Incomplete_OneK_ME_Storage_Component = ITEMS.register("incomplete_onek_me_storage_component", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_INCOMPLETE_SEQUENCE_ITEMS)));
+            //Incomplete Inscriber added 2/20/24 - Nyagi
+            public static final RegistryObject<Item>
+                    Incomplete_Inscriber = ITEMS.register("incomplete_inscriber", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_INCOMPLETE_SEQUENCE_ITEMS)));
+            //Incomplete Fluix ME Glass Cable added 2/20/24 - Nyagi
+            public static final RegistryObject<Item>
+                    Incomplete_Fluix_ME_Glass_Cable = ITEMS.register("incomplete_fluix_me_glass_cable", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_INCOMPLETE_SEQUENCE_ITEMS)));
+            //Incomplete Fluix ME Smart Cable added 2/20/24 - Nyagi
+            public static final RegistryObject<Item>
+                    Incomplete_Fluix_ME_Smart_Cable = ITEMS.register("incomplete_fluix_me_smart_cable", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_INCOMPLETE_SEQUENCE_ITEMS)));
+            //Incomplete Fluix ME Dense Smart Cable added 2/20/24 - Nyagi
+            public static final RegistryObject<Item>
+                    Incomplete_Fluix_ME_Dense_Smart_Cable = ITEMS.register("incomplete_fluix_me_dense_smart_cable", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_INCOMPLETE_SEQUENCE_ITEMS)));
+            //Incomplete ME Drive added 2/20/24 - Nyagi
+            public static final RegistryObject<Item>
+                    Incomplete_ME_Drive = ITEMS.register("incomplete_me_drive", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_INCOMPLETE_SEQUENCE_ITEMS)));
+            //Incomplete ME Chest added 2/21/24 - Nyagi
+            public static final RegistryObject<Item>
+                    Incomplete_ME_Chest = ITEMS.register("incomplete_me_chest", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_INCOMPLETE_SEQUENCE_ITEMS)));
+            //Incomplete Vibration Chamber added 2/21/24 - Nyagi
+            public static final RegistryObject<Item>
+                    Incomplete_Vibration_Chamber = ITEMS.register("incomplete_vibration_chamber", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_INCOMPLETE_SEQUENCE_ITEMS)));
+            //Incomplete Light Detecting Fixture added 2/21/24 - Nyagi
+            public static final RegistryObject<Item>
+                    Incomplete_Light_Detecting_Fixture= ITEMS.register("incomplete_light_detecting_fixture", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_INCOMPLETE_SEQUENCE_ITEMS)));
+            //Incomplete Illuminated Panel added 2/21/24 - Nyagi
+            public static final RegistryObject<Item>
+                    Incomplete_Illuminated_Panel= ITEMS.register("incomplete_illuminated_panel", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_INCOMPLETE_SEQUENCE_ITEMS)));
+            //Incomplete ME Storage Bus added 2/21/24 - Nyagi
+            public static final RegistryObject<Item>
+                    Incomplete_ME_Storage_Bus= ITEMS.register("incomplete_me_storage_bus", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_INCOMPLETE_SEQUENCE_ITEMS)));
+            //Incomplete ME Import Bus added 2/21/24 - Nyagi
+            public static final RegistryObject<Item>
+                    Incomplete_ME_Import_Bus= ITEMS.register("incomplete_me_import_bus", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_INCOMPLETE_SEQUENCE_ITEMS)));
+            //Incomplete ME Export Bus added 2/21/24 - Nyagi
+            public static final RegistryObject<Item>
+                    Incomplete_ME_Export_Bus= ITEMS.register("incomplete_me_export_bus", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_INCOMPLETE_SEQUENCE_ITEMS)));
+            //Incomplete ME Level Emitter added 2/21/24 - Nyagi
+            public static final RegistryObject<Item>
+                    Incomplete_ME_Level_Emitter= ITEMS.register("incomplete_me_level_emitter", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_INCOMPLETE_SEQUENCE_ITEMS)));
+            //Incomplete ME Energy Level Emitter added 2/21/24 - Nyagi
+            public static final RegistryObject<Item>
+                    Incomplete_ME_Energy_Level_Emitter= ITEMS.register("incomplete_me_energy_level_emitter", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_INCOMPLETE_SEQUENCE_ITEMS)));
+            //Incomplete ME Annihilation Plane added 2/21/24 - Nyagi
+            public static final RegistryObject<Item>
+                    Incomplete_ME_Annihilation_Plane= ITEMS.register("incomplete_me_annihilation_plane", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_INCOMPLETE_SEQUENCE_ITEMS)));
+            //Incomplete ME Formation Plane added 2/21/24 - Nyagi
+            public static final RegistryObject<Item>
+                    Incomplete_ME_Formation_Plane= ITEMS.register("incomplete_me_formation_plane", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_INCOMPLETE_SEQUENCE_ITEMS)));
+            //Incomplete ME Terminal added 2/21/24 - Nyagi
+            public static final RegistryObject<Item>
+                    Incomplete_ME_Terminal= ITEMS.register("incomplete_me_terminal", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_INCOMPLETE_SEQUENCE_ITEMS)));
+            //Incomplete ME Crafting Terminal added 2/21/24 - Nyagi
+            public static final RegistryObject<Item>
+                    Incomplete_ME_Crafting = ITEMS.register("incomplete_me_crafting_terminal", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_INCOMPLETE_SEQUENCE_ITEMS)));
+            //Incomplete ME p2p Tunnel added 2/21/24 - Nyagi
+            public static final RegistryObject<Item>
+                    Incomplete_ME_pTwop_Tunnel = ITEMS.register("incomplete_me_ptwop_tunnel", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_INCOMPLETE_SEQUENCE_ITEMS)));
+            //Incomplete ME Security Terminal added 2/21/24 - Nyagi
+            public static final RegistryObject<Item>
+                    Incomplete_ME_Security_Terminal = ITEMS.register("incomplete_me_security_terminal", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_INCOMPLETE_SEQUENCE_ITEMS)));
+            //Incomplete ME IO Port added 2/21/24 - Nyagi
+            public static final RegistryObject<Item>
+                    Incomplete_ME_IO_Port= ITEMS.register("incomplete_me_io_port", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_INCOMPLETE_SEQUENCE_ITEMS)));
+            //Incomplete ME Energy Cell added 2/21/24 - Nyagi
+            public static final RegistryObject<Item>
+                    Incomplete_ME_Energy_Cell= ITEMS.register("incomplete_me_energy_cell", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_INCOMPLETE_SEQUENCE_ITEMS)));
+            //Incomplete ME Storage Monitor added 2/21/24 - Nyagi
+            public static final RegistryObject<Item>
+                    Incomplete_ME_Storage_Monitor= ITEMS.register("incomplete_me_storage_monitor", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_INCOMPLETE_SEQUENCE_ITEMS)));
+            //Incomplete Color Applicator added 2/21/24 - Nyagi
+            public static final RegistryObject<Item>
+                    Incomplete_Color_Applicator= ITEMS.register("incomplete_color_applicator", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_INCOMPLETE_SEQUENCE_ITEMS)));
     /*
        SCIENCE ITEMS REGISTRATION
      */
@@ -150,7 +246,7 @@ public class ModItems {
             Crude_Natural_Arcana_Test = ITEMS.register("crude_natural_arcana_test", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_SCIENCE)));
     public static final RegistryObject<Item>
             Used_Crude_Natural_Arcana_Test = ITEMS.register("used_crude_natural_arcana_test", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_SCIENCE)));    //Used/Crude Compression Test added 7/18/23 - Nyagi
-    //Used/Crude Material Properties Test Test added 8/27/23 - Nyagi
+    //Used/Crude Material Properties Test added 8/27/23 - Nyagi
     public static final RegistryObject<Item>
             Crude_Material_Properties_Test = ITEMS.register("crude_material_properties_test", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_SCIENCE)));
     public static final RegistryObject<Item>

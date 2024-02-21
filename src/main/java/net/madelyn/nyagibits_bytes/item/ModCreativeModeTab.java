@@ -35,4 +35,10 @@ public class ModCreativeModeTab {
             return new ItemStack(ModItems.Raw_Hematite.get());
         }
     };
+    public static final CreativeModeTab NYAGIBITS_BYTES_INCOMPLETE_SEQUENCE_ITEMS = new CreativeModeTab("nyagibits_bytes_tab_incomplete_sequence_items") {
+        @Override
+        public ItemStack makeIcon() {
+            return new ItemStack(ModItems.Incomplete_Controller.get());
+        }
+    };
 }
