@@ -73,19 +73,28 @@ public class ModItems {
     //Logic Dud added 8/10/23 - Nyagi
     public static final RegistryObject<Item>
             Logic_Dud = ITEMS.register("logic_dud", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+        //Incomplete Logic Dud added 2/21/24 - Nyagi
+        public static final RegistryObject<Item>
+                Incomplete_Logic_Dud = ITEMS.register("incomplete_logic_dud", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_INCOMPLETE_SEQUENCE_ITEMS)));
     //Calculation Dud added 8/10/23 - Nyagi
     public static final RegistryObject<Item>
             Calculation_Dud = ITEMS.register("calculation_dud", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            //Incomplete Calculation Dud added 2/21/24 - Nyagi
+            public static final RegistryObject<Item>
+                    Incomplete_Calculation_Dud = ITEMS.register("incomplete_calculation_dud", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_INCOMPLETE_SEQUENCE_ITEMS)));
     //Engineering Dud added 8/10/23 - Nyagi
     public static final RegistryObject<Item>
             Engineering_Dud = ITEMS.register("engineering_dud", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
-    //Engineering Dud added 8/27/23 - Nyagi
+            //Incomplete Calculation Dud added 2/21/24 - Nyagi
+            public static final RegistryObject<Item>
+                Incomplete_Engineering_Dud = ITEMS.register("incomplete_engineering_dud", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_INCOMPLETE_SEQUENCE_ITEMS)));
+    //Bottle of Anthocyanin added 8/27/23 - Nyagi
     public static final RegistryObject<Item>
             Bottle_Of_Anthocyanin = ITEMS.register("bottle_of_anthocyanin", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
-    //Engineering Dud added 8/27/23 - Nyagi
+    //Bottle of Malic & Citric Acid added 8/27/23 - Nyagi
     public static final RegistryObject<Item>
             Bottle_Of_Malic_And_Citric_Acid = ITEMS.register("bottle_of_malic_and_citric_acid", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
-    //Engineering Dud added 8/27/23 - Nyagi
+    //Chemistry Rack added 8/27/23 - Nyagi
     public static final RegistryObject<Item>
             Chemistry_Rack = ITEMS.register("chemistry_rack", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
     //Basic Composite Material added 8/27/23 - Nyagi

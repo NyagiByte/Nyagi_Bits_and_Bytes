@@ -338,6 +338,10 @@
   "item.nyagibits_bytes.incomplete_me_storage_monitor": "Incomplete Me Storage Monitor",
   "item.nyagibits_bytes.incomplete_color_applicator": "Incomplete Color Applicator",
 
+  "item.nyagibits_bytes.incomplete_logic_dud": "Incomplete Logic Dud",
+  "item.nyagibits_bytes.incomplete_calculation_dud": "Incomplete Calculation Dud",
+  "item.nyagibits_bytes.incomplete_engineering_dud": "Incomplete Engineering Dud",
+
   "itemGroup.nyagibits_bytes_tab_items": "Nyagi's Bits & Bytes Items",
   "itemGroup.nyagibits_bytes_tab_blocks": "Nyagi's Bits & Bytes Blocks",
   "itemGroup.nyagibits_bytes_tab_science": "Nyagi's Bits & Bytes Science",
