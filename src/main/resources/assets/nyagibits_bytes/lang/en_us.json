@@ -342,10 +342,15 @@
   "item.nyagibits_bytes.incomplete_me_energy_cell": "Incomplete ME Energy Cell",
   "item.nyagibits_bytes.incomplete_me_storage_monitor": "Incomplete ME Storage Monitor",
   "item.nyagibits_bytes.incomplete_color_applicator": "Incomplete Color Applicator",
+  "item.nyagibits_bytes.incomplete_energy_acceptor": "Incomplete Energy Acceptor",
+  "item.nyagibits_bytes.incomplete_me_fluid_cell_housing": "Incomplete ME Fluid Cell Housing",
 
   "item.nyagibits_bytes.incomplete_logic_dud": "Incomplete Logic Dud",
   "item.nyagibits_bytes.incomplete_calculation_dud": "Incomplete Calculation Dud",
   "item.nyagibits_bytes.incomplete_engineering_dud": "Incomplete Engineering Dud",
+  "item.nyagibits_bytes.incomplete_logic_processor": "Incomplete Logic Processor",
+  "item.nyagibits_bytes.incomplete_calculation_processor": "Incomplete Calculation Processor",
+  "item.nyagibits_bytes.incomplete_engineering_processor": "Incomplete Engineering Processor",
 
   "itemGroup.nyagibits_bytes_tab_items": "Nyagi's Bits & Bytes Items",
   "itemGroup.nyagibits_bytes_tab_blocks": "Nyagi's Bits & Bytes Blocks",
