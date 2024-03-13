@@ -256,6 +256,103 @@ public class ModItems {
             //Incomplete Energy Acceptor added 2/22/24 - Nyagi
             public static final RegistryObject<Item>
                     Incomplete_Energy_Acceptor = ITEMS.register("incomplete_energy_acceptor", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_INCOMPLETE_SEQUENCE_ITEMS)));
+
+    //Blank Rune added 3/8/24 - Nyagi
+    public static final RegistryObject<Item>
+            Rune_Blank = ITEMS.register("rune_blank", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+        //Optical Rune added 3/8/24 - Nyagi
+        public static final RegistryObject<Item>
+                Rune_Optical = ITEMS.register("rune_optical", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+        //Velocity Rune added 3/8/24 - Nyagi
+        public static final RegistryObject<Item>
+                Rune_Velocity = ITEMS.register("rune_velocity", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+        //Inertia Rune added 3/8/24 - Nyagi
+        public static final RegistryObject<Item>
+                Rune_Inertia = ITEMS.register("rune_inertia", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+        //Thermodynamic Rune added 3/8/24 - Nyagi
+        public static final RegistryObject<Item>
+                Rune_Thermodynamic = ITEMS.register("rune_thermodynamic", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+        //Magnetic Rune added 3/8/24 - Nyagi
+        public static final RegistryObject<Item>
+                Rune_Magnetic = ITEMS.register("rune_magnetic", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+        //Catalytic Rune added 3/8/24 - Nyagi
+        public static final RegistryObject<Item>
+                Rune_Catalytic = ITEMS.register("rune_catalytic", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+        //Computational Rune added 3/8/24 - Nyagi
+        public static final RegistryObject<Item>
+                Rune_Computational = ITEMS.register("rune_computational", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+        //Geology Rune added 3/8/24 - Nyagi
+        public static final RegistryObject<Item>
+                Rune_Geology = ITEMS.register("rune_geology", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+        //Lithography Rune added 3/8/24 - Nyagi
+        public static final RegistryObject<Item>
+                Rune_Lithography = ITEMS.register("rune_lithography", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+        //Molecular Rune added 3/8/24 - Nyagi
+        public static final RegistryObject<Item>
+                Rune_Molecular = ITEMS.register("rune_molecular", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+        //Flake Blank Rune added 3/8/24 - Nyagi
+        public static final RegistryObject<Item>
+                Rune_Flake_Blank = ITEMS.register("rune_flake_blank", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            //Electromagnetic Rune added 3/8/24 - Nyagi
+            public static final RegistryObject<Item>
+                    Rune_Electromagnetic = ITEMS.register("rune_electromagnetic", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            //Weak Nuclear Rune added 3/8/24 - Nyagi
+            public static final RegistryObject<Item>
+                    Rune_Weak_Nuclear = ITEMS.register("rune_weak_nuclear", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            //Strong Nuclear Rune added 3/8/24 - Nyagi
+            public static final RegistryObject<Item>
+                    Rune_Strong_Nuclear = ITEMS.register("rune_strong_nuclear", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            //Gravity Rune added 3/8/24 - Nyagi
+            public static final RegistryObject<Item>
+                    Rune_Gravity = ITEMS.register("rune_gravity", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            //Time Rune added 3/8/24 - Nyagi
+            public static final RegistryObject<Item>
+                    Rune_Time = ITEMS.register("rune_time", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            //Dilation Rune added 3/8/24 - Nyagi
+            public static final RegistryObject<Item>
+                    Rune_Dilation = ITEMS.register("rune_dilation", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            //Entanglement Rune added 3/8/24 - Nyagi
+            public static final RegistryObject<Item>
+                    Rune_Entanglement = ITEMS.register("rune_entanglement", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            //Tunneling Rune added 3/8/24 - Nyagi
+            public static final RegistryObject<Item>
+                    Rune_Tunneling = ITEMS.register("rune_tunneling", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            //Baryonic Rune added 3/8/24 - Nyagi
+            public static final RegistryObject<Item>
+                    Rune_Baryonic = ITEMS.register("rune_baryonic", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            //Non-Euclidean Rune added 3/8/24 - Nyagi
+            public static final RegistryObject<Item>
+                    Rune_Non_Euclidean = ITEMS.register("rune_non_euclidean", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            //Singularity Rune added 3/8/24 - Nyagi
+            public static final RegistryObject<Item>
+                    Rune_Singularity = ITEMS.register("rune_singularity", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            //Higgs Rune added 3/8/24 - Nyagi
+            public static final RegistryObject<Item>
+                    Rune_Higgs = ITEMS.register("rune_higgs", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            //Planck Rune added 3/8/24 - Nyagi
+            public static final RegistryObject<Item>
+                    Rune_Planck = ITEMS.register("rune_planck", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            //Void Rune added 3/8/24 - Nyagi
+            public static final RegistryObject<Item>
+                    Rune_Void = ITEMS.register("rune_void", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            //Eternity Rune added 3/8/24 - Nyagi
+            public static final RegistryObject<Item>
+                    Rune_Eternity = ITEMS.register("rune_eternity", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            //Hatred Rune added 3/8/24 - Nyagi
+            public static final RegistryObject<Item>
+                    Rune_Hatred = ITEMS.register("rune_hatred", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            //Aethereal Rune added 3/8/24 - Nyagi
+            public static final RegistryObject<Item>
+                    Rune_Aethereal = ITEMS.register("rune_aethereal", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            //Quintessence Rune added 3/8/24 - Nyagi
+            public static final RegistryObject<Item>
+                    Rune_Quintessence = ITEMS.register("rune_quintessence", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            //Corpse Rune added 3/8/24 - Nyagi
+            public static final RegistryObject<Item>
+                    Rune_Corpse = ITEMS.register("rune_corpse", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            //Inflaton Rune added 3/8/24 - Nyagi
+            public static final RegistryObject<Item>
+                    Rune_Inflaton = ITEMS.register("rune_inflaton", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
     /*
        SCIENCE ITEMS REGISTRATION
      */
