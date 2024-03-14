@@ -281,6 +281,7 @@ public class ModItems {
         //Computational Rune added 3/8/24 - Nyagi
         public static final RegistryObject<Item>
                 Rune_Computational = ITEMS.register("rune_computational", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+        /*
         //Geology Rune added 3/8/24 - Nyagi
         public static final RegistryObject<Item>
                 Rune_Geology = ITEMS.register("rune_geology", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
@@ -353,6 +354,8 @@ public class ModItems {
             //Inflaton Rune added 3/8/24 - Nyagi
             public static final RegistryObject<Item>
                     Rune_Inflaton = ITEMS.register("rune_inflaton", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+                    */
+
     /*
        SCIENCE ITEMS REGISTRATION
      */
