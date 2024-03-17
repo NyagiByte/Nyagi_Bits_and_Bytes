@@ -257,6 +257,34 @@ public class ModItems {
             public static final RegistryObject<Item>
                     Incomplete_Energy_Acceptor = ITEMS.register("incomplete_energy_acceptor", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_INCOMPLETE_SEQUENCE_ITEMS)));
 
+    //Botania Assembly added 3/17/24- Nyagi
+    public static final RegistryObject<Item>
+            Botania_Assembly = ITEMS.register("botania_assembly", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+        //Semi-organic Substrate added 3/17/24- Nyagi
+        public static final RegistryObject<Item>
+                Semi_Organic_Substrate = ITEMS.register("semi_organic_substrate", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+        //Soil Conditioner added 3/17/24- Nyagi
+        public static final RegistryObject<Item>
+                Soil_Conditioner = ITEMS.register("soil_conditioner", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+        //Living Frame added 3/17/24- Nyagi
+        public static final RegistryObject<Item>
+                Living_Frame = ITEMS.register("living_frame", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+        //Terrarium added 3/17/24- Nyagi
+        public static final RegistryObject<Item>
+                Terrarium = ITEMS.register("terrarium", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+        //Organic Pseudo Logic added 3/17/24- Nyagi
+        public static final RegistryObject<Item>
+                Organic_Pseudo_Logic = ITEMS.register("organic_pseudo_logic", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+        //Sealant added 3/17/24- Nyagi
+        public static final RegistryObject<Item>
+                Sealant = ITEMS.register("sealant", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+        //Magnetic Hematite added 3/17/24- Nyagi
+        public static final RegistryObject<Item>
+                Magnetic_Hematite = ITEMS.register("magnetic_hematite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+        //Mystic Fertilizer added 3/17/24- Nyagi
+        public static final RegistryObject<Item>
+                Mystic_Fertilizer = ITEMS.register("mystic_fertilizer", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+
     //Blank Rune added 3/8/24 - Nyagi
     public static final RegistryObject<Item>
             Rune_Blank = ITEMS.register("rune_blank", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
