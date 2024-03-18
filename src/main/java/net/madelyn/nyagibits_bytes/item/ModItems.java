@@ -120,6 +120,9 @@ public class ModItems {
     //Compacted Soil added 3/17/24 - Nyagi
     public static final RegistryObject<Item>
             Compacted_Soil = ITEMS.register("compacted_soil", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Tough Bag added 3/17/24 - Nyagi
+    public static final RegistryObject<Item>
+            Tough_Bag = ITEMS.register("tough_bag", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
 
     //Ae2 Assembly added 8/10/23 - Nyagi
     public static final RegistryObject<Item>
