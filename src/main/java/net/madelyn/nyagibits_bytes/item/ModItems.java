@@ -123,6 +123,15 @@ public class ModItems {
     //Tough Bag added 3/17/24 - Nyagi
     public static final RegistryObject<Item>
             Tough_Bag = ITEMS.register("tough_bag", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Empty Petri Dish added 3/20/24 - Nyagi
+    public static final RegistryObject<Item>
+            Petri_Dish = ITEMS.register("petri_dish_empty", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Agar-Agar added 3/20/24 - Nyagi
+    public static final RegistryObject<Item>
+            Agar_Agar = ITEMS.register("agar_agar", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Agar-Agar Petri Dish added 3/20/24 - Nyagi
+    public static final RegistryObject<Item>
+            Petri_Dish_Agar_Agar = ITEMS.register("petri_dish_agar_agar", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
 
     //Ae2 Assembly added 8/10/23 - Nyagi
     public static final RegistryObject<Item>
