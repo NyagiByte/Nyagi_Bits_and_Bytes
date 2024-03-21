@@ -136,31 +136,31 @@ public class ModItems {
 
     //Ae2 Assembly added 8/10/23 - Nyagi
     public static final RegistryObject<Item>
-            Ae2_Assembly = ITEMS.register("ae2_assembly", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            Ae2_Assembly = ITEMS.register("ae2_assembly", () -> new Ae2AssemblyItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
         //Crystal_Harmonizer added 8/10/23 - Nyagi
         public static final RegistryObject<Item>
-                Crystal_Harmonizer = ITEMS.register("crystal_harmonizer", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+                Crystal_Harmonizer = ITEMS.register("crystal_harmonizer", () -> new CrystalHarmonizerItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
         //Processor_Stack added 8/10/23 - Nyagi
         public static final RegistryObject<Item>
-                Processor_Stack = ITEMS.register("processor_stack", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+                Processor_Stack = ITEMS.register("processor_stack", () -> new ProcessorStackItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
         //Energized_Frame added 8/10/23 - Nyagi
         public static final RegistryObject<Item>
-                Energized_Frame = ITEMS.register("energized_frame", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+                Energized_Frame = ITEMS.register("energized_frame", () -> new EnergizedFrameItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
         //Energized_Wires added 8/10/23 - Nyagi
         public static final RegistryObject<Item>
-                Energized_Wires = ITEMS.register("energized_wires", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+                Energized_Wires = ITEMS.register("energized_wires", () -> new EnergizedWiresItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
         //Skystone Shielding added 8/10/23 - Nyagi
         public static final RegistryObject<Item>
-                Skystone_Shielding = ITEMS.register("skystone_shielding", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+                Skystone_Shielding = ITEMS.register("skystone_shielding", () -> new SkystoneShieldingItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
         //Matter Converters added 8/10/23 - Nyagi
         public static final RegistryObject<Item>
-                Matter_Converters = ITEMS.register("matter_converters", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+                Matter_Converters = ITEMS.register("matter_converters", () -> new MatterConvertersItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
         //Decorative Paneling added 8/10/23 - Nyagi
         public static final RegistryObject<Item>
-                Decorative_Paneling = ITEMS.register("decorative_paneling", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+                Decorative_Paneling = ITEMS.register("decorative_paneling", () -> new DecorativePanelingItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
         //MicroTools added 8/10/23 - Nyagi
         public static final RegistryObject<Item>
-                Micro_Tools = ITEMS.register("micro_tools", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+                Micro_Tools = ITEMS.register("micro_tools", () -> new MicroToolsItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
             //Incomplete Controller added 2/20/24 - Nyagi
             public static final RegistryObject<Item>
                     Incomplete_Controller = ITEMS.register("incomplete_controller", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_INCOMPLETE_SEQUENCE_ITEMS)));
