@@ -1,8 +1,7 @@
 package net.madelyn.nyagibits_bytes.item;
 
 import net.madelyn.nyagibits_bytes.NyagiBits_Bytes;
-import net.madelyn.nyagibits_bytes.item.custom.TierZeroGoldenStrawberryItem;
-import net.madelyn.nyagibits_bytes.item.custom.TierZeroStrawberryItem;
+import net.madelyn.nyagibits_bytes.item.custom.*;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -42,65 +41,65 @@ public class ModItems {
                 Golden_Tier_Zero_Strawberry = ITEMS.register("golden_tier_zero_strawberry", () -> new TierZeroGoldenStrawberryItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
     //Tier 1 Strawberry added 2/21/23 - Nyagi
     public static final RegistryObject<Item>
-            Tier_One_Strawberry = ITEMS.register("tier_one_strawberry", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            Tier_One_Strawberry = ITEMS.register("tier_one_strawberry", () -> new TierOneStrawberryItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
         //Tier 1 Golden Strawberry added 2/21/23 - Nyagi
         public static final RegistryObject<Item>
-            Golden_Tier_One_Strawberry = ITEMS.register("golden_tier_one_strawberry", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            Golden_Tier_One_Strawberry = ITEMS.register("golden_tier_one_strawberry", () -> new TierOneGoldenStrawberryItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
 
     //Livisite Alloy added 7/11/23 - Nyagi
     public static final RegistryObject<Item>
-            Livisite_Alloy = ITEMS.register("livisite_alloy", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            Livisite_Alloy = ITEMS.register("livisite_alloy", () -> new LivisiteAlloyItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
     //Livisite Slate added 7/11/23 - Nyagi
     public static final RegistryObject<Item>
-            Livisite_Slate = ITEMS.register("livisite_slate", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            Livisite_Slate = ITEMS.register("livisite_slate", () -> new LivisiteSlateItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
     //Crude Abrasive added 7/11/23 - Nyagi
     public static final RegistryObject<Item>
-            Crude_Abrasive = ITEMS.register("crude_abrasive", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            Crude_Abrasive = ITEMS.register("crude_abrasive", () -> new CrudeAbrasiveItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
     //Pile of Cogs added 7/11/23 - Nyagi
     public static final RegistryObject<Item>
-            Pile_of_Cogs = ITEMS.register("pile_of_cogs", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            Pile_of_Cogs = ITEMS.register("pile_of_cogs", () -> new PileOfCogsItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
     //Pile of Crude Mechanical Parts added 7/11/23 - Nyagi
     public static final RegistryObject<Item>
-        Pile_of_Crude_Mechanical_Parts = ITEMS.register("pile_of_crude_mechanical_parts", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+        Pile_of_Crude_Mechanical_Parts = ITEMS.register("pile_of_crude_mechanical_parts", () -> new PileOfCrudeMechanicalPartsItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
     //Soil Sample added 7/25/23 - Nyagi
     public static final RegistryObject<Item>
-        Soil_Sample = ITEMS.register("soil_sample", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+        Soil_Sample = ITEMS.register("soil_sample", () -> new SoilSampleItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
     //Sturdy Box added 7/25/23 - Nyagi
     public static final RegistryObject<Item>
-        Sturdy_Box = ITEMS.register("sturdy_box", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+        Sturdy_Box = ITEMS.register("sturdy_box", () -> new SturdyBoxItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
     //Sealed Pouch added 7/25/23 - Nyagi
     public static final RegistryObject<Item>
-            Sealed_Pouch = ITEMS.register("sealed_pouch", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            Sealed_Pouch = ITEMS.register("sealed_pouch", () -> new SealedPouchItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
     //Salt Water added 7/25/23 - Nyagi
     public static final RegistryObject<Item>
-            Salt_Water = ITEMS.register("bucket_of_salt_water", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            Salt_Water = ITEMS.register("bucket_of_salt_water", () -> new SaltWaterItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
     //Torn Wool Ball added 7/25/23 - Nyagi
     public static final RegistryObject<Item>
-            Torn_Wool_Ball = ITEMS.register("torn_wool_ball", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            Torn_Wool_Ball = ITEMS.register("torn_wool_ball", () -> new TornWoolBallItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
     //Etched Redstone Plate added 8/10/23 - Nyagi
     public static final RegistryObject<Item>
-            Etched_Redstone_Plate = ITEMS.register("etched_redstone_plate", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            Etched_Redstone_Plate = ITEMS.register("etched_redstone_plate", () -> new EtchedRedstoneItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
     //Crude Silicon Boule added 8/10/23 - Nyagi
     public static final RegistryObject<Item>
-            Crude_Silicon_Boule = ITEMS.register("crude_silicon_boule", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            Crude_Silicon_Boule = ITEMS.register("crude_silicon_boule", () -> new CrudeSiliconBouleItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
     //Diamond Shard added 8/10/23 - Nyagi
     public static final RegistryObject<Item>
-            Diamond_Shard = ITEMS.register("diamond_shard", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            Diamond_Shard = ITEMS.register("diamond_shard", () -> new DiamondShardItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
     //Logic Dud added 8/10/23 - Nyagi
     public static final RegistryObject<Item>
-            Logic_Dud = ITEMS.register("logic_dud", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            Logic_Dud = ITEMS.register("logic_dud", () -> new LogicDudItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
         //Incomplete Logic Dud added 2/21/24 - Nyagi
         public static final RegistryObject<Item>
                 Incomplete_Logic_Dud = ITEMS.register("incomplete_logic_dud", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_INCOMPLETE_SEQUENCE_ITEMS)));
     //Calculation Dud added 8/10/23 - Nyagi
     public static final RegistryObject<Item>
-            Calculation_Dud = ITEMS.register("calculation_dud", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            Calculation_Dud = ITEMS.register("calculation_dud", () -> new CalculationDudItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
             //Incomplete Calculation Dud added 2/21/24 - Nyagi
             public static final RegistryObject<Item>
                     Incomplete_Calculation_Dud = ITEMS.register("incomplete_calculation_dud", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_INCOMPLETE_SEQUENCE_ITEMS)));
     //Engineering Dud added 8/10/23 - Nyagi
     public static final RegistryObject<Item>
-            Engineering_Dud = ITEMS.register("engineering_dud", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            Engineering_Dud = ITEMS.register("engineering_dud", () -> new EngineeringDudItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
             //Incomplete Calculation Dud added 2/21/24 - Nyagi
             public static final RegistryObject<Item>
                 Incomplete_Engineering_Dud = ITEMS.register("incomplete_engineering_dud", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_INCOMPLETE_SEQUENCE_ITEMS)));
