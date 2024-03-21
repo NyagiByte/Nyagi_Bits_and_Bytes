@@ -303,7 +303,7 @@ public class ModItems {
 
     //Blank Rune added 3/8/24 - Nyagi
     public static final RegistryObject<Item>
-            Rune_Blank = ITEMS.register("rune_blank", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            Rune_Blank = ITEMS.register("rune_blank", () -> new BlankRuneItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
         //Optical Rune added 3/8/24 - Nyagi
         public static final RegistryObject<Item>
                 Rune_Optical = ITEMS.register("rune_optical", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
