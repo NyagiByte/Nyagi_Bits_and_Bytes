@@ -105,34 +105,34 @@ public class ModItems {
                 Incomplete_Engineering_Dud = ITEMS.register("incomplete_engineering_dud", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_INCOMPLETE_SEQUENCE_ITEMS)));
     //Bottle of Anthocyanin added 8/27/23 - Nyagi
     public static final RegistryObject<Item>
-            Bottle_Of_Anthocyanin = ITEMS.register("bottle_of_anthocyanin", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            Bottle_Of_Anthocyanin = ITEMS.register("bottle_of_anthocyanin", () -> new BottleOfAnthocyaninItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
     //Bottle of Malic & Citric Acid added 8/27/23 - Nyagi
     public static final RegistryObject<Item>
-            Bottle_Of_Malic_And_Citric_Acid = ITEMS.register("bottle_of_malic_and_citric_acid", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            Bottle_Of_Malic_And_Citric_Acid = ITEMS.register("bottle_of_malic_and_citric_acid", () -> new BottleOfMalicAndCitricAcidItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
     //Chemistry Rack added 8/27/23 - Nyagi
     public static final RegistryObject<Item>
-            Chemistry_Rack = ITEMS.register("chemistry_rack", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            Chemistry_Rack = ITEMS.register("chemistry_rack", () -> new ChemistryRackItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
     //Basic Composite Material added 8/27/23 - Nyagi
     public static final RegistryObject<Item>
-            Basic_Composite_Material = ITEMS.register("basic_composite_material", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            Basic_Composite_Material = ITEMS.register("basic_composite_material", () -> new BasicCompositeMaterialItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
     //Basic Composite Plate added 8/27/23 - Nyagi
     public static final RegistryObject<Item>
-            Basic_Composite_Plate = ITEMS.register("basic_composite_plate", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            Basic_Composite_Plate = ITEMS.register("basic_composite_plate", () -> new BasicCompositePlateItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
     //Compacted Soil added 3/17/24 - Nyagi
     public static final RegistryObject<Item>
-            Compacted_Soil = ITEMS.register("compacted_soil", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            Compacted_Soil = ITEMS.register("compacted_soil", () -> new CompactedSoilItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
     //Tough Bag added 3/17/24 - Nyagi
     public static final RegistryObject<Item>
-            Tough_Bag = ITEMS.register("tough_bag", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            Tough_Bag = ITEMS.register("tough_bag", () -> new ToughBagItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
     //Empty Petri Dish added 3/20/24 - Nyagi
     public static final RegistryObject<Item>
-            Petri_Dish = ITEMS.register("petri_dish_empty", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            Petri_Dish = ITEMS.register("petri_dish_empty", () -> new PetriDishEmptyItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
     //Agar-Agar added 3/20/24 - Nyagi
     public static final RegistryObject<Item>
-            Agar_Agar = ITEMS.register("agar_agar", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            Agar_Agar = ITEMS.register("agar_agar", () -> new AgarAgarItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
     //Agar-Agar Petri Dish added 3/20/24 - Nyagi
     public static final RegistryObject<Item>
-            Petri_Dish_Agar_Agar = ITEMS.register("petri_dish_agar_agar", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            Petri_Dish_Agar_Agar = ITEMS.register("petri_dish_agar_agar", () -> new PetriDishAgarAgarItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
 
     //Ae2 Assembly added 8/10/23 - Nyagi
     public static final RegistryObject<Item>
