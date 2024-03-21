@@ -10,16 +10,16 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
-public class BlankRuneItem extends Item {
-    public BlankRuneItem(Properties properties) {
+public class RuneThermodynamicItem extends Item {
+    public RuneThermodynamicItem(Properties properties) {
         super(properties);
     }
 
     @Override
     public void appendHoverText(ItemStack stack, @Nullable Level level, List<Component> components, TooltipFlag flag) {
-        components.add(Component.literal("Slab of rock ready to take on").withStyle(ChatFormatting.GRAY));
-        components.add(Component.literal("instructions to channel specific").withStyle(ChatFormatting.GRAY));
-        components.add(Component.literal("types of energy").withStyle(ChatFormatting.GRAY));
+        components.add(Component.literal("Using mana this rune basically").withStyle(ChatFormatting.GRAY));
+        components.add(Component.literal("functions like a heat exchanger").withStyle(ChatFormatting.GRAY));
+        components.add(Component.literal("you would see in a refrigerator").withStyle(ChatFormatting.GRAY));
         super.appendHoverText(stack, level, components, flag);
     }
 }

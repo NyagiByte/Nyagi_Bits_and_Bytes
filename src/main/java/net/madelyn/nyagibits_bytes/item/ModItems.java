@@ -303,28 +303,28 @@ public class ModItems {
 
     //Blank Rune added 3/8/24 - Nyagi
     public static final RegistryObject<Item>
-            Rune_Blank = ITEMS.register("rune_blank", () -> new BlankRuneItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            Rune_Blank = ITEMS.register("rune_blank", () -> new RuneBlankItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
         //Optical Rune added 3/8/24 - Nyagi
         public static final RegistryObject<Item>
-                Rune_Optical = ITEMS.register("rune_optical", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+                Rune_Optical = ITEMS.register("rune_optical", () -> new RuneOpticalItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
         //Velocity Rune added 3/8/24 - Nyagi
         public static final RegistryObject<Item>
-                Rune_Velocity = ITEMS.register("rune_velocity", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+                Rune_Velocity = ITEMS.register("rune_velocity", () -> new RuneVelocityItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
         //Inertia Rune added 3/8/24 - Nyagi
         public static final RegistryObject<Item>
-                Rune_Inertia = ITEMS.register("rune_inertia", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+                Rune_Inertia = ITEMS.register("rune_inertia", () -> new RuneInertiaItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
         //Thermodynamic Rune added 3/8/24 - Nyagi
         public static final RegistryObject<Item>
-                Rune_Thermodynamic = ITEMS.register("rune_thermodynamic", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+                Rune_Thermodynamic = ITEMS.register("rune_thermodynamic", () -> new RuneThermodynamicItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
         //Magnetic Rune added 3/8/24 - Nyagi
         public static final RegistryObject<Item>
-                Rune_Magnetic = ITEMS.register("rune_magnetic", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+                Rune_Magnetic = ITEMS.register("rune_magnetic", () -> new RuneMagneticItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
         //Catalytic Rune added 3/8/24 - Nyagi
         public static final RegistryObject<Item>
-                Rune_Catalytic = ITEMS.register("rune_catalytic", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+                Rune_Catalytic = ITEMS.register("rune_catalytic", () -> new RuneCatalyticItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
         //Computational Rune added 3/8/24 - Nyagi
         public static final RegistryObject<Item>
-                Rune_Computational = ITEMS.register("rune_computational", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+                Rune_Computational = ITEMS.register("rune_computational", () -> new RuneComputationalItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
         /*
         //Geology Rune added 3/8/24 - Nyagi
         public static final RegistryObject<Item>
