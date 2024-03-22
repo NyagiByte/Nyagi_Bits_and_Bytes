@@ -405,34 +405,34 @@ public class ModItems {
      */
     //Used/Crude Compression Test added 7/18/23 - Nyagi
     public static final RegistryObject<Item>
-            Crude_Compression_Test = ITEMS.register("crude_compression_test", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_SCIENCE)));
+            Crude_Compression_Test = ITEMS.register("crude_compression_test", () -> new CrudeCompressionTestItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_SCIENCE)));
     public static final RegistryObject<Item>
-            Used_Crude_Compression_Test = ITEMS.register("used_crude_compression_test", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_SCIENCE)));    //Used/Crude Compression Test added 7/18/23 - Nyagi
+            Used_Crude_Compression_Test = ITEMS.register("used_crude_compression_test", () -> new UsedCrudeCompressionTestItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_SCIENCE)));    //Used/Crude Compression Test added 7/18/23 - Nyagi
     //Used/Crude Statics Test added 7/18/23 - Nyagi
     public static final RegistryObject<Item>
-            Crude_Statics_Test = ITEMS.register("crude_statics_test", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_SCIENCE)));
+            Crude_Statics_Test = ITEMS.register("crude_statics_test", () -> new CrudeStaticsTestItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_SCIENCE)));
     public static final RegistryObject<Item>
-            Used_Crude_Statics_Test = ITEMS.register("used_crude_statics_test", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_SCIENCE)));    //Used/Crude Compression Test added 7/18/23 - Nyagi
+            Used_Crude_Statics_Test = ITEMS.register("used_crude_statics_test", () -> new UsedCrudeStaticsTestItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_SCIENCE)));    //Used/Crude Compression Test added 7/18/23 - Nyagi
     //Used/Crude Entropy Test added 7/18/23 - Nyagi
     public static final RegistryObject<Item>
-            Crude_Entropy_Test = ITEMS.register("crude_entropy_test", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_SCIENCE)));
+            Crude_Entropy_Test = ITEMS.register("crude_entropy_test", () -> new CrudeEntropyTestItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_SCIENCE)));
     public static final RegistryObject<Item>
-            Used_Crude_Entropy_Test = ITEMS.register("used_crude_entropy_test", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_SCIENCE)));    //Used/Crude Compression Test added 7/18/23 - Nyagi
+            Used_Crude_Entropy_Test = ITEMS.register("used_crude_entropy_test", () -> new UsedCrudeEntropyTestItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_SCIENCE)));    //Used/Crude Compression Test added 7/18/23 - Nyagi
     //Used/Crude Acidics Test added 8/27/23 - Nyagi
     public static final RegistryObject<Item>
-            Crude_Acidics_Test = ITEMS.register("crude_acidics_test", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_SCIENCE)));
+            Crude_Acidics_Test = ITEMS.register("crude_acidics_test", () -> new CrudeAcidicsTestItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_SCIENCE)));
     public static final RegistryObject<Item>
-            Used_Crude_Acidics_Test = ITEMS.register("used_crude_acidics_test", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_SCIENCE)));    //Used/Crude Compression Test added 7/18/23 - Nyagi
+            Used_Crude_Acidics_Test = ITEMS.register("used_crude_acidics_test", () -> new UsedCrudeAcidicsTestItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_SCIENCE)));    //Used/Crude Compression Test added 7/18/23 - Nyagi
     //Used/Crude Natural Arcana Test added 8/27/23 - Nyagi
     public static final RegistryObject<Item>
-            Crude_Natural_Arcana_Test = ITEMS.register("crude_natural_arcana_test", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_SCIENCE)));
+            Crude_Natural_Arcana_Test = ITEMS.register("crude_natural_arcana_test", () -> new CrudeNaturalArcanaTestItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_SCIENCE)));
     public static final RegistryObject<Item>
-            Used_Crude_Natural_Arcana_Test = ITEMS.register("used_crude_natural_arcana_test", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_SCIENCE)));    //Used/Crude Compression Test added 7/18/23 - Nyagi
+            Used_Crude_Natural_Arcana_Test = ITEMS.register("used_crude_natural_arcana_test", () -> new UsedCrudeNaturalArcanaTestItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_SCIENCE)));    //Used/Crude Compression Test added 7/18/23 - Nyagi
     //Used/Crude Material Properties Test added 8/27/23 - Nyagi
     public static final RegistryObject<Item>
-            Crude_Material_Properties_Test = ITEMS.register("crude_material_properties_test", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_SCIENCE)));
+            Crude_Material_Properties_Test = ITEMS.register("crude_material_properties_test", () -> new CrudeMaterialPropertiesTestItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_SCIENCE)));
     public static final RegistryObject<Item>
-            Used_Crude_Material_Properties_Test = ITEMS.register("used_crude_material_properties_test", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_SCIENCE)));
+            Used_Crude_Material_Properties_Test = ITEMS.register("used_crude_material_properties_test", () -> new UsedCrudeMaterialPropertiesTestItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_SCIENCE)));
     /*
        SCIENCE DATA STORAGE
      */
