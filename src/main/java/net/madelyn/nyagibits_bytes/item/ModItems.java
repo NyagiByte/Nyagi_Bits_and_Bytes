@@ -472,15 +472,15 @@ public class ModItems {
      */
     //Blank Blueprint added 8/27/23 - Nyagi
     public static final RegistryObject<Item>
-            Blank_Blueprint = ITEMS.register("blank_blueprint", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_SCHEMATICS)));
+            Blank_Blueprint = ITEMS.register("blank_blueprint", () -> new BlankBlueprintItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_SCHEMATICS)));
     public static final RegistryObject<Item>
-        Ae2_Schematic = ITEMS.register("ae2_schematic", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_SCHEMATICS)));
+        Ae2_Schematic = ITEMS.register("ae2_schematic", () -> new SchematicAe2Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_SCHEMATICS)));
     public static final RegistryObject<Item>
-        Botania_Schematic = ITEMS.register("botania_schematic", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_SCHEMATICS)));
+        Botania_Schematic = ITEMS.register("botania_schematic", () -> new SchematicBotaniaItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_SCHEMATICS)));
     public static final RegistryObject<Item>
-        Immersive_Engineering_Schematic = ITEMS.register("immersive_engineering_schematic", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_SCHEMATICS)));
+        Immersive_Engineering_Schematic = ITEMS.register("immersive_engineering_schematic", () -> new SchematicImmersiveEngineeringItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_SCHEMATICS)));
     public static final RegistryObject<Item>
-        Alchemistry_Schematic = ITEMS.register("alchemistry_schematic", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_SCHEMATICS)));
+        Alchemistry_Schematic = ITEMS.register("alchemistry_schematic", () -> new SchematicAlchemistryItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_SCHEMATICS)));
 
      /*
        Ore items
