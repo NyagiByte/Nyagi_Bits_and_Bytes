@@ -488,28 +488,28 @@ public class ModItems {
     //Iron-related added 9/29/23 - Nyagi
         //Limonite
             public static final RegistryObject<Item>
-                    Raw_Limonite = ITEMS.register("raw_limonite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+                    Raw_Limonite = ITEMS.register("raw_limonite", () -> new RawIronLimoniteItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
         //Hematite
             public static final RegistryObject<Item>
-                    Raw_Hematite = ITEMS.register("raw_hematite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+                    Raw_Hematite = ITEMS.register("raw_hematite", () -> new RawIronHematiteItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
         //Magnetite
             public static final RegistryObject<Item>
-                    Raw_Magnetite = ITEMS.register("raw_magnetite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+                    Raw_Magnetite = ITEMS.register("raw_magnetite", () -> new RawIronMagnetiteItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
         //Pyrite
             public static final RegistryObject<Item>
-                    Raw_Pyrite = ITEMS.register("raw_pyrite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+                    Raw_Pyrite = ITEMS.register("raw_pyrite", () -> new RawIronPyriteItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
         //Siderite
             public static final RegistryObject<Item>
-                    Raw_Siderite = ITEMS.register("raw_siderite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+                    Raw_Siderite = ITEMS.register("raw_siderite", () -> new RawIronSideriteItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
         //Banded Iron
             public static final RegistryObject<Item>
-                    Raw_Banded_Iron = ITEMS.register("raw_banded_iron", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+                    Raw_Banded_Iron = ITEMS.register("raw_banded_iron", () -> new RawIronBandedIronItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
         //Bog Iron
             public static final RegistryObject<Item>
-                    Raw_Bog_Iron = ITEMS.register("raw_bog_iron", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+                    Raw_Bog_Iron = ITEMS.register("raw_bog_iron", () -> new RawIronBogIronItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
         //Meteoric
             public static final RegistryObject<Item>
-                    Raw_Meteoric_Iron = ITEMS.register("raw_meteoric_iron", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+                    Raw_Meteoric_Iron = ITEMS.register("raw_meteoric_iron", () -> new RawIronMeteoricIronItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
     //Copper-related added 10/1/23 - Nyagi
         //Chalcopyrite
             public static final RegistryObject<Item>
