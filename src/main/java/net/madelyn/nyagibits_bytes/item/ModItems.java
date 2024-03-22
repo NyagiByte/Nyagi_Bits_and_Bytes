@@ -453,19 +453,19 @@ public class ModItems {
             public static final RegistryObject<Item>
                 Lab_Notebook_With_Crude_Material_Properties_Data = ITEMS.register("lab_notebook_with_crude_material_properties_data", () -> new LabNotebookWithCrudeMaterialPropertiesDataItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_SCIENCE)));
     public static final RegistryObject<Item>
-            Pen = ITEMS.register("pen", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            Pen = ITEMS.register("pen", () -> new PenItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
     public static final RegistryObject<Item>
-            Pen_Assembly = ITEMS.register("pen_assembly", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            Pen_Assembly = ITEMS.register("pen_assembly", () -> new PenAssemblyItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
     public static final RegistryObject<Item>
-            Ball_Bearing = ITEMS.register("ball_bearing", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            Ball_Bearing = ITEMS.register("ball_bearing", () -> new BallBearingItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
     public static final RegistryObject<Item>
-            Thin_Casing = ITEMS.register("thin_casing", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            Thin_Casing = ITEMS.register("thin_casing", () -> new ThinCasingItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
     public static final RegistryObject<Item>
-            Tiny_Spring = ITEMS.register("tiny_spring", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            Tiny_Spring = ITEMS.register("tiny_spring", () -> new TinySpringItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
     public static final RegistryObject<Item>
-            Ink_Cartridge = ITEMS.register("ink_cartridge", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            Ink_Cartridge = ITEMS.register("ink_cartridge", () -> new InkCartridgeItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
     public static final RegistryObject<Item>
-            Ink = ITEMS.register("ink", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            Ink = ITEMS.register("ink", () -> new InkItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
 
     /*
        SCHEMATICS
