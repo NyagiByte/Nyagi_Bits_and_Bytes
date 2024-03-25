@@ -127,6 +127,15 @@ public class ModItems {
     //Empty Petri Dish added 3/20/24 - Nyagi
     public static final RegistryObject<Item>
             Petri_Dish = ITEMS.register("petri_dish_empty", () -> new PetriDishEmptyItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Agar-Gel added 3/25/24 - Nyagi
+    public static final RegistryObject<Item>
+            Agar_Gel = ITEMS.register("agar_gel", () -> new AgarGelItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Agar-Flakes added 3/25/24 - Nyagi
+    public static final RegistryObject<Item>
+            Agar_Flakes = ITEMS.register("agar_flakes", () -> new AgarFlakesItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Agar-Powder added 3/25/24 - Nyagi
+    public static final RegistryObject<Item>
+            Agar_Powder = ITEMS.register("agar_powder", () -> new AgarPowderItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
     //Agar-Agar added 3/20/24 - Nyagi
     public static final RegistryObject<Item>
             Agar_Agar = ITEMS.register("agar_agar", () -> new AgarAgarItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
