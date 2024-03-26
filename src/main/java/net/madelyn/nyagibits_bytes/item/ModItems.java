@@ -903,6 +903,19 @@ public class ModItems {
         public static final RegistryObject<Item>
                     Pezzottaite_Dust = ITEMS.register("pezzottaite_dust", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
 
+    //--------------------------------------------------------------------------------------
+
+    //Area Above Uses mm/dd/yy
+
+    //Area Below Uses dd/mm/yy
+
+    //Plates 26/03/24 - JJ
+
+        //Vanilla
+
+            //Netherite
+            public static final RegistryObject<Item>
+                Netherite_Plate = ITEMS.register("netherite_plate", () -> new PlateNetheriteItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
 
     //--------------------------------------------------------------------------------------
     public static void register(IEventBus eventBus) {
