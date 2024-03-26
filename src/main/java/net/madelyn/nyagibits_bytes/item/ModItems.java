@@ -142,6 +142,21 @@ public class ModItems {
     //Agar-Agar Petri Dish added 3/20/24 - Nyagi
     public static final RegistryObject<Item>
             Petri_Dish_Agar_Agar = ITEMS.register("petri_dish_agar_agar", () -> new PetriDishAgarAgarItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Sponged Steel added 3/25/24 - Nyagi
+    public static final RegistryObject<Item>
+            Sponged_Steel = ITEMS.register("sponged_steel", () -> new SpongedSteelItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Sodium Polyacrylate added 3/26/24 - Nyagi
+    public static final RegistryObject<Item>
+            Sodium_Polyacrylate = ITEMS.register("sodium_polyacrylate", () -> new SodiumPolyacrylateItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Endoflame Mush added 3/26/24 - Nyagi
+    public static final RegistryObject<Item>
+            Endoflame_Mush = ITEMS.register("endoflame_mush", () -> new EndoFlameMushItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Manasteel Lattice added 3/26/24 - Nyagi
+    public static final RegistryObject<Item>
+            Manasteel_Lattice = ITEMS.register("manasteel_lattice", () -> new ManasteelLatticeItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Rune Binder added 3/26/24 - Nyagi
+    public static final RegistryObject<Item>
+            Rune_Binder = ITEMS.register("rune_binder", () -> new RuneBinderItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
 
     //Ae2 Assembly added 8/10/23 - Nyagi
     public static final RegistryObject<Item>
