@@ -929,9 +929,10 @@ public class ModItems {
         //Vanilla
 
             //Netherite
-            public static final RegistryObject<Item>
-                Netherite_Plate = ITEMS.register("netherite_plate", () -> new PlateNetheriteItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
-
+//            public static final RegistryObject<Item>
+//                Netherite_Plate = ITEMS.register("netherite_plate", () -> new PlateNetheriteItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //stuff 27/03/24 - Killerqu00
+    public static final RegistryObject<Item> Netherite_Plate = ITEMS.register("netherite_plate", () -> new CustomTooltipItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
     //--------------------------------------------------------------------------------------
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
