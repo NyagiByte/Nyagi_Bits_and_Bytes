@@ -21,3 +21,4 @@ public class LivisiteAlloyItem extends Item {
         super.appendHoverText(stack, level, components, flag);
     }
 }
+

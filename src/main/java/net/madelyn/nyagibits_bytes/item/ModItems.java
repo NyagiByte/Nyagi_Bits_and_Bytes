@@ -926,13 +926,31 @@ public class ModItems {
 
     //Plates 26/03/24 - JJ
 
-        //Vanilla
+        //Actinium
+            public static final RegistryObject<Item>
+                    Actinium_Plate = ITEMS.register("actinium_plate", () -> new CustomTooltipItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
 
-            //Netherite
-//            public static final RegistryObject<Item>
-//                Netherite_Plate = ITEMS.register("netherite_plate", () -> new PlateNetheriteItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
-    //stuff 27/03/24 - Killerqu00
-    public static final RegistryObject<Item> Netherite_Plate = ITEMS.register("netherite_plate", () -> new CustomTooltipItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+        //Alfsteel
+            public static final RegistryObject<Item>
+                    Alfsteel_Plate = ITEMS.register("alfsteel_plate", () -> new CustomTooltipItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+
+        //Aluminium
+            public static final RegistryObject<Item>
+                    Aluminium_Plate = ITEMS.register("aluminium_plate", () -> new CustomTooltipItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+
+        //Barium
+            public static final RegistryObject<Item>
+                Barium_Plate = ITEMS.register("barium_plate", () -> new CustomTooltipItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+
+        //Beryllium
+            public static final RegistryObject<Item>
+                    Beryllium_Plate = ITEMS.register("beryllium_plate", () -> new CustomTooltipItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+
+        //Bismuth
+            public static final RegistryObject<Item>
+                    Bismuth_Plate = ITEMS.register("bismuth_plate", () -> new CustomTooltipItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+
+
     //--------------------------------------------------------------------------------------
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
