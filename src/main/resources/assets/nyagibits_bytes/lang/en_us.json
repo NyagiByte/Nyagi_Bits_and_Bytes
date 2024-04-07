@@ -80,9 +80,19 @@
   "item.nyagibits_bytes.magnetic_hematite": "Magnetic Hematite",
   "item.nyagibits_bytes.mystic_fertilizer": "Mystic Fertilizer",
 
+  "item.nyagibits_bytes.alchemistry_assembly": "Alchemistry Assembly",
+  "item.nyagibits_bytes.alchemistry_schematic": "Alchemistry Schematic",
+  "item.nyagibits_bytes.electrolytic_core": "Electrolytic Core",
+  "item.nyagibits_bytes.desiccation_powder": "Desiccation Powder",
+  "item.nyagibits_bytes.chemical_grade_glassware": "Chemical Grade Glassware",
+  "item.nyagibits_bytes.fume_fan": "Fume Fan",
+  "item.nyagibits_bytes.chemically_inert_wood": "Chemically Inert Wood",
+  "item.nyagibits_bytes.ph_strips": "pH Strips",
+  "item.nyagibits_bytes.chromatography_kit": "Chromatography Kit",
+  "item.nyagibits_bytes.bunsen_burner": "Bunsen Burner",
+
   "item.nyagibits_bytes.immersive_engineering_schematic": "Immersive Engineering Schematic",
 
-  "item.nyagibits_bytes.alchemistry_schematic": "Alchemistry Schematic",
 
   "item.nyagibits_bytes.crude_compression_test": "Crude Compression Test",
   "item.nyagibits_bytes.crude_statics_test": "Crude Statics Test",

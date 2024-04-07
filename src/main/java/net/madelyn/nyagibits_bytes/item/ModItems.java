@@ -325,6 +325,34 @@ public class ModItems {
         public static final RegistryObject<Item>
                 Mystic_Fertilizer = ITEMS.register("mystic_fertilizer", () -> new MysticFertilizerItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
 
+    //Alchemistry Assembly added 4/6/24- Nyagi
+    public static final RegistryObject<Item>
+            Alchemistry_Assembly = ITEMS.register("alchemistry_assembly", () -> new AlchemistryAssemblyItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+        //Electrolytic Core added 4/6/24- Nyagi
+        public static final RegistryObject<Item>
+                Electrolytic_Core = ITEMS.register("electrolytic_core", () -> new ElectrolyticCoreItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+        //Desiccation Powder added 4/6/24- Nyagi
+        public static final RegistryObject<Item>
+                Desiccation_Powder = ITEMS.register("desiccation_powder", () -> new DesiccationPowderItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+        //Chemical Grade Glassware added 4/6/24- Nyagi
+        public static final RegistryObject<Item>
+                Chemical_Grade_Glassware = ITEMS.register("chemical_grade_glassware", () -> new ChemicalGradeGlasswareItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+        //Fume Fan added 4/6/24- Nyagi
+        public static final RegistryObject<Item>
+                Fume_Fan = ITEMS.register("fume_fan", () -> new FumeFanItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+        //Chemically Inert Wood added 4/6/24- Nyagi
+        public static final RegistryObject<Item>
+                Chemically_Inert_Wood = ITEMS.register("chemically_inert_wood", () -> new ChemicallyInertWoodItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+        //pH Strips added 4/6/24- Nyagi
+        public static final RegistryObject<Item>
+                PH_Strips = ITEMS.register("ph_strips", () -> new PHStripsItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+        //Chromatography Kit added 4/6/24- Nyagi
+        public static final RegistryObject<Item>
+                Chromatography_Kit = ITEMS.register("chromatography_kit", () -> new ChromatographyKitItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+        //Bunsen Burner added 4/6/24- Nyagi
+        public static final RegistryObject<Item>
+                Bunsen_Burner = ITEMS.register("bunsen_burner", () -> new BunsenBurnerItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+
     //Blank Rune added 3/8/24 - Nyagi
     public static final RegistryObject<Item>
             Rune_Blank = ITEMS.register("rune_blank", () -> new RuneBlankItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
