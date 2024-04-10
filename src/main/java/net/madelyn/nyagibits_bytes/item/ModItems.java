@@ -171,7 +171,7 @@ public class ModItems {
             Sturdy_Tray = ITEMS.register("sturdy_tray", () -> new SturdyTrayItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
     //Beaker added 4/10/24 - Nyagi
     public static final RegistryObject<Item>
-            Beaker = ITEMS.register("beaker", () -> new RuneBinderItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            Beaker = ITEMS.register("beaker", () -> new BeakerItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
     //Round Bottom Flask added 4/10/24 - Nyagi
     public static final RegistryObject<Item>
             Round_Bottom_Flask = ITEMS.register("round_bottom_flask", () -> new RuneBinderItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
