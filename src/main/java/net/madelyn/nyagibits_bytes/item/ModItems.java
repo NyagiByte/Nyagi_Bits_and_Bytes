@@ -177,7 +177,7 @@ public class ModItems {
             Round_Bottom_Flask = ITEMS.register("round_bottom_flask", () -> new RoundBottomFlaskItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
     //Distillation Column added 4/10/24 - Nyagi
     public static final RegistryObject<Item>
-            Distillation_Column = ITEMS.register("distillation_column", () -> new RuneBinderItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            Distillation_Column = ITEMS.register("distillation_column", () -> new DistillationColumnItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
     //Inlet added 4/10/24 - Nyagi
     public static final RegistryObject<Item>
             Inlet = ITEMS.register("inlet", () -> new RuneBinderItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
