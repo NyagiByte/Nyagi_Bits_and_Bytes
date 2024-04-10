@@ -159,7 +159,7 @@ public class ModItems {
             Rune_Binder = ITEMS.register("rune_binder", () -> new RuneBinderItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
     //Rubberized Cable added 4/10/24 - Nyagi
     public static final RegistryObject<Item>
-            Rubberized_Cable = ITEMS.register("rubberized_cable", () -> new RuneBinderItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            Rubberized_Cable = ITEMS.register("rubberized_cable", () -> new RubberizedCableItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
     //Ceramic added 4/10/24 - Nyagi
     public static final RegistryObject<Item>
             Ceramic = ITEMS.register("ceramic", () -> new RuneBinderItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
