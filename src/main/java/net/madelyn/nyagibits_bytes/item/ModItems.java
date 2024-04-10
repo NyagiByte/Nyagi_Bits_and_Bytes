@@ -183,7 +183,7 @@ public class ModItems {
             Inlet = ITEMS.register("inlet", () -> new InletItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
     //Burette added 4/10/24 - Nyagi
     public static final RegistryObject<Item>
-            Burette = ITEMS.register("burette", () -> new RuneBinderItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            Burette = ITEMS.register("burette", () -> new BuretteItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
     //Sterilized Quartz Glass added 4/10/24 - Nyagi
     public static final RegistryObject<Item>
             Sterilized_Quartz_Glass = ITEMS.register("sterilized_quartz_glass", () -> new RuneBinderItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
