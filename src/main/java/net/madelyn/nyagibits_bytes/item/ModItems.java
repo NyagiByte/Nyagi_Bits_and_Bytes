@@ -157,6 +157,42 @@ public class ModItems {
     //Rune Binder added 3/26/24 - Nyagi
     public static final RegistryObject<Item>
             Rune_Binder = ITEMS.register("rune_binder", () -> new RuneBinderItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Rubberized Cable added 4/10/24 - Nyagi
+    public static final RegistryObject<Item>
+            Rubberized_Cable = ITEMS.register("rubberized_cable", () -> new RuneBinderItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Ceramic added 4/10/24 - Nyagi
+    public static final RegistryObject<Item>
+            Ceramic = ITEMS.register("ceramic", () -> new RuneBinderItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Activated Charcoal added 4/10/24 - Nyagi
+    public static final RegistryObject<Item>
+            Activated_Charcoal = ITEMS.register("activated_charcoal", () -> new RuneBinderItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Sturdy Tray added 4/10/24 - Nyagi
+    public static final RegistryObject<Item>
+            Sturdy_Tray = ITEMS.register("sturdy_tray", () -> new SturdyTrayItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Beaker added 4/10/24 - Nyagi
+    public static final RegistryObject<Item>
+            Beaker = ITEMS.register("beaker", () -> new RuneBinderItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Round Bottom Flask added 4/10/24 - Nyagi
+    public static final RegistryObject<Item>
+            Round_Bottom_Flask = ITEMS.register("round_bottom_flask", () -> new RuneBinderItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Distillation Column added 4/10/24 - Nyagi
+    public static final RegistryObject<Item>
+            Distillation_Column = ITEMS.register("distillation_column", () -> new RuneBinderItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Inlet added 4/10/24 - Nyagi
+    public static final RegistryObject<Item>
+            Inlet = ITEMS.register("inlet", () -> new RuneBinderItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Burette added 4/10/24 - Nyagi
+    public static final RegistryObject<Item>
+            Burette = ITEMS.register("burette", () -> new RuneBinderItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Sterilized Quartz Glass added 4/10/24 - Nyagi
+    public static final RegistryObject<Item>
+            Sterilized_Quartz_Glass = ITEMS.register("sterilized_quartz_glass", () -> new RuneBinderItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //pH Strip added 4/10/24 - Nyagi
+    public static final RegistryObject<Item>
+            PH_Strip = ITEMS.register("ph_strip", () -> new RuneBinderItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Bottle of Vinegar added 4/10/24 - Nyagi
+    public static final RegistryObject<Item>
+            Bottle_Of_Vinegar = ITEMS.register("bottle_of_vinegar", () -> new RuneBinderItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
 
     //Ae2 Assembly added 8/10/23 - Nyagi
     public static final RegistryObject<Item>
