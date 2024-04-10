@@ -180,7 +180,7 @@ public class ModItems {
             Distillation_Column = ITEMS.register("distillation_column", () -> new DistillationColumnItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
     //Inlet added 4/10/24 - Nyagi
     public static final RegistryObject<Item>
-            Inlet = ITEMS.register("inlet", () -> new RuneBinderItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            Inlet = ITEMS.register("inlet", () -> new InletItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
     //Burette added 4/10/24 - Nyagi
     public static final RegistryObject<Item>
             Burette = ITEMS.register("burette", () -> new RuneBinderItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
