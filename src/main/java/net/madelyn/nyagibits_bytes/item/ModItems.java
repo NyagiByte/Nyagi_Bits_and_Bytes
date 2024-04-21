@@ -189,7 +189,7 @@ public class ModItems {
             Sterilized_Quartz_Glass = ITEMS.register("sterilized_quartz_glass", () -> new SterilizedQuartzGlasstem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
     //pH Strip added 4/10/24 - Nyagi
     public static final RegistryObject<Item>
-            PH_Strip = ITEMS.register("ph_strip", () -> new RuneBinderItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            PH_Strip = ITEMS.register("ph_strip", () -> new PHStripItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
     //Bottle of Vinegar added 4/10/24 - Nyagi
     public static final RegistryObject<Item>
             Bottle_Of_Vinegar = ITEMS.register("bottle_of_vinegar", () -> new RuneBinderItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
