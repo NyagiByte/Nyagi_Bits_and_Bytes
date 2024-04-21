@@ -165,7 +165,7 @@ public class ModItems {
             Ceramic = ITEMS.register("ceramic", () -> new CeramicItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
     //Activated Charcoal added 4/10/24 - Nyagi
     public static final RegistryObject<Item>
-            Activated_Charcoal = ITEMS.register("activated_charcoal", () -> new RuneBinderItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            Activated_Charcoal = ITEMS.register("activated_charcoal", () -> new ActivatedCharcoalItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
     //Sturdy Tray added 4/10/24 - Nyagi
     public static final RegistryObject<Item>
             Sturdy_Tray = ITEMS.register("sturdy_tray", () -> new SturdyTrayItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
