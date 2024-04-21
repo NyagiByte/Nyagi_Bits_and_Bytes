@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "nyagibits_bytes:item/bottle_of_vinegar",
+    "layer1": "item/potion"
+  }
+}
