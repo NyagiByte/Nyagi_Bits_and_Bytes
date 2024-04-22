@@ -193,6 +193,21 @@ public class ModItems {
     //Bottle of Vinegar added 4/10/24 - Nyagi
     public static final RegistryObject<Item>
             Bottle_Of_Vinegar = ITEMS.register("bottle_of_vinegar", () -> new BottleOfVinegarItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Low Grade Coke added 4/21/24 - Nyagi
+    public static final RegistryObject<Item>
+            Low_Grade_Coke = ITEMS.register("low_grade_coke", () -> new LowGradeCokeItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Industrial Grade Coke added 4/21/24 - Nyagi
+    public static final RegistryObject<Item>
+            Industrial_Grade_Coke = ITEMS.register("industrial_grade_coke", () -> new IndustrialGradeCokeItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Wrought Ball Bearing added 4/21/24 - Nyagi
+    public static final RegistryObject<Item>
+            Wrought_Ball_Bearing = ITEMS.register("wrought_ball_bearing", () -> new WroughtBallBearingItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Wrought Tiny Spring added 4/21/24 - Nyagi
+    public static final RegistryObject<Item>
+            Wrought_Tiny_Spring = ITEMS.register("wrought_tiny_spring", () -> new WroughtTinySpringItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Wrought Iron Rod added 4/21/24 - Nyagi
+    public static final RegistryObject<Item>
+            Wrought_Iron_Rod = ITEMS.register("wrought_iron_rod", () -> new WroughtIronRodItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
 
     //Ae2 Assembly added 8/10/23 - Nyagi
     public static final RegistryObject<Item>

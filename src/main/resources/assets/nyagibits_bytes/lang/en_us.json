@@ -53,6 +53,11 @@
   "item.nyagibits_bytes.sterilized_quartz_glass": "Sterilized Quartz Glass",
   "item.nyagibits_bytes.ph_strip": "pH Strip",
   "item.nyagibits_bytes.bottle_of_vinegar": "Bottle Of Vinegar",
+  "item.nyagibits_bytes.low_grade_coke": "Low Grade Coke",
+  "item.nyagibits_bytes.industrial_grade_coke": "Industrial Grade Coke",
+  "item.nyagibits_bytes.wrought_ball_bearing": "Wrought Ball Bearing",
+  "item.nyagibits_bytes.wrought_tiny_spring": "Wrought Tiny Spring",
+  "item.nyagibits_bytes.wrought_iron_rod": "Wrought Iron Rod",
 
   "item.nyagibits_bytes.lab_notebook": "Lab Notebook",
     "item.nyagibits_bytes.lab_notebook_with_crude_compression_data": "Lab Notebook With Crude Compression Data",
