@@ -109,7 +109,18 @@
   "item.nyagibits_bytes.chromatography_kit": "Chromatography Kit",
   "item.nyagibits_bytes.bunsen_burner": "Bunsen Burner",
 
+  "item.nyagibits_bytes.immersive_assembly": "Immersive Assembly",
   "item.nyagibits_bytes.immersive_engineering_schematic": "Immersive Engineering Schematic",
+  "item.nyagibits_bytes.high_temperature_heat_exchanger": "High Temperature Heat Exchanger",
+  "item.nyagibits_bytes.duct_tape": "Duct Tape",
+  "item.nyagibits_bytes.wd_40": "WD-40",
+  "item.nyagibits_bytes.triple_bay_4s_series_toolbox": "79' x 28' TRIPLE-BAY 4s SERIES TOOLBOX",
+  "item.nyagibits_bytes.acetylene_tank": "Acetylene Tank",
+  "item.nyagibits_bytes.osha_approved_gear": "OSHA Approved Gear",
+  "item.nyagibits_bytes.crate_of_industrial_components": "Crate Of Industrial Components",
+  "item.nyagibits_bytes.high_strength_concrete": "High Strength Concrete",
+
+
 
 
   "item.nyagibits_bytes.crude_compression_test": "Crude Compression Test",

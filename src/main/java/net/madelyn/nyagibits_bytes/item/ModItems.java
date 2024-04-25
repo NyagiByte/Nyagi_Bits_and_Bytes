@@ -407,6 +407,34 @@ public class ModItems {
         public static final RegistryObject<Item>
                 Bunsen_Burner = ITEMS.register("bunsen_burner", () -> new BunsenBurnerItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
 
+        //Immersive Assembly added 4/25/24- Nyagi
+        public static final RegistryObject<Item>
+                Immersive_Assembly = ITEMS.register("immersive_assembly", () -> new AlchemistryAssemblyItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+        //High Temperature Heat Exchanger added 4/25/24- Nyagi
+        public static final RegistryObject<Item>
+                High_Temperature_Heat_Exchanger = ITEMS.register("high_temperature_heat_exchanger", () -> new HighTemperatureHeatExchangerItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+        //Duct Tape added 4/25/24- Nyagi
+        public static final RegistryObject<Item>
+                Duct_Tape = ITEMS.register("duct_tape", () -> new DesiccationPowderItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+        //WD40 added 4/25/24- Nyagi
+        public static final RegistryObject<Item>
+                WD40 = ITEMS.register("wd_40", () -> new ChemicalGradeGlasswareItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+        //79" x 28" TRIPLE-BAY 4s SERIES TOOLBOX added 4/25/24- Nyagi
+        public static final RegistryObject<Item>
+                Triple_Bay_4s_Series_Toolbox = ITEMS.register("triple_bay_4s_series_toolbox", () -> new FumeFanItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+        //Acetylene Tank added 4/25/24- Nyagi
+        public static final RegistryObject<Item>
+                Acetylene_tank = ITEMS.register("acetylene_tank", () -> new ChemicallyInertWoodItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+        //OSHA Approved Gear added 4/25/24- Nyagi
+        public static final RegistryObject<Item>
+                OSHA_Approved_Gear = ITEMS.register("osha_approved_gear", () -> new PHStripsItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+        //Crate Of Industrial Components added 4/25/24- Nyagi
+        public static final RegistryObject<Item>
+                Crate_Of_Industrial_Components = ITEMS.register("crate_of_industrial_components", () -> new ChromatographyKitItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+        //High Strength Concrete added 4/25/24- Nyagi
+        public static final RegistryObject<Item>
+                High_Strength_Concrete = ITEMS.register("high_strength_concrete", () -> new BunsenBurnerItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+
     //Blank Rune added 3/8/24 - Nyagi
     public static final RegistryObject<Item>
             Rune_Blank = ITEMS.register("rune_blank", () -> new RuneBlankItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
