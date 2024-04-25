@@ -415,13 +415,13 @@ public class ModItems {
                 High_Temperature_Heat_Exchanger = ITEMS.register("high_temperature_heat_exchanger", () -> new HighTemperatureHeatExchangerItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
         //Duct Tape added 4/25/24- Nyagi
         public static final RegistryObject<Item>
-                Duct_Tape = ITEMS.register("duct_tape", () -> new DesiccationPowderItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+                Duct_Tape = ITEMS.register("duct_tape", () -> new DuctTapeItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
         //WD40 added 4/25/24- Nyagi
         public static final RegistryObject<Item>
-                WD40 = ITEMS.register("wd_40", () -> new ChemicalGradeGlasswareItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+                WD40 = ITEMS.register("wd_40", () -> new WD40Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
         //79" x 28" TRIPLE-BAY 4s SERIES TOOLBOX added 4/25/24- Nyagi
         public static final RegistryObject<Item>
-                Triple_Bay_4s_Series_Toolbox = ITEMS.register("triple_bay_4s_series_toolbox", () -> new FumeFanItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+                Triple_Bay_4s_Series_Toolbox = ITEMS.register("triple_bay_4s_series_toolbox", () -> new TripleBay4SSeriesToolboxItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
         //Acetylene Tank added 4/25/24- Nyagi
         public static final RegistryObject<Item>
                 Acetylene_tank = ITEMS.register("acetylene_tank", () -> new ChemicallyInertWoodItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
