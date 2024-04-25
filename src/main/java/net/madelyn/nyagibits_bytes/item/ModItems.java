@@ -208,6 +208,9 @@ public class ModItems {
     //Wrought Iron Rod added 4/21/24 - Nyagi
     public static final RegistryObject<Item>
             Wrought_Iron_Rod = ITEMS.register("wrought_iron_rod", () -> new WroughtIronRodItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Mixed Seeds added 4/21/24 - Nyagi
+    public static final RegistryObject<Item>
+            Mixed_Seeds = ITEMS.register("mixed_seeds", () -> new MixedSeedsItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
 
     //Ae2 Assembly added 8/10/23 - Nyagi
     public static final RegistryObject<Item>
