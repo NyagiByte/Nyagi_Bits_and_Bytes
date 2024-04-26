@@ -211,6 +211,9 @@ public class ModItems {
     //Mixed Seeds added 4/21/24 - Nyagi
     public static final RegistryObject<Item>
             Mixed_Seeds = ITEMS.register("mixed_seeds", () -> new MixedSeedsItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Hard Hat added 4/21/24 - Nyagi
+    public static final RegistryObject<Item>
+            Hard_Hat = ITEMS.register("hard_hat", () -> new HardHatItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
 
     //Ae2 Assembly added 8/10/23 - Nyagi
     public static final RegistryObject<Item>
