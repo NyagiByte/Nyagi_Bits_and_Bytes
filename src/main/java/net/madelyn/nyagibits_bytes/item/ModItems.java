@@ -424,7 +424,7 @@ public class ModItems {
                 Triple_Bay_4s_Series_Toolbox = ITEMS.register("triple_bay_4s_series_toolbox", () -> new TripleBay4SSeriesToolboxItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
         //Acetylene Tank added 4/25/24- Nyagi
         public static final RegistryObject<Item>
-                Acetylene_tank = ITEMS.register("acetylene_tank", () -> new ChemicallyInertWoodItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+                Acetylene_tank = ITEMS.register("acetylene_tank", () -> new AcetyleneTankItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
         //OSHA Approved Gear added 4/25/24- Nyagi
         public static final RegistryObject<Item>
                 OSHA_Approved_Gear = ITEMS.register("osha_approved_gear", () -> new PHStripsItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
