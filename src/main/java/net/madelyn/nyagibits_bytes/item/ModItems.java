@@ -214,6 +214,15 @@ public class ModItems {
     //Hard Hat added 4/21/24 - Nyagi
     public static final RegistryObject<Item>
             Hard_Hat = ITEMS.register("hard_hat", () -> new HardHatItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Protective Eye-wear added 5/1/24 - Nyagi
+    public static final RegistryObject<Item>
+            Protective_Eye_Wear = ITEMS.register("protective_eye_wear", () -> new ProtectiveEyeWearItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Fire Extinguisher added 5/1/24 - Nyagi
+    public static final RegistryObject<Item>
+            Fire_Extinguisher = ITEMS.register("fire_extinguisher", () -> new HardHatItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Organic Vapor Respirator added 5/1/24 - Nyagi
+    public static final RegistryObject<Item>
+            Organic_Vapor_Respirator = ITEMS.register("organic_vapor_respirator", () -> new HardHatItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
 
     //Ae2 Assembly added 8/10/23 - Nyagi
     public static final RegistryObject<Item>
