@@ -219,7 +219,7 @@ public class ModItems {
             Protective_Eye_Wear = ITEMS.register("protective_eye_wear", () -> new ProtectiveEyeWearItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
     //Fire Extinguisher added 5/1/24 - Nyagi
     public static final RegistryObject<Item>
-            Fire_Extinguisher = ITEMS.register("fire_extinguisher", () -> new HardHatItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            Fire_Extinguisher = ITEMS.register("fire_extinguisher", () -> new FireExtinguisherItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
     //Organic Vapor Respirator added 5/1/24 - Nyagi
     public static final RegistryObject<Item>
             Organic_Vapor_Respirator = ITEMS.register("organic_vapor_respirator", () -> new HardHatItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
