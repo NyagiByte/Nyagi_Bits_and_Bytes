@@ -223,6 +223,30 @@ public class ModItems {
     //Organic Vapor Respirator added 5/1/24 - Nyagi
     public static final RegistryObject<Item>
             Organic_Vapor_Respirator = ITEMS.register("organic_vapor_respirator", () -> new OrganicVaporRespiratorItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Hardened Mechanical Bearing added 5/1/24 - Nyagi
+    public static final RegistryObject<Item>
+            Hardened_Mechanical_Bearing = ITEMS.register("hardened_mechanical_bearing", () -> new HardenedMechanicalBearingItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Fasteners added 5/1/24 - Nyagi
+    public static final RegistryObject<Item>
+            Fasteners = ITEMS.register("fasteners", () -> new OrganicVaporRespiratorItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Synchronous Electric Motor added 5/1/24 - Nyagi
+    public static final RegistryObject<Item>
+            Synchronous_Electric_Motor = ITEMS.register("synchronous_electric_motor", () -> new OrganicVaporRespiratorItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Industrial Gears added 5/1/24 - Nyagi
+    public static final RegistryObject<Item>
+            Industrial_Gears = ITEMS.register("industrial_gears", () -> new OrganicVaporRespiratorItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Dampeners added 5/1/24 - Nyagi
+    public static final RegistryObject<Item>
+            Dampeners = ITEMS.register("dampeners", () -> new OrganicVaporRespiratorItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Reinforced Gearbox added 5/1/24 - Nyagi
+    public static final RegistryObject<Item>
+            Reinforced_Gearbox = ITEMS.register("reinforced_gearbox", () -> new OrganicVaporRespiratorItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //V-Belt added 5/1/24 - Nyagi
+    public static final RegistryObject<Item>
+            V_Belt = ITEMS.register("v_belt", () -> new OrganicVaporRespiratorItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Solenoid Component added 5/1/24 - Nyagi
+    public static final RegistryObject<Item>
+            Solenoid_Component = ITEMS.register("solenoid_component", () -> new OrganicVaporRespiratorItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
 
     //Ae2 Assembly added 8/10/23 - Nyagi
     public static final RegistryObject<Item>
@@ -419,9 +443,9 @@ public class ModItems {
         public static final RegistryObject<Item>
                 Bunsen_Burner = ITEMS.register("bunsen_burner", () -> new BunsenBurnerItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
 
-        //Immersive Assembly added 4/25/24- Nyagi
-        public static final RegistryObject<Item>
-                Immersive_Assembly = ITEMS.register("immersive_assembly", () -> new AlchemistryAssemblyItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Immersive Assembly added 4/25/24- Nyagi
+    public static final RegistryObject<Item>
+         Immersive_Assembly = ITEMS.register("immersive_assembly", () -> new AlchemistryAssemblyItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
         //High Temperature Heat Exchanger added 4/25/24- Nyagi
         public static final RegistryObject<Item>
                 High_Temperature_Heat_Exchanger = ITEMS.register("high_temperature_heat_exchanger", () -> new HighTemperatureHeatExchangerItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
@@ -439,7 +463,7 @@ public class ModItems {
                 Acetylene_tank = ITEMS.register("acetylene_tank", () -> new AcetyleneTankItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
         //OSHA Approved Gear added 4/25/24- Nyagi
         public static final RegistryObject<Item>
-                OSHA_Approved_Gear = ITEMS.register("osha_approved_gear", () -> new PHStripsItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+                OSHA_Approved_Gear = ITEMS.register("osha_approved_gear", () -> new OSHAApprovedGearItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
         //Crate Of Industrial Components added 4/25/24- Nyagi
         public static final RegistryObject<Item>
                 Crate_Of_Industrial_Components = ITEMS.register("crate_of_industrial_components", () -> new ChromatographyKitItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
