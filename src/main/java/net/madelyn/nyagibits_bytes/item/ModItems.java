@@ -466,7 +466,7 @@ public class ModItems {
                 OSHA_Approved_Gear = ITEMS.register("osha_approved_gear", () -> new OSHAApprovedGearItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
         //Crate Of Industrial Components added 4/25/24- Nyagi
         public static final RegistryObject<Item>
-                Crate_Of_Industrial_Components = ITEMS.register("crate_of_industrial_components", () -> new ChromatographyKitItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+                Crate_Of_Industrial_Components = ITEMS.register("crate_of_industrial_components", () -> new CrateOfIndustrialComponentsItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
         //High Strength Concrete added 4/25/24- Nyagi
         public static final RegistryObject<Item>
                 High_Strength_Concrete = ITEMS.register("high_strength_concrete", () -> new BunsenBurnerItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
