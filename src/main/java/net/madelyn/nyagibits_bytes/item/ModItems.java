@@ -222,7 +222,7 @@ public class ModItems {
             Fire_Extinguisher = ITEMS.register("fire_extinguisher", () -> new FireExtinguisherItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
     //Organic Vapor Respirator added 5/1/24 - Nyagi
     public static final RegistryObject<Item>
-            Organic_Vapor_Respirator = ITEMS.register("organic_vapor_respirator", () -> new HardHatItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            Organic_Vapor_Respirator = ITEMS.register("organic_vapor_respirator", () -> new OrganicVaporRespiratorItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
 
     //Ae2 Assembly added 8/10/23 - Nyagi
     public static final RegistryObject<Item>
