@@ -17,9 +17,7 @@ public class DampenerItem extends Item {
 
     @Override
     public void appendHoverText(ItemStack stack, @Nullable Level level, List<Component> components, TooltipFlag flag) {
-        components.add(Component.literal("Absorbs the shock from large machines").withStyle(ChatFormatting.GRAY));
-        components.add(Component.literal("to keep it from literally shaking itself").withStyle(ChatFormatting.GRAY));
-        components.add(Component.literal("to pieces").withStyle(ChatFormatting.GRAY));
+        components.add(Component.literal("Machine go spin, weeeee").withStyle(ChatFormatting.GRAY));
         super.appendHoverText(stack, level, components, flag);
     }
 }
