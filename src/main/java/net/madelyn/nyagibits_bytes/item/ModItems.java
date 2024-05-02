@@ -235,9 +235,9 @@ public class ModItems {
     //Industrial Gear added 5/1/24 - Nyagi
     public static final RegistryObject<Item>
             Industrial_Gear = ITEMS.register("industrial_gear", () -> new IndustrialGearItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
-    //Dampeners added 5/1/24 - Nyagi
+    //Dampener added 5/1/24 - Nyagi
     public static final RegistryObject<Item>
-            Dampeners = ITEMS.register("dampeners", () -> new OrganicVaporRespiratorItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            Dampener = ITEMS.register("dampener", () -> new DampenerItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
     //Reinforced Gearbox added 5/1/24 - Nyagi
     public static final RegistryObject<Item>
             Reinforced_Gearbox = ITEMS.register("reinforced_gearbox", () -> new OrganicVaporRespiratorItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
