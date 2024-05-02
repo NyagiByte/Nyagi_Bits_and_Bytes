@@ -445,7 +445,7 @@ public class ModItems {
 
     //Immersive Assembly added 4/25/24- Nyagi
     public static final RegistryObject<Item>
-         Immersive_Assembly = ITEMS.register("immersive_assembly", () -> new AlchemistryAssemblyItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+         Immersive_Assembly = ITEMS.register("immersive_assembly", () -> new ImmersiveAssemblyItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
         //High Temperature Heat Exchanger added 4/25/24- Nyagi
         public static final RegistryObject<Item>
                 High_Temperature_Heat_Exchanger = ITEMS.register("high_temperature_heat_exchanger", () -> new HighTemperatureHeatExchangerItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
