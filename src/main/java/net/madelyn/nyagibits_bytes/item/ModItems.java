@@ -240,7 +240,7 @@ public class ModItems {
             Dampener = ITEMS.register("dampener", () -> new DampenerItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
     //Reinforced Gearbox added 5/1/24 - Nyagi
     public static final RegistryObject<Item>
-            Reinforced_Gearbox = ITEMS.register("reinforced_gearbox", () -> new OrganicVaporRespiratorItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            Reinforced_Gearbox = ITEMS.register("reinforced_gearbox", () -> new ReinforcedGearboxItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
     //V-Belt added 5/1/24 - Nyagi
     public static final RegistryObject<Item>
             V_Belt = ITEMS.register("v_belt", () -> new OrganicVaporRespiratorItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
