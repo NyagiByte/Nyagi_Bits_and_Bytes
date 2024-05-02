@@ -228,7 +228,7 @@ public class ModItems {
             Hardened_Mechanical_Bearing = ITEMS.register("hardened_mechanical_bearing", () -> new HardenedMechanicalBearingItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
     //Fasteners added 5/1/24 - Nyagi
     public static final RegistryObject<Item>
-            Fasteners = ITEMS.register("fasteners", () -> new OrganicVaporRespiratorItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            Fasteners = ITEMS.register("fasteners", () -> new FastenersItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
     //Synchronous Electric Motor added 5/1/24 - Nyagi
     public static final RegistryObject<Item>
             Synchronous_Electric_Motor = ITEMS.register("synchronous_electric_motor", () -> new OrganicVaporRespiratorItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
