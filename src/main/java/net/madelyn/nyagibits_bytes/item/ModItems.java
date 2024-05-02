@@ -243,7 +243,7 @@ public class ModItems {
             Reinforced_Gearbox = ITEMS.register("reinforced_gearbox", () -> new ReinforcedGearboxItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
     //V-Belt added 5/1/24 - Nyagi
     public static final RegistryObject<Item>
-            V_Belt = ITEMS.register("v_belt", () -> new OrganicVaporRespiratorItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            V_Belt = ITEMS.register("v_belt", () -> new VBeltItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
     //Solenoid Component added 5/1/24 - Nyagi
     public static final RegistryObject<Item>
             Solenoid_Component = ITEMS.register("solenoid_component", () -> new OrganicVaporRespiratorItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
