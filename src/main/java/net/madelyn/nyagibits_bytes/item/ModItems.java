@@ -231,7 +231,7 @@ public class ModItems {
             Fasteners = ITEMS.register("fasteners", () -> new FastenersItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
     //Synchronous Electric Motor added 5/1/24 - Nyagi
     public static final RegistryObject<Item>
-            Synchronous_Electric_Motor = ITEMS.register("synchronous_electric_motor", () -> new OrganicVaporRespiratorItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            Synchronous_Electric_Motor = ITEMS.register("synchronous_electric_motor", () -> new SynchronousElectricMotorItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
     //Industrial Gears added 5/1/24 - Nyagi
     public static final RegistryObject<Item>
             Industrial_Gears = ITEMS.register("industrial_gears", () -> new OrganicVaporRespiratorItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
