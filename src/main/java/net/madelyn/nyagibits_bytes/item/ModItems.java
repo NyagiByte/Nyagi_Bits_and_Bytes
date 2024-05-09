@@ -247,6 +247,9 @@ public class ModItems {
     //Solenoid Component added 5/1/24 - Nyagi
     public static final RegistryObject<Item>
             Solenoid_Component = ITEMS.register("solenoid_component", () -> new SolenoidComponentItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Flux Mixture added 5/8/24- Nyagi
+    public static final RegistryObject<Item>
+            Flux_Mixture = ITEMS.register("flux_mixture", () -> new FluxMixtureItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
 
     //Ae2 Assembly added 8/10/23 - Nyagi
     public static final RegistryObject<Item>
