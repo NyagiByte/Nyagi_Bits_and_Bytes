@@ -250,6 +250,18 @@ public class ModItems {
     //Flux Mixture added 5/8/24- Nyagi
     public static final RegistryObject<Item>
             Flux_Mixture = ITEMS.register("flux_mixture", () -> new FluxMixtureItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Damascus Steel added 5/13/24- Nyagi
+    public static final RegistryObject<Item>
+            Steel_Damascus = ITEMS.register("steel_damascus", () -> new SteelDamascusItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //High Carbon Steel - 1080 added 5/13/24- Nyagi
+    public static final RegistryObject<Item>
+            Steel_High_Carbon_1080 = ITEMS.register("steel_high_carbon_1080", () -> new Steel1080HighCarbonItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //High Carbon Steel - 15N20 added 5/13/24- Nyagi
+    public static final RegistryObject<Item>
+            Steel_High_Carbon_15N20 = ITEMS.register("steel_high_carbon_15n20", () -> new Steel15N20HighCarbonItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Stainless Steel added 5/13/24- Nyagi
+    public static final RegistryObject<Item>
+            Steel_Stainless = ITEMS.register("steel_stainless", () -> new SteelStainlessItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
 
     //Ae2 Assembly added 8/10/23 - Nyagi
     public static final RegistryObject<Item>
