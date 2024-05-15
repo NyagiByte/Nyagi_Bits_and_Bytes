@@ -59,6 +59,23 @@
   "item.nyagibits_bytes.wrought_tiny_spring": "Wrought Tiny Spring",
   "item.nyagibits_bytes.wrought_iron_rod": "Wrought Iron Rod",
   "item.nyagibits_bytes.mixed_seeds": "Mixed Seeds",
+  "item.nyagibits_bytes.hard_hat": "Hard Hat",
+  "item.nyagibits_bytes.protective_eye_wear": "Protective Eye-Wear",
+  "item.nyagibits_bytes.fire_extinguisher": "Fire Extinguisher",
+  "item.nyagibits_bytes.organic_vapor_respirator": "Organic Vapor Respirator",
+  "item.nyagibits_bytes.hardened_mechanical_bearing": "Hardened Mechanical Bearing",
+  "item.nyagibits_bytes.fasteners": "Fasteners",
+  "item.nyagibits_bytes.synchronous_electric_motor": "Synchronous Electric Motor",
+  "item.nyagibits_bytes.industrial_gear": "Industrial Gear",
+  "item.nyagibits_bytes.dampener": "Dampener",
+  "item.nyagibits_bytes.reinforced_gearbox": "Reinforced Gearbox",
+  "item.nyagibits_bytes.v_belt": "V-Belt",
+  "item.nyagibits_bytes.solenoid_component": "Solenoid Component",
+  "item.nyagibits_bytes.flux_mixture": "Flux Mixture",
+  "item.nyagibits_bytes.steel_damascus": "Damascus Steel",
+  "item.nyagibits_bytes.steel_high_carbon_1080": "1080 - High Carbon Steel",
+  "item.nyagibits_bytes.steel_high_carbon_15n20": "15N20 - High Carbon Steel",
+  "item.nyagibits_bytes.steel_stainless": "Stainless Steel",
 
   "item.nyagibits_bytes.lab_notebook": "Lab Notebook",
     "item.nyagibits_bytes.lab_notebook_with_crude_compression_data": "Lab Notebook With Crude Compression Data",
@@ -109,7 +126,18 @@
   "item.nyagibits_bytes.chromatography_kit": "Chromatography Kit",
   "item.nyagibits_bytes.bunsen_burner": "Bunsen Burner",
 
+  "item.nyagibits_bytes.immersive_assembly": "Immersive Assembly",
   "item.nyagibits_bytes.immersive_engineering_schematic": "Immersive Engineering Schematic",
+  "item.nyagibits_bytes.high_temperature_heat_exchanger": "High Temperature Heat Exchanger",
+  "item.nyagibits_bytes.duct_tape": "Duct Tape",
+  "item.nyagibits_bytes.wd_40": "WD-40",
+  "item.nyagibits_bytes.triple_bay_4s_series_toolbox": "79' x 28' TRIPLE-BAY 4s SERIES TOOLBOX",
+  "item.nyagibits_bytes.acetylene_tank": "Acetylene Tank",
+  "item.nyagibits_bytes.osha_approved_gear": "OSHA Approved Gear",
+  "item.nyagibits_bytes.crate_of_industrial_components": "Crate Of Industrial Components",
+  "item.nyagibits_bytes.high_strength_concrete": "High Strength Concrete",
+
+
 
 
   "item.nyagibits_bytes.crude_compression_test": "Crude Compression Test",

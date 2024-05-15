@@ -211,6 +211,57 @@ public class ModItems {
     //Mixed Seeds added 4/21/24 - Nyagi
     public static final RegistryObject<Item>
             Mixed_Seeds = ITEMS.register("mixed_seeds", () -> new MixedSeedsItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Hard Hat added 4/21/24 - Nyagi
+    public static final RegistryObject<Item>
+            Hard_Hat = ITEMS.register("hard_hat", () -> new HardHatItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Protective Eye-wear added 5/1/24 - Nyagi
+    public static final RegistryObject<Item>
+            Protective_Eye_Wear = ITEMS.register("protective_eye_wear", () -> new ProtectiveEyeWearItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Fire Extinguisher added 5/1/24 - Nyagi
+    public static final RegistryObject<Item>
+            Fire_Extinguisher = ITEMS.register("fire_extinguisher", () -> new FireExtinguisherItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Organic Vapor Respirator added 5/1/24 - Nyagi
+    public static final RegistryObject<Item>
+            Organic_Vapor_Respirator = ITEMS.register("organic_vapor_respirator", () -> new OrganicVaporRespiratorItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Hardened Mechanical Bearing added 5/1/24 - Nyagi
+    public static final RegistryObject<Item>
+            Hardened_Mechanical_Bearing = ITEMS.register("hardened_mechanical_bearing", () -> new HardenedMechanicalBearingItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Fasteners added 5/1/24 - Nyagi
+    public static final RegistryObject<Item>
+            Fasteners = ITEMS.register("fasteners", () -> new FastenersItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Synchronous Electric Motor added 5/1/24 - Nyagi
+    public static final RegistryObject<Item>
+            Synchronous_Electric_Motor = ITEMS.register("synchronous_electric_motor", () -> new SynchronousElectricMotorItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Industrial Gear added 5/1/24 - Nyagi
+    public static final RegistryObject<Item>
+            Industrial_Gear = ITEMS.register("industrial_gear", () -> new IndustrialGearItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Dampener added 5/1/24 - Nyagi
+    public static final RegistryObject<Item>
+            Dampener = ITEMS.register("dampener", () -> new DampenerItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Reinforced Gearbox added 5/1/24 - Nyagi
+    public static final RegistryObject<Item>
+            Reinforced_Gearbox = ITEMS.register("reinforced_gearbox", () -> new ReinforcedGearboxItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //V-Belt added 5/1/24 - Nyagi
+    public static final RegistryObject<Item>
+            V_Belt = ITEMS.register("v_belt", () -> new VBeltItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Solenoid Component added 5/1/24 - Nyagi
+    public static final RegistryObject<Item>
+            Solenoid_Component = ITEMS.register("solenoid_component", () -> new SolenoidComponentItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Flux Mixture added 5/8/24- Nyagi
+    public static final RegistryObject<Item>
+            Flux_Mixture = ITEMS.register("flux_mixture", () -> new FluxMixtureItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Damascus Steel added 5/13/24- Nyagi
+    public static final RegistryObject<Item>
+            Steel_Damascus = ITEMS.register("steel_damascus", () -> new SteelDamascusItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //High Carbon Steel - 1080 added 5/13/24- Nyagi
+    public static final RegistryObject<Item>
+            Steel_High_Carbon_1080 = ITEMS.register("steel_high_carbon_1080", () -> new Steel1080HighCarbonItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //High Carbon Steel - 15N20 added 5/13/24- Nyagi
+    public static final RegistryObject<Item>
+            Steel_High_Carbon_15N20 = ITEMS.register("steel_high_carbon_15n20", () -> new Steel15N20HighCarbonItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Stainless Steel added 5/13/24- Nyagi
+    public static final RegistryObject<Item>
+            Steel_Stainless = ITEMS.register("steel_stainless", () -> new SteelStainlessItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
 
     //Ae2 Assembly added 8/10/23 - Nyagi
     public static final RegistryObject<Item>
@@ -406,6 +457,34 @@ public class ModItems {
         //Bunsen Burner added 4/6/24- Nyagi
         public static final RegistryObject<Item>
                 Bunsen_Burner = ITEMS.register("bunsen_burner", () -> new BunsenBurnerItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+
+    //Immersive Assembly added 4/25/24- Nyagi
+    public static final RegistryObject<Item>
+         Immersive_Assembly = ITEMS.register("immersive_assembly", () -> new ImmersiveAssemblyItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+        //High Temperature Heat Exchanger added 4/25/24- Nyagi
+        public static final RegistryObject<Item>
+                High_Temperature_Heat_Exchanger = ITEMS.register("high_temperature_heat_exchanger", () -> new HighTemperatureHeatExchangerItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+        //Duct Tape added 4/25/24- Nyagi
+        public static final RegistryObject<Item>
+                Duct_Tape = ITEMS.register("duct_tape", () -> new DuctTapeItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+        //WD40 added 4/25/24- Nyagi
+        public static final RegistryObject<Item>
+                WD40 = ITEMS.register("wd_40", () -> new WD40Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+        //79" x 28" TRIPLE-BAY 4s SERIES TOOLBOX added 4/25/24- Nyagi
+        public static final RegistryObject<Item>
+                Triple_Bay_4s_Series_Toolbox = ITEMS.register("triple_bay_4s_series_toolbox", () -> new TripleBay4SSeriesToolboxItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+        //Acetylene Tank added 4/25/24- Nyagi
+        public static final RegistryObject<Item>
+                Acetylene_tank = ITEMS.register("acetylene_tank", () -> new AcetyleneTankItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+        //OSHA Approved Gear added 4/25/24- Nyagi
+        public static final RegistryObject<Item>
+                OSHA_Approved_Gear = ITEMS.register("osha_approved_gear", () -> new OSHAApprovedGearItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+        //Crate Of Industrial Components added 4/25/24- Nyagi
+        public static final RegistryObject<Item>
+                Crate_Of_Industrial_Components = ITEMS.register("crate_of_industrial_components", () -> new CrateOfIndustrialComponentsItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+        //High Strength Concrete added 4/25/24- Nyagi
+        public static final RegistryObject<Item>
+                High_Strength_Concrete = ITEMS.register("high_strength_concrete", () -> new HighStrengthConcreteItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
 
     //Blank Rune added 3/8/24 - Nyagi
     public static final RegistryObject<Item>
