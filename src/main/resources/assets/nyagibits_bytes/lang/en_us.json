@@ -76,6 +76,13 @@
   "item.nyagibits_bytes.steel_high_carbon_1080": "1080 - High Carbon Steel",
   "item.nyagibits_bytes.steel_high_carbon_15n20": "15N20 - High Carbon Steel",
   "item.nyagibits_bytes.steel_stainless": "Stainless Steel",
+  "item.nyagibits_bytes.aluminum_trichloride": "Aluminum Trichloride",
+  "item.nyagibits_bytes.toluene": "Toluene",
+  "item.nyagibits_bytes.mononitrotoluene": "Mononitrotoluene",
+  "item.nyagibits_bytes.dinitrotoluene": "Dinitrotoluene",
+  "item.nyagibits_bytes.trinitrotoluene": "2-4-6 Trinitrotoluene",
+  "item.nyagibits_bytes.methyl_chloride": "Methyl Chloride",
+  "item.nyagibits_bytes.oleum": "Oleum",
 
   "item.nyagibits_bytes.lab_notebook": "Lab Notebook",
     "item.nyagibits_bytes.lab_notebook_with_crude_compression_data": "Lab Notebook With Crude Compression Data",
