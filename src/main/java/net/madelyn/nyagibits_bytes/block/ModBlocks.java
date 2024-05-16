@@ -68,6 +68,60 @@ public class ModBlocks {
             requiresCorrectToolForDrops()),
             ModCreativeModeTab.NYAGIBITS_BYTES_BLOCKS);
 
+    //Pulp added 5/16/24 - Nyagi
+    public static final RegistryObject<Block> Pulp = registerBlock("pulp", () -> new Block(BlockBehaviour.Properties.of
+                            (Material.SPONGE).
+                    strength(1f)),
+            ModCreativeModeTab.NYAGIBITS_BYTES_BLOCKS);
+
+    //Steel Casing added 5/16/24 - Nyagi
+    public static final RegistryObject<Block> Steel_Casing = registerBlock("steel_casing", () -> new Block(BlockBehaviour.Properties.of
+                            (Material.METAL).
+                    strength(4f).
+            requiresCorrectToolForDrops()),
+            ModCreativeModeTab.NYAGIBITS_BYTES_BLOCKS);
+
+    //Mana Infused Casing added 5/16/24 - Nyagi
+    public static final RegistryObject<Block> Mana_Infused_Casing = registerBlock("mana_infused_casing", () -> new Block(BlockBehaviour.Properties.of
+                            (Material.METAL).
+                    strength(4f).
+            requiresCorrectToolForDrops()),
+            ModCreativeModeTab.NYAGIBITS_BYTES_BLOCKS);
+
+    //Slushy Ice added 5/16/24 - Nyagi
+    public static final RegistryObject<Block> Slushy_Ice = registerBlock("slushy_ice", () -> new Block(BlockBehaviour.Properties.of
+                            (Material.ICE).
+                    strength(1f)),
+            ModCreativeModeTab.NYAGIBITS_BYTES_BLOCKS);
+
+    //Damascus Steel Block added 5/16/24 - Nyagi
+    public static final RegistryObject<Block> Block_of_Damascus_Steel = registerBlock("block_of_damascus_steel", () -> new Block(BlockBehaviour.Properties.of
+                            (Material.METAL).
+                    strength(4f).
+                    requiresCorrectToolForDrops()),
+            ModCreativeModeTab.NYAGIBITS_BYTES_BLOCKS);
+
+    //1080 High Carbon Steel Block added 5/16/24 - Nyagi
+    public static final RegistryObject<Block> Block_of_1080_High_Carbon_Steel = registerBlock("block_of_1080_high_carbon_steel", () -> new Block(BlockBehaviour.Properties.of
+                            (Material.METAL).
+                    strength(4f).
+                    requiresCorrectToolForDrops()),
+            ModCreativeModeTab.NYAGIBITS_BYTES_BLOCKS);
+
+    //15N20 High Carbon Steel Block added 5/16/24 - Nyagi
+    public static final RegistryObject<Block> Block_of_15n20_High_Carbon_Steel = registerBlock("block_of_15n20_high_carbon_steel", () -> new Block(BlockBehaviour.Properties.of
+                            (Material.METAL).
+                    strength(4f).
+                    requiresCorrectToolForDrops()),
+            ModCreativeModeTab.NYAGIBITS_BYTES_BLOCKS);
+
+    //Stainless Steel Block added 5/16/24 - Nyagi
+    public static final RegistryObject<Block> Block_of_Stainless_Steel = registerBlock("block_of_stainless_steel", () -> new Block(BlockBehaviour.Properties.of
+                            (Material.METAL).
+                    strength(4f).
+                    requiresCorrectToolForDrops()),
+            ModCreativeModeTab.NYAGIBITS_BYTES_BLOCKS);
+
     //ORE BLOCKS
     //Iron Related added 11/10/23 - Nyagi
         //Conglomerate Iron Ore

@@ -1,14 +1,20 @@
 {
-  "type" : "minecraft:block",
-  "pools" : [
+  "type": "minecraft:block",
+  "pools": [
     {
-      "rolls" : 1,
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
       "entries": [
         {
           "type": "minecraft:item",
           "name": "nyagibits_bytes:etched_living_wood"
         }
-      ]
+      ],
+      "rolls": 1.0
     }
   ]
 }

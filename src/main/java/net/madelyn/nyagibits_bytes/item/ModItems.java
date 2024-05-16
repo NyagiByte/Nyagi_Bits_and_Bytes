@@ -262,6 +262,27 @@ public class ModItems {
     //Stainless Steel added 5/13/24- Nyagi
     public static final RegistryObject<Item>
             Steel_Stainless = ITEMS.register("steel_stainless", () -> new SteelStainlessItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Aluminum Trichloride added 5/16/24- Nyagi
+    public static final RegistryObject<Item>
+            Aluminum_Trichloride = ITEMS.register("aluminum_trichloride", () -> new AluminumTrichlorideItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Toluene added 5/16/24- Nyagi
+    public static final RegistryObject<Item>
+            Toluene = ITEMS.register("toluene", () -> new TolueneItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Mononitrotoluene added 5/16/24- Nyagi
+    public static final RegistryObject<Item>
+            Mononitrotoluene = ITEMS.register("mononitrotoluene", () -> new MononitrotolueneItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Dinitrotoluene added 5/16/24- Nyagi
+    public static final RegistryObject<Item>
+            Dinitrotoluene = ITEMS.register("dinitrotoluene", () -> new DinitrotolueneItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //2-4-6 Trinitrotoluene added 5/16/24- Nyagi
+    public static final RegistryObject<Item>
+            Trinitrotoluene = ITEMS.register("trinitrotoluene", () -> new TrinitrotolueneItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Methyl Chloride added 5/16/24- Nyagi
+    public static final RegistryObject<Item>
+            Methyl_Chloride = ITEMS.register("methyl_chloride", () -> new MethylChlorideItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Oleum added 5/16/24- Nyagi
+    public static final RegistryObject<Item>
+            Oleum = ITEMS.register("oleum", () -> new OleumItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
 
     //Ae2 Assembly added 8/10/23 - Nyagi
     public static final RegistryObject<Item>
