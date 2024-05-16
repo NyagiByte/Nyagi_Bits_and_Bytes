@@ -4,6 +4,12 @@
     "nyagibits_bytes:livisite_stone",
     "nyagibits_bytes:livisite_cobble",
     "nyagibits_bytes:polished_livisite",
-    "nyagibits_bytes:flake"
+    "nyagibits_bytes:flake",
+    "nyagibits_bytes:steel_casing",
+    "nyagibits_bytes:mana_infused_casing",
+    "nyagibits_bytes:block_of_damascus_steel",
+    "nyagibits_bytes:block_of_1080_high_carbon_steel",
+    "nyagibits_bytes:block_of_15n20_high_carbon_steel",
+    "nyagibits_bytes:block_of_stainless_steel"
   ]
 }

@@ -1,14 +1,21 @@
+
 {
-  "type" : "minecraft:block",
-  "pools" : [
+  "type": "minecraft:block",
+  "pools": [
     {
-      "rolls" : 1,
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
       "entries": [
         {
           "type": "minecraft:item",
           "name": "nyagibits_bytes:livisite_cobble"
         }
-      ]
+      ],
+      "rolls": 1.0
     }
   ]
 }
