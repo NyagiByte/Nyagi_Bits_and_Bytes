@@ -641,8 +641,11 @@ public class ModBlocks {
 
     //Fluids
         //Wood Alcohol
+        /*
         public static final RegistryObject<Block> SOAP_WATER_BLOCK = BLOCKS.register("soap_water_block",
             () -> new LiquidBlock(ModFluids.SOURCE_SOAP_WATER, BlockBehaviour.Properties.copy(Blocks.WATER)));
+        */
+
         //Hydrocarbon Tar
     //--------------------------------------------------------------------------------------
     // DO NOT TOUCH BELOW
