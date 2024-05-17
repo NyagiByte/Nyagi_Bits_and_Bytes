@@ -33,7 +33,7 @@ public class NyagiBits_Bytes {
         //Register adds fluid types
         ModFluidTypes.register(modEventBus);
         //Register adds fluid
-        ModFluids.register(modEventBus);
+        //ModFluids.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
