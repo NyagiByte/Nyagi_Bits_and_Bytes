@@ -45,6 +45,12 @@ public class ModItems {
         //Tier 1 Golden Strawberry added 2/21/23 - Nyagi
         public static final RegistryObject<Item>
             Golden_Tier_One_Strawberry = ITEMS.register("golden_tier_one_strawberry", () -> new TierOneGoldenStrawberryItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Tier 2 Strawberry added 5/16/23 - Nyagi
+    public static final RegistryObject<Item>
+            Tier_Two_Strawberry = ITEMS.register("tier_two_strawberry", () -> new TierTwoStrawberryItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+        //Tier 2 Golden Strawberry added 5/16/23 - Nyagi
+        public static final RegistryObject<Item>
+            Golden_Tier_Two_Strawberry = ITEMS.register("golden_tier_two_strawberry", () -> new TierTwoGoldenStrawberryItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
 
     //Livisite Alloy added 7/11/23 - Nyagi
     public static final RegistryObject<Item>
