@@ -4,8 +4,8 @@ package net.madelyn.nyagibits_bytes;
 
 import com.mojang.logging.LogUtils;
 import net.madelyn.nyagibits_bytes.block.ModBlocks;
-import net.madelyn.nyagibits_bytes.fluid.ModFluidTypes;
-import net.madelyn.nyagibits_bytes.fluid.ModFluids;
+//import net.madelyn.nyagibits_bytes.fluid.ModFluidTypes;
+//import net.madelyn.nyagibits_bytes.fluid.ModFluids;
 import net.madelyn.nyagibits_bytes.item.ModItems;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -31,7 +31,7 @@ public class NyagiBits_Bytes {
         //Register adds blocks
         ModBlocks.register(modEventBus);
         //Register adds fluid types
-        ModFluidTypes.register(modEventBus);
+        //ModFluidTypes.register(modEventBus);
         //Register adds fluid
         //ModFluids.register(modEventBus);
 

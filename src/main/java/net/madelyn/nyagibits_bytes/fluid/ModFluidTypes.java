@@ -1,17 +1,17 @@
-package net.madelyn.nyagibits_bytes.fluid;
+// package net.madelyn.nyagibits_bytes.fluid;
 
-import com.mojang.math.Vector3f;
-import net.madelyn.nyagibits_bytes.NyagiBits_Bytes;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.sounds.SoundEvents;
-import net.minecraftforge.common.SoundAction;
-import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.fluids.FluidType;
-import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.registries.RegistryObject;
+// import com.mojang.math.Vector3f;
+// import net.madelyn.nyagibits_bytes.NyagiBits_Bytes;
+// import net.minecraft.resources.ResourceLocation;
+// import net.minecraft.sounds.SoundEvents;
+// import net.minecraftforge.common.SoundAction;
+// import net.minecraftforge.eventbus.api.IEventBus;
+// import net.minecraftforge.fluids.FluidType;
+// import net.minecraftforge.registries.DeferredRegister;
+// import net.minecraftforge.registries.ForgeRegistries;
+// import net.minecraftforge.registries.RegistryObject;
 
-public class ModFluidTypes {
+/*public class ModFluidTypes {
     public static final ResourceLocation WATER_STILL_RL = new ResourceLocation("block/water_still");
     public static final ResourceLocation WATER_FLOWING_RL = new ResourceLocation("block/water_flow");
     public static final ResourceLocation SOAP_OVERLAY_RL = new ResourceLocation(NyagiBits_Bytes.MOD_ID, "misc/in_soap_water");
@@ -28,4 +28,4 @@ public class ModFluidTypes {
     public static void register(IEventBus eventBus) {
         FLUID_TYPES.register(eventBus);
     }
-}
+}*/

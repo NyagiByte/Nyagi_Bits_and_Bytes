@@ -1,7 +1,7 @@
 package net.madelyn.nyagibits_bytes.block;
 
 import net.madelyn.nyagibits_bytes.NyagiBits_Bytes;
-import net.madelyn.nyagibits_bytes.fluid.ModFluids;
+//import net.madelyn.nyagibits_bytes.fluid.ModFluids;
 import net.madelyn.nyagibits_bytes.item.ModCreativeModeTab;
 import net.madelyn.nyagibits_bytes.item.ModItems;
 import net.minecraft.world.item.BlockItem;

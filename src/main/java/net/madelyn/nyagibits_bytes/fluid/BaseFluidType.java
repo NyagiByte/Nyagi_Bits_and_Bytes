@@ -1,4 +1,4 @@
-package net.madelyn.nyagibits_bytes.fluid;
+/* package net.madelyn.nyagibits_bytes.fluid;
 
 import com.mojang.blaze3d.shaders.FogShape;
 import com.mojang.blaze3d.systems.RenderSystem;
@@ -82,3 +82,4 @@ public class BaseFluidType extends FluidType {
         });
     }
 }
+*/
