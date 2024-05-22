@@ -289,6 +289,18 @@ public class ModItems {
     //Oleum added 5/16/24- Nyagi
     public static final RegistryObject<Item>
             Oleum = ITEMS.register("oleum", () -> new OleumItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Chromium Trioxide added 5/22/24- Nyagi
+    public static final RegistryObject<Item>
+            Chromium_Trioxide = ITEMS.register("chromium_trioxide", () -> new ChromiumTrioxideItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Ethylene Oxide added 5/22/24- Nyagi
+    public static final RegistryObject<Item>
+            Ethylene_Oxide = ITEMS.register("ethylene_oxide", () -> new EthyleneOxideItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Benzyl Alcohol added 5/22/24- Nyagi
+    public static final RegistryObject<Item>
+            Benzyl_Alcohol = ITEMS.register("benzyl_alcohol", () -> new BenzylAlcoholItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //2-Phenoxyethanol added 5/22/24- Nyagi
+    public static final RegistryObject<Item>
+            Two_Phenoxyethanol = ITEMS.register("2_phenoxyethanol", () -> new TwoPhenoxyethanolItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
 
     //Ae2 Assembly added 8/10/23 - Nyagi
     public static final RegistryObject<Item>

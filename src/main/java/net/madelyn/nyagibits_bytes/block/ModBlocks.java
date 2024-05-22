@@ -1,15 +1,12 @@
 package net.madelyn.nyagibits_bytes.block;
 
 import net.madelyn.nyagibits_bytes.NyagiBits_Bytes;
-//import net.madelyn.nyagibits_bytes.fluid.ModFluids;
 import net.madelyn.nyagibits_bytes.item.ModCreativeModeTab;
 import net.madelyn.nyagibits_bytes.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.LiquidBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -639,14 +636,7 @@ public class ModBlocks {
                     requiresCorrectToolForDrops()),
             ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS);
 
-    //Fluids
-        //Wood Alcohol
-        /*
-        public static final RegistryObject<Block> SOAP_WATER_BLOCK = BLOCKS.register("soap_water_block",
-            () -> new LiquidBlock(ModFluids.SOURCE_SOAP_WATER, BlockBehaviour.Properties.copy(Blocks.WATER)));
-        */
 
-        //Hydrocarbon Tar
     //--------------------------------------------------------------------------------------
     // DO NOT TOUCH BELOW
     //--------------------------------------------------------------------------------------

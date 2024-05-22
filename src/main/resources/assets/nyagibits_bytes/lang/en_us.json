@@ -84,6 +84,10 @@
   "item.nyagibits_bytes.trinitrotoluene": "2-4-6 Trinitrotoluene",
   "item.nyagibits_bytes.methyl_chloride": "Methyl Chloride",
   "item.nyagibits_bytes.oleum": "Oleum",
+  "item.nyagibits_bytes.chromium_trioxide": "Chromium Trioxide",
+  "item.nyagibits_bytes.ethylene_oxide": "Ethylene Oxide",
+  "item.nyagibits_bytes.benzyl_alcohol": "Benzyl Alcohol",
+  "item.nyagibits_bytes.2_phenoxyethanol": "2-Phenoxyethanol",
 
   "item.nyagibits_bytes.lab_notebook": "Lab Notebook",
     "item.nyagibits_bytes.lab_notebook_with_crude_compression_data": "Lab Notebook With Crude Compression Data",
