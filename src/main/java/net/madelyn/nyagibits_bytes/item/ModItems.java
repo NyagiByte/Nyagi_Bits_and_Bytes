@@ -301,6 +301,48 @@ public class ModItems {
     //2-Phenoxyethanol added 5/22/24- Nyagi
     public static final RegistryObject<Item>
             Two_Phenoxyethanol = ITEMS.register("2_phenoxyethanol", () -> new TwoPhenoxyethanolItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Low Voltage Capacitor added 6/5/24- Nyagi
+    public static final RegistryObject<Item>
+            Low_Voltage_Capacitor = ITEMS.register("low_voltage_capacitor", () -> new LowVoltageCapacitorItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Threaded Composite Leather added 6/5/24- Nyagi
+    public static final RegistryObject<Item>
+            Threaded_Composite_Leather = ITEMS.register("threaded_composite_leather", () -> new ThreadedCompositeLeatherItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Industrial Composite Plate added 6/5/24- Nyagi
+    public static final RegistryObject<Item>
+            Industrial_Composite_Plate = ITEMS.register("industrial_composite_plate", () -> new IndustrialCompositePlateItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Lead-Acid Cell added 6/5/24- Nyagi
+    public static final RegistryObject<Item>
+            Lead_Acid_Cell = ITEMS.register("lead_acid_cell", () -> new LeadAcidCellItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Heavy Plating added 6/5/24- Nyagi
+    public static final RegistryObject<Item>
+            Heavy_Plating = ITEMS.register("heavy_plating", () -> new HeavyPlatingItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Soldering Iron added 6/5/24- Nyagi
+    public static final RegistryObject<Item>
+            Soldering_Iron = ITEMS.register("soldering_iron", () -> new SolderingIronItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Low Temperature Solder added 6/5/24- Nyagi
+    public static final RegistryObject<Item>
+            Low_Temperature_Solder = ITEMS.register("low_temperature_solder", () -> new LowTemperatureSolderItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Ceramic Encased Copper added 6/5/24- Nyagi
+    public static final RegistryObject<Item>
+            Ceramic_Encased_Copper = ITEMS.register("ceramic_encased_copper", () -> new CeramicEncasedCopperItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Hydraulic Hammer added 6/5/24- Nyagi
+    public static final RegistryObject<Item>
+            Hydraulic_Hammer = ITEMS.register("hydraulic_hammer", () -> new HydraulicHammerItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Tempered Glass added 6/5/24- Nyagi
+    public static final RegistryObject<Item>
+            Tempered_Glass = ITEMS.register("tempered_glass", () -> new TemperedGlassItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Annealed Glass added 6/5/24- Nyagi
+    public static final RegistryObject<Item>
+            Annealed_Glass = ITEMS.register("annealed_glass", () -> new AnnealedGlassItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Tungsten Wire added 6/5/24- Nyagi
+    public static final RegistryObject<Item>
+            Tungsten_Wire = ITEMS.register("tungsten_wire", () -> new TungstenWireItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Woven Cloth added 6/5/24- Nyagi
+    public static final RegistryObject<Item>
+            Woven_Cloth = ITEMS.register("woven_cloth", () -> new WovenClothItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Solder Wire added 6/8/24- Nyagi
+    public static final RegistryObject<Item>
+            Solder_Wire = ITEMS.register("solder_wire", () -> new SolderWireItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
 
     //Ae2 Assembly added 8/10/23 - Nyagi
     public static final RegistryObject<Item>
