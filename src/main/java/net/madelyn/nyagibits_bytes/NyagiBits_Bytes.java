@@ -4,7 +4,11 @@ package net.madelyn.nyagibits_bytes;
 
 import com.mojang.logging.LogUtils;
 import net.madelyn.nyagibits_bytes.block.ModBlocks;
+import net.madelyn.nyagibits_bytes.fluid.ModFluidTypes;
+import net.madelyn.nyagibits_bytes.fluid.ModFluids;
 import net.madelyn.nyagibits_bytes.item.ModItems;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -28,6 +32,9 @@ public class NyagiBits_Bytes {
         ModItems.register(modEventBus);
         //Register adds blocks
         ModBlocks.register(modEventBus);
+        //Register adds fluids
+        ModFluids.register(modEventBus);
+        ModFluidTypes.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
@@ -41,6 +48,12 @@ public class NyagiBits_Bytes {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
+            ItemBlockRenderTypes.setRenderLayer(ModFluids.SOURCE_RAW_WOOD_VINEGAR.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModFluids.FLOWING_RAW_WOOD_VINEGAR.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModFluids.SOURCE_PYROLIGNEOUS_ACID.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModFluids.FLOWING_PYROLIGNEOUS_ACID.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModFluids.SOURCE_ACETONE.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModFluids.FLOWING_ACETONE.get(), RenderType.translucent());
         }
     }
 }

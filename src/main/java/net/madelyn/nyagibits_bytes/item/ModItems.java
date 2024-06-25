@@ -1,8 +1,11 @@
 package net.madelyn.nyagibits_bytes.item;
 
 import net.madelyn.nyagibits_bytes.NyagiBits_Bytes;
+import net.madelyn.nyagibits_bytes.fluid.ModFluids;
 import net.madelyn.nyagibits_bytes.item.custom.*;
+import net.minecraft.world.item.BucketItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -1159,6 +1162,39 @@ public class ModItems {
         //Pezzottaite Dust
         public static final RegistryObject<Item>
                     Pezzottaite_Dust = ITEMS.register("pezzottaite_dust", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+
+    //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    //FLUID-ITEMS BELOW
+    //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+    //Hydrocarbon Tar - Added 6/25/24
+    public static final RegistryObject<Item>
+            HYDROCARBON_TAR_BUCKET = ITEMS.register("bucket_of_hydrocarbon_tar", () -> new BucketItem(ModFluids.SOURCE_HYDROCARBON_TAR,
+                    new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_FLUIDS)
+                            .craftRemainder(Items.BUCKET)
+                            .stacksTo(1)));
+
+    //Raw Wood Vinegar - Added 6/25/24
+    public static final RegistryObject<Item>
+            RAW_WOOD_VINEGAR_BUCKET = ITEMS.register("bucket_of_raw_wood_vinegar", () -> new BucketItem(ModFluids.SOURCE_RAW_WOOD_VINEGAR,
+                    new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_FLUIDS)
+                            .craftRemainder(Items.BUCKET)
+                            .stacksTo(1)));
+
+    //Pyroligneous Acid - Added 6/25/24
+    public static final RegistryObject<Item>
+            PYROLIGNEOUS_ACID_BUCKET = ITEMS.register("bucket_of_pyroligneous_acid", () -> new BucketItem(ModFluids.SOURCE_PYROLIGNEOUS_ACID,
+                    new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_FLUIDS)
+                            .craftRemainder(Items.BUCKET)
+                            .stacksTo(1)));
+
+    //Acetone - Added 6/25/24
+    public static final RegistryObject<Item>
+            ACETONE_BUCKET = ITEMS.register("bucket_of_acetone", () -> new BucketItem(ModFluids.SOURCE_ACETONE,
+                    new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_FLUIDS)
+                            .craftRemainder(Items.BUCKET)
+                            .stacksTo(1)));
 
     //--------------------------------------------------------------------------------------
 

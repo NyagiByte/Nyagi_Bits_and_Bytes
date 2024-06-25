@@ -35,6 +35,12 @@ public class ModCreativeModeTab {
             return new ItemStack(ModItems.Raw_Hematite.get());
         }
     };
+    public static final CreativeModeTab NYAGIBITS_BYTES_FLUIDS = new CreativeModeTab("nyagibits_bytes_tab_fluids") {
+        @Override
+        public ItemStack makeIcon() {
+            return new ItemStack(ModItems.HYDROCARBON_TAR_BUCKET.get());
+        }
+    };
     public static final CreativeModeTab NYAGIBITS_BYTES_INCOMPLETE_SEQUENCE_ITEMS = new CreativeModeTab("nyagibits_bytes_tab_incomplete_sequence_items") {
         @Override
         public ItemStack makeIcon() {

@@ -457,6 +457,11 @@
   "item.nyagibits_bytes.rune_corpse": "Corpse Rune",
   "item.nyagibits_bytes.rune_inflaton": "Inflaton Rune",
 
+  "item.nyagibits_bytes.bucket_of_hydrocarbon_tar": "Hydrocarbon Tar Bucket",
+  "item.nyagibits_bytes.bucket_of_raw_wood_vinegar": "Raw Wood Vinegar Bucket",
+  "item.nyagibits_bytes.bucket_of_pyroligneous_acid": "Pyroligneous Acid Bucket",
+  "item.nyagibits_bytes.bucket_of_acetone": "Acetone Bucket",
+
   "item.nyagibits_bytes.incomplete_controller": "Incomplete Controller",
   "item.nyagibits_bytes.incomplete_cell_workbench": "Incomplete Cell Workbench",
   "item.nyagibits_bytes.incomplete_me_item_cell_housing": "Incomplete Me Item Cell Housing",
@@ -504,5 +509,6 @@
   "itemGroup.nyagibits_bytes_tab_science": "Nyagi's Bits & Bytes Science",
   "itemGroup.nyagibits_bytes_tab_schematics": "Nyagi's Bits & Bytes Schematics",
   "itemGroup.nyagibits_bytes_tab_minerals": "Nyagi's Bits & Bytes Minerals",
-  "itemGroup.nyagibits_bytes_tab_incomplete_sequence_items": "NB&B Incomplete Sequence Items"
+  "itemGroup.nyagibits_bytes_tab_incomplete_sequence_items": "NB&B Incomplete Sequence Items",
+  "itemGroup.nyagibits_bytes_tab_fluids": "Nyagi's Bits & Bytes Fluids"
 }

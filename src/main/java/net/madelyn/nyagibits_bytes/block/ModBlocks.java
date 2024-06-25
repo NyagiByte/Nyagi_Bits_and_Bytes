@@ -1,12 +1,15 @@
 package net.madelyn.nyagibits_bytes.block;
 
 import net.madelyn.nyagibits_bytes.NyagiBits_Bytes;
+import net.madelyn.nyagibits_bytes.fluid.ModFluids;
 import net.madelyn.nyagibits_bytes.item.ModCreativeModeTab;
 import net.madelyn.nyagibits_bytes.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.LiquidBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -635,6 +638,28 @@ public class ModBlocks {
                     strength(96f).
                     requiresCorrectToolForDrops()),
             ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS);
+
+    //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    //FLUID-BLOCKS BELOW
+    //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+    //Hydrocarbon Tar - Added 6/25/24
+    public static final RegistryObject<LiquidBlock> HYDROCARBON_TAR_BLOCK = BLOCKS.register("hydrocarbon_tar_block",
+            () -> new LiquidBlock(ModFluids.SOURCE_HYDROCARBON_TAR, BlockBehaviour.Properties.copy(Blocks.WATER)));
+
+    //Raw Wood Vinegar - Added 6/25/24
+    public static final RegistryObject<LiquidBlock> RAW_WOOD_VINEGAR_BLOCK = BLOCKS.register("raw_wood_vinegar_block",
+            () -> new LiquidBlock(ModFluids.SOURCE_RAW_WOOD_VINEGAR, BlockBehaviour.Properties.copy(Blocks.WATER)));
+
+    //Pyroligneous Acid - Added 6/25/24
+    public static final RegistryObject<LiquidBlock> PYROLIGNEOUS_ACID_BLOCK = BLOCKS.register("pyroligneous_acid_block",
+            () -> new LiquidBlock(ModFluids.SOURCE_PYROLIGNEOUS_ACID, BlockBehaviour.Properties.copy(Blocks.WATER)));
+
+    //Acetone - Added 6/25/24
+    public static final RegistryObject<LiquidBlock> ACETONE_BLOCK = BLOCKS.register("acetone_block",
+            () -> new LiquidBlock(ModFluids.SOURCE_ACETONE, BlockBehaviour.Properties.copy(Blocks.WATER)));
+
 
 
     //--------------------------------------------------------------------------------------
