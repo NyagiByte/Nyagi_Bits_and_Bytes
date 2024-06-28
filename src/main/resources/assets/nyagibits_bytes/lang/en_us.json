@@ -407,6 +407,11 @@
   "block.nyagibits_bytes.tectonic_conglomerate_migmamite_ore": "Tectonic Conglomerate Migmamite Ore",
   "block.nyagibits_bytes.core_conglomerate_migmamite_ore": "Core Conglomerate Migmamite Ore",
 
+  "fluid_type.nyagibits_bytes.hydrocarbon_tar_fluid": "Hydrocarbon Tar",
+  "fluid_type.nyagibits_bytes.raw_wood_vinegar_fluid": "Raw Wood Vinegar",
+  "fluid_type.nyagibits_bytes.pyroligneous_acid_fluid": "Pyroligneous Acid",
+  "fluid_type.nyagibits_bytes.acetone_fluid": "Acetone",
+
   "item.nyagibits_bytes.sapphire": "Sapphire",
   "item.nyagibits_bytes.sapphire_dust": "Sapphire Dust",
   "item.nyagibits_bytes.ruby": "Ruby",
