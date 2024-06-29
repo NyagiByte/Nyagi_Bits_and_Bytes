@@ -102,6 +102,11 @@
   "item.nyagibits_bytes.tungsten_wire": "Tungsten Wire",
   "item.nyagibits_bytes.woven_cloth": "Woven Cloth",
   "item.nyagibits_bytes.solder_wire": "Solder Wire",
+  "item.nyagibits_bytes.fluorophlogopite": "Fluorophlogopite",
+  "item.nyagibits_bytes.synthetic_mica": "Synthetic Mica",
+  "item.nyagibits_bytes.tpv_cell": "TPV Cell",
+  "item.nyagibits_bytes.polycrystalline_silicon_carbide": "Polycrystalline Silicon Carbide",
+  "item.nyagibits_bytes.zinc_gallium_antimony_alloy": "Zinc Gallium Antimony Alloy",
 
   "item.nyagibits_bytes.lab_notebook": "Lab Notebook",
     "item.nyagibits_bytes.lab_notebook_with_crude_compression_data": "Lab Notebook With Crude Compression Data",

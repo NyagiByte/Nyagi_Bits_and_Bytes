@@ -346,6 +346,21 @@ public class ModItems {
     //Solder Wire added 6/8/24- Nyagi
     public static final RegistryObject<Item>
             Solder_Wire = ITEMS.register("solder_wire", () -> new SolderWireItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Fluorophlogopite added 6/28/24- Nyagi
+    public static final RegistryObject<Item>
+            Fluorophlogopite = ITEMS.register("fluorophlogopite", () -> new FluorophlogopiteItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Synthetic Mica added 6/28/24- Nyagi
+    public static final RegistryObject<Item>
+        Synthetic_Mica = ITEMS.register("synthetic_mica", () -> new SyntheticMicaItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //TPV Cell added 6/28/24- Nyagi
+    public static final RegistryObject<Item>
+        TPV_Cell = ITEMS.register("tpv_cell", () -> new TPVCellItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Polycrystalline Silicon Carbide added 6/28/24- Nyagi
+    public static final RegistryObject<Item>
+            Polycrystalline_Silicon_Carbide = ITEMS.register("polycrystalline_silicon_carbide", () -> new PolycrystallineSiliconCarbideItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Zinc-Gallium-Antimony Alloy added 6/28/24- Nyagi
+    public static final RegistryObject<Item>
+        Zinc_Gallium_Antimony_Alloy = ITEMS.register("zinc_gallium_antimony_alloy", () -> new ZincGalliumAntimonyAlloyItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
 
     //Ae2 Assembly added 8/10/23 - Nyagi
     public static final RegistryObject<Item>
