@@ -107,6 +107,11 @@
   "item.nyagibits_bytes.tpv_cell": "TPV Cell",
   "item.nyagibits_bytes.polycrystalline_silicon_carbide": "Polycrystalline Silicon Carbide",
   "item.nyagibits_bytes.zinc_gallium_antimony_alloy": "Zinc Gallium Antimony Alloy",
+  "item.nyagibits_bytes.ash": "Ash",
+  "item.nyagibits_bytes.potash": "Potash",
+  "item.nyagibits_bytes.wood_ash": "Wood Ash",
+  "item.nyagibits_bytes.metamorphic_alloy": "Metamorphic Alloy",
+  "item.nyagibits_bytes.ore_extraction_plate": "Ore Extraction Plate",
 
   "item.nyagibits_bytes.lab_notebook": "Lab Notebook",
     "item.nyagibits_bytes.lab_notebook_with_crude_compression_data": "Lab Notebook With Crude Compression Data",

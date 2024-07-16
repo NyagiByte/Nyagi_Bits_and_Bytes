@@ -361,6 +361,21 @@ public class ModItems {
     //Zinc-Gallium-Antimony Alloy added 6/28/24- Nyagi
     public static final RegistryObject<Item>
         Zinc_Gallium_Antimony_Alloy = ITEMS.register("zinc_gallium_antimony_alloy", () -> new ZincGalliumAntimonyAlloyItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Ash  added 7/15/24- Nyagi
+    public static final RegistryObject<Item>
+            Ash = ITEMS.register("ash", () -> new AshItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Potash  added 7/15/24- Nyagi
+    public static final RegistryObject<Item>
+            Potash = ITEMS.register("potash", () -> new PotashItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Wood Ash  added 7/15/24- Nyagi
+    public static final RegistryObject<Item>
+            Wood_Ash = ITEMS.register("wood_ash", () -> new WoodAshItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Metamorphic Alloy  added 7/15/24- Nyagi
+    public static final RegistryObject<Item>
+            Metamorphic_Alloy = ITEMS.register("metamorphic_alloy", () -> new MetamorphicAlloyItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Ore Extraction Plate  added 7/15/24- Nyagi
+    public static final RegistryObject<Item>
+            Ore_Extraction_Plate = ITEMS.register("ore_extraction_plate", () -> new OreExtractionPlateItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
 
     //Ae2 Assembly added 8/10/23 - Nyagi
     public static final RegistryObject<Item>
@@ -1177,6 +1192,9 @@ public class ModItems {
         //Pezzottaite Dust
         public static final RegistryObject<Item>
                     Pezzottaite_Dust = ITEMS.register("pezzottaite_dust", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS)));
+    //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    //Sintered/Polished Tier 1 Items
+    //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
     //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     //FLUID-ITEMS BELOW
