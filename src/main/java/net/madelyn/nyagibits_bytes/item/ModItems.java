@@ -160,6 +160,27 @@ public class ModItems {
     //Endoflame Mush added 3/26/24 - Nyagi
     public static final RegistryObject<Item>
             Endoflame_Mush = ITEMS.register("endoflame_mush", () -> new EndoFlameMushItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Hydroangeas Mush added 7/20/24 - Nyagi
+    public static final RegistryObject<Item>
+            Hydroangeas_Mush = ITEMS.register("hydroangeas_mush", () -> new HydroangeasMushItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Gourmaryllis Mush added 7/20/24 - Nyagi
+    public static final RegistryObject<Item>
+            Gourmaryllis_Mush = ITEMS.register("gourmaryllis_mush", () -> new GourmaryllisMushItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Thermalily Mush added 7/20/24 - Nyagi
+    public static final RegistryObject<Item>
+            Thermalily_Mush = ITEMS.register("thermalily_mush", () -> new ThermalilyMushItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Entropinnyum Mush added 7/20/24 - Nyagi
+    public static final RegistryObject<Item>
+            Entropinnyum_Mush = ITEMS.register("entropinnyum_mush", () -> new EntropinnyumMushItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Munchdew Mush added 7/20/24 - Nyagi
+    public static final RegistryObject<Item>
+            Munchdew_Mush = ITEMS.register("munchdew_mush", () -> new MunchdewMushItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Narslimmus Mush added 7/20/24 - Nyagi
+    public static final RegistryObject<Item>
+            Narslimmus_Mush = ITEMS.register("narslimmus_mush", () -> new NarslimmusMushItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Rosa Arcana Mush added 7/20/24 - Nyagi
+    public static final RegistryObject<Item>
+            Rosa_Arcana_Mush = ITEMS.register("rosa_arcana_mush", () -> new RosaArcanaMushItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
     //Manasteel Lattice added 3/26/24 - Nyagi
     public static final RegistryObject<Item>
             Manasteel_Lattice = ITEMS.register("manasteel_lattice", () -> new ManasteelLatticeItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
