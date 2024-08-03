@@ -119,6 +119,9 @@
   "item.nyagibits_bytes.wood_ash": "Wood Ash",
   "item.nyagibits_bytes.metamorphic_alloy": "Metamorphic Alloy",
   "item.nyagibits_bytes.ore_extraction_plate": "Ore Extraction Plate",
+  "item.nyagibits_bytes.chromatic_compound": "Chromatic Compound",
+  "item.nyagibits_bytes.refined_radiance": "Refined Radiance",
+  "item.nyagibits_bytes.shadow_steel": "Shadow Steel",
 
   "item.nyagibits_bytes.lab_notebook": "Lab Notebook",
     "item.nyagibits_bytes.lab_notebook_with_crude_compression_data": "Lab Notebook With Crude Compression Data",

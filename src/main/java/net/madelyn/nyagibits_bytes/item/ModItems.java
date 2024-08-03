@@ -397,6 +397,15 @@ public class ModItems {
     //Ore Extraction Plate  added 7/15/24- Nyagi
     public static final RegistryObject<Item>
             Ore_Extraction_Plate = ITEMS.register("ore_extraction_plate", () -> new OreExtractionPlateItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Chromatic Compound  added 8/3/24- Barza
+    public static final RegistryObject<Item>
+            Chromatic_Compound = ITEMS.register("chromatic_compound", () -> new ChromaticCompoundItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Refined Radiance  added 8/3/24- Barza
+    public static final RegistryObject<Item>
+            Refined_Radiance = ITEMS.register("refined_radiance", () -> new RefinedRadianceItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+    //Shadow Steel  added 8/3/24- Barza
+    public static final RegistryObject<Item>
+            Shadow_Steel = ITEMS.register("shadow_steel", () -> new ShadowSteelItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
 
     //Ae2 Assembly added 8/10/23 - Nyagi
     public static final RegistryObject<Item>
