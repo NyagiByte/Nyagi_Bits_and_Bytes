@@ -1,24 +1,16 @@
 package net.madelyn.nyagibits_bytes.item.custom;
 
-import com.mojang.math.Vector3d;
-import com.mojang.math.Vector3f;
-import net.minecraft.ChatFormatting;
 import net.minecraft.core.particles.ParticleTypes;
-import net.minecraft.network.chat.Component;
+import net.minecraft.util.Mth;
 import net.minecraft.world.entity.item.ItemEntity;
-import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.phys.Vec3;
-import org.jetbrains.annotations.Nullable;
-import net.minecraft.util.Mth;
 
-import java.util.List;
+public class LevitatingItem extends CustomTooltipItem{
 
-public class ShadowSteelItem extends Item {
-    public ShadowSteelItem(Properties prop){
-        super(prop); //Make it bounce back up somewhat harder.
+    public LevitatingItem(Properties properties) {
+        super(properties);
     }
 
     @Override //This makes the item float. Can also have some fiendish fun by using entity.setDeltaMovement()
@@ -39,11 +31,4 @@ public class ShadowSteelItem extends Item {
         return false;
     }
 
-    @Override
-    public void appendHoverText(ItemStack stack, @Nullable Level level, List<Component> components, TooltipFlag flag) {
-        components.add(Component.literal("A chromatic material forged").withStyle(ChatFormatting.GRAY));
-        components.add(Component.literal("from the essence of where").withStyle(ChatFormatting.GRAY));
-        components.add(Component.literal("light can never shine").withStyle(ChatFormatting.GRAY));
-        super.appendHoverText(stack, level, components, flag);
-    }
 }

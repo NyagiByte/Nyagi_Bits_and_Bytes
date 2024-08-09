@@ -17,9 +17,9 @@ public class CustomTooltipItem extends Item {
 
     @Override
     public void appendHoverText(ItemStack stack, @Nullable Level level, List<Component> components, TooltipFlag flag) {
-        components.add(Component.translatable("item." +
-                ForgeRegistries.ITEMS.getResourceKey(this).get().location().toString().replace(':', '.') +
-                ".desc").withStyle(ChatFormatting.GRAY));
+        Component desc = Component.translatable("item." +
+                ForgeRegistries.ITEMS.getResourceKey(this).get().location().toString().replace(':', '.') + ".desc");
+        for(String line : desc.getString().split("\n")) components.add(Component.literal(line).withStyle(ChatFormatting.GRAY));
         super.appendHoverText(stack, level, components, flag);
     }
 }
