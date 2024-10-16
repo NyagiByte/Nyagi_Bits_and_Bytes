@@ -1,4 +1,7 @@
 {
+  "item.nyagibits_bytes.inert_god_heart": "Inert God Heart",
+  "item.nyagibits_bytes.inert_god_heart.desc": "It's... so much colder",
+
   "item.nyagibits_bytes.tier_zero_strawberry": "Tier Zero Strawberry",
   "item.nyagibits_bytes.tier_zero_strawberry.desc": "A Stone Berry",
   "item.nyagibits_bytes.golden_tier_zero_strawberry": "Golden Tier Zero Strawberry",
@@ -347,7 +350,7 @@
   "item.nyagibits_bytes.wd_40": "WD-40",
   "item.nyagibits_bytes.wd_40.desc": "Can't get it open? Spray the nozzle\nwith a second smaller can of WD40",
   "item.nyagibits_bytes.triple_bay_4s_series_toolbox": "79' x 28' TRIPLE-BAY 4s SERIES TOOLBOX",
-  "item.nyagibits_bytes.triple_bay_4s_series_toolbox.desc": "Features and benefits\\nMADE IN THE USA. Every 4s series toolbox is manufactured in Jamestown, NY using domestic and global materials\\nSUPERIOR CONSTRUCTION. Matco's T-shaped center shelf is fully welded to all sides making it the most durable and secure toolbox on the market\\nINTEGRATED POWER. Power drawer includes a holster for tool charging and front convenience power is standard on each toolbox (110V and USB)\\nMAKE IT UNIQUE. Choose from 12 paint colors and 6 trim colors to customize your toolbox\\nPREMIUM HANDLES. Aluminum overwrap handles are easy to grip and protect drawer top from scratches\\nADDITIONAL STORAGE. Increase storage capacity by adding a top drawer, hutch, half chest, or side locker\\nHEAVY LOAD CAPACITY. Drawer slides are rated to hold up to 140 lbs. and each caster is rated up to 900 lbs",
+  "item.nyagibits_bytes.triple_bay_4s_series_toolbox.desc": "Features and benefits\nMADE IN THE USA. Every 4s series toolbox is manufactured in Jamestown, NY using domestic and global materials\nSUPERIOR CONSTRUCTION. Matco's T-shaped center shelf is fully welded to all sides making it the most durable and secure toolbox on the market\nINTEGRATED POWER. Power drawer includes a holster for tool charging and front convenience power is standard on each toolbox (110V and USB)\nMAKE IT UNIQUE. Choose from 12 paint colors and 6 trim colors to customize your toolbox\nPREMIUM HANDLES. Aluminum overwrap handles are easy to grip and protect drawer top from scratches\nADDITIONAL STORAGE. Increase storage capacity by adding a top drawer, hutch, half chest, or side locker\nHEAVY LOAD CAPACITY. Drawer slides are rated to hold up to 140 lbs. and each caster is rated up to 900 lbs",
   "item.nyagibits_bytes.acetylene_tank": "Acetylene Tank",
   "item.nyagibits_bytes.acetylene_tank.desc": "Surprisingly this explosive and\nludicrously flammable gas only\nhas a zero on health hazard. Yum",
   "item.nyagibits_bytes.osha_approved_gear": "OSHA Approved Gear",
