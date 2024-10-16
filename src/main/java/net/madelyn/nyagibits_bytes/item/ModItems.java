@@ -38,7 +38,7 @@ public class ModItems {
 
     //Inert God Heart 10/14/24 - Nyagi
     public static final RegistryObject<Item>
-            Inert_God_Heart = ITEMS.register("inert_god_heart", () -> new CustomTooltipItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
+            Inert_God_Heart = ITEMS.register("inert_god_heart", () -> new CuriosRingItem(new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS)));
 
     //Tier 0 Strawberry added 2/21/23 - Nyagi
     public static final RegistryObject<Item>
