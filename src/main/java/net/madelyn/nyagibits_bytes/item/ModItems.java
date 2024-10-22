@@ -1,13 +1,18 @@
 package net.madelyn.nyagibits_bytes.item;
 
+import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.function.Supplier;
 import net.madelyn.nyagibits_bytes.NyagiBits_Bytes;
 import net.madelyn.nyagibits_bytes.fluid.ModFluids;
 import net.madelyn.nyagibits_bytes.item.custom.*;
 import net.minecraft.world.item.BucketItem;
+import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.level.material.Fluid;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -16,6 +21,10 @@ import net.minecraftforge.registries.RegistryObject;
 public class ModItems {
   public static final DeferredRegister<Item> ITEMS =
       DeferredRegister.create(ForgeRegistries.ITEMS, NyagiBits_Bytes.MOD_ID);
+
+  // For our dynamic item registration
+  public static final Map<String, RegistryObject<Item>> ITEM_MAP =
+      new HashMap<>();
 
   /*
    * SUPPLIERS
@@ -51,6 +60,10 @@ public class ModItems {
       -> new Item(new Item.Properties().tab(
           ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS));
 
+  private static final Supplier<Item> levitatingItem = ()
+      -> new Item(
+          new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS));
+
   private static final Supplier<Item> customOre = ()
       -> new CustomOreItem(new Item.Properties().tab(
           ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS));
@@ -58,23 +71,30 @@ public class ModItems {
   // Prepends "SOURCE_" to the fluid name to dynamically generate source names
   private static Supplier<Item> bucket(String fluidName) {
     try {
-      return ()
-                 -> new BucketItem(
-                     (Fluid)ModFluids.class
-                         .getDeclaredField("SOURCE_" + fluidName.toUpperCase())
-                         .get(null),
-                     new Item.Properties()
-                         .tab(ModCreativeModeTab.NYAGIBITS_BYTES_FLUIDS)
-                         .craftRemainder(Items.BUCKET)
-                         .stacksTo(1));
+      return () -> {
+        try {
+          return new BucketItem(
+              (Fluid)ModFluids
+                  .class.getDeclaredField("SOURCE_" + fluidName.toUpperCase())
+                  .get(null),
+              new Item.Properties()
+                  .tab(ModCreativeModeTab.NYAGIBITS_BYTES_FLUIDS)
+                  .craftRemainder(Items.BUCKET)
+                  .stacksTo(1));
+        } catch (IllegalAccessException e) {
+          throw new RuntimeException(e);
+        } catch (NoSuchFieldException e) {
+          throw new RuntimeException(e);
+        }
+      };
     } catch (Exception e) {
       throw new RuntimeException("Error creating bucket for: " + fluidName, e);
     }
   }
 
-  private static final ModCreativeModeTab items =
+  private static final CreativeModeTab items =
       ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS;
-  private static final ModCreativeModeTab fluids =
+  private static final CreativeModeTab fluids =
       ModCreativeModeTab.NYAGIBITS_BYTES_FLUIDS;
 
   /*
@@ -83,10 +103,12 @@ public class ModItems {
 
   // Just calls ITEMS.register on our supplied item, filling in whichever
   // creative tab we want
-  private static RegistryObject<Item> registerItem(String name,
-                                                   Supplier<Item> itemSupplier,
-                                                   ModCreativeModeTab tab) {
-    return ITEMS.register(name, () -> itemSupplier.get().tab(tab));
+  private static RegistryObject<Item>
+  registerItem(String name, Supplier<Item> itemSupplier, CreativeModeTab tab) {
+    RegistryObject<Item> registeredItem =
+        ITEMS.register(name, () -> itemSupplier.get());
+    ITEM_MAP.put(name, registeredItem);
+    return registeredItem;
   }
 
   // "snake_case_name" -> ["snake", "case", "name"] -> ["Snake", "Case",
@@ -137,8 +159,7 @@ public class ModItems {
       // Pile of Cogs added 7/11/23 - Nyagi
       new String[] {"pile_of_cogs", "customTooltip", "items"},
       // Pile of Crude Mechanical Parts added 7/11/23 - Nyagi
-      new String[] {"pile_of_crude_mechanical_parts", "customTooltip",
-                    "items"},
+      new String[] {"pile_of_crude_mechanical_parts", "customTooltip", "items"},
       // Soil Sample added 7/25/23 - Nyagi
       new String[] {"soil_sample", "customTooltip", "items"},
       // Sturdy Box added 7/25/23 - Nyagi
@@ -162,15 +183,18 @@ public class ModItems {
       // Calculation Dud added 8/10/23 - Nyagi
       new String[] {"calculation_dud", "customTooltip", "items"},
       // Incomplete Calculation Dud added 2/21/24 - Nyagi
-      new String[] {"incomplete_calculation_dud", "customTooltip", "incompleteItem"},
+      new String[] {"incomplete_calculation_dud", "customTooltip",
+                    "incompleteItem"},
       // Engineering Dud added 8/10/23 - Nyagi
       new String[] {"engineering_dud", "customTooltip", "items"},
       // Incomplete Engineering Dud added 2/21/24 - Nyagi
-      new String[] {"incomplete_engineering_dud", "customTooltip", "incompleteItem"},
+      new String[] {"incomplete_engineering_dud", "customTooltip",
+                    "incompleteItem"},
       // Bottle of Anthocyanin added 8/27/23 - Nyagi
       new String[] {"bottle_of_anthocyanin", "customTooltip", "items"},
       // Bottle of Malic & Citric Acid added 8/27/23 - Nyagi
-      new String[] {"bottle_of_malic_and_citric_acid", "customTooltip", "items"},
+      new String[] {"bottle_of_malic_and_citric_acid", "customTooltip",
+                    "items"},
       // Chemistry Rack added 8/27/23 - Nyagi
       new String[] {"chemistry_rack", "customTooltip", "items"},
       // Basic Composite Material added 8/27/23 - Nyagi
@@ -344,7 +368,8 @@ public class ModItems {
       // TPV Cell added 6/28/24 - Nyagi
       new String[] {"tpv_cell", "customTooltip", "items"},
       // Polycrystalline Silicon Carbide added 6/28/24 - Nyagi
-      new String[] {"polycrystalline_silicon_carbide", "customTooltip", "items"},
+      new String[] {"polycrystalline_silicon_carbide", "customTooltip",
+                    "items"},
       // Zinc-Gallium-Antimony Alloy added 6/28/24 - Nyagi
       new String[] {"zinc_gallium_antimony_alloy", "customTooltip", "items"},
       // Ash added 7/15/24 - Nyagi
@@ -384,77 +409,108 @@ public class ModItems {
       // Incomplete Controller added 2/20/24 - Nyagi
       new String[] {"incomplete_controller", "customTooltip", "incompleteItem"},
       // Incomplete Cell Workbench added 2/20/24 - Nyagi
-      new String[] {"incomplete_cell_workbench", "customTooltip", "incompleteItem"},
+      new String[] {"incomplete_cell_workbench", "customTooltip",
+                    "incompleteItem"},
       // Incomplete ME Item Cell Housing added 2/20/24 - Nyagi
-      new String[] {"incomplete_me_item_cell_housing", "customTooltip", "incompleteItem"},
+      new String[] {"incomplete_me_item_cell_housing", "customTooltip",
+                    "incompleteItem"},
       // Incomplete Charged Quartz Fixture added 2/20/24 - Nyagi
-      new String[] {"incomplete_charged_quartz_fixture", "customTooltip", "incompleteItem"},
+      new String[] {"incomplete_charged_quartz_fixture", "customTooltip",
+                    "incompleteItem"},
       // Incomplete Skystone Tank added 2/20/24 - Nyagi
-      new String[] {"incomplete_skystone_tank", "customTooltip", "incompleteItem"},
+      new String[] {"incomplete_skystone_tank", "customTooltip",
+                    "incompleteItem"},
       // Incomplete ME Interface added 2/20/24 - Nyagi
-      new String[] {"incomplete_me_interface", "customTooltip", "incompleteItem"},
+      new String[] {"incomplete_me_interface", "customTooltip",
+                    "incompleteItem"},
       // Incomplete Charger added 2/20/24 - Nyagi
       new String[] {"incomplete_charger", "customTooltip", "incompleteItem"},
       // Incomplete 1k ME Storage Component added 2/20/24 - Nyagi
-      new String[] {"incomplete_onek_me_storage_component", "customTooltip", "incompleteItem"},
+      new String[] {"incomplete_onek_me_storage_component", "customTooltip",
+                    "incompleteItem"},
       // Incomplete Inscriber added 2/20/24 - Nyagi
       new String[] {"incomplete_inscriber", "customTooltip", "incompleteItem"},
       // Incomplete Fluix ME Glass Cable added 2/20/24 - Nyagi
-      new String[] {"incomplete_fluix_me_glass_cable", "customTooltip", "incompleteItem"},
+      new String[] {"incomplete_fluix_me_glass_cable", "customTooltip",
+                    "incompleteItem"},
       // Incomplete Fluix ME Smart Cable added 2/20/24 - Nyagi
-      new String[] {"incomplete_fluix_me_smart_cable", "customTooltip", "incompleteItem"},
+      new String[] {"incomplete_fluix_me_smart_cable", "customTooltip",
+                    "incompleteItem"},
       // Incomplete Fluix ME Dense Smart Cable added 2/20/24 - Nyagi
-      new String[] {"incomplete_fluix_me_dense_smart_cable", "customTooltip", "incompleteItem"},
+      new String[] {"incomplete_fluix_me_dense_smart_cable", "customTooltip",
+                    "incompleteItem"},
       // Incomplete ME Drive added 2/20/24 - Nyagi
       new String[] {"incomplete_me_drive", "customTooltip", "incompleteItem"},
       // Incomplete ME Chest added 2/21/24 - Nyagi
       new String[] {"incomplete_me_chest", "customTooltip", "incompleteItem"},
       // Incomplete Vibration Chamber added 2/21/24 - Nyagi
-      new String[] {"incomplete_vibration_chamber", "customTooltip", "incompleteItem"},
+      new String[] {"incomplete_vibration_chamber", "customTooltip",
+                    "incompleteItem"},
       // Incomplete Light Detecting Fixture added 2/21/24 - Nyagi
-      new String[] {"incomplete_light_detecting_fixture", "customTooltip", "incompleteItem"},
+      new String[] {"incomplete_light_detecting_fixture", "customTooltip",
+                    "incompleteItem"},
       // Incomplete Illuminated Panel added 2/21/24 - Nyagi
-      new String[] {"incomplete_illuminated_panel", "customTooltip", "incompleteItem"},
+      new String[] {"incomplete_illuminated_panel", "customTooltip",
+                    "incompleteItem"},
       // Incomplete ME Storage Bus added 2/21/24 - Nyagi
-      new String[] {"incomplete_me_storage_bus", "customTooltip", "incompleteItem"},
+      new String[] {"incomplete_me_storage_bus", "customTooltip",
+                    "incompleteItem"},
       // Incomplete ME Import Bus added 2/21/24 - Nyagi
-      new String[] {"incomplete_me_import_bus", "customTooltip", "incompleteItem"},
+      new String[] {"incomplete_me_import_bus", "customTooltip",
+                    "incompleteItem"},
       // Incomplete ME Export Bus added 2/21/24 - Nyagi
-      new String[] {"incomplete_me_export_bus", "customTooltip", "incompleteItem"},
+      new String[] {"incomplete_me_export_bus", "customTooltip",
+                    "incompleteItem"},
       // Incomplete ME Level Emitter added 2/21/24 - Nyagi
-      new String[] {"incomplete_me_level_emitter", "customTooltip", "incompleteItem"},
+      new String[] {"incomplete_me_level_emitter", "customTooltip",
+                    "incompleteItem"},
       // Incomplete ME Energy Level Emitter added 2/21/24 - Nyagi
-      new String[] {"incomplete_me_energy_level_emitter", "customTooltip", "incompleteItem"},
+      new String[] {"incomplete_me_energy_level_emitter", "customTooltip",
+                    "incompleteItem"},
       // Incomplete ME Annihilation Plane added 2/21/24 - Nyagi
-      new String[] {"incomplete_me_annihilation_plane", "customTooltip", "incompleteItem"},
+      new String[] {"incomplete_me_annihilation_plane", "customTooltip",
+                    "incompleteItem"},
       // Incomplete ME Formation Plane added 2/21/24 - Nyagi
-      new String[] {"incomplete_me_formation_plane", "customTooltip", "incompleteItem"},
+      new String[] {"incomplete_me_formation_plane", "customTooltip",
+                    "incompleteItem"},
       // Incomplete ME Terminal added 2/21/24 - Nyagi
-      new String[] {"incomplete_me_terminal", "customTooltip", "incompleteItem"},
+      new String[] {"incomplete_me_terminal", "customTooltip",
+                    "incompleteItem"},
       // Incomplete ME Crafting Terminal added 2/21/24 - Nyagi
-      new String[] {"incomplete_me_crafting_terminal", "customTooltip", "incompleteItem"},
+      new String[] {"incomplete_me_crafting_terminal", "customTooltip",
+                    "incompleteItem"},
       // Incomplete ME p2p Tunnel added 2/21/24 - Nyagi
-      new String[] {"incomplete_me_ptwop_tunnel", "customTooltip", "incompleteItem"},
+      new String[] {"incomplete_me_ptwop_tunnel", "customTooltip",
+                    "incompleteItem"},
       // Incomplete ME Security Terminal added 2/21/24 - Nyagi
-      new String[] {"incomplete_me_security_terminal", "customTooltip", "incompleteItem"},
+      new String[] {"incomplete_me_security_terminal", "customTooltip",
+                    "incompleteItem"},
       // Incomplete ME IO Port added 2/21/24 - Nyagi
       new String[] {"incomplete_me_io_port", "customTooltip", "incompleteItem"},
       // Incomplete ME Energy Cell added 2/21/24 - Nyagi
-      new String[] {"incomplete_me_energy_cell", "customTooltip", "incompleteItem"},
+      new String[] {"incomplete_me_energy_cell", "customTooltip",
+                    "incompleteItem"},
       // Incomplete ME Storage Monitor added 2/21/24 - Nyagi
-      new String[] {"incomplete_me_storage_monitor", "customTooltip", "incompleteItem"},
+      new String[] {"incomplete_me_storage_monitor", "customTooltip",
+                    "incompleteItem"},
       // Incomplete Color Applicator added 2/21/24 - Nyagi
-      new String[] {"incomplete_color_applicator", "customTooltip", "incompleteItem"},
+      new String[] {"incomplete_color_applicator", "customTooltip",
+                    "incompleteItem"},
       // Incomplete Logic Processor added 2/22/24 - Nyagi
-      new String[] {"incomplete_logic_processor", "customTooltip", "incompleteItem"},
+      new String[] {"incomplete_logic_processor", "customTooltip",
+                    "incompleteItem"},
       // Incomplete Calculation Processor added 2/22/24 - Nyagi
-      new String[] {"incomplete_calculation_processor", "customTooltip", "incompleteItem"},
+      new String[] {"incomplete_calculation_processor", "customTooltip",
+                    "incompleteItem"},
       // Incomplete Engineering Processor added 2/22/24 - Nyagi
-      new String[] {"incomplete_engineering_processor", "customTooltip", "incompleteItem"},
+      new String[] {"incomplete_engineering_processor", "customTooltip",
+                    "incompleteItem"},
       // Incomplete ME Fluid Cell Housing added 2/22/24 - Nyagi
-      new String[] {"incomplete_me_fluid_cell_housing", "customTooltip", "incompleteItem"},
+      new String[] {"incomplete_me_fluid_cell_housing", "customTooltip",
+                    "incompleteItem"},
       // Incomplete Energy Acceptor added 2/22/24 - Nyagi
-      new String[] {"incomplete_energy_acceptor", "customTooltip", "incompleteItem"},
+      new String[] {"incomplete_energy_acceptor", "customTooltip",
+                    "incompleteItem"},
       // Botania Assembly added 3/17/24 - Nyagi
       new String[] {"botania_assembly", "customTooltip", "items"},
       // Semi-organic Substrate added 3/17/24 - Nyagi
@@ -494,7 +550,8 @@ public class ModItems {
       // Immersive Assembly added 4/25/24 - Nyagi
       new String[] {"immersive_assembly", "customTooltip", "items"},
       // High Temperature Heat Exchanger added 4/25/24 - Nyagi
-      new String[] {"high_temperature_heat_exchanger", "customTooltip", "items"},
+      new String[] {"high_temperature_heat_exchanger", "customTooltip",
+                    "items"},
       // Duct Tape added 4/25/24 - Nyagi
       new String[] {"duct_tape", "customTooltip", "items"},
       // WD40 added 4/25/24 - Nyagi
@@ -526,10 +583,9 @@ public class ModItems {
       // Computational Rune added 3/8/24 - Nyagi
       new String[] {"rune_computational", "customTooltip", "items"},
 
-
-    /*
-      SCIENCE ITEMS REGISTRATION
-    */
+      /*
+        SCIENCE ITEMS REGISTRATION
+      */
 
       // Crude Compression Test added 7/18/23 - Nyagi
       new String[] {"crude_compression_test", "customTooltip", "science"},
@@ -550,30 +606,39 @@ public class ModItems {
       // Crude Natural Arcana Test added 8/27/23 - Nyagi
       new String[] {"crude_natural_arcana_test", "customTooltip", "science"},
       // Used Crude Natural Arcana Test added 8/27/23 - Nyagi
-      new String[] {"used_crude_natural_arcana_test", "customTooltip", "science"},
+      new String[] {"used_crude_natural_arcana_test", "customTooltip",
+                    "science"},
       // Crude Material Properties Test added 8/27/23 - Nyagi
-      new String[] {"crude_material_properties_test", "customTooltip", "science"},
+      new String[] {"crude_material_properties_test", "customTooltip",
+                    "science"},
       // Used Crude Material Properties Test added 8/27/23 - Nyagi
-      new String[] {"used_crude_material_properties_test", "customTooltip", "science"},
+      new String[] {"used_crude_material_properties_test", "customTooltip",
+                    "science"},
 
-  /*
-     SCIENCE DATA STORAGE
-   */
+      /*
+         SCIENCE DATA STORAGE
+       */
 
       // Lab Notebook added 8/10/23 - Nyagi
       new String[] {"lab_notebook", "customTooltip", "science"},
       // Lab Notebook With Crude Compression Data added 8/10/23 - Nyagi
-      new String[] {"lab_notebook_with_crude_compression_data", "customTooltip", "science"},
+      new String[] {"lab_notebook_with_crude_compression_data", "customTooltip",
+                    "science"},
       // Lab Notebook With Crude Statics Data added 8/10/23 - Nyagi
-      new String[] {"lab_notebook_with_crude_statics_data", "customTooltip", "science"},
+      new String[] {"lab_notebook_with_crude_statics_data", "customTooltip",
+                    "science"},
       // Lab Notebook With Crude Entropy Data added 8/10/23 - Nyagi
-      new String[] {"lab_notebook_with_crude_entropy_data", "customTooltip", "science"},
+      new String[] {"lab_notebook_with_crude_entropy_data", "customTooltip",
+                    "science"},
       // Lab Notebook With Crude Acidics Data added 8/27/23 - Nyagi
-      new String[] {"lab_notebook_with_crude_acidics_data", "customTooltip", "science"},
+      new String[] {"lab_notebook_with_crude_acidics_data", "customTooltip",
+                    "science"},
       // Lab Notebook With Crude Natural Arcana Data added 8/27/23 - Nyagi
-      new String[] {"lab_notebook_with_crude_natural_arcana_data", "customTooltip", "science"},
+      new String[] {"lab_notebook_with_crude_natural_arcana_data",
+                    "customTooltip", "science"},
       // Lab Notebook With Crude Material Properties Data added 8/27/23 - Nyagi
-      new String[] {"lab_notebook_with_crude_material_properties_data", "customTooltip", "science"},
+      new String[] {"lab_notebook_with_crude_material_properties_data",
+                    "customTooltip", "science"},
       // Pen added 8/10/23 - Nyagi
       new String[] {"pen", "customTooltip", "items"},
       // Pen Assembly added 8/10/23 - Nyagi
@@ -589,9 +654,9 @@ public class ModItems {
       // Ink added 8/10/23 - Nyagi
       new String[] {"ink", "customTooltip", "items"},
 
-  /*
-     SCHEMATICS
-   */
+      /*
+         SCHEMATICS
+       */
 
       // Blank Blueprint added 8/27/23 - Nyagi
       new String[] {"blank_blueprint", "customTooltip", "schematics"},
@@ -600,13 +665,14 @@ public class ModItems {
       // Botania Schematic added 8/27/23 - Nyagi
       new String[] {"botania_schematic", "customTooltip", "schematics"},
       // Immersive Engineering Schematic added 8/27/23 - Nyagi
-      new String[] {"immersive_engineering_schematic", "customTooltip", "schematics"},
+      new String[] {"immersive_engineering_schematic", "customTooltip",
+                    "schematics"},
       // Alchemistry Schematic added 8/27/23 - Nyagi
       new String[] {"alchemistry_schematic", "customTooltip", "schematics"},
 
-  /*
-    ORE ITEMS
-  */
+      /*
+        ORE ITEMS
+      */
 
       // Raw Limonite added 9/29/23 - Nyagi
       new String[] {"raw_limonite", "customOre", "minerals"},
@@ -751,7 +817,7 @@ public class ModItems {
       // Raw Garnet Slush added 10/13/23 - Nyagi
       new String[] {"raw_garnet_slush", "item", "minerals"},
       // Raw Native Aluminum added 10/13/23 - Nyagi
-      new String[] {"raw_native_aluminum", "item", "minerals"},
+      new String[] {"raw_native_aluminum", "item", "minerals"});
 
   //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   // Sintered/Polished Tier 1 Items
@@ -760,53 +826,118 @@ public class ModItems {
   //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   // FLUID-ITEMS BELOW
   //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-      // Hydrocarbon Tar - Added 6/25/24
-      new String[] {"bucket_of_hydrocarbon_tar", "bucket", "fluids"},
-      // Raw Wood Vinegar - Added 6/25/24
-      new String[] {"bucket_of_raw_wood_vinegar", "bucket", "fluids"},
-      // Pyroligneous Acid - Added 6/25/24
-      new String[] {"bucket_of_pyroligneous_acid", "bucket", "fluids"},
-      // Acetone - Added 6/25/24
-      new String[] {"bucket_of_acetone", "bucket", "fluids"},
+  // Hydrocarbon Tar - Added 6/25/24
+  public static final RegistryObject<Item> HYDROCARBON_TAR_BUCKET =
+      ITEMS.register("bucket_of_hydrocarbon_tar",
+                     ()
+                         -> new BucketItem(
+                             ModFluids.SOURCE_HYDROCARBON_TAR.get(),
+                             new Item.Properties()
+                                 .tab(ModCreativeModeTab.NYAGIBITS_BYTES_FLUIDS)
+                                 .craftRemainder(Items.BUCKET)
+                                 .stacksTo(1)));
+
+  public static final RegistryObject<Item> RAW_WOOD_VINEGAR_BUCKET =
+      ITEMS.register("bucket_of_raw_wood_vinegar",
+                     ()
+                         -> new BucketItem(
+                             ModFluids.SOURCE_RAW_WOOD_VINEGAR.get(),
+                             new Item.Properties()
+                                 .tab(ModCreativeModeTab.NYAGIBITS_BYTES_FLUIDS)
+                                 .craftRemainder(Items.BUCKET)
+                                 .stacksTo(1)));
+
+  public static final RegistryObject<Item> PYROLIGNEOUS_ACID_BUCKET =
+      ITEMS.register("bucket_of_pyroligneous_acid",
+                     ()
+                         -> new BucketItem(
+                             ModFluids.SOURCE_PYROLIGNEOUS_ACID.get(),
+                             new Item.Properties()
+                                 .tab(ModCreativeModeTab.NYAGIBITS_BYTES_FLUIDS)
+                                 .craftRemainder(Items.BUCKET)
+                                 .stacksTo(1)));
+
+  public static final RegistryObject<Item> ACETONE_BUCKET = ITEMS.register(
+      "bucket_of_acetone",
+      ()
+          -> new BucketItem(ModFluids.SOURCE_ACETONE.get(),
+                            new Item.Properties()
+                                .tab(ModCreativeModeTab.NYAGIBITS_BYTES_FLUIDS)
+                                .craftRemainder(Items.BUCKET)
+                                .stacksTo(1)));
 
   /*
-    GENERATOR 
-  */ 
+    GENERATOR
+  */
 
-    // For each string, and oh boy there are a lot of strings, we grab the name, supplier, and tab and then register each item 
-        // We also do some weird Java error checking to see that actually everything worked, and panic if it doesn't 
+  // For each string, and oh boy there are a lot of strings, we grab the name,
+  // supplier, and tab and then register each item We also do some weird Java
+  // error checking to see that actually everything worked, and panic if it
+  // doesn't
   static {
     for (String[] itemInfo : ITEMS_LIST) {
       String snakeCaseName = itemInfo[0];
-      Supplier<Item> supplier = switch (itemInfo[1]) {
-                case "curio" -> curio;
-                case "customTooltip" -> customTooltip;
-                case "basicItem" -> basicItem;
-                case "incompleteItem" -> incompleteItem;
-                case "science" -> science;
-                case "schematics" -> schematics;
-                case "minerals" -> minerals;
-                case "customOre" -> customOre;
-                case "bucket" -> bucket(snakeCaseName.replace("_bucket", ""));
-                default -> throw new IllegalStateException("Unexpected value in item generator: " + itemInfo[1]);
-            };
-            ModCreativeModeTab tab = switch (itemInfo[2]) {
-                case "items" -> items;
-                case "fluids" -> fluids;
-                default -> throw new IllegalStateException("Unexpected value in item generator: " + itemInfo[2]);
-            };
+      Supplier<Item> supplier;
+      try {
+        supplier = switch (itemInfo[1]) {
+              case "item" -> basicItem;
+              case "curio" -> curio;
+              case "customTooltip" -> customTooltip;
+              case "basicItem" -> basicItem;
+              case "incompleteItem" -> incompleteItem;
+              case "levitatingItem" -> levitatingItem;
+              case "science" -> science;
+              case "schematics" -> schematics;
+              case "minerals" -> minerals;
+              case "customOre" -> customOre;
+              case "bucket" -> bucket(snakeCaseName.replace("_bucket", ""));
+              default -> throw new IllegalStateException("Unexpected value in item generator itemInfo[1]: " + itemInfo[1] + " for item " + Arrays.toString(itemInfo));
+          };
+      } catch (Exception e) {
+          throw new RuntimeException("Error while determining supplier for item: " + Arrays.toString(itemInfo), e);
+      }
 
-            RegistryObject<Item> registeredItem = registerItem(snakeCaseName, supplier, tab);
-            try {
-                ModItems.class.getField(toPascalCase(snakeCaseName)).set(null, registeredItem);
-            } catch (NoSuchFieldException | IllegalAccessException e) {
-                e.printStackTrace();
-            }
-        }
+      CreativeModeTab tab;
+      try {
+          switch (itemInfo[2]) {
+              case "items":
+                tab = ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS;
+                break;
+              case "fluids":
+                tab = ModCreativeModeTab.NYAGIBITS_BYTES_FLUIDS;
+                break;
+              case "minerals":
+                tab = ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS;
+                break;
+              case "incompleteItem":
+                tab = ModCreativeModeTab
+                          .NYAGIBITS_BYTES_INCOMPLETE_SEQUENCE_ITEMS;
+                break;
+              case "levitatingItem":
+                tab = ModCreativeModeTab
+                          .NYAGIBITS_BYTES_INCOMPLETE_SEQUENCE_ITEMS;
+                break;
+              case "science":
+                tab = ModCreativeModeTab.NYAGIBITS_BYTES_SCIENCE;
+                break;
+              case "schematics":
+                tab = ModCreativeModeTab.NYAGIBITS_BYTES_SCHEMATICS;
+                break;
+              default:
+                throw new IllegalStateException(
+                    "Unexpected value in item generator itemInfo[2]: " +
+                    itemInfo[2] + " for item " + Arrays.toString(itemInfo));
+              }
+      } catch (Exception e) {
+        throw new RuntimeException("Error while determining tab for item: " +
+                                       Arrays.toString(itemInfo),
+                                   e);
+      }
+
+      registerItem(snakeCaseName, supplier, tab);
     }
+  }
 
   // Finally, we commit our items
-  public static void register(IEventBus eventBus) {
-    ITEMS.register(eventBus);
-  }
+  public static void register(IEventBus eventBus) { ITEMS.register(eventBus); }
 }
