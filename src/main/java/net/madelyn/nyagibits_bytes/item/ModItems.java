@@ -31,7 +31,8 @@ public class ModItems {
    */
 
   // We don't want to repeat instantiation logic: if you copy/paste then it's
-  // not the way to go A Supplier takes in no argument and produces something
+  // not the way to go
+  // A Supplier takes in no argument and produces something
   private static final Supplier<Item> curio = ()
       -> new CuriosRingItem(
           new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS));
@@ -49,7 +50,7 @@ public class ModItems {
           ModCreativeModeTab.NYAGIBITS_BYTES_INCOMPLETE_SEQUENCE_ITEMS));
 
   private static final Supplier<Item> science = ()
-      -> new Item(new Item.Properties().tab(
+      -> new CustomTooltipItem(new Item.Properties().tab(
           ModCreativeModeTab.NYAGIBITS_BYTES_SCIENCE));
 
   private static final Supplier<Item> schematics = ()
@@ -69,6 +70,8 @@ public class ModItems {
           ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS));
 
   // Prepends "SOURCE_" to the fluid name to dynamically generate source names
+  //
+  // TODO: actually use this without crashing the game
   private static Supplier<Item> bucket(String fluidName) {
     try {
       return () -> {
