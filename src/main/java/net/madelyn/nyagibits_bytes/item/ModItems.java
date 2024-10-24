@@ -27,35 +27,6 @@ public class ModItems {
   public static final Map<String, RegistryObject<Item>> ITEM_MAP =
       new HashMap<>();
 
-  /*
-   * SUPPLIERS
-   */
-
-  // Prepends "SOURCE_" to the fluid name to dynamically generate source names
-  //
-  // TODO: actually use this without crashing the game
-  private static Supplier<Item> bucket(String fluidName) {
-    try {
-      return () -> {
-        try {
-          return new BucketItem(
-              (Fluid)ModFluids
-                  .class.getDeclaredField("SOURCE_" + fluidName.toUpperCase())
-                  .get(null),
-              new Item.Properties()
-                  .tab(ModCreativeModeTab.NYAGIBITS_BYTES_FLUIDS)
-                  .craftRemainder(Items.BUCKET)
-                  .stacksTo(1));
-        } catch (IllegalAccessException e) {
-          throw new RuntimeException(e);
-        } catch (NoSuchFieldException e) {
-          throw new RuntimeException(e);
-        }
-      };
-    } catch (Exception e) {
-      throw new RuntimeException("Error creating bucket for: " + fluidName, e);
-    }
-  }
 
   private static final CreativeModeTab items =
       ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS;
@@ -771,23 +742,33 @@ public class ModItems {
           // Raw Garnet Slush added 10/13/23 - Nyagi
           new ItemInfo("raw_garnet_slush", Type.ITEM, Tab.MINERALS),
           // Raw Native Aluminum added 10/13/23 - Nyagi
-          new ItemInfo("raw_native_aluminum", Type.ITEM, Tab.MINERALS)
+          new ItemInfo("raw_native_aluminum", Type.ITEM, Tab.MINERALS),
+
+          //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+          // Sintered/Polished Tier 1 Items
+          //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+          //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+          // FLUID-ITEMS BELOW
+          //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+          // Hydrocarbon Tar - Added 6/25/24
+          new ItemInfo.Bucket("bucket_of_hydrocarbon_tar", ModFluids.SOURCE_HYDROCARBON_TAR),
+          new ItemInfo.Bucket("bucket_of_raw_wood_vinegar", ModFluids.SOURCE_RAW_WOOD_VINEGAR),
+          new ItemInfo.Bucket("bucket_of_pyroligneous_acid", ModFluids.SOURCE_PYROLIGNEOUS_ACID),
+          new ItemInfo.Bucket("bucket_of_acetone", ModFluids.SOURCE_ACETONE)
 
   );
 
-  //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  // Sintered/Polished Tier 1 Items
-  //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-  //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  // FLUID-ITEMS BELOW
-  //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  // Hydrocarbon Tar - Added 6/25/24
-  public static final RegistryObject<Item> HYDROCARBON_TAR_BUCKET =
+
+
+
+  //TODO: Remove these once the other method is confirmed working
+  /*public static final RegistryObject<Item> HYDROCARBON_TAR_BUCKET =
       ITEMS.register("bucket_of_hydrocarbon_tar",
                      ()
                          -> new BucketItem(
-                             ModFluids.SOURCE_HYDROCARBON_TAR.get(),
+                             () -> ModFluids.SOURCE_HYDROCARBON_TAR.get(),
                              new Item.Properties()
                                  .tab(ModCreativeModeTab.NYAGIBITS_BYTES_FLUIDS)
                                  .craftRemainder(Items.BUCKET)
@@ -821,6 +802,7 @@ public class ModItems {
                                 .tab(ModCreativeModeTab.NYAGIBITS_BYTES_FLUIDS)
                                 .craftRemainder(Items.BUCKET)
                                 .stacksTo(1)));
+  */
 
   /*
     GENERATOR

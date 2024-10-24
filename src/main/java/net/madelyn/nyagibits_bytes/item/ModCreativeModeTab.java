@@ -8,15 +8,13 @@ import net.minecraftforge.registries.RegistryObject;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-// TODO: put buckets back into ITEM_MAP so we can populate that tab
-// programmatically
-// I think I just messed up parsing in ModItems.java:bucket
 
 public class ModCreativeModeTab {
 
   private static final Logger LOGGER = LogManager.getLogger();
 
-  private static ItemStack getItemIcon(String itemName) {
+  //TODO: Either move this elsewhere or figure out if it can be fetched from ForgeRegistries
+  public static ItemStack getItemIcon(String itemName) {
     RegistryObject<Item> item = ModItems.ITEM_MAP.get(itemName);
     LOGGER.info("Attempting to get item: '{}' -> {}", itemName,
                 item != null ? item.get() : "null");
@@ -72,8 +70,7 @@ public class ModCreativeModeTab {
       new CreativeModeTab("nyagibits_bytes_tab_fluids") {
         @Override
         public ItemStack makeIcon() {
-          return new ItemStack(ModItems.HYDROCARBON_TAR_BUCKET
-                                   .get()); // currently not in ITEM_MAP
+            return getItemIcon("bucket_of_hydrocarbon_tar");
         }
       };
 
