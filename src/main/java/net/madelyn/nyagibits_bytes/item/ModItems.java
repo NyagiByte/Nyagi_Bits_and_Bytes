@@ -31,45 +31,6 @@ public class ModItems {
    * SUPPLIERS
    */
 
-  // We don't want to repeat instantiation logic: if you copy/paste then it's
-  // not the way to go
-  // A Supplier takes in no argument and produces something
-  private static final Supplier<Item> curio = ()
-      -> new CuriosRingItem(
-          new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS));
-
-  private static final Supplier<Item> customTooltip = ()
-      -> new CustomTooltipItem(
-          new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS));
-
-  private static final Supplier<Item> basicItem = ()
-      -> new Item(
-          new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS));
-
-  private static final Supplier<Item> incompleteItem = ()
-      -> new Item(new Item.Properties().tab(
-          ModCreativeModeTab.NYAGIBITS_BYTES_INCOMPLETE_SEQUENCE_ITEMS));
-
-  private static final Supplier<Item> science = ()
-      -> new CustomTooltipItem(new Item.Properties().tab(
-          ModCreativeModeTab.NYAGIBITS_BYTES_SCIENCE));
-
-  private static final Supplier<Item> schematics = ()
-      -> new Item(new Item.Properties().tab(
-          ModCreativeModeTab.NYAGIBITS_BYTES_SCHEMATICS));
-
-  private static final Supplier<Item> minerals = ()
-      -> new Item(new Item.Properties().tab(
-          ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS));
-
-  private static final Supplier<Item> levitatingItem = ()
-      -> new Item(
-          new Item.Properties().tab(ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS));
-
-  private static final Supplier<Item> customOre = ()
-      -> new CustomOreItem(new Item.Properties().tab(
-          ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS));
-
   // Prepends "SOURCE_" to the fluid name to dynamically generate source names
   //
   // TODO: actually use this without crashing the game
@@ -883,14 +844,14 @@ public class ModItems {
     LEVITATING,
     CUSTOM_ORE
   }
-  public enum Tab{
-    ITEMS,
-    BLOCKS,
-    SCIENCE,
-    SCHEMATICS,
-    SEQUENCE,
-    FLUIDS,
-    MINERALS
+  public class Tab{
+    public static CreativeModeTab ITEMS = ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS;
+    public static CreativeModeTab BLOCKS = ModCreativeModeTab.NYAGIBITS_BYTES_BLOCKS;
+    public static CreativeModeTab SCIENCE = ModCreativeModeTab.NYAGIBITS_BYTES_SCIENCE;
+    public static CreativeModeTab SCHEMATICS = ModCreativeModeTab.NYAGIBITS_BYTES_SCHEMATICS;
+    public static CreativeModeTab SEQUENCE = ModCreativeModeTab.NYAGIBITS_BYTES_INCOMPLETE_SEQUENCE_ITEMS;
+    public static CreativeModeTab FLUIDS = ModCreativeModeTab.NYAGIBITS_BYTES_FLUIDS;
+    public static CreativeModeTab MINERALS = ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS;
   }
 
 }
