@@ -1,19 +1,13 @@
 package net.madelyn.nyagibits_bytes.item;
 
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.function.Supplier;
+
 import net.madelyn.nyagibits_bytes.NyagiBits_Bytes;
 import net.madelyn.nyagibits_bytes.fluid.ModFluids;
-import net.madelyn.nyagibits_bytes.item.custom.*;
-import net.madelyn.nyagibits_bytes.misc.ItemInfo;
-import net.minecraft.world.item.BucketItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.Items;
-import net.minecraft.world.level.material.Fluid;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -24,8 +18,8 @@ public class ModItems {
       DeferredRegister.create(ForgeRegistries.ITEMS, NyagiBits_Bytes.MOD_ID);
 
   // For our dynamic item registration
-  public static final Map<String, RegistryObject<Item>> ITEM_MAP =
-      new HashMap<>();
+  //public static final Map<String, RegistryObject<Item>> ITEM_MAP =
+  //    new HashMap<>();
 
 
   private static final CreativeModeTab items =
@@ -108,18 +102,15 @@ public class ModItems {
           // Calculation Dud added 8/10/23 - Nyagi
           new ItemInfo("calculation_dud", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // Incomplete Calculation Dud added 2/21/24 - Nyagi
-          new ItemInfo("incomplete_calculation_dud", Type.CUSTOM_TOOLTIP,
-                  Tab.SEQUENCE),
+          new ItemInfo("incomplete_calculation_dud", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
           // Engineering Dud added 8/10/23 - Nyagi
           new ItemInfo("engineering_dud", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // Incomplete Engineering Dud added 2/21/24 - Nyagi
-          new ItemInfo("incomplete_engineering_dud", Type.CUSTOM_TOOLTIP,
-                  Tab.SEQUENCE),
+          new ItemInfo("incomplete_engineering_dud", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
           // Bottle of Anthocyanin added 8/27/23 - Nyagi
           new ItemInfo("bottle_of_anthocyanin", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // Bottle of Malic & Citric Acid added 8/27/23 - Nyagi
-          new ItemInfo("bottle_of_malic_and_citric_acid", Type.CUSTOM_TOOLTIP,
-                  Tab.ITEMS),
+          new ItemInfo("bottle_of_malic_and_citric_acid", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // Chemistry Rack added 8/27/23 - Nyagi
           new ItemInfo("chemistry_rack", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // Basic Composite Material added 8/27/23 - Nyagi
@@ -293,8 +284,7 @@ public class ModItems {
           // TPV Cell added 6/28/24 - Nyagi
           new ItemInfo("tpv_cell", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // Polycrystalline Silicon Carbide added 6/28/24 - Nyagi
-          new ItemInfo("polycrystalline_silicon_carbide", Type.CUSTOM_TOOLTIP,
-                  Tab.ITEMS),
+          new ItemInfo("polycrystalline_silicon_carbide", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // Zinc-Gallium-Antimony Alloy added 6/28/24 - Nyagi
           new ItemInfo("zinc_gallium_antimony_alloy", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // Ash added 7/15/24 - Nyagi
@@ -334,108 +324,77 @@ public class ModItems {
           // Incomplete Controller added 2/20/24 - Nyagi
           new ItemInfo("incomplete_controller", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
           // Incomplete Cell Workbench added 2/20/24 - Nyagi
-          new ItemInfo("incomplete_cell_workbench", Type.CUSTOM_TOOLTIP,
-                  Tab.SEQUENCE),
+          new ItemInfo("incomplete_cell_workbench", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
           // Incomplete ME Item Cell Housing added 2/20/24 - Nyagi
-          new ItemInfo("incomplete_me_item_cell_housing", Type.CUSTOM_TOOLTIP,
-                  Tab.SEQUENCE),
+          new ItemInfo("incomplete_me_item_cell_housing", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
           // Incomplete Charged Quartz Fixture added 2/20/24 - Nyagi
-          new ItemInfo("incomplete_charged_quartz_fixture", Type.CUSTOM_TOOLTIP,
-                  Tab.SEQUENCE),
+          new ItemInfo("incomplete_charged_quartz_fixture", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
           // Incomplete Skystone Tank added 2/20/24 - Nyagi
-          new ItemInfo("incomplete_skystone_tank", Type.CUSTOM_TOOLTIP,
-                  Tab.SEQUENCE),
+          new ItemInfo("incomplete_skystone_tank", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
           // Incomplete ME Interface added 2/20/24 - Nyagi
-          new ItemInfo("incomplete_me_interface", Type.CUSTOM_TOOLTIP,
-                  Tab.SEQUENCE),
+          new ItemInfo("incomplete_me_interface", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
           // Incomplete Charger added 2/20/24 - Nyagi
           new ItemInfo("incomplete_charger", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
           // Incomplete 1k ME Storage Component added 2/20/24 - Nyagi
-          new ItemInfo("incomplete_onek_me_storage_component", Type.CUSTOM_TOOLTIP,
-                  Tab.SEQUENCE),
+          new ItemInfo("incomplete_onek_me_storage_component", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
           // Incomplete Inscriber added 2/20/24 - Nyagi
           new ItemInfo("incomplete_inscriber", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
           // Incomplete Fluix ME Glass Cable added 2/20/24 - Nyagi
-          new ItemInfo("incomplete_fluix_me_glass_cable", Type.CUSTOM_TOOLTIP,
-                  Tab.SEQUENCE),
+          new ItemInfo("incomplete_fluix_me_glass_cable", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
           // Incomplete Fluix ME Smart Cable added 2/20/24 - Nyagi
-          new ItemInfo("incomplete_fluix_me_smart_cable", Type.CUSTOM_TOOLTIP,
-                  Tab.SEQUENCE),
+          new ItemInfo("incomplete_fluix_me_smart_cable", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
           // Incomplete Fluix ME Dense Smart Cable added 2/20/24 - Nyagi
-          new ItemInfo("incomplete_fluix_me_dense_smart_cable", Type.CUSTOM_TOOLTIP,
-                  Tab.SEQUENCE),
+          new ItemInfo("incomplete_fluix_me_dense_smart_cable", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
           // Incomplete ME Drive added 2/20/24 - Nyagi
           new ItemInfo("incomplete_me_drive", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
           // Incomplete ME Chest added 2/21/24 - Nyagi
           new ItemInfo("incomplete_me_chest", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
           // Incomplete Vibration Chamber added 2/21/24 - Nyagi
-          new ItemInfo("incomplete_vibration_chamber", Type.CUSTOM_TOOLTIP,
-                  Tab.SEQUENCE),
+          new ItemInfo("incomplete_vibration_chamber", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
           // Incomplete Light Detecting Fixture added 2/21/24 - Nyagi
-          new ItemInfo("incomplete_light_detecting_fixture", Type.CUSTOM_TOOLTIP,
-                  Tab.SEQUENCE),
+          new ItemInfo("incomplete_light_detecting_fixture", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
           // Incomplete Illuminated Panel added 2/21/24 - Nyagi
-          new ItemInfo("incomplete_illuminated_panel", Type.CUSTOM_TOOLTIP,
-                  Tab.SEQUENCE),
+          new ItemInfo("incomplete_illuminated_panel", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
           // Incomplete ME Storage Bus added 2/21/24 - Nyagi
-          new ItemInfo("incomplete_me_storage_bus", Type.CUSTOM_TOOLTIP,
-                  Tab.SEQUENCE),
+          new ItemInfo("incomplete_me_storage_bus", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
           // Incomplete ME Import Bus added 2/21/24 - Nyagi
-          new ItemInfo("incomplete_me_import_bus", Type.CUSTOM_TOOLTIP,
-                  Tab.SEQUENCE),
+          new ItemInfo("incomplete_me_import_bus", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
           // Incomplete ME Export Bus added 2/21/24 - Nyagi
-          new ItemInfo("incomplete_me_export_bus", Type.CUSTOM_TOOLTIP,
-                  Tab.SEQUENCE),
+          new ItemInfo("incomplete_me_export_bus", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
           // Incomplete ME Level Emitter added 2/21/24 - Nyagi
-          new ItemInfo("incomplete_me_level_emitter", Type.CUSTOM_TOOLTIP,
-                  Tab.SEQUENCE),
+          new ItemInfo("incomplete_me_level_emitter", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
           // Incomplete ME Energy Level Emitter added 2/21/24 - Nyagi
-          new ItemInfo("incomplete_me_energy_level_emitter", Type.CUSTOM_TOOLTIP,
-                  Tab.SEQUENCE),
+          new ItemInfo("incomplete_me_energy_level_emitter", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
           // Incomplete ME Annihilation Plane added 2/21/24 - Nyagi
-          new ItemInfo("incomplete_me_annihilation_plane", Type.CUSTOM_TOOLTIP,
-                  Tab.SEQUENCE),
+          new ItemInfo("incomplete_me_annihilation_plane", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
           // Incomplete ME Formation Plane added 2/21/24 - Nyagi
-          new ItemInfo("incomplete_me_formation_plane", Type.CUSTOM_TOOLTIP,
-                  Tab.SEQUENCE),
+          new ItemInfo("incomplete_me_formation_plane", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
           // Incomplete ME Terminal added 2/21/24 - Nyagi
-          new ItemInfo("incomplete_me_terminal", Type.CUSTOM_TOOLTIP,
-                  Tab.SEQUENCE),
+          new ItemInfo("incomplete_me_terminal", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
           // Incomplete ME Crafting Terminal added 2/21/24 - Nyagi
-          new ItemInfo("incomplete_me_crafting_terminal", Type.CUSTOM_TOOLTIP,
-                  Tab.SEQUENCE),
+          new ItemInfo("incomplete_me_crafting_terminal", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
           // Incomplete ME p2p Tunnel added 2/21/24 - Nyagi
-          new ItemInfo("incomplete_me_ptwop_tunnel", Type.CUSTOM_TOOLTIP,
-                  Tab.SEQUENCE),
+          new ItemInfo("incomplete_me_ptwop_tunnel", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
           // Incomplete ME Security Terminal added 2/21/24 - Nyagi
-          new ItemInfo("incomplete_me_security_terminal", Type.CUSTOM_TOOLTIP,
-                  Tab.SEQUENCE),
+          new ItemInfo("incomplete_me_security_terminal", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
           // Incomplete ME IO Port added 2/21/24 - Nyagi
           new ItemInfo("incomplete_me_io_port", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
           // Incomplete ME Energy Cell added 2/21/24 - Nyagi
-          new ItemInfo("incomplete_me_energy_cell", Type.CUSTOM_TOOLTIP,
-                  Tab.SEQUENCE),
+          new ItemInfo("incomplete_me_energy_cell", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
           // Incomplete ME Storage Monitor added 2/21/24 - Nyagi
-          new ItemInfo("incomplete_me_storage_monitor", Type.CUSTOM_TOOLTIP,
-                  Tab.SEQUENCE),
+          new ItemInfo("incomplete_me_storage_monitor", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
           // Incomplete Color Applicator added 2/21/24 - Nyagi
-          new ItemInfo("incomplete_color_applicator", Type.CUSTOM_TOOLTIP,
-                  Tab.SEQUENCE),
+          new ItemInfo("incomplete_color_applicator", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
           // Incomplete Logic Processor added 2/22/24 - Nyagi
-          new ItemInfo("incomplete_logic_processor", Type.CUSTOM_TOOLTIP,
-                  Tab.SEQUENCE),
+          new ItemInfo("incomplete_logic_processor", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
           // Incomplete Calculation Processor added 2/22/24 - Nyagi
-          new ItemInfo("incomplete_calculation_processor", Type.CUSTOM_TOOLTIP,
-                  Tab.SEQUENCE),
+          new ItemInfo("incomplete_calculation_processor", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
           // Incomplete Engineering Processor added 2/22/24 - Nyagi
-          new ItemInfo("incomplete_engineering_processor", Type.CUSTOM_TOOLTIP,
-                  Tab.SEQUENCE),
+          new ItemInfo("incomplete_engineering_processor", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
           // Incomplete ME Fluid Cell Housing added 2/22/24 - Nyagi
-          new ItemInfo("incomplete_me_fluid_cell_housing", Type.CUSTOM_TOOLTIP,
-                  Tab.SEQUENCE),
+          new ItemInfo("incomplete_me_fluid_cell_housing", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
           // Incomplete Energy Acceptor added 2/22/24 - Nyagi
-          new ItemInfo("incomplete_energy_acceptor", Type.CUSTOM_TOOLTIP,
-                  Tab.SEQUENCE),
+          new ItemInfo("incomplete_energy_acceptor", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
           // Botania Assembly added 3/17/24 - Nyagi
           new ItemInfo("botania_assembly", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // Semi-organic Substrate added 3/17/24 - Nyagi
@@ -475,8 +434,7 @@ public class ModItems {
           // Immersive Assembly added 4/25/24 - Nyagi
           new ItemInfo("immersive_assembly", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // High Temperature Heat Exchanger added 4/25/24 - Nyagi
-          new ItemInfo("high_temperature_heat_exchanger", Type.CUSTOM_TOOLTIP,
-                  Tab.ITEMS),
+          new ItemInfo("high_temperature_heat_exchanger", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // Duct Tape added 4/25/24 - Nyagi
           new ItemInfo("duct_tape", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // WD40 added 4/25/24 - Nyagi
@@ -531,14 +489,11 @@ public class ModItems {
           // Crude Natural Arcana Test added 8/27/23 - Nyagi
           new ItemInfo("crude_natural_arcana_test", Type.CUSTOM_TOOLTIP, Tab.SCIENCE),
           // Used Crude Natural Arcana Test added 8/27/23 - Nyagi
-          new ItemInfo("used_crude_natural_arcana_test", Type.CUSTOM_TOOLTIP,
-                  Tab.SCIENCE),
+          new ItemInfo("used_crude_natural_arcana_test", Type.CUSTOM_TOOLTIP, Tab.SCIENCE),
           // Crude Material Properties Test added 8/27/23 - Nyagi
-          new ItemInfo("crude_material_properties_test", Type.CUSTOM_TOOLTIP,
-                  Tab.SCIENCE),
+          new ItemInfo("crude_material_properties_test", Type.CUSTOM_TOOLTIP, Tab.SCIENCE),
           // Used Crude Material Properties Test added 8/27/23 - Nyagi
-          new ItemInfo("used_crude_material_properties_test", Type.CUSTOM_TOOLTIP,
-                  Tab.SCIENCE),
+          new ItemInfo("used_crude_material_properties_test", Type.CUSTOM_TOOLTIP, Tab.SCIENCE),
 
       /*
          SCIENCE DATA STORAGE
@@ -547,23 +502,17 @@ public class ModItems {
           // Lab Notebook added 8/10/23 - Nyagi
           new ItemInfo("lab_notebook", Type.CUSTOM_TOOLTIP, Tab.SCIENCE),
           // Lab Notebook With Crude Compression Data added 8/10/23 - Nyagi
-          new ItemInfo("lab_notebook_with_crude_compression_data", Type.CUSTOM_TOOLTIP,
-                  Tab.SCIENCE),
+          new ItemInfo("lab_notebook_with_crude_compression_data", Type.CUSTOM_TOOLTIP, Tab.SCIENCE),
           // Lab Notebook With Crude Statics Data added 8/10/23 - Nyagi
-          new ItemInfo("lab_notebook_with_crude_statics_data", Type.CUSTOM_TOOLTIP,
-                  Tab.SCIENCE),
+          new ItemInfo("lab_notebook_with_crude_statics_data", Type.CUSTOM_TOOLTIP, Tab.SCIENCE),
           // Lab Notebook With Crude Entropy Data added 8/10/23 - Nyagi
-          new ItemInfo("lab_notebook_with_crude_entropy_data", Type.CUSTOM_TOOLTIP,
-                  Tab.SCIENCE),
+          new ItemInfo("lab_notebook_with_crude_entropy_data", Type.CUSTOM_TOOLTIP, Tab.SCIENCE),
           // Lab Notebook With Crude Acidics Data added 8/27/23 - Nyagi
-          new ItemInfo("lab_notebook_with_crude_acidics_data", Type.CUSTOM_TOOLTIP,
-                  Tab.SCIENCE),
+          new ItemInfo("lab_notebook_with_crude_acidics_data", Type.CUSTOM_TOOLTIP, Tab.SCIENCE),
           // Lab Notebook With Crude Natural Arcana Data added 8/27/23 - Nyagi
-          new ItemInfo("lab_notebook_with_crude_natural_arcana_data",
-                  Type.CUSTOM_TOOLTIP, Tab.SCIENCE),
+          new ItemInfo("lab_notebook_with_crude_natural_arcana_data", Type.CUSTOM_TOOLTIP, Tab.SCIENCE),
           // Lab Notebook With Crude Material Properties Data added 8/27/23 - Nyagi
-          new ItemInfo("lab_notebook_with_crude_material_properties_data",
-                  Type.CUSTOM_TOOLTIP, Tab.SCIENCE),
+          new ItemInfo("lab_notebook_with_crude_material_properties_data", Type.CUSTOM_TOOLTIP, Tab.SCIENCE),
           // Pen added 8/10/23 - Nyagi
           new ItemInfo("pen", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // Pen Assembly added 8/10/23 - Nyagi
@@ -590,8 +539,7 @@ public class ModItems {
           // Botania Schematic added 8/27/23 - Nyagi
           new ItemInfo("botania_schematic", Type.CUSTOM_TOOLTIP, Tab.SCHEMATICS),
           // Immersive Engineering Schematic added 8/27/23 - Nyagi
-          new ItemInfo("immersive_engineering_schematic", Type.CUSTOM_TOOLTIP,
-                  Tab.SCHEMATICS),
+          new ItemInfo("immersive_engineering_schematic", Type.CUSTOM_TOOLTIP, Tab.SCHEMATICS),
           // Alchemistry Schematic added 8/27/23 - Nyagi
           new ItemInfo("alchemistry_schematic", Type.CUSTOM_TOOLTIP, Tab.SCHEMATICS),
 
@@ -759,51 +707,6 @@ public class ModItems {
 
   );
 
-
-
-
-
-  //TODO: Remove these once the other method is confirmed working
-  /*public static final RegistryObject<Item> HYDROCARBON_TAR_BUCKET =
-      ITEMS.register("bucket_of_hydrocarbon_tar",
-                     ()
-                         -> new BucketItem(
-                             () -> ModFluids.SOURCE_HYDROCARBON_TAR.get(),
-                             new Item.Properties()
-                                 .tab(ModCreativeModeTab.NYAGIBITS_BYTES_FLUIDS)
-                                 .craftRemainder(Items.BUCKET)
-                                 .stacksTo(1)));
-
-  public static final RegistryObject<Item> RAW_WOOD_VINEGAR_BUCKET =
-      ITEMS.register("bucket_of_raw_wood_vinegar",
-                     ()
-                         -> new BucketItem(
-                             ModFluids.SOURCE_RAW_WOOD_VINEGAR.get(),
-                             new Item.Properties()
-                                 .tab(ModCreativeModeTab.NYAGIBITS_BYTES_FLUIDS)
-                                 .craftRemainder(Items.BUCKET)
-                                 .stacksTo(1)));
-
-  public static final RegistryObject<Item> PYROLIGNEOUS_ACID_BUCKET =
-      ITEMS.register("bucket_of_pyroligneous_acid",
-                     ()
-                         -> new BucketItem(
-                             ModFluids.SOURCE_PYROLIGNEOUS_ACID.get(),
-                             new Item.Properties()
-                                 .tab(ModCreativeModeTab.NYAGIBITS_BYTES_FLUIDS)
-                                 .craftRemainder(Items.BUCKET)
-                                 .stacksTo(1)));
-
-  public static final RegistryObject<Item> ACETONE_BUCKET = ITEMS.register(
-      "bucket_of_acetone",
-      ()
-          -> new BucketItem(ModFluids.SOURCE_ACETONE.get(),
-                            new Item.Properties()
-                                .tab(ModCreativeModeTab.NYAGIBITS_BYTES_FLUIDS)
-                                .craftRemainder(Items.BUCKET)
-                                .stacksTo(1)));
-  */
-
   /*
     GENERATOR
   */
@@ -811,7 +714,7 @@ public class ModItems {
   static{
     for(ItemInfo info : ITEMS_LIST){
       RegistryObject<Item> registeredItem = ITEMS.register(info.getId(), info::registerItem);
-      ITEM_MAP.put(info.getId(), registeredItem);
+      //ITEM_MAP.put(info.getId(), registeredItem);
     }
   }
 
@@ -819,6 +722,7 @@ public class ModItems {
   // Finally, we commit our items
   public static void register(IEventBus eventBus) { ITEMS.register(eventBus); }
 
+  //This replaces the suppliers and is used in ItemInfo to call the correct class to register an item in.
   public enum Type{
     ITEM,
     CUSTOM_TOOLTIP,
@@ -826,7 +730,9 @@ public class ModItems {
     LEVITATING,
     CUSTOM_ORE
   }
-  public class Tab{
+
+  //This is just a list of shorthands to make the list cleaner.
+  public static class Tab{
     public static CreativeModeTab ITEMS = ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS;
     public static CreativeModeTab BLOCKS = ModCreativeModeTab.NYAGIBITS_BYTES_BLOCKS;
     public static CreativeModeTab SCIENCE = ModCreativeModeTab.NYAGIBITS_BYTES_SCIENCE;

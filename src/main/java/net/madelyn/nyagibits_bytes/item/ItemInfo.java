@@ -1,7 +1,5 @@
-package net.madelyn.nyagibits_bytes.misc;
+package net.madelyn.nyagibits_bytes.item;
 
-import net.madelyn.nyagibits_bytes.item.ModCreativeModeTab;
-import net.madelyn.nyagibits_bytes.item.ModItems;
 import net.madelyn.nyagibits_bytes.item.custom.CuriosRingItem;
 import net.madelyn.nyagibits_bytes.item.custom.CustomOreItem;
 import net.madelyn.nyagibits_bytes.item.custom.CustomTooltipItem;
