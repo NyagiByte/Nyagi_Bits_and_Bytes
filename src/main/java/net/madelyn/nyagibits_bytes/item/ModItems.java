@@ -1,8 +1,6 @@
 package net.madelyn.nyagibits_bytes.item;
 
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 import net.madelyn.nyagibits_bytes.NyagiBits_Bytes;
 import net.madelyn.nyagibits_bytes.fluid.ModFluids;
@@ -14,23 +12,11 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
 public class ModItems {
+  //Do NOT mix this up with Type.ITEM or Tab.ITEMS
   public static final DeferredRegister<Item> ITEMS =
       DeferredRegister.create(ForgeRegistries.ITEMS, NyagiBits_Bytes.MOD_ID);
 
-  // For our dynamic item registration
-  //public static final Map<String, RegistryObject<Item>> ITEM_MAP =
-  //    new HashMap<>();
-
-
-  private static final CreativeModeTab items =
-      ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS;
-  private static final CreativeModeTab fluids =
-      ModCreativeModeTab.NYAGIBITS_BYTES_FLUIDS;
-
-  /*
-   * HELPERS
-   */
-
+  //NOTE: This is currently unused, keeping it here just in case.
   // "snake_case_name" -> ["snake", "case", "name"] -> ["Snake", "Case",
   // "Name"]
   // -> "S" + "nake" + "_" + ... + "ame" + "_" ->
@@ -51,6 +37,8 @@ public class ModItems {
     return pascalCase.toString();
   }
 
+  //This is the BIG list of items.
+  //Follow the format, keep it in the right category and sign new additions with name and timestamp.
   private static final List<ItemInfo> ITEMS_LIST = List.of(
       /*
         GENERIC ITEMS
@@ -848,14 +836,10 @@ public class ModItems {
 
   );
 
-  /*
-    GENERATOR
-  */
-
+  //This goes through the items and runs the method in ItemInfo to then register them.
   static{
     for(ItemInfo info : ITEMS_LIST){
       RegistryObject<Item> registeredItem = ITEMS.register(info.getId(), info::registerItem);
-      //ITEM_MAP.put(info.getId(), registeredItem);
     }
   }
 
