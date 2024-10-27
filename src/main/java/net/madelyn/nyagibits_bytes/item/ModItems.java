@@ -363,6 +363,8 @@ public class ModItems {
           new ItemInfo("crate_of_industrial_components", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // High Strength Concrete added 4/25/24 - Nyagi
           new ItemInfo("high_strength_concrete", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+
+          //Custom Botania Runes
           // Blank Rune added 3/8/24 - Nyagi
           new ItemInfo("rune_blank", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // Optical Rune added 3/8/24 - Nyagi
