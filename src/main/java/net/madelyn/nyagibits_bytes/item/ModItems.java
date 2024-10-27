@@ -309,6 +309,78 @@ public class ModItems {
           new ItemInfo("decorative_paneling", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // MicroTools added 8/10/23 - Nyagi
           new ItemInfo("micro_tools", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // Botania Assembly added 3/17/24 - Nyagi
+          new ItemInfo("botania_assembly", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // Semi-organic Substrate added 3/17/24 - Nyagi
+          new ItemInfo("semi_organic_substrate", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // Soil Conditioner added 3/17/24 - Nyagi
+          new ItemInfo("soil_conditioner", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // Living Frame added 3/17/24 - Nyagi
+          new ItemInfo("living_frame", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // Terrarium added 3/17/24 - Nyagi
+          new ItemInfo("terrarium", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // Organic Pseudo Logic added 3/17/24 - Nyagi
+          new ItemInfo("organic_pseudo_logic", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // Sealant added 3/17/24 - Nyagi
+          new ItemInfo("sealant", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // Magnetic Hematite added 3/17/24 - Nyagi
+          new ItemInfo("magnetic_hematite", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // Mystic Fertilizer added 3/17/24 - Nyagi
+          new ItemInfo("mystic_fertilizer", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // Alchemistry Assembly added 4/6/24 - Nyagi
+          new ItemInfo("alchemistry_assembly", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // Electrolytic Core added 4/6/24 - Nyagi
+          new ItemInfo("electrolytic_core", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // Desiccation Powder added 4/6/24 - Nyagi
+          new ItemInfo("desiccation_powder", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // Chemical Grade Glassware added 4/6/24 - Nyagi
+          new ItemInfo("chemical_grade_glassware", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // Fume Fan added 4/6/24 - Nyagi
+          new ItemInfo("fume_fan", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // Chemically Inert Wood added 4/6/24 - Nyagi
+          new ItemInfo("chemically_inert_wood", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // pH Strips added 4/6/24 - Nyagi
+          new ItemInfo("ph_strips", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // Chromatography Kit added 4/6/24 - Nyagi
+          new ItemInfo("chromatography_kit", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // Bunsen Burner added 4/6/24 - Nyagi
+          new ItemInfo("bunsen_burner", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // Immersive Assembly added 4/25/24 - Nyagi
+          new ItemInfo("immersive_assembly", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // High Temperature Heat Exchanger added 4/25/24 - Nyagi
+          new ItemInfo("high_temperature_heat_exchanger", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // Duct Tape added 4/25/24 - Nyagi
+          new ItemInfo("duct_tape", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // WD40 added 4/25/24 - Nyagi
+          new ItemInfo("wd_40", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // 79" x 28" TRIPLE-BAY 4s SERIES TOOLBOX added 4/25/24 - Nyagi
+          new ItemInfo("triple_bay_4s_series_toolbox", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // Acetylene Tank added 4/25/24 - Nyagi
+          new ItemInfo("acetylene_tank", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // OSHA Approved Gear added 4/25/24 - Nyagi
+          new ItemInfo("osha_approved_gear", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // Crate Of Industrial Components added 4/25/24 - Nyagi
+          new ItemInfo("crate_of_industrial_components", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // High Strength Concrete added 4/25/24 - Nyagi
+          new ItemInfo("high_strength_concrete", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // Blank Rune added 3/8/24 - Nyagi
+          new ItemInfo("rune_blank", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // Optical Rune added 3/8/24 - Nyagi
+          new ItemInfo("rune_optical", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // Velocity Rune added 3/8/24 - Nyagi
+          new ItemInfo("rune_velocity", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // Inertia Rune added 3/8/24 - Nyagi
+          new ItemInfo("rune_inertia", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // Thermodynamic Rune added 3/8/24 - Nyagi
+          new ItemInfo("rune_thermodynamic", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // Magnetic Rune added 3/8/24 - Nyagi
+          new ItemInfo("rune_magnetic", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // Catalytic Rune added 3/8/24 - Nyagi
+          new ItemInfo("rune_catalytic", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // Computational Rune added 3/8/24 - Nyagi
+          new ItemInfo("rune_computational", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+
+          //Create Sequenced Assembly Intermediates
           // Incomplete Controller added 2/20/24 - Nyagi
           new ItemInfo("incomplete_controller", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
           // Incomplete Cell Workbench added 2/20/24 - Nyagi
@@ -383,76 +455,7 @@ public class ModItems {
           new ItemInfo("incomplete_me_fluid_cell_housing", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
           // Incomplete Energy Acceptor added 2/22/24 - Nyagi
           new ItemInfo("incomplete_energy_acceptor", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
-          // Botania Assembly added 3/17/24 - Nyagi
-          new ItemInfo("botania_assembly", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          // Semi-organic Substrate added 3/17/24 - Nyagi
-          new ItemInfo("semi_organic_substrate", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          // Soil Conditioner added 3/17/24 - Nyagi
-          new ItemInfo("soil_conditioner", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          // Living Frame added 3/17/24 - Nyagi
-          new ItemInfo("living_frame", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          // Terrarium added 3/17/24 - Nyagi
-          new ItemInfo("terrarium", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          // Organic Pseudo Logic added 3/17/24 - Nyagi
-          new ItemInfo("organic_pseudo_logic", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          // Sealant added 3/17/24 - Nyagi
-          new ItemInfo("sealant", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          // Magnetic Hematite added 3/17/24 - Nyagi
-          new ItemInfo("magnetic_hematite", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          // Mystic Fertilizer added 3/17/24 - Nyagi
-          new ItemInfo("mystic_fertilizer", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          // Alchemistry Assembly added 4/6/24 - Nyagi
-          new ItemInfo("alchemistry_assembly", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          // Electrolytic Core added 4/6/24 - Nyagi
-          new ItemInfo("electrolytic_core", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          // Desiccation Powder added 4/6/24 - Nyagi
-          new ItemInfo("desiccation_powder", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          // Chemical Grade Glassware added 4/6/24 - Nyagi
-          new ItemInfo("chemical_grade_glassware", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          // Fume Fan added 4/6/24 - Nyagi
-          new ItemInfo("fume_fan", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          // Chemically Inert Wood added 4/6/24 - Nyagi
-          new ItemInfo("chemically_inert_wood", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          // pH Strips added 4/6/24 - Nyagi
-          new ItemInfo("ph_strips", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          // Chromatography Kit added 4/6/24 - Nyagi
-          new ItemInfo("chromatography_kit", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          // Bunsen Burner added 4/6/24 - Nyagi
-          new ItemInfo("bunsen_burner", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          // Immersive Assembly added 4/25/24 - Nyagi
-          new ItemInfo("immersive_assembly", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          // High Temperature Heat Exchanger added 4/25/24 - Nyagi
-          new ItemInfo("high_temperature_heat_exchanger", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          // Duct Tape added 4/25/24 - Nyagi
-          new ItemInfo("duct_tape", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          // WD40 added 4/25/24 - Nyagi
-          new ItemInfo("wd_40", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          // 79" x 28" TRIPLE-BAY 4s SERIES TOOLBOX added 4/25/24 - Nyagi
-          new ItemInfo("triple_bay_4s_series_toolbox", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          // Acetylene Tank added 4/25/24 - Nyagi
-          new ItemInfo("acetylene_tank", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          // OSHA Approved Gear added 4/25/24 - Nyagi
-          new ItemInfo("osha_approved_gear", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          // Crate Of Industrial Components added 4/25/24 - Nyagi
-          new ItemInfo("crate_of_industrial_components", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          // High Strength Concrete added 4/25/24 - Nyagi
-          new ItemInfo("high_strength_concrete", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          // Blank Rune added 3/8/24 - Nyagi
-          new ItemInfo("rune_blank", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          // Optical Rune added 3/8/24 - Nyagi
-          new ItemInfo("rune_optical", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          // Velocity Rune added 3/8/24 - Nyagi
-          new ItemInfo("rune_velocity", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          // Inertia Rune added 3/8/24 - Nyagi
-          new ItemInfo("rune_inertia", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          // Thermodynamic Rune added 3/8/24 - Nyagi
-          new ItemInfo("rune_thermodynamic", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          // Magnetic Rune added 3/8/24 - Nyagi
-          new ItemInfo("rune_magnetic", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          // Catalytic Rune added 3/8/24 - Nyagi
-          new ItemInfo("rune_catalytic", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          // Computational Rune added 3/8/24 - Nyagi
-          new ItemInfo("rune_computational", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+
 
       /*
         SCIENCE ITEMS REGISTRATION
