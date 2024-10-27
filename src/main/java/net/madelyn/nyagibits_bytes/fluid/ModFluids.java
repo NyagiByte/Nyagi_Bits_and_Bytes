@@ -2,7 +2,10 @@ package net.madelyn.nyagibits_bytes.fluid;
 
 import net.madelyn.nyagibits_bytes.NyagiBits_Bytes;
 import net.madelyn.nyagibits_bytes.block.ModBlocks;
+import net.madelyn.nyagibits_bytes.item.ModCreativeModeTab;
 import net.madelyn.nyagibits_bytes.item.ModItems;
+import net.madelyn.nyagibits_bytes.misc.Utils;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.material.FlowingFluid;
 import net.minecraft.world.level.material.Fluid;
 import net.minecraft.world.level.material.FluidState;
@@ -48,7 +51,8 @@ public class ModFluids {
             .slopeFindDistance(2)
             .levelDecreasePerBlock(2)
             .block(ModBlocks.HYDROCARBON_TAR_BLOCK)
-            .bucket(ModItems.HYDROCARBON_TAR_BUCKET);
+            .bucket(() -> Utils.fetchItem(new ResourceLocation(NyagiBits_Bytes.MOD_ID,"bucket_of_hydrocarbon_tar")));
+
 
     //Raw Wood Vinegar - Added 6/25/24
     public static final ForgeFlowingFluid.Properties RAW_WOOD_VINEGAR_FLUID_PROPERTIES = new ForgeFlowingFluid.Properties(
@@ -56,7 +60,7 @@ public class ModFluids {
             .slopeFindDistance(4)
             .levelDecreasePerBlock(1)
             .block(ModBlocks.RAW_WOOD_VINEGAR_BLOCK)
-            .bucket(ModItems.RAW_WOOD_VINEGAR_BUCKET);
+            .bucket(() -> Utils.fetchItem(new ResourceLocation(NyagiBits_Bytes.MOD_ID,"bucket_of_raw_wood_vinegar")));
 
     //Pyroligneous Acid - Added 6/25/24
     public static final ForgeFlowingFluid.Properties PYROLIGNEOUS_ACID_FLUID_PROPERTIES = new ForgeFlowingFluid.Properties(
@@ -64,7 +68,7 @@ public class ModFluids {
             .slopeFindDistance(4)
             .levelDecreasePerBlock(1)
             .block(ModBlocks.PYROLIGNEOUS_ACID_BLOCK)
-            .bucket(ModItems.PYROLIGNEOUS_ACID_BUCKET);
+            .bucket(() -> Utils.fetchItem(new ResourceLocation(NyagiBits_Bytes.MOD_ID,"bucket_of_pyroligneous_acid")));
 
     //Acetone - Added 6/25/24
     public static final ForgeFlowingFluid.Properties ACETONE_FLUID_PROPERTIES = new ForgeFlowingFluid.Properties(
@@ -72,7 +76,7 @@ public class ModFluids {
             .slopeFindDistance(3)
             .levelDecreasePerBlock(1)
             .block(ModBlocks.ACETONE_BLOCK)
-            .bucket(ModItems.ACETONE_BUCKET);
+            .bucket(() -> Utils.fetchItem(new ResourceLocation(NyagiBits_Bytes.MOD_ID,"bucket_of_acetone")));
 
 
     public static void register(IEventBus eventBus) {

@@ -1,38 +1,27 @@
 package net.madelyn.nyagibits_bytes.item;
 
+import net.madelyn.nyagibits_bytes.NyagiBits_Bytes;
 import net.madelyn.nyagibits_bytes.block.ModBlocks;
+import net.madelyn.nyagibits_bytes.misc.Utils;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
+import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-// TODO: put buckets back into ITEM_MAP so we can populate that tab
-// programmatically
-// I think I just messed up parsing in ModItems.java:bucket
 
 public class ModCreativeModeTab {
 
   private static final Logger LOGGER = LogManager.getLogger();
 
-  private static ItemStack getItemIcon(String itemName) {
-    RegistryObject<Item> item = ModItems.ITEM_MAP.get(itemName);
-    LOGGER.info("Attempting to get item: '{}' -> {}", itemName,
-                item != null ? item.get() : "null");
-    if (item == null || item.get() == null) {
-      LOGGER.warn("Item '{}' not found or is null, returning fallback icon.",
-                  itemName);
-      return new ItemStack(ModBlocks.FLAKE.get());
-    }
-    return new ItemStack(item.get());
-  }
-
   public static final CreativeModeTab NYAGIBITS_BYTES_ITEMS =
       new CreativeModeTab("nyagibits_bytes_tab_items") {
         @Override
         public ItemStack makeIcon() {
-          return getItemIcon("livisite_alloy");
+          return new ItemStack(Utils.fetchItem(new ResourceLocation(NyagiBits_Bytes.MOD_ID, "livisite_alloy")));
         }
       };
 
@@ -40,7 +29,7 @@ public class ModCreativeModeTab {
       new CreativeModeTab("nyagibits_bytes_tab_blocks") {
         @Override
         public ItemStack makeIcon() {
-          return new ItemStack(ModBlocks.FLAKE.get());
+            return new ItemStack(Utils.fetchItem(new ResourceLocation(NyagiBits_Bytes.MOD_ID, "flake")));
         }
       };
 
@@ -48,7 +37,7 @@ public class ModCreativeModeTab {
       new CreativeModeTab("nyagibits_bytes_tab_science") {
         @Override
         public ItemStack makeIcon() {
-          return getItemIcon("lab_notebook");
+            return new ItemStack(Utils.fetchItem(new ResourceLocation(NyagiBits_Bytes.MOD_ID, "lab_notebook")));
         }
       };
 
@@ -56,7 +45,7 @@ public class ModCreativeModeTab {
       new CreativeModeTab("nyagibits_bytes_tab_schematics") {
         @Override
         public ItemStack makeIcon() {
-          return getItemIcon("blank_blueprint");
+            return new ItemStack(Utils.fetchItem(new ResourceLocation(NyagiBits_Bytes.MOD_ID, "blank_blueprint")));
         }
       };
 
@@ -64,7 +53,7 @@ public class ModCreativeModeTab {
       new CreativeModeTab("nyagibits_bytes_tab_minerals") {
         @Override
         public ItemStack makeIcon() {
-          return getItemIcon("raw_hematite");
+            return new ItemStack(Utils.fetchItem(new ResourceLocation(NyagiBits_Bytes.MOD_ID, "raw_hematite")));
         }
       };
 
@@ -72,8 +61,7 @@ public class ModCreativeModeTab {
       new CreativeModeTab("nyagibits_bytes_tab_fluids") {
         @Override
         public ItemStack makeIcon() {
-          return new ItemStack(ModItems.HYDROCARBON_TAR_BUCKET
-                                   .get()); // currently not in ITEM_MAP
+            return new ItemStack(Utils.fetchItem(new ResourceLocation(NyagiBits_Bytes.MOD_ID, "bucket_of_hydrocarbon_tar")));
         }
       };
 
@@ -82,7 +70,7 @@ public class ModCreativeModeTab {
           new CreativeModeTab("nyagibits_bytes_tab_incomplete_sequence_items") {
             @Override
             public ItemStack makeIcon() {
-              return getItemIcon("incomplete_controller");
+                return new ItemStack(Utils.fetchItem(new ResourceLocation(NyagiBits_Bytes.MOD_ID, "incomplete_controller")));
             }
           };
 }
