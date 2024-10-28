@@ -1,8 +1,8 @@
 package net.madelyn.nyagibits_bytes.block;
 
 import net.madelyn.nyagibits_bytes.NyagiBits_Bytes;
-import net.madelyn.nyagibits_bytes.fluid.ModFluids;
 import net.madelyn.nyagibits_bytes.item.ModItems;
+import net.madelyn.nyagibits_bytes.misc.Utils;
 import net.madelyn.nyagibits_bytes.misc.Utils.Tab;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -11,12 +11,14 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.LiquidBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.material.FlowingFluid;
 import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Supplier;
 
@@ -58,8 +60,8 @@ public class ModBlocks {
 
     //Do not register conglomerate ores here if adding new boulders. Use the list above.
     //FORMAT: Id, Material, Strength, Requires Tool, Creative Tab
-    //Oh and ignore intellij. This should not be final.
-    private static List<BlockInfo> BLOCKS_LIST = List.of(
+    @SuppressWarnings("FieldMayBeFinal")
+    private static List<BlockInfo> BLOCKS_LIST = new ArrayList<>(List.of(
         //Livisite Stone added 7/11/23 - Nyagi
         new BlockInfo("livisite_stone", Material.STONE, 2f, true, Tab.BLOCKS),
         //Livisite Cobble added 7/11/23 - Nyagi
@@ -86,7 +88,7 @@ public class ModBlocks {
         new BlockInfo("block_of_15n20_high_carbon_steel",Material.METAL, 4f, true, Tab.BLOCKS),
         //Stainless Steel Block added 5/16/24 - Nyagi
         new BlockInfo("block_of_stainless_steel",Material.METAL, 4f, true, Tab.BLOCKS)
-    );
+    ));
 
     //A small helper function to add the data for all 5 conglomerate ores for each type.
     private static List<BlockInfo> generateConglomerates(String type){
@@ -106,19 +108,19 @@ public class ModBlocks {
 
     //Hydrocarbon Tar - Added 6/25/24
     public static final RegistryObject<LiquidBlock> HYDROCARBON_TAR_BLOCK = BLOCKS.register("hydrocarbon_tar_block",
-            () -> new LiquidBlock(ModFluids.SOURCE_HYDROCARBON_TAR, BlockBehaviour.Properties.copy(Blocks.WATER)));
+            () -> new LiquidBlock(() -> (FlowingFluid) Utils.fetchFluid(Utils.NBNB("hydrocarbon_tar_fluid")), BlockBehaviour.Properties.copy(Blocks.WATER)));
 
     //Raw Wood Vinegar - Added 6/25/24
     public static final RegistryObject<LiquidBlock> RAW_WOOD_VINEGAR_BLOCK = BLOCKS.register("raw_wood_vinegar_block",
-            () -> new LiquidBlock(ModFluids.SOURCE_RAW_WOOD_VINEGAR, BlockBehaviour.Properties.copy(Blocks.WATER)));
+            () -> new LiquidBlock(() -> (FlowingFluid) Utils.fetchFluid(Utils.NBNB("raw_wood_vinegar_fluid")), BlockBehaviour.Properties.copy(Blocks.WATER)));
 
     //Pyroligneous Acid - Added 6/25/24
     public static final RegistryObject<LiquidBlock> PYROLIGNEOUS_ACID_BLOCK = BLOCKS.register("pyroligneous_acid_block",
-            () -> new LiquidBlock(ModFluids.SOURCE_PYROLIGNEOUS_ACID, BlockBehaviour.Properties.copy(Blocks.WATER)));
+            () -> new LiquidBlock(() -> (FlowingFluid) Utils.fetchFluid(Utils.NBNB("pyroligneous_acid_fluid")), BlockBehaviour.Properties.copy(Blocks.WATER)));
 
     //Acetone - Added 6/25/24
     public static final RegistryObject<LiquidBlock> ACETONE_BLOCK = BLOCKS.register("acetone_block",
-            () -> new LiquidBlock(ModFluids.SOURCE_ACETONE, BlockBehaviour.Properties.copy(Blocks.WATER)));
+            () -> new LiquidBlock(() -> (FlowingFluid) Utils.fetchFluid(Utils.NBNB("acetone_fluid")), BlockBehaviour.Properties.copy(Blocks.WATER)));
 
 
 

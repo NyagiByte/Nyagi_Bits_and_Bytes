@@ -245,7 +245,34 @@
     "item.nyagibits_bytes.refined_radiance.desc": "Un materiale cromatico forgiato\nda un intenso raggio di\nradianza e luce pura",
     "item.nyagibits_bytes.shadow_steel": "Ombracciaio",
     "item.nyagibits_bytes.shadow_steel.desc": "Un materiale cromatico forgiato\ndall'essenza di dove la\nluce non può mai brillare",
-  
+
+    "item.nyagibits_bytes.smectite_clay": "Argilla Smectica",
+    "item.nyagibits_bytes.smectite_clay.desc": "Conosciuta anche come terra da follone\nquest'argilla rimane abrasiva ma facile\nda manipolare contro una superfice",
+    "item.nyagibits_bytes.sodium_hypochlorite": "Ipoclorito di Sodio",
+    "item.nyagibits_bytes.sodium_hypochlorite.desc": "Un composto alcalino altamente\nbasico. Distruggerà buona parte degli\norganici e lascia gli oggetti puliti",
+    "item.nyagibits_bytes.volcanic_pumice": "Pumice Volcanica",
+    "item.nyagibits_bytes.volcanic_pumice.desc": "Sempre roccia ma meno densa\ndell'acqua! Un materiale\nmolto abrasivo.",
+    "item.nyagibits_bytes.dense_slag": "Scoria Densa",
+    "item.nyagibits_bytes.dense_slag.desc": "Scordato di filtrare il\nmixer, non è vero? :)",
+    "item.nyagibits_bytes.skystone_encrusted_boule": "Boule Incrostata in Pietra del Cielo",
+    "item.nyagibits_bytes.skystone_encrusted_boule.desc": "Mentre non è più utile per l'elettronica,\nquesti cristalli celestiali lungo\nl'esterno sembrano aiutare\nl'incanalatura di energia nel manacciaio",
+    "item.nyagibits_bytes.botanical_core": "Nucleo Botanico",
+    "item.nyagibits_bytes.botanical_core.desc": "Un agglomerato strano di parti che\nsembrano aiutare a fare da ponte\ntra elettronica e mana.",
+    "item.nyagibits_bytes.everburn_tar": "Catrame Infinifiamma",
+    "item.nyagibits_bytes.everburn_tar.desc": "Wow, non smette mai di bruciare!\nOh merda aspetta, non si ferma mai...",
+    "item.nyagibits_bytes.mercury_thermometer": "Termometro con Mercurio",
+    "item.nyagibits_bytes.mercury_thermometer.desc": "Perfetto per bere",
+    "item.nyagibits_bytes.high_strength_ratio_reducer": "Riduttore di Rapporto ad Alta Potenza",
+    "item.nyagibits_bytes.high_strength_ratio_reducer.desc": "GPM: Eventualmente, Coppia: Si",
+    "item.nyagibits_bytes.precise_crystal_harmonizer": "Armonizzatore Cristallino Preciso",
+    "item.nyagibits_bytes.precise_crystal_harmonizer.desc": "Simile a quelli trovati in\norologi elettronici e da polso.\nApplica una piccola corrrente per\nsfruttare una proprietà conosciuta come\neffetto piezoelettrico. Puoi contare\nquanto spesso il quarzo vibra\ne tenere traccia del tempo\ncon precisione decente",
+    "item.nyagibits_bytes.mini_faraday_cage": "Mini Gabbia di Faraday",
+    "item.nyagibits_bytes.mini_faraday_cage.desc": "Fogli di metallo uniti insieme\nper creare una barriera contro\nonde radio e microonde",
+    "item.nyagibits_bytes.pile_of_basic_mechanical_parts": "Pila di Parti Meccaniche di base",
+    "item.nyagibits_bytes.pile_of_basic_mechanical_parts.desc": "Una scatola più sofisticata\ndi spazzatura",
+
+
+
     "item.nyagibits_bytes.lab_notebook": "Taccuino da Laboratorio",
     "item.nyagibits_bytes.lab_notebook.desc": "La scienza è cazzaggiare\ne fare scoperte per caso, ma puoi\nanche prendere degli appunti!",
     "item.nyagibits_bytes.lab_notebook_with_crude_compression_data": "Taccuino con Dati su Compressione Grezzi",
@@ -260,6 +287,8 @@
     "item.nyagibits_bytes.lab_notebook_with_crude_natural_arcana_data.desc": "Non credo sia ancora\ntecnologia a questo punto",
     "item.nyagibits_bytes.lab_notebook_with_crude_material_properties_data": "Taccuino con Dati su Proprietà Materiali Grezzi",
     "item.nyagibits_bytes.lab_notebook_with_crude_material_properties_data.desc": "UTS ~= 750 MPam, CS ~= 3kPSI\nPurtroppo non resistente a lava o acidi",
+    "item.nyagibits_bytes.lexicon": "Lessico",
+    "item.nyagibits_bytes.lexicon.desc": "Con il potere del mana\npossiamo scrivere più parole\nper parola. E adesso fluttua",
   
     "item.nyagibits_bytes.pen": "Penna",
     "item.nyagibits_bytes.pen.desc": "Più forte della spada!",
@@ -385,11 +414,14 @@
     "item.nyagibits_bytes.used_crude_natural_arcana_test.desc": "Uh... quello è un bonsai di ciliegio?\nMeglio non fare altre domande.",
     "item.nyagibits_bytes.used_crude_material_properties_test": "Test di Proprietà Materiali Grezzo Usato",
     "item.nyagibits_bytes.used_crude_material_properties_test.desc": "Non durevole come anticipato\ncomunque molto utile",
-  
-  
-  
-  
-    
+
+    "item.nyagibits_bytes.mana_bomb_calorimeter": "Calorimetro per Mana",
+    "item.nyagibits_bytes.mana_bomb_calorimeter.desc": "Quanta energia ha il mana?",
+    "item.nyagibits_bytes.single_use_mana_ablatives_demonstration": "Dimostrazione Monouso di Mana-Ablativi",
+    "item.nyagibits_bytes.single_use_mana_ablatives_demonstration.desc": "Solo una scusa per far scoppiare\npiù roba, veramente",
+    "item.nyagibits_bytes.basic_material_properties_test": "Test di Proprietà Materiali di Base",
+    "item.nyagibits_bytes.basic_material_properties_test.desc": "Nuovi bei materiali!\nOra di vedere come si rompono...",
+
     "nyagi_bits_bytes.tooltip.shift_yield_prompt": "Premi Maiuscolo per informazioni sulla resa",
   
     "item.nyagibits_bytes.raw_limonite": "Limonite Grezza",

@@ -1,6 +1,5 @@
 package net.madelyn.nyagibits_bytes.misc;
 
-import net.madelyn.nyagibits_bytes.NyagiBits_Bytes;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.TagKey;
@@ -15,7 +14,7 @@ public class ModTags {
         public static final TagKey<Block> NEEDS_FLAKE_TOOL = tag("needs_flake_tool");
 
         private static TagKey<Block> tag(String name) {
-            return BlockTags.create(new ResourceLocation(NyagiBits_Bytes.MOD_ID, name));
+            return BlockTags.create(Utils.NBNB(name));
         }
 
         private static TagKey<Block> forgeTag(String name) {
