@@ -4,6 +4,7 @@ import java.util.List;
 
 import net.madelyn.nyagibits_bytes.NyagiBits_Bytes;
 import net.madelyn.nyagibits_bytes.fluid.ModFluids;
+import net.madelyn.nyagibits_bytes.misc.Utils.Tab;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -854,17 +855,6 @@ public class ModItems {
     CURIO,
     LEVITATING,
     CUSTOM_ORE
-  }
-
-  //This is just a list of shorthands to make the list cleaner.
-  public static class Tab{
-    public static CreativeModeTab ITEMS = ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS;
-    public static CreativeModeTab BLOCKS = ModCreativeModeTab.NYAGIBITS_BYTES_BLOCKS;
-    public static CreativeModeTab SCIENCE = ModCreativeModeTab.NYAGIBITS_BYTES_SCIENCE;
-    public static CreativeModeTab SCHEMATICS = ModCreativeModeTab.NYAGIBITS_BYTES_SCHEMATICS;
-    public static CreativeModeTab SEQUENCE = ModCreativeModeTab.NYAGIBITS_BYTES_INCOMPLETE_SEQUENCE_ITEMS;
-    public static CreativeModeTab FLUIDS = ModCreativeModeTab.NYAGIBITS_BYTES_FLUIDS;
-    public static CreativeModeTab MINERALS = ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS;
   }
 
 }
