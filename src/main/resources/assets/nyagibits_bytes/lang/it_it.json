@@ -1,4 +1,7 @@
 {
+    "item.nyagibits_bytes.inert_god_heart": "Cuore Divino Inerte",
+    "item.nyagibits_bytes.inert_god_heart.desc": "E'...molto più freddo.",
+
     "item.nyagibits_bytes.tier_zero_strawberry": "Fragola del Capitolo Zero",
     "item.nyagibits_bytes.tier_zero_strawberry.desc": "Una fragola di pietra",
     "item.nyagibits_bytes.golden_tier_zero_strawberry": "Fragola Dorata del Capitolo Zero",
@@ -449,10 +452,10 @@
     "item.nyagibits_bytes.raw_native_mercury_spherules": "Sferule di Mercurio Nativo Grezzo",
     "item.nyagibits_bytes.raw_montroydite": "Montroidite Grezza",
     "item.nyagibits_bytes.raw_granulated_obsidian": "Ossidiana Granulata Grezza",
-  
-  
-  
-    
+
+    "item.nyagibits_bytes.raw_kimberlite": "Kimberlite Grezza",
+    "item.nyagibits_bytes.raw_lamproite": "Lamproite Grezza",
+    "item.nyagibits_bytes.raw_lazurite": "Lazurite Grezza",
     "item.nyagibits_bytes.raw_lapis_lazuli": "Lapislazzuli Grezzo",
     "item.nyagibits_bytes.raw_prime_beryllic_cluster": "Ammasso Berillico Primario Grezzo",
     "item.nyagibits_bytes.raw_fluorite": "Fluorite Grezza",
