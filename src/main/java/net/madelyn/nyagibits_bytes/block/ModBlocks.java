@@ -2,7 +2,6 @@ package net.madelyn.nyagibits_bytes.block;
 
 import net.madelyn.nyagibits_bytes.NyagiBits_Bytes;
 import net.madelyn.nyagibits_bytes.fluid.ModFluids;
-import net.madelyn.nyagibits_bytes.item.ItemInfo;
 import net.madelyn.nyagibits_bytes.item.ModItems;
 import net.madelyn.nyagibits_bytes.misc.Utils.Tab;
 import net.minecraft.world.item.BlockItem;
@@ -36,9 +35,31 @@ public class ModBlocks {
     Tralomine: [Flake]
     ---------------------------------------------------------------------------------------*/
 
-    //FORMAT: Id, Material, Strength, Requires Tool, Creative Tab
+    //Not sure what to do with these since i mulched all the individual bits for these.
+    //ORE BLOCKS
+    //Iron Related added 11/10/23 - Nyagi
+    //Coal Related added 11/10/23 - Nyagi
+    //Copper Related added 11/10/23 - Nyagi
+    //Tin generated 2023/10/11 - Flooter
+    //Uranium generated 2023/10/11 - Flooter
+    //Nickel generated 2023/10/11 - Flooter
+    //Lead generated 2023/10/11 - Flooter
+    //Bauxite generated 2023/10/11 - Flooter
+    //Zinc generated 2023/10/11 - Flooter
+    //Quartz generated 2023/10/11 - Flooter
+    //Gemstones generated 2023/10/11 - Flooter
+    //Redstone generated 2023/10/11 - Flooter
+    //Electrum generated 2023/10/11 - Flooter
+    //Migmamite generated 2023/10/11 - Flooter
 
-    private static final List<BlockInfo> BLOCKS_LIST = List.of(
+
+    //This is used to generate and register all the conglomerate ores
+    private static final List<String> BOULDER_TYPES = List.of("iron", "coal", "copper", "tin", "uranium", "nickel", "lead", "bauxite", "zinc", "quartz", "gemstones", "redstone", "electrum", "migmamite");
+
+    //Do not register conglomerate ores here if adding new boulders. Use the list above.
+    //FORMAT: Id, Material, Strength, Requires Tool, Creative Tab
+    //Oh and ignore intellij. This should not be final.
+    private static List<BlockInfo> BLOCKS_LIST = List.of(
         //Livisite Stone added 7/11/23 - Nyagi
         new BlockInfo("livisite_stone", Material.STONE, 2f, true, Tab.BLOCKS),
         //Livisite Cobble added 7/11/23 - Nyagi
@@ -64,179 +85,19 @@ public class ModBlocks {
         //15N20 High Carbon Steel Block added 5/16/24 - Nyagi
         new BlockInfo("block_of_15n20_high_carbon_steel",Material.METAL, 4f, true, Tab.BLOCKS),
         //Stainless Steel Block added 5/16/24 - Nyagi
-        new BlockInfo("block_of_stainless_steel",Material.METAL, 4f, true, Tab.BLOCKS),
-
-        //ORE BLOCKS
-        //Iron Related added 11/10/23 - Nyagi
-        //Conglomerate Iron Ore
-        new BlockInfo("conglomerate_iron_ore", Material.STONE, 6f, true, Tab.MINERALS),
-        //Dense Conglomerate Iron Ore
-        new BlockInfo("dense_conglomerate_iron_ore", Material.STONE, 12f, true, Tab.MINERALS),
-        //Hyper Conglomerate Iron Ore
-        new BlockInfo("hyper_conglomerate_iron_ore", Material.STONE, 24f, true, Tab.MINERALS),
-        //Tectonic Conglomerate Iron Ore
-        new BlockInfo("tectonic_conglomerate_iron_ore", Material.STONE, 48f, true, Tab.MINERALS),
-        //Core Conglomerate Iron Ore
-        new BlockInfo("core_conglomerate_iron_ore", Material.STONE, 96f, true, Tab.MINERALS),
-
-        //Coal Related added 11/10/23 - Nyagi
-        //Conglomerate Coal Ore
-        new BlockInfo("conglomerate_coal_ore", Material.STONE, 6f, true, Tab.MINERALS),
-        //Dense Conglomerate Coal Ore
-        new BlockInfo("dense_conglomerate_coal_ore", Material.STONE, 12f, true, Tab.MINERALS),
-        //Hyper Conglomerate Coal Ore
-        new BlockInfo("hyper_conglomerate_coal_ore", Material.STONE, 24f, true, Tab.MINERALS),
-        //Tectonic Conglomerate Coal Ore
-        new BlockInfo("tectonic_conglomerate_coal_ore", Material.STONE, 48f, true, Tab.MINERALS),
-        //Core Conglomerate Coal Ore
-        new BlockInfo("core_conglomerate_coal_ore", Material.STONE, 96f, true, Tab.MINERALS),
-
-        //Copper Related added 11/10/23 - Nyagi
-        //Conglomerate Copper Ore
-        new BlockInfo("conglomerate_copper_ore", Material.STONE, 6f, true, Tab.MINERALS),
-        //Dense Conglomerate Copper Ore
-        new BlockInfo("dense_conglomerate_copper_ore", Material.STONE, 12f, true, Tab.MINERALS),
-        //Hyper Conglomerate Copper Ore
-        new BlockInfo("hyper_conglomerate_copper_ore", Material.STONE, 24f, true, Tab.MINERALS),
-        //Tectonic Conglomerate Copper Ore
-        new BlockInfo("tectonic_conglomerate_copper_ore", Material.STONE, 48f, true, Tab.MINERALS),
-        //Core Conglomerate Copper Ore
-        new BlockInfo("core_conglomerate_copper_ore", Material.STONE, 96f, true, Tab.MINERALS),
-
-        //Tin generated 2023/10/11 - Flooter
-        //Conglomerate Tin Ore
-        new BlockInfo("conglomerate_tin_ore",Material.STONE, 6f, true, Tab.MINERALS),
-        //Dense Conglomerate Tin Ore
-        new BlockInfo("dense_conglomerate_tin_ore",Material.STONE, 12f, true, Tab.MINERALS),
-        //Hyper Conglomerate Tin Ore
-        new BlockInfo("hyper_conglomerate_tin_ore",Material.STONE, 24f, true, Tab.MINERALS),
-        //Tectonic Conglomerate Tin Ore
-        new BlockInfo("tectonic_conglomerate_tin_ore",Material.STONE, 48f, true, Tab.MINERALS),
-        //Core Conglomerate Tin Ore
-        new BlockInfo("core_conglomerate_tin_ore",Material.STONE, 96f, true, Tab.MINERALS),
-
-        //Uranium generated 2023/10/11 - Flooter
-        //Conglomerate Uranium Ore
-        new BlockInfo("conglomerate_uranium_ore",Material.STONE, 6f, true, Tab.MINERALS),
-        //Dense Conglomerate Uranium Ore
-        new BlockInfo("dense_conglomerate_uranium_ore",Material.STONE, 12f, true, Tab.MINERALS),
-        //Hyper Conglomerate Uranium Ore
-        new BlockInfo("hyper_conglomerate_uranium_ore",Material.STONE, 24f, true, Tab.MINERALS),
-        //Tectonic Conglomerate Uranium Ore
-        new BlockInfo("tectonic_conglomerate_uranium_ore",Material.STONE, 48f, true, Tab.MINERALS),
-        //Core Conglomerate Uranium Ore
-        new BlockInfo("core_conglomerate_uranium_ore",Material.STONE, 96f, true, Tab.MINERALS),
-
-        //Nickel generated 2023/10/11 - Flooter
-        //Conglomerate Nickel Ore
-        new BlockInfo("conglomerate_nickel_ore",Material.STONE, 6f, true, Tab.MINERALS),
-        //Dense Conglomerate Nickel Ore
-        new BlockInfo("dense_conglomerate_nickel_ore",Material.STONE, 12f, true, Tab.MINERALS),
-        //Hyper Conglomerate Nickel Ore
-        new BlockInfo("hyper_conglomerate_nickel_ore",Material.STONE, 24f, true, Tab.MINERALS),
-        //Tectonic Conglomerate Nickel Ore
-        new BlockInfo("tectonic_conglomerate_nickel_ore",Material.STONE, 48f, true, Tab.MINERALS),
-        //Core Conglomerate Nickel Ore
-        new BlockInfo("core_conglomerate_nickel_ore",Material.STONE, 96f, true, Tab.MINERALS),
-
-        //Lead generated 2023/10/11 - Flooter
-        //Conglomerate Lead Ore
-        new BlockInfo("conglomerate_lead_ore",Material.STONE, 6f, true, Tab.MINERALS),
-        //Dense Conglomerate Lead Ore
-        new BlockInfo("dense_conglomerate_lead_ore",Material.STONE, 12f, true, Tab.MINERALS),
-        //Hyper Conglomerate Lead Ore
-        new BlockInfo("hyper_conglomerate_lead_ore",Material.STONE, 24f, true, Tab.MINERALS),
-        //Tectonic Conglomerate Lead Ore
-        new BlockInfo("tectonic_conglomerate_lead_ore",Material.STONE, 48f, true, Tab.MINERALS),
-        //Core Conglomerate Lead Ore
-        new BlockInfo("core_conglomerate_lead_ore",Material.STONE, 96f, true, Tab.MINERALS),
-
-        //Bauxite generated 2023/10/11 - Flooter
-        //Conglomerate Bauxite Ore
-        new BlockInfo("conglomerate_bauxite_ore",Material.STONE, 6f, true, Tab.MINERALS),
-        //Dense Conglomerate Bauxite Ore
-        new BlockInfo("dense_conglomerate_bauxite_ore",Material.STONE, 12f, true, Tab.MINERALS),
-        //Hyper Conglomerate Bauxite Ore
-        new BlockInfo("hyper_conglomerate_bauxite_ore",Material.STONE, 24f, true, Tab.MINERALS),
-        //Tectonic Conglomerate Bauxite Ore
-        new BlockInfo("tectonic_conglomerate_bauxite_ore",Material.STONE, 48f, true, Tab.MINERALS),
-        //Core Conglomerate Bauxite Ore
-        new BlockInfo("core_conglomerate_bauxite_ore",Material.STONE, 96f, true, Tab.MINERALS),
-
-        //Zinc generated 2023/10/11 - Flooter
-        //Conglomerate Zinc Ore
-        new BlockInfo("conglomerate_zinc_ore",Material.STONE, 6f, true, Tab.MINERALS),
-        //Dense Conglomerate Zinc Ore
-        new BlockInfo("dense_conglomerate_zinc_ore",Material.STONE, 12f, true, Tab.MINERALS),
-        //Hyper Conglomerate Zinc Ore
-        new BlockInfo("hyper_conglomerate_zinc_ore",Material.STONE, 24f, true, Tab.MINERALS),
-        //Tectonic Conglomerate Zinc Ore
-        new BlockInfo("tectonic_conglomerate_zinc_ore",Material.STONE, 48f, true, Tab.MINERALS),
-        //Core Conglomerate Zinc Ore
-        new BlockInfo("core_conglomerate_zinc_ore",Material.STONE, 96f, true, Tab.MINERALS),
-
-        //Quartz generated 2023/10/11 - Flooter
-        //Conglomerate Quartz Ore
-        new BlockInfo("conglomerate_quartz_ore",Material.STONE, 6f, true, Tab.MINERALS),
-        //Dense Conglomerate Quartz Ore
-        new BlockInfo("dense_conglomerate_quartz_ore",Material.STONE, 12f, true, Tab.MINERALS),
-        //Hyper Conglomerate Quartz Ore
-        new BlockInfo("hyper_conglomerate_quartz_ore",Material.STONE, 24f, true, Tab.MINERALS),
-        //Tectonic Conglomerate Quartz Ore
-        new BlockInfo("tectonic_conglomerate_quartz_ore",Material.STONE, 48f, true, Tab.MINERALS),
-        //Core Conglomerate Quartz Ore
-        new BlockInfo("core_conglomerate_quartz_ore",Material.STONE, 96f, true, Tab.MINERALS),
-
-        //Gemstones generated 2023/10/11 - Flooter
-        //Conglomerate Gemstones Ore
-        new BlockInfo("conglomerate_gemstones_ore",Material.STONE, 6f, true, Tab.MINERALS),
-        //Dense Conglomerate Gemstones Ore
-        new BlockInfo("dense_conglomerate_gemstones_ore",Material.STONE, 12f, true, Tab.MINERALS),
-        //Hyper Conglomerate Gemstones Ore
-        new BlockInfo("hyper_conglomerate_gemstones_ore",Material.STONE, 24f, true, Tab.MINERALS),
-        //Tectonic Conglomerate Gemstones Ore
-        new BlockInfo("tectonic_conglomerate_gemstones_ore",Material.STONE, 48f, true, Tab.MINERALS),
-        //Core Conglomerate Gemstones Ore
-        new BlockInfo("core_conglomerate_gemstones_ore",Material.STONE, 96f, true, Tab.MINERALS),
-
-        //Redstone generated 2023/10/11 - Flooter
-        //Conglomerate Redstone Ore
-        new BlockInfo("conglomerate_redstone_ore",Material.STONE, 6f, true, Tab.MINERALS),
-        //Dense Conglomerate Redstone Ore
-        new BlockInfo("dense_conglomerate_redstone_ore",Material.STONE, 12f, true, Tab.MINERALS),
-        //Hyper Conglomerate Redstone Ore
-        new BlockInfo("hyper_conglomerate_redstone_ore",Material.STONE, 24f, true, Tab.MINERALS),
-        //Tectonic Conglomerate Redstone Ore
-        new BlockInfo("tectonic_conglomerate_redstone_ore",Material.STONE, 48f, true, Tab.MINERALS),
-        //Core Conglomerate Redstone Ore
-        new BlockInfo("core_conglomerate_redstone_ore",Material.STONE, 96f, true, Tab.MINERALS),
-
-        //Electrum generated 2023/10/11 - Flooter
-        //Conglomerate Electrum Ore
-        new BlockInfo("conglomerate_electrum_ore",Material.STONE, 6f, true, Tab.MINERALS),
-        //Dense Conglomerate Electrum Ore
-        new BlockInfo("dense_conglomerate_electrum_ore",Material.STONE, 12f, true, Tab.MINERALS),
-        //Hyper Conglomerate Electrum Ore
-        new BlockInfo("hyper_conglomerate_electrum_ore",Material.STONE, 24f, true, Tab.MINERALS),
-        //Tectonic Conglomerate Electrum Ore
-        new BlockInfo("tectonic_conglomerate_electrum_ore",Material.STONE, 48f, true, Tab.MINERALS),
-        //Core Conglomerate Electrum Ore
-        new BlockInfo("core_conglomerate_electrum_ore",Material.STONE, 96f, true, Tab.MINERALS),
-
-
-        //Migmamite generated 2023/10/11 - Flooter
-        //Conglomerate Migmamite Ore
-        new BlockInfo("conglomerate_migmamite_ore",Material.STONE, 6f, true, Tab.MINERALS),
-        //Dense Conglomerate Migmamite Ore
-        new BlockInfo("dense_conglomerate_migmamite_ore",Material.STONE, 12f, true, Tab.MINERALS),
-        //Hyper Conglomerate Migmamite Ore
-        new BlockInfo("hyper_conglomerate_migmamite_ore",Material.STONE, 24f, true, Tab.MINERALS),
-        //Tectonic Conglomerate Migmamite Ore
-        new BlockInfo("tectonic_conglomerate_migmamite_ore",Material.STONE, 48f, true, Tab.MINERALS),
-        //Core Conglomerate Migmamite Ore
-        new BlockInfo("core_conglomerate_migmamite_ore",Material.STONE, 96f, true, Tab.MINERALS)
+        new BlockInfo("block_of_stainless_steel",Material.METAL, 4f, true, Tab.BLOCKS)
     );
 
+    //A small helper function to add the data for all 5 conglomerate ores for each type.
+    private static List<BlockInfo> generateConglomerates(String type){
+        return List.of(
+            new BlockInfo("conglomerate_"+type+"_ore",Material.STONE, 6f, true, Tab.MINERALS),
+            new BlockInfo("dense_conglomerate_"+type+"_ore",Material.STONE, 12f, true, Tab.MINERALS),
+            new BlockInfo("hyper_conglomerate_"+type+"_ore",Material.STONE, 24f, true, Tab.MINERALS),
+            new BlockInfo("tectonic_conglomerate_"+type+"_ore",Material.STONE, 48f, true, Tab.MINERALS),
+            new BlockInfo("core_conglomerate_"+type+"_ore",Material.STONE, 96f, true, Tab.MINERALS)
+        );
+    }
 
     //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     //FLUID-BLOCKS BELOW
@@ -275,8 +136,12 @@ public class ModBlocks {
 
     //--------------------------------------------------------------------------------------
 
-    //Goes through the block list and registers them.
+    //Generates all the conglomerate ores
+    //Then registers all the blocks
     static{
+        for(String ore : BOULDER_TYPES){
+            BLOCKS_LIST.addAll(generateConglomerates(ore));
+        }
         for(BlockInfo info : BLOCKS_LIST){
             registerBlock(info.getId(), info::createBlock, info.getTab());
         }
