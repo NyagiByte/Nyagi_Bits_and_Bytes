@@ -20,10 +20,10 @@ public class ModFluids {
             DeferredRegister.create(ForgeRegistries.FLUIDS, NyagiBits_Bytes.MOD_ID);
 
     //Hydrocarbon Tar
-    public static final RegistryObject<FlowingFluid> SOURCE_HYDROCARBON_TAR = FLUIDS.register("hydrocarbon_tar_fluid",
+    /*public static final RegistryObject<FlowingFluid> SOURCE_HYDROCARBON_TAR = FLUIDS.register("hydrocarbon_tar_fluid",
             () -> new ForgeFlowingFluid.Source(ModFluids.HYDROCARBON_TAR_FLUID_PROPERTIES));
     public static final RegistryObject<FlowingFluid> FLOWING_HYDROCARBON_TAR = FLUIDS.register("flowing_hydrocarbon_tar",
-            () -> new ForgeFlowingFluid.Flowing(ModFluids.HYDROCARBON_TAR_FLUID_PROPERTIES));
+            () -> new ForgeFlowingFluid.Flowing(ModFluids.HYDROCARBON_TAR_FLUID_PROPERTIES));*/
 
     //Raw Wood Vinegar
     public static final RegistryObject<FlowingFluid> SOURCE_RAW_WOOD_VINEGAR = FLUIDS.register("raw_wood_vinegar_fluid",
@@ -46,12 +46,12 @@ public class ModFluids {
     //---------------------------------------------------------------------------------------------------------------------------
 
     //Hydrocarbon Tar - Added 6/25/24
-    public static final ForgeFlowingFluid.Properties HYDROCARBON_TAR_FLUID_PROPERTIES = new ForgeFlowingFluid.Properties(
+  /*  public static final ForgeFlowingFluid.Properties HYDROCARBON_TAR_FLUID_PROPERTIES = new ForgeFlowingFluid.Properties(
             ModFluidTypes.HYDROCARBON_TAR_FLUID_TYPE, SOURCE_HYDROCARBON_TAR, FLOWING_HYDROCARBON_TAR)
             .slopeFindDistance(2)
             .levelDecreasePerBlock(2)
             .block(ModBlocks.HYDROCARBON_TAR_BLOCK)
-            .bucket(() -> Utils.fetchItem(new ResourceLocation(NyagiBits_Bytes.MOD_ID,"bucket_of_hydrocarbon_tar")));
+            .bucket(() -> Utils.fetchItem(new ResourceLocation(NyagiBits_Bytes.MOD_ID,"bucket_of_hydrocarbon_tar")));*/
 
 
     //Raw Wood Vinegar - Added 6/25/24

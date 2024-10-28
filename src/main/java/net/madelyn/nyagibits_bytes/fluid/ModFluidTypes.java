@@ -26,7 +26,7 @@ public class ModFluidTypes {
             DeferredRegister.create(ForgeRegistries.Keys.FLUID_TYPES, NyagiBits_Bytes.MOD_ID);
 
     //Hydrocarbon Tar - Added 6/25/24
-    public static final RegistryObject<FluidType> HYDROCARBON_TAR_FLUID_TYPE = FLUID_TYPES.register("hydrocarbon_tar_fluid",
+    /*public static final RegistryObject<FluidType> HYDROCARBON_TAR_FLUID_TYPE = FLUID_TYPES.register("hydrocarbon_tar_fluid",
             () -> new BaseFluidType(
                     LAVA_STILL_RL,
                     LAVA_FLOWING_RL,
@@ -39,7 +39,7 @@ public class ModFluidTypes {
                             .viscosity(2)
                             .sound(SoundAction.get("drink"), SoundEvents.HONEY_DRINK)
             )
-    );
+    );*/
 
     //Raw Wood Vinegar - Added 6/25/24
     public static final RegistryObject<FluidType> RAW_WOOD_VINEGAR_FLUID_TYPE = FLUID_TYPES.register("raw_wood_vinegar_fluid",

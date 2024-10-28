@@ -6,6 +6,7 @@ import com.mojang.logging.LogUtils;
 import net.madelyn.nyagibits_bytes.block.ModBlocks;
 import net.madelyn.nyagibits_bytes.fluid.ModFluidTypes;
 import net.madelyn.nyagibits_bytes.fluid.ModFluids;
+import net.madelyn.nyagibits_bytes.fluid.NewModFluids;
 import net.madelyn.nyagibits_bytes.item.ModItems;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
@@ -35,6 +36,7 @@ public class NyagiBits_Bytes {
         //Register adds fluids
         ModFluids.register(modEventBus);
         ModFluidTypes.register(modEventBus);
+        NewModFluids.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);

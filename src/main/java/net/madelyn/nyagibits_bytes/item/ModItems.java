@@ -4,7 +4,9 @@ import java.util.List;
 
 import net.madelyn.nyagibits_bytes.NyagiBits_Bytes;
 import net.madelyn.nyagibits_bytes.fluid.ModFluids;
+import net.madelyn.nyagibits_bytes.misc.Utils;
 import net.madelyn.nyagibits_bytes.misc.Utils.Tab;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -835,7 +837,7 @@ public class ModItems {
           // FLUID-ITEMS BELOW
           //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
           // Hydrocarbon Tar - Added 6/25/24
-          new ItemInfo.Bucket("bucket_of_hydrocarbon_tar", ModFluids.SOURCE_HYDROCARBON_TAR),
+          new ItemInfo.Bucket("bucket_of_hydrocarbon_tar", () -> Utils.fetchFluid(new ResourceLocation(NyagiBits_Bytes.MOD_ID, "hydrocarbon_tar_fluid"))),
           new ItemInfo.Bucket("bucket_of_raw_wood_vinegar", ModFluids.SOURCE_RAW_WOOD_VINEGAR),
           new ItemInfo.Bucket("bucket_of_pyroligneous_acid", ModFluids.SOURCE_PYROLIGNEOUS_ACID),
           new ItemInfo.Bucket("bucket_of_acetone", ModFluids.SOURCE_ACETONE)

@@ -1,6 +1,7 @@
 package net.madelyn.nyagibits_bytes.misc;
 
 import com.mojang.logging.LogUtils;
+import net.madelyn.nyagibits_bytes.fluid.FluidInfo;
 import net.madelyn.nyagibits_bytes.item.ModCreativeModeTab;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTab;
@@ -8,6 +9,9 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.material.Fluid;
+import net.minecraft.world.level.material.Fluids;
+import net.minecraftforge.fluids.FluidType;
 import net.minecraftforge.registries.ForgeRegistries;
 import org.slf4j.Logger;
 
@@ -31,6 +35,24 @@ public class Utils {
             return Blocks.BARRIER;
         }
         return block;
+    }
+
+    public static Fluid fetchFluid(ResourceLocation key){
+        Fluid fluid = ForgeRegistries.FLUIDS.getValue(key);
+        if(fluid == null){
+            LOGGER.error("No fluid found for '+"+key+"', defaulting to an empty fluid");
+            return Fluids.EMPTY;
+        }
+        return fluid;
+    }
+
+    public static FluidType fetchFluidType(ResourceLocation key){
+        FluidType type = ForgeRegistries.FLUID_TYPES.get().getValue(key);
+        if(type == null){
+            LOGGER.error("No fluid tyoe found for '+"+key+"', defaulting to an empty fluid's type");
+            return Fluids.EMPTY.getFluidType();
+        }
+        return type;
     }
 
     //This is just a list of shorthands to make the list cleaner.

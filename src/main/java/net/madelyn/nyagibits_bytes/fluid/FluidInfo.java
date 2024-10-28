@@ -2,6 +2,7 @@ package net.madelyn.nyagibits_bytes.fluid;
 
 import com.mojang.math.Vector3f;
 import net.madelyn.nyagibits_bytes.NyagiBits_Bytes;
+import net.madelyn.nyagibits_bytes.misc.Utils;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.world.item.BucketItem;
@@ -14,31 +15,35 @@ import net.minecraftforge.fluids.FluidType;
 import net.minecraftforge.fluids.ForgeFlowingFluid;
 import net.minecraftforge.registries.ForgeRegistries;
 
+import java.util.function.Consumer;
 import java.util.function.Supplier;
 
 public class FluidInfo {
     private final String sourceId;
     private final String flowingId;
     private final String fluidTypeId;
-    private final Fluid sourceFluid;
-    private final Fluid flowingFluid;
-    private ResourceLocation stillTexture = new ResourceLocation("block/water_still");
-    private ResourceLocation flowingTexture = new ResourceLocation("block/water_flow");
-    private ResourceLocation overlayTexture = new ResourceLocation("block/water_still");
-    private int tintColor = 0xffffffff;
-    private Vector3f fogColor = new Vector3f(1f / 255f, 1f / 255f, 1f/255f);
-    private FluidType.Properties typeProps = FluidType.Properties.create();
+    private final Supplier<? extends Fluid> sourceFluid;
+    private final Supplier<? extends Fluid> flowingFluid;
     private ForgeFlowingFluid.Properties fluidProps;
-    private BaseFluidType fluidType;
+    private final Supplier<? extends FluidType> fluidType;
 
-    public FluidInfo(String sourceId, String flowingId, String fluidTypeId, BaseFluidType fluidType){
-        this.sourceId = sourceId;
-        this.flowingId = flowingId;
-        this.fluidTypeId = fluidTypeId;
-        this.fluidProps = new ForgeFlowingFluid.Properties(this::getFluidType, this::getSourceFluid, this::getFlowingFluid);
+    public FluidInfo(Builder builder){
+        this.sourceId = builder.sourceId;
+        this.flowingId = builder.flowingId;
+        this.fluidTypeId = builder.fluidTypeId;
+        this.fluidProps = builder.fluidProps;
 
-        sourceFluid = new ForgeFlowingFluid.Source(fluidProps);
-        flowingFluid = new ForgeFlowingFluid.Flowing(fluidProps);
+        this.sourceFluid = () -> new ForgeFlowingFluid.Source(fluidProps);
+        this.flowingFluid = () -> new ForgeFlowingFluid.Flowing(fluidProps);
+
+        this.fluidType = () -> new BaseFluidType(
+                builder.stillTexture,
+                builder.flowingTexture,
+                builder.overlayTexture,
+                builder.tintColor,
+                builder.fogColor,
+                builder.fluidTypeProps
+        );
     }
 
     public String getSourceId(){
@@ -51,52 +56,71 @@ public class FluidInfo {
         return fluidTypeId;
     }
 
-    public Fluid getSourceFluid(){
+    public Supplier<? extends Fluid> getSourceFluid(){
         return sourceFluid;
     }
-    public Fluid getFlowingFluid(){
+    public Supplier<? extends Fluid> getFlowingFluid(){
         return flowingFluid;
     }
-    public BaseFluidType createFluidType(){
-        return new BaseFluidType(stillTexture, flowingTexture, overlayTexture, tintColor, fogColor, typeProps)
-    }
-    public BaseFluidType getFluidType(){
-        return (BaseFluidType) ForgeRegistries.FLUID_TYPES.get().getValue(new ResourceLocation(NyagiBits_Bytes.MOD_ID, fluidTypeId));
+    public Supplier<? extends FluidType> getFluidType(){
+        return fluidType;
     }
 
-    public FluidInfo slopeFindDistance(int dist){
-       this.fluidProps.slopeFindDistance(dist);
-        return this;
-    }
-    public FluidInfo levelDecreasePerBlock(int dec){
-        this.fluidProps.levelDecreasePerBlock(dec);
-        return this;
-    }
-    public FluidInfo block(Supplier<? extends LiquidBlock> block){
-        this.fluidProps.block(block);
-        return this;
-    }
-    public FluidInfo bucket(Supplier<? extends Item> bucket){
-        this.fluidProps.bucket(bucket);
-        return this;
-    }
-    public FluidInfo lightLevel(int light){
-        this.typeProps.lightLevel(light);
-        return this;
-    }
-    public FluidInfo density(int density){
-        this.typeProps.density(density);
-        return this;
-    }
-    public FluidInfo viscosity(int visc){
-        this.typeProps.viscosity(visc);
-        return this;
-    }
-    public FluidInfo sound(SoundAction action, SoundEvent event){
-        this.typeProps.sound(action, event);
-        return this;
-    }
+    public static class Builder {
+        private final String sourceId;
+        private final String flowingId;
+        private final String fluidTypeId;
+        private ResourceLocation stillTexture = new ResourceLocation("block/water_still");
+        private ResourceLocation flowingTexture = new ResourceLocation("block/water_flow");
+        private ResourceLocation overlayTexture = new ResourceLocation("block/water_still");
+        private int tintColor = 0xffffffff;
+        private Vector3f fogColor = new Vector3f(1f / 255f, 1f / 255f, 1f/255f);
+        private ForgeFlowingFluid.Properties fluidProps;
+        private FluidType.Properties fluidTypeProps = FluidType.Properties.create();
+        public Builder(String source, String flowing, String type){
+            this.sourceId = source;
+            this.flowingId = flowing;
+            this.fluidTypeId = type;
+            this.fluidProps = new ForgeFlowingFluid.Properties(
+                    () -> Utils.fetchFluidType(new ResourceLocation(NyagiBits_Bytes.MOD_ID, fluidTypeId)),
+                    () -> Utils.fetchFluid(new ResourceLocation(NyagiBits_Bytes.MOD_ID, sourceId)),
+                    () -> Utils.fetchFluid(new ResourceLocation(NyagiBits_Bytes.MOD_ID, flowingId))
+            );
+        }
 
+        public Builder setFluidProperties(Consumer<ForgeFlowingFluid.Properties> props){
+            props.accept(fluidProps);
+            return this;
+        }
+
+        public Builder setStillTexture(ResourceLocation tex){
+            this.stillTexture = tex;
+            return this;
+        }
+        public Builder setFlowingTexture(ResourceLocation tex){
+            this.flowingTexture = tex;
+            return this;
+        }
+        public Builder setOverlayTexture(ResourceLocation tex){
+            this.overlayTexture = tex;
+            return this;
+        }
+        public Builder setTint(int tint){
+            this.tintColor = tint;
+            return this;
+        }
+        public Builder setFogColor(Vector3f fog){
+            this.fogColor = fog;
+            return this;
+        }
+        public Builder setFluidTypeProperties(Consumer<FluidType.Properties> props){
+            props.accept(fluidTypeProps);
+            return this;
+        }
+        public FluidInfo build(){
+            return new FluidInfo(this);
+        }
+    }
 
 
 }
