@@ -15,7 +15,7 @@ public class ModTags {
         public static final TagKey<Block> NEEDS_FLAKE_TOOL = tag("needs_flake_tool");
 
         private static TagKey<Block> tag(String name) {
-            return BlockTags.create(new ResourceLocation(NyagiBits_Bytes.MOD_ID, name));
+            return BlockTags.create(Utils.NBNB(name));
         }
 
         private static TagKey<Block> forgeTag(String name) {

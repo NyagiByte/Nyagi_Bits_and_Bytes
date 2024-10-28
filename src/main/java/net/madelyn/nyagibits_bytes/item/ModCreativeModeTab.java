@@ -21,7 +21,7 @@ public class ModCreativeModeTab {
       new CreativeModeTab("nyagibits_bytes_tab_items") {
         @Override
         public ItemStack makeIcon() {
-          return new ItemStack(Utils.fetchItem(new ResourceLocation(NyagiBits_Bytes.MOD_ID, "livisite_alloy")));
+          return new ItemStack(Utils.fetchItem(Utils.NBNB("livisite_alloy")));
         }
       };
 
@@ -29,7 +29,7 @@ public class ModCreativeModeTab {
       new CreativeModeTab("nyagibits_bytes_tab_blocks") {
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(Utils.fetchItem(new ResourceLocation(NyagiBits_Bytes.MOD_ID, "flake")));
+            return new ItemStack(Utils.fetchItem(Utils.NBNB("flake")));
         }
       };
 
@@ -37,7 +37,7 @@ public class ModCreativeModeTab {
       new CreativeModeTab("nyagibits_bytes_tab_science") {
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(Utils.fetchItem(new ResourceLocation(NyagiBits_Bytes.MOD_ID, "lab_notebook")));
+            return new ItemStack(Utils.fetchItem(Utils.NBNB("lab_notebook")));
         }
       };
 
@@ -45,7 +45,7 @@ public class ModCreativeModeTab {
       new CreativeModeTab("nyagibits_bytes_tab_schematics") {
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(Utils.fetchItem(new ResourceLocation(NyagiBits_Bytes.MOD_ID, "blank_blueprint")));
+            return new ItemStack(Utils.fetchItem(Utils.NBNB("blank_blueprint")));
         }
       };
 
@@ -53,7 +53,7 @@ public class ModCreativeModeTab {
       new CreativeModeTab("nyagibits_bytes_tab_minerals") {
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(Utils.fetchItem(new ResourceLocation(NyagiBits_Bytes.MOD_ID, "raw_hematite")));
+            return new ItemStack(Utils.fetchItem(Utils.NBNB("raw_hematite")));
         }
       };
 
@@ -61,7 +61,7 @@ public class ModCreativeModeTab {
       new CreativeModeTab("nyagibits_bytes_tab_fluids") {
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(Utils.fetchItem(new ResourceLocation(NyagiBits_Bytes.MOD_ID, "bucket_of_hydrocarbon_tar")));
+            return new ItemStack(Utils.fetchItem(Utils.NBNB("bucket_of_hydrocarbon_tar")));
         }
       };
 
@@ -70,7 +70,7 @@ public class ModCreativeModeTab {
           new CreativeModeTab("nyagibits_bytes_tab_incomplete_sequence_items") {
             @Override
             public ItemStack makeIcon() {
-                return new ItemStack(Utils.fetchItem(new ResourceLocation(NyagiBits_Bytes.MOD_ID, "incomplete_controller")));
+                return new ItemStack(Utils.fetchItem(Utils.NBNB("incomplete_controller")));
             }
           };
 }

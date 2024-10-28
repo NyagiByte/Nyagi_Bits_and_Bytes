@@ -837,10 +837,10 @@ public class ModItems {
           // FLUID-ITEMS BELOW
           //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
           // Hydrocarbon Tar - Added 6/25/24
-          new ItemInfo.Bucket("bucket_of_hydrocarbon_tar", () -> Utils.fetchFluid(new ResourceLocation(NyagiBits_Bytes.MOD_ID, "hydrocarbon_tar_fluid"))),
-          new ItemInfo.Bucket("bucket_of_raw_wood_vinegar", ModFluids.SOURCE_RAW_WOOD_VINEGAR),
-          new ItemInfo.Bucket("bucket_of_pyroligneous_acid", ModFluids.SOURCE_PYROLIGNEOUS_ACID),
-          new ItemInfo.Bucket("bucket_of_acetone", ModFluids.SOURCE_ACETONE)
+          new ItemInfo.Bucket("bucket_of_hydrocarbon_tar", () -> Utils.fetchFluid(Utils.NBNB("hydrocarbon_tar_fluid"))),
+          new ItemInfo.Bucket("bucket_of_raw_wood_vinegar", () -> Utils.fetchFluid(Utils.NBNB("raw_wood_vinegar_fluid"))),
+          new ItemInfo.Bucket("bucket_of_pyroligneous_acid", () -> Utils.fetchFluid(Utils.NBNB("pyroligneous_acid_fluid"))),
+          new ItemInfo.Bucket("bucket_of_acetone", () -> Utils.fetchFluid(Utils.NBNB("acetone_fluid")))
 
   );
 

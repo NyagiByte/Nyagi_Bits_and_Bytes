@@ -82,9 +82,9 @@ public class FluidInfo {
             this.flowingId = flowing;
             this.fluidTypeId = type;
             this.fluidProps = new ForgeFlowingFluid.Properties(
-                    () -> Utils.fetchFluidType(new ResourceLocation(NyagiBits_Bytes.MOD_ID, fluidTypeId)),
-                    () -> Utils.fetchFluid(new ResourceLocation(NyagiBits_Bytes.MOD_ID, sourceId)),
-                    () -> Utils.fetchFluid(new ResourceLocation(NyagiBits_Bytes.MOD_ID, flowingId))
+                    () -> Utils.fetchFluidType(Utils.NBNB(fluidTypeId)),
+                    () -> Utils.fetchFluid(Utils.NBNB(sourceId)),
+                    () -> Utils.fetchFluid(Utils.NBNB(flowingId))
             );
         }
 

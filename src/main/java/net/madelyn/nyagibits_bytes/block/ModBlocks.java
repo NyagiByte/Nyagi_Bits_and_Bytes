@@ -110,19 +110,19 @@ public class ModBlocks {
 
     //Hydrocarbon Tar - Added 6/25/24
     public static final RegistryObject<LiquidBlock> HYDROCARBON_TAR_BLOCK = BLOCKS.register("hydrocarbon_tar_block",
-            () -> new LiquidBlock(() -> (FlowingFluid) Utils.fetchFluid(new ResourceLocation(NyagiBits_Bytes.MOD_ID, "hydrocarbon_tar_fluid")), BlockBehaviour.Properties.copy(Blocks.WATER)));
+            () -> new LiquidBlock(() -> (FlowingFluid) Utils.fetchFluid(Utils.NBNB("hydrocarbon_tar_fluid")), BlockBehaviour.Properties.copy(Blocks.WATER)));
 
     //Raw Wood Vinegar - Added 6/25/24
     public static final RegistryObject<LiquidBlock> RAW_WOOD_VINEGAR_BLOCK = BLOCKS.register("raw_wood_vinegar_block",
-            () -> new LiquidBlock(ModFluids.SOURCE_RAW_WOOD_VINEGAR, BlockBehaviour.Properties.copy(Blocks.WATER)));
+            () -> new LiquidBlock(() -> (FlowingFluid) Utils.fetchFluid(Utils.NBNB("raw_wood_vinegar_fluid")), BlockBehaviour.Properties.copy(Blocks.WATER)));
 
     //Pyroligneous Acid - Added 6/25/24
     public static final RegistryObject<LiquidBlock> PYROLIGNEOUS_ACID_BLOCK = BLOCKS.register("pyroligneous_acid_block",
-            () -> new LiquidBlock(ModFluids.SOURCE_PYROLIGNEOUS_ACID, BlockBehaviour.Properties.copy(Blocks.WATER)));
+            () -> new LiquidBlock(() -> (FlowingFluid) Utils.fetchFluid(Utils.NBNB("pyroligneous_acid_fluid")), BlockBehaviour.Properties.copy(Blocks.WATER)));
 
     //Acetone - Added 6/25/24
     public static final RegistryObject<LiquidBlock> ACETONE_BLOCK = BLOCKS.register("acetone_block",
-            () -> new LiquidBlock(ModFluids.SOURCE_ACETONE, BlockBehaviour.Properties.copy(Blocks.WATER)));
+            () -> new LiquidBlock(() -> (FlowingFluid) Utils.fetchFluid(Utils.NBNB("acetone_fluid")), BlockBehaviour.Properties.copy(Blocks.WATER)));
 
 
 
