@@ -1,23 +1,16 @@
 package net.madelyn.nyagibits_bytes.fluid;
 
 import com.mojang.math.Vector3f;
-import net.madelyn.nyagibits_bytes.NyagiBits_Bytes;
 import net.madelyn.nyagibits_bytes.misc.Utils;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.sounds.SoundEvent;
-import net.minecraft.world.item.BucketItem;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.LiquidBlock;
 import net.minecraft.world.level.material.Fluid;
-import net.minecraftforge.common.SoundAction;
 import net.minecraftforge.fluids.FluidType;
 import net.minecraftforge.fluids.ForgeFlowingFluid;
-import net.minecraftforge.registries.ForgeRegistries;
 
 import java.util.function.Consumer;
 import java.util.function.Supplier;
 
+//TODO: Slather the whole thing in comments
 public class FluidInfo {
     private final String sourceId;
     private final String flowingId;

@@ -1,11 +1,9 @@
 package net.madelyn.nyagibits_bytes.block;
 
 import net.madelyn.nyagibits_bytes.NyagiBits_Bytes;
-import net.madelyn.nyagibits_bytes.fluid.ModFluids;
 import net.madelyn.nyagibits_bytes.item.ModItems;
 import net.madelyn.nyagibits_bytes.misc.Utils;
 import net.madelyn.nyagibits_bytes.misc.Utils.Tab;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
@@ -62,7 +60,7 @@ public class ModBlocks {
 
     //Do not register conglomerate ores here if adding new boulders. Use the list above.
     //FORMAT: Id, Material, Strength, Requires Tool, Creative Tab
-    //Oh and ignore intellij. This should not be final.
+    @SuppressWarnings("FieldMayBeFinal")
     private static List<BlockInfo> BLOCKS_LIST = new ArrayList<>(List.of(
         //Livisite Stone added 7/11/23 - Nyagi
         new BlockInfo("livisite_stone", Material.STONE, 2f, true, Tab.BLOCKS),

@@ -15,6 +15,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 import java.util.List;
 
+//TODO: Document the post-refactoring process
 public class ModFluids {
     public static final DeferredRegister<Fluid> FLUIDS =
             DeferredRegister.create(ForgeRegistries.FLUIDS, NyagiBits_Bytes.MOD_ID);

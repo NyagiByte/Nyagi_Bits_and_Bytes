@@ -1,6 +1,5 @@
 package net.madelyn.nyagibits_bytes.misc;
 
-import net.madelyn.nyagibits_bytes.NyagiBits_Bytes;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.TagKey;
