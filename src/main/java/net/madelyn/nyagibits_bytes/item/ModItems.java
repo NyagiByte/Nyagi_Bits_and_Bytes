@@ -363,6 +363,32 @@ public class ModItems {
           new ItemInfo("crate_of_industrial_components", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // High Strength Concrete added 4/25/24 - Nyagi
           new ItemInfo("high_strength_concrete", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // Smectite Clay added 10/27/24 - Nyagi
+          new ItemInfo("smectite_clay", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // Sodium Hypochlorite added 10/27/24 - Nyagi
+          new ItemInfo("sodium_hypochlorite", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // Volcanic Pumice added 10/27/24 - Nyagi
+          new ItemInfo("volcanic_pumice", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // Dense Slag added 10/27/24 - Nyagi
+          new ItemInfo("dense_slag", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // Skystone Encrusted Boule added 10/27/24 - Nyagi
+          new ItemInfo("skystone_encrusted_boule", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // Botanical Core added 10/27/24 - Nyagi
+          new ItemInfo("botanical_core", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // Lexicon added 10/27/24 - Nyagi
+          new ItemInfo("lexicon", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // Everburn Tar added 10/27/24 - Nyagi
+          new ItemInfo("everburn_tar", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // Mercury Thermometer added 10/27/24 - Nyagi
+          new ItemInfo("mercury_thermometer", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // High Strength Ratio Reducer added 10/27/24 - Nyagi
+          new ItemInfo("high_strength_ratio_reducer", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // Precise Crystal Harmonizer added 10/27/24 - Nyagi
+          new ItemInfo("precise_crystal_harmonizer", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // Mini Faraday Cage added 10/27/24 - Nyagi
+          new ItemInfo("mini_faraday_cage", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // Pile of Basic Mechanical Parts added 10/27/24 - Nyagi
+          new ItemInfo("pile_of_basic_mechanical_parts", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
 
           //Custom Botania Runes
           // Blank Rune added 3/8/24 - Nyagi
@@ -487,6 +513,12 @@ public class ModItems {
           new ItemInfo("crude_material_properties_test", Type.CUSTOM_TOOLTIP, Tab.SCIENCE),
           // Used Crude Material Properties Test added 8/27/23 - Nyagi
           new ItemInfo("used_crude_material_properties_test", Type.CUSTOM_TOOLTIP, Tab.SCIENCE),
+          // Mana Bomb-Calorimeter added 10/27/24 - Nyagi
+          new ItemInfo("mana_bomb_calorimeter", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // Single Use Mana-Ablatives Demonstration added 10/27/24 - Nyagi
+          new ItemInfo("single_use_mana_ablatives_demonstration", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // Basic Material Properties Test added 10/27/24 - Nyagi
+          new ItemInfo("basic_material_properties_test", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
 
       /*
          SCIENCE DATA STORAGE
