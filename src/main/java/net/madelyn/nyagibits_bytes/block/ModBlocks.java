@@ -59,8 +59,8 @@ public class ModBlocks {
     private static final List<String> BOULDER_TYPES = List.of("iron", "coal", "copper", "tin", "uranium", "nickel", "lead", "bauxite", "zinc", "quartz", "gemstones", "redstone", "electrum", "migmamite");
 
     //Do not register conglomerate ores here if adding new boulders. Use the list above.
-    //FORMAT: Id, Material, Strength, Requires Tool, Creative Tab
-    @SuppressWarnings("FieldMayBeFinal")
+    //FORMAT: Block Id (String), Material, Strength (float), Requires Tool (boolean), Creative Tab (for the item form)
+    @SuppressWarnings("FieldMayBeFinal") //Why the new ArrayList? List.of returns an immutable list.
     private static List<BlockInfo> BLOCKS_LIST = new ArrayList<>(List.of(
         //Livisite Stone added 7/11/23 - Nyagi
         new BlockInfo("livisite_stone", Material.STONE, 2f, true, Tab.BLOCKS),
@@ -105,7 +105,7 @@ public class ModBlocks {
     //FLUID-BLOCKS BELOW
     //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-
+    //TODO: refactor these, probably with an extension of BlockInfo. Fine for now, might be an issue when adding many more.
     //Hydrocarbon Tar - Added 6/25/24
     public static final RegistryObject<LiquidBlock> HYDROCARBON_TAR_BLOCK = BLOCKS.register("hydrocarbon_tar_block",
             () -> new LiquidBlock(() -> (FlowingFluid) Utils.fetchFluid(Utils.NBNB("hydrocarbon_tar_fluid")), BlockBehaviour.Properties.copy(Blocks.WATER)));
