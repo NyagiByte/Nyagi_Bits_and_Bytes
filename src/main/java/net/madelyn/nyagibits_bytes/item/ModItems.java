@@ -375,8 +375,6 @@ public class ModItems {
           new ItemInfo("skystone_encrusted_boule", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // Botanical Core added 10/27/24 - Nyagi
           new ItemInfo("botanical_core", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          // Lexicon added 10/27/24 - Nyagi
-          new ItemInfo("lexicon", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // Everburn Tar added 10/27/24 - Nyagi
           new ItemInfo("everburn_tar", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // Mercury Thermometer added 10/27/24 - Nyagi
@@ -538,6 +536,8 @@ public class ModItems {
           new ItemInfo("lab_notebook_with_crude_natural_arcana_data", Type.CUSTOM_TOOLTIP, Tab.SCIENCE),
           // Lab Notebook With Crude Material Properties Data added 8/27/23 - Nyagi
           new ItemInfo("lab_notebook_with_crude_material_properties_data", Type.CUSTOM_TOOLTIP, Tab.SCIENCE),
+          // Lexicon added 10/27/24 - Nyagi
+          new ItemInfo("lexicon", Type.CUSTOM_TOOLTIP, Tab.SCIENCE),
           // Pen added 8/10/23 - Nyagi
           new ItemInfo("pen", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // Pen Assembly added 8/10/23 - Nyagi
