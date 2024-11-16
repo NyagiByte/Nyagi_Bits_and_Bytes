@@ -665,7 +665,9 @@
   "fluid_type.nyagibits_bytes.raw_wood_vinegar_fluid": "Vinagre forestal",
   "fluid_type.nyagibits_bytes.pyroligneous_acid_fluid": "Ácido piroleñoso",
   "fluid_type.nyagibits_bytes.acetone_fluid": "Acetona",
-
+  "fluid_type.nyagibits_bytes.gemstone_polish_fluid": "Pulidor de gemas",
+  "fluid_type.nyagibits_bytes.molten_skystone_fluid": "Piedra del cielo fundido",
+  
   "item.nyagibits_bytes.sapphire": "Zafiro",
   "item.nyagibits_bytes.sapphire_dust": "Polvo de zafiro",
   "item.nyagibits_bytes.ruby": "Rubí",
@@ -726,9 +728,11 @@
 
   "item.nyagibits_bytes.bucket_of_hydrocarbon_tar": "Cubo con brea",
   "item.nyagibits_bytes.bucket_of_raw_wood_vinegar": "Cubo con vinagre forestal",
-  "item.nyagibits_bytes.bucket_of_pyroligneous_acid": "Cubo de ácido piroleñoso",
+  "item.nyagibits_bytes.bucket_of_pyroligneous_acid": "Cubo con ácido piroleñoso",
   "item.nyagibits_bytes.bucket_of_acetone": "Cubo de acetona",
-
+  "item.nyagibits_bytes.bucket_of_gemstone_polish": "Cubo con pulidor de gemas",
+  "item.nyagibits_bytes.bucket_of_molten_skystone": "Cubo con piedra del cielo fundido",
+  
   "item.nyagibits_bytes.incomplete_controller": "Controlador incompleto",
   "item.nyagibits_bytes.incomplete_cell_workbench": "Mesa de trabajo de células incompleta",
   "item.nyagibits_bytes.incomplete_me_item_cell_housing": "ME carcasa de almacenamiento incompleta",
