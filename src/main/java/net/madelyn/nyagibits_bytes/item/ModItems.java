@@ -869,7 +869,9 @@ public class ModItems {
           new ItemInfo.Bucket("bucket_of_hydrocarbon_tar", () -> Utils.fetchFluid(Utils.NBNB("hydrocarbon_tar_fluid"))),
           new ItemInfo.Bucket("bucket_of_raw_wood_vinegar", () -> Utils.fetchFluid(Utils.NBNB("raw_wood_vinegar_fluid"))),
           new ItemInfo.Bucket("bucket_of_pyroligneous_acid", () -> Utils.fetchFluid(Utils.NBNB("pyroligneous_acid_fluid"))),
-          new ItemInfo.Bucket("bucket_of_acetone", () -> Utils.fetchFluid(Utils.NBNB("acetone_fluid")))
+          new ItemInfo.Bucket("bucket_of_acetone", () -> Utils.fetchFluid(Utils.NBNB("acetone_fluid"))),
+          new ItemInfo.Bucket("bucket_of_gemstone_polish", () -> Utils.fetchFluid(Utils.NBNB("gemstone_polish_fluid"))),
+          new ItemInfo.Bucket("bucket_of_molten_skystone", () -> Utils.fetchFluid(Utils.NBNB("molten_skystone_fluid")))
 
   );
 

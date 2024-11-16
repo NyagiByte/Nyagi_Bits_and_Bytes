@@ -128,6 +128,46 @@ public class ModFluids {
                             .viscosity(7)
                             .sound(SoundAction.get("drink"), SoundEvents.HONEY_DRINK);
                 })
+                .build(),
+        //Gemstone Polish - Added 11/15/24
+        new FluidInfo.Builder("gemstone_polish_fluid", "flowing_gemstone_polish", "gemstone_polish_fluid")
+                .setStillTexture(WATER_STILL_RL)
+                .setFlowingTexture(WATER_FLOWING_RL)
+                .setOverlayTexture(Utils.NBNB("misc/in_gemstone_polish"))
+                .setTint(0xA100b2a9)
+                .setFogColor(new Vector3f(1f / 255f, 1f / 255f, 1f/255f))
+                .setFluidProperties(properties -> {
+                    properties.slopeFindDistance(3)
+                            .levelDecreasePerBlock(1)
+                            .block(() -> (LiquidBlock) Utils.fetchBlock(Utils.NBNB("gemstone_polish_block")))
+                            .bucket(() -> Utils.fetchItem(Utils.NBNB("bucket_of_gemstone_polish")));
+                })
+                .setFluidTypeProperties(properties -> {
+                    properties.lightLevel(2)
+                            .density(5)
+                            .viscosity(7)
+                            .sound(SoundAction.get("drink"), SoundEvents.HONEY_DRINK);
+                })
+                .build(),
+        //Molten Skystone - Added 11/15/24
+        new FluidInfo.Builder("molten_skystone_fluid", "flowing_molten_skystone", "molten_skystone_fluid")
+                .setStillTexture(LAVA_STILL_RL)
+                .setFlowingTexture(LAVA_FLOWING_RL)
+                .setOverlayTexture(Utils.NBNB("misc/in_molten_skystone"))
+                .setTint(0xff001400)
+                .setFogColor(new Vector3f(1f / 255f, 1f / 255f, 1f/255f))
+                .setFluidProperties(properties -> {
+                    properties.slopeFindDistance(3)
+                            .levelDecreasePerBlock(1)
+                            .block(() -> (LiquidBlock) Utils.fetchBlock(Utils.NBNB("molten_skystone_block")))
+                            .bucket(() -> Utils.fetchItem(Utils.NBNB("bucket_of_molten_skystone")));
+                })
+                .setFluidTypeProperties(properties -> {
+                    properties.lightLevel(2)
+                            .density(5)
+                            .viscosity(7)
+                            .sound(SoundAction.get("drink"), SoundEvents.HONEY_DRINK);
+                })
                 .build()
 
     );

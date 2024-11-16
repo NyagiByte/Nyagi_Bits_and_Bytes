@@ -122,6 +122,14 @@ public class ModBlocks {
     public static final RegistryObject<LiquidBlock> ACETONE_BLOCK = BLOCKS.register("acetone_block",
             () -> new LiquidBlock(() -> (FlowingFluid) Utils.fetchFluid(Utils.NBNB("acetone_fluid")), BlockBehaviour.Properties.copy(Blocks.WATER)));
 
+    //Gemstone Polish - Added 11/15/24
+    public static final RegistryObject<LiquidBlock> GEMSTONE_POLISH_BLOCK = BLOCKS.register("gemstone_polish_block",
+            () -> new LiquidBlock(() -> (FlowingFluid) Utils.fetchFluid(Utils.NBNB("gemstone_polish_fluid")), BlockBehaviour.Properties.copy(Blocks.WATER)));
+
+    //Molten Skystone - Added 11/15/24
+    public static final RegistryObject<LiquidBlock> MOLTEN_SKYSTONE_BLOCK = BLOCKS.register("molten_skystone_block",
+            () -> new LiquidBlock(() -> (FlowingFluid) Utils.fetchFluid(Utils.NBNB("molten_skystone_fluid")), BlockBehaviour.Properties.copy(Blocks.WATER)));
+
 
 
     //--------------------------------------------------------------------------------------
