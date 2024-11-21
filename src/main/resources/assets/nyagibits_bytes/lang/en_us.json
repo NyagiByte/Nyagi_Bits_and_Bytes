@@ -269,6 +269,8 @@
   "item.nyagibits_bytes.mini_faraday_cage.desc": "Sheets of metal strapped together\nto act as a barrier to stray radio\nand microwaves",
   "item.nyagibits_bytes.pile_of_basic_mechanical_parts": "Pile Of Basic Mechanical Parts",
   "item.nyagibits_bytes.pile_of_basic_mechanical_parts.desc": "A more sophisticated box\nof random garbage",
+  "item.nyagibits_bytes.gypsum": "Gypsum",
+  "item.nyagibits_bytes.gypsum.desc": "A sulfate mineral made of\ncalcium sulfate dihydrate.\nHas uses in agriculture,\nmanufacturing, and architecture",
 
   "item.nyagibits_bytes.lab_notebook": "Lab Notebook",
   "item.nyagibits_bytes.lab_notebook.desc": "Science is fucking around\nand finding out, but you\nalso take some notes!",
@@ -576,6 +578,9 @@
   "block.nyagibits_bytes.block_of_1080_high_carbon_steel": "1080 High Carbon Steel Block",
   "block.nyagibits_bytes.block_of_15n20_high_carbon_steel": "15N20 High Carbon Steel Block",
   "block.nyagibits_bytes.block_of_stainless_steel": "Stainless Steel Block",
+  "block.nyagibits_bytes.skystone_melt_included_andesite": "Skystone Melt-Included Andesite",
+  "block.nyagibits_bytes.gypsum_block": "Gypsum Block",
+  "block.nyagibits_bytes.volcanic_pumice_block": "Volcanic Pumice Block",
 
   "block.nyagibits_bytes.conglomerate_iron_ore": "Conglomerate Iron Ore",
   "block.nyagibits_bytes.dense_conglomerate_iron_ore": "Dense Conglomerate Iron Ore",

@@ -387,6 +387,8 @@ public class ModItems {
           new ItemInfo("mini_faraday_cage", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // Pile of Basic Mechanical Parts added 10/27/24 - Nyagi
           new ItemInfo("pile_of_basic_mechanical_parts", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // Gypsum added 11/21/24 - Nyagi
+          new ItemInfo("gypsum", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
 
           //Custom Botania Runes
           // Blank Rune added 3/8/24 - Nyagi

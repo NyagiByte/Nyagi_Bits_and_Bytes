@@ -87,7 +87,13 @@ public class ModBlocks {
         //15N20 High Carbon Steel Block added 5/16/24 - Nyagi
         new BlockInfo("block_of_15n20_high_carbon_steel",Material.METAL, 4f, true, Tab.BLOCKS),
         //Stainless Steel Block added 5/16/24 - Nyagi
-        new BlockInfo("block_of_stainless_steel",Material.METAL, 4f, true, Tab.BLOCKS)
+        new BlockInfo("block_of_stainless_steel",Material.METAL, 4f, true, Tab.BLOCKS),
+        //Skystone Melt Included Andesite added 11/21/24 - Nyagi
+        new BlockInfo("skystone_melt_included_andesite",Material.STONE, 4f, true, Tab.BLOCKS),
+        //Gypsum Block added 11/21/24 - Nyagi
+        new BlockInfo("gypsum_block",Material.STONE, 4f, true, Tab.BLOCKS),
+        //Volcanic Pumice Block Block added 11/21/24 - Nyagi
+        new BlockInfo("volcanic_pumice_block",Material.SAND, 2f, true, Tab.BLOCKS)
     ));
 
     //A small helper function to add the data for all 5 conglomerate ores for each type.
