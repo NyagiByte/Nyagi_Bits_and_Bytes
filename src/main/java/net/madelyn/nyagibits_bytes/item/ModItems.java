@@ -514,11 +514,17 @@ public class ModItems {
           // Used Crude Material Properties Test added 8/27/23 - Nyagi
           new ItemInfo("used_crude_material_properties_test", Type.CUSTOM_TOOLTIP, Tab.SCIENCE),
           // Mana Bomb-Calorimeter added 10/27/24 - Nyagi
-          new ItemInfo("mana_bomb_calorimeter", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          new ItemInfo("mana_bomb_calorimeter", Type.CUSTOM_TOOLTIP, Tab.SCIENCE),
+          // Used Mana Bomb-Calorimeter added 11/21/24 - Nyagi
+          new ItemInfo("used_mana_bomb_calorimeter", Type.CUSTOM_TOOLTIP, Tab.SCIENCE),
           // Single Use Mana-Ablatives Demonstration added 10/27/24 - Nyagi
-          new ItemInfo("single_use_mana_ablatives_demonstration", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          new ItemInfo("single_use_mana_ablatives_demonstration", Type.CUSTOM_TOOLTIP, Tab.SCIENCE),
+          // Used Single Use Mana-Ablatives Demonstration added 11/21/24 - Nyagi
+          new ItemInfo("used_single_use_mana_ablatives_demonstration", Type.CUSTOM_TOOLTIP, Tab.SCIENCE),
           // Basic Material Properties Test added 10/27/24 - Nyagi
-          new ItemInfo("basic_material_properties_test", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          new ItemInfo("basic_material_properties_test", Type.CUSTOM_TOOLTIP, Tab.SCIENCE),
+          // Used Basic Material Properties Test added 10/27/24 - Nyagi
+          new ItemInfo("used_basic_material_properties_test", Type.CUSTOM_TOOLTIP, Tab.SCIENCE),
 
       /*
          SCIENCE DATA STORAGE

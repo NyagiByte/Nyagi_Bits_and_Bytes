@@ -416,10 +416,16 @@
 
   "item.nyagibits_bytes.mana_bomb_calorimeter": "Mana Bomb-Calorimeter",
   "item.nyagibits_bytes.mana_bomb_calorimeter.desc": "How much energy is mana anyways?",
+  "item.nyagibits_bytes.used_mana_bomb_calorimeter": "Used M.B.C.",
+  "item.nyagibits_bytes.used_mana_bomb_calorimeter.desc": "~97.6 J/g/ΔK! Rather impressive.\nSure is a pain to get boiling tho...",
   "item.nyagibits_bytes.single_use_mana_ablatives_demonstration": "Single Use Mana-Ablatives Demonstration",
   "item.nyagibits_bytes.single_use_mana_ablatives_demonstration.desc": "This is just an excuse to\nblow more things up really",
+  "item.nyagibits_bytes.used_single_use_mana_ablatives_demonstration": "Used S.U.M.A.D.",
+  "item.nyagibits_bytes.used_single_use_mana_ablatives_demonstration.desc": "Wow ok the heavy plating\ndidn't stop that at all.\nGonna need to develop even\nstronger materials...",
   "item.nyagibits_bytes.basic_material_properties_test": "Basic Material Properties Test",
   "item.nyagibits_bytes.basic_material_properties_test.desc": "Got new fancy materials\ntime to see how they break...",
+  "item.nyagibits_bytes.used_basic_material_properties_test": "Used B.M.P.T",
+  "item.nyagibits_bytes.used_basic_material_properties_test.desc": "Multiple of these just melted\nand the fumes coming off seem\nto be cancerous",
 
   "nyagi_bits_bytes.tooltip.shift_yield_prompt": "Press Shift for yield information",
 
