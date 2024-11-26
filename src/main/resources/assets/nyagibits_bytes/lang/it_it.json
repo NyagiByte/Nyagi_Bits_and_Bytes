@@ -270,7 +270,8 @@
     "item.nyagibits_bytes.mini_faraday_cage.desc": "Fogli di metallo uniti insieme\nper creare una barriera contro\nonde radio e microonde",
     "item.nyagibits_bytes.pile_of_basic_mechanical_parts": "Pila di Parti Meccaniche di base",
     "item.nyagibits_bytes.pile_of_basic_mechanical_parts.desc": "Una scatola più sofisticata\ndi spazzatura",
-
+    "item.nyagibits_bytes.gypsum": "Gesso",
+    "item.nyagibits_bytes.gypsum.desc": "Un minerale solfato composto da\nsolfato di calcio biidrato.\nHa usi in agricoltura,\nmanifattura, e architettura",
 
 
     "item.nyagibits_bytes.lab_notebook": "Taccuino da Laboratorio",
@@ -417,10 +418,16 @@
 
     "item.nyagibits_bytes.mana_bomb_calorimeter": "Calorimetro per Mana",
     "item.nyagibits_bytes.mana_bomb_calorimeter.desc": "Quanta energia ha il mana?",
+    "item.nyagibits_bytes.used_mana_bomb_calorimeter": "Calorimetro per Mana Usato",
+    "item.nyagibits_bytes.used_mana_bomb_calorimeter.desc": "~97.6 J/g/ΔK! Impressionante!\nMa è dura farlo bollire...",
     "item.nyagibits_bytes.single_use_mana_ablatives_demonstration": "Dimostrazione Monouso di Mana-Ablativi",
     "item.nyagibits_bytes.single_use_mana_ablatives_demonstration.desc": "Solo una scusa per far scoppiare\npiù roba, veramente",
+    "item.nyagibits_bytes.used_single_use_mana_ablatives_demonstration": "Dimostrazione di Mana-Ablativi Usata",
+    "item.nyagibits_bytes.used_single_use_mana_ablatives_demonstration.desc": "Wow ok il rivestimento pesante\nnon l'ha fermato per nulla.\nSarà necessario sviluppare\nmateriali più resistenti...",
     "item.nyagibits_bytes.basic_material_properties_test": "Test di Proprietà Materiali di Base",
     "item.nyagibits_bytes.basic_material_properties_test.desc": "Nuovi bei materiali!\nOra di vedere come si rompono...",
+    "item.nyagibits_bytes.used_basic_material_properties_test": "Test di Proprietà Materiali di Base Usato",
+    "item.nyagibits_bytes.used_basic_material_properties_test.desc": "Buona parte si sono sciolti\ne i fumi emanati sembrano\nessere cancerogeni",
 
     "nyagi_bits_bytes.tooltip.shift_yield_prompt": "Premi Maiuscolo per informazioni sulla resa",
   
@@ -579,6 +586,9 @@
     "block.nyagibits_bytes.block_of_1080_high_carbon_steel": "Blocco di Acciaio 1080 ad Alto Carbonio",
     "block.nyagibits_bytes.block_of_15n20_high_carbon_steel": "Blocco di Acciaio 1080 ad Alto Carbonio",
     "block.nyagibits_bytes.block_of_stainless_steel": "Blocco di Acciaio INOX",
+    "block.nyagibits_bytes.skystone_melt_included_andesite": "Andesite con Inclusioni Fluide di Roccia Celestiale",
+    "block.nyagibits_bytes.gypsum_block": "Blocco di Gesso",
+    "block.nyagibits_bytes.volcanic_pumice_block": "Blocco di Pomice Volcanica",
   
     "block.nyagibits_bytes.conglomerate_iron_ore": "Conglomerato di Ferro",
     "block.nyagibits_bytes.dense_conglomerate_iron_ore": "Conglomerato Denso di Ferro",
@@ -668,6 +678,8 @@
     "fluid_type.nyagibits_bytes.raw_wood_vinegar_fluid": "Aceto di Legno Grezzo",
     "fluid_type.nyagibits_bytes.pyroligneous_acid_fluid": "Acido Pirolignico",
     "fluid_type.nyagibits_bytes.acetone_fluid": "Acetone",
+    "fluid_type.nyagibits_bytes.gemstone_polish_fluid": "Lucidante per Gemme",
+    "fluid_type.nyagibits_bytes.molten_skystone_fluid": "Pietra Celestiale Fusa",
   
     "item.nyagibits_bytes.sapphire": "Zaffiro",
     "item.nyagibits_bytes.sapphire_dust": "Polvere di Zaffiro",
@@ -731,6 +743,8 @@
     "item.nyagibits_bytes.bucket_of_raw_wood_vinegar": "Secchio di Aceto di Legno Grezzo",
     "item.nyagibits_bytes.bucket_of_pyroligneous_acid": "Seccchio di Acido Pirolignico",
     "item.nyagibits_bytes.bucket_of_acetone": "Secchio di Acetone",
+    "item.nyagibits_bytes.bucket_of_gemstone_polish": "Secchio di Lucidante per Gemme",
+    "item.nyagibits_bytes.bucket_of_molten_skystone": "Secchio di Pietra Celestiale Fusa",
   
     "item.nyagibits_bytes.incomplete_controller": "Controllore Incompleto",
     "item.nyagibits_bytes.incomplete_cell_workbench": "Banco per Celle Incompleto",
