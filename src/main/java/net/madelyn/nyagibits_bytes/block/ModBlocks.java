@@ -136,6 +136,14 @@ public class ModBlocks {
     public static final RegistryObject<LiquidBlock> MOLTEN_SKYSTONE_BLOCK = BLOCKS.register("molten_skystone_block",
             () -> new LiquidBlock(() -> (FlowingFluid) Utils.fetchFluid(Utils.NBNB("molten_skystone_fluid")), BlockBehaviour.Properties.copy(Blocks.WATER)));
 
+    //Heptafluoropropane - Added 11/29/24
+    public static final RegistryObject<LiquidBlock> HEPTAFLUOROPROPANE_BLOCK = BLOCKS.register("heptafluoropropane_block",
+            () -> new LiquidBlock(() -> (FlowingFluid) Utils.fetchFluid(Utils.NBNB("heptafluoropropane_fluid")), BlockBehaviour.Properties.copy(Blocks.WATER)));
+
+    //Amorphous Cellulose - Added 11/29/24
+    public static final RegistryObject<LiquidBlock> AMORPHOUS_CELLULOSE_BLOCK = BLOCKS.register("amorphous_cellulose_block",
+            () -> new LiquidBlock(() -> (FlowingFluid) Utils.fetchFluid(Utils.NBNB("amorphous_cellulose_fluid")), BlockBehaviour.Properties.copy(Blocks.WATER)));
+
 
 
     //--------------------------------------------------------------------------------------
