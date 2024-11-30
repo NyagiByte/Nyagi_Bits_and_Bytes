@@ -168,6 +168,46 @@ public class ModFluids {
                             .viscosity(7)
                             .sound(SoundAction.get("drink"), SoundEvents.HONEY_DRINK);
                 })
+                .build(),
+        //Heptafluoropropane - Added 11/29/24
+        new FluidInfo.Builder("heptafluoropropane_fluid", "flowing_heptafluoropropane", "heptafluoropropane_fluid")
+                .setStillTexture(WATER_STILL_RL)
+                .setFlowingTexture(WATER_FLOWING_RL)
+                .setOverlayTexture(Utils.NBNB("misc/in_heptafluoropropane"))
+                .setTint(0xA145ff64)
+                .setFogColor(new Vector3f(1f / 255f, 1f / 255f, 1f/255f))
+                .setFluidProperties(properties -> {
+                    properties.slopeFindDistance(3)
+                            .levelDecreasePerBlock(1)
+                            .block(() -> (LiquidBlock) Utils.fetchBlock(Utils.NBNB("heptafluoropropane_block")))
+                            .bucket(() -> Utils.fetchItem(Utils.NBNB("bucket_of_heptafluoropropane")));
+                })
+                .setFluidTypeProperties(properties -> {
+                    properties.lightLevel(2)
+                            .density(5)
+                            .viscosity(7)
+                            .sound(SoundAction.get("drink"), SoundEvents.HONEY_DRINK);
+                })
+                .build(),
+        //Amorphous Cellulose - Added 11/29/24
+        new FluidInfo.Builder("amorphous_cellulose_fluid", "flowing_amorphous_cellulose", "amorphous_cellulose_fluid")
+                .setStillTexture(WATER_STILL_RL)
+                .setFlowingTexture(WATER_FLOWING_RL)
+                .setOverlayTexture(Utils.NBNB("misc/in_amorphous_cellulose"))
+                .setTint(0xA4b6432)
+                .setFogColor(new Vector3f(1f / 255f, 1f / 255f, 1f/255f))
+                .setFluidProperties(properties -> {
+                    properties.slopeFindDistance(3)
+                            .levelDecreasePerBlock(1)
+                            .block(() -> (LiquidBlock) Utils.fetchBlock(Utils.NBNB("amorphous_cellulose_block")))
+                            .bucket(() -> Utils.fetchItem(Utils.NBNB("bucket_of_amorphous_cellulose")));
+                })
+                .setFluidTypeProperties(properties -> {
+                    properties.lightLevel(2)
+                            .density(5)
+                            .viscosity(7)
+                            .sound(SoundAction.get("drink"), SoundEvents.HONEY_DRINK);
+                })
                 .build()
 
     );

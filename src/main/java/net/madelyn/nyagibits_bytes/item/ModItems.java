@@ -389,6 +389,22 @@ public class ModItems {
           new ItemInfo("pile_of_basic_mechanical_parts", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // Gypsum added 11/21/24 - Nyagi
           new ItemInfo("gypsum", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // Mana-Imbued Glucose Crystal added 11/29/24 - Nyagi
+          new ItemInfo("mana_imbued_glucose_crystal", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // Mana-Imbued Obsidian Shard added 11/29/24 - Nyagi
+          new ItemInfo("mana_imbued_obsidian_shard", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // Mana-Imbued Primary Explosive added 11/29/24 - Nyagi
+          new ItemInfo("mana_imbued_primary_explosive", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // Mana-Imbued Oobleck added 11/29/24 - Nyagi
+          new ItemInfo("mana_imbued_oobleck", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // Quenched Thermalsidian added 11/29/24 - Nyagi
+          new ItemInfo("quenched_thermalsidian", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // Deactivated Entropic Mush added 11/29/24 - Nyagi
+          new ItemInfo("deactivated_entropic_mush", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // Basic Arcana Core added 11/29/24 - Nyagi
+          new ItemInfo("basic_arcana_core", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // Heptafluoropropane Vial added 11/29/24 - Nyagi
+          new ItemInfo("heptafluoropropane_vial", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
 
           //Custom Botania Runes
           // Blank Rune added 3/8/24 - Nyagi
@@ -544,8 +560,6 @@ public class ModItems {
           new ItemInfo("lab_notebook_with_crude_natural_arcana_data", Type.CUSTOM_TOOLTIP, Tab.SCIENCE),
           // Lab Notebook With Crude Material Properties Data added 8/27/23 - Nyagi
           new ItemInfo("lab_notebook_with_crude_material_properties_data", Type.CUSTOM_TOOLTIP, Tab.SCIENCE),
-          // Lexicon added 10/27/24 - Nyagi
-          new ItemInfo("lexicon", Type.CUSTOM_TOOLTIP, Tab.SCIENCE),
           // Pen added 8/10/23 - Nyagi
           new ItemInfo("pen", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // Pen Assembly added 8/10/23 - Nyagi
@@ -560,6 +574,16 @@ public class ModItems {
           new ItemInfo("ink_cartridge", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // Ink added 8/10/23 - Nyagi
           new ItemInfo("ink", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // Lexicon added 10/27/24 - Nyagi
+          new ItemInfo("lexicon", Type.CUSTOM_TOOLTIP, Tab.SCIENCE),
+          // Lexicon With S.U.M.A.D. Data added 11/29/24 - Nyagi
+          new ItemInfo("lexicon_with_sumad_data", Type.CUSTOM_TOOLTIP, Tab.SCIENCE),
+          // Lexicon With M.B.C. Data added 11/29/24 - Nyagi
+          new ItemInfo("lexicon_with_mbc_data", Type.CUSTOM_TOOLTIP, Tab.SCIENCE),
+          // Lexicon With B.M.P.T. Data added 11/29/24 - Nyagi
+          new ItemInfo("lexicon_with_bmpt_data", Type.CUSTOM_TOOLTIP, Tab.SCIENCE),
+          // Lexicon With Basic Natural Arcana Data added 11/29/24 - Nyagi
+          new ItemInfo("lexicon_with_basic_natural_arcana_data", Type.CUSTOM_TOOLTIP, Tab.SCIENCE),
 
       /*
          SCHEMATICS
@@ -879,7 +903,9 @@ public class ModItems {
           new ItemInfo.Bucket("bucket_of_pyroligneous_acid", () -> Utils.fetchFluid(Utils.NBNB("pyroligneous_acid_fluid"))),
           new ItemInfo.Bucket("bucket_of_acetone", () -> Utils.fetchFluid(Utils.NBNB("acetone_fluid"))),
           new ItemInfo.Bucket("bucket_of_gemstone_polish", () -> Utils.fetchFluid(Utils.NBNB("gemstone_polish_fluid"))),
-          new ItemInfo.Bucket("bucket_of_molten_skystone", () -> Utils.fetchFluid(Utils.NBNB("molten_skystone_fluid")))
+          new ItemInfo.Bucket("bucket_of_molten_skystone", () -> Utils.fetchFluid(Utils.NBNB("molten_skystone_fluid"))),
+          new ItemInfo.Bucket("bucket_of_heptafluoropropane", () -> Utils.fetchFluid(Utils.NBNB("heptafluoropropane_fluid"))),
+          new ItemInfo.Bucket("bucket_of_amorphous_cellulose", () -> Utils.fetchFluid(Utils.NBNB("amorphous_cellulose_fluid")))
 
   );
 
