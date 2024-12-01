@@ -286,7 +286,7 @@
   "item.nyagibits_bytes.basic_arcana_core": "Núcleo de Arcana Básico",
   "item.nyagibits_bytes.basic_arcana_core.desc": "Tem muita coisa acontecendo\ndesta pilha de lixo...",
   "item.nyagibits_bytes.heptafluoropropane_vial": "Frasco de Heptafluorpropano",
-  "item.nyagibits_bytes.heptafluoropropane_vial.desc": "Poderes de supressor de incêndios\ne de parar respirações incríveis",
+  "item.nyagibits_bytes.heptafluoropropane_vial.desc": "Poderes incríveis de supressor de incêndios\ne de parar respirações",
 
   "item.nyagibits_bytes.lab_notebook": "Caderno de Laboratório",
   "item.nyagibits_bytes.lab_notebook.desc": "Ciência é foda-se e\ndescubra-se, mas é importante\ntomar notas!",
@@ -309,9 +309,9 @@
   "item.nyagibits_bytes.lexicon_with_mbc_data": "Léxico com Dados do C-B.M.",
   "item.nyagibits_bytes.lexicon_with_mbc_data.desc": "Eu poderia testar as propriedades térmicas de outros fluidos,\nmas honestamente isto aqui já é bom como tá",
   "item.nyagibits_bytes.lexicon_with_bmpt_data": "Léxico com Dados B.M.P.T.",
-  "item.nyagibits_bytes.lexicon_with_bmpt_data.desc": "So the magnet broke the circuit\nboard, the acid liquefied\nmost of this, and worse\nof all I don't even know\nwhere the damn pen went",
-  "item.nyagibits_bytes.lexicon_with_basic_natural_arcana_data": "Lexicon With Basic Natural Arcana Data",
-  "item.nyagibits_bytes.lexicon_with_basic_natural_arcana_data.desc": "Such extensive consolidated knowledge\nwith the arcane nature of this world.\nTime to exploit it to the absolute fullest",
+  "item.nyagibits_bytes.lexicon_with_bmpt_data.desc": "Então o imã quebrou a placa de circuito,\no ácido liquefez a maioria disto,\ne o pior de tudo, eu não faço ideia pra onde que foi a caneta",
+  "item.nyagibits_bytes.lexicon_with_basic_natural_arcana_data": "Léxico com Dados Básicos de Arcana Natural",
+  "item.nyagibits_bytes.lexicon_with_basic_natural_arcana_data.desc": "Tanto conhecimento consolidado extensivo\nda natureza arcana deste mundo.\nHora de abusa-lo até o limíte",
 
   "item.nyagibits_bytes.pen": "Caneta",
   "item.nyagibits_bytes.pen.desc": "Mais poderosa que a espada!",
