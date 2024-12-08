@@ -453,6 +453,11 @@
 
   "nyagi_bits_bytes.tooltip.shift_yield_prompt": "Aperte Shift para mostrar informações",
 
+  "nyagi_bits_bytes.tooltip.god_heart.no_deaths": "Você ainda não morreu.",
+  "nyagi_bits_bytes.tooltip.god_heart.one_death": "Você morreu apenas uma vez.",
+  "nyagi_bits_bytes.tooltip.god_heart.more_deaths": "Você morreu %s vezes.",
+  "nyagi_bits_bytes.tooltip.god_heart.hardcore": "Você possui apenas uma chance. Não disperdice-a.",
+
   "item.nyagibits_bytes.raw_limonite": "Limonita Bruta",
   "item.nyagibits_bytes.raw_limonite.desc": "Um minério de ferro hidratado.\nPor massa, tem menos ferro do que uma amostra pura,\nmais pode potencialmente ser uma fonte de hidróxido fácil",
   "item.nyagibits_bytes.raw_limonite.yield": "T0 - Ferro\nT1 - Ferro",
