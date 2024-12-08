@@ -39,10 +39,10 @@ public class CuriosRingItem extends CustomTooltipItem implements ICurioItem {
     //TODO: Find alternative implementation if adding more "rings" other than the inert god heart
     @Override
     public void appendHoverText(ItemStack stack, @Nullable Level level, List<Component> components, TooltipFlag flag) {
+        super.appendHoverText(stack, level, components, flag); //Call this first to show the normal tooltip before the death tally
         if(level != null && level.isClientSide()){
             components.add(createDeathTally(level.getLevelData().isHardcore()));
         }
-        super.appendHoverText(stack, level, components, flag);
     }
 
     //Creates the tooltip component with the death tally of the player
@@ -69,6 +69,7 @@ public class CuriosRingItem extends CustomTooltipItem implements ICurioItem {
                     break;
             }
         }
+        //Any of these tooltips can use %s to fill in the number of deaths
         return Component.translatable(tooltip, deaths).withStyle(ChatFormatting.RED);
     }
 
