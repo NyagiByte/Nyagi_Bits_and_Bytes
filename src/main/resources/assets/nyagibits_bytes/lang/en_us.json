@@ -453,6 +453,11 @@
 
   "nyagi_bits_bytes.tooltip.shift_yield_prompt": "Press Shift for yield information",
 
+  "nyagi_bits_bytes.tooltip.god_heart.no_deaths": "You have yet to perish.",
+  "nyagi_bits_bytes.tooltip.god_heart.one_death": "You have perished once.",
+  "nyagi_bits_bytes.tooltip.god_heart.more_deaths": "You have perished %s times.",
+  "nyagi_bits_bytes.tooltip.god_heart.hardcore": "You get one chance. Don't waste it.",
+
   "item.nyagibits_bytes.raw_limonite": "Raw Limonite",
   "item.nyagibits_bytes.raw_limonite.desc": "A hydrated iron. By mass has less\niron than a pure sample but could\npotentially be an easy source of hydroxide",
   "item.nyagibits_bytes.raw_limonite.yield": "T0 - Iron\nT1 - Iron",

@@ -453,6 +453,11 @@
     "item.nyagibits_bytes.used_basic_material_properties_test.desc": "Buona parte si sono sciolti\ne i fumi emanati sembrano\nessere cancerogeni",
 
     "nyagi_bits_bytes.tooltip.shift_yield_prompt": "Premi Maiuscolo per informazioni sulla resa",
+
+    "nyagi_bits_bytes.tooltip.god_heart.no_deaths": "Non hai ancora fallito.",
+    "nyagi_bits_bytes.tooltip.god_heart.one_death": "Hai fallito una volta.",
+    "nyagi_bits_bytes.tooltip.god_heart.more_deaths": "Hai fallito %s volte.",
+    "nyagi_bits_bytes.tooltip.god_heart.hardcore": "Hai una sola possibilità. Non sprecarla.",
   
     "item.nyagibits_bytes.raw_limonite": "Limonite Grezza",
     "item.nyagibits_bytes.raw_limonite.desc": "Del ferro idratato. Per massa ha\nmeno ferro di un campione puro, ma\npotrebbe essere una buona fonte di idrossidi",
