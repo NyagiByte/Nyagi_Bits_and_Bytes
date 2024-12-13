@@ -144,6 +144,26 @@ public class ModBlocks {
     public static final RegistryObject<LiquidBlock> AMORPHOUS_CELLULOSE_BLOCK = BLOCKS.register("amorphous_cellulose_block",
             () -> new LiquidBlock(() -> (FlowingFluid) Utils.fetchFluid(Utils.NBNB("amorphous_cellulose_fluid")), BlockBehaviour.Properties.copy(Blocks.WATER)));
 
+    //Endstone Leach Water - Added 12/12/24
+    public static final RegistryObject<LiquidBlock> ENDSTONE_LEACH_WATER_BLOCK = BLOCKS.register("endstone_leach_water_block",
+            () -> new LiquidBlock(() -> (FlowingFluid) Utils.fetchFluid(Utils.NBNB("endstone_leach_water_fluid")), BlockBehaviour.Properties.copy(Blocks.WATER)));
+
+    //Heavy Crude Oil - Added 12/12/24
+    public static final RegistryObject<LiquidBlock> HEAVY_CRUDE_OIL_BLOCK = BLOCKS.register("heavy_crude_oil_block",
+            () -> new LiquidBlock(() -> (FlowingFluid) Utils.fetchFluid(Utils.NBNB("heavy_crude_oil_fluid")), BlockBehaviour.Properties.copy(Blocks.WATER)));
+
+    //Petroleum - Added 12/12/24
+    public static final RegistryObject<LiquidBlock> PETROLEUM_BLOCK = BLOCKS.register("petroleum_block",
+            () -> new LiquidBlock(() -> (FlowingFluid) Utils.fetchFluid(Utils.NBNB("petroleum_fluid")), BlockBehaviour.Properties.copy(Blocks.WATER)));
+
+    //Tailings - Added 12/12/24
+    public static final RegistryObject<LiquidBlock> TAILINGS_BLOCK = BLOCKS.register("tailings_block",
+            () -> new LiquidBlock(() -> (FlowingFluid) Utils.fetchFluid(Utils.NBNB("tailings_fluid")), BlockBehaviour.Properties.copy(Blocks.WATER)));
+
+    //Lithium Alumino Solution - Added 12/12/24
+    public static final RegistryObject<LiquidBlock> Lithium_Alumino_Solution_BLOCK = BLOCKS.register("lithium_alumino_solution_block",
+            () -> new LiquidBlock(() -> (FlowingFluid) Utils.fetchFluid(Utils.NBNB("lithium_alumino_solution_fluid")), BlockBehaviour.Properties.copy(Blocks.WATER)));
+
 
 
     //--------------------------------------------------------------------------------------
