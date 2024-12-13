@@ -45,6 +45,8 @@ public class ModItems {
       */
           // Inert God Heart 10/14/24 - Nyagi
           new ItemInfo("inert_god_heart", Type.CURIO, Tab.ITEMS),
+          // Faintly Resonating God Heart 12/12/24 - Nyagi
+          new ItemInfo("faintly_resonating_god_heart", Type.CURIO, Tab.ITEMS),
           // Tier 0 Strawberry added 2/21/23 - Nyagi
           new ItemInfo("tier_zero_strawberry", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // Tier 0 Golden Strawberry added 2/21/23 - Nyagi
@@ -405,6 +407,14 @@ public class ModItems {
           new ItemInfo("basic_arcana_core", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // Heptafluoropropane Vial added 11/29/24 - Nyagi
           new ItemInfo("heptafluoropropane_vial", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // Lithium-Alumino Inosilicate Vial added 12/12/24 - Nyagi
+          new ItemInfo("lithium_alumino_inosilicate", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // Oolithus (fossilized egg) added 12/12/24 - Nyagi
+          new ItemInfo("oolithus", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // Fossil Resin added 12/12/24 - Nyagi
+          new ItemInfo("fossil_resin", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // Coprolite (fossilized poop) added 12/12/24 - Nyagi
+          new ItemInfo("coprolite", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
 
           //Custom Botania Runes
           // Blank Rune added 3/8/24 - Nyagi
@@ -960,7 +970,12 @@ public class ModItems {
           new ItemInfo.Bucket("bucket_of_gemstone_polish", () -> Utils.fetchFluid(Utils.NBNB("gemstone_polish_fluid"))),
           new ItemInfo.Bucket("bucket_of_molten_skystone", () -> Utils.fetchFluid(Utils.NBNB("molten_skystone_fluid"))),
           new ItemInfo.Bucket("bucket_of_heptafluoropropane", () -> Utils.fetchFluid(Utils.NBNB("heptafluoropropane_fluid"))),
-          new ItemInfo.Bucket("bucket_of_amorphous_cellulose", () -> Utils.fetchFluid(Utils.NBNB("amorphous_cellulose_fluid")))
+          new ItemInfo.Bucket("bucket_of_amorphous_cellulose", () -> Utils.fetchFluid(Utils.NBNB("amorphous_cellulose_fluid"))),
+          new ItemInfo.Bucket("bucket_of_endstone_leach_water", () -> Utils.fetchFluid(Utils.NBNB("endstone_leach_water_fluid"))),
+          new ItemInfo.Bucket("bucket_of_heavy_crude_oil", () -> Utils.fetchFluid(Utils.NBNB("heavy_crude_oil_fluid"))),
+          new ItemInfo.Bucket("bucket_of_petroleum", () -> Utils.fetchFluid(Utils.NBNB("petroleum_fluid"))),
+          new ItemInfo.Bucket("bucket_of_tailings", () -> Utils.fetchFluid(Utils.NBNB("tailings_fluid"))),
+          new ItemInfo.Bucket("bucket_of_lithium_alumino_solution", () -> Utils.fetchFluid(Utils.NBNB("lithium_alumino_solution_fluid")))
 
   );
 

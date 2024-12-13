@@ -731,6 +731,11 @@
   "fluid_type.nyagibits_bytes.molten_skystone_fluid": "Molten Skystone",
   "fluid_type.nyagibits_bytes.heptafluoropropane_fluid": "Heptafluoropropane",
   "fluid_type.nyagibits_bytes.amorphous_cellulose_fluid": "Amorphous Cellulose",
+  "fluid_type.nyagibits_bytes.lithium_alumino_solution_fluid": "Lithium-Alumino Solution",
+  "fluid_type.nyagibits_bytes.tailings_fluid": "Tailings",
+  "fluid_type.nyagibits_bytes.petroleum_fluid": "Petroleum",
+  "fluid_type.nyagibits_bytes.heavy_crude_oil_fluid": "Heavy Crude Oil",
+  "fluid_type.nyagibits_bytes.endstone_leach_water_fluid": "Endstone-Leach Water",
 
   "item.nyagibits_bytes.sapphire": "Sapphire",
   "item.nyagibits_bytes.sapphire_dust": "Sapphire Dust",
@@ -798,6 +803,11 @@
   "item.nyagibits_bytes.bucket_of_molten_skystone": "Molten Skystone Bucket",
   "item.nyagibits_bytes.bucket_of_heptafluoropropane": "Heptafluoropropane Bucket",
   "item.nyagibits_bytes.bucket_of_amorphous_cellulose": "Amorphous Cellulose Bucket",
+  "item.nyagibits_bytes.bucket_of_endstone_leach_water": "Endstone-Leach Water Bucket",
+  "item.nyagibits_bytes.bucket_of_heavy_crude_oil": "Heavy Crude Oil Bucket",
+  "item.nyagibits_bytes.bucket_of_petroleum": "Petroleum Bucket",
+  "item.nyagibits_bytes.bucket_of_tailings": "Tailings Bucket",
+  "item.nyagibits_bytes.bucket_of_lithium_alumino_solution": "Lithium-Alumino Solution Bucket",
 
   "item.nyagibits_bytes.incomplete_controller": "Incomplete Controller",
   "item.nyagibits_bytes.incomplete_cell_workbench": "Incomplete Cell Workbench",

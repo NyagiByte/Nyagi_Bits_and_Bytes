@@ -208,6 +208,106 @@ public class ModFluids {
                             .viscosity(7)
                             .sound(SoundAction.get("drink"), SoundEvents.HONEY_DRINK);
                 })
+                .build(),
+        //Lithium-Alumino Solution - Added 12/12/24
+        new FluidInfo.Builder("lithium_alumino_solution_fluid", "flowing_lithium_alumino_solution", "lithium_alumino_solution_fluid")
+                .setStillTexture(WATER_STILL_RL)
+                .setFlowingTexture(WATER_FLOWING_RL)
+                .setOverlayTexture(Utils.NBNB("misc/in_lithium_alumino_solution"))
+                .setTint(0xA1c8fa)
+                .setFogColor(new Vector3f(1f / 255f, 1f / 255f, 1f/255f))
+                .setFluidProperties(properties -> {
+                    properties.slopeFindDistance(3)
+                            .levelDecreasePerBlock(1)
+                            .block(() -> (LiquidBlock) Utils.fetchBlock(Utils.NBNB("lithium_alumino_solution_block")))
+                            .bucket(() -> Utils.fetchItem(Utils.NBNB("bucket_of_lithium_alumino_solution")));
+                })
+                .setFluidTypeProperties(properties -> {
+                    properties.lightLevel(2)
+                            .density(5)
+                            .viscosity(7)
+                            .sound(SoundAction.get("drink"), SoundEvents.HONEY_DRINK);
+                })
+                .build(),
+        //Tailings - Added 12/12/24
+        new FluidInfo.Builder("tailings_fluid", "flowing_tailings", "tailings_fluid")
+                .setStillTexture(WATER_STILL_RL)
+                .setFlowingTexture(WATER_FLOWING_RL)
+                .setOverlayTexture(Utils.NBNB("misc/in_tailings"))
+                .setTint(0xA4644b32)
+                .setFogColor(new Vector3f(1f / 255f, 1f / 255f, 1f/255f))
+                .setFluidProperties(properties -> {
+                    properties.slopeFindDistance(3)
+                            .levelDecreasePerBlock(1)
+                            .block(() -> (LiquidBlock) Utils.fetchBlock(Utils.NBNB("tailings_block")))
+                            .bucket(() -> Utils.fetchItem(Utils.NBNB("bucket_of_tailings")));
+                })
+                .setFluidTypeProperties(properties -> {
+                    properties.lightLevel(2)
+                            .density(5)
+                            .viscosity(7)
+                            .sound(SoundAction.get("drink"), SoundEvents.HONEY_DRINK);
+                })
+                .build(),
+        //Petroleum - Added 12/12/24
+        new FluidInfo.Builder("petroleum_fluid", "flowing_petroleum", "petroleum_fluid")
+                .setStillTexture(WATER_STILL_RL)
+                .setFlowingTexture(WATER_FLOWING_RL)
+                .setOverlayTexture(Utils.NBNB("misc/in_petroleum"))
+                .setTint(0xA4c89600)
+                .setFogColor(new Vector3f(1f / 255f, 1f / 255f, 1f/255f))
+                .setFluidProperties(properties -> {
+                    properties.slopeFindDistance(3)
+                            .levelDecreasePerBlock(1)
+                            .block(() -> (LiquidBlock) Utils.fetchBlock(Utils.NBNB("petroleum_block")))
+                            .bucket(() -> Utils.fetchItem(Utils.NBNB("bucket_of_petroleum")));
+                })
+                .setFluidTypeProperties(properties -> {
+                    properties.lightLevel(2)
+                            .density(5)
+                            .viscosity(7)
+                            .sound(SoundAction.get("drink"), SoundEvents.HONEY_DRINK);
+                })
+                .build(),
+        //Heavy Crude Oil - Added 12/12/24
+        new FluidInfo.Builder("heavy_crude_oil_fluid", "flowing_heavy_crude_oil", "heavy_crude_oil_fluid")
+                .setStillTexture(WATER_STILL_RL)
+                .setFlowingTexture(WATER_FLOWING_RL)
+                .setOverlayTexture(Utils.NBNB("misc/in_petroleum"))
+                .setTint(0xA400000a)
+                .setFogColor(new Vector3f(1f / 255f, 1f / 255f, 1f/255f))
+                .setFluidProperties(properties -> {
+                    properties.slopeFindDistance(3)
+                            .levelDecreasePerBlock(1)
+                            .block(() -> (LiquidBlock) Utils.fetchBlock(Utils.NBNB("heavy_crude_oil_block")))
+                            .bucket(() -> Utils.fetchItem(Utils.NBNB("bucket_of_heavy_crude_oil")));
+                })
+                .setFluidTypeProperties(properties -> {
+                    properties.lightLevel(2)
+                            .density(5)
+                            .viscosity(7)
+                            .sound(SoundAction.get("drink"), SoundEvents.HONEY_DRINK);
+                })
+                .build(),
+        //Endstone-Leach Water - Added 12/12/24
+        new FluidInfo.Builder("endstone_leach_water_fluid", "flowing_endstone_leach_water", "endstone_leach_water_fluid")
+                .setStillTexture(WATER_STILL_RL)
+                .setFlowingTexture(WATER_FLOWING_RL)
+                .setOverlayTexture(Utils.NBNB("misc/in_endstone_leach_water"))
+                .setTint(0xA1326496)
+                .setFogColor(new Vector3f(1f / 255f, 1f / 255f, 1f/255f))
+                .setFluidProperties(properties -> {
+                    properties.slopeFindDistance(3)
+                            .levelDecreasePerBlock(1)
+                            .block(() -> (LiquidBlock) Utils.fetchBlock(Utils.NBNB("endstone_leach_water_block")))
+                            .bucket(() -> Utils.fetchItem(Utils.NBNB("bucket_of_endstone_leach_water")));
+                })
+                .setFluidTypeProperties(properties -> {
+                    properties.lightLevel(2)
+                            .density(5)
+                            .viscosity(7)
+                            .sound(SoundAction.get("drink"), SoundEvents.HONEY_DRINK);
+                })
                 .build()
 
     );
