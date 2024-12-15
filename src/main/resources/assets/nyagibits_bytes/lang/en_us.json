@@ -1,6 +1,8 @@
 {
   "item.nyagibits_bytes.inert_god_heart": "Inert God Heart",
   "item.nyagibits_bytes.inert_god_heart.desc": "It's... so much colder",
+  "item.nyagibits_bytes.faintly_resonating_god_heart": "Faintly Resonating God Heart",
+  "item.nyagibits_bytes.faintly_resonating_god_heart.desc": "A Song Of Anger",
 
   "item.nyagibits_bytes.tier_zero_strawberry": "Tier Zero Strawberry",
   "item.nyagibits_bytes.tier_zero_strawberry.desc": "A Stone Berry",
@@ -287,6 +289,14 @@
   "item.nyagibits_bytes.basic_arcana_core.desc": "There is so much going on\nwith this pile of garbage...",
   "item.nyagibits_bytes.heptafluoropropane_vial": "Heptafluoropropane Vial",
   "item.nyagibits_bytes.heptafluoropropane_vial.desc": "Incredible fire suppressant\nand incredible stop breathing power",
+  "item.nyagibits_bytes.oolithus": "Oolithus",
+  "item.nyagibits_bytes.oolithus.desc": "A fossilized egg! Heh\noooOOOOOOlithus, lol",
+  "item.nyagibits_bytes.coprolite": "Coprolite",
+  "item.nyagibits_bytes.coprolite.desc": "Fossilized sh*t, no actually\nthis is just fossilized poop",
+  "item.nyagibits_bytes.fossil_resin": "Fossil Resin",
+  "item.nyagibits_bytes.fossil_resin.desc": "Oh there seems to be some\ncritter trapped in the amber..",
+  "item.nyagibits_bytes.lithium_alumino_inosilicate": "Lithium-Alumino Inosilicate Chunk",
+  "item.nyagibits_bytes.lithium_alumino_inosilicate.desc": "A crystal rich in lithium",
 
   "item.nyagibits_bytes.lab_notebook": "Lab Notebook",
   "item.nyagibits_bytes.lab_notebook.desc": "Science is fucking around\nand finding out, but you\nalso take some notes!",
