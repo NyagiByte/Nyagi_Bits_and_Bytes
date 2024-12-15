@@ -1,6 +1,8 @@
 {
   "item.nyagibits_bytes.inert_god_heart": "Coração de Deus Inerte",
   "item.nyagibits_bytes.inert_god_heart.desc": "É... muito mais frio",
+  "item.nyagibits_bytes.faintly_resonating_god_heart": "Coração de Deus Levemente Resonante",
+  "item.nyagibits_bytes.faintly_resonating_god_heart.desc": "Uma Canção de Raiva",
 
   "item.nyagibits_bytes.tier_zero_strawberry": "Morango Nível Zero",
   "item.nyagibits_bytes.tier_zero_strawberry.desc": "Uma Baga de Pedra",
@@ -287,6 +289,14 @@
   "item.nyagibits_bytes.basic_arcana_core.desc": "Tem muita coisa acontecendo\ndesta pilha de lixo...",
   "item.nyagibits_bytes.heptafluoropropane_vial": "Frasco de Heptafluorpropano",
   "item.nyagibits_bytes.heptafluoropropane_vial.desc": "Poderes incríveis de supressor de incêndios\ne de parar respirações",
+  "item.nyagibits_bytes.oolithus": "Oólito",
+  "item.nyagibits_bytes.oolithus.desc": "Um ovo fossilizado! Heh\noooÓÓÓÓÓÓlito, kkk",
+  "item.nyagibits_bytes.coprolite": "Coprólito",
+  "item.nyagibits_bytes.coprolite.desc": "M*rda Fossilizada.\nNão, é sério. Isto é cocô fossilizado.",
+  "item.nyagibits_bytes.fossil_resin": "Resina Fóssil",
+  "item.nyagibits_bytes.fossil_resin.desc": "Ah, parece quem um tipo de\nbicho preso no âmbar...",
+  "item.nyagibits_bytes.lithium_alumino_inosilicate": "Pedaço de Inossilicado de Lítio-Alumínio",
+  "item.nyagibits_bytes.lithium_alumino_inosilicate.desc": "Um cristal rico em lítio",
 
   "item.nyagibits_bytes.lab_notebook": "Caderno de Laboratório",
   "item.nyagibits_bytes.lab_notebook.desc": "Ciência é foda-se e\ndescubra-se, mas é importante\ntomar notas!",
