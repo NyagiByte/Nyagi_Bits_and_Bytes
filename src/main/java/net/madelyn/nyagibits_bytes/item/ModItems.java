@@ -1,8 +1,12 @@
 package net.madelyn.nyagibits_bytes.item;
 
 import net.madelyn.nyagibits_bytes.NyagiBits_Bytes;
+import net.madelyn.nyagibits_bytes.item.custom.CustomCurioItem.CurioFlags;
 import net.madelyn.nyagibits_bytes.misc.Utils;
 import net.madelyn.nyagibits_bytes.misc.Utils.Tab;
+import net.minecraft.world.effect.MobEffects;
+import net.minecraft.world.entity.ai.attributes.AttributeModifier.Operation;
+import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -38,15 +42,23 @@ public class ModItems {
   }
 
   //This is the BIG list of items.
-  //Follow the format, keep it in the right category and sign new additions with name and timestamp.
+  //Follow the format, keep it in the right category and sign new additions with name and timestamp. (MM/DD/YY)
   private static final List<ItemInfo> ITEMS_LIST = List.of(
       /*
         GENERIC ITEMS
       */
+          // God hearts, remember to tag them as rings (data/curios/tags/items/ring.json)
           // Inert God Heart 10/14/24 - Nyagi
-          new ItemInfo("inert_god_heart", Type.CURIO, Tab.ITEMS),
+          new ItemInfo.Curio("inert_god_heart")
+                  .addModifier("Ring", Attributes.MOVEMENT_SPEED, Operation.MULTIPLY_BASE, 0.4)
+                  .addEffect(MobEffects.JUMP, 2)
+                  .addFlags(List.of(CurioFlags.SOULBOUND, CurioFlags.DEATH_COUNTER)),
           // Faintly Resonating God Heart 12/12/24 - Nyagi
-          new ItemInfo("faintly_resonating_god_heart", Type.CURIO, Tab.ITEMS),
+          new ItemInfo.Curio("faintly_resonating_god_heart")
+                  .addModifier("Ring", Attributes.MOVEMENT_SPEED, Operation.MULTIPLY_BASE, 0.4)
+                  .addEffect(MobEffects.JUMP, 2)
+                  .addEffect(MobEffects.CONDUIT_POWER, 1)
+                  .addFlags(List.of(CurioFlags.SOULBOUND, CurioFlags.DEATH_COUNTER, CurioFlags.AQUA_AFFINITY)),
           // Tier 0 Strawberry added 2/21/23 - Nyagi
           new ItemInfo("tier_zero_strawberry", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // Tier 0 Golden Strawberry added 2/21/23 - Nyagi

@@ -4,6 +4,8 @@ import com.mojang.logging.LogUtils;
 import net.madelyn.nyagibits_bytes.NyagiBits_Bytes;
 import net.madelyn.nyagibits_bytes.item.ModCreativeModeTab;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.entity.ai.attributes.Attribute;
+import net.minecraft.world.entity.ai.attributes.AttributeModifier;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
@@ -71,6 +73,24 @@ public class Utils {
         public static CreativeModeTab SEQUENCE = ModCreativeModeTab.NYAGIBITS_BYTES_INCOMPLETE_SEQUENCE_ITEMS;
         public static CreativeModeTab FLUIDS = ModCreativeModeTab.NYAGIBITS_BYTES_FLUIDS;
         public static CreativeModeTab MINERALS = ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS;
+    }
+
+    //This is a helper class to hold the data needed to apply one curio attribute modifier
+    public static class Modifier{
+        private String slot;
+        private Attribute attribute;
+        private AttributeModifier.Operation operation;
+        private double value;
+        public Modifier (String slot, Attribute attribute, AttributeModifier.Operation operation, double value){
+            this.slot = slot;
+            this.attribute = attribute;
+            this.operation = operation;
+            this.value = value;
+        }
+        public String getSlot(){return slot;}
+        public Attribute getAttribute(){return attribute;}
+        public AttributeModifier.Operation getOperation(){return operation;}
+        public double getValue(){return value;}
     }
 
 
