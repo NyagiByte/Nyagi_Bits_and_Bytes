@@ -1,6 +1,8 @@
 {
   "item.nyagibits_bytes.inert_god_heart": "Coração de Deus Inerte",
   "item.nyagibits_bytes.inert_god_heart.desc": "É... muito mais frio",
+  "item.nyagibits_bytes.faintly_resonating_god_heart": "Coração de Deus Levemente Resonante",
+  "item.nyagibits_bytes.faintly_resonating_god_heart.desc": "Uma Canção de Raiva",
 
   "item.nyagibits_bytes.tier_zero_strawberry": "Morango Nível Zero",
   "item.nyagibits_bytes.tier_zero_strawberry.desc": "Uma Baga de Pedra",
@@ -287,6 +289,14 @@
   "item.nyagibits_bytes.basic_arcana_core.desc": "Tem muita coisa acontecendo\ndesta pilha de lixo...",
   "item.nyagibits_bytes.heptafluoropropane_vial": "Frasco de Heptafluorpropano",
   "item.nyagibits_bytes.heptafluoropropane_vial.desc": "Poderes incríveis de supressor de incêndios\ne de parar respirações",
+  "item.nyagibits_bytes.oolithus": "Oólito",
+  "item.nyagibits_bytes.oolithus.desc": "Um ovo fossilizado! Heh\noooÓÓÓÓÓÓlito, kkk",
+  "item.nyagibits_bytes.coprolite": "Coprólito",
+  "item.nyagibits_bytes.coprolite.desc": "M*rda Fossilizada.\nNão, é sério. Isto é cocô fossilizado.",
+  "item.nyagibits_bytes.fossil_resin": "Resina Fóssil",
+  "item.nyagibits_bytes.fossil_resin.desc": "Ah, parece quem um tipo de\nbicho preso no âmbar...",
+  "item.nyagibits_bytes.lithium_alumino_inosilicate": "Pedaço de Inossilicado de Lítio-Alumínio",
+  "item.nyagibits_bytes.lithium_alumino_inosilicate.desc": "Um cristal rico em lítio",
 
   "item.nyagibits_bytes.lab_notebook": "Caderno de Laboratório",
   "item.nyagibits_bytes.lab_notebook.desc": "Ciência é foda-se e\ndescubra-se, mas é importante\ntomar notas!",
@@ -452,6 +462,11 @@
   "item.nyagibits_bytes.used_basic_material_properties_test.desc": "Varios deles derreteram\ne os vapores saindo parecem\nque dão câncer",
 
   "nyagi_bits_bytes.tooltip.shift_yield_prompt": "Aperte Shift para mostrar informações",
+
+  "nyagi_bits_bytes.tooltip.god_heart.no_deaths": "Você ainda não morreu.",
+  "nyagi_bits_bytes.tooltip.god_heart.one_death": "Você morreu apenas uma vez.",
+  "nyagi_bits_bytes.tooltip.god_heart.more_deaths": "Você morreu %s vezes.",
+  "nyagi_bits_bytes.tooltip.god_heart.hardcore": "Você possui apenas uma chance. Não disperdice-a.",
 
   "item.nyagibits_bytes.raw_limonite": "Limonita Bruta",
   "item.nyagibits_bytes.raw_limonite.desc": "Um minério de ferro hidratado.\nPor massa, tem menos ferro do que uma amostra pura,\nmais pode potencialmente ser uma fonte de hidróxido fácil",
@@ -724,8 +739,13 @@
   "fluid_type.nyagibits_bytes.acetone_fluid": "Acetona",
   "fluid_type.nyagibits_bytes.gemstone_polish_fluid": "Polimento de Pedras Preciosas",
   "fluid_type.nyagibits_bytes.molten_skystone_fluid": "Pedra do Céu Derretida",
-  "fluid_type.nyagibits_bytes.heptafluoropropane_fluid": "Heptafluoropropane",
-  "fluid_type.nyagibits_bytes.amorphous_cellulose_fluid": "Amorphous Cellulose",
+  "fluid_type.nyagibits_bytes.heptafluoropropane_fluid": "Heptafluorpropano",
+  "fluid_type.nyagibits_bytes.amorphous_cellulose_fluid": "Celulose Amorfa",
+  "fluid_type.nyagibits_bytes.lithium_alumino_solution_fluid": "Solução de Lítio-Alumínio",
+  "fluid_type.nyagibits_bytes.tailings_fluid": "Rejeitos",
+  "fluid_type.nyagibits_bytes.petroleum_fluid": "Petróleo",
+  "fluid_type.nyagibits_bytes.heavy_crude_oil_fluid": "Petróleo Bruto Pesado",
+  "fluid_type.nyagibits_bytes.endstone_leach_water_fluid": "Água de Lixiviação-Pedra do End",
 
   "item.nyagibits_bytes.sapphire": "Safira",
   "item.nyagibits_bytes.sapphire_dust": "Pó de Safira",
@@ -791,8 +811,13 @@
   "item.nyagibits_bytes.bucket_of_acetone": "Balde de Acetona",
   "item.nyagibits_bytes.bucket_of_gemstone_polish": "Balde de Polimento de Pedras Preciosas",
   "item.nyagibits_bytes.bucket_of_molten_skystone": "Balde de Pedra do Céu Derretida",
-  "item.nyagibits_bytes.bucket_of_heptafluoropropane": "Heptafluoropropane Bucket",
-  "item.nyagibits_bytes.bucket_of_amorphous_cellulose": "Amorphous Cellulose Bucket",
+  "item.nyagibits_bytes.bucket_of_heptafluoropropane": "Balde de Heptafluorpropano",
+  "item.nyagibits_bytes.bucket_of_amorphous_cellulose": "Balde de Celulose Amorfa",
+  "item.nyagibits_bytes.bucket_of_endstone_leach_water": "Balde de Água de Lixiviação-Pedra do End",
+  "item.nyagibits_bytes.bucket_of_heavy_crude_oil": "Balde de Petróleo Bruto Pesado",
+  "item.nyagibits_bytes.bucket_of_petroleum": "Balde de Petróleo",
+  "item.nyagibits_bytes.bucket_of_tailings": "Balde de Rejeitos",
+  "item.nyagibits_bytes.bucket_of_lithium_alumino_solution": "Balde de Solução de Lítio-Alumínio",
 
   "item.nyagibits_bytes.incomplete_controller": "Controlador Incompleto",
   "item.nyagibits_bytes.incomplete_cell_workbench": "Bancada de Células Incompleta",
