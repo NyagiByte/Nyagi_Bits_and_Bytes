@@ -448,79 +448,79 @@ public class ModItems {
 
           //Create Sequenced Assembly Intermediates
           // Incomplete Controller added 2/20/24 - Nyagi
-          new ItemInfo("incomplete_controller", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
+          new ItemInfo("incomplete_controller", Type.ITEM, Tab.SEQUENCE),
           // Incomplete Cell Workbench added 2/20/24 - Nyagi
-          new ItemInfo("incomplete_cell_workbench", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
+          new ItemInfo("incomplete_cell_workbench", Type.ITEM, Tab.SEQUENCE),
           // Incomplete ME Item Cell Housing added 2/20/24 - Nyagi
-          new ItemInfo("incomplete_me_item_cell_housing", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
+          new ItemInfo("incomplete_me_item_cell_housing", Type.ITEM, Tab.SEQUENCE),
           // Incomplete Charged Quartz Fixture added 2/20/24 - Nyagi
-          new ItemInfo("incomplete_charged_quartz_fixture", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
+          new ItemInfo("incomplete_charged_quartz_fixture", Type.ITEM, Tab.SEQUENCE),
           // Incomplete Skystone Tank added 2/20/24 - Nyagi
-          new ItemInfo("incomplete_skystone_tank", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
+          new ItemInfo("incomplete_skystone_tank", Type.ITEM, Tab.SEQUENCE),
           // Incomplete ME Interface added 2/20/24 - Nyagi
-          new ItemInfo("incomplete_me_interface", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
+          new ItemInfo("incomplete_me_interface", Type.ITEM, Tab.SEQUENCE),
           // Incomplete Charger added 2/20/24 - Nyagi
-          new ItemInfo("incomplete_charger", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
+          new ItemInfo("incomplete_charger", Type.ITEM, Tab.SEQUENCE),
           // Incomplete 1k ME Storage Component added 2/20/24 - Nyagi
-          new ItemInfo("incomplete_onek_me_storage_component", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
+          new ItemInfo("incomplete_onek_me_storage_component", Type.ITEM, Tab.SEQUENCE),
           // Incomplete Inscriber added 2/20/24 - Nyagi
-          new ItemInfo("incomplete_inscriber", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
+          new ItemInfo("incomplete_inscriber", Type.ITEM, Tab.SEQUENCE),
           // Incomplete Fluix ME Glass Cable added 2/20/24 - Nyagi
-          new ItemInfo("incomplete_fluix_me_glass_cable", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
+          new ItemInfo("incomplete_fluix_me_glass_cable", Type.ITEM, Tab.SEQUENCE),
           // Incomplete Fluix ME Smart Cable added 2/20/24 - Nyagi
-          new ItemInfo("incomplete_fluix_me_smart_cable", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
+          new ItemInfo("incomplete_fluix_me_smart_cable", Type.ITEM, Tab.SEQUENCE),
           // Incomplete Fluix ME Dense Smart Cable added 2/20/24 - Nyagi
-          new ItemInfo("incomplete_fluix_me_dense_smart_cable", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
+          new ItemInfo("incomplete_fluix_me_dense_smart_cable", Type.ITEM, Tab.SEQUENCE),
           // Incomplete ME Drive added 2/20/24 - Nyagi
-          new ItemInfo("incomplete_me_drive", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
+          new ItemInfo("incomplete_me_drive", Type.ITEM, Tab.SEQUENCE),
           // Incomplete ME Chest added 2/21/24 - Nyagi
-          new ItemInfo("incomplete_me_chest", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
+          new ItemInfo("incomplete_me_chest", Type.ITEM, Tab.SEQUENCE),
           // Incomplete Vibration Chamber added 2/21/24 - Nyagi
-          new ItemInfo("incomplete_vibration_chamber", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
+          new ItemInfo("incomplete_vibration_chamber", Type.ITEM, Tab.SEQUENCE),
           // Incomplete Light Detecting Fixture added 2/21/24 - Nyagi
-          new ItemInfo("incomplete_light_detecting_fixture", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
+          new ItemInfo("incomplete_light_detecting_fixture", Type.ITEM, Tab.SEQUENCE),
           // Incomplete Illuminated Panel added 2/21/24 - Nyagi
-          new ItemInfo("incomplete_illuminated_panel", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
+          new ItemInfo("incomplete_illuminated_panel", Type.ITEM, Tab.SEQUENCE),
           // Incomplete ME Storage Bus added 2/21/24 - Nyagi
-          new ItemInfo("incomplete_me_storage_bus", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
+          new ItemInfo("incomplete_me_storage_bus", Type.ITEM, Tab.SEQUENCE),
           // Incomplete ME Import Bus added 2/21/24 - Nyagi
-          new ItemInfo("incomplete_me_import_bus", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
+          new ItemInfo("incomplete_me_import_bus", Type.ITEM, Tab.SEQUENCE),
           // Incomplete ME Export Bus added 2/21/24 - Nyagi
-          new ItemInfo("incomplete_me_export_bus", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
+          new ItemInfo("incomplete_me_export_bus", Type.ITEM, Tab.SEQUENCE),
           // Incomplete ME Level Emitter added 2/21/24 - Nyagi
-          new ItemInfo("incomplete_me_level_emitter", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
+          new ItemInfo("incomplete_me_level_emitter", Type.ITEM, Tab.SEQUENCE),
           // Incomplete ME Energy Level Emitter added 2/21/24 - Nyagi
-          new ItemInfo("incomplete_me_energy_level_emitter", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
+          new ItemInfo("incomplete_me_energy_level_emitter", Type.ITEM, Tab.SEQUENCE),
           // Incomplete ME Annihilation Plane added 2/21/24 - Nyagi
-          new ItemInfo("incomplete_me_annihilation_plane", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
+          new ItemInfo("incomplete_me_annihilation_plane", Type.ITEM, Tab.SEQUENCE),
           // Incomplete ME Formation Plane added 2/21/24 - Nyagi
-          new ItemInfo("incomplete_me_formation_plane", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
+          new ItemInfo("incomplete_me_formation_plane", Type.ITEM, Tab.SEQUENCE),
           // Incomplete ME Terminal added 2/21/24 - Nyagi
-          new ItemInfo("incomplete_me_terminal", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
+          new ItemInfo("incomplete_me_terminal", Type.ITEM, Tab.SEQUENCE),
           // Incomplete ME Crafting Terminal added 2/21/24 - Nyagi
-          new ItemInfo("incomplete_me_crafting_terminal", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
+          new ItemInfo("incomplete_me_crafting_terminal", Type.ITEM, Tab.SEQUENCE),
           // Incomplete ME p2p Tunnel added 2/21/24 - Nyagi
-          new ItemInfo("incomplete_me_ptwop_tunnel", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
+          new ItemInfo("incomplete_me_ptwop_tunnel", Type.ITEM, Tab.SEQUENCE),
           // Incomplete ME Security Terminal added 2/21/24 - Nyagi
-          new ItemInfo("incomplete_me_security_terminal", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
+          new ItemInfo("incomplete_me_security_terminal", Type.ITEM, Tab.SEQUENCE),
           // Incomplete ME IO Port added 2/21/24 - Nyagi
-          new ItemInfo("incomplete_me_io_port", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
+          new ItemInfo("incomplete_me_io_port", Type.ITEM, Tab.SEQUENCE),
           // Incomplete ME Energy Cell added 2/21/24 - Nyagi
-          new ItemInfo("incomplete_me_energy_cell", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
+          new ItemInfo("incomplete_me_energy_cell", Type.ITEM, Tab.SEQUENCE),
           // Incomplete ME Storage Monitor added 2/21/24 - Nyagi
-          new ItemInfo("incomplete_me_storage_monitor", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
+          new ItemInfo("incomplete_me_storage_monitor", Type.ITEM, Tab.SEQUENCE),
           // Incomplete Color Applicator added 2/21/24 - Nyagi
-          new ItemInfo("incomplete_color_applicator", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
+          new ItemInfo("incomplete_color_applicator", Type.ITEM, Tab.SEQUENCE),
           // Incomplete Logic Processor added 2/22/24 - Nyagi
-          new ItemInfo("incomplete_logic_processor", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
+          new ItemInfo("incomplete_logic_processor", Type.ITEM, Tab.SEQUENCE),
           // Incomplete Calculation Processor added 2/22/24 - Nyagi
-          new ItemInfo("incomplete_calculation_processor", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
+          new ItemInfo("incomplete_calculation_processor", Type.ITEM, Tab.SEQUENCE),
           // Incomplete Engineering Processor added 2/22/24 - Nyagi
-          new ItemInfo("incomplete_engineering_processor", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
+          new ItemInfo("incomplete_engineering_processor", Type.ITEM, Tab.SEQUENCE),
           // Incomplete ME Fluid Cell Housing added 2/22/24 - Nyagi
-          new ItemInfo("incomplete_me_fluid_cell_housing", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
+          new ItemInfo("incomplete_me_fluid_cell_housing", Type.ITEM, Tab.SEQUENCE),
           // Incomplete Energy Acceptor added 2/22/24 - Nyagi
-          new ItemInfo("incomplete_energy_acceptor", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
+          new ItemInfo("incomplete_energy_acceptor", Type.ITEM, Tab.SEQUENCE),
 
 
       /*

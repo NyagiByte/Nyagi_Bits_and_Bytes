@@ -1,8 +1,8 @@
 {
     "item.nyagibits_bytes.inert_god_heart": "Cuore Divino Inerte",
-    "item.nyagibits_bytes.inert_god_heart.desc": "E'...molto più freddo.",
+    "item.nyagibits_bytes.inert_god_heart.desc": "E'...molto più freddo.\n\u00A73Concede Salto Ampliato II\n\u00A75Legato all'anima",
     "item.nyagibits_bytes.faintly_resonating_god_heart": "Cuore Divino Leggermente Resonante",
-    "item.nyagibits_bytes.faintly_resonating_god_heart.desc": "Una Sinfonia d'Ira",
+    "item.nyagibits_bytes.faintly_resonating_god_heart.desc": "Una Sinfonia d'Ira\n\u00A73Concede Salto Ampliato II, Energia\n\u00A73Condotta e Affinità all'Acqua\n\u00A75Legato all'anima",
 
     "item.nyagibits_bytes.tier_zero_strawberry": "Fragola del Capitolo Zero",
     "item.nyagibits_bytes.tier_zero_strawberry.desc": "Una fragola di pietra",
