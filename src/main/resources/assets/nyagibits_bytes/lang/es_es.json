@@ -1,8 +1,8 @@
 {
   "item.nyagibits_bytes.inert_god_heart": "Corazón inerte divino",
-  "item.nyagibits_bytes.inert_god_heart.desc": "Es… mas frío de lo esperado.",
+  "item.nyagibits_bytes.inert_god_heart.desc": "Es… mas frío de lo esperado.\n\u00A73Otorga Supersalto II\n\u00A75Ligado al alma.",
   "item.nyagibits_bytes.faintly_resonating_god_heart": "Corazon divino debilmente resonante",
-  "item.nyagibits_bytes.faintly_resonating_god_heart.desc": "Una canción de furia.",
+  "item.nyagibits_bytes.faintly_resonating_god_heart.desc": "Una canción de furia.\n\u00A73Otorga Supersalto II, concede tambien\n\u00A73Poder y Afinidad Acuática\n\u00A75Ligado al alma",
 
   "item.nyagibits_bytes.tier_zero_strawberry": "Fresa de Nivel 0",
   "item.nyagibits_bytes.tier_zero_strawberry.desc": "Una fresa pétrea.",
@@ -487,7 +487,7 @@
   "item.nyagibits_bytes.raw_banded_iron.desc": "Variante del hierro bastante antiguo, específicamente del\nPrecámbrico, hace 3.7 mil millones de años. Sobrevivió todo\nese tiempo solo para ser convertido en alambres de tu cubo de basura.",
   "item.nyagibits_bytes.raw_banded_iron.yield": "N0 - Hierro\nN1 - Arcilla",
   "item.nyagibits_bytes.raw_bog_iron": "Hierro de turbera en bruto",
-  "item.nyagibits_bytes.raw_bog_iron.desc": "Formado gracias a bacterias (de la familia de los Thiobacillus), que absorbían nutrientes del suelo\nmarino y de la superficie, desechando hierro oxidado como parte de su metabolismo a lo largo de los\nmilenios. Normalmente se debería encontrar en pantanos, pero extrañamente estas muestras terminaron\naquí...",
+  "item.nyagibits_bytes.raw_bog_iron.desc": "Formado gracias a bacterias \n\u00A7c(de la familia de los Thiobacillus)\n, que absorbían nutrientes del suelo\nmarino y de la superficie, desechando hierro oxidado\ncomo parte de su metabolismo a lo largo de los\nmilenios. Normalmente se debería encontrar en pantanos,\npero extrañamente estas muestras terminaron\naquí...",
   "item.nyagibits_bytes.raw_bog_iron.yield": "N0 - Hierro\nN1 - Arcilla",
   "item.nyagibits_bytes.raw_meteoric_iron": "Hierro meteórico en bruto",
   "item.nyagibits_bytes.raw_meteoric_iron.desc": "Una pieza que cayo desde el espacio. Nada extraordinario en\ntérminos de contenido de hierro, pero contiene pequeñas\nmuestras de elementos raros y algunos transplutonicos.",
