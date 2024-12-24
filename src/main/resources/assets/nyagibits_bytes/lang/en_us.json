@@ -495,7 +495,7 @@
   "item.nyagibits_bytes.raw_bog_iron": "Raw Bog Iron",
   "item.nyagibits_bytes.raw_bog_iron.desc": "Formed by iron bacteria\n\u00A7c(Thiobacillus Ferrooxidans and Thiobacillus Thiooxidans)\neating nutrients from groundwater and surface flows,\npooping out oxidized iron over time forming this ore.\nAlthough we aren't near a swamp, it's very strange that\nit ended up here....",
   "item.nyagibits_bytes.raw_bog_iron.yield": "T0 - Iron\nT1 - Clay",
-  "item.nyagibits_bytes.biologically_bog_iron": "Biologically Activated Bog Iron",
+  "item.nyagibits_bytes.biologically_activated_bog_iron": "Biologically Activated Bog Iron",
   "item.nyagibits_bytes.raw_meteoric_iron": "Raw Meteoric Iron",
   "item.nyagibits_bytes.raw_meteoric_iron.desc": "A chunk fallen from the heavens. Not fantastic\nfor iron ironically enough but contains trace\namounts of rare metals. Will probably require\nmore chemical mastery to tap into",
   "item.nyagibits_bytes.raw_meteoric_iron.yield": "T0 - Iron\nT1 - Iron",
