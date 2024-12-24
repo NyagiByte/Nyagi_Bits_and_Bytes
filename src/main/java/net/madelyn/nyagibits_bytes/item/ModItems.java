@@ -628,20 +628,36 @@ public class ModItems {
           //Iron
           // Raw Limonite added 9/29/23 - Nyagi
           new ItemInfo("raw_limonite", Type.CUSTOM_ORE, Tab.MINERALS),
+          //- Sintered Limonite added 12/24/24 - Nyagi
+          new ItemInfo("sintered_limonite", Type.ITEM, Tab.MINERALS),
           // Raw Hematite added 9/29/23 - Nyagi
           new ItemInfo("raw_hematite", Type.CUSTOM_ORE, Tab.MINERALS),
+          //- Sintered Hematite added 12/24/24 - Nyagi
+          new ItemInfo("sintered_hematite", Type.ITEM, Tab.MINERALS),
           // Raw Magnetite added 9/29/23 - Nyagi
           new ItemInfo("raw_magnetite", Type.CUSTOM_ORE, Tab.MINERALS),
+          //- Sintered Magnetite added 12/24/24 - Nyagi
+          new ItemInfo("sintered_magnetite", Type.ITEM, Tab.MINERALS),
           // Raw Pyrite added 9/29/23 - Nyagi
           new ItemInfo("raw_pyrite", Type.CUSTOM_ORE, Tab.MINERALS),
+          //- Sintered Pyrite added 12/24/24 - Nyagi
+          new ItemInfo("sintered_pyrite", Type.ITEM, Tab.MINERALS),
           // Raw Siderite added 9/29/23 - Nyagi
           new ItemInfo("raw_siderite", Type.CUSTOM_ORE, Tab.MINERALS),
+          //- Sintered Siderite added 12/24/24 - Nyagi
+          new ItemInfo("sintered_siderite", Type.ITEM, Tab.MINERALS),
           // Raw Banded Iron added 9/29/23 - Nyagi
           new ItemInfo("raw_banded_iron", Type.CUSTOM_ORE, Tab.MINERALS),
+          //- Sintered Banded Iron added 12/24/24 - Nyagi
+          new ItemInfo("sintered_banded_iron", Type.ITEM, Tab.MINERALS),
           // Raw Bog Iron added 9/29/23 - Nyagi
           new ItemInfo("raw_bog_iron", Type.CUSTOM_ORE, Tab.MINERALS),
+          //- Biologically Activated Bog Iron added 12/24/24 - Nyagi
+          new ItemInfo("biologically_activated_bog_iron", Type.ITEM, Tab.MINERALS),
           // Raw Meteoric Iron added 9/29/23 - Nyagi
           new ItemInfo("raw_meteoric_iron", Type.CUSTOM_ORE, Tab.MINERALS),
+          //- Sintered Meteoric Iron added 12/24/24 - Nyagi
+          new ItemInfo("sintered_meteoric_iron", Type.ITEM, Tab.MINERALS),
 
           //Copper
           // Raw Chalcopyrite added 10/1/23 - Nyagi
