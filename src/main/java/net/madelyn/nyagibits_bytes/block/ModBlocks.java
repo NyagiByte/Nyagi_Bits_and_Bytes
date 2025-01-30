@@ -62,6 +62,31 @@ public class ModBlocks {
     //FORMAT: Block Id (String), Material, Strength (float), Requires Tool (boolean), Creative Tab (for the item form)
     @SuppressWarnings("FieldMayBeFinal") //Why the new ArrayList? List.of returns an immutable list.
     private static List<BlockInfo> BLOCKS_LIST = new ArrayList<>(List.of(
+            //All Color Puzzle Block added 1/12/25 - Nyagi
+            //new BlockInfo("a",Material.GLASS, 10000f, true, Tab.BLOCKS),
+            //------- Block added 1/16/25 - Nyagi
+            new BlockInfo("7y5r4jwg8m",Material.GLASS, 10000f, true, Tab.BLOCKS),
+            //------- Block added 1/16/25 - Nyagi
+            new BlockInfo("szd6kmksx8",Material.GLASS, 10000f, true, Tab.BLOCKS),
+            //------- Block added 1/16/25 - Nyagi
+            new BlockInfo("mwjfdqlzgx",Material.GLASS, 10000f, true, Tab.BLOCKS),
+            //------- Block added 1/16/25 - Nyagi
+            new BlockInfo("ughn6anla6",Material.GLASS, 10000f, true, Tab.BLOCKS),
+            //------- Back Block added 1/16/25 - Nyagi
+            new BlockInfo("h1g1tl8dx7",Material.GLASS, 10000f, true, Tab.BLOCKS),
+            //------- Block added 1/16/25 - Nyagi
+            new BlockInfo("k4k3ggaog2",Material.GLASS, 10000f, true, Tab.BLOCKS),
+            //------- Block added 1/16/25 - Nyagi
+            new BlockInfo("d0e9458sgj",Material.GLASS, 10000f, true, Tab.BLOCKS),
+            //------- Block added 1/18/25 - Nyagi
+            new BlockInfo("2lbxyud1od",Material.GLASS, 10000f, true, Tab.BLOCKS),
+            //------- Block added 1/18/25 - Nyagi
+            new BlockInfo("ceug19q0vj",Material.GLASS, 10000f, true, Tab.BLOCKS),
+            //------- Block added 1/18/25 - Nyagi
+            new BlockInfo("rtesw3kpoi",Material.GLASS, 10000f, true, Tab.BLOCKS),
+            //------- Block added 1/18/25 - Nyagi
+            new BlockInfo("vhzlw7iim4",Material.GLASS, 10000f, true, Tab.BLOCKS),
+
         //Livisite Stone added 7/11/23 - Nyagi
         new BlockInfo("livisite_stone", Material.STONE, 2f, true, Tab.BLOCKS),
         //Livisite Cobble added 7/11/23 - Nyagi
@@ -93,7 +118,19 @@ public class ModBlocks {
         //Gypsum Block added 11/21/24 - Nyagi
         new BlockInfo("gypsum_block",Material.STONE, 4f, true, Tab.BLOCKS),
         //Volcanic Pumice Block Block added 11/21/24 - Nyagi
-        new BlockInfo("volcanic_pumice_block",Material.SAND, 2f, true, Tab.BLOCKS)
+        new BlockInfo("volcanic_pumice_block",Material.SAND, 2f, true, Tab.BLOCKS),
+        //Heliodor Block added 1/29/25 - Nyagi
+        new BlockInfo("block_heliodor",Material.METAL, 2f, true, Tab.BLOCKS),
+        //Morganite Block added 1/29/25 - Nyagi
+        new BlockInfo("block_morganite",Material.METAL, 2f, true, Tab.BLOCKS),
+        //Aquamarine Block added 1/29/25 - Nyagi
+        new BlockInfo("block_aquamarine",Material.METAL, 2f, true, Tab.BLOCKS),
+        //Pezzottaite Block added 1/29/25 - Nyagi
+        new BlockInfo("block_pezzottaite",Material.METAL, 2f, true, Tab.BLOCKS),
+        //Bixbite Block added 1/29/25 - Nyagi
+        new BlockInfo("block_bixbite",Material.METAL, 2f, true, Tab.BLOCKS),
+        //Goshenite Block added 1/29/25 - Nyagi
+        new BlockInfo("block_goshenite",Material.METAL, 2f, true, Tab.BLOCKS)
     ));
 
     //A small helper function to add the data for all 5 conglomerate ores for each type.

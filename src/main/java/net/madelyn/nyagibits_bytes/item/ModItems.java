@@ -99,16 +99,10 @@ public class ModItems {
           new ItemInfo("diamond_shard", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // Logic Dud added 8/10/23 - Nyagi
           new ItemInfo("logic_dud", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          // Incomplete Logic Dud added 2/21/24 - Nyagi
-          new ItemInfo("incomplete_logic_dud", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
           // Calculation Dud added 8/10/23 - Nyagi
           new ItemInfo("calculation_dud", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          // Incomplete Calculation Dud added 2/21/24 - Nyagi
-          new ItemInfo("incomplete_calculation_dud", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
           // Engineering Dud added 8/10/23 - Nyagi
           new ItemInfo("engineering_dud", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          // Incomplete Engineering Dud added 2/21/24 - Nyagi
-          new ItemInfo("incomplete_engineering_dud", Type.CUSTOM_TOOLTIP, Tab.SEQUENCE),
           // Bottle of Anthocyanin added 8/27/23 - Nyagi
           new ItemInfo("bottle_of_anthocyanin", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // Bottle of Malic & Citric Acid added 8/27/23 - Nyagi
@@ -521,6 +515,64 @@ public class ModItems {
           new ItemInfo("incomplete_me_fluid_cell_housing", Type.ITEM, Tab.SEQUENCE),
           // Incomplete Energy Acceptor added 2/22/24 - Nyagi
           new ItemInfo("incomplete_energy_acceptor", Type.ITEM, Tab.SEQUENCE),
+          // Incomplete Logic Dud added 2/21/24 - Nyagi
+          new ItemInfo("incomplete_logic_dud", Type.ITEM, Tab.SEQUENCE),
+          // Incomplete Calculation Dud added 2/21/24 - Nyagi
+          new ItemInfo("incomplete_calculation_dud", Type.ITEM, Tab.SEQUENCE),
+          // Incomplete Engineering Dud added 2/21/24 - Nyagi
+          new ItemInfo("incomplete_engineering_dud", Type.ITEM, Tab.SEQUENCE),
+          // Incomplete Sterilized Quartz Glass Vinegar added 1/4/25 - Nyagi
+          new ItemInfo("incomplete_sterilized_quartz_glass_vinegar", Type.ITEM, Tab.SEQUENCE),
+          // Incomplete Sterilized Quartz Glass Phenoxyethanol added 1/4/25 - Nyagi
+          new ItemInfo("incomplete_sterilized_quartz_glass_phenoxyethanol", Type.ITEM, Tab.SEQUENCE),
+          // Incomplete Petri Dish Glass added 1/4/25 - Nyagi
+          new ItemInfo("incomplete_petri_dish_glass", Type.ITEM, Tab.SEQUENCE),
+          // Incomplete Petri Dish Quartz Glass added 1/4/25 - Nyagi
+          new ItemInfo("incomplete_petri_dish_quartz_glass", Type.ITEM, Tab.SEQUENCE),
+          // Incomplete Skystone Shielding added 1/4/25 - Nyagi
+          new ItemInfo("incomplete_skystone_shielding", Type.ITEM, Tab.SEQUENCE),
+          // Incomplete Skystone Shielding Boule added 1/4/25 - Nyagi
+          new ItemInfo("incomplete_skystone_shielding_boule", Type.ITEM, Tab.SEQUENCE),
+          // Incomplete Raw Clustered Beryl Crude added 1/5/25 - Nyagi
+          new ItemInfo("incomplete_raw_cluster_beryl_crude", Type.ITEM, Tab.SEQUENCE),
+          // Incomplete Raw Clustered Beryl Polish added 1/5/25 - Nyagi
+          new ItemInfo("incomplete_raw_cluster_beryl_polish", Type.ITEM, Tab.SEQUENCE),
+          // Incomplete Raw Prime Beryl Crude added 1/5/25 - Nyagi
+          new ItemInfo("incomplete_raw_prime_beryl_crude", Type.ITEM, Tab.SEQUENCE),
+          // Incomplete Raw Prime Beryl Polish added 1/5/25 - Nyagi
+          new ItemInfo("incomplete_raw_prime_beryl_polish", Type.ITEM, Tab.SEQUENCE),
+          // Incomplete Raw Graphite Polish added 1/5/25 - Nyagi
+          new ItemInfo("incomplete_raw_graphite_polish", Type.ITEM, Tab.SEQUENCE),
+          // Incomplete Raw Kimberlite Polish added 1/5/25 - Nyagi
+          new ItemInfo("incomplete_raw_kimberlite_polish", Type.ITEM, Tab.SEQUENCE),
+          // Incomplete Raw Lamproite Polish added 1/5/25 - Nyagi
+          new ItemInfo("incomplete_raw_lamproite_polish", Type.ITEM, Tab.SEQUENCE),
+          // Incomplete Raw Lazurite Polish added 1/5/25 - Nyagi
+          new ItemInfo("incomplete_raw_lazurite_polish", Type.ITEM, Tab.SEQUENCE),
+          // Incomplete Raw Lapis Lazuli Polish added 1/5/25 - Nyagi
+          new ItemInfo("incomplete_raw_lapis_lazuli_polish", Type.ITEM, Tab.SEQUENCE),
+          // Incomplete Raw Fluorite Polish added 1/5/25 - Nyagi
+          new ItemInfo("incomplete_raw_fluorite_polish", Type.ITEM, Tab.SEQUENCE),
+          // Incomplete Raw Rutilated Quartz Polish added 1/5/25 - Nyagi
+          new ItemInfo("incomplete_raw_rutilated_quartz_polish", Type.ITEM, Tab.SEQUENCE),
+          // Incomplete Raw Ametrine Polish added 1/5/25 - Nyagi
+          new ItemInfo("incomplete_raw_ametrine_polish", Type.ITEM, Tab.SEQUENCE),
+          // Incomplete Raw Rose Quartz Polish added 1/5/25 - Nyagi
+          new ItemInfo("incomplete_raw_rose_quartz_polish", Type.ITEM, Tab.SEQUENCE),
+          // Incomplete Raw Prasiolite Polish added 1/5/25 - Nyagi
+          new ItemInfo("incomplete_raw_prasiolite_polish", Type.ITEM, Tab.SEQUENCE),
+          // Incomplete Raw Meteoric Certus Polish added 1/5/25 - Nyagi
+          new ItemInfo("incomplete_raw_meteoric_certus_polish", Type.ITEM, Tab.SEQUENCE),
+          // Incomplete Raw Turquoise Polish added 1/5/25 - Nyagi
+          new ItemInfo("incomplete_raw_turquoise_polish", Type.ITEM, Tab.SEQUENCE),
+          // Incomplete Raw Herkimer Polish added 1/5/25 - Nyagi
+          new ItemInfo("incomplete_raw_herkimer_polish", Type.ITEM, Tab.SEQUENCE),
+          // Incomplete Raw Dendritic Agate Polish added 1/5/25 - Nyagi
+          new ItemInfo("incomplete_raw_dendritic_agate_polish", Type.ITEM, Tab.SEQUENCE),
+          // Incomplete Raw Chalcedony Polish added 1/5/25 - Nyagi
+          new ItemInfo("incomplete_raw_chalcedony_polish", Type.ITEM, Tab.SEQUENCE),
+          // Incomplete Raw Spinel Polish added 1/5/25 - Nyagi
+          new ItemInfo("incomplete_raw_spinel_polish", Type.ITEM, Tab.SEQUENCE),
 
 
       /*
