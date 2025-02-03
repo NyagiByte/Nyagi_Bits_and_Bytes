@@ -1,6 +1,7 @@
 package net.madelyn.nyagibits_bytes.item.custom;
 
 import net.minecraft.ChatFormatting;
+import net.minecraft.client.resources.language.I18n;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
@@ -16,9 +17,9 @@ public class CustomTooltipItem extends Item {
 
     @Override
     public void appendHoverText(ItemStack stack, @Nullable Level level, List<Component> components, TooltipFlag flag) {
-        Component desc = Component.translatable("item." +
-                ForgeRegistries.ITEMS.getResourceKey(this).get().location().toString().replace(':', '.') + ".desc");
-        for(String line : desc.getString().split("\n")) components.add(Component.literal(line).withStyle(ChatFormatting.GRAY));
+        String descKey = "item." + ForgeRegistries.ITEMS.getResourceKey(this).get().location().toString().replace(':', '.') + ".desc";
+        Component desc = Component.translatable(descKey);
+        if(I18n.exists(descKey)) for(String line : desc.getString().split("\n")) components.add(Component.literal(line).withStyle(ChatFormatting.GRAY));
         super.appendHoverText(stack, level, components, flag);
     }
 }
