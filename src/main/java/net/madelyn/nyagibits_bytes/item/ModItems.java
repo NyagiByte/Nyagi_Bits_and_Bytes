@@ -1155,57 +1155,57 @@ public class ModItems {
           //Immersive Engineering Excavator Ores
           //Carbonate Igneous Deposit
             //Columbite added 12/5/24 - Nyagi
-            new ItemInfo("raw_columbite", Type.ITEM, Tab.MINERALS),
+            new ItemInfo("raw_columbite", Type.CUSTOM_TOOLTIP, Tab.MINERALS),
             //Phosphorite added 12/5/24 - Nyagi
-            new ItemInfo("raw_phosphorite", Type.ITEM, Tab.MINERALS),
+            new ItemInfo("raw_phosphorite", Type.CUSTOM_TOOLTIP, Tab.MINERALS),
             //Fluorspar added 12/5/24 - Nyagi
-            new ItemInfo("raw_fluorspar", Type.ITEM, Tab.MINERALS),
+            new ItemInfo("raw_fluorspar", Type.CUSTOM_TOOLTIP, Tab.MINERALS),
             //Zirconia added 12/5/24 - Nyagi
-            new ItemInfo("raw_zirconia", Type.ITEM, Tab.MINERALS),
+            new ItemInfo("raw_zirconia", Type.CUSTOM_TOOLTIP, Tab.MINERALS),
           //Argyrodite Deposit
             //Germanite added 12/5/24 - Nyagi
-            new ItemInfo("raw_germanite", Type.ITEM, Tab.MINERALS),
+            new ItemInfo("raw_germanite", Type.CUSTOM_TOOLTIP, Tab.MINERALS),
           //Ancient Mineral Spring Deposit
             //Spodumene added 12/5/24 - Nyagi
-            new ItemInfo("raw_spodumene", Type.ITEM, Tab.MINERALS),
+            new ItemInfo("raw_spodumene", Type.CUSTOM_TOOLTIP, Tab.MINERALS),
             //Petalite added 12/5/24 - Nyagi
-            new ItemInfo("raw_petalite", Type.ITEM, Tab.MINERALS),
+            new ItemInfo("raw_petalite", Type.CUSTOM_TOOLTIP, Tab.MINERALS),
             //Lepidolite added 12/5/24 - Nyagi
-            new ItemInfo("raw_lepidolite", Type.ITEM, Tab.MINERALS),
+            new ItemInfo("raw_lepidolite", Type.CUSTOM_TOOLTIP, Tab.MINERALS),
             //Amblygonite added 12/5/24 - Nyagi
-            new ItemInfo("raw_amblygonite", Type.ITEM, Tab.MINERALS),
+            new ItemInfo("raw_amblygonite", Type.CUSTOM_TOOLTIP, Tab.MINERALS),
           //Hydrocarbon Rich Deposit
             //Oil Sands added 12/5/24 - Nyagi
-            new ItemInfo("raw_oil_sands", Type.ITEM, Tab.MINERALS),
+            new ItemInfo("raw_oil_sands", Type.CUSTOM_TOOLTIP, Tab.MINERALS),
             //Kerogen added 12/5/24 - Nyagi
-            new ItemInfo("raw_kerogen", Type.ITEM, Tab.MINERALS),
+            new ItemInfo("raw_kerogen", Type.CUSTOM_TOOLTIP, Tab.MINERALS),
           //Fossil Deposit
             //Ancient Fossil added 12/5/24 - Nyagi
-            new ItemInfo("ancient_fossil", Type.ITEM, Tab.MINERALS),
+            new ItemInfo("ancient_fossil", Type.CUSTOM_TOOLTIP, Tab.MINERALS),
           //Endermorphic Deposit
             //End Organic Mush added 12/5/24 - Nyagi
-            new ItemInfo("end_organic_mush", Type.ITEM, Tab.MINERALS),
+            new ItemInfo("end_organic_mush", Type.CUSTOM_TOOLTIP, Tab.MINERALS),
             //Ender Pumice added 12/5/24 - Nyagi
-            new ItemInfo("ender_pumice", Type.ITEM, Tab.MINERALS),
+            new ItemInfo("ender_pumice", Type.CUSTOM_TOOLTIP, Tab.MINERALS),
           //Core Seam
             //Deep Ground Sample added 12/5/24 - Nyagi
-            new ItemInfo("deep_ground_sample", Type.ITEM, Tab.MINERALS),
+            new ItemInfo("deep_ground_sample", Type.CUSTOM_TOOLTIP, Tab.MINERALS),
           //Helium Deposit
             //items already exist, this is just here to keep track of deposit types
           //Lanthanithic Deposit
             //Monazite added 12/5/24 - Nyagi
-            new ItemInfo("raw_monazite", Type.ITEM, Tab.MINERALS),
+            new ItemInfo("raw_monazite", Type.CUSTOM_TOOLTIP, Tab.MINERALS),
             //Cerite added 12/5/24 - Nyagi
-            new ItemInfo("raw_cerite", Type.ITEM, Tab.MINERALS),
+            new ItemInfo("raw_cerite", Type.CUSTOM_TOOLTIP, Tab.MINERALS),
             //Allanite added 12/5/24 - Nyagi
-            new ItemInfo("raw_allanite", Type.ITEM, Tab.MINERALS),
+            new ItemInfo("raw_allanite", Type.CUSTOM_TOOLTIP, Tab.MINERALS),
             //Bastnasite added 12/5/24 - Nyagi
-            new ItemInfo("raw_bastnasite", Type.ITEM, Tab.MINERALS),
+            new ItemInfo("raw_bastnasite", Type.CUSTOM_TOOLTIP, Tab.MINERALS),
             //Xenotime added 12/5/24 - Nyagi
-            new ItemInfo("raw_xenotime", Type.ITEM, Tab.MINERALS),
+            new ItemInfo("raw_xenotime", Type.CUSTOM_TOOLTIP, Tab.MINERALS),
           //Void Seam
             //Cosmic Irradiated Flake Fragment added 12/5/24 - Nyagi
-            new ItemInfo("cosmic_irradiated_flake_fragment", Type.ITEM, Tab.MINERALS),
+            new ItemInfo("cosmic_irradiated_flake_fragment", Type.CUSTOM_TOOLTIP, Tab.MINERALS),
 
           //Ore-related drops
           //TODO: Find missing date
