@@ -1246,25 +1246,7 @@ public class ModItems {
           // Sintered/Polished Tier 1 Items
           //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-          //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-          // FLUID-ITEMS BELOW
-          //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-          /*
-          // Hydrocarbon Tar - Added 6/25/24
-          new ItemInfo.Bucket("bucket_of_hydrocarbon_tar", () -> Utils.fetchFluid(Utils.NBNB("hydrocarbon_tar_fluid"))),
-          new ItemInfo.Bucket("bucket_of_raw_wood_vinegar", () -> Utils.fetchFluid(Utils.NBNB("raw_wood_vinegar_fluid"))),
-          new ItemInfo.Bucket("bucket_of_pyroligneous_acid", () -> Utils.fetchFluid(Utils.NBNB("pyroligneous_acid_fluid"))),
-          new ItemInfo.Bucket("bucket_of_acetone", () -> Utils.fetchFluid(Utils.NBNB("acetone_fluid"))),
-          new ItemInfo.Bucket("bucket_of_gemstone_polish", () -> Utils.fetchFluid(Utils.NBNB("gemstone_polish_fluid"))),
-          new ItemInfo.Bucket("bucket_of_molten_skystone", () -> Utils.fetchFluid(Utils.NBNB("molten_skystone_fluid"))),
-          new ItemInfo.Bucket("bucket_of_heptafluoropropane", () -> Utils.fetchFluid(Utils.NBNB("heptafluoropropane_fluid"))),
-          new ItemInfo.Bucket("bucket_of_amorphous_cellulose", () -> Utils.fetchFluid(Utils.NBNB("amorphous_cellulose_fluid"))),
-          new ItemInfo.Bucket("bucket_of_endstone_leach_water", () -> Utils.fetchFluid(Utils.NBNB("endstone_leach_water_fluid"))),
-          new ItemInfo.Bucket("bucket_of_heavy_crude_oil", () -> Utils.fetchFluid(Utils.NBNB("heavy_crude_oil_fluid"))),
-          new ItemInfo.Bucket("bucket_of_petroleum", () -> Utils.fetchFluid(Utils.NBNB("petroleum_fluid"))),
-          new ItemInfo.Bucket("bucket_of_tailings", () -> Utils.fetchFluid(Utils.NBNB("tailings_fluid"))),
-          new ItemInfo.Bucket("bucket_of_lithium_alumino_solution", () -> Utils.fetchFluid(Utils.NBNB("lithium_alumino_solution_fluid")))
-          */
+          //NOTICE: Fluid bucket registration is no longer handled here, but it has been compressed into FluidInfo and ModFluids.
   );
 
   //This goes through the items and runs the method in ItemInfo to then register them.

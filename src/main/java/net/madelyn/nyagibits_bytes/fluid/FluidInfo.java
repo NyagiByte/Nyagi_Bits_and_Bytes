@@ -18,8 +18,10 @@ import net.minecraftforge.fluids.ForgeFlowingFluid;
 import java.util.function.Consumer;
 import java.util.function.Supplier;
 
-
+//This class pulls all the info together to make everything needed to register a fluid.
+//If you're looking for the default values, they're down there at the builder.
 public class FluidInfo {
+    //This is used to create the other IDs.
     private final String id;
     //These will be the registry IDs
     private final String sourceId;
@@ -28,21 +30,19 @@ public class FluidInfo {
 
     //This is to create the fluids themselves
     private ForgeFlowingFluid.Properties fluidProps;
-
     //These are the actual objects that will be registered.
     //Or at least suppliers for them. God i hate fluid suppliers.
     private final Supplier<? extends Fluid> sourceFluid;
     private final Supplier<? extends Fluid> flowingFluid;
     private final Supplier<? extends FluidType> fluidType;
 
-    //See the builder class below
+    //All the info needs to be available at once. So we use a builder instead, defined below.
     public FluidInfo(Builder builder){
         this.id = builder.id;
         this.sourceId = builder.sourceId;
         this.flowingId = builder.flowingId;
         this.fluidTypeId = builder.fluidTypeId;
-        this.fluidProps = builder.fluidProps;
-        //More supplier fuckery, yay!
+        this.fluidProps = builder.fluidProps;//More supplier fuckery, yay!
         this.sourceFluid = () -> new ForgeFlowingFluid.Source(fluidProps);
         this.flowingFluid = () -> new ForgeFlowingFluid.Flowing(fluidProps);
         //This is part of why we use a builder. These 6 need to be available all at once.
@@ -75,6 +75,7 @@ public class FluidInfo {
     public Supplier<? extends FluidType> getFluidType(){
         return fluidType;
     }
+    //These 3 methods define the bucket item and the fluid block. We're going to register them here for convenience, outside of ModItems and ModBlocks
     public ItemInfo.Bucket createBucket(){
         return new ItemInfo.Bucket("bucket_of_"+id, () -> Utils.fetchFluid(Utils.NBNB(sourceId)));
     }
@@ -88,8 +89,9 @@ public class FluidInfo {
     //Since we need to have a bunch of parameters available at once to build the fluid type and fluids, we first instantiate a builder.
     //This lets us structure the registry as seen in ModFluids and be able to tell what each field is.
     public static class Builder {
-        //This must be present to instantiate the builder
-        private final String id;
+        //These must be present to instantiate the builder
+        private final String id; //This is to build the other IDs
+        private final int tintColor; //This used to be optional, but it really shouldn't be.
         //These are now generated on the fly
         private final String sourceId;
         private final String flowingId;
@@ -97,23 +99,28 @@ public class FluidInfo {
         //These must be present, but might not be called, so they get default values.
         private ResourceLocation stillTexture = new ResourceLocation("block/water_still");
         private ResourceLocation flowingTexture = new ResourceLocation("block/water_flow");
+        //This is now generated on the fly to be "nyagibits_bytes:misc/in_<fluidname>"
+        //It can still be overwritten with the builder method.
         private ResourceLocation overlayTexture;
-        private int tintColor = 0xffffffff;
+        //No one ever touched this. It can still be overwritten
         private Vector3f fogColor = new Vector3f(1f / 255f, 1f / 255f, 1f/255f);
-        //Fluid properties stuff
+        //Fluid properties and fluid type properties defaults.
+        //Some of these might be a bit whack, especially density and viscosity, TODO: re-evaluate default values
+        //If access to other properties is needed, use the old consumer methods for fluid props and fluid type props.
         private int slopeFindDistance = 3;
         private int levelDecreasePerBlock = 1;
-        private final Supplier<? extends LiquidBlock> blockSupplier;
-        private final Supplier<? extends Item> bucketSupplier;
-        //Fluid type properties stuff, defaults are just the most commonly used values
-        //If access to other properties is needed, use the old consumer method.
         private int lightLevel = 2;
         private int density = 5;
         private int viscosity = 7;
+        //More suppliers, wahoo
+        private final Supplier<? extends LiquidBlock> blockSupplier;
+        private final Supplier<? extends Item> bucketSupplier;
+
         private ForgeFlowingFluid.Properties fluidProps;
         private FluidType.Properties fluidTypeProps = FluidType.Properties.create();
-        public Builder(String id){
+        public Builder(String id, int tint){
             this.id = id;
+            this.tintColor = tint;
             this.sourceId = id+"_fluid";
             this.flowingId = "flowing_"+id;
             this.fluidTypeId = sourceId;
@@ -129,6 +136,7 @@ public class FluidInfo {
             );
         }
         //This lets us do the properties ->{do stuff} in the registry. It's better than making builder function for each parameter.
+        //It is now unused, but it's still here, if we need to access properties unaccounted for.
         public Builder setFluidProperties(Consumer<ForgeFlowingFluid.Properties> props){
             props.accept(fluidProps);
             return this;
@@ -144,10 +152,6 @@ public class FluidInfo {
         }
         public Builder setOverlayTexture(ResourceLocation tex){
             this.overlayTexture = tex;
-            return this;
-        }
-        public Builder setTint(int tint){
-            this.tintColor = tint;
             return this;
         }
         public Builder setFogColor(Vector3f fog){
