@@ -2,16 +2,11 @@ package net.madelyn.nyagibits_bytes.block;
 
 import net.madelyn.nyagibits_bytes.NyagiBits_Bytes;
 import net.madelyn.nyagibits_bytes.item.ModItems;
-import net.madelyn.nyagibits_bytes.misc.Utils;
 import net.madelyn.nyagibits_bytes.misc.Utils.Tab;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.LiquidBlock;
-import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.material.FlowingFluid;
 import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -147,7 +142,7 @@ public class ModBlocks {
     //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     //FLUID-BLOCKS BELOW
     //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+/*
     //TODO: refactor these, probably with an extension of BlockInfo. Fine for now, might be an issue when adding many more.
     //Hydrocarbon Tar - Added 6/25/24
     public static final RegistryObject<LiquidBlock> HYDROCARBON_TAR_BLOCK = BLOCKS.register("hydrocarbon_tar_block",
@@ -201,7 +196,7 @@ public class ModBlocks {
     public static final RegistryObject<LiquidBlock> Lithium_Alumino_Solution_BLOCK = BLOCKS.register("lithium_alumino_solution_block",
             () -> new LiquidBlock(() -> (FlowingFluid) Utils.fetchFluid(Utils.NBNB("lithium_alumino_solution_fluid")), BlockBehaviour.Properties.copy(Blocks.WATER)));
 
-
+*/
 
     //--------------------------------------------------------------------------------------
     // DO NOT TOUCH BELOW

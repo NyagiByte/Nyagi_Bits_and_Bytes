@@ -2,7 +2,6 @@ package net.madelyn.nyagibits_bytes.item;
 
 import net.madelyn.nyagibits_bytes.NyagiBits_Bytes;
 import net.madelyn.nyagibits_bytes.item.custom.CustomCurioItem.CurioFlags;
-import net.madelyn.nyagibits_bytes.misc.Utils;
 import net.madelyn.nyagibits_bytes.misc.Utils.Tab;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.ai.attributes.AttributeModifier.Operation;
@@ -1241,7 +1240,7 @@ public class ModItems {
           //Pezzottaite
           new ItemInfo("pezzottaite", Type.ITEM, Tab.MINERALS),
           //Pezzottaite Dust
-          new ItemInfo("pezzottaite_dust", Type.ITEM, Tab.MINERALS),
+          new ItemInfo("pezzottaite_dust", Type.ITEM, Tab.MINERALS)
 
           //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
           // Sintered/Polished Tier 1 Items
@@ -1250,6 +1249,7 @@ public class ModItems {
           //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
           // FLUID-ITEMS BELOW
           //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+          /*
           // Hydrocarbon Tar - Added 6/25/24
           new ItemInfo.Bucket("bucket_of_hydrocarbon_tar", () -> Utils.fetchFluid(Utils.NBNB("hydrocarbon_tar_fluid"))),
           new ItemInfo.Bucket("bucket_of_raw_wood_vinegar", () -> Utils.fetchFluid(Utils.NBNB("raw_wood_vinegar_fluid"))),
@@ -1264,7 +1264,7 @@ public class ModItems {
           new ItemInfo.Bucket("bucket_of_petroleum", () -> Utils.fetchFluid(Utils.NBNB("petroleum_fluid"))),
           new ItemInfo.Bucket("bucket_of_tailings", () -> Utils.fetchFluid(Utils.NBNB("tailings_fluid"))),
           new ItemInfo.Bucket("bucket_of_lithium_alumino_solution", () -> Utils.fetchFluid(Utils.NBNB("lithium_alumino_solution_fluid")))
-
+          */
   );
 
   //This goes through the items and runs the method in ItemInfo to then register them.

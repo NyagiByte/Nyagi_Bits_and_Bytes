@@ -1,9 +1,17 @@
 package net.madelyn.nyagibits_bytes.fluid;
 
 import com.mojang.math.Vector3f;
+import net.madelyn.nyagibits_bytes.item.ItemInfo;
 import net.madelyn.nyagibits_bytes.misc.Utils;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.sounds.SoundEvents;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.LiquidBlock;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.material.FlowingFluid;
 import net.minecraft.world.level.material.Fluid;
+import net.minecraftforge.common.SoundAction;
 import net.minecraftforge.fluids.FluidType;
 import net.minecraftforge.fluids.ForgeFlowingFluid;
 
@@ -12,6 +20,7 @@ import java.util.function.Supplier;
 
 
 public class FluidInfo {
+    private final String id;
     //These will be the registry IDs
     private final String sourceId;
     private final String flowingId;
@@ -28,6 +37,7 @@ public class FluidInfo {
 
     //See the builder class below
     public FluidInfo(Builder builder){
+        this.id = builder.id;
         this.sourceId = builder.sourceId;
         this.flowingId = builder.flowingId;
         this.fluidTypeId = builder.fluidTypeId;
@@ -65,27 +75,51 @@ public class FluidInfo {
     public Supplier<? extends FluidType> getFluidType(){
         return fluidType;
     }
+    public ItemInfo.Bucket createBucket(){
+        return new ItemInfo.Bucket("bucket_of_"+id, () -> Utils.fetchFluid(Utils.NBNB(sourceId)));
+    }
+    public String getBlockId(){
+        return id+"_block";
+    }
+    public Supplier<? extends LiquidBlock> createBlock(){
+        return () -> new LiquidBlock(() -> (FlowingFluid) Utils.fetchFluid(Utils.NBNB(sourceId)), BlockBehaviour.Properties.copy(Blocks.WATER));
+    }
 
     //Since we need to have a bunch of parameters available at once to build the fluid type and fluids, we first instantiate a builder.
     //This lets us structure the registry as seen in ModFluids and be able to tell what each field is.
     public static class Builder {
-        //These must be present to instantiate the builder
+        //This must be present to instantiate the builder
+        private final String id;
+        //These are now generated on the fly
         private final String sourceId;
         private final String flowingId;
         private final String fluidTypeId;
         //These must be present, but might not be called, so they get default values.
         private ResourceLocation stillTexture = new ResourceLocation("block/water_still");
         private ResourceLocation flowingTexture = new ResourceLocation("block/water_flow");
-        private ResourceLocation overlayTexture = new ResourceLocation("block/water_still");
+        private ResourceLocation overlayTexture;
         private int tintColor = 0xffffffff;
         private Vector3f fogColor = new Vector3f(1f / 255f, 1f / 255f, 1f/255f);
-
+        //Fluid properties stuff
+        private int slopeFindDistance = 3;
+        private int levelDecreasePerBlock = 1;
+        private final Supplier<? extends LiquidBlock> blockSupplier;
+        private final Supplier<? extends Item> bucketSupplier;
+        //Fluid type properties stuff, defaults are just the most commonly used values
+        //If access to other properties is needed, use the old consumer method.
+        private int lightLevel = 2;
+        private int density = 5;
+        private int viscosity = 7;
         private ForgeFlowingFluid.Properties fluidProps;
         private FluidType.Properties fluidTypeProps = FluidType.Properties.create();
-        public Builder(String source, String flowing, String type){
-            this.sourceId = source;
-            this.flowingId = flowing;
-            this.fluidTypeId = type;
+        public Builder(String id){
+            this.id = id;
+            this.sourceId = id+"_fluid";
+            this.flowingId = "flowing_"+id;
+            this.fluidTypeId = sourceId;
+            this.overlayTexture = new ResourceLocation("misc/in_"+id);
+            blockSupplier = () -> (LiquidBlock) Utils.fetchBlock((Utils.NBNB(id+"_block")));
+            bucketSupplier = () -> Utils.fetchItem(Utils.NBNB("bucket_of_"+id));
             //The bare minimum to create the properties instance, the rest can be added down the line.
             //We use suppliers to methods in Utils because...it's the best way i can think of.
             this.fluidProps = new ForgeFlowingFluid.Properties(
@@ -120,6 +154,28 @@ public class FluidInfo {
             this.fogColor = fog;
             return this;
         }
+        public Builder setSlopeFindDistance(int d){
+            this.slopeFindDistance = d;
+            return this;
+        }
+        public Builder setLevelDecreasePerBlock(int l){
+            this.levelDecreasePerBlock = l;
+            return this;
+        }
+        //This is fluid type properties stuff. We only touch lightlevel, density and viscosity normally.
+        public Builder setLightLevel(int l){
+            this.lightLevel = l;
+            return this;
+        }
+        public Builder setDensity(int d){
+            this.density = d;
+            return this;
+        }
+        public Builder setViscosity(int v){
+            this.viscosity = v;
+            return this;
+        }
+
         //see setFluidProperties()
         public Builder setFluidTypeProperties(Consumer<FluidType.Properties> props){
             props.accept(fluidTypeProps);
@@ -128,6 +184,14 @@ public class FluidInfo {
         //When the builder is instantiated it has all the bare minimum properties (including default values)
         //needed to properly create a FluidInfo
         public FluidInfo build(){
+            fluidProps.levelDecreasePerBlock(levelDecreasePerBlock)
+                    .slopeFindDistance(slopeFindDistance)
+                    .block(blockSupplier)
+                    .bucket(bucketSupplier);
+            fluidTypeProps.lightLevel(lightLevel)
+                    .density(density)
+                    .viscosity(viscosity)
+                    .sound(SoundAction.get("drink"), SoundEvents.HONEY_DRINK);
             return new FluidInfo(this);
         }
     }
