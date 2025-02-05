@@ -139,64 +139,7 @@ public class ModBlocks {
         );
     }
 
-    //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    //FLUID-BLOCKS BELOW
-    //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/*
-    //TODO: refactor these, probably with an extension of BlockInfo. Fine for now, might be an issue when adding many more.
-    //Hydrocarbon Tar - Added 6/25/24
-    public static final RegistryObject<LiquidBlock> HYDROCARBON_TAR_BLOCK = BLOCKS.register("hydrocarbon_tar_block",
-            () -> new LiquidBlock(() -> (FlowingFluid) Utils.fetchFluid(Utils.NBNB("hydrocarbon_tar_fluid")), BlockBehaviour.Properties.copy(Blocks.WATER)));
-
-    //Raw Wood Vinegar - Added 6/25/24
-    public static final RegistryObject<LiquidBlock> RAW_WOOD_VINEGAR_BLOCK = BLOCKS.register("raw_wood_vinegar_block",
-            () -> new LiquidBlock(() -> (FlowingFluid) Utils.fetchFluid(Utils.NBNB("raw_wood_vinegar_fluid")), BlockBehaviour.Properties.copy(Blocks.WATER)));
-
-    //Pyroligneous Acid - Added 6/25/24
-    public static final RegistryObject<LiquidBlock> PYROLIGNEOUS_ACID_BLOCK = BLOCKS.register("pyroligneous_acid_block",
-            () -> new LiquidBlock(() -> (FlowingFluid) Utils.fetchFluid(Utils.NBNB("pyroligneous_acid_fluid")), BlockBehaviour.Properties.copy(Blocks.WATER)));
-
-    //Acetone - Added 6/25/24
-    public static final RegistryObject<LiquidBlock> ACETONE_BLOCK = BLOCKS.register("acetone_block",
-            () -> new LiquidBlock(() -> (FlowingFluid) Utils.fetchFluid(Utils.NBNB("acetone_fluid")), BlockBehaviour.Properties.copy(Blocks.WATER)));
-
-    //Gemstone Polish - Added 11/15/24
-    public static final RegistryObject<LiquidBlock> GEMSTONE_POLISH_BLOCK = BLOCKS.register("gemstone_polish_block",
-            () -> new LiquidBlock(() -> (FlowingFluid) Utils.fetchFluid(Utils.NBNB("gemstone_polish_fluid")), BlockBehaviour.Properties.copy(Blocks.WATER)));
-
-    //Molten Skystone - Added 11/15/24
-    public static final RegistryObject<LiquidBlock> MOLTEN_SKYSTONE_BLOCK = BLOCKS.register("molten_skystone_block",
-            () -> new LiquidBlock(() -> (FlowingFluid) Utils.fetchFluid(Utils.NBNB("molten_skystone_fluid")), BlockBehaviour.Properties.copy(Blocks.WATER)));
-
-    //Heptafluoropropane - Added 11/29/24
-    public static final RegistryObject<LiquidBlock> HEPTAFLUOROPROPANE_BLOCK = BLOCKS.register("heptafluoropropane_block",
-            () -> new LiquidBlock(() -> (FlowingFluid) Utils.fetchFluid(Utils.NBNB("heptafluoropropane_fluid")), BlockBehaviour.Properties.copy(Blocks.WATER)));
-
-    //Amorphous Cellulose - Added 11/29/24
-    public static final RegistryObject<LiquidBlock> AMORPHOUS_CELLULOSE_BLOCK = BLOCKS.register("amorphous_cellulose_block",
-            () -> new LiquidBlock(() -> (FlowingFluid) Utils.fetchFluid(Utils.NBNB("amorphous_cellulose_fluid")), BlockBehaviour.Properties.copy(Blocks.WATER)));
-
-    //Endstone Leach Water - Added 12/12/24
-    public static final RegistryObject<LiquidBlock> ENDSTONE_LEACH_WATER_BLOCK = BLOCKS.register("endstone_leach_water_block",
-            () -> new LiquidBlock(() -> (FlowingFluid) Utils.fetchFluid(Utils.NBNB("endstone_leach_water_fluid")), BlockBehaviour.Properties.copy(Blocks.WATER)));
-
-    //Heavy Crude Oil - Added 12/12/24
-    public static final RegistryObject<LiquidBlock> HEAVY_CRUDE_OIL_BLOCK = BLOCKS.register("heavy_crude_oil_block",
-            () -> new LiquidBlock(() -> (FlowingFluid) Utils.fetchFluid(Utils.NBNB("heavy_crude_oil_fluid")), BlockBehaviour.Properties.copy(Blocks.WATER)));
-
-    //Petroleum - Added 12/12/24
-    public static final RegistryObject<LiquidBlock> PETROLEUM_BLOCK = BLOCKS.register("petroleum_block",
-            () -> new LiquidBlock(() -> (FlowingFluid) Utils.fetchFluid(Utils.NBNB("petroleum_fluid")), BlockBehaviour.Properties.copy(Blocks.WATER)));
-
-    //Tailings - Added 12/12/24
-    public static final RegistryObject<LiquidBlock> TAILINGS_BLOCK = BLOCKS.register("tailings_block",
-            () -> new LiquidBlock(() -> (FlowingFluid) Utils.fetchFluid(Utils.NBNB("tailings_fluid")), BlockBehaviour.Properties.copy(Blocks.WATER)));
-
-    //Lithium Alumino Solution - Added 12/12/24
-    public static final RegistryObject<LiquidBlock> Lithium_Alumino_Solution_BLOCK = BLOCKS.register("lithium_alumino_solution_block",
-            () -> new LiquidBlock(() -> (FlowingFluid) Utils.fetchFluid(Utils.NBNB("lithium_alumino_solution_fluid")), BlockBehaviour.Properties.copy(Blocks.WATER)));
-
-*/
+    //NOTICE: Fluid block registration is no longer handled here, but it has been compressed into FluidInfo and ModFluids.
 
     //--------------------------------------------------------------------------------------
     // DO NOT TOUCH BELOW

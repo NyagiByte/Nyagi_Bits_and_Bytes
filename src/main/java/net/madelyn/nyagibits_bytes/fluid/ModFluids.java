@@ -28,84 +28,58 @@ public class ModFluids {
     public static final ResourceLocation LAVA_FLOWING_RL = new ResourceLocation("block/lava_flow");
 
     /*
-    Each FluidInfo.Builder creates everything necessary to register one (1) fluid. Fun, right?
+    Each FluidInfo.Builder creates everything necessary to register one fluid
     It builds all the parameters necessary to register a still fluid, a flowing fluid and a fluid type.
-    TODO: List out default values here, since now FluidInfo takes care of a LOT of defaults
+    Builder methods are available to set whichever properties are needed, but pretty much everything has a default value.
+    For info on the default values, or the available builder methods, see the FluidInfo.Builder class.
      */
 
-    private static final List<FluidInfo> FLUIDS_LIST = List.of(
+    private static final List<FluidInfo.Builder> FLUIDS_LIST = List.of(
         //Hydrocarbon Tar - Added 6/25/24
-        new FluidInfo.Builder("hydrocarbon_tar")
-                //The texture of still fluid (ResourceLocation)
+        new FluidInfo.Builder("hydrocarbon_tar", 0xff141414)
                 .setStillTexture(LAVA_STILL_RL)
-                //The texture of flowing fluid (ResourceLocation)
                 .setFlowingTexture(LAVA_FLOWING_RL)
-                .setTint(0xff141414)
                 .setSlopeFindDistance(2)
                 .setLevelDecreasePerBlock(2)
                 .setDensity(15)
-                .setViscosity(2)
-                .build(),
+                .setViscosity(2),
         //Raw Wood Vinegar - Added 6/25/24
-        new FluidInfo.Builder("raw_wood_vinegar")
-                .setTint(0xC18a3a0a)
+        new FluidInfo.Builder("raw_wood_vinegar", 0xC18a3a0a)
                 .setSlopeFindDistance(4)
-                .setViscosity(5)
-                .build(),
+                .setViscosity(5),
         //Pyroligneous Acid - Added 6/25/24
-        new FluidInfo.Builder("pyroligneous_acid")
-                .setTint(0xA1be8d43)
-                .setSlopeFindDistance(4)
-                .build(),
+        new FluidInfo.Builder("pyroligneous_acid", 0xA1be8d43)
+                .setSlopeFindDistance(4),
         //Acetone - Added 6/25/24
-        new FluidInfo.Builder("acetone")
-                .setTint(0xA1bbb9b2)
-                .build(),
+        new FluidInfo.Builder("acetone", 0xA1bbb9b2),
         //Gemstone Polish - Added 11/15/24
-        new FluidInfo.Builder("gemstone_polish")
-                .setTint(0xA100b2a9)
-                .build(),
+        new FluidInfo.Builder("gemstone_polish", 0xA100b2a9),
         //Molten Skystone - Added 11/15/24
-        new FluidInfo.Builder("molten_skystone")
+        new FluidInfo.Builder("molten_skystone", 0xff001400)
                 .setStillTexture(LAVA_STILL_RL)
-                .setFlowingTexture(LAVA_FLOWING_RL)
-                .setTint(0xff001400)
-                .build(),
+                .setFlowingTexture(LAVA_FLOWING_RL),
         //Heptafluoropropane - Added 11/29/24
-        new FluidInfo.Builder("heptafluoropropane")
-                .setTint(0xA145ff64)
-                .build(),
+        new FluidInfo.Builder("heptafluoropropane", 0xA145ff64),
         //Amorphous Cellulose - Added 11/29/24
-        new FluidInfo.Builder("amorphous_cellulose")
-                .setTint(0xA4b6432)
-                .build(),
+        new FluidInfo.Builder("amorphous_cellulose", 0xA4b6432),
         //Lithium-Alumino Solution - Added 12/12/24
-        new FluidInfo.Builder("lithium_alumino_solution")
-                .setTint(0xA1c8fa)
-                .build(),
+        new FluidInfo.Builder("lithium_alumino_solution", 0xA1c8fa),
         //Tailings - Added 12/12/24
-        new FluidInfo.Builder("tailings")
-                .setTint(0xA4644b32)
-                .build(),
+        new FluidInfo.Builder("tailings", 0xA4644b32),
         //Petroleum - Added 12/12/24
-        new FluidInfo.Builder("petroleum")
-                .setTint(0xA4c89600)
-                .build(),
+        new FluidInfo.Builder("petroleum", 0xA4c89600),
         //Heavy Crude Oil - Added 12/12/24
-        new FluidInfo.Builder("heavy_crude_oil")
+        new FluidInfo.Builder("heavy_crude_oil", 0xA400000a)
                 //Is this intentional?
-                .setOverlayTexture(Utils.NBNB("misc/in_petroleum"))
-                .setTint(0xA400000a)
-                .build(),
+                .setOverlayTexture(Utils.NBNB("misc/in_petroleum")),
         //Endstone-Leach Water - Added 12/12/24
-        new FluidInfo.Builder("endstone_leach_water")
-                .setTint(0xA1326496)
-                .build()
+        new FluidInfo.Builder("endstone_leach_water", 0xA1326496)
     );
 
 
     static {
-        for(FluidInfo info : FLUIDS_LIST){
+        for(FluidInfo.Builder infoBuilder : FLUIDS_LIST){
+            FluidInfo info = infoBuilder.build();
             FLUIDS.register(info.getSourceId(), info.getSourceFluid());
             FLUIDS.register(info.getFlowingId(), info.getFlowingFluid());
             FLUID_TYPES.register(info.getFluidTypeId(), info.getFluidType());
