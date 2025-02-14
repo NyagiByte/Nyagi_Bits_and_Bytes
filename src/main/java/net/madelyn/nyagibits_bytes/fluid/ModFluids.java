@@ -74,16 +74,27 @@ public class ModFluids {
                 .setOverlayTexture(Utils.NBNB("misc/in_petroleum")),
         //Endstone-Leach Water - Added 12/12/24
         new FluidInfo.Builder("endstone_leach_water", 0xA1326496),
+        // Crude Biodiesel - Added 02/13/25
         new FluidInfo.Builder("crude_biodiesel", 0xA4f4d0a),
+        // Crude Glycerol - Added 02/13/25
         new FluidInfo.Builder("crude_glycerol", 0xA472b19),
+        // Alkaline Technical Grade Glycerol - Added 02/13/25
         new FluidInfo.Builder("alkaline_technical_glycerol", 0xA804d2e),
+        // Technical Grade Glycerol - Added 02/13/25
         new FluidInfo.Builder("technical_glycerol", 0xAa36e4e),
+        // Colorless Glycerol - Added 02/13/25
         new FluidInfo.Builder("colorless_glycerol", 0xAccc3be),
+        // Odourless Glycerol - Added 02/13/25
         new FluidInfo.Builder("odourless_glycerol", 0xAdbd1cc),
+        // Distilled Glycerol - Added 02/13/25
         new FluidInfo.Builder("distilled_glycerol", 0xAf5e9e4),
+        // Glycerol - Added 02/13/25
         new FluidInfo.Builder("glycerol", 0xAededed),
+        // Wet Methanol - Added 02/13/25
         new FluidInfo.Builder("wet_methanol", 0xAe9b8f5),
+        // Wet Biodiesel - Added 02/13/25
         new FluidInfo.Builder("wet_biodiesel", 0xA706e1a),
+        // Crude Plant Oil - Added 02/13/25
         new FluidInfo.Builder("crude_plant_oil", 0xA7d824d)
     );
 
