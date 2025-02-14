@@ -420,6 +420,14 @@ public class ModItems {
           new ItemInfo("fossil_resin", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // Coprolite (fossilized poop) added 12/12/24 - Nyagi
           new ItemInfo("coprolite", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // Activated Carbon added 02/13/25 - JJ
+          new ItemInfo("activated_carbon", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // Saturated Carbon Waste added 02/13/25 - JJ
+          new ItemInfo("saturated_carbon_waste", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // Carbon Residue added 02/13/25 - JJ
+          new ItemInfo("carbon_residue", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          //  Sample of Methanol added 02/13/25 - JJ
+          new ItemInfo("sample_methanol", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
 
           //Custom Botania Runes
           // Blank Rune added 3/8/24 - Nyagi

@@ -73,7 +73,18 @@ public class ModFluids {
                 //Is this intentional?
                 .setOverlayTexture(Utils.NBNB("misc/in_petroleum")),
         //Endstone-Leach Water - Added 12/12/24
-        new FluidInfo.Builder("endstone_leach_water", 0xA1326496)
+        new FluidInfo.Builder("endstone_leach_water", 0xA1326496),
+        new FluidInfo.Builder("crude_biodiesel", 0xA4f4d0a),
+        new FluidInfo.Builder("crude_glycerol", 0xA472b19),
+        new FluidInfo.Builder("alkaline_technical_glycerol", 0xA804d2e),
+        new FluidInfo.Builder("technical_glycerol", 0xAa36e4e),
+        new FluidInfo.Builder("colorless_glycerol", 0xAccc3be),
+        new FluidInfo.Builder("odourless_glycerol", 0xAdbd1cc),
+        new FluidInfo.Builder("distilled_glycerol", 0xAf5e9e4),
+        new FluidInfo.Builder("glycerol", 0xAededed),
+        new FluidInfo.Builder("wet_methanol", 0xAe9b8f5),
+        new FluidInfo.Builder("wet_biodiesel", 0xA706e1a),
+        new FluidInfo.Builder("crude_plant_oil", 0xA7d824d)
     );
 
 
