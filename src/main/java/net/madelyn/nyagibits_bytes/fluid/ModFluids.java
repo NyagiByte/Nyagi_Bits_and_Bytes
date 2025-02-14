@@ -75,27 +75,27 @@ public class ModFluids {
         //Endstone-Leach Water - Added 12/12/24
         new FluidInfo.Builder("endstone_leach_water", 0xA1326496),
         // Crude Biodiesel - Added 02/13/25
-        new FluidInfo.Builder("crude_biodiesel", 0xA4f4d0a),
+        new FluidInfo.Builder("crude_biodiesel", 0xA14f4d0a),
         // Crude Glycerol - Added 02/13/25
-        new FluidInfo.Builder("crude_glycerol", 0xA472b19),
+        new FluidInfo.Builder("crude_glycerol", 0xA1472b19),
         // Alkaline Technical Grade Glycerol - Added 02/13/25
-        new FluidInfo.Builder("alkaline_technical_glycerol", 0xA804d2e),
+        new FluidInfo.Builder("alkaline_technical_glycerol", 0xA1804d2e),
         // Technical Grade Glycerol - Added 02/13/25
-        new FluidInfo.Builder("technical_glycerol", 0xAa36e4e),
+        new FluidInfo.Builder("technical_glycerol", 0xA1a36e4e),
         // Colorless Glycerol - Added 02/13/25
-        new FluidInfo.Builder("colorless_glycerol", 0xAccc3be),
+        new FluidInfo.Builder("colorless_glycerol", 0xA1ccc3be),
         // Odourless Glycerol - Added 02/13/25
-        new FluidInfo.Builder("odourless_glycerol", 0xAdbd1cc),
+        new FluidInfo.Builder("odourless_glycerol", 0xA1dbd1cc),
         // Distilled Glycerol - Added 02/13/25
-        new FluidInfo.Builder("distilled_glycerol", 0xAf5e9e4),
+        new FluidInfo.Builder("distilled_glycerol", 0xA1f5e9e4),
         // Glycerol - Added 02/13/25
-        new FluidInfo.Builder("glycerol", 0xAededed),
+        new FluidInfo.Builder("glycerol", 0xA1ededed),
         // Wet Methanol - Added 02/13/25
-        new FluidInfo.Builder("wet_methanol", 0xAe9b8f5),
+        new FluidInfo.Builder("wet_methanol", 0xA1e9b8f5),
         // Wet Biodiesel - Added 02/13/25
-        new FluidInfo.Builder("wet_biodiesel", 0xA706e1a),
+        new FluidInfo.Builder("wet_biodiesel", 0xA1706e1a),
         // Crude Plant Oil - Added 02/13/25
-        new FluidInfo.Builder("crude_plant_oil", 0xA7d824d)
+        new FluidInfo.Builder("crude_plant_oil", 0xA17d824d)
     );
 
 
