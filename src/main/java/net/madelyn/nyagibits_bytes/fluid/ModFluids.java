@@ -95,7 +95,25 @@ public class ModFluids {
         // Wet Biodiesel - Added 02/13/25
         new FluidInfo.Builder("wet_biodiesel", 0xA1706e1a),
         // Crude Plant Oil - Added 02/13/25
-        new FluidInfo.Builder("crude_plant_oil", 0xA17d824d)
+        new FluidInfo.Builder("crude_plant_oil", 0xA17d824d),
+        // Cyclohexanone - Added 02/20/25
+        new FluidInfo.Builder("cyclohexanone", 0xA1aad5cb),
+        // Methylethyl Ketone - Added 02/20/25
+        new FluidInfo.Builder("methylethyl_ketone", 0xA15e9e8f),
+        // Ketone Mixture - Added 02/20/25
+        new FluidInfo.Builder("ketone_mixture", 0xA1b0c484),
+        // Lithium Carboxylate - Added 02/20/25
+        new FluidInfo.Builder("lithium_carboxylate", 0xA1c3b0bb),
+        // t-Butyllithium - Added 02/20/25
+        new FluidInfo.Builder("tert_butyl_lithium", 0xA18c80ae),
+        // t-Butylchloride - Added 02/20/25
+        new FluidInfo.Builder("tert_butyl_chloride", 0xA178aa99),
+        // Methylmagnesium Chloride Solution - Added 02/20/25
+        new FluidInfo.Builder("methylmagnesium_chloride_solution", 0xA1c7d9cd),
+        // Tetrahydrofuran - Added 02/20/25
+        new FluidInfo.Builder("tetrahydrofuran", 0xA1e3c3af),
+        // Formaldehyde - Added 02/20/25
+        new FluidInfo.Builder("formaldehyde", 0xA1d7933a)
     );
 
 
