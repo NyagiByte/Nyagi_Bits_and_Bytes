@@ -1,6 +1,6 @@
 {
   "item.nyagibits_bytes.inert_god_heart": "Coração de Deus Inerte",
-  "item.nyagibits_bytes.inert_god_heart.desc": "É... muito mais frio\n\u00A73Ofereçe Supersalto II\n\u00A75Ligado à Alma\"",
+  "item.nyagibits_bytes.inert_god_heart.desc": "É... muito mais frio\n\u00A73Ofereçe Supersalto II\n\u00A75Ligado à Alma",
   "item.nyagibits_bytes.faintly_resonating_god_heart": "Coração de Deus Levemente Resonante",
   "item.nyagibits_bytes.faintly_resonating_god_heart.desc": "Uma Canção de Raiva\n\u00A73Ofereçe Supersalto II, Proteção do Mar\n00A73Força e Afinidade Aquática\n\u00A75Ligado à Alma",
 
@@ -275,11 +275,11 @@
   "item.nyagibits_bytes.gypsum.desc": "Um mineral de sulfato feito de\nsulfato de cálcio di-hidratado.\nTem usos na agricultura,\nmanufaturação, e arquitetura",
   "item.nyagibits_bytes.mana_imbued_glucose_crystal": "Cristal de Glicose Imbuído com Mana",
   "item.nyagibits_bytes.mana_imbued_glucose_crystal.desc": "Violentemente desidratando e\ntemperando mingau de nhaquesera,\nobtemos esta forma interessante de açúcar.\nEu me pergunto o que podemos fazer com isto...",
-  "item.nyagibits_bytes.mana_imbued_obsidian_shard": "Caco de Obsidiana Infundido com Mada",
+  "item.nyagibits_bytes.mana_imbued_obsidian_shard": "Caco de Obsidiana Infundido com Mana",
   "item.nyagibits_bytes.mana_imbued_obsidian_shard.desc": "Quebrando o mingau de endochama temperado em pedaços,\nobtemos um poliformo único de obsidiana\ncom inclusões de mana e\nestruturas de carbono ordenadas",
   "item.nyagibits_bytes.mana_imbued_primary_explosive": "Explosivo Primário Infundido com Mana",
   "item.nyagibits_bytes.mana_imbued_primary_explosive.desc": "O corpo do entropinio não para de reagir!\n Felizmente, com processos químicos, ele é convertido\nem uma forma segura de manusear,\nperfeita para aplicações futuras",
-  "item.nyagibits_bytes.mana_imbued_oobleck": "Oobleck Infundido com Mada",
+  "item.nyagibits_bytes.mana_imbued_oobleck": "Oobleck Infundido com Mana",
   "item.nyagibits_bytes.mana_imbued_oobleck.desc": "A morte da hidroângea aparenta ter deixado esta substância gosmenta que,\nquando misturada com amido, age como um líquido não-newtoniano\nde baixa freicção e resistente a calor.\n Isto deve ter usos...",
   "item.nyagibits_bytes.quenched_thermalsidian": "Termobsidiana Temperada",
   "item.nyagibits_bytes.quenched_thermalsidian.desc": "Surpreendentemente ainda quente",
