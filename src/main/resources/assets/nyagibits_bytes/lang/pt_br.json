@@ -372,7 +372,7 @@
   "item.nyagibits_bytes.terrarium": "Terrário",
   "item.nyagibits_bytes.terrarium.desc": "Uma garrafa selada com água e musgos\nperpetuamente se auto-sustentando enquanto\nos materiais se reciclam sem fim",
   "item.nyagibits_bytes.organic_pseudo_logic": "Lógica Pseudo Orgânica",
-  "item.nyagibits_bytes.organic_pseudo_logic.desc": "A adição de pétalas florais pulverizadas\nestimulam a produção de ácido indolacético\npresente toco de girassol extertado.\nRedstone então permite a leitura de sinais\na partir da atividade do ácido, criando um detector de luz orgânico rudimentar",
+  "item.nyagibits_bytes.organic_pseudo_logic.desc": "A adição de pétalas florais pulverizadas\nestimulam a produção de ácido indolacético\npresente no toco de girassol extertado.\nRedstone então permite a leitura de sinais\na partir da atividade do ácido, criando um detector de luz orgânico rudimentar",
   "item.nyagibits_bytes.sealant": "Selante",
   "item.nyagibits_bytes.sealant.desc": "Borracha liquidificada funciona como selador de juntas de tubos,\npermitindo que vários líquidos e mana sejam contidos",
   "item.nyagibits_bytes.magnetic_hematite": "Hematita Magnética",
