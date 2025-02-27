@@ -420,6 +420,40 @@ public class ModItems {
           new ItemInfo("fossil_resin", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // Coprolite (fossilized poop) added 12/12/24 - Nyagi
           new ItemInfo("coprolite", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // Activated Carbon added 02/13/25 - JJ
+          new ItemInfo("activated_carbon", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // Saturated Carbon Waste added 02/13/25 - JJ
+          new ItemInfo("saturated_carbon_waste", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // Carbon Residue added 02/13/25 - JJ
+          new ItemInfo("carbon_residue", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          //  Sample of Methanol added 02/13/25 - JJ
+          new ItemInfo("sample_methanol", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          //  Sample of Cyclohexanone added 02/19/25 - Nyagi
+          new ItemInfo("sample_cyclohexanone", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          //  Sample of Methylethyl Ketone added 02/19/25 - Nyagi
+          new ItemInfo("sample_methylethyl_ketone", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          //  Sample of Ketone Mixture added 02/19/25 - Nyagi
+          new ItemInfo("sample_ketone_mixture", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          //  Sample of Lithium Carboxylate added 02/19/25 - Nyagi
+          new ItemInfo("sample_lithium_carboxylate", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          //  Sample of Tert-Butyl Lithium added 02/19/25 - Nyagi
+          new ItemInfo("sample_tertbutyl_lithium", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          //  Sample of Tert-Butyl Chloride added 02/19/25 - Nyagi
+          new ItemInfo("sample_tertbutyl_chloride", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          //  Sample of Tert-Butyl Alcohol added 02/19/25 - Nyagi
+          new ItemInfo("sample_tertbutyl_alcohol", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          //  Sample of Methylmagnesium Chloride Solution added 02/19/25 - Nyagi
+          new ItemInfo("sample_methylmagnesium_chloride_solution", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          //  Sample of Tetrahydrofuran added 02/19/25 - Nyagi
+          new ItemInfo("sample_tetrahydrofuran", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          //  Sample of Formaldehyde added 02/19/25 - Nyagi
+          new ItemInfo("sample_formaldehyde", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          //  Sample of Methylmagnesium Chloride added 02/19/25 - Nyagi
+          new ItemInfo("sample_methylmagnesium_chloride", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          //  Tert-Butyl Alcohol Dust added 02/20/25 - Nyagi
+          new ItemInfo("tert_butyl_alcohol_dust", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          //  Methylmagnesium Chloride Dust added 02/20/25 - Nyagi
+          new ItemInfo("methylmagnesium_chloride_dust", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
 
           //Custom Botania Runes
           // Blank Rune added 3/8/24 - Nyagi
