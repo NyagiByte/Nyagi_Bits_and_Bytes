@@ -1150,7 +1150,7 @@
   "fluid_type.nyagibits_bytes.lithium_carboxylate_fluid": "Lithium Carboxylate",
   "fluid_type.nyagibits_bytes.tert_butyl_lithium_fluid": "t-Butyllithium",
   "fluid_type.nyagibits_bytes.tert_butyl_chloride_fluid": "t-Butylchloride",
-  "fluid_type.nyagibits_bytes.methylmagnesium_chloride_fluid": "Methylmagnesium Chloride Solution",
+  "fluid_type.nyagibits_bytes.methylmagnesium_chloride_solution_fluid": "Methylmagnesium Chloride Solution",
   "fluid_type.nyagibits_bytes.tetrahydrofuran_fluid": "Tetrahydrofuran",
   "fluid_type.nyagibits_bytes.formaldehyde_fluid": "Formaldehyde",
 
