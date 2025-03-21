@@ -74,6 +74,8 @@ public class ModFluids {
                 .setOverlayTexture(Utils.NBNB("misc/in_petroleum")),
         //Endstone-Leach Water - Added 12/12/24
         new FluidInfo.Builder("endstone_leach_water", 0xA1326496),
+        // Bio-Glycerol Mix - Added 03/21/25
+        new FluidInfo.Builder("bio_glycerol_mix", 0xA04f4d0a),
         // Crude Biodiesel - Added 02/13/25
         new FluidInfo.Builder("crude_biodiesel", 0xA14f4d0a),
         // Crude Glycerol - Added 02/13/25
