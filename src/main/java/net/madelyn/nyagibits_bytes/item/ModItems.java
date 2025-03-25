@@ -222,28 +222,6 @@ public class ModItems {
           new ItemInfo("steel_high_carbon_15n20", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // Stainless Steel added 5/13/24 - Nyagi
           new ItemInfo("steel_stainless", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          // Aluminum Trichloride added 5/16/24 - Nyagi
-          new ItemInfo("aluminum_trichloride", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          // Toluene added 5/16/24 - Nyagi
-          new ItemInfo("toluene", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          // Mononitrotoluene added 5/16/24 - Nyagi
-          new ItemInfo("mononitrotoluene", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          // Dinitrotoluene added 5/16/24 - Nyagi
-          new ItemInfo("dinitrotoluene", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          // 2-4-6 Trinitrotoluene added 5/16/24 - Nyagi
-          new ItemInfo("trinitrotoluene", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          // Methyl Chloride added 5/16/24 - Nyagi
-          new ItemInfo("methyl_chloride", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          // Oleum added 5/16/24 - Nyagi
-          new ItemInfo("oleum", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          // Chromium Trioxide added 5/22/24 - Nyagi
-          new ItemInfo("chromium_trioxide", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          // Ethylene Oxide added 5/22/24 - Nyagi
-          new ItemInfo("ethylene_oxide", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          // Benzyl Alcohol added 5/22/24 - Nyagi
-          new ItemInfo("benzyl_alcohol", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          // 2-Phenoxyethanol added 5/22/24 - Nyagi
-          new ItemInfo("2_phenoxyethanol", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // Low Voltage Capacitor added 6/5/24 - Nyagi
           new ItemInfo("low_voltage_capacitor", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // Threaded Composite Leather added 6/5/24 - Nyagi
@@ -410,8 +388,6 @@ public class ModItems {
           new ItemInfo("deactivated_entropic_mush", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // Basic Arcana Core added 11/29/24 - Nyagi
           new ItemInfo("basic_arcana_core", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          // Heptafluoropropane Vial added 11/29/24 - Nyagi
-          new ItemInfo("heptafluoropropane_vial", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // Lithium-Alumino Inosilicate Vial added 12/12/24 - Nyagi
           new ItemInfo("lithium_alumino_inosilicate", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // Oolithus (fossilized egg) added 12/12/24 - Nyagi
@@ -426,10 +402,34 @@ public class ModItems {
           new ItemInfo("saturated_carbon_waste", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // Carbon Residue added 02/13/25 - JJ
           new ItemInfo("carbon_residue", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // Methyl Chloride Sample added 5/16/24 - Nyagi
+          new ItemInfo("sample_methyl_chloride", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // Ethylene Oxide Sample added 5/22/24 - Nyagi
+          new ItemInfo("sample_ethylene_oxide", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // Heptafluoropropane Sample added 11/29/24 - Nyagi
+          new ItemInfo("sample_heptafluoropropane", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           //  Sample of Methanol added 02/13/25 - JJ
           new ItemInfo("sample_methanol", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           //  Sample of Cyclohexanone added 02/19/25 - Nyagi
           new ItemInfo("sample_cyclohexanone", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          //  Sample of Aluminum Trichloride added 5/16/24 - Nyagi
+          new ItemInfo("sample_aluminum_trichloride", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          //  Sample of Toluene added 5/16/24 - Nyagi
+          new ItemInfo("sample_toluene", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          //  Sample of Mononitrotoluene added 5/16/24 - Nyagi
+          new ItemInfo("sample_mononitrotoluene", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          //  Sample of Dinitrotoluene added 5/16/24 - Nyagi
+          new ItemInfo("sample_dinitrotoluene", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          //  Sample of 2-4-6 Trinitrotoluene added 5/16/24 - Nyagi
+          new ItemInfo("sample_trinitrotoluene", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          //  Sample of Oleum added 5/16/24 - Nyagi
+          new ItemInfo("sample_oleum", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          //  Sample of Chromium Trioxide added 5/22/24 - Nyagi
+          new ItemInfo("sample_chromium_trioxide", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          //  Sample of Benzyl Alcohol added 5/22/24 - Nyagi
+          new ItemInfo("sample_benzyl_alcohol", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          //  Sample of 2-Phenoxyethanol added 5/22/24 - Nyagi
+          new ItemInfo("sample_2_phenoxyethanol", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           //  Sample of Methylethyl Ketone added 02/19/25 - Nyagi
           new ItemInfo("sample_methylethyl_ketone", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           //  Sample of Ketone Mixture added 02/19/25 - Nyagi
