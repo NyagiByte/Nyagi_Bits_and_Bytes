@@ -51,6 +51,14 @@ public class ModCreativeModeTab {
         }
       };
 
+  public static final CreativeModeTab NYAGIBITS_BYTES_BIOLOGY =
+      new CreativeModeTab("nyagibits_bytes_tab_biology") {
+        @Override
+        public ItemStack makeIcon() {
+            return new ItemStack(Utils.fetchItem(Utils.NBNB("stomach")));
+        }
+      };
+
   public static final CreativeModeTab NYAGIBITS_BYTES_FLUIDS =
       new CreativeModeTab("nyagibits_bytes_tab_fluids") {
         @Override
