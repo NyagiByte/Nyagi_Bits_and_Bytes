@@ -73,6 +73,7 @@ public class Utils {
         public static CreativeModeTab SEQUENCE = ModCreativeModeTab.NYAGIBITS_BYTES_INCOMPLETE_SEQUENCE_ITEMS;
         public static CreativeModeTab FLUIDS = ModCreativeModeTab.NYAGIBITS_BYTES_FLUIDS;
         public static CreativeModeTab MINERALS = ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS;
+        public static CreativeModeTab BIOLOGY = ModCreativeModeTab.NYAGIBITS_BYTES_BIOLOGY;
     }
 
     //This is a helper class to hold the data needed to apply one curio attribute modifier

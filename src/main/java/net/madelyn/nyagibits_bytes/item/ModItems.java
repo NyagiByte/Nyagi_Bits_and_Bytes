@@ -116,8 +116,6 @@ public class ModItems {
           new ItemInfo("compacted_soil", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // Tough Bag added 3/17/24 - Nyagi
           new ItemInfo("tough_bag", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          // Empty Petri Dish added 3/20/24 - Nyagi
-          new ItemInfo("petri_dish_empty", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // Agar-Gel added 3/25/24 - Nyagi
           new ItemInfo("agar_gel", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // Agar-Flakes added 3/25/24 - Nyagi
@@ -126,8 +124,6 @@ public class ModItems {
           new ItemInfo("agar_powder", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // Agar-Agar added 3/20/24 - Nyagi
           new ItemInfo("agar_agar", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          // Agar-Agar Petri Dish added 3/20/24 - Nyagi
-          new ItemInfo("petri_dish_agar_agar", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // Sponged Steel added 3/25/24 - Nyagi
           new ItemInfo("sponged_steel", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // Sodium Polyacrylate added 3/26/24 - Nyagi
@@ -454,6 +450,65 @@ public class ModItems {
           new ItemInfo("tert_butyl_alcohol_dust", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           //  Methylmagnesium Chloride Dust added 02/20/25 - Nyagi
           new ItemInfo("methylmagnesium_chloride_dust", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          //  Bitumen-Tar Cloth Dust added 03/27/25 - Nyagi
+          new ItemInfo("bitumen_tar_cloth", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          //  Waterproofing Kit Dust added 03/27/25 - Nyagi
+          new ItemInfo("waterproofing_kit", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          //  Unprocessed Mild Steel added 03/27/25 - Nyagi
+          new ItemInfo("unprocessed_mild_steel", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          //  Stainless Steel Mix added 03/27/25 - Nyagi
+          new ItemInfo("mix_steel_stainless", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          //  1080 Steel Mix added 03/27/25 - Nyagi
+          new ItemInfo("mix_steel_1080", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          //  15n20 Steel Mix added 03/27/25 - Nyagi
+          new ItemInfo("mix_steel_15n20", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          //  Torn Hemp Ball added 03/27/25 - Nyagi
+          new ItemInfo("torn_hemp_ball", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          //  Torn Flax Ball added 03/27/25 - Nyagi
+          new ItemInfo("torn_flax_ball", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          //  Woolen String added 03/27/25 - Nyagi
+          new ItemInfo("string_woolen", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+
+          //Biology
+          // Empty Petri Dish added 3/20/24 - Nyagi
+          new ItemInfo("petri_dish_empty", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // Agar-Agar Petri Dish added 3/20/24 - Nyagi
+          new ItemInfo("petri_dish_agar_agar", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          //  Stomach added 03/27/25 - Nyagi
+          new ItemInfo("stomach", Type.CUSTOM_TOOLTIP, Tab.BIOLOGY),
+          //  Ruminant Stomach added 03/27/25 - Nyagi
+          new ItemInfo("stomach_ruminant", Type.CUSTOM_TOOLTIP, Tab.BIOLOGY),
+          //  Intestines added 03/27/25 - Nyagi
+          new ItemInfo("intestines", Type.CUSTOM_TOOLTIP, Tab.BIOLOGY),
+          //  Loose Brain Matter added 03/27/25 - Nyagi
+          new ItemInfo("loose_brain_matter", Type.CUSTOM_TOOLTIP, Tab.BIOLOGY),
+          //  Lard added 03/27/25 - Nyagi
+          new ItemInfo("lard", Type.CUSTOM_TOOLTIP, Tab.BIOLOGY),
+          //  Heart added 03/27/25 - Nyagi
+          new ItemInfo("heart", Type.CUSTOM_TOOLTIP, Tab.BIOLOGY),
+          //  Kidney added 03/27/25 - Nyagi
+          new ItemInfo("kidney", Type.CUSTOM_TOOLTIP, Tab.BIOLOGY),
+          //  Liver added 03/27/25 - Nyagi
+          new ItemInfo("liver", Type.CUSTOM_TOOLTIP, Tab.BIOLOGY),
+          //  Miscellaneous Scrap Meat added 03/27/25 - Nyagi
+          new ItemInfo("scrap_meat", Type.CUSTOM_TOOLTIP, Tab.BIOLOGY),
+            //  Unprocessed Cow Leather added 03/27/25 - Nyagi
+            new ItemInfo("leather_unprocessed_cow", Type.CUSTOM_TOOLTIP, Tab.BIOLOGY),
+              //  Cow Leather added 03/27/25 - Nyagi
+              new ItemInfo("leather_cow", Type.CUSTOM_TOOLTIP, Tab.BIOLOGY),
+            //  Unprocessed Pig Leather added 03/27/25 - Nyagi
+            new ItemInfo("leather_unprocessed_pig", Type.CUSTOM_TOOLTIP, Tab.BIOLOGY),
+              //  Cow Leather added 03/27/25 - Nyagi
+              new ItemInfo("leather_pig", Type.CUSTOM_TOOLTIP, Tab.BIOLOGY),
+            //  Unprocessed Sheep Leather added 03/27/25 - Nyagi
+            new ItemInfo("leather_unprocessed_sheep", Type.CUSTOM_TOOLTIP, Tab.BIOLOGY),
+              //  Sheep Leather added 03/27/25 - Nyagi
+              new ItemInfo("leather_sheep", Type.CUSTOM_TOOLTIP, Tab.BIOLOGY),
+            //  Unprocessed Equidae Leather added 03/27/25 - Nyagi
+            //------Note: Equidae involves all horse & horse-like mobs
+            new ItemInfo("leather_unprocessed_equidae", Type.CUSTOM_TOOLTIP, Tab.BIOLOGY),
+              //  Horse Equidae added 03/27/25 - Nyagi
+              new ItemInfo("leather_equidae", Type.CUSTOM_TOOLTIP, Tab.BIOLOGY),
 
           //Custom Botania Runes
           // Blank Rune added 3/8/24 - Nyagi
