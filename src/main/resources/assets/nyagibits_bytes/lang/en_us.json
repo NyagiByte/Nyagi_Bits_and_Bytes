@@ -341,7 +341,7 @@
   "item.nyagibits_bytes.mix_steel_stainless.desc": "Ready to blast into stainless steel",
   "item.nyagibits_bytes.mix_steel_1080": "1080 Steel Mix",
   "item.nyagibits_bytes.mix_steel_1080.desc": "Ready to blast into 1080 steel",
-  "item.nyagibits_bytes.mix_steel_15n20": "15n20 Steel Mix",
+  "item.nyagibits_bytes.mix_steel_15n20": "15N20 Steel Mix",
   "item.nyagibits_bytes.mix_steel_15n20.desc": "Ready to blast into 15n20 steel",
   "item.nyagibits_bytes.torn_hemp_ball": "Torn Hemp Ball",
   "item.nyagibits_bytes.torn_hemp_ball.desc": "Little ball for generating static shocks",
@@ -349,7 +349,6 @@
   "item.nyagibits_bytes.torn_flax_ball.desc": "Little ball for generating static shocks",
   "item.nyagibits_bytes.string_woolen": "Woolen String",
   "item.nyagibits_bytes.string_woolen.desc": "What? Did you think I was\ngoing to let you craft an\nanimal product from plants? Lol, lmao",
-
 
   "item.nyagibits_bytes.stomach": "Stomach",
   "item.nyagibits_bytes.stomach.desc": "This where da food go",
