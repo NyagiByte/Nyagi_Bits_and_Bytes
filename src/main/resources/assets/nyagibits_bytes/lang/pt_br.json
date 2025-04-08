@@ -1186,6 +1186,7 @@
   "fluid_type.nyagibits_bytes.petroleum_fluid": "Petróleo",
   "fluid_type.nyagibits_bytes.heavy_crude_oil_fluid": "Petróleo Bruto Pesado",
   "fluid_type.nyagibits_bytes.endstone_leach_water_fluid": "Água de Lixiviação-Pedra do End",
+  "fluid_type.nyagibits_bytes.bio_glycerol_mix": "Mistura de Bio Glicerol",
   "fluid_type.nyagibits_bytes.crude_biodiesel_fluid": "Biodeesel Bruto",
   "fluid_type.nyagibits_bytes.crude_glycerol_fluid": "Glicerol Bruto",
   "fluid_type.nyagibits_bytes.alkaline_technical_glycerol_fluid": "Glicerol Alcalino de Grau Técnico",
