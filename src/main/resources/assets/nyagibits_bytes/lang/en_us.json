@@ -939,7 +939,7 @@
   "item.nyagibits_bytes.raw_autunite.yield": "Tier 0: Phosphorus\nTier 1: Uranium\nTier 2: Calcium",
   "item.nyagibits_bytes.sintered_autunite": "Sintered Autunite",
   "item.nyagibits_bytes.raw_thorite": "Raw Thorite",
-  "item.nyagibits_bytes.raw_thorite.desc": "A rare neosilicate of thorium. Commonly\nassociated with zircon, monazite, gadolinite, fergusonite,\nuraninite, yttrialite, and pyrochlore",
+  "item.nyagibits_bytes.raw_thorite.desc": "A rare nesosilicate of thorium. Commonly\nassociated with zircon, monazite, gadolinite, fergusonite,\nuraninite, yttrialite, and pyrochlore",
   "item.nyagibits_bytes.raw_thorite.yield": "Tier 0: Thorium\nTier 1: Silicon\nTier 2: Monazite",
   "item.nyagibits_bytes.sintered_thorite": "Sintered Thorite",
   "item.nyagibits_bytes.raw_uranothorite": "Raw Uranothorite",
