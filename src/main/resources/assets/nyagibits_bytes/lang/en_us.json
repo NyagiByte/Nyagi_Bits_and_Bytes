@@ -952,7 +952,7 @@
   "item.nyagibits_bytes.sintered_thorianite": "Sintered Thorianite",
 
   "item.nyagibits_bytes.raw_cassiterite": "Raw Cassiterite",
-  "item.nyagibits_bytes.raw_cassiterite.desc": "A tin oxide mineral that forms as\nopaque thin crystals that can sometimes\nappear translucent. ",
+  "item.nyagibits_bytes.raw_cassiterite.desc": "A tin oxide mineral that forms as\nopaque thin crystals that can sometimes\nappear translucent",
   "item.nyagibits_bytes.raw_cassiterite.yield": "Tier 0: Tin\nTier 1: Tin\nTier 2: Quartz",
   "item.nyagibits_bytes.sintered_cassiterite": "Sintered Cassiterite",
   "item.nyagibits_bytes.raw_stannite": "Raw Stannite",
