@@ -873,7 +873,7 @@
   "item.nyagibits_bytes.raw_anglesite.yield": "Tier 0: Lead\nTier 1: Sulfur\nTier 2: Iron",
   "item.nyagibits_bytes.sintered_anglesite": "Sintered Anglesite",
   "item.nyagibits_bytes.raw_wulfenite": "Raw Wulfenite",
-  "item.nyagibits_bytes.raw_wulfenite.desc": "Yet another lead sulfate mineral.\nForms as a semi-transparent white crystal.\nCan sometimes be found in a matrix of limonite",
+  "item.nyagibits_bytes.raw_wulfenite.desc": "A lead molybdate mineral whose colour ranges from yellow to red.\nIt can form from molybdenum by weathering processes",
   "item.nyagibits_bytes.raw_wulfenite.yield": "Tier 0: Lead\nTier 1: Molybdenum\nTier 2: Iron",
   "item.nyagibits_bytes.sintered_wulfenite": "Sintered Wulfenite",
   "item.nyagibits_bytes.raw_vanadinite": "Raw Vanadinite",
