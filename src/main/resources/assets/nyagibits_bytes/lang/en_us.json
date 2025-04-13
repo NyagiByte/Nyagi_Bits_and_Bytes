@@ -943,7 +943,7 @@
   "item.nyagibits_bytes.raw_thorite.yield": "Tier 0: Thorium\nTier 1: Silicon\nTier 2: Monazite",
   "item.nyagibits_bytes.sintered_thorite": "Sintered Thorite",
   "item.nyagibits_bytes.raw_uranothorite": "Raw Uranothorite",
-  "item.nyagibits_bytes.raw_uranothorite.desc": "A ver rare uranium bearing\nform of thorite ore",
+  "item.nyagibits_bytes.raw_uranothorite.desc": "A very rare uranium bearing\nform of thorite ore",
   "item.nyagibits_bytes.raw_uranothorite.yield": "Tier 0: Thorium\nTier 1: Uranium\nTier 2: Silicon Dioxide",
   "item.nyagibits_bytes.sintered_uranothorite": "Sintered Uranothorite",
   "item.nyagibits_bytes.raw_thorianite": "Raw Thorianite",
