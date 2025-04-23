@@ -115,7 +115,33 @@ public class ModFluids {
         // Tetrahydrofuran - Added 02/20/25
         new FluidInfo.Builder("tetrahydrofuran", 0xA1e3c3af),
         // Formaldehyde - Added 02/20/25
-        new FluidInfo.Builder("formaldehyde", 0xA1d7933a)
+        new FluidInfo.Builder("formaldehyde", 0xA1d7933a),
+        // Methyl Chloride - Added 04/23/25
+        new FluidInfo.Builder("methyl_chloride", 0xA19acdad),
+        // Ethylene Oxide - Added 04/23/25
+        new FluidInfo.Builder("ethylene_oxide", 0xA198b1b6),
+        // Trinitrotoluene - Added 04/23/25
+        new FluidInfo.Builder("trinitrotoluene", 0xA1e7dd7a),
+        // Dinitrotoluene - Added 04/23/25
+        new FluidInfo.Builder("dinitrotoluene", 0xA1c6b097),
+        // Mononitrotoluene - Added 04/23/25
+        new FluidInfo.Builder("mononitrotoluene", 0xA1b9b890),
+        // Toluene - Added 04/23/25
+        new FluidInfo.Builder("toluene", 0xA1965517),
+        // 2-Phenoxyethanol - Added 04/23/25
+        new FluidInfo.Builder("2_phenoxyethanol", 0xA1918c58),
+        // Benzyl Alcohol - Added 04/23/25
+        new FluidInfo.Builder("benzyl_alcohol", 0xA1839367),
+        // Oleum - Added 04/23/25
+        new FluidInfo.Builder("oleum", 0xA1e7e2b2),
+        // Anthocyanin - Added 04/23/25
+        new FluidInfo.Builder("anthocyanin", 0xA1cc8aec),
+        // Malic & Citric Acid - Added 04/23/25
+        new FluidInfo.Builder("malic_and_citric_acid", 0xA1f0ae5a),
+        // Vinegar - Added 04/23/25
+        new FluidInfo.Builder("vinegar", 0xA1ccc4ae),
+        // Salt Water - Added 04/23/25
+        new FluidInfo.Builder("salt_water", 0xA189a5f5)
     );
 
 
