@@ -125,7 +125,9 @@ public class ModBlocks {
         //Bixbite Block added 1/29/25 - Nyagi
         new BlockInfo("block_bixbite",Material.METAL, 2f, true, Tab.BLOCKS),
         //Goshenite Block added 1/29/25 - Nyagi
-        new BlockInfo("block_goshenite",Material.METAL, 2f, true, Tab.BLOCKS)
+        new BlockInfo("block_goshenite",Material.METAL, 2f, true, Tab.BLOCKS),
+        //Waterproof Casing added 4/24/25 - Nyagi
+        new BlockInfo("waterproof_casing",Material.WOOD, 2f, true, Tab.BLOCKS)
     ));
 
     //A small helper function to add the data for all 5 conglomerate ores for each type.

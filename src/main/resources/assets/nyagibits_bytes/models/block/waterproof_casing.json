@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "nyagibits_bytes:block/waterproof_casing"
+  }
+}
