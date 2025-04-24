@@ -86,8 +86,8 @@ public class ModItems {
           new ItemInfo("sturdy_box", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // Sealed Pouch added 7/25/23 - Nyagi
           new ItemInfo("sealed_pouch", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          // Salt Water added 7/25/23 - Nyagi
-          new ItemInfo("bucket_of_salt_water", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          // Salt Water added 7/25/23 - Nyagi (deprecated)
+          // new ItemInfo("bucket_of_salt_water", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // Torn Wool Ball added 7/25/23 - Nyagi
           new ItemInfo("torn_wool_ball", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // Etched Redstone Plate added 8/10/23 - Nyagi
@@ -446,6 +446,10 @@ public class ModItems {
           new ItemInfo("sample_formaldehyde", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           //  Sample of Methylmagnesium Chloride added 02/19/25 - Nyagi
           new ItemInfo("sample_methylmagnesium_chloride", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          //  Aluminum Trichloride Alcohol Dust added 04/22/25 - Nyagi
+          new ItemInfo("aluminum_trichloride_dust", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          //  Chromium Trioxide Alcohol Dust added 04/22/25 - Nyagi
+          new ItemInfo("chromium_trioxide_dust", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           //  Tert-Butyl Alcohol Dust added 02/20/25 - Nyagi
           new ItemInfo("tert_butyl_alcohol_dust", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           //  Methylmagnesium Chloride Dust added 02/20/25 - Nyagi

@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "nyagibits_bytes:etched_living_wood"
+    "nyagibits_bytes:etched_living_wood",
+    "nyagibits_bytes:waterproof_casing"
   ]
 }
