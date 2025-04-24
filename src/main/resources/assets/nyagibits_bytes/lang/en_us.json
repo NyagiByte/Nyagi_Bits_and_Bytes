@@ -1192,7 +1192,7 @@
   "fluid_type.nyagibits_bytes.petroleum_fluid": "Petroleum",
   "fluid_type.nyagibits_bytes.heavy_crude_oil_fluid": "Heavy Crude Oil",
   "fluid_type.nyagibits_bytes.endstone_leach_water_fluid": "Endstone-Leach Water",
-  "fluid_type.nyagibits_bytes.bio_glycerol_mix": "Bio-Glycerol Mix",
+  "fluid_type.nyagibits_bytes.bio_glycerol_mix_fluid": "Bio-Glycerol Mix",
   "fluid_type.nyagibits_bytes.crude_biodiesel_fluid": "Crude Biodiesel",
   "fluid_type.nyagibits_bytes.crude_glycerol_fluid": "Crude Glycerol",
   "fluid_type.nyagibits_bytes.alkaline_technical_glycerol_fluid": "Alkaline Technical Grade Glycerol",
