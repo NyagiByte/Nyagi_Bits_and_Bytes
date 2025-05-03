@@ -1,6 +1,6 @@
 {
 	"parent" : "item/generated",
 	"textures" : {
-		"layer0" : "nyagibits_bytes:item/mixed_seeds"
+		"layer0" : "nyagibits_bytes:item/dev/mixed_seeds"
 	}
 }

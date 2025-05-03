@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [128, 128],
 	"textures": {
-		"0": "nyagibits_bytes:item/incomplete_ae2_assembly",
-		"particle": "nyagibits_bytes:item/incomplete_micro_tools"
+		"0": "nyagibits_bytes:item/dev/incomplete_ae2_assembly",
+		"particle": "nyagibits_bytes:item/dev/incomplete_micro_tools"
 	},
 	"elements": [
 		{

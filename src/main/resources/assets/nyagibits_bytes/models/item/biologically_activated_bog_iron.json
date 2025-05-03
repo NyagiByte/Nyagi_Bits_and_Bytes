@@ -1,6 +1,6 @@
 {
   "parent" : "item/generated",
   "textures" : {
-    "layer0" : "nyagibits_bytes:item/biologically_activated_bog_iron"
+    "layer0" : "nyagibits_bytes:item/dev/biologically_activated_bog_iron"
   }
 }

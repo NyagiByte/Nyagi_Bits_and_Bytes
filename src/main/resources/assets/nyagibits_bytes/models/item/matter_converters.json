@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "nyagibits_bytes:item/matter_converters",
-		"particle": "nyagibits_bytes:item/matter_converters"
+		"0": "nyagibits_bytes:item/dev/matter_converters",
+		"particle": "nyagibits_bytes:item/dev/matter_converters"
 	},
 	"elements": [
 		{

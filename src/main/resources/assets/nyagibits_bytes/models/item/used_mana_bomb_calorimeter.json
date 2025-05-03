@@ -2,12 +2,12 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "nyagibits_bytes:item/main_vessle",
-		"1": "nyagibits_bytes:item/inner_wall",
-		"2": "nyagibits_bytes:item/insulation_layer",
-		"3": "nyagibits_bytes:item/bomb",
-		"5": "nyagibits_bytes:item/interface_components",
-		"particle": "nyagibits_bytes:item/main_vessle"
+		"0": "nyagibits_bytes:item/dev/main_vessle",
+		"1": "nyagibits_bytes:item/dev/inner_wall",
+		"2": "nyagibits_bytes:item/dev/insulation_layer",
+		"3": "nyagibits_bytes:item/dev/bomb",
+		"5": "nyagibits_bytes:item/dev/interface_components",
+		"particle": "nyagibits_bytes:item/dev/main_vessle"
 	},
 	"elements": [
 		{

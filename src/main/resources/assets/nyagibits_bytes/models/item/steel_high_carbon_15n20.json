@@ -1,6 +1,6 @@
 {
   "parent" : "item/generated",
   "textures" : {
-    "layer0" : "nyagibits_bytes:item/steel_high_carbon_15n20"
+    "layer0" : "nyagibits_bytes:item/dev/steel_high_carbon_15n20"
   }
 }

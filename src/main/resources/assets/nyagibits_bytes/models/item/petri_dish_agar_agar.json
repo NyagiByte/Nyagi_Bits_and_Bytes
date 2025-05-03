@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "nyagibits_bytes:item/petri_dish_agar_agar",
-		"particle": "nyagibits_bytes:item/petri_dish_agar_agar"
+		"0": "nyagibits_bytes:item/dev/petri_dish_agar_agar",
+		"particle": "nyagibits_bytes:item/dev/petri_dish_agar_agar"
 	},
 	"elements": [
 		{

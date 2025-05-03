@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "nyagibits_bytes:item/chromatography_kit",
-		"particle": "nyagibits_bytes:item/chromatography_kit"
+		"0": "nyagibits_bytes:item/dev/chromatography_kit",
+		"particle": "nyagibits_bytes:item/dev/chromatography_kit"
 	},
 	"elements": [
 		{

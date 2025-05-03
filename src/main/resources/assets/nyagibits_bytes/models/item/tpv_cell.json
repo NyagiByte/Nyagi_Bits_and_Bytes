@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "nyagibits_bytes:item/tpv_cell",
-		"particle": "nyagibits_bytes:item/tpv_cell"
+		"0": "nyagibits_bytes:item/dev/tpv_cell",
+		"particle": "nyagibits_bytes:item/dev/tpv_cell"
 	},
 	"elements": [
 		{

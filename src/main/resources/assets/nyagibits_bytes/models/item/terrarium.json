@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "nyagibits_bytes:item/terrarium",
-		"particle": "nyagibits_bytes:item/terrarium"
+		"0": "nyagibits_bytes:item/dev/terrarium",
+		"particle": "nyagibits_bytes:item/dev/terrarium"
 	},
 	"elements": [
 		{

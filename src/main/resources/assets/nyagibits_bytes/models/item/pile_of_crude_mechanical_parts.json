@@ -3,8 +3,8 @@
 	"parent": "minecraft:block/block",
 	"texture_size": [64, 64],
 	"textures": {
-		"1": "nyagibits_bytes:item/pile_of_crude_mechanical_parts",
-		"particle": "nyagibits_bytes:item/pile_of_crude_mechanical_parts"
+		"1": "nyagibits_bytes:item/dev/pile_of_crude_mechanical_parts",
+		"particle": "nyagibits_bytes:item/dev/pile_of_crude_mechanical_parts"
 	},
 	"elements": [
 		{

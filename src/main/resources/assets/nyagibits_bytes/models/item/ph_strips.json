@@ -1,9 +1,9 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "nyagibits_bytes:item/ph_strips",
-		"1": "nyagibits_bytes:item/strips",
-		"particle": "nyagibits_bytes:item/ph_strips"
+		"0": "nyagibits_bytes:item/dev/ph_strips",
+		"1": "nyagibits_bytes:item/dev/strips",
+		"particle": "nyagibits_bytes:item/dev/ph_strips"
 	},
 	"elements": [
 		{

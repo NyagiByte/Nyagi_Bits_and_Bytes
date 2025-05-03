@@ -1,11 +1,11 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "nyagibits_bytes:item/ball_bearing",
-		"1": "nyagibits_bytes:item/ink_cartridge",
-		"2": "nyagibits_bytes:item/tiny_spring",
-		"3": "nyagibits_bytes:item/thin_casing",
-		"particle": "nyagibits_bytes:item/thin_casing"
+		"0": "nyagibits_bytes:item/dev/ball_bearing",
+		"1": "nyagibits_bytes:item/dev/ink_cartridge",
+		"2": "nyagibits_bytes:item/dev/tiny_spring",
+		"3": "nyagibits_bytes:item/dev/thin_casing",
+		"particle": "nyagibits_bytes:item/dev/thin_casing"
 	},
 	"elements": [
 		{

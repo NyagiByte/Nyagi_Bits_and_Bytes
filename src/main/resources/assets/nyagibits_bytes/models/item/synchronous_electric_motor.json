@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "nyagibits_bytes:item/synchronous_electric_motor",
-		"particle": "nyagibits_bytes:item/synchronous_electric_motor"
+		"0": "nyagibits_bytes:item/dev/synchronous_electric_motor",
+		"particle": "nyagibits_bytes:item/dev/synchronous_electric_motor"
 	},
 	"elements": [
 		{

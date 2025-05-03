@@ -1,6 +1,6 @@
 {
   "parent" : "item/generated",
   "textures" : {
-    "layer0" : "nyagibits_bytes:item/ancient_fossil"
+    "layer0" : "nyagibits_bytes:item/dev/ancient_fossil"
   }
 }

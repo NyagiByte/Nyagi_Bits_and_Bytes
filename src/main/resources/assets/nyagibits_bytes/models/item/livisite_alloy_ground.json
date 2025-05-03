@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "nyagibits_bytes:item/livisite_alloy_ground",
-		"particle": "nyagibits_bytes:item/livisite_alloy_ground"
+		"0": "nyagibits_bytes:item/dev/livisite_alloy_ground",
+		"particle": "nyagibits_bytes:item/dev/livisite_alloy_ground"
 	},
 	"elements": [
 		{

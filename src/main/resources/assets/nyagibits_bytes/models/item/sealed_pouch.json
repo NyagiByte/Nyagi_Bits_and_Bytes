@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "nyagibits_bytes:item/sealed_pouch",
-		"particle": "nyagibits_bytes:item/sealed_pouch"
+		"0": "nyagibits_bytes:item/dev/sealed_pouch",
+		"particle": "nyagibits_bytes:item/dev/sealed_pouch"
 	},
 	"elements": [
 		{

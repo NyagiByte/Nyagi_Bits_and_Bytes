@@ -2,16 +2,16 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "nyagibits_bytes:item/sturdy_box",
-		"1": "nyagibits_bytes:item/high_strength_ratio_reducer",
-		"2": "nyagibits_bytes:item/base_copper_mesh_cube",
-		"3": "nyagibits_bytes:item/iron_interlink_mesh_segment",
-		"4": "nyagibits_bytes:item/engineer_hammer_model",
-		"5": "nyagibits_bytes:item/inert_wood_single_plank",
-		"6": "nyagibits_bytes:item/industrial_composite_plate",
-		"7": "nyagibits_bytes:item/steel_machine_casing_mini",
-		"8": "nyagibits_bytes:item/single_use_bread_board_model",
-		"particle": "nyagibits_bytes:item/industrial_composite_plate"
+		"0": "nyagibits_bytes:item/dev/sturdy_box",
+		"1": "nyagibits_bytes:item/dev/high_strength_ratio_reducer",
+		"2": "nyagibits_bytes:item/dev/base_copper_mesh_cube",
+		"3": "nyagibits_bytes:item/dev/iron_interlink_mesh_segment",
+		"4": "nyagibits_bytes:item/dev/engineer_hammer_model",
+		"5": "nyagibits_bytes:item/dev/inert_wood_single_plank",
+		"6": "nyagibits_bytes:item/dev/industrial_composite_plate",
+		"7": "nyagibits_bytes:item/dev/steel_machine_casing_mini",
+		"8": "nyagibits_bytes:item/dev/single_use_bread_board_model",
+		"particle": "nyagibits_bytes:item/dev/industrial_composite_plate"
 	},
 	"elements": [
 		{

@@ -1,11 +1,11 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "nyagibits_bytes:item/organic_vapor_respirator",
-		"1": "nyagibits_bytes:item/fire_extinguisher",
-		"2": "nyagibits_bytes:item/protective_eye_wear",
-		"3": "nyagibits_bytes:item/hard_hat",
-		"particle": "nyagibits_bytes:item/hard_hat"
+		"0": "nyagibits_bytes:item/dev/organic_vapor_respirator",
+		"1": "nyagibits_bytes:item/dev/fire_extinguisher",
+		"2": "nyagibits_bytes:item/dev/protective_eye_wear",
+		"3": "nyagibits_bytes:item/dev/hard_hat",
+		"particle": "nyagibits_bytes:item/dev/hard_hat"
 	},
 	"elements": [
 		{

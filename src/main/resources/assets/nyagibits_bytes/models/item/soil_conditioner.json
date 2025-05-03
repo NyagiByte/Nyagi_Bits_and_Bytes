@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "nyagibits_bytes:item/soil_conditioner",
-		"particle": "nyagibits_bytes:item/soil_conditioner"
+		"0": "nyagibits_bytes:item/dev/soil_conditioner",
+		"particle": "nyagibits_bytes:item/dev/soil_conditioner"
 	},
 	"elements": [
 		{

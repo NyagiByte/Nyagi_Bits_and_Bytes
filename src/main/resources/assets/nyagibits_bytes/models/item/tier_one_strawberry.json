@@ -1,6 +1,6 @@
 {
   "parent" : "item/generated",
   "textures" : {
-    "layer0" : "nyagibits_bytes:item/tier_one_strawberry"
+    "layer0" : "nyagibits_bytes:item/dev/tier_one_strawberry"
   }
 }

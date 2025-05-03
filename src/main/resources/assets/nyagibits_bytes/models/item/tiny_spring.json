@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "nyagibits_bytes:item/tiny_spring",
-		"particle": "nyagibits_bytes:item/tiny_spring"
+		"0": "nyagibits_bytes:item/dev/tiny_spring",
+		"particle": "nyagibits_bytes:item/dev/tiny_spring"
 	},
 	"elements": [
 		{

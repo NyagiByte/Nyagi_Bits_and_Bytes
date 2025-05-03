@@ -2,9 +2,9 @@
 	"credit": "Made with Blockbench",
 	"parent": "block/block",
 	"textures": {
-		"particle": "nyagibits_bytes:block/flake_outside",
-		"shell": "nyagibits_bytes:block/flake_outside",
-		"spacetime": "nyagibits_bytes:block/flake_inside"
+		"particle": "nyagibits_bytes:block/dev/flake_outside",
+		"shell": "nyagibits_bytes:block/dev/flake_outside",
+		"spacetime": "nyagibits_bytes:block/dev/flake_inside"
 	},
 	"elements": [
 		{

@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "nyagibits_bytes:item/fasteners",
-		"particle": "nyagibits_bytes:item/fasteners"
+		"0": "nyagibits_bytes:item/dev/fasteners",
+		"particle": "nyagibits_bytes:item/dev/fasteners"
 	},
 	"elements": [
 		{

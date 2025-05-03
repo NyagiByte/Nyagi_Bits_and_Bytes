@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "nyagibits_bytes:item/fire_extinguisher",
-		"particle": "nyagibits_bytes:item/fire_extinguisher"
+		"0": "nyagibits_bytes:item/dev/fire_extinguisher",
+		"particle": "nyagibits_bytes:item/dev/fire_extinguisher"
 	},
 	"elements": [
 		{

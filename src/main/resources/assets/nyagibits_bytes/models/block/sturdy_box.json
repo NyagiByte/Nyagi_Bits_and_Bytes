@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "nyagibits_bytes:item/sturdy_box",
-		"particle": "nyagibits_bytes:item/sturdy_box"
+		"0": "nyagibits_bytes:item/dev/sturdy_box",
+		"particle": "nyagibits_bytes:item/dev/sturdy_box"
 	},
 	"elements": [
 		{

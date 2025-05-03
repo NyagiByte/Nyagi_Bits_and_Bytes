@@ -1,9 +1,9 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "nyagibits_bytes:item/base_copper_mesh_cube",
-		"1": "nyagibits_bytes:item/iron_interlink_mesh_segment",
-		"particle": "nyagibits_bytes:item/base_copper_mesh_cube"
+		"0": "nyagibits_bytes:item/dev/base_copper_mesh_cube",
+		"1": "nyagibits_bytes:item/dev/iron_interlink_mesh_segment",
+		"particle": "nyagibits_bytes:item/dev/base_copper_mesh_cube"
 	},
 	"elements": [
 		{

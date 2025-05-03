@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "nyagibits_bytes:block/conglomerate_lead_ore"
+    "all": "nyagibits_bytes:block/dev/conglomerate_lead_ore"
   }
 }

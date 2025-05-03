@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "nyagibits_bytes:item/hardened_mechanical_bearing",
-		"particle": "nyagibits_bytes:item/hardened_mechanical_bearing"
+		"0": "nyagibits_bytes:item/dev/hardened_mechanical_bearing",
+		"particle": "nyagibits_bytes:item/dev/hardened_mechanical_bearing"
 	},
 	"elements": [
 		{

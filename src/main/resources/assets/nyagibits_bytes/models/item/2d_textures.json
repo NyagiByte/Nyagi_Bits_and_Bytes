@@ -1,6 +1,6 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"particle": "nyagibits_bytes:item/incomplete_logic_dud"
+		"particle": "nyagibits_bytes:item/dev/incomplete_logic_dud"
 	}
 }

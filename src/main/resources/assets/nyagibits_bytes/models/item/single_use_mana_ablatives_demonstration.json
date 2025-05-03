@@ -1,14 +1,14 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "nyagibits_bytes:item/heavy_plating",
-		"1": "nyagibits_bytes:item/disjointed_gun",
-		"2": "nyagibits_bytes:item/bore_lens",
-		"3": "nyagibits_bytes:item/mana_feeder",
-		"4": "nyagibits_bytes:item/repeater_gun_trigger",
-		"5": "nyagibits_bytes:item/metal_frame_sumab",
-		"6": "nyagibits_bytes:item/mana_feeder_glass",
-		"particle": "nyagibits_bytes:item/heavy_plating"
+		"0": "nyagibits_bytes:item/dev/heavy_plating",
+		"1": "nyagibits_bytes:item/dev/disjointed_gun",
+		"2": "nyagibits_bytes:item/dev/bore_lens",
+		"3": "nyagibits_bytes:item/dev/mana_feeder",
+		"4": "nyagibits_bytes:item/dev/repeater_gun_trigger",
+		"5": "nyagibits_bytes:item/dev/metal_frame_sumab",
+		"6": "nyagibits_bytes:item/dev/mana_feeder_glass",
+		"particle": "nyagibits_bytes:item/dev/heavy_plating"
 	},
 	"elements": [
 		{

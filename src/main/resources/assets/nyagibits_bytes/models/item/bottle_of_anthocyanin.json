@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "nyagibits_bytes:item/anthocyanin",
+    "layer0": "nyagibits_bytes:item/dev/anthocyanin",
     "layer1": "item/potion"
   }
 }

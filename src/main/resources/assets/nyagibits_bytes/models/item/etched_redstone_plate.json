@@ -1,6 +1,6 @@
 {
   "parent" : "item/generated",
   "textures" : {
-    "layer0" : "nyagibits_bytes:item/etched_redstone_plate"
+    "layer0" : "nyagibits_bytes:item/dev/etched_redstone_plate"
   }
 }

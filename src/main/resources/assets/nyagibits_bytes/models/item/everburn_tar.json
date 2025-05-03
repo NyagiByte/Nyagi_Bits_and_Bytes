@@ -1,6 +1,6 @@
 {
   "parent" : "item/generated",
   "textures" : {
-    "layer0" : "nyagibits_bytes:item/everburn_tar"
+    "layer0" : "nyagibits_bytes:item/dev/everburn_tar"
   }
 }

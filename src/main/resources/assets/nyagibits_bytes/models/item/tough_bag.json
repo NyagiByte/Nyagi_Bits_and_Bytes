@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "nyagibits_bytes:item/tough_bag",
-		"particle": "nyagibits_bytes:item/tough_bag"
+		"0": "nyagibits_bytes:item/dev/tough_bag",
+		"particle": "nyagibits_bytes:item/dev/tough_bag"
 	},
 	"elements": [
 		{

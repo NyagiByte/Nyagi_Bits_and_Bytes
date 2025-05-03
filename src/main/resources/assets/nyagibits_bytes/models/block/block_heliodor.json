@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "nyagibits_bytes:block/block_heliodor"
+    "all": "nyagibits_bytes:block/dev/block_heliodor"
   }
 }

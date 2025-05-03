@@ -1,6 +1,6 @@
 {
   "parent" : "item/generated",
   "textures" : {
-    "layer0" : "nyagibits_bytes:item/bitumen_tar_cloth"
+    "layer0" : "nyagibits_bytes:item/dev/bitumen_tar_cloth"
   }
 }

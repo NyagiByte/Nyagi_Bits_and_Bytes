@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "nyagibits_bytes:item/v_belt",
-		"particle": "nyagibits_bytes:item/v_belt"
+		"0": "nyagibits_bytes:item/dev/v_belt",
+		"particle": "nyagibits_bytes:item/dev/v_belt"
 	},
 	"elements": [
 		{

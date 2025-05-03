@@ -2,13 +2,13 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "nyagibits_bytes:item/living_frame",
-		"1": "nyagibits_bytes:item/magnetic_hematite",
-		"2": "nyagibits_bytes:item/soil_conditioner",
-		"3": "nyagibits_bytes:item/tough_bag",
-		"4": "nyagibits_bytes:item/mystic_fertilizer",
-		"5": "nyagibits_bytes:item/terrarium",
-		"6": "nyagibits_bytes:item/semi_organic_substrate"
+		"0": "nyagibits_bytes:item/dev/living_frame",
+		"1": "nyagibits_bytes:item/dev/magnetic_hematite",
+		"2": "nyagibits_bytes:item/dev/soil_conditioner",
+		"3": "nyagibits_bytes:item/dev/tough_bag",
+		"4": "nyagibits_bytes:item/dev/mystic_fertilizer",
+		"5": "nyagibits_bytes:item/dev/terrarium",
+		"6": "nyagibits_bytes:item/dev/semi_organic_substrate"
 	},
 	"elements": [
 		{

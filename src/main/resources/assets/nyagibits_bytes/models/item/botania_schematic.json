@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "nyagibits_bytes:item/botania_schematic",
-		"particle": "nyagibits_bytes:item/botania_schematic"
+		"0": "nyagibits_bytes:item/dev/botania_schematic",
+		"particle": "nyagibits_bytes:item/dev/botania_schematic"
 	},
 	"elements": [
 		{

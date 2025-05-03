@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "nyagibits_bytes:item/compacted_soil",
-		"particle": "nyagibits_bytes:item/block/compacted_soil"
+		"0": "nyagibits_bytes:item/dev/compacted_soil",
+		"particle": "nyagibits_bytes:item/dev/block/compacted_soil"
 	},
 	"elements": [
 		{

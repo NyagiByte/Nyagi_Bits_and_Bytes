@@ -1,6 +1,6 @@
 {
   "parent" : "item/generated",
   "textures" : {
-    "layer0" : "nyagibits_bytes:item/volcanic_pumice"
+    "layer0" : "nyagibits_bytes:item/dev/volcanic_pumice"
   }
 }

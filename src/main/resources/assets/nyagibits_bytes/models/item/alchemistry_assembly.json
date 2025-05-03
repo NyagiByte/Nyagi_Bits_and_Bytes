@@ -1,21 +1,21 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "nyagibits_bytes:item/tray",
-		"1": "nyagibits_bytes:item/inlet",
-		"2": "nyagibits_bytes:item/distillation_column",
-		"3": "nyagibits_bytes:item/burette",
-		"4": "nyagibits_bytes:item/round_bottom_flask",
-		"5": "nyagibits_bytes:item/beaker",
-		"6": "nyagibits_bytes:item/bunsen_burner",
-		"7": "nyagibits_bytes:item/electrolytic_core",
-		"8": "nyagibits_bytes:item/fume_fan",
-		"9": "nyagibits_bytes:item/ph_strips",
-		"10": "nyagibits_bytes:item/strips",
-		"11": "nyagibits_bytes:item/desiccation_powder",
-		"12": "nyagibits_bytes:item/chromatography_kit",
-		"13": "nyagibits_bytes:item/inert_wood_single_plank",
-		"particle": "nyagibits_bytes:item/chromatography_kit"
+		"0": "nyagibits_bytes:item/dev/tray",
+		"1": "nyagibits_bytes:item/dev/inlet",
+		"2": "nyagibits_bytes:item/dev/distillation_column",
+		"3": "nyagibits_bytes:item/dev/burette",
+		"4": "nyagibits_bytes:item/dev/round_bottom_flask",
+		"5": "nyagibits_bytes:item/dev/beaker",
+		"6": "nyagibits_bytes:item/dev/bunsen_burner",
+		"7": "nyagibits_bytes:item/dev/electrolytic_core",
+		"8": "nyagibits_bytes:item/dev/fume_fan",
+		"9": "nyagibits_bytes:item/dev/ph_strips",
+		"10": "nyagibits_bytes:item/dev/strips",
+		"11": "nyagibits_bytes:item/dev/desiccation_powder",
+		"12": "nyagibits_bytes:item/dev/chromatography_kit",
+		"13": "nyagibits_bytes:item/dev/inert_wood_single_plank",
+		"particle": "nyagibits_bytes:item/dev/chromatography_kit"
 	},
 	"elements": [
 		{

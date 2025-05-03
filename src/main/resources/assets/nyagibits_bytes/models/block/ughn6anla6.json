@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "nyagibits_bytes:block/ughn6anla6"
+    "all": "nyagibits_bytes:block/dev/ughn6anla6"
   }
 }

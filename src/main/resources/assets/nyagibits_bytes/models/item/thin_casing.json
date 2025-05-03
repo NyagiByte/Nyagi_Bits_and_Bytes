@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "nyagibits_bytes:item/thin_casing",
-		"particle": "nyagibits_bytes:item/thin_casing"
+		"0": "nyagibits_bytes:item/dev/thin_casing",
+		"particle": "nyagibits_bytes:item/dev/thin_casing"
 	},
 	"elements": [
 		{
