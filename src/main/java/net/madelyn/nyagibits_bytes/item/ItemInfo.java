@@ -55,7 +55,7 @@ public class ItemInfo {
         private final Supplier<? extends Fluid> fluid;
 
         public Bucket (String id, Supplier<? extends Fluid> fluidSupplier){
-            super(id, ModItems.Type.ITEM, ModCreativeModeTab.NYAGIBITS_BYTES_FLUIDS);
+            super(id, ModItems.Type.ITEM, Utils.Tab.FLUIDS);
             this.fluid = fluidSupplier;
         }
 
@@ -64,7 +64,7 @@ public class ItemInfo {
         public Item registerItem(){
             return new BucketItem(fluid,
                     new Item.Properties()
-                            .tab(ModCreativeModeTab.NYAGIBITS_BYTES_FLUIDS)
+                            .tab(Utils.Tab.FLUIDS)
                             .craftRemainder(Items.BUCKET)
                             .stacksTo(1)
             );
