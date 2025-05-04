@@ -51,10 +51,10 @@ minecraft {
             property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
 
             // Comma-separated list of namespaces to load gametests from. Empty = all namespaces.
-            property 'forge.enabledGameTestNamespaces', 'nyagibit_byte'
+            property 'forge.enabledGameTestNamespaces', 'nyagibits_bytes'
 
             mods {
-                nyagibit_byte {
+                nyagibits_bytes {
                     source sourceSets.main
                 }
             }
@@ -67,12 +67,12 @@ minecraft {
 
             property 'forge.logging.console.level', 'debug'
 
-            property 'forge.enabledGameTestNamespaces', 'nyagibit_byte'
+            property 'forge.enabledGameTestNamespaces', 'nyagibits_bytes'
             property 'mixin.env.remapRefMap', 'true'
             property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
 
             mods {
-                nyagibit_byte {
+                nyagibits_bytes {
                     source sourceSets.main
                 }
             }
@@ -88,12 +88,12 @@ minecraft {
 
             property 'forge.logging.console.level', 'debug'
 
-            property 'forge.enabledGameTestNamespaces', 'nyagibit_byte'
+            property 'forge.enabledGameTestNamespaces', 'nyagibits_bytes'
             property 'mixin.env.remapRefMap', 'true'
             property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
 
             mods {
-                nyagibit_byte {
+                nyagibits_bytes {
                     source sourceSets.main
                 }
             }
@@ -109,10 +109,10 @@ minecraft {
             property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
 
             // Specify the modid for data generation, where to output the resulting resource, and where to look for existing resources.
-            args '--mod', 'nyagibit_byte', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
+            args '--mod', 'nyagibits_bytes', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
 
             mods {
-                nyagibit_byte {
+                nyagibits_bytes {
                     source sourceSets.main
                 }
             }
@@ -162,12 +162,12 @@ dependencies {
 jar {
     manifest {
         attributes([
-                "Specification-Title"     : "nyagibit_byte",
-                "Specification-Vendor"    : "nyagibit_bytesareus",
+                "Specification-Title"     : "nyagibits_bytes",
+                "Specification-Vendor"    : "nyagibits_bytesareus",
                 "Specification-Version"   : "1", // We are version 1 of ourselves
                 "Implementation-Title"    : project.name,
                 "Implementation-Version"  : project.jar.archiveVersion,
-                "Implementation-Vendor"   : "nyagibit_bytesareus",
+                "Implementation-Vendor"   : "nyagibits_bytesareus",
                 "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
         ])
     }
