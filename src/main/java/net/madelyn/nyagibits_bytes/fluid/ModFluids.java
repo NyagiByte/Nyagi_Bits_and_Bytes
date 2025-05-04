@@ -12,6 +12,7 @@ import net.minecraftforge.fluids.FluidType;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class ModFluids {
@@ -144,6 +145,7 @@ public class ModFluids {
         new FluidInfo.Builder("salt_water", 0xA189a5f5)
     );
 
+    public static List<ItemInfo.Bucket> buckets = new ArrayList<>();
 
     static {
         for(FluidInfo.Builder infoBuilder : FLUIDS_LIST){
@@ -152,6 +154,7 @@ public class ModFluids {
             FLUIDS.register(info.getFlowingId(), info.getFlowingFluid());
             FLUID_TYPES.register(info.getFluidTypeId(), info.getFluidType());
             ItemInfo.Bucket bucket = info.createBucket();
+            buckets.add(bucket); //This is to datagen the item models.
             ModItems.ITEMS.register(bucket.getId(), bucket::registerItem);
             ModBlocks.BLOCKS.register(info.getBlockId(), info.createBlock());
         }

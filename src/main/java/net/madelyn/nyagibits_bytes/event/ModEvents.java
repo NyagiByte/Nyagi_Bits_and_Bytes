@@ -36,7 +36,7 @@ public class ModEvents {
     public static void registerResourcePack(AddPackFindersEvent event){
         if(event.getPackType() != PackType.CLIENT_RESOURCES) return;
         IModFile modFile = ModList.get().getModFileById(NyagiBits_Bytes.MOD_ID).getFile();
-        Path resourcePath = modFile.findResource("resourcepacks/nbnb-programmer-art");
+        Path resourcePath = modFile.findResource("assets/nyagibits_bytes/models/nbnb-programmer-art");
         event.addRepositorySource((packConsumer, packConstructor) -> {
             packConsumer.accept(Pack.create(
                     Utils.NBNB("nbnb-programmer-art").toString(),

@@ -56,7 +56,7 @@ public class ModBlocks {
     //Do not register conglomerate ores here if adding new boulders. Use the list above.
     //FORMAT: Block Id (String), Material, Strength (float), Requires Tool (boolean), Creative Tab (for the item form)
     @SuppressWarnings("FieldMayBeFinal") //Why the new ArrayList? List.of returns an immutable list.
-    private static List<BlockInfo> BLOCKS_LIST = new ArrayList<>(List.of(
+    public static List<BlockInfo> BLOCKS_LIST = new ArrayList<>(List.of(
             //All Color Puzzle Block added 1/12/25 - Nyagi
             //new BlockInfo("a",Material.GLASS, 10000f, true, Tab.BLOCKS),
             //------- Block added 1/16/25 - Nyagi

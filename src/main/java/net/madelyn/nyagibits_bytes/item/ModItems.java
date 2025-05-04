@@ -42,7 +42,7 @@ public class ModItems {
 
   //This is the BIG list of items.
   //Follow the format, keep it in the right category and sign new additions with name and timestamp. (MM/DD/YY)
-  private static final List<ItemInfo> ITEMS_LIST = List.of(
+  public static final List<ItemInfo> ITEMS_LIST = List.of(
       /*
         GENERIC ITEMS
       */
