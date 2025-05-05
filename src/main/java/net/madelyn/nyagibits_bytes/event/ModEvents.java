@@ -1,6 +1,8 @@
 package net.madelyn.nyagibits_bytes.event;
 
 import net.madelyn.nyagibits_bytes.NyagiBits_Bytes;
+import net.madelyn.nyagibits_bytes.datagen.BlockModelDatagen;
+import net.madelyn.nyagibits_bytes.datagen.BlockstateDatagen;
 import net.madelyn.nyagibits_bytes.datagen.ItemModelDatagen;
 import net.madelyn.nyagibits_bytes.misc.Utils;
 import net.minecraft.data.DataGenerator;
@@ -25,6 +27,10 @@ public class ModEvents {
     public static void doDatagen(GatherDataEvent event){
         DataGenerator generator = event.getGenerator();
         if(event.includeClient()){
+            //NOTE: The block model generator MUST run before the item model one.
+            //Otherwise, the item model generator fails since the block models don't exist yet.
+            generator.addProvider(true, new BlockModelDatagen(generator, event.getExistingFileHelper()));
+            generator.addProvider(true, new BlockstateDatagen(generator, event.getExistingFileHelper()));
             generator.addProvider(true, new ItemModelDatagen(generator, event.getExistingFileHelper()));
         }
     }

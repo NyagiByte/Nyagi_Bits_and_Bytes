@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "nyagibits_bytes:block/dev/hyper_conglomerate_electrum_ore"
+  }
+}

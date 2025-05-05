@@ -49,7 +49,7 @@ public class ItemModelDatagen extends ItemModelProvider {
 
     }
 
-    public boolean assetExists(String path){
+    private boolean assetExists(String path){
         return existingFileHelper.exists(
                 Utils.NBNB(path),
                 PackType.CLIENT_RESOURCES

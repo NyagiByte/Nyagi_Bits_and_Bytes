@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "nyagibits_bytes:block/dev/block_of_15n20_high_carbon_steel"
-  }
-}

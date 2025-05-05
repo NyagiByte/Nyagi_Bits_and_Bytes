@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "nyagibits_bytes:block/volcanic_pumice_block"
+    }
+  }
+}
