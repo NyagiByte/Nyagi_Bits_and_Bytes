@@ -1165,6 +1165,8 @@
   "block.nyagibits_bytes.tectonic_conglomerate_migmamite_ore": "Tektonisches Zusammengeballtes Migmatiterz",
   "block.nyagibits_bytes.core_conglomerate_migmamite_ore": "Zusammengeballtes Kernmigmatiterz",
 
+  "block.nyagibits_bytes.waterproof_casing": "Wasserfestes Gehäuse",
+
   "block.nyagibits_bytes.7y5r4jwg8m": "§k7y5r4jwg8m",
   "block.nyagibits_bytes.szd6kmksx8": "§kszd6kmksx8",
   "block.nyagibits_bytes.mwjfdqlzgx": "§kmwjfdqlzgx",
@@ -1190,7 +1192,7 @@
   "fluid_type.nyagibits_bytes.petroleum_fluid": "Petroleum",
   "fluid_type.nyagibits_bytes.heavy_crude_oil_fluid": "Schweres Rohöl",
   "fluid_type.nyagibits_bytes.endstone_leach_water_fluid": "Endsteinlauge",
-  "fluid_type.nyagibits_bytes.bio_glycerol_mix": "Bioglycerinmischung",
+  "fluid_type.nyagibits_bytes.bio_glycerol_mix_fluid": "Bioglycerinmischung",
   "fluid_type.nyagibits_bytes.crude_biodiesel_fluid": "Unreiner Biodiesel",
   "fluid_type.nyagibits_bytes.crude_glycerol_fluid": "Unreines Glycerin",
   "fluid_type.nyagibits_bytes.alkaline_technical_glycerol_fluid": "Alkalisches Glycerin",
@@ -1413,5 +1415,6 @@
   "itemGroup.nyagibits_bytes_tab_minerals": "Nyagi's Bits & Bytes Mineralien",
   "itemGroup.nyagibits_bytes_tab_incomplete_sequence_items": "NB&B Unvollständige Items",
   "itemGroup.nyagibits_bytes_tab_fluids": "Nyagi's Bits & Bytes Flüssigkeiten",
-  "itemGroup.nyagibits_bytes_tab_biology": "Nyagi's Bits & Bytes Biologie"
+  "itemGroup.nyagibits_bytes_tab_biology": "Nyagi's Bits & Bytes Biologie",
+  "itemGroup.nyagibits_bytes_tab_chemicals": "Nyagi's Bits & Bytes Chemikalien"
 }
