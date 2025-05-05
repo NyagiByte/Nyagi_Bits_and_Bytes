@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "nyagibits_bytes:block/dev/hyper_conglomerate_uranium_ore"
+    "all": "nyagibits_bytes:block/dev/minerals/hyper_conglomerate_uranium_ore"
   }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "nyagibits_bytes:item/dev/bucket_of_gemstone_polish"
+    "layer0": "nyagibits_bytes:item/dev/buckets/bucket_of_gemstone_polish"
   }
 }

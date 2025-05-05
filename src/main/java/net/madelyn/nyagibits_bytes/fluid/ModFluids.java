@@ -154,6 +154,7 @@ public class ModFluids {
             FLUIDS.register(info.getFlowingId(), info.getFlowingFluid());
             FLUID_TYPES.register(info.getFluidTypeId(), info.getFluidType());
             ItemInfo.Bucket bucket = info.createBucket();
+            bucket = (ItemInfo.Bucket) bucket.subFolder("buckets");
             buckets.add(bucket); //This is to datagen the item models.
             ModItems.ITEMS.register(bucket.getId(), bucket::registerItem);
             ModBlocks.BLOCKS.register(info.getBlockId(), info.createBlock());

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "nyagibits_bytes:item/dev/de_mineralized_compacted_limestone"
+    "layer0": "nyagibits_bytes:item/dev/minerals/de_mineralized_compacted_limestone"
   }
 }

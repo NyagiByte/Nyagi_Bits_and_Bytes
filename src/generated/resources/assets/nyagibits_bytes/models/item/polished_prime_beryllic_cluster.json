@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "nyagibits_bytes:item/dev/polished_prime_beryllic_cluster"
+    "layer0": "nyagibits_bytes:item/dev/minerals/polished_prime_beryllic_cluster"
   }
 }

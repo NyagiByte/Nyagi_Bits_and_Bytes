@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "nyagibits_bytes:item/dev/bucket_of_colorless_glycerol"
+    "layer0": "nyagibits_bytes:item/dev/buckets/bucket_of_colorless_glycerol"
   }
 }

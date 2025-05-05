@@ -28,15 +28,29 @@ public class ItemModelDatagen extends ItemModelProvider {
         items.addAll(ModFluids.buckets);
 
         for(ItemInfo item : items){
-            if(!assetExists("models/item/"+item.getId()+".json")){
-                boolean hasMainTex = assetExists("textures/item/main/"+item.getId()+".png");
+            String subfolder = determineSubfolder(item);
+            //If a model already exists, it means it's a more complex item and none of this should run.
+            if(!assetExists("models/item/"+subfolder+item.getId()+".json")){
+                //As of writing, this won't happen. This is relevant to regenerate the models when reworked textures get added.
+                boolean hasMainTex = assetExists("textures/item/main/"+subfolder+item.getId()+".png");
                 String texPath = hasMainTex ? "item/main/" : "item/dev/";
-                withExistingParent("item/"+item.getId(), mcLoc("item/generated"))
-                .texture("layer0", modLoc(texPath+item.getId()));
-                if(hasMainTex && assetExists("textures/item/dev/"+item.getId()+".png")){
-                    withExistingParent("nbnb-programmer-art/assets/nyagibits_bytes/models/item/"+item.getId(), mcLoc("item/generated"))
-                            .texture("layer0", modLoc("item/dev/"+item.getId()));
+                //An item can specify to just point to an existing model. This is used by most incomplete sequence items.
+                if(!item.getParentModel().isEmpty()){
+                    withExistingParent("item/"+item.getId(), modLoc("item/"+item.getParentModel()));
                 }
+                //Create a simple item model pointing to the texture in the right subfolder (if any)
+                else withExistingParent("item/"+item.getId(), mcLoc("item/generated"))
+                    .texture("layer0", modLoc(texPath+subfolder+item.getId()));
+                //If both a "main" texture and a "dev" texture exist, generate a model for the programmer's art resourcepack.
+                //DO NOT DELETE old dev textures.
+                if(hasMainTex && assetExists("textures/item/dev/"+subfolder+item.getId()+".png")){
+                    //I'm aware the path is weird, but it's to ensure it works with the resourcepack registry.
+                    withExistingParent("nbnb-programmer-art/assets/nyagibits_bytes/models/item/"+item.getId(), mcLoc("item/generated"))
+                            .texture("layer0", modLoc("item/dev/"+subfolder+item.getId()));
+                }
+
+            } else if(!subfolder.isEmpty()){ //All item models must be referenceable in /models/item. If the actual model is sorted elsewhere, generate a "link" to it.
+                withExistingParent("item/"+item.getId(), modLoc("item/"+subfolder+item.getId()));
             }
         }
 
@@ -47,6 +61,16 @@ public class ItemModelDatagen extends ItemModelProvider {
             }
         }
 
+    }
+
+    //This will be used as part of the filepath when looking for models and textures.
+    private String determineSubfolder(ItemInfo item){
+        String output = "";
+        if(item.getTab() == Utils.Tab.MINERALS) output = "minerals/";
+        if(item.getTab() == Utils.Tab.BIOLOGY) output = "biology/";
+        if(item.getTab() == Utils.Tab.SCIENCE || item.getTab() == Utils.Tab.SCHEMATICS) output = "science/";
+        if(!item.getSubFolder().isEmpty()) output = item.getSubFolder()+"/";
+        return output;
     }
 
     private boolean assetExists(String path){

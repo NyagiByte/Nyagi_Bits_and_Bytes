@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "nyagibits_bytes:block/dev/core_conglomerate_quartz_ore"
+    "all": "nyagibits_bytes:block/dev/minerals/core_conglomerate_quartz_ore"
   }
 }

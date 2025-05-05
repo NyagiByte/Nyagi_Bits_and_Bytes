@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "nyagibits_bytes:item/dev/sintered_sphalerite"
+    "layer0": "nyagibits_bytes:item/dev/minerals/sintered_sphalerite"
   }
 }

@@ -15,21 +15,30 @@ public class BlockModelDatagen extends BlockModelProvider {
         super(generator, NyagiBits_Bytes.MOD_ID, helper);
     }
 
+    //For commentary, look at items, it's pretty much a 1:1 with a couple different parameters.
     @Override
     protected void registerModels() {
 
         for(BlockInfo block : ModBlocks.BLOCKS_LIST){
-            if(!assetExists("models/block/"+block.getId()+".json")){
-                boolean hasMainTex = assetExists("textures/block/main/"+block.getId()+".png");
+            String subfolder = determineSubfolder(block);
+            if(!assetExists("models/block/"+subfolder+block.getId()+".json")){
+                boolean hasMainTex = assetExists("textures/block/main/"+subfolder+block.getId()+".png");
                 String texPath = hasMainTex ? "block/main/" : "block/dev/";
                 withExistingParent("block/"+block.getId(), mcLoc("block/cube_all"))
-                        .texture("all", modLoc(texPath+block.getId()));
-                if(hasMainTex && assetExists("textures/block/dev/"+block.getId()+".png")){
+                        .texture("all", modLoc(texPath+subfolder+block.getId()));
+                if(hasMainTex && assetExists("textures/block/dev/"+subfolder+block.getId()+".png")){
                     withExistingParent("nbnb-programmer-art/assets/nyagibits_bytes/models/block/"+block.getId(), mcLoc("block/cube_all"))
-                            .texture("all", modLoc("block/dev/"+block.getId()));
+                            .texture("all", modLoc("block/dev/"+subfolder+block.getId()));
                 }
             }
         }
+    }
+
+    //This will be used as part of the filepath when looking for models and textures.
+    private String determineSubfolder(BlockInfo block){
+        String output = "";
+        if(block.getTab() == Utils.Tab.MINERALS) output = "minerals/";
+        return output;
     }
 
     private boolean assetExists(String path){

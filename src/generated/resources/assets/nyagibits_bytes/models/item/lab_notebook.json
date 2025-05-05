@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "nyagibits_bytes:item/dev/lab_notebook"
+    "layer0": "nyagibits_bytes:item/dev/science/lab_notebook"
   }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "nyagibits_bytes:item/dev/raw_columbite"
+    "layer0": "nyagibits_bytes:item/dev/minerals/raw_columbite"
   }
 }

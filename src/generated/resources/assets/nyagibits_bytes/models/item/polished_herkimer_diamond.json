@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "nyagibits_bytes:item/dev/polished_herkimer_diamond"
+    "layer0": "nyagibits_bytes:item/dev/minerals/polished_herkimer_diamond"
   }
 }

@@ -23,6 +23,8 @@ public class ItemInfo {
     private final String id;
     private final ModItems.Type type;
     private final CreativeModeTab tab;
+    private String parentModel = "";
+    private String subFolder = "";
 
     public ItemInfo(String id, ModItems.Type type, CreativeModeTab tab){
         this.id = id;
@@ -38,6 +40,23 @@ public class ItemInfo {
     }
     public CreativeModeTab getTab(){
         return tab;
+    }
+
+    //Used in datagen by most incomplete sequence items
+    public ItemInfo parent(String model){
+        this.parentModel = model;
+        return this;
+    }
+    public ItemInfo subFolder(String folder){
+        this.subFolder = folder;
+        return this;
+    }
+
+    public String getParentModel(){
+        return parentModel;
+    }
+    public String getSubFolder(){
+        return subFolder;
     }
 
     public Item registerItem(){
