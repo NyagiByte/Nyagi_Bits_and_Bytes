@@ -1415,5 +1415,6 @@
   "itemGroup.nyagibits_bytes_tab_minerals": "Nyagi's Bits & Bytes Mineralien",
   "itemGroup.nyagibits_bytes_tab_incomplete_sequence_items": "NB&B Unvollständige Items",
   "itemGroup.nyagibits_bytes_tab_fluids": "Nyagi's Bits & Bytes Flüssigkeiten",
-  "itemGroup.nyagibits_bytes_tab_biology": "Nyagi's Bits & Bytes Biologie"
+  "itemGroup.nyagibits_bytes_tab_biology": "Nyagi's Bits & Bytes Biologie",
+  "itemGroup.nyagibits_bytes_tab_chemicals": "Nyagi's Bits & Bytes Chemikalien"
 }
