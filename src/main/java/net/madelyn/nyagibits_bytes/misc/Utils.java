@@ -74,6 +74,7 @@ public class Utils {
         public static CreativeModeTab FLUIDS = ModCreativeModeTab.NYAGIBITS_BYTES_FLUIDS;
         public static CreativeModeTab MINERALS = ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS;
         public static CreativeModeTab BIOLOGY = ModCreativeModeTab.NYAGIBITS_BYTES_BIOLOGY;
+        public static CreativeModeTab CHEMICALS = ModCreativeModeTab.NYAGIBITS_BYTES_CHEMICALS;
     }
 
     //This is a helper class to hold the data needed to apply one curio attribute modifier

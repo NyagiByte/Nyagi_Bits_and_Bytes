@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "nyagibits_bytes:item/dev/sample_methylmagnesium_chloride"
+    "layer0": "nyagibits_bytes:item/dev/chemicals/sample_methylmagnesium_chloride"
   }
 }

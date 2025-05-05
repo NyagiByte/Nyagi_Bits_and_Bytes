@@ -69,6 +69,7 @@ public class ItemModelDatagen extends ItemModelProvider {
         if(item.getTab() == Utils.Tab.MINERALS) output = "minerals/";
         if(item.getTab() == Utils.Tab.BIOLOGY) output = "biology/";
         if(item.getTab() == Utils.Tab.SCIENCE || item.getTab() == Utils.Tab.SCHEMATICS) output = "science/";
+        if(item.getTab() == Utils.Tab.CHEMICALS) output = "chemicals/";
         if(!item.getSubFolder().isEmpty()) output = item.getSubFolder()+"/";
         return output;
     }

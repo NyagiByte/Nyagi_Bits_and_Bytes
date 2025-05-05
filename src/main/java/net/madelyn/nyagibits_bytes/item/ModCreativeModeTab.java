@@ -59,6 +59,14 @@ public class ModCreativeModeTab {
         }
       };
 
+    public static final CreativeModeTab NYAGIBITS_BYTES_CHEMICALS =
+            new CreativeModeTab("nyagibits_bytes_tab_chemicals") {
+                @Override
+                public ItemStack makeIcon() {
+                    return new ItemStack(Utils.fetchItem(Utils.NBNB("sample_oleum")));
+                }
+            };
+
   public static final CreativeModeTab NYAGIBITS_BYTES_FLUIDS =
       new CreativeModeTab("nyagibits_bytes_tab_fluids") {
         @Override

@@ -32,6 +32,13 @@ public class ItemInfo {
         this.tab = tab;
     }
 
+    public ItemInfo(String id, ModItems.Type type, CreativeModeTab tab, String subFolder){
+        this.id = id;
+        this.type = type;
+        this.tab = tab;
+        this.subFolder = subFolder;
+    }
+
     public String getId(){
         return id;
     }
@@ -74,7 +81,7 @@ public class ItemInfo {
         private final Supplier<? extends Fluid> fluid;
 
         public Bucket (String id, Supplier<? extends Fluid> fluidSupplier){
-            super(id, ModItems.Type.ITEM, Utils.Tab.FLUIDS);
+            super(id, ModItems.Type.ITEM, Utils.Tab.FLUIDS, "buckets");
             this.fluid = fluidSupplier;
         }
 

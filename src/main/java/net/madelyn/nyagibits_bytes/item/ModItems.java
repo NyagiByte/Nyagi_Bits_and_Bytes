@@ -399,61 +399,61 @@ public class ModItems {
           // Carbon Residue added 02/13/25 - JJ
           new ItemInfo("carbon_residue", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // Methyl Chloride Sample added 5/16/24 - Nyagi
-          new ItemInfo("sample_methyl_chloride", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          new ItemInfo("sample_methyl_chloride", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
           // Ethylene Oxide Sample added 5/22/24 - Nyagi
-          new ItemInfo("sample_ethylene_oxide", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          new ItemInfo("sample_ethylene_oxide", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
           // Heptafluoropropane Sample added 11/29/24 - Nyagi
-          new ItemInfo("sample_heptafluoropropane", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          new ItemInfo("sample_heptafluoropropane", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
           //  Sample of Methanol added 02/13/25 - JJ
-          new ItemInfo("sample_methanol", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          new ItemInfo("sample_methanol", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
           //  Sample of Cyclohexanone added 02/19/25 - Nyagi
-          new ItemInfo("sample_cyclohexanone", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          new ItemInfo("sample_cyclohexanone", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
           //  Sample of Aluminum Trichloride added 5/16/24 - Nyagi
-          new ItemInfo("sample_aluminum_trichloride", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          new ItemInfo("sample_aluminum_trichloride", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
           //  Sample of Toluene added 5/16/24 - Nyagi
-          new ItemInfo("sample_toluene", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          new ItemInfo("sample_toluene", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
           //  Sample of Mononitrotoluene added 5/16/24 - Nyagi
-          new ItemInfo("sample_mononitrotoluene", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          new ItemInfo("sample_mononitrotoluene", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
           //  Sample of Dinitrotoluene added 5/16/24 - Nyagi
-          new ItemInfo("sample_dinitrotoluene", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          new ItemInfo("sample_dinitrotoluene", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
           //  Sample of 2-4-6 Trinitrotoluene added 5/16/24 - Nyagi
-          new ItemInfo("sample_trinitrotoluene", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          new ItemInfo("sample_trinitrotoluene", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
           //  Sample of Oleum added 5/16/24 - Nyagi
-          new ItemInfo("sample_oleum", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          new ItemInfo("sample_oleum", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
           //  Sample of Chromium Trioxide added 5/22/24 - Nyagi
-          new ItemInfo("sample_chromium_trioxide", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          new ItemInfo("sample_chromium_trioxide", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
           //  Sample of Benzyl Alcohol added 5/22/24 - Nyagi
-          new ItemInfo("sample_benzyl_alcohol", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          new ItemInfo("sample_benzyl_alcohol", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
           //  Sample of 2-Phenoxyethanol added 5/22/24 - Nyagi
-          new ItemInfo("sample_2_phenoxyethanol", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          new ItemInfo("sample_2_phenoxyethanol", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
           //  Sample of Methylethyl Ketone added 02/19/25 - Nyagi
-          new ItemInfo("sample_methylethyl_ketone", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          new ItemInfo("sample_methylethyl_ketone", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
           //  Sample of Ketone Mixture added 02/19/25 - Nyagi
-          new ItemInfo("sample_ketone_mixture", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          new ItemInfo("sample_ketone_mixture", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
           //  Sample of Lithium Carboxylate added 02/19/25 - Nyagi
-          new ItemInfo("sample_lithium_carboxylate", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          new ItemInfo("sample_lithium_carboxylate", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
           //  Sample of Tert-Butyl Lithium added 02/19/25 - Nyagi
-          new ItemInfo("sample_tertbutyl_lithium", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          new ItemInfo("sample_tertbutyl_lithium", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
           //  Sample of Tert-Butyl Chloride added 02/19/25 - Nyagi
-          new ItemInfo("sample_tertbutyl_chloride", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          new ItemInfo("sample_tertbutyl_chloride", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
           //  Sample of Tert-Butyl Alcohol added 02/19/25 - Nyagi
-          new ItemInfo("sample_tertbutyl_alcohol", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          new ItemInfo("sample_tertbutyl_alcohol", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
           //  Sample of Methylmagnesium Chloride Solution added 02/19/25 - Nyagi
-          new ItemInfo("sample_methylmagnesium_chloride_solution", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          new ItemInfo("sample_methylmagnesium_chloride_solution", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
           //  Sample of Tetrahydrofuran added 02/19/25 - Nyagi
-          new ItemInfo("sample_tetrahydrofuran", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          new ItemInfo("sample_tetrahydrofuran", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
           //  Sample of Formaldehyde added 02/19/25 - Nyagi
-          new ItemInfo("sample_formaldehyde", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          new ItemInfo("sample_formaldehyde", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
           //  Sample of Methylmagnesium Chloride added 02/19/25 - Nyagi
-          new ItemInfo("sample_methylmagnesium_chloride", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          new ItemInfo("sample_methylmagnesium_chloride", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
           //  Aluminum Trichloride Alcohol Dust added 04/22/25 - Nyagi
-          new ItemInfo("aluminum_trichloride_dust", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          new ItemInfo("aluminum_trichloride_dust", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
           //  Chromium Trioxide Alcohol Dust added 04/22/25 - Nyagi
-          new ItemInfo("chromium_trioxide_dust", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          new ItemInfo("chromium_trioxide_dust", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
           //  Tert-Butyl Alcohol Dust added 02/20/25 - Nyagi
-          new ItemInfo("tert_butyl_alcohol_dust", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          new ItemInfo("tert_butyl_alcohol_dust", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
           //  Methylmagnesium Chloride Dust added 02/20/25 - Nyagi
-          new ItemInfo("methylmagnesium_chloride_dust", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          new ItemInfo("methylmagnesium_chloride_dust", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
           //  Bitumen-Tar Cloth Dust added 03/27/25 - Nyagi
           new ItemInfo("bitumen_tar_cloth", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           //  Waterproofing Kit Dust added 03/27/25 - Nyagi
