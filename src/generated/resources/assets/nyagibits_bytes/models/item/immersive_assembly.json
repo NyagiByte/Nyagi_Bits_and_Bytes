@@ -1,5 +1,5 @@
 {
-  "parent": "nyagibits_bytes:item/dev/immersive_assembly",
+  "parent": "nyagibits_bytes:item/immersive/immersive_assembly",
   "textures": {
     "0": "nyagibits_bytes:item/dev/triple_bay_4s_series_toolbox",
     "10": "nyagibits_bytes:item/dev/sturdy_box",

@@ -1,5 +1,5 @@
 {
-  "parent": "nyagibits_bytes:item/dev/fume_fan",
+  "parent": "nyagibits_bytes:item/misc/fume_fan",
   "textures": {
     "0": "nyagibits_bytes:item/dev/fume_fan",
     "particle": "nyagibits_bytes:item/dev/fume_fan"

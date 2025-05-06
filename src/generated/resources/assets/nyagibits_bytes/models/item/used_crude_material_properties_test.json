@@ -1,5 +1,5 @@
 {
-  "parent": "nyagibits_bytes:item/dev/science/used_crude_material_properties_test",
+  "parent": "nyagibits_bytes:item/science/used_crude_material_properties_test",
   "textures": {
     "0": "nyagibits_bytes:item/dev/science/used_crude_material_properties_test",
     "particle": "nyagibits_bytes:item/dev/science/used_crude_material_properties_test"

@@ -1,7 +1,7 @@
 {
-  "parent": "nyagibits_bytes:item/dev/pen",
+  "parent": "nyagibits_bytes:item/science/pen",
   "textures": {
-    "0": "nyagibits_bytes:item/dev/pen",
-    "particle": "nyagibits_bytes:item/dev/pen"
+    "0": "nyagibits_bytes:item/dev/science/pen",
+    "particle": "nyagibits_bytes:item/dev/science/pen"
   }
 }

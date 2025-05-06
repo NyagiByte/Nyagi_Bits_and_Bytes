@@ -1,5 +1,5 @@
 {
-  "parent": "nyagibits_bytes:item/dev/osha_approved_gear",
+  "parent": "nyagibits_bytes:item/immersive/osha_approved_gear",
   "textures": {
     "0": "nyagibits_bytes:item/dev/organic_vapor_respirator",
     "1": "nyagibits_bytes:item/dev/fire_extinguisher",

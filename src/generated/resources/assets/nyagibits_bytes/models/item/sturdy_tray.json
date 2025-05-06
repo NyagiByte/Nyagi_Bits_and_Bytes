@@ -1,7 +1,7 @@
 {
-  "parent": "nyagibits_bytes:item/dev/sturdy_tray",
+  "parent": "nyagibits_bytes:item/alchemistry/sturdy_tray",
   "textures": {
-    "0": "nyagibits_bytes:item/dev/tray",
-    "particle": "nyagibits_bytes:item/dev/tray"
+    "0": "nyagibits_bytes:item/dev/alchemistry/tray",
+    "particle": "nyagibits_bytes:item/dev/alchemistry/tray"
   }
 }

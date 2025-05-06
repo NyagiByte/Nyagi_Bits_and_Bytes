@@ -24,7 +24,6 @@ public class ItemInfo {
     private final ModItems.Type type;
     private final CreativeModeTab tab;
     private String parentModel = "";
-    private String subFolder = "";
 
     public ItemInfo(String id, ModItems.Type type, CreativeModeTab tab){
         this.id = id;
@@ -32,11 +31,11 @@ public class ItemInfo {
         this.tab = tab;
     }
 
-    public ItemInfo(String id, ModItems.Type type, CreativeModeTab tab, String subFolder){
+    public ItemInfo(String id, ModItems.Type type, CreativeModeTab tab, String parentModel){
         this.id = id;
         this.type = type;
         this.tab = tab;
-        this.subFolder = subFolder;
+        this.parentModel = parentModel;
     }
 
     public String getId(){
@@ -54,17 +53,11 @@ public class ItemInfo {
         this.parentModel = model;
         return this;
     }
-    public ItemInfo subFolder(String folder){
-        this.subFolder = folder;
-        return this;
-    }
 
     public String getParentModel(){
         return parentModel;
     }
-    public String getSubFolder(){
-        return subFolder;
-    }
+
 
     public Item registerItem(){
         switch (type){
@@ -81,7 +74,7 @@ public class ItemInfo {
         private final Supplier<? extends Fluid> fluid;
 
         public Bucket (String id, Supplier<? extends Fluid> fluidSupplier){
-            super(id, ModItems.Type.ITEM, Utils.Tab.FLUIDS, "buckets");
+            super(id, ModItems.Type.ITEM, Utils.Tab.FLUIDS);
             this.fluid = fluidSupplier;
         }
 

@@ -1,5 +1,5 @@
 {
-  "parent": "nyagibits_bytes:item/dev/wrought_tiny_spring",
+  "parent": "nyagibits_bytes:item/misc/wrought_tiny_spring",
   "textures": {
     "0": "nyagibits_bytes:item/dev/wrought_tiny_spring",
     "particle": "nyagibits_bytes:item/dev/wrought_tiny_spring"

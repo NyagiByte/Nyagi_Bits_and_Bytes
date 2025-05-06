@@ -1,5 +1,5 @@
 {
-  "parent": "nyagibits_bytes:item/dev/wrought_ball_bearing",
+  "parent": "nyagibits_bytes:item/misc/wrought_ball_bearing",
   "textures": {
     "0": "nyagibits_bytes:item/dev/wrought_ball_bearing",
     "particle": "nyagibits_bytes:item/dev/wrought_ball_bearing"

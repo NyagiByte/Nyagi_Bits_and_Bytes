@@ -1,5 +1,5 @@
 {
-  "parent": "nyagibits_bytes:item/dev/crate_of_industrial_components",
+  "parent": "nyagibits_bytes:item/immersive/crate_of_industrial_components",
   "textures": {
     "0": "nyagibits_bytes:item/dev/sturdy_box",
     "1": "nyagibits_bytes:item/dev/dampener",

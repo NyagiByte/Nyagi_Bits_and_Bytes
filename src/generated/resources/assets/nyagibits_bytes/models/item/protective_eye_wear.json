@@ -1,5 +1,5 @@
 {
-  "parent": "nyagibits_bytes:item/dev/protective_eye_wear",
+  "parent": "nyagibits_bytes:item/immersive/protective_eye_wear",
   "textures": {
     "0": "nyagibits_bytes:item/dev/protective_eye_wear",
     "particle": "nyagibits_bytes:item/dev/protective_eye_wear"

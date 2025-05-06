@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "nyagibits_bytes:item/dev/minerals/polished_rose_quartz"
+    "layer0": "nyagibits_bytes:item/dev/minerals/polished/polished_rose_quartz"
   }
 }

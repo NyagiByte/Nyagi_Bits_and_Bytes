@@ -1,5 +1,5 @@
 {
-  "parent": "nyagibits_bytes:item/dev/bottle_of_malic_and_citric_acid",
+  "parent": "nyagibits_bytes:item/misc/bottle_of_malic_and_citric_acid",
   "textures": {
     "layer0": "nyagibits_bytes:item/dev/malic_citric_acid"
   }

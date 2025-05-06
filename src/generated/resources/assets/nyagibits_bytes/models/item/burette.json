@@ -1,6 +1,6 @@
 {
-  "parent": "nyagibits_bytes:item/dev/burette",
+  "parent": "nyagibits_bytes:item/alchemistry/burette",
   "textures": {
-    "1": "nyagibits_bytes:item/dev/burette"
+    "1": "nyagibits_bytes:item/dev/alchemistry/burette"
   }
 }

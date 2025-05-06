@@ -1,5 +1,5 @@
 {
-  "parent": "nyagibits_bytes:item/dev/sturdy_box",
+  "parent": "nyagibits_bytes:item/misc/sturdy_box",
   "textures": {
     "0": "nyagibits_bytes:item/dev/sturdy_box",
     "particle": "nyagibits_bytes:item/dev/sturdy_box"

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "nyagibits_bytes:item/dev/minerals/biologically_activated_bog_iron"
+    "layer0": "nyagibits_bytes:item/dev/minerals/misc-t2/biologically_activated_bog_iron"
   }
 }

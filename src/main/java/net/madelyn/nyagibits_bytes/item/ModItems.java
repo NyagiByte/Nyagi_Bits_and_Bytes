@@ -1204,69 +1204,69 @@ public class ModItems {
 
           //Create Sequenced Assembly Intermediates
           // Incomplete Controller added 2/20/24 - Nyagi
-          new ItemInfo("incomplete_controller", Type.ITEM, Tab.SEQUENCE).parent("incomplete_ae2_assembly"),
+          new ItemInfo("incomplete_controller", Type.ITEM, Tab.SEQUENCE, "incomplete_ae2_assembly"),
           // Incomplete Cell Workbench added 2/20/24 - Nyagi
-          new ItemInfo("incomplete_cell_workbench", Type.ITEM, Tab.SEQUENCE).parent("incomplete_ae2_assembly"),
+          new ItemInfo("incomplete_cell_workbench", Type.ITEM, Tab.SEQUENCE, "incomplete_ae2_assembly"),
           // Incomplete ME Item Cell Housing added 2/20/24 - Nyagi
-          new ItemInfo("incomplete_me_item_cell_housing", Type.ITEM, Tab.SEQUENCE).parent("incomplete_ae2_assembly"),
+          new ItemInfo("incomplete_me_item_cell_housing", Type.ITEM, Tab.SEQUENCE, "incomplete_ae2_assembly"),
           // Incomplete Charged Quartz Fixture added 2/20/24 - Nyagi
-          new ItemInfo("incomplete_charged_quartz_fixture", Type.ITEM, Tab.SEQUENCE).parent("incomplete_ae2_assembly"),
+          new ItemInfo("incomplete_charged_quartz_fixture", Type.ITEM, Tab.SEQUENCE, "incomplete_ae2_assembly"),
           // Incomplete Skystone Tank added 2/20/24 - Nyagi
-          new ItemInfo("incomplete_skystone_tank", Type.ITEM, Tab.SEQUENCE).parent("incomplete_ae2_assembly"),
+          new ItemInfo("incomplete_skystone_tank", Type.ITEM, Tab.SEQUENCE, "incomplete_ae2_assembly"),
           // Incomplete ME Interface added 2/20/24 - Nyagi
-          new ItemInfo("incomplete_me_interface", Type.ITEM, Tab.SEQUENCE).parent("incomplete_ae2_assembly"),
+          new ItemInfo("incomplete_me_interface", Type.ITEM, Tab.SEQUENCE, "incomplete_ae2_assembly"),
           // Incomplete Charger added 2/20/24 - Nyagi
-          new ItemInfo("incomplete_charger", Type.ITEM, Tab.SEQUENCE).parent("incomplete_ae2_assembly"),
+          new ItemInfo("incomplete_charger", Type.ITEM, Tab.SEQUENCE, "incomplete_ae2_assembly"),
           // Incomplete 1k ME Storage Component added 2/20/24 - Nyagi
-          new ItemInfo("incomplete_onek_me_storage_component", Type.ITEM, Tab.SEQUENCE).parent("incomplete_ae2_assembly"),
+          new ItemInfo("incomplete_onek_me_storage_component", Type.ITEM, Tab.SEQUENCE, "incomplete_ae2_assembly"),
           // Incomplete Inscriber added 2/20/24 - Nyagi
-          new ItemInfo("incomplete_inscriber", Type.ITEM, Tab.SEQUENCE).parent("incomplete_ae2_assembly"),
+          new ItemInfo("incomplete_inscriber", Type.ITEM, Tab.SEQUENCE, "incomplete_ae2_assembly"),
           // Incomplete Fluix ME Glass Cable added 2/20/24 - Nyagi
-          new ItemInfo("incomplete_fluix_me_glass_cable", Type.ITEM, Tab.SEQUENCE).parent("incomplete_ae2_assembly"),
+          new ItemInfo("incomplete_fluix_me_glass_cable", Type.ITEM, Tab.SEQUENCE, "incomplete_ae2_assembly"),
           // Incomplete Fluix ME Smart Cable added 2/20/24 - Nyagi
-          new ItemInfo("incomplete_fluix_me_smart_cable", Type.ITEM, Tab.SEQUENCE).parent("incomplete_ae2_assembly"),
+          new ItemInfo("incomplete_fluix_me_smart_cable", Type.ITEM, Tab.SEQUENCE, "incomplete_ae2_assembly"),
           // Incomplete Fluix ME Dense Smart Cable added 2/20/24 - Nyagi
-          new ItemInfo("incomplete_fluix_me_dense_smart_cable", Type.ITEM, Tab.SEQUENCE).parent("incomplete_ae2_assembly"),
+          new ItemInfo("incomplete_fluix_me_dense_smart_cable", Type.ITEM, Tab.SEQUENCE, "incomplete_ae2_assembly"),
           // Incomplete ME Drive added 2/20/24 - Nyagi
-          new ItemInfo("incomplete_me_drive", Type.ITEM, Tab.SEQUENCE).parent("incomplete_ae2_assembly"),
+          new ItemInfo("incomplete_me_drive", Type.ITEM, Tab.SEQUENCE, "incomplete_ae2_assembly"),
           // Incomplete ME Chest added 2/21/24 - Nyagi
-          new ItemInfo("incomplete_me_chest", Type.ITEM, Tab.SEQUENCE).parent("incomplete_ae2_assembly"),
+          new ItemInfo("incomplete_me_chest", Type.ITEM, Tab.SEQUENCE, "incomplete_ae2_assembly"),
           // Incomplete Vibration Chamber added 2/21/24 - Nyagi
-          new ItemInfo("incomplete_vibration_chamber", Type.ITEM, Tab.SEQUENCE).parent("incomplete_ae2_assembly"),
+          new ItemInfo("incomplete_vibration_chamber", Type.ITEM, Tab.SEQUENCE, "incomplete_ae2_assembly"),
           // Incomplete Light Detecting Fixture added 2/21/24 - Nyagi
-          new ItemInfo("incomplete_light_detecting_fixture", Type.ITEM, Tab.SEQUENCE).parent("incomplete_ae2_assembly"),
+          new ItemInfo("incomplete_light_detecting_fixture", Type.ITEM, Tab.SEQUENCE, "incomplete_ae2_assembly"),
           // Incomplete Illuminated Panel added 2/21/24 - Nyagi
-          new ItemInfo("incomplete_illuminated_panel", Type.ITEM, Tab.SEQUENCE).parent("incomplete_ae2_assembly"),
+          new ItemInfo("incomplete_illuminated_panel", Type.ITEM, Tab.SEQUENCE, "incomplete_ae2_assembly"),
           // Incomplete ME Storage Bus added 2/21/24 - Nyagi
-          new ItemInfo("incomplete_me_storage_bus", Type.ITEM, Tab.SEQUENCE).parent("incomplete_ae2_assembly"),
+          new ItemInfo("incomplete_me_storage_bus", Type.ITEM, Tab.SEQUENCE, "incomplete_ae2_assembly"),
           // Incomplete ME Import Bus added 2/21/24 - Nyagi
-          new ItemInfo("incomplete_me_import_bus", Type.ITEM, Tab.SEQUENCE).parent("incomplete_ae2_assembly"),
+          new ItemInfo("incomplete_me_import_bus", Type.ITEM, Tab.SEQUENCE, "incomplete_ae2_assembly"),
           // Incomplete ME Export Bus added 2/21/24 - Nyagi
-          new ItemInfo("incomplete_me_export_bus", Type.ITEM, Tab.SEQUENCE).parent("incomplete_ae2_assembly"),
+          new ItemInfo("incomplete_me_export_bus", Type.ITEM, Tab.SEQUENCE, "incomplete_ae2_assembly"),
           // Incomplete ME Level Emitter added 2/21/24 - Nyagi
-          new ItemInfo("incomplete_me_level_emitter", Type.ITEM, Tab.SEQUENCE).parent("incomplete_ae2_assembly"),
+          new ItemInfo("incomplete_me_level_emitter", Type.ITEM, Tab.SEQUENCE, "incomplete_ae2_assembly"),
           // Incomplete ME Energy Level Emitter added 2/21/24 - Nyagi
-          new ItemInfo("incomplete_me_energy_level_emitter", Type.ITEM, Tab.SEQUENCE).parent("incomplete_ae2_assembly"),
+          new ItemInfo("incomplete_me_energy_level_emitter", Type.ITEM, Tab.SEQUENCE, "incomplete_ae2_assembly"),
           // Incomplete ME Annihilation Plane added 2/21/24 - Nyagi
-          new ItemInfo("incomplete_me_annihilation_plane", Type.ITEM, Tab.SEQUENCE).parent("incomplete_ae2_assembly"),
+          new ItemInfo("incomplete_me_annihilation_plane", Type.ITEM, Tab.SEQUENCE, "incomplete_ae2_assembly"),
           // Incomplete ME Formation Plane added 2/21/24 - Nyagi
-          new ItemInfo("incomplete_me_formation_plane", Type.ITEM, Tab.SEQUENCE).parent("incomplete_ae2_assembly"),
+          new ItemInfo("incomplete_me_formation_plane", Type.ITEM, Tab.SEQUENCE, "incomplete_ae2_assembly"),
           // Incomplete ME Terminal added 2/21/24 - Nyagi
-          new ItemInfo("incomplete_me_terminal", Type.ITEM, Tab.SEQUENCE).parent("incomplete_ae2_assembly"),
+          new ItemInfo("incomplete_me_terminal", Type.ITEM, Tab.SEQUENCE, "incomplete_ae2_assembly"),
           // Incomplete ME Crafting Terminal added 2/21/24 - Nyagi
-          new ItemInfo("incomplete_me_crafting_terminal", Type.ITEM, Tab.SEQUENCE).parent("incomplete_ae2_assembly"),
+          new ItemInfo("incomplete_me_crafting_terminal", Type.ITEM, Tab.SEQUENCE, "incomplete_ae2_assembly"),
           // Incomplete ME p2p Tunnel added 2/21/24 - Nyagi
-          new ItemInfo("incomplete_me_ptwop_tunnel", Type.ITEM, Tab.SEQUENCE).parent("incomplete_ae2_assembly"),
+          new ItemInfo("incomplete_me_ptwop_tunnel", Type.ITEM, Tab.SEQUENCE, "incomplete_ae2_assembly"),
           // Incomplete ME Security Terminal added 2/21/24 - Nyagi
-          new ItemInfo("incomplete_me_security_terminal", Type.ITEM, Tab.SEQUENCE).parent("incomplete_ae2_assembly"),
+          new ItemInfo("incomplete_me_security_terminal", Type.ITEM, Tab.SEQUENCE, "incomplete_ae2_assembly"),
           // Incomplete ME IO Port added 2/21/24 - Nyagi
-          new ItemInfo("incomplete_me_io_port", Type.ITEM, Tab.SEQUENCE).parent("incomplete_ae2_assembly"),
+          new ItemInfo("incomplete_me_io_port", Type.ITEM, Tab.SEQUENCE, "incomplete_ae2_assembly"),
           // Incomplete ME Energy Cell added 2/21/24 - Nyagi
-          new ItemInfo("incomplete_me_energy_cell", Type.ITEM, Tab.SEQUENCE).parent("incomplete_ae2_assembly"),
+          new ItemInfo("incomplete_me_energy_cell", Type.ITEM, Tab.SEQUENCE, "incomplete_ae2_assembly"),
           // Incomplete ME Storage Monitor added 2/21/24 - Nyagi
-          new ItemInfo("incomplete_me_storage_monitor", Type.ITEM, Tab.SEQUENCE).parent("incomplete_ae2_assembly"),
+          new ItemInfo("incomplete_me_storage_monitor", Type.ITEM, Tab.SEQUENCE, "incomplete_ae2_assembly"),
           // Incomplete Color Applicator added 2/21/24 - Nyagi
-          new ItemInfo("incomplete_color_applicator", Type.ITEM, Tab.SEQUENCE).parent("incomplete_ae2_assembly"),
+          new ItemInfo("incomplete_color_applicator", Type.ITEM, Tab.SEQUENCE, "incomplete_ae2_assembly"),
           // Incomplete Logic Processor added 2/22/24 - Nyagi
           new ItemInfo("incomplete_logic_processor", Type.ITEM, Tab.SEQUENCE),
           // Incomplete Calculation Processor added 2/22/24 - Nyagi
@@ -1276,7 +1276,7 @@ public class ModItems {
           // Incomplete ME Fluid Cell Housing added 2/22/24 - Nyagi
           new ItemInfo("incomplete_me_fluid_cell_housing", Type.ITEM, Tab.SEQUENCE),
           // Incomplete Energy Acceptor added 2/22/24 - Nyagi
-          new ItemInfo("incomplete_energy_acceptor", Type.ITEM, Tab.SEQUENCE).parent("incomplete_ae2_assembly"),
+          new ItemInfo("incomplete_energy_acceptor", Type.ITEM, Tab.SEQUENCE, "incomplete_ae2_assembly"),
           // Incomplete Logic Dud added 2/21/24 - Nyagi
           new ItemInfo("incomplete_logic_dud", Type.ITEM, Tab.SEQUENCE),
           // Incomplete Calculation Dud added 2/21/24 - Nyagi
@@ -1284,57 +1284,57 @@ public class ModItems {
           // Incomplete Engineering Dud added 2/21/24 - Nyagi
           new ItemInfo("incomplete_engineering_dud", Type.ITEM, Tab.SEQUENCE),
           // Incomplete Sterilized Quartz Glass Vinegar added 1/4/25 - Nyagi
-          new ItemInfo("incomplete_sterilized_quartz_glass_vinegar", Type.ITEM, Tab.SEQUENCE).parent("sterilized_quartz_glass"),
+          new ItemInfo("incomplete_sterilized_quartz_glass_vinegar", Type.ITEM, Tab.SEQUENCE, "sterilized_quartz_glass"),
           // Incomplete Sterilized Quartz Glass Phenoxyethanol added 1/4/25 - Nyagi
-          new ItemInfo("incomplete_sterilized_quartz_glass_phenoxyethanol", Type.ITEM, Tab.SEQUENCE).parent("sterilized_quartz_glass"),
+          new ItemInfo("incomplete_sterilized_quartz_glass_phenoxyethanol", Type.ITEM, Tab.SEQUENCE, "sterilized_quartz_glass"),
           // Incomplete Petri Dish Glass added 1/4/25 - Nyagi
-          new ItemInfo("incomplete_petri_dish_glass", Type.ITEM, Tab.SEQUENCE).parent("petri_dish_empty"),
+          new ItemInfo("incomplete_petri_dish_glass", Type.ITEM, Tab.SEQUENCE, "petri_dish_empty"),
           // Incomplete Petri Dish Quartz Glass added 1/4/25 - Nyagi
-          new ItemInfo("incomplete_petri_dish_quartz_glass", Type.ITEM, Tab.SEQUENCE).parent("petri_dish_empty"),
+          new ItemInfo("incomplete_petri_dish_quartz_glass", Type.ITEM, Tab.SEQUENCE, "petri_dish_empty"),
           // Incomplete Skystone Shielding added 1/4/25 - Nyagi
-          new ItemInfo("incomplete_skystone_shielding", Type.ITEM, Tab.SEQUENCE).parent("skystone_shielding"),
+          new ItemInfo("incomplete_skystone_shielding", Type.ITEM, Tab.SEQUENCE, "skystone_shielding"),
           // Incomplete Skystone Shielding Boule added 1/4/25 - Nyagi
-          new ItemInfo("incomplete_skystone_shielding_boule", Type.ITEM, Tab.SEQUENCE).parent("skystone_shielding"),
+          new ItemInfo("incomplete_skystone_shielding_boule", Type.ITEM, Tab.SEQUENCE, "skystone_shielding"),
           // Incomplete Raw Clustered Beryl Crude added 1/5/25 - Nyagi
-          new ItemInfo("incomplete_raw_cluster_beryl_crude", Type.ITEM, Tab.SEQUENCE).parent("raw_clustered_beryl"),
+          new ItemInfo("incomplete_raw_cluster_beryl_crude", Type.ITEM, Tab.SEQUENCE, "raw_clustered_beryl"),
           // Incomplete Raw Clustered Beryl Polish added 1/5/25 - Nyagi
-          new ItemInfo("incomplete_raw_cluster_beryl_polish", Type.ITEM, Tab.SEQUENCE).parent("raw_clustered_beryl"),
+          new ItemInfo("incomplete_raw_cluster_beryl_polish", Type.ITEM, Tab.SEQUENCE, "raw_clustered_beryl"),
           // Incomplete Raw Prime Beryl Crude added 1/5/25 - Nyagi
-          new ItemInfo("incomplete_raw_prime_beryl_crude", Type.ITEM, Tab.SEQUENCE).parent("raw_prime_beryllic_cluster"),
+          new ItemInfo("incomplete_raw_prime_beryl_crude", Type.ITEM, Tab.SEQUENCE, "raw_prime_beryllic_cluster"),
           // Incomplete Raw Prime Beryl Polish added 1/5/25 - Nyagi
-          new ItemInfo("incomplete_raw_prime_beryl_polish", Type.ITEM, Tab.SEQUENCE).parent("raw_prime_beryllic_cluster"),
+          new ItemInfo("incomplete_raw_prime_beryl_polish", Type.ITEM, Tab.SEQUENCE, "raw_prime_beryllic_cluster"),
           // Incomplete Raw Graphite Polish added 1/5/25 - Nyagi
-          new ItemInfo("incomplete_raw_graphite_polish", Type.ITEM, Tab.SEQUENCE).parent("raw_graphite"),
+          new ItemInfo("incomplete_raw_graphite_polish", Type.ITEM, Tab.SEQUENCE, "raw_graphite"),
           // Incomplete Raw Kimberlite Polish added 1/5/25 - Nyagi
-          new ItemInfo("incomplete_raw_kimberlite_polish", Type.ITEM, Tab.SEQUENCE).parent("raw_kimberlite"),
+          new ItemInfo("incomplete_raw_kimberlite_polish", Type.ITEM, Tab.SEQUENCE, "raw_kimberlite"),
           // Incomplete Raw Lamproite Polish added 1/5/25 - Nyagi
-          new ItemInfo("incomplete_raw_lamproite_polish", Type.ITEM, Tab.SEQUENCE).parent("raw_lamproite"),
+          new ItemInfo("incomplete_raw_lamproite_polish", Type.ITEM, Tab.SEQUENCE, "raw_lamproite"),
           // Incomplete Raw Lazurite Polish added 1/5/25 - Nyagi
-          new ItemInfo("incomplete_raw_lazurite_polish", Type.ITEM, Tab.SEQUENCE).parent("raw_lazurite"),
+          new ItemInfo("incomplete_raw_lazurite_polish", Type.ITEM, Tab.SEQUENCE, "raw_lazurite"),
           // Incomplete Raw Lapis Lazuli Polish added 1/5/25 - Nyagi
-          new ItemInfo("incomplete_raw_lapis_lazuli_polish", Type.ITEM, Tab.SEQUENCE).parent("raw_lapis_lazuli"),
+          new ItemInfo("incomplete_raw_lapis_lazuli_polish", Type.ITEM, Tab.SEQUENCE, "raw_lapis_lazuli"),
           // Incomplete Raw Fluorite Polish added 1/5/25 - Nyagi
-          new ItemInfo("incomplete_raw_fluorite_polish", Type.ITEM, Tab.SEQUENCE).parent("raw_fluorite"),
+          new ItemInfo("incomplete_raw_fluorite_polish", Type.ITEM, Tab.SEQUENCE, "raw_fluorite"),
           // Incomplete Raw Rutilated Quartz Polish added 1/5/25 - Nyagi
-          new ItemInfo("incomplete_raw_rutilated_quartz_polish", Type.ITEM, Tab.SEQUENCE).parent("raw_rutilated_quartz"),
+          new ItemInfo("incomplete_raw_rutilated_quartz_polish", Type.ITEM, Tab.SEQUENCE, "raw_rutilated_quartz"),
           // Incomplete Raw Ametrine Polish added 1/5/25 - Nyagi
-          new ItemInfo("incomplete_raw_ametrine_polish", Type.ITEM, Tab.SEQUENCE).parent("raw_ametrine"),
+          new ItemInfo("incomplete_raw_ametrine_polish", Type.ITEM, Tab.SEQUENCE, "raw_ametrine"),
           // Incomplete Raw Rose Quartz Polish added 1/5/25 - Nyagi
-          new ItemInfo("incomplete_raw_rose_quartz_polish", Type.ITEM, Tab.SEQUENCE).parent("raw_rose_quartz"),
+          new ItemInfo("incomplete_raw_rose_quartz_polish", Type.ITEM, Tab.SEQUENCE, "raw_rose_quartz"),
           // Incomplete Raw Prasiolite Polish added 1/5/25 - Nyagi
-          new ItemInfo("incomplete_raw_prasiolite_polish", Type.ITEM, Tab.SEQUENCE).parent("raw_prasiolite"),
+          new ItemInfo("incomplete_raw_prasiolite_polish", Type.ITEM, Tab.SEQUENCE, "raw_prasiolite"),
           // Incomplete Raw Meteoric Certus Polish added 1/5/25 - Nyagi
-          new ItemInfo("incomplete_raw_meteoric_certus_polish", Type.ITEM, Tab.SEQUENCE).parent("raw_meteoric_certus"),
+          new ItemInfo("incomplete_raw_meteoric_certus_polish", Type.ITEM, Tab.SEQUENCE, "raw_meteoric_certus"),
           // Incomplete Raw Turquoise Polish added 1/5/25 - Nyagi
-          new ItemInfo("incomplete_raw_turquoise_polish", Type.ITEM, Tab.SEQUENCE).parent("raw_turquoise"),
+          new ItemInfo("incomplete_raw_turquoise_polish", Type.ITEM, Tab.SEQUENCE, "raw_turquoise"),
           // Incomplete Raw Herkimer Polish added 1/5/25 - Nyagi
-          new ItemInfo("incomplete_raw_herkimer_polish", Type.ITEM, Tab.SEQUENCE).parent("raw_herkimer_diamond"),
+          new ItemInfo("incomplete_raw_herkimer_polish", Type.ITEM, Tab.SEQUENCE, "raw_herkimer_diamond"),
           // Incomplete Raw Dendritic Agate Polish added 1/5/25 - Nyagi
-          new ItemInfo("incomplete_raw_dendritic_agate_polish", Type.ITEM, Tab.SEQUENCE).parent("raw_dendritic_agate"),
+          new ItemInfo("incomplete_raw_dendritic_agate_polish", Type.ITEM, Tab.SEQUENCE, "raw_dendritic_agate"),
           // Incomplete Raw Chalcedony Polish added 1/5/25 - Nyagi
-          new ItemInfo("incomplete_raw_chalcedony_polish", Type.ITEM, Tab.SEQUENCE).parent("raw_chalcedony"),
+          new ItemInfo("incomplete_raw_chalcedony_polish", Type.ITEM, Tab.SEQUENCE, "raw_chalcedony"),
           // Incomplete Raw Spinel Polish added 1/5/25 - Nyagi
-          new ItemInfo("incomplete_raw_spinel_polish", Type.ITEM, Tab.SEQUENCE).parent("raw_spinel")
+          new ItemInfo("incomplete_raw_spinel_polish", Type.ITEM, Tab.SEQUENCE, "raw_spinel")
 
           //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
           // Sintered/Polished Tier 1 Items

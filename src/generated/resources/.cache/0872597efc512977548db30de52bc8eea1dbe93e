@@ -1,4 +1,4 @@
-// 1.19.2	2025-05-05T20:50:17.445723902	Block Models: nyagibits_bytes
+// 1.19.2	2025-05-06T21:57:56.289170836	Block Models: nyagibits_bytes
 0c508d7507b136b77cc70141f61653812338b833 assets/nyagibits_bytes/models/block/2lbxyud1od.json
 36214c595adf7b1f09275371ce5b4125f209b39e assets/nyagibits_bytes/models/block/7y5r4jwg8m.json
 37818bbcbaf6b6f9156a76865a4d9712f78b7bbe assets/nyagibits_bytes/models/block/block_aquamarine.json
@@ -56,6 +56,7 @@ d4e8170df99068997abbdfe4e1db92d9b85a3918 assets/nyagibits_bytes/models/block/den
 e66fb1733e8a9ad1ed2f7822b1bb1ecca94e877e assets/nyagibits_bytes/models/block/dense_conglomerate_uranium_ore.json
 89f6420dc342b23eb2fba8de7cfd329dcd308e9d assets/nyagibits_bytes/models/block/dense_conglomerate_zinc_ore.json
 3ff2c56cdd1c9eb16f43f566844e1ca0ee3cc516 assets/nyagibits_bytes/models/block/etched_living_wood.json
+9df46c58fa3da25050dd61e6fb1c11e9eb890393 assets/nyagibits_bytes/models/block/flake.json
 60bd57d396b4c445f0732999e9bdcc87822b4049 assets/nyagibits_bytes/models/block/gypsum_block.json
 1e3ecc7b19e873a7c4fb82a8e1f6d8fa63a25ef3 assets/nyagibits_bytes/models/block/h1g1tl8dx7.json
 c37fc08e6f2f2b33458f7771205dc186da94105d assets/nyagibits_bytes/models/block/hyper_conglomerate_bauxite_ore.json

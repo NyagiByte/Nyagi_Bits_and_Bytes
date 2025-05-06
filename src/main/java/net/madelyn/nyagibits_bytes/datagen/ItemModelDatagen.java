@@ -93,8 +93,8 @@ public class ItemModelDatagen extends ItemModelProvider {
         for(ItemInfo item : items){
             //If an item has the parent model field set, make a redirect to that instead and don't do anything else.
             if(!item.getParentModel().isEmpty()){
-                if(MODELS.containsKey(item.getParentModel())) withExistingParent("item/"+item.getId(), modLoc("item/"+MODELS.get(item.getParentModel())));
-                else withExistingParent("item/"+item.getId(), modLoc("item/"+item.getParentModel()));
+                //if(MODELS.containsKey(item.getParentModel())) withExistingParent("item/"+item.getId(), modLoc("item/"+MODELS.get(item.getParentModel())));
+                withExistingParent("item/"+item.getId(), modLoc("item/"+item.getParentModel()));
                 continue;
             }
             //If the model already exists, either premade or generated, skip to the next item.

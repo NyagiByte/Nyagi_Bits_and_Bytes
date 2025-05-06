@@ -1,5 +1,5 @@
 {
-  "parent": "nyagibits_bytes:item/dev/hardened_mechanical_bearing",
+  "parent": "nyagibits_bytes:item/misc/hardened_mechanical_bearing",
   "textures": {
     "0": "nyagibits_bytes:item/dev/hardened_mechanical_bearing",
     "particle": "nyagibits_bytes:item/dev/hardened_mechanical_bearing"

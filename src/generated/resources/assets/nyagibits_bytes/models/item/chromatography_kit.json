@@ -1,7 +1,7 @@
 {
-  "parent": "nyagibits_bytes:item/dev/chromatography_kit",
+  "parent": "nyagibits_bytes:item/alchemistry/chromatography_kit",
   "textures": {
-    "0": "nyagibits_bytes:item/dev/chromatography_kit",
-    "particle": "nyagibits_bytes:item/dev/chromatography_kit"
+    "0": "nyagibits_bytes:item/dev/alchemistry/chromatography_kit",
+    "particle": "nyagibits_bytes:item/dev/alchemistry/chromatography_kit"
   }
 }

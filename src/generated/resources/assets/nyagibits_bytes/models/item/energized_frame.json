@@ -1,7 +1,7 @@
 {
-  "parent": "nyagibits_bytes:item/dev/energized_frame",
+  "parent": "nyagibits_bytes:item/ae2/energized_frame",
   "textures": {
-    "0": "nyagibits_bytes:item/dev/energized_frame",
-    "particle": "nyagibits_bytes:item/dev/energized_frame"
+    "0": "nyagibits_bytes:item/dev/ae2/energized_frame",
+    "particle": "nyagibits_bytes:item/dev/ae2/energized_frame"
   }
 }

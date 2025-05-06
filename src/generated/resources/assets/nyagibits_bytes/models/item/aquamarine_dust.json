@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "nyagibits_bytes:item/dev/minerals/aquamarine_dust"
+    "layer0": "nyagibits_bytes:item/dev/minerals/gems/aquamarine_dust"
   }
 }

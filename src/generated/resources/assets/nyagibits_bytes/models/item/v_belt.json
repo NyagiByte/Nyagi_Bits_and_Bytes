@@ -1,5 +1,5 @@
 {
-  "parent": "nyagibits_bytes:item/dev/v_belt",
+  "parent": "nyagibits_bytes:item/immersive/v_belt",
   "textures": {
     "0": "nyagibits_bytes:item/dev/v_belt",
     "particle": "nyagibits_bytes:item/dev/v_belt"

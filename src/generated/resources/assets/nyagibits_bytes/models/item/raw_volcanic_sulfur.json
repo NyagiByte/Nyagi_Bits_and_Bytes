@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "nyagibits_bytes:item/dev/minerals/raw_volcanic_sulfur"
+    "layer0": "nyagibits_bytes:item/dev/minerals/raw/raw_volcanic_sulfur"
   }
 }

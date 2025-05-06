@@ -1,7 +1,7 @@
 {
-  "parent": "nyagibits_bytes:item/dev/skystone_shielding",
+  "parent": "nyagibits_bytes:item/ae2/skystone_shielding",
   "textures": {
-    "0": "nyagibits_bytes:item/dev/skystone_shielding",
-    "particle": "nyagibits_bytes:item/dev/skystone_shielding"
+    "0": "nyagibits_bytes:item/dev/ae2/skystone_shielding",
+    "particle": "nyagibits_bytes:item/dev/ae2/skystone_shielding"
   }
 }

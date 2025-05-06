@@ -1,7 +1,7 @@
 {
-  "parent": "nyagibits_bytes:item/dev/magnetic_hematite",
+  "parent": "nyagibits_bytes:item/botania/magnetic_hematite",
   "textures": {
-    "0": "nyagibits_bytes:item/dev/magnetic_hematite",
-    "particle": "nyagibits_bytes:item/dev/magnetic_hematite"
+    "0": "nyagibits_bytes:item/dev/botania/magnetic_hematite",
+    "particle": "nyagibits_bytes:item/dev/botania/magnetic_hematite"
   }
 }

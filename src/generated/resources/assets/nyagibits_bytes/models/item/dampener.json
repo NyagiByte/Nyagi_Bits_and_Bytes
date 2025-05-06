@@ -1,5 +1,5 @@
 {
-  "parent": "nyagibits_bytes:item/dev/dampener",
+  "parent": "nyagibits_bytes:item/immersive/dampener",
   "textures": {
     "0": "nyagibits_bytes:item/dev/dampener",
     "particle": "nyagibits_bytes:item/dev/dampener"

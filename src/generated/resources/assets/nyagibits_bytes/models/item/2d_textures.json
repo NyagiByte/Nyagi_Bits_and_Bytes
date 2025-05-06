@@ -1,6 +1,6 @@
 {
-  "parent": "nyagibits_bytes:item/dev/2d_textures",
+  "parent": "nyagibits_bytes:item/unknown/2d_textures",
   "textures": {
-    "particle": "nyagibits_bytes:item/dev/incomplete_logic_dud"
+    "particle": "nyagibits_bytes:item/dev/ae2/incomplete_logic_dud"
   }
 }

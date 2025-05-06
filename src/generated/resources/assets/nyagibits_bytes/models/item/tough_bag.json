@@ -1,5 +1,5 @@
 {
-  "parent": "nyagibits_bytes:item/dev/tough_bag",
+  "parent": "nyagibits_bytes:item/botania/tough_bag",
   "textures": {
     "0": "nyagibits_bytes:item/dev/tough_bag",
     "particle": "nyagibits_bytes:item/dev/tough_bag"

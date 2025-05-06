@@ -1,0 +1,8 @@
+{
+  "parent": "nyagibits_bytes:block/misc/flake",
+  "textures": {
+    "particle": "nyagibits_bytes:block/dev/flake_outside",
+    "shell": "nyagibits_bytes:block/dev/flake_outside",
+    "spacetime": "nyagibits_bytes:block/dev/flake_inside"
+  }
+}

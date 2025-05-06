@@ -1,7 +1,7 @@
 {
-  "parent": "nyagibits_bytes:item/dev/micro_tools",
+  "parent": "nyagibits_bytes:item/ae2/micro_tools",
   "textures": {
-    "0": "nyagibits_bytes:item/dev/micro_tools",
-    "particle": "nyagibits_bytes:item/dev/micro_tools"
+    "0": "nyagibits_bytes:item/dev/ae2/micro_tools",
+    "particle": "nyagibits_bytes:item/dev/ae2/micro_tools"
   }
 }

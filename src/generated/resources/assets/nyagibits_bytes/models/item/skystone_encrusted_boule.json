@@ -1,5 +1,5 @@
 {
-  "parent": "nyagibits_bytes:item/dev/skystone_encrusted_boule",
+  "parent": "nyagibits_bytes:item/misc/skystone_encrusted_boule",
   "textures": {
     "0": "nyagibits_bytes:item/dev/skystone_encrusted_boule",
     "particle": "nyagibits_bytes:item/dev/skystone_encrusted_boule"

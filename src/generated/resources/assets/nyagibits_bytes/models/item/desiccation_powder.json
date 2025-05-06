@@ -1,7 +1,7 @@
 {
-  "parent": "nyagibits_bytes:item/dev/desiccation_powder",
+  "parent": "nyagibits_bytes:item/alchemistry/desiccation_powder",
   "textures": {
-    "0": "nyagibits_bytes:item/dev/desiccation_powder",
-    "particle": "nyagibits_bytes:item/dev/desiccation_powder"
+    "0": "nyagibits_bytes:item/dev/alchemistry/desiccation_powder",
+    "particle": "nyagibits_bytes:item/dev/alchemistry/desiccation_powder"
   }
 }

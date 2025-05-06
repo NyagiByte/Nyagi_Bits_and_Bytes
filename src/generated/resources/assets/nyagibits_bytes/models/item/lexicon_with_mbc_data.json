@@ -1,5 +1,5 @@
 {
-  "parent": "nyagibits_bytes:item/dev/science/lexicon_with_mbc_data",
+  "parent": "nyagibits_bytes:item/science/lexicon_with_mbc_data",
   "textures": {
     "0": "nyagibits_bytes:item/dev/science/lexicon_with_mbc_data",
     "particle": "nyagibits_bytes:item/dev/science/lexicon_with_mbc_data"

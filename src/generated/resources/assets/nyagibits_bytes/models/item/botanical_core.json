@@ -1,5 +1,5 @@
 {
-  "parent": "nyagibits_bytes:item/dev/botanical_core",
+  "parent": "nyagibits_bytes:item/misc/botanical_core",
   "textures": {
     "0": "nyagibits_bytes:item/dev/skystone_encrusted_boule",
     "1": "nyagibits_bytes:item/dev/capacitors",

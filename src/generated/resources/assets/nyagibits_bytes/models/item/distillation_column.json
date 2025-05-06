@@ -1,7 +1,7 @@
 {
-  "parent": "nyagibits_bytes:item/dev/distillation_column",
+  "parent": "nyagibits_bytes:item/alchemistry/distillation_column",
   "textures": {
-    "0": "nyagibits_bytes:item/dev/distillation_column",
-    "particle": "nyagibits_bytes:item/dev/distillation_column"
+    "0": "nyagibits_bytes:item/dev/alchemistry/distillation_column",
+    "particle": "nyagibits_bytes:item/dev/alchemistry/distillation_column"
   }
 }

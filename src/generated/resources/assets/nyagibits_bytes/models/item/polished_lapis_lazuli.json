@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "nyagibits_bytes:item/dev/minerals/polished_lapis_lazuli"
+    "layer0": "nyagibits_bytes:item/dev/minerals/polished/polished_lapis_lazuli"
   }
 }

@@ -1,13 +1,13 @@
 {
-  "parent": "nyagibits_bytes:item/dev/science/single_use_mana_ablatives_demonstration",
+  "parent": "nyagibits_bytes:item/science/single_use_mana_ablatives_demonstration",
   "textures": {
-    "0": "nyagibits_bytes:item/dev/heavy_plating",
-    "1": "nyagibits_bytes:item/dev/disjointed_gun",
-    "2": "nyagibits_bytes:item/dev/bore_lens",
-    "3": "nyagibits_bytes:item/dev/mana_feeder",
-    "4": "nyagibits_bytes:item/dev/repeater_gun_trigger",
-    "5": "nyagibits_bytes:item/dev/metal_frame_sumab",
-    "6": "nyagibits_bytes:item/dev/mana_feeder_glass",
-    "particle": "nyagibits_bytes:item/dev/heavy_plating"
+    "0": "nyagibits_bytes:item/dev/science/sumad/heavy_plating",
+    "1": "nyagibits_bytes:item/dev/science/sumad/disjointed_gun",
+    "2": "nyagibits_bytes:item/dev/science/sumad/bore_lens",
+    "3": "nyagibits_bytes:item/dev/science/sumad/mana_feeder",
+    "4": "nyagibits_bytes:item/dev/science/sumad/repeater_gun_trigger",
+    "5": "nyagibits_bytes:item/dev/science/sumad/metal_frame_sumab",
+    "6": "nyagibits_bytes:item/dev/science/sumad/mana_feeder_glass",
+    "particle": "nyagibits_bytes:item/dev/science/sumad/heavy_plating"
   }
 }

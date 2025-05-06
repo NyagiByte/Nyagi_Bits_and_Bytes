@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "nyagibits_bytes:item/dev/mana_imbued_obsidian_shard"
+    "layer0": "nyagibits_bytes:item/dev/botania/mana_imbued_obsidian_shard"
   }
 }

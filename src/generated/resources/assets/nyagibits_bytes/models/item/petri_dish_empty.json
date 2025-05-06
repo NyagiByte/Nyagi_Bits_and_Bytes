@@ -1,5 +1,5 @@
 {
-  "parent": "nyagibits_bytes:item/dev/petri_dish_empty",
+  "parent": "nyagibits_bytes:item/misc/petri_dish_empty",
   "textures": {
     "0": "nyagibits_bytes:item/dev/petri_dish_empty",
     "particle": "nyagibits_bytes:item/dev/petri_dish_empty"

@@ -1,7 +1,7 @@
 {
-  "parent": "nyagibits_bytes:item/dev/heavy_plating",
+  "parent": "nyagibits_bytes:item/misc/heavy_plating",
   "textures": {
-    "0": "nyagibits_bytes:item/dev/heavy_plating",
-    "particle": "nyagibits_bytes:item/dev/heavy_plating"
+    "0": "nyagibits_bytes:item/dev/science/sumad/heavy_plating",
+    "particle": "nyagibits_bytes:item/dev/science/sumad/heavy_plating"
   }
 }

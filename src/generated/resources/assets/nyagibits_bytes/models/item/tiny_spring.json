@@ -1,5 +1,5 @@
 {
-  "parent": "nyagibits_bytes:item/dev/tiny_spring",
+  "parent": "nyagibits_bytes:item/misc/tiny_spring",
   "textures": {
     "0": "nyagibits_bytes:item/dev/tiny_spring",
     "particle": "nyagibits_bytes:item/dev/tiny_spring"

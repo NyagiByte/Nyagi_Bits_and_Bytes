@@ -1,5 +1,5 @@
 {
-  "parent": "nyagibits_bytes:item/dev/sterilized_quartz_glass",
+  "parent": "nyagibits_bytes:item/misc/sterilized_quartz_glass",
   "textures": {
     "0": "nyagibits_bytes:item/dev/sterilized_quartz_glass",
     "particle": "nyagibits_bytes:item/dev/sterilized_quartz_glass"

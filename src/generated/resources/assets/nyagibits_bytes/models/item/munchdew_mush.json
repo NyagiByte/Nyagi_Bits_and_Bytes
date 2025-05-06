@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "nyagibits_bytes:item/dev/munchdew_mush"
+    "layer0": "nyagibits_bytes:item/dev/botania/munchdew_mush"
   }
 }

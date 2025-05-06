@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "nyagibits_bytes:item/dev/golden_tier_one_strawberry"
+    "layer0": "nyagibits_bytes:item/dev/special/golden_tier_one_strawberry"
   }
 }

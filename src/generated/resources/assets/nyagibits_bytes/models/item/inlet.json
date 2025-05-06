@@ -1,7 +1,7 @@
 {
-  "parent": "nyagibits_bytes:item/dev/inlet",
+  "parent": "nyagibits_bytes:item/alchemistry/inlet",
   "textures": {
-    "0": "nyagibits_bytes:item/dev/inlet",
-    "particle": "nyagibits_bytes:item/dev/inlet"
+    "0": "nyagibits_bytes:item/dev/alchemistry/inlet",
+    "particle": "nyagibits_bytes:item/dev/alchemistry/inlet"
   }
 }

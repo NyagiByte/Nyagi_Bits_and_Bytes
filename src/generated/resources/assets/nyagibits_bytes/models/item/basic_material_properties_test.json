@@ -1,5 +1,5 @@
 {
-  "parent": "nyagibits_bytes:item/dev/science/basic_material_properties_test",
+  "parent": "nyagibits_bytes:item/science/basic_material_properties_test",
   "textures": {
     "0": "nyagibits_bytes:item/dev/sturdy_box",
     "1": "nyagibits_bytes:item/dev/high_strength_ratio_reducer",

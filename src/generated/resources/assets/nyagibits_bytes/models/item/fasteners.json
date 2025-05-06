@@ -1,5 +1,5 @@
 {
-  "parent": "nyagibits_bytes:item/dev/fasteners",
+  "parent": "nyagibits_bytes:item/misc/fasteners",
   "textures": {
     "0": "nyagibits_bytes:item/dev/fasteners",
     "particle": "nyagibits_bytes:item/dev/fasteners"

@@ -1,5 +1,5 @@
 {
-  "parent": "nyagibits_bytes:item/dev/organic_vapor_respirator",
+  "parent": "nyagibits_bytes:item/immersive/organic_vapor_respirator",
   "textures": {
     "0": "nyagibits_bytes:item/dev/organic_vapor_respirator",
     "particle": "nyagibits_bytes:item/dev/organic_vapor_respirator"

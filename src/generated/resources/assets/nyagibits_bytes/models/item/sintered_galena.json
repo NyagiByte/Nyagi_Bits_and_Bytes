@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "nyagibits_bytes:item/dev/minerals/sintered_galena"
+    "layer0": "nyagibits_bytes:item/dev/minerals/sintered/sintered_galena"
   }
 }

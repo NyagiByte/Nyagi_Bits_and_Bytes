@@ -1,5 +1,5 @@
 {
-  "parent": "nyagibits_bytes:item/dev/decorative_paneling",
+  "parent": "nyagibits_bytes:item/ae2/decorative_paneling",
   "textures": {
     "0": "nyagibits_bytes:item/dev/decorative_paneling",
     "particle": "nyagibits_bytes:item/dev/decorative_paneling"

@@ -1,5 +1,5 @@
 {
-  "parent": "nyagibits_bytes:item/dev/soldering_iron",
+  "parent": "nyagibits_bytes:item/misc/soldering_iron",
   "textures": {
     "0": "nyagibits_bytes:item/dev/soldering_iron",
     "particle": "nyagibits_bytes:item/dev/soldering_iron"
