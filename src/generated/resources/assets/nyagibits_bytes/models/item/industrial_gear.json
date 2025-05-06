@@ -1,0 +1,7 @@
+{
+  "parent": "nyagibits_bytes:item/dev/industrial_gear",
+  "textures": {
+    "0": "nyagibits_bytes:item/dev/industrial_gear",
+    "particle": "nyagibits_bytes:item/dev/industrial_gear"
+  }
+}

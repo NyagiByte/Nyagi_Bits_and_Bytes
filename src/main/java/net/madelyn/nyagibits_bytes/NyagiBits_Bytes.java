@@ -23,7 +23,7 @@ import org.slf4j.Logger;
 @Mod(NyagiBits_Bytes.MOD_ID)
 public class NyagiBits_Bytes {
     public static final String MOD_ID = "nyagibits_bytes";
-    private static final Logger LOGGER = LogUtils.getLogger();
+    public static final Logger LOGGER = LogUtils.getLogger();
 
     public NyagiBits_Bytes() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();

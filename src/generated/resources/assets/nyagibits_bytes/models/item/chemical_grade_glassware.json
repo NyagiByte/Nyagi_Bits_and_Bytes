@@ -1,0 +1,12 @@
+{
+  "parent": "nyagibits_bytes:item/dev/chemical_grade_glassware",
+  "textures": {
+    "0": "nyagibits_bytes:item/dev/tray",
+    "1": "nyagibits_bytes:item/dev/inlet",
+    "2": "nyagibits_bytes:item/dev/distillation_column",
+    "3": "nyagibits_bytes:item/dev/burette",
+    "4": "nyagibits_bytes:item/dev/round_bottom_flask",
+    "5": "nyagibits_bytes:item/dev/beaker",
+    "particle": "nyagibits_bytes:item/dev/tray"
+  }
+}

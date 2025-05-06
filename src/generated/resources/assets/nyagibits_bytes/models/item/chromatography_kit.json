@@ -1,0 +1,7 @@
+{
+  "parent": "nyagibits_bytes:item/dev/chromatography_kit",
+  "textures": {
+    "0": "nyagibits_bytes:item/dev/chromatography_kit",
+    "particle": "nyagibits_bytes:item/dev/chromatography_kit"
+  }
+}

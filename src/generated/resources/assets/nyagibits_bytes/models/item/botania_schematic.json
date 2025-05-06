@@ -1,3 +1,7 @@
 {
-  "parent": "nyagibits_bytes:item/science/botania_schematic"
+  "parent": "nyagibits_bytes:item/dev/science/botania_schematic",
+  "textures": {
+    "0": "nyagibits_bytes:item/dev/science/botania_schematic",
+    "particle": "nyagibits_bytes:item/dev/science/botania_schematic"
+  }
 }

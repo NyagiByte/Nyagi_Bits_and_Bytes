@@ -1,0 +1,8 @@
+{
+  "parent": "nyagibits_bytes:item/dev/ph_strips",
+  "textures": {
+    "0": "nyagibits_bytes:item/dev/ph_strips",
+    "1": "nyagibits_bytes:item/dev/strips",
+    "particle": "nyagibits_bytes:item/dev/ph_strips"
+  }
+}

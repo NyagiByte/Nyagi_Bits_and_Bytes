@@ -1,0 +1,7 @@
+{
+  "parent": "nyagibits_bytes:item/dev/inlet",
+  "textures": {
+    "0": "nyagibits_bytes:item/dev/inlet",
+    "particle": "nyagibits_bytes:item/dev/inlet"
+  }
+}

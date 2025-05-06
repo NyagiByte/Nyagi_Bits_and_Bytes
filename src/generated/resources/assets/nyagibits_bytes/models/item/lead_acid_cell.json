@@ -1,0 +1,7 @@
+{
+  "parent": "nyagibits_bytes:item/dev/lead_acid_cell",
+  "textures": {
+    "0": "nyagibits_bytes:item/dev/lead_acid_cell",
+    "particle": "nyagibits_bytes:item/dev/lead_acid_cell"
+  }
+}

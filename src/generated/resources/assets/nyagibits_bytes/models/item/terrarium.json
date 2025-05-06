@@ -1,0 +1,7 @@
+{
+  "parent": "nyagibits_bytes:item/dev/terrarium",
+  "textures": {
+    "0": "nyagibits_bytes:item/dev/terrarium",
+    "particle": "nyagibits_bytes:item/dev/terrarium"
+  }
+}

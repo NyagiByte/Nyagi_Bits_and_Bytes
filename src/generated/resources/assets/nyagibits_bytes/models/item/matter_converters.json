@@ -1,0 +1,7 @@
+{
+  "parent": "nyagibits_bytes:item/dev/matter_converters",
+  "textures": {
+    "0": "nyagibits_bytes:item/dev/matter_converters",
+    "particle": "nyagibits_bytes:item/dev/matter_converters"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "nyagibits_bytes:item/dev/acetylene_tank",
+  "textures": {
+    "0": "nyagibits_bytes:item/dev/acetylene_tank",
+    "particle": "nyagibits_bytes:item/dev/acetylene_tank"
+  }
+}

@@ -1,3 +1,7 @@
 {
-  "parent": "nyagibits_bytes:item/science/crude_statics_test"
+  "parent": "nyagibits_bytes:item/dev/science/crude_statics_test",
+  "textures": {
+    "0": "nyagibits_bytes:item/dev/science/crude_statics_test",
+    "particle": "nyagibits_bytes:item/dev/science/crude_statics_test"
+  }
 }

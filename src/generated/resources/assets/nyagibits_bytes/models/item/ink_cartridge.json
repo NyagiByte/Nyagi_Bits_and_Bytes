@@ -1,0 +1,7 @@
+{
+  "parent": "nyagibits_bytes:item/dev/ink_cartridge",
+  "textures": {
+    "0": "nyagibits_bytes:item/dev/ink_cartridge",
+    "particle": "nyagibits_bytes:item/dev/ink_cartridge"
+  }
+}

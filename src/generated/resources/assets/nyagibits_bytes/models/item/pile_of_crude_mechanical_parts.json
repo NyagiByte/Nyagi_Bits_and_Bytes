@@ -1,0 +1,7 @@
+{
+  "parent": "nyagibits_bytes:item/dev/pile_of_crude_mechanical_parts",
+  "textures": {
+    "1": "nyagibits_bytes:item/dev/pile_of_crude_mechanical_parts",
+    "particle": "nyagibits_bytes:item/dev/pile_of_crude_mechanical_parts"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "nyagibits_bytes:item/dev/basic_composite_material",
+  "textures": {
+    "2": "nyagibits_bytes:item/dev/basic_composite_material",
+    "particle": "nyagibits_bytes:item/dev/basic_composite_material"
+  }
+}

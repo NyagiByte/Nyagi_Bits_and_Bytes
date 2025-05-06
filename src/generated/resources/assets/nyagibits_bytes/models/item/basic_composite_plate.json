@@ -1,0 +1,7 @@
+{
+  "parent": "nyagibits_bytes:item/dev/basic_composite_plate",
+  "textures": {
+    "1": "nyagibits_bytes:item/dev/basic_composite_plate",
+    "particle": "nyagibits_bytes:item/dev/basic_composite_plate"
+  }
+}

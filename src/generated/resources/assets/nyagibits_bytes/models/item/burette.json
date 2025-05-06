@@ -1,0 +1,6 @@
+{
+  "parent": "nyagibits_bytes:item/dev/burette",
+  "textures": {
+    "1": "nyagibits_bytes:item/dev/burette"
+  }
+}

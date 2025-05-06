@@ -1,0 +1,7 @@
+{
+  "parent": "nyagibits_bytes:item/dev/sealant",
+  "textures": {
+    "0": "nyagibits_bytes:item/dev/sealant",
+    "particle": "nyagibits_bytes:item/dev/sealant"
+  }
+}

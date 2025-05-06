@@ -1,0 +1,7 @@
+{
+  "parent": "nyagibits_bytes:item/dev/solenoid_component",
+  "textures": {
+    "0": "nyagibits_bytes:item/dev/solenoid_component",
+    "particle": "nyagibits_bytes:item/dev/solenoid_component"
+  }
+}

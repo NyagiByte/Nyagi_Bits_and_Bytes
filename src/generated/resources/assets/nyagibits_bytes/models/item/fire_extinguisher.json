@@ -1,0 +1,7 @@
+{
+  "parent": "nyagibits_bytes:item/dev/fire_extinguisher",
+  "textures": {
+    "0": "nyagibits_bytes:item/dev/fire_extinguisher",
+    "particle": "nyagibits_bytes:item/dev/fire_extinguisher"
+  }
+}

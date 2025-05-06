@@ -1,0 +1,7 @@
+{
+  "parent": "nyagibits_bytes:item/dev/beaker",
+  "textures": {
+    "0": "nyagibits_bytes:item/dev/beaker",
+    "particle": "nyagibits_bytes:item/dev/beaker"
+  }
+}

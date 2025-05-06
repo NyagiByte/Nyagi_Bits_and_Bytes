@@ -1,0 +1,7 @@
+{
+  "parent": "nyagibits_bytes:item/dev/soil_conditioner",
+  "textures": {
+    "0": "nyagibits_bytes:item/dev/soil_conditioner",
+    "particle": "nyagibits_bytes:item/dev/soil_conditioner"
+  }
+}

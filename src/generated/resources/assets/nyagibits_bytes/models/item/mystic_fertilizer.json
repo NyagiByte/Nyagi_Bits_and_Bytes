@@ -1,0 +1,8 @@
+{
+  "parent": "nyagibits_bytes:item/dev/mystic_fertilizer",
+  "textures": {
+    "0": "nyagibits_bytes:item/dev/tough_bag",
+    "1": "nyagibits_bytes:item/dev/mystic_fertilizer",
+    "particle": "nyagibits_bytes:item/dev/tough_bag"
+  }
+}

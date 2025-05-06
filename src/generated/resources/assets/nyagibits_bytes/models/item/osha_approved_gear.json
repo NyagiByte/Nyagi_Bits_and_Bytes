@@ -1,0 +1,10 @@
+{
+  "parent": "nyagibits_bytes:item/dev/osha_approved_gear",
+  "textures": {
+    "0": "nyagibits_bytes:item/dev/organic_vapor_respirator",
+    "1": "nyagibits_bytes:item/dev/fire_extinguisher",
+    "2": "nyagibits_bytes:item/dev/protective_eye_wear",
+    "3": "nyagibits_bytes:item/dev/hard_hat",
+    "particle": "nyagibits_bytes:item/dev/hard_hat"
+  }
+}

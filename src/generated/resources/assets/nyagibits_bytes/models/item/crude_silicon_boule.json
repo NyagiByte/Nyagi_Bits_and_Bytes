@@ -1,0 +1,7 @@
+{
+  "parent": "nyagibits_bytes:item/dev/crude_silicon_boule",
+  "textures": {
+    "0": "nyagibits_bytes:item/dev/crude_silicon_boule",
+    "particle": "nyagibits_bytes:item/dev/crude_silicon_boule"
+  }
+}

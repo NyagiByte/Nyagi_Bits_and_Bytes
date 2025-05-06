@@ -1,0 +1,7 @@
+{
+  "parent": "nyagibits_bytes:item/dev/annealed_glass",
+  "textures": {
+    "0": "nyagibits_bytes:item/dev/annealed_glass",
+    "particle": "nyagibits_bytes:item/dev/annealed_glass"
+  }
+}

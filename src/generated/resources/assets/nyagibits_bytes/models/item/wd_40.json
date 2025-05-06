@@ -1,0 +1,7 @@
+{
+  "parent": "nyagibits_bytes:item/dev/wd_40",
+  "textures": {
+    "0": "nyagibits_bytes:item/dev/wd_40",
+    "particle": "nyagibits_bytes:item/dev/wd_40"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "parent": "nyagibits_bytes:item/dev/pile_of_basic_mechanical_parts",
+  "textures": {
+    "0": "nyagibits_bytes:item/dev/sturdy_box",
+    "1": "nyagibits_bytes:item/dev/high_strength_ratio_reducer",
+    "2": "nyagibits_bytes:item/dev/base_copper_mesh_cube",
+    "3": "nyagibits_bytes:item/dev/iron_interlink_mesh_segment",
+    "4": "nyagibits_bytes:item/dev/engineer_hammer_model",
+    "particle": "nyagibits_bytes:item/dev/base_copper_mesh_cube"
+  }
+}

@@ -1,3 +1,7 @@
 {
-  "parent": "nyagibits_bytes:item/science/crude_material_properties_test"
+  "parent": "nyagibits_bytes:item/dev/science/crude_material_properties_test",
+  "textures": {
+    "0": "nyagibits_bytes:item/dev/science/crude_material_properties_test",
+    "particle": "nyagibits_bytes:item/dev/science/crude_material_properties_test"
+  }
 }

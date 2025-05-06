@@ -1,0 +1,12 @@
+{
+  "parent": "nyagibits_bytes:item/dev/botania_assembly",
+  "textures": {
+    "0": "nyagibits_bytes:item/dev/living_frame",
+    "1": "nyagibits_bytes:item/dev/magnetic_hematite",
+    "2": "nyagibits_bytes:item/dev/soil_conditioner",
+    "3": "nyagibits_bytes:item/dev/tough_bag",
+    "4": "nyagibits_bytes:item/dev/mystic_fertilizer",
+    "5": "nyagibits_bytes:item/dev/terrarium",
+    "6": "nyagibits_bytes:item/dev/semi_organic_substrate"
+  }
+}

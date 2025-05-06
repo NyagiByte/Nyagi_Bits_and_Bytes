@@ -1,0 +1,6 @@
+{
+  "parent": "nyagibits_bytes:item/dev/bottle_of_vinegar",
+  "textures": {
+    "layer0": "nyagibits_bytes:item/dev/bottle_of_vinegar"
+  }
+}

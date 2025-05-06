@@ -1,0 +1,7 @@
+{
+  "parent": "nyagibits_bytes:item/dev/heavy_plating",
+  "textures": {
+    "0": "nyagibits_bytes:item/dev/heavy_plating",
+    "particle": "nyagibits_bytes:item/dev/heavy_plating"
+  }
+}

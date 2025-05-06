@@ -1,0 +1,8 @@
+{
+  "parent": "nyagibits_bytes:item/dev/triple_bay_4s_series_toolbox",
+  "textures": {
+    "0": "nyagibits_bytes:item/dev/triple_bay_4s_series_toolbox",
+    "2": "nyagibits_bytes:item/dev/nyagoo",
+    "particle": "nyagibits_bytes:item/dev/triple_bay_4s_series_toolbox"
+  }
+}

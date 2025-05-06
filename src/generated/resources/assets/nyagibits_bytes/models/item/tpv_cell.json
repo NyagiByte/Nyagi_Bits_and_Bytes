@@ -1,0 +1,7 @@
+{
+  "parent": "nyagibits_bytes:item/dev/tpv_cell",
+  "textures": {
+    "0": "nyagibits_bytes:item/dev/tpv_cell",
+    "particle": "nyagibits_bytes:item/dev/tpv_cell"
+  }
+}

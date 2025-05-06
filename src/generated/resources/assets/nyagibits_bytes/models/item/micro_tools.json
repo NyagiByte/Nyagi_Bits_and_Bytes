@@ -1,0 +1,7 @@
+{
+  "parent": "nyagibits_bytes:item/dev/micro_tools",
+  "textures": {
+    "0": "nyagibits_bytes:item/dev/micro_tools",
+    "particle": "nyagibits_bytes:item/dev/micro_tools"
+  }
+}

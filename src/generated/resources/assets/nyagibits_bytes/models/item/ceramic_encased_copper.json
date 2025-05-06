@@ -1,0 +1,7 @@
+{
+  "parent": "nyagibits_bytes:item/dev/ceramic_encased_copper",
+  "textures": {
+    "0": "nyagibits_bytes:item/dev/ceramic_encased_copper",
+    "particle": "nyagibits_bytes:item/dev/ceramic_encased_copper"
+  }
+}

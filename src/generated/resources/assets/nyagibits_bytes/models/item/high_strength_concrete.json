@@ -1,0 +1,7 @@
+{
+  "parent": "nyagibits_bytes:item/dev/high_strength_concrete",
+  "textures": {
+    "0": "nyagibits_bytes:item/dev/high_strength_concrete",
+    "particle": "nyagibits_bytes:item/dev/high_strength_concrete"
+  }
+}

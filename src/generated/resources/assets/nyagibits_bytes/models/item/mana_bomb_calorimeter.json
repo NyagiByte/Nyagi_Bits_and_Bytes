@@ -1,3 +1,11 @@
 {
-  "parent": "nyagibits_bytes:item/science/mana_bomb_calorimeter"
+  "parent": "nyagibits_bytes:item/dev/science/mana_bomb_calorimeter",
+  "textures": {
+    "0": "nyagibits_bytes:item/dev/main_vessle",
+    "1": "nyagibits_bytes:item/dev/inner_wall",
+    "2": "nyagibits_bytes:item/dev/insulation_layer",
+    "3": "nyagibits_bytes:item/dev/bomb",
+    "5": "nyagibits_bytes:item/dev/interface_components",
+    "particle": "nyagibits_bytes:item/dev/main_vessle"
+  }
 }

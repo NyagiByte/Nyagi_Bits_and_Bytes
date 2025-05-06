@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:item/handheld",
+  "loader": "forge:separate-perspective",
+  "base": {
+    "parent": "nyagibits_bytes:item/livisite_alloy_ground"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "nyagibits_bytes:item/livisite_alloy_gui"
+    },
+    "fixed": {
+      "parent": "nyagibits_bytes:item/livisite_alloy_ground"
+    },
+    "head": {
+      "parent": "nyagibits_bytes:item/livisite_alloy_ground"
+    },
+    "ground": {
+      "parent": "nyagibits_bytes:item/livisite_alloy_ground"
+    }
+  }
+}

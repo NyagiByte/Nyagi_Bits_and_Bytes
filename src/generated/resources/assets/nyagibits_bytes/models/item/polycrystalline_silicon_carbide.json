@@ -1,0 +1,7 @@
+{
+  "parent": "nyagibits_bytes:item/dev/polycrystalline_silicon_carbide",
+  "textures": {
+    "0": "nyagibits_bytes:item/dev/polycrystalline_silicon_carbide",
+    "particle": "nyagibits_bytes:item/dev/polycrystalline_silicon_carbide"
+  }
+}

@@ -1,3 +1,7 @@
 {
-  "parent": "nyagibits_bytes:item/science/alchemistry_schematic"
+  "parent": "nyagibits_bytes:item/dev/science/alchemistry_schematic",
+  "textures": {
+    "0": "nyagibits_bytes:item/dev/science/alchemistry_schematic",
+    "particle": "nyagibits_bytes:item/dev/science/alchemistry_schematic"
+  }
 }

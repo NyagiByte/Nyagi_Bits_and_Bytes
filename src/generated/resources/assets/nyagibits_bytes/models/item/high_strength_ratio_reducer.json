@@ -1,0 +1,7 @@
+{
+  "parent": "nyagibits_bytes:item/dev/high_strength_ratio_reducer",
+  "textures": {
+    "0": "nyagibits_bytes:item/dev/high_strength_ratio_reducer",
+    "particle": "nyagibits_bytes:item/dev/high_strength_ratio_reducer"
+  }
+}

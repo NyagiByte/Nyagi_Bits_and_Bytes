@@ -1,0 +1,7 @@
+{
+  "parent": "nyagibits_bytes:item/dev/rubberized_cable",
+  "textures": {
+    "0": "nyagibits_bytes:item/dev/rubberized_cable",
+    "particle": "nyagibits_bytes:item/dev/rubberized_cable"
+  }
+}

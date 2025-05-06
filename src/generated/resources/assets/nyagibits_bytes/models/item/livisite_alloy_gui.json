@@ -1,0 +1,6 @@
+{
+  "parent": "nyagibits_bytes:item/dev/livisite_alloy_gui",
+  "textures": {
+    "layer0": "nyagibits_bytes:item/dev/livisite_alloy"
+  }
+}

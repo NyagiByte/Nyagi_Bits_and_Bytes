@@ -1,0 +1,7 @@
+{
+  "parent": "nyagibits_bytes:item/dev/torn_flax_ball",
+  "textures": {
+    "0": "nyagibits_bytes:item/dev/torn_flax_ball",
+    "particle": "nyagibits_bytes:item/dev/torn_flax_ball"
+  }
+}

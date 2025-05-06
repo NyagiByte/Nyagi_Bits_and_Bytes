@@ -1,0 +1,7 @@
+{
+  "parent": "nyagibits_bytes:item/dev/incomplete_ae2_assembly",
+  "textures": {
+    "0": "nyagibits_bytes:item/dev/incomplete_ae2_assembly",
+    "particle": "nyagibits_bytes:item/dev/incomplete_micro_tools"
+  }
+}

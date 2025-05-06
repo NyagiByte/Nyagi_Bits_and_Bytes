@@ -1,0 +1,6 @@
+{
+  "parent": "nyagibits_bytes:item/dev/2d_textures",
+  "textures": {
+    "particle": "nyagibits_bytes:item/dev/incomplete_logic_dud"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "nyagibits_bytes:item/dev/sturdy_tray",
+  "textures": {
+    "0": "nyagibits_bytes:item/dev/tray",
+    "particle": "nyagibits_bytes:item/dev/tray"
+  }
+}
