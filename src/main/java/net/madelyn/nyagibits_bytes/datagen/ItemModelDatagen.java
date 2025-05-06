@@ -26,82 +26,96 @@ import java.util.List;
 import java.util.Map;
 
 public class ItemModelDatagen extends ItemModelProvider {
-
+    //These three maps hold the data on where each texture or model actually is.
     private Map<String, String> DEV_TEXTURES = new HashMap<>();
     private Map<String, String> MAIN_TEXTURES = new HashMap<>();
     private Map<String, String> MODELS = new HashMap<>();
-
+    //And yeah, this is already sinful. We are in the /run folder when in datagen.
     private static final String PATH = "../src/main/resources/assets/nyagibits_bytes/";
 
     public ItemModelDatagen(DataGenerator gen, ExistingFileHelper helper){
         super(gen, NyagiBits_Bytes.MOD_ID, helper);
-        //Scan all the existing assets to create maps to find each model or texture down the line.
+        //Scan the item textures and item folders and index where each file is.
         DatagenEntry.scanAssets(Path.of(PATH + "textures/item/dev"), DEV_TEXTURES, ".png");
         DatagenEntry.scanAssets(Path.of(PATH + "textures/item/main"), MAIN_TEXTURES, ".png");
         DatagenEntry.scanAssets(Path.of(PATH + "models/item/"), MODELS, ".json");
     }
 
+    //Oh boy, here we go.
     @Override
     protected void registerModels(){
+
+        //Buckets aren't part of ITEMS_LIST, so we just add them.
         List<ItemInfo> items = new ArrayList<>();
         items.addAll(ModItems.ITEMS_LIST);
         items.addAll(ModFluids.buckets);
 
-        //First generate redirections for all existing models.
+        //First, all found item models must be processed with texture redirects.
         for(Map.Entry<String, String> entry : MODELS.entrySet()){
             String key = entry.getKey();
             String value = entry.getValue();
             //If someone ignores the warning to not put models in the root models folder instead of a subfolder, abort for this item.
+            //We have to abort because otherwise, the existing model and generated models would clash.
             if(assetExists("models/item/"+key+".json")){
                 NyagiBits_Bytes.LOGGER.error("Model found in root models folder: {} It should function, but won't be adapted.", value);
                 continue;
             }
+            //This creates the item model as a simple redirect to where the original model was found.
             ItemModelBuilder modelBuilder = withExistingParent("item/"+key, modLoc("item/"+value));
-
+            //This gets the textures field of the json. Also quite sinful, look at the method below.
             JsonObject textures = getTextureData(PATH+"models/item/"+value+".json");
             if(textures == null){
+                //This can fire naturally for some stuff like livisite alloy. We already made the "link" so it's fine.
                 NyagiBits_Bytes.LOGGER.error("Texture data did not exist for {}", value);
                 continue;
             }
 
+            //For each texture, remap it based on the map built earlier.
             for(Map.Entry<String, JsonElement> texture : textures.entrySet()){
                 String textureID = texture.getValue().getAsString();
+                //Vanilla textures have no namespace, apparently.
+                //We need to check the namespace anyway because we can only map NB&B textures.
                 String namespace = (!textureID.contains(":")) ? "minecraft" : textureID.substring(0, textureID.indexOf(":"));
+                //This is just the filename without extension, which can be used as a key for the texture maps.
                 textureID = textureID.substring(textureID.lastIndexOf("/")+1);
-                //Damn you, pile of cogs
+                //This is some yandere type shit. Anyway-
+                //It's a priority system.If the namespace if not NB&B, let the original texture through. If a texture exists in the main folder, use that. Otherwise, try to use a dev texture.
                 if(!namespace.equals("nyagibits_bytes")) try { modelBuilder.texture(texture.getKey(), texture.getValue().getAsString()); } catch (Exception ignored) {}
                 else if (MAIN_TEXTURES.containsKey(textureID)) modelBuilder.texture(texture.getKey(), modLoc("item/main/"+MAIN_TEXTURES.get(textureID)));
                 else if (DEV_TEXTURES.containsKey(textureID)) modelBuilder.texture(texture.getKey(), modLoc("item/dev/"+DEV_TEXTURES.get(textureID)));
                 else{
+                    //For some reason, this fires on...flake? Yeah idk.
                     NyagiBits_Bytes.LOGGER.error("Texture {} was not found anywhere", textureID);
                 }
             }
         }
         //Now it's time to go over the items and generate models for items that don't have any.
         for(ItemInfo item : items){
-
+            //If an item has the parent model field set, make a redirect to that instead and don't do anything else.
             if(!item.getParentModel().isEmpty()){
                 if(MODELS.containsKey(item.getParentModel())) withExistingParent("item/"+item.getId(), modLoc("item/"+MODELS.get(item.getParentModel())));
                 else withExistingParent("item/"+item.getId(), modLoc("item/"+item.getParentModel()));
                 continue;
             }
-
+            //If the model already exists, either premade or generated, skip to the next item.
             if(assetExists("models/item/"+item.getId()+".json")) continue;
+            //Create a simple item model with just one texture.
             ItemModelBuilder modelBuilder = withExistingParent("item/"+item.getId(), mcLoc("item/generated"));
+            //Same deal as earlier, just without the namespace check. The item id becomes the key when searching for a texture.
             if(MAIN_TEXTURES.containsKey(item.getId())) modelBuilder.texture("layer0", modLoc("item/main/"+MAIN_TEXTURES.get(item.getId())));
             else if (DEV_TEXTURES.containsKey(item.getId())) modelBuilder.texture("layer0", modLoc("item/dev/"+DEV_TEXTURES.get(item.getId())));
             else{
                 NyagiBits_Bytes.LOGGER.error("Texture {} was not found anywhere", item.getId());
             }
-            //Handle resourcepack generation for simple items
+            //If there's both a main and dev texture, create an entry for the programmer's art resourcepack.
             if(MAIN_TEXTURES.containsKey(item.getId()) && DEV_TEXTURES.containsKey(item.getId())){
                 withExistingParent("nbnb-programmer-art/assets/nyagibits_bytes/models/item/"+item.getId(), mcLoc("item/generated"))
                         .texture("layer0", modLoc("item/dev/"+DEV_TEXTURES.get(item.getId())));
             }
         }
 
+        //Blocks need item models too. They just need to point to the respective block though, so it's not a big deal.
         for(BlockInfo block : ModBlocks.BLOCKS_LIST){
-            //Yes, item model. This is for the block items, not actual blocks.
             if(!assetExists("models/item/"+block.getId()+".json")){
                 withExistingParent("item/"+block.getId(), Utils.NBNB("block/"+block.getId()));
             }
@@ -114,8 +128,11 @@ public class ItemModelDatagen extends ItemModelProvider {
     private JsonObject getTextureData(String modelPath){
         JsonObject output = null;
         try{
+            //Grab the actual model json file and open it.
             JsonObject modelJson = JsonParser.parseReader(Files.newBufferedReader(Path.of(modelPath))).getAsJsonObject();
-            //Damn you, livisite alloy
+            //This should be elsewhere. But we have the model open here so might as well.
+            //For SOME reason, livisite alloy, the only item to have different models for gui and in-world, becomes invisible when processed normally.
+            //So if there's the loaded property, so far exclusive to that, just copy the actual json file over and call it a day.
             if(modelJson.has("loader")){
                 Files.copy(Path.of(modelPath), Path.of("../src/generated/resources/assets/nyagibits_bytes/models/item/"+Path.of(modelPath).getFileName()), StandardCopyOption.REPLACE_EXISTING);
                 return null;

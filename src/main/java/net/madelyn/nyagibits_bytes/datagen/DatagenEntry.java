@@ -14,6 +14,7 @@ import java.util.Map;
 @Mod.EventBusSubscriber(modid = NyagiBits_Bytes.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class DatagenEntry {
 
+    //This starts the entire datagen process.
     @SubscribeEvent
     public static void doDatagen(GatherDataEvent event){
         DataGenerator generator = event.getGenerator();
@@ -26,17 +27,22 @@ public class DatagenEntry {
         }
     }
 
+    //This is sinful. There's probably a far better way to do this.
     public static Map<String, String> scanAssets(Path dir, Map<String, String> map, String extension){
         try{
+            //This goes through all the files in the path, going down subfolders as well.
             Files.walk(dir)
+                    //It actually lists all paths, including folders, so we start filtering.
                     .filter(Files::isRegularFile)
+                    //We pass an extension, either .json or .png to ensure we don't index unnecesarry stuff like bbmodel or png.mcmeta
                     .filter(path -> path.getFileName().toString().endsWith(extension))
                     .forEach(path -> {
+                        //The end result is key:raw_argentite, value:minerals/raw_argentite
                         map.put(path.getFileName().toString().replaceFirst(extension, ""),
                                 dir.relativize(path).toString().replaceFirst(extension, ""));
                     });
 
-
+        //You need this most times you try to do stuff with Files.
         } catch (IOException e){
             e.printStackTrace();
         }

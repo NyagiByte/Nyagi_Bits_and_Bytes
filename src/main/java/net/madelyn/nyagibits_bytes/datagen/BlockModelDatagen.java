@@ -19,6 +19,8 @@ import java.nio.file.Path;
 import java.util.HashMap;
 import java.util.Map;
 
+//I...cbf to fully document this one too. Look at ItemModelProvider, the logic is near identical.
+
 public class BlockModelDatagen extends BlockModelProvider {
 
     private Map<String, String> DEV_TEXTURES = new HashMap<>();
@@ -29,7 +31,6 @@ public class BlockModelDatagen extends BlockModelProvider {
 
     public BlockModelDatagen(DataGenerator generator, ExistingFileHelper helper){
         super(generator, NyagiBits_Bytes.MOD_ID, helper);
-        //Scan all the existing assets to create maps to find each model or texture down the line.
         DatagenEntry.scanAssets(Path.of(PATH + "textures/block/dev"), DEV_TEXTURES, ".png");
         DatagenEntry.scanAssets(Path.of(PATH + "textures/block/main"), MAIN_TEXTURES, ".png");
         DatagenEntry.scanAssets(Path.of(PATH + "models/block/"), MODELS, ".json");
@@ -40,7 +41,6 @@ public class BlockModelDatagen extends BlockModelProvider {
         for(Map.Entry<String, String> entry : MODELS.entrySet()){
             String key = entry.getKey();
             String value = entry.getValue();
-            //If someone ignores the warning to not put models in the root models folder instead of a subfolder, abort for this item.
             if(assetExists("models/block/"+key+".json")){
                 NyagiBits_Bytes.LOGGER.error("Model found in root models folder: {} It should function, but won't be adapted.", value);
                 continue;
@@ -56,7 +56,6 @@ public class BlockModelDatagen extends BlockModelProvider {
                 String textureID = texture.getValue().getAsString();
                 String namespace = (!textureID.contains(":")) ? "minecraft" : textureID.substring(0, textureID.indexOf(":"));
                 textureID = textureID.substring(textureID.lastIndexOf("/")+1);
-                //Damn you, pile of cogs
                 if(!namespace.equals("nyagibits_bytes")) try { modelBuilder.texture(texture.getKey(), texture.getValue().getAsString()); } catch (Exception ignored) {}
                 else if (MAIN_TEXTURES.containsKey(textureID)) modelBuilder.texture(texture.getKey(), modLoc("block/main/"+MAIN_TEXTURES.get(textureID)));
                 else if (DEV_TEXTURES.containsKey(textureID)) modelBuilder.texture(texture.getKey(), modLoc("block/dev/"+DEV_TEXTURES.get(textureID)));
