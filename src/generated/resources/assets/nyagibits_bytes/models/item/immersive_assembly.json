@@ -1,24 +1,24 @@
 {
   "parent": "nyagibits_bytes:item/immersive/immersive_assembly",
   "textures": {
-    "0": "nyagibits_bytes:item/dev/triple_bay_4s_series_toolbox",
-    "10": "nyagibits_bytes:item/dev/sturdy_box",
+    "0": "nyagibits_bytes:item/dev/immersive/triple_bay_4s_series_toolbox",
+    "10": "nyagibits_bytes:item/dev/science/sturdy_box",
     "11": "nyagibits_bytes:item/dev/dampener",
     "12": "nyagibits_bytes:item/dev/reinforced_gearbox",
-    "13": "nyagibits_bytes:item/dev/v_belt",
+    "13": "nyagibits_bytes:item/dev/immersive/v_belt",
     "14": "nyagibits_bytes:item/dev/solenoid_component",
-    "15": "nyagibits_bytes:item/dev/synchronous_electric_motor",
+    "15": "nyagibits_bytes:item/dev/immersive/synchronous_electric_motor",
     "16": "nyagibits_bytes:item/dev/fasteners",
     "17": "nyagibits_bytes:item/dev/hardened_mechanical_bearing",
-    "18": "nyagibits_bytes:item/dev/high_strength_concrete",
-    "2": "nyagibits_bytes:item/dev/organic_vapor_respirator",
-    "3": "nyagibits_bytes:item/dev/fire_extinguisher",
-    "4": "nyagibits_bytes:item/dev/protective_eye_wear",
-    "5": "nyagibits_bytes:item/dev/hard_hat",
-    "6": "nyagibits_bytes:item/dev/high_temperature_heat_exchanger_assembly_item",
-    "7": "nyagibits_bytes:item/dev/duct_tape",
-    "8": "nyagibits_bytes:item/dev/wd_40",
-    "9": "nyagibits_bytes:item/dev/acetylene_tank",
-    "particle": "nyagibits_bytes:item/dev/high_strength_concrete"
+    "18": "nyagibits_bytes:item/dev/immersive/high_strength_concrete",
+    "2": "nyagibits_bytes:item/dev/immersive/organic_vapor_respirator",
+    "3": "nyagibits_bytes:item/dev/immersive/fire_extinguisher",
+    "4": "nyagibits_bytes:item/dev/immersive/protective_eye_wear",
+    "5": "nyagibits_bytes:item/dev/immersive/hard_hat",
+    "6": "nyagibits_bytes:item/dev/immersive/high_temperature_heat_exchanger_assembly_item",
+    "7": "nyagibits_bytes:item/dev/immersive/duct_tape",
+    "8": "nyagibits_bytes:item/dev/immersive/wd_40",
+    "9": "nyagibits_bytes:item/dev/immersive/acetylene_tank",
+    "particle": "nyagibits_bytes:item/dev/immersive/high_strength_concrete"
   }
 }

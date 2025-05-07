@@ -1,7 +1,7 @@
 {
   "parent": "nyagibits_bytes:item/misc/chemistry_rack",
   "textures": {
-    "0": "nyagibits_bytes:item/dev/chemistry_rack",
-    "particle": "nyagibits_bytes:item/dev/chemistry_rack"
+    "0": "nyagibits_bytes:item/dev/science/chemistry_rack",
+    "particle": "nyagibits_bytes:item/dev/science/chemistry_rack"
   }
 }

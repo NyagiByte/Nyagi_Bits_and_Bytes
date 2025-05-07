@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "nyagibits_bytes:item/dev/precise_crystal_harmonizer"
+    "layer0": "nyagibits_bytes:item/dev/bmpt/precise_crystal_harmonizer"
   }
 }

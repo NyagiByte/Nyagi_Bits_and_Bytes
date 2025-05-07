@@ -1,7 +1,7 @@
 {
   "parent": "nyagibits_bytes:item/misc/industrial_composite_plate",
   "textures": {
-    "0": "nyagibits_bytes:item/dev/industrial_composite_plate",
-    "particle": "nyagibits_bytes:item/dev/industrial_composite_plate"
+    "0": "nyagibits_bytes:item/dev/bmpt/industrial_composite_plate",
+    "particle": "nyagibits_bytes:item/dev/bmpt/industrial_composite_plate"
   }
 }

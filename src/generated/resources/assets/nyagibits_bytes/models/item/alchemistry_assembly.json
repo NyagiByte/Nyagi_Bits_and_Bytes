@@ -3,7 +3,7 @@
   "textures": {
     "0": "nyagibits_bytes:item/dev/alchemistry/tray",
     "1": "nyagibits_bytes:item/dev/alchemistry/inlet",
-    "10": "nyagibits_bytes:item/dev/strips",
+    "10": "nyagibits_bytes:item/dev/alchemistry/strips",
     "11": "nyagibits_bytes:item/dev/alchemistry/desiccation_powder",
     "12": "nyagibits_bytes:item/dev/alchemistry/chromatography_kit",
     "13": "nyagibits_bytes:item/dev/inert_wood_single_plank",

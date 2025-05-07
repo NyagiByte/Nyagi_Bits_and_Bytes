@@ -1,6 +1,6 @@
 {
   "parent": "nyagibits_bytes:item/misc/bottle_of_anthocyanin",
   "textures": {
-    "layer0": "nyagibits_bytes:item/dev/anthocyanin"
+    "layer0": "nyagibits_bytes:item/dev/chemicals/anthocyanin"
   }
 }

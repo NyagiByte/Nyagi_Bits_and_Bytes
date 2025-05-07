@@ -1,7 +1,7 @@
 {
   "parent": "nyagibits_bytes:item/immersive/high_temperature_heat_exchanger",
   "textures": {
-    "0": "nyagibits_bytes:item/dev/high_temperature_heat_exchanger",
-    "particle": "nyagibits_bytes:item/dev/high_temperature_heat_exchanger"
+    "0": "nyagibits_bytes:item/dev/immersive/high_temperature_heat_exchanger",
+    "particle": "nyagibits_bytes:item/dev/immersive/high_temperature_heat_exchanger"
   }
 }

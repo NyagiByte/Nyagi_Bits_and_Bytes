@@ -37,7 +37,7 @@ public class DatagenEntry {
                     //We pass an extension, either .json or .png to ensure we don't index unnecesarry stuff like bbmodel or png.mcmeta
                     .filter(path -> path.getFileName().toString().endsWith(extension))
                     .forEach(path -> {
-                        //The end result is key:raw_argentite, value:minerals/raw_argentite
+                        //The end result is key:sintered_argentite, value:minerals/sintered/sintered_argentite
                         map.put(path.getFileName().toString().replaceFirst(extension, ""),
                                 dir.relativize(path).toString().replaceFirst(extension, ""));
                     });

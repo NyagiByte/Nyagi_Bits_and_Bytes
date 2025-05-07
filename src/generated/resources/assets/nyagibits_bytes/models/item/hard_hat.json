@@ -1,7 +1,7 @@
 {
   "parent": "nyagibits_bytes:item/immersive/hard_hat",
   "textures": {
-    "0": "nyagibits_bytes:item/dev/hard_hat",
-    "particle": "nyagibits_bytes:item/dev/hard_hat"
+    "0": "nyagibits_bytes:item/dev/immersive/hard_hat",
+    "particle": "nyagibits_bytes:item/dev/immersive/hard_hat"
   }
 }

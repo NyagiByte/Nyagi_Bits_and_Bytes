@@ -1,8 +1,8 @@
 {
   "parent": "nyagibits_bytes:item/misc/mini_faraday_cage",
   "textures": {
-    "0": "nyagibits_bytes:item/dev/base_copper_mesh_cube",
-    "1": "nyagibits_bytes:item/dev/iron_interlink_mesh_segment",
-    "particle": "nyagibits_bytes:item/dev/base_copper_mesh_cube"
+    "0": "nyagibits_bytes:item/dev/bmpt/base_copper_mesh_cube",
+    "1": "nyagibits_bytes:item/dev/bmpt/iron_interlink_mesh_segment",
+    "particle": "nyagibits_bytes:item/dev/bmpt/base_copper_mesh_cube"
   }
 }

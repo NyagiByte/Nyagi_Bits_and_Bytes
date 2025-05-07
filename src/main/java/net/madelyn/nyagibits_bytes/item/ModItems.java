@@ -1201,8 +1201,11 @@ public class ModItems {
           //Pezzottaite Dust
           new ItemInfo("pezzottaite_dust", Type.ITEM, Tab.MINERALS),
 
-
           //Create Sequenced Assembly Intermediates
+
+          //Note: The 4th parameter is to pick what model the item uses instead, to avoid having to repeat models.
+          //This works with any ItemInfo, but is mostly relevant for these.
+
           // Incomplete Controller added 2/20/24 - Nyagi
           new ItemInfo("incomplete_controller", Type.ITEM, Tab.SEQUENCE, "incomplete_ae2_assembly"),
           // Incomplete Cell Workbench added 2/20/24 - Nyagi

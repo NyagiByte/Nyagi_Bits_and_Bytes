@@ -1,7 +1,7 @@
 {
   "parent": "nyagibits_bytes:item/immersive/duct_tape",
   "textures": {
-    "0": "nyagibits_bytes:item/dev/duct_tape",
-    "particle": "nyagibits_bytes:item/dev/duct_tape"
+    "0": "nyagibits_bytes:item/dev/immersive/duct_tape",
+    "particle": "nyagibits_bytes:item/dev/immersive/duct_tape"
   }
 }

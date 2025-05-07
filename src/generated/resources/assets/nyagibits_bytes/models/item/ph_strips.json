@@ -2,7 +2,7 @@
   "parent": "nyagibits_bytes:item/alchemistry/ph_strips",
   "textures": {
     "0": "nyagibits_bytes:item/dev/alchemistry/ph_strips",
-    "1": "nyagibits_bytes:item/dev/strips",
+    "1": "nyagibits_bytes:item/dev/alchemistry/strips",
     "particle": "nyagibits_bytes:item/dev/alchemistry/ph_strips"
   }
 }

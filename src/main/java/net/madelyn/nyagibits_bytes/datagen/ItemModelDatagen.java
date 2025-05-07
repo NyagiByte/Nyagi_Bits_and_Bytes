@@ -40,6 +40,14 @@ public class ItemModelDatagen extends ItemModelProvider {
         DatagenEntry.scanAssets(Path.of(PATH + "textures/item/main"), MAIN_TEXTURES, ".png");
         DatagenEntry.scanAssets(Path.of(PATH + "models/item/"), MODELS, ".json");
     }
+    /*
+    Notes on some methods used in this
+    modLoc("something") means ResourceLocation with the nyagibits_bytes namespace.
+    mcLoc("something") means ResourceLocation with the vanilla namespace.
+    withExistingParent(location, parent) generates a model at <location> with the parent field set to <parent> and returns an ItemModelBuilder.
+    The 3 maps used in this are formatted like this: (Key: <filename>, Value: <file path within its folder>)
+    Example: (Key:sintered_argentite, Value:minerals/sintered/sintered_argentite)
+     */
 
     //Oh boy, here we go.
     @Override
@@ -78,13 +86,13 @@ public class ItemModelDatagen extends ItemModelProvider {
                 String namespace = (!textureID.contains(":")) ? "minecraft" : textureID.substring(0, textureID.indexOf(":"));
                 //This is just the filename without extension, which can be used as a key for the texture maps.
                 textureID = textureID.substring(textureID.lastIndexOf("/")+1);
-                //This is some yandere type shit. Anyway-
+                //This is some yandere dev type shit. Anyway-
                 //It's a priority system.If the namespace if not NB&B, let the original texture through. If a texture exists in the main folder, use that. Otherwise, try to use a dev texture.
                 if(!namespace.equals("nyagibits_bytes")) try { modelBuilder.texture(texture.getKey(), texture.getValue().getAsString()); } catch (Exception ignored) {}
                 else if (MAIN_TEXTURES.containsKey(textureID)) modelBuilder.texture(texture.getKey(), modLoc("item/main/"+MAIN_TEXTURES.get(textureID)));
                 else if (DEV_TEXTURES.containsKey(textureID)) modelBuilder.texture(texture.getKey(), modLoc("item/dev/"+DEV_TEXTURES.get(textureID)));
                 else{
-                    //For some reason, this fires on...flake? Yeah idk.
+                    //If this shows up, check for typos or rogue item models that aren't supposed to be there.
                     NyagiBits_Bytes.LOGGER.error("Texture {} was not found anywhere", textureID);
                 }
             }
@@ -132,7 +140,7 @@ public class ItemModelDatagen extends ItemModelProvider {
             JsonObject modelJson = JsonParser.parseReader(Files.newBufferedReader(Path.of(modelPath))).getAsJsonObject();
             //This should be elsewhere. But we have the model open here so might as well.
             //For SOME reason, livisite alloy, the only item to have different models for gui and in-world, becomes invisible when processed normally.
-            //So if there's the loaded property, so far exclusive to that, just copy the actual json file over and call it a day.
+            //So if there's the loader property, so far exclusive to that, just copy the actual json file over and call it a day. It doesn't need texture remapping anyway.
             if(modelJson.has("loader")){
                 Files.copy(Path.of(modelPath), Path.of("../src/generated/resources/assets/nyagibits_bytes/models/item/"+Path.of(modelPath).getFileName()), StandardCopyOption.REPLACE_EXISTING);
                 return null;
