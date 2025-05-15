@@ -27,6 +27,11 @@ public class DatagenEntry {
         }
     }
 
+    //This is to make datagen work for windows plebs. Forwards slashes and backslashes get mixed up on windows.
+    public static String fixSlash(String s){
+        return s.replaceAll("\\\\", "/");
+    }
+
     //This is sinful. There's probably a far better way to do this.
     public static Map<String, String> scanAssets(Path dir, Map<String, String> map, String extension){
         try{
@@ -39,7 +44,7 @@ public class DatagenEntry {
                     .forEach(path -> {
                         //The end result is key:sintered_argentite, value:minerals/sintered/sintered_argentite
                         map.put(path.getFileName().toString().replaceFirst(extension, ""),
-                                dir.relativize(path).toString().replaceFirst(extension, ""));
+                                fixSlash(dir.relativize(path).toString().replaceFirst(extension, "")));
                     });
 
         //You need this most times you try to do stuff with Files.
