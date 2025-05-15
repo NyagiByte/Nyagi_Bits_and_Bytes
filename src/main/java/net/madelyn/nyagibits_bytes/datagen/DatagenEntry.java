@@ -31,7 +31,7 @@ public class DatagenEntry {
     public static Map<String, String> scanAssets(Path dir, Map<String, String> map, String extension){
         try{
             //This goes through all the files in the path, going down subfolders as well.
-            Files.walk(dir)
+            Files.walk(dir.normalize())
                     //It actually lists all paths, including folders, so we start filtering.
                     .filter(Files::isRegularFile)
                     //We pass an extension, either .json or .png to ensure we don't index unnecesarry stuff like bbmodel or png.mcmeta
