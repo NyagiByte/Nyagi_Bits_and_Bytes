@@ -398,6 +398,27 @@ public class ModItems {
           new ItemInfo("saturated_carbon_waste", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // Carbon Residue added 02/13/25 - JJ
           new ItemInfo("carbon_residue", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          //  Bitumen-Tar Cloth Dust added 03/27/25 - Nyagi
+          new ItemInfo("bitumen_tar_cloth", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          //  Waterproofing Kit Dust added 03/27/25 - Nyagi
+          new ItemInfo("waterproofing_kit", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          //  Unprocessed Mild Steel added 03/27/25 - Nyagi
+          new ItemInfo("unprocessed_mild_steel", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          //  Stainless Steel Mix added 03/27/25 - Nyagi
+          new ItemInfo("mix_steel_stainless", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          //  1080 Steel Mix added 03/27/25 - Nyagi
+          new ItemInfo("mix_steel_1080", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          //  15n20 Steel Mix added 03/27/25 - Nyagi
+          new ItemInfo("mix_steel_15n20", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          //  Torn Hemp Ball added 03/27/25 - Nyagi
+          new ItemInfo("torn_hemp_ball", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          //  Torn Flax Ball added 03/27/25 - Nyagi
+          new ItemInfo("torn_flax_ball", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          //  Woolen String added 03/27/25 - Nyagi
+          new ItemInfo("string_woolen", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+
+          //Chemistry
+
           // Methyl Chloride Sample added 5/16/24 - Nyagi
           new ItemInfo("sample_methyl_chloride", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
           // Ethylene Oxide Sample added 5/22/24 - Nyagi
@@ -454,24 +475,6 @@ public class ModItems {
           new ItemInfo("tert_butyl_alcohol_dust", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
           //  Methylmagnesium Chloride Dust added 02/20/25 - Nyagi
           new ItemInfo("methylmagnesium_chloride_dust", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
-          //  Bitumen-Tar Cloth Dust added 03/27/25 - Nyagi
-          new ItemInfo("bitumen_tar_cloth", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          //  Waterproofing Kit Dust added 03/27/25 - Nyagi
-          new ItemInfo("waterproofing_kit", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          //  Unprocessed Mild Steel added 03/27/25 - Nyagi
-          new ItemInfo("unprocessed_mild_steel", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          //  Stainless Steel Mix added 03/27/25 - Nyagi
-          new ItemInfo("mix_steel_stainless", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          //  1080 Steel Mix added 03/27/25 - Nyagi
-          new ItemInfo("mix_steel_1080", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          //  15n20 Steel Mix added 03/27/25 - Nyagi
-          new ItemInfo("mix_steel_15n20", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          //  Torn Hemp Ball added 03/27/25 - Nyagi
-          new ItemInfo("torn_hemp_ball", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          //  Torn Flax Ball added 03/27/25 - Nyagi
-          new ItemInfo("torn_flax_ball", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          //  Woolen String added 03/27/25 - Nyagi
-          new ItemInfo("string_woolen", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
 
           //Biology
           // Empty Petri Dish added 3/20/24 - Nyagi
