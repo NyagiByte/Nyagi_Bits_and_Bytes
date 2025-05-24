@@ -418,7 +418,6 @@ public class ModItems {
           new ItemInfo("string_woolen", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
 
           //Chemistry
-
           // Methyl Chloride Sample added 5/16/24 - Nyagi
           new ItemInfo("sample_methyl_chloride", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
           // Ethylene Oxide Sample added 5/22/24 - Nyagi
@@ -475,6 +474,31 @@ public class ModItems {
           new ItemInfo("tert_butyl_alcohol_dust", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
           //  Methylmagnesium Chloride Dust added 02/20/25 - Nyagi
           new ItemInfo("methylmagnesium_chloride_dust", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Generic Organic Tailings added 05/15/25 - Nyagi
+          new ItemInfo("sample_organic_tailings_generic", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+            //  Sample of Light Organic Tailings added 05/15/25 - Nyagi
+            new ItemInfo("sample_organic_tailings_light", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+            //  Sample of Heavy Organic Tailings added 05/15/25 - Nyagi
+            new ItemInfo("sample_organic_tailings_heavy", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Generic Lithic Tailings added 05/15/25 - Nyagi
+          new ItemInfo("sample_lithic_tailings_generic", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+              //  Generic Lithic Tailings Dust added 05/15/25 - Nyagi
+              new ItemInfo("dust_lithic_tailings_generic", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+            //  Sample of Light Lithic Tailings added 05/15/25 - Nyagi
+            new ItemInfo("sample_lithic_tailings_light", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+              //  Light Lithic Tailings Dust added 05/15/25 - Nyagi
+              new ItemInfo("dust_lithic_tailings_light", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+            //  Sample of Heavy Lithic Tailings added 05/15/25 - Nyagi
+            new ItemInfo("sample_lithic_tailings_heavy", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+              //  Heavy Lithic Tailings Dust added 05/15/25 - Nyagi
+              new ItemInfo("dust_lithic_tailings_heavy", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Unidentified Generic Solid Metallic Tailings added 05/19/25 - Nyagi
+          new ItemInfo("sample_unidentified_solid_metallic_tailings_generic", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+            //  Unidentified Generic Solid Metallic Tailings Dust added 05/19/25 - Nyagi
+            new ItemInfo("dust_unidentified_solid_metallic_tailings_generic", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Unidentified Generic Dissolved Metallic Tailings added 05/19/25 - Nyagi
+          new ItemInfo("sample_unidentified_dissolved_metallic_tailings_generic", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+
 
           //Biology
           // Empty Petri Dish added 3/20/24 - Nyagi
