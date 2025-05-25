@@ -1,4 +1,4 @@
-// 1.19.2	2025-05-19T01:08:58.7858115	Item Models: nyagibits_bytes
+// 1.19.2	2025-05-25T16:44:45.4266559	Item Models: nyagibits_bytes
 e243c451bf3f2b3afeb641ddcb12eb5f8ad1906d assets/nyagibits_bytes/models/item/2d_textures.json
 a1570e6fb1739636dbe8e54f331e6b1fb92aab30 assets/nyagibits_bytes/models/item/2lbxyud1od.json
 156841b1102efba74884e0555b12faf6ff5a0424 assets/nyagibits_bytes/models/item/7y5r4jwg8m.json
@@ -758,6 +758,7 @@ b2985f283778d253046eb6655d9621f125046dfa assets/nyagibits_bytes/models/item/used
 9895f274dd460f25e0ff89487764b1a785f8b6a9 assets/nyagibits_bytes/models/item/used_mana_bomb_calorimeter.json
 60371342791a911d4ad46cc30897b270fdf0ea9e assets/nyagibits_bytes/models/item/used_single_use_mana_ablatives_demonstration.json
 a11f933e07613f6f23c5ef11b83043440ff00a4b assets/nyagibits_bytes/models/item/vhzlw7iim4.json
+09ed03dde8ca2ca1243546aecd1eb31fff93950d assets/nyagibits_bytes/models/item/vine_cutting.json
 b1ff1f887ad2dc388a779eeab3db9b085358b449 assets/nyagibits_bytes/models/item/volcanic_pumice.json
 4315244e82071eb0e5c22ef5496b2beedb80a5bc assets/nyagibits_bytes/models/item/volcanic_pumice_block.json
 95d36fcb8b66b238c4099d86f72c940e7dcc721d assets/nyagibits_bytes/models/item/v_belt.json

@@ -409,6 +409,8 @@
   "item.nyagibits_bytes.leather_unprocessed_equidae.desc": "The skin of a equidae (horse-ish). It's so wet",
   "item.nyagibits_bytes.leather_equidae": "Equidae Leather",
   "item.nyagibits_bytes.leather_equidae.desc": "The skin of a equidae (horse-ish) but treated",
+  "item.nyagibits_bytes.vine_cutting": "Vine Cutting",
+  "item.nyagibits_bytes.vine_cutting.desc": "Biodegradable confetti",
 
   "item.nyagibits_bytes.lab_notebook": "Lab Notebook",
   "item.nyagibits_bytes.lab_notebook.desc": "Science is fucking around\nand finding out, but you\nalso take some notes!",

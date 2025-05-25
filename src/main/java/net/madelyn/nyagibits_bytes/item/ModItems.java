@@ -540,6 +540,8 @@ public class ModItems {
             new ItemInfo("leather_unprocessed_equidae", Type.CUSTOM_TOOLTIP, Tab.BIOLOGY),
               //  Horse Equidae added 03/27/25 - Nyagi
               new ItemInfo("leather_equidae", Type.CUSTOM_TOOLTIP, Tab.BIOLOGY),
+          //  Vine Cutting added 05/25/25 - Nyagi
+          new ItemInfo("vine_cutting", Type.CUSTOM_TOOLTIP, Tab.BIOLOGY),
 
           //Custom Botania Runes
           // Blank Rune added 3/8/24 - Nyagi
