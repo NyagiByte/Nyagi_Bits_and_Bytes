@@ -116,14 +116,6 @@ public class ModItems {
           new ItemInfo("compacted_soil", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // Tough Bag added 3/17/24 - Nyagi
           new ItemInfo("tough_bag", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          // Agar-Gel added 3/25/24 - Nyagi
-          new ItemInfo("agar_gel", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          // Agar-Flakes added 3/25/24 - Nyagi
-          new ItemInfo("agar_flakes", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          // Agar-Powder added 3/25/24 - Nyagi
-          new ItemInfo("agar_powder", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          // Agar-Agar added 3/20/24 - Nyagi
-          new ItemInfo("agar_agar", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // Sponged Steel added 3/25/24 - Nyagi
           new ItemInfo("sponged_steel", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // Sodium Polyacrylate added 3/26/24 - Nyagi
@@ -501,10 +493,18 @@ public class ModItems {
 
 
           //Biology
+          // Agar-Gel added 3/25/24 - Nyagi
+          new ItemInfo("agar_gel", Type.CUSTOM_TOOLTIP, Tab.BIOLOGY),
+          // Agar-Flakes added 3/25/24 - Nyagi
+          new ItemInfo("agar_flakes", Type.CUSTOM_TOOLTIP, Tab.BIOLOGY),
+          // Agar-Powder added 3/25/24 - Nyagi
+          new ItemInfo("agar_powder", Type.CUSTOM_TOOLTIP, Tab.BIOLOGY),
+          // Agar-Agar added 3/20/24 - Nyagi
+          new ItemInfo("agar_agar", Type.CUSTOM_TOOLTIP, Tab.BIOLOGY),
           // Empty Petri Dish added 3/20/24 - Nyagi
-          new ItemInfo("petri_dish_empty", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          new ItemInfo("petri_dish_empty", Type.CUSTOM_TOOLTIP, Tab.BIOLOGY),
           // Agar-Agar Petri Dish added 3/20/24 - Nyagi
-          new ItemInfo("petri_dish_agar_agar", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          new ItemInfo("petri_dish_agar_agar", Type.CUSTOM_TOOLTIP, Tab.BIOLOGY),
           //  Stomach added 03/27/25 - Nyagi
           new ItemInfo("stomach", Type.CUSTOM_TOOLTIP, Tab.BIOLOGY),
           //  Ruminant Stomach added 03/27/25 - Nyagi
