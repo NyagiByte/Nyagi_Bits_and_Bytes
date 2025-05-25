@@ -102,10 +102,6 @@ public class ModItems {
           new ItemInfo("calculation_dud", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // Engineering Dud added 8/10/23 - Nyagi
           new ItemInfo("engineering_dud", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          // Bottle of Anthocyanin added 8/27/23 - Nyagi
-          new ItemInfo("bottle_of_anthocyanin", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          // Bottle of Malic & Citric Acid added 8/27/23 - Nyagi
-          new ItemInfo("bottle_of_malic_and_citric_acid", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // Chemistry Rack added 8/27/23 - Nyagi
           new ItemInfo("chemistry_rack", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // Basic Composite Material added 8/27/23 - Nyagi
@@ -162,8 +158,6 @@ public class ModItems {
           new ItemInfo("sterilized_quartz_glass", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // pH Strip added 4/10/24 - Nyagi
           new ItemInfo("ph_strip", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          // Bottle of Vinegar added 4/10/24 - Nyagi
-          new ItemInfo("bottle_of_vinegar", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // Low Grade Coke added 4/21/24 - Nyagi
           new ItemInfo("low_grade_coke", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // Industrial Grade Coke added 4/21/24 - Nyagi
@@ -410,6 +404,12 @@ public class ModItems {
           new ItemInfo("string_woolen", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
 
           //Chemistry
+          // Bottle of Anthocyanin added 8/27/23 - Nyagi
+          new ItemInfo("bottle_of_anthocyanin", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          // Bottle of Malic & Citric Acid added 8/27/23 - Nyagi
+          new ItemInfo("bottle_of_malic_and_citric_acid", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          // Bottle of Vinegar added 4/10/24 - Nyagi
+          new ItemInfo("bottle_of_vinegar", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
           // Methyl Chloride Sample added 5/16/24 - Nyagi
           new ItemInfo("sample_methyl_chloride", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
           // Ethylene Oxide Sample added 5/22/24 - Nyagi
