@@ -372,8 +372,11 @@
   "item.nyagibits_bytes.dust_lithic_tailings_heavy": "Heavy Lithic Tailings Dust",
   "item.nyagibits_bytes.dust_lithic_tailings_heavy.desc": "Would be a real shame if\nthis was the primary way to\nsource goodies in a landless\nworld",
   "item.nyagibits_bytes.sample_unidentified_solid_metallic_tailings_generic": "Sample of Unidentified Generic Solid Metallic Tailings",
+  "item.nyagibits_bytes.sample_unidentified_solid_metallic_tailings_generic.desc": "A bunch of stuff pulled from ore processing.\nIt may be toxic, useful, or both!",
   "item.nyagibits_bytes.dust_unidentified_solid_metallic_tailings_generic": "Unidentified Generic Solid Metallic Tailings Dust",
+  "item.nyagibits_bytes.dust_unidentified_solid_metallic_tailings_generic.desc": "This pile of material may or may not\nentitle you for financial compensation",
   "item.nyagibits_bytes.sample_unidentified_dissolved_metallic_tailings_generic": "Sample of Unidentified Generic Dissolved Metallic Tailings",
+  "item.nyagibits_bytes.sample_unidentified_dissolved_metallic_tailings_generic.desc": "A bunch of stuff pulled from ore processing,\nbut a lot more acidic this time. Hope there isn't\nanything too volatile",
 
   "item.nyagibits_bytes.stomach": "Stomach",
   "item.nyagibits_bytes.stomach.desc": "This where da food go",
