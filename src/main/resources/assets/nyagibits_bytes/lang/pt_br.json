@@ -372,8 +372,11 @@
   "item.nyagibits_bytes.dust_lithic_tailings_heavy": "Pó de Rejeitos Líticos Leve Pesado",
   "item.nyagibits_bytes.dust_lithic_tailings_heavy.desc": "Seria uma pena se nessa fosse a principal forma\nde obter bens em um mundo sem terra.",
   "item.nyagibits_bytes.sample_unidentified_solid_metallic_tailings_generic": "Amostra de Rejeitos Metálicos Sólidos Genéricos Não Identificados",
+  "item.nyagibits_bytes.sample_unidentified_solid_metallic_tailings_generic.desc": "Um monte de coisas retiradas do processamento de minérios.\nTalvéz seja tóxico, útil, ou ambos!",
   "item.nyagibits_bytes.dust_unidentified_solid_metallic_tailings_generic": "Pó de Rejeitos Metálicos Sólidos Genéricos Não Identificados",
+  "item.nyagibits_bytes.dust_unidentified_solid_metallic_tailings_generic.desc": "Esta pilha de material pode ou não pode\nte entitular para compensação financeira",
   "item.nyagibits_bytes.sample_unidentified_dissolved_metallic_tailings_generic": "Amostra de Rejeitos Metálicos Dissolvidos Genéricos Não Identificados",
+  "item.nyagibits_bytes.sample_unidentified_dissolved_metallic_tailings_generic.desc": "Um monte de coisas retiradas do processamento de minérios,\nporém muito mais acídico desta vêz.\nReze para que não há nada muito volátil",
 
   "item.nyagibits_bytes.stomach": "Estomago",
   "item.nyagibits_bytes.stomach.desc": "É onde a comida vai",
@@ -409,6 +412,8 @@
   "item.nyagibits_bytes.leather_unprocessed_equidae.desc": "A pele de um equídeo (tipo um cavalo). Está tão molhada",
   "item.nyagibits_bytes.leather_equidae": "Couro de Equídeo",
   "item.nyagibits_bytes.leather_equidae.desc": "A pele de um equídeo (tipo um cavalo) só que tratada",
+  "item.nyagibits_bytes.vine_cutting": "Cortes de Trepadeira",
+  "item.nyagibits_bytes.vine_cutting.desc": "Confeti Biodegradável",
 
   "item.nyagibits_bytes.lab_notebook": "Caderno de Laboratório",
   "item.nyagibits_bytes.lab_notebook.desc": "Ciência é foda-se e\ndescubra-se, mas é importante\ntomar notas!",
