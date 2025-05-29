@@ -1335,7 +1335,7 @@
   "item.nyagibits_bytes.rune_thermodynamic": "Runa Termodinâmica",
   "item.nyagibits_bytes.rune_thermodynamic.desc": "A partir da mana, esta runa basicamente\nfunciona como um trocador de calor\nque você veria numa geladeira",
   "item.nyagibits_bytes.rune_magnetic": "Runa Magnética",
-  "item.nyagibits_bytes.rune_magnetic.desc": "As bobinas eletromagnéticas\nnesta runa parecem que funcionam muito\nmais eficientemente quando açomanaço\nestá presente na sua estrutura",
+  "item.nyagibits_bytes.rune_magnetic.desc": "As bobinas eletromagnéticas\nnesta runa parecem que funcionam muito\nmais eficientemente quando açomanasço\nestá presente na sua estrutura",
   "item.nyagibits_bytes.rune_catalytic": "Runa Catalítica",
   "item.nyagibits_bytes.rune_catalytic.desc": "Similar a catalisadores 'em carbono',\nesta runa é capaz de usar mana para\ntrocar quais materiais são expressados\nna superfície dada qualquer reação",
   "item.nyagibits_bytes.rune_computational": "Runa Computacional",
