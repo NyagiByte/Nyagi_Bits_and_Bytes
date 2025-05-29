@@ -102,10 +102,6 @@ public class ModItems {
           new ItemInfo("calculation_dud", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // Engineering Dud added 8/10/23 - Nyagi
           new ItemInfo("engineering_dud", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          // Bottle of Anthocyanin added 8/27/23 - Nyagi
-          new ItemInfo("bottle_of_anthocyanin", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          // Bottle of Malic & Citric Acid added 8/27/23 - Nyagi
-          new ItemInfo("bottle_of_malic_and_citric_acid", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // Chemistry Rack added 8/27/23 - Nyagi
           new ItemInfo("chemistry_rack", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // Basic Composite Material added 8/27/23 - Nyagi
@@ -116,14 +112,6 @@ public class ModItems {
           new ItemInfo("compacted_soil", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // Tough Bag added 3/17/24 - Nyagi
           new ItemInfo("tough_bag", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          // Agar-Gel added 3/25/24 - Nyagi
-          new ItemInfo("agar_gel", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          // Agar-Flakes added 3/25/24 - Nyagi
-          new ItemInfo("agar_flakes", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          // Agar-Powder added 3/25/24 - Nyagi
-          new ItemInfo("agar_powder", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          // Agar-Agar added 3/20/24 - Nyagi
-          new ItemInfo("agar_agar", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // Sponged Steel added 3/25/24 - Nyagi
           new ItemInfo("sponged_steel", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // Sodium Polyacrylate added 3/26/24 - Nyagi
@@ -170,8 +158,6 @@ public class ModItems {
           new ItemInfo("sterilized_quartz_glass", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // pH Strip added 4/10/24 - Nyagi
           new ItemInfo("ph_strip", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
-          // Bottle of Vinegar added 4/10/24 - Nyagi
-          new ItemInfo("bottle_of_vinegar", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // Low Grade Coke added 4/21/24 - Nyagi
           new ItemInfo("low_grade_coke", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // Industrial Grade Coke added 4/21/24 - Nyagi
@@ -418,6 +404,12 @@ public class ModItems {
           new ItemInfo("string_woolen", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
 
           //Chemistry
+          // Bottle of Anthocyanin added 8/27/23 - Nyagi
+          new ItemInfo("bottle_of_anthocyanin", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          // Bottle of Malic & Citric Acid added 8/27/23 - Nyagi
+          new ItemInfo("bottle_of_malic_and_citric_acid", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          // Bottle of Vinegar added 4/10/24 - Nyagi
+          new ItemInfo("bottle_of_vinegar", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
           // Methyl Chloride Sample added 5/16/24 - Nyagi
           new ItemInfo("sample_methyl_chloride", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
           // Ethylene Oxide Sample added 5/22/24 - Nyagi
@@ -501,10 +493,18 @@ public class ModItems {
 
 
           //Biology
+          // Agar-Gel added 3/25/24 - Nyagi
+          new ItemInfo("agar_gel", Type.CUSTOM_TOOLTIP, Tab.BIOLOGY),
+          // Agar-Flakes added 3/25/24 - Nyagi
+          new ItemInfo("agar_flakes", Type.CUSTOM_TOOLTIP, Tab.BIOLOGY),
+          // Agar-Powder added 3/25/24 - Nyagi
+          new ItemInfo("agar_powder", Type.CUSTOM_TOOLTIP, Tab.BIOLOGY),
+          // Agar-Agar added 3/20/24 - Nyagi
+          new ItemInfo("agar_agar", Type.CUSTOM_TOOLTIP, Tab.BIOLOGY),
           // Empty Petri Dish added 3/20/24 - Nyagi
-          new ItemInfo("petri_dish_empty", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          new ItemInfo("petri_dish_empty", Type.CUSTOM_TOOLTIP, Tab.BIOLOGY),
           // Agar-Agar Petri Dish added 3/20/24 - Nyagi
-          new ItemInfo("petri_dish_agar_agar", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          new ItemInfo("petri_dish_agar_agar", Type.CUSTOM_TOOLTIP, Tab.BIOLOGY),
           //  Stomach added 03/27/25 - Nyagi
           new ItemInfo("stomach", Type.CUSTOM_TOOLTIP, Tab.BIOLOGY),
           //  Ruminant Stomach added 03/27/25 - Nyagi
@@ -540,6 +540,8 @@ public class ModItems {
             new ItemInfo("leather_unprocessed_equidae", Type.CUSTOM_TOOLTIP, Tab.BIOLOGY),
               //  Horse Equidae added 03/27/25 - Nyagi
               new ItemInfo("leather_equidae", Type.CUSTOM_TOOLTIP, Tab.BIOLOGY),
+          //  Vine Cutting added 05/25/25 - Nyagi
+          new ItemInfo("vine_cutting", Type.CUSTOM_TOOLTIP, Tab.BIOLOGY),
 
           //Custom Botania Runes
           // Blank Rune added 3/8/24 - Nyagi
