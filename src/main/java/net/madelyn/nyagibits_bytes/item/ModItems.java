@@ -402,6 +402,24 @@ public class ModItems {
           new ItemInfo("torn_flax_ball", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           //  Woolen String added 03/27/25 - Nyagi
           new ItemInfo("string_woolen", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          //  Unrolled NiCd Stack added 05/27/25 - Nyagi
+          new ItemInfo("unrolled_nicd_stack", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          //  NiCd Jelly Roll added 05/27/25 - Nyagi
+          new ItemInfo("nicd_jelly_roll", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          //  Rolled Mild Steel added 05/27/25 - Nyagi
+          new ItemInfo("rolled_mild_steel", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          //  Small Steel Pipe added 05/27/25 - Nyagi
+          new ItemInfo("small_pipe_steel", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          //  Insulating Washer Mold added 05/27/25 - Nyagi
+          new ItemInfo("mold_insulating_washer", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          //  Insulating Washer added 05/27/25 - Nyagi
+          new ItemInfo("insulating_washer", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          //  NiCd Battery Assembly added 05/27/25 - Nyagi
+          new ItemInfo("nicd_battery_assembly", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          //  NiCd Battery  added 05/27/25 - Nyagi
+          new ItemInfo("nicd_battery", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          //  NiCd Battery Bank added 05/27/25 - Nyagi
+          new ItemInfo("nicd_battery_bank", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
 
           //Chemistry
           // Bottle of Anthocyanin added 8/27/23 - Nyagi
@@ -466,6 +484,29 @@ public class ModItems {
           new ItemInfo("tert_butyl_alcohol_dust", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
           //  Methylmagnesium Chloride Dust added 02/20/25 - Nyagi
           new ItemInfo("methylmagnesium_chloride_dust", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Cadmium Oxide Dust added 05/27/25 - Nyagi
+          new ItemInfo("cadmium_oxide_dust", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Cadmium Oxide added 05/27/25 - Nyagi
+          new ItemInfo("sample_cadmium_oxide", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Cadmium Nitrate Crystal added 05/27/25 - Nyagi
+          new ItemInfo("cadmium_nitrate_crystal", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Nickel(II) Hydroxide Dust added 05/27/25 - Nyagi
+          new ItemInfo("nickel_ii_hydroxide_dust", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Nickel(II) Hydroxide added 05/27/25 - Nyagi
+          new ItemInfo("sample_nickel_ii_hydroxide", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Nickel(III) Oxy-Hydroxide Dust added 05/29/25 - Nyagi
+          new ItemInfo("nickel_iii_oxy_hydroxide_dust", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Nickel(III) Oxy-Hydroxide added 05/29/25 - Nyagi
+          new ItemInfo("sample_nickel_iii_oxy_hydroxide", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Nickel Sulfate Solution added 05/29/25 - Nyagi
+          new ItemInfo("sample_nickel_sulfate_solution", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Diluted Sulfuric Acid added 05/29/25 - Nyagi
+          new ItemInfo("sample_diluted_sulfuric_acid", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Potassium Bromide Dust added 05/29/25 - Nyagi
+          new ItemInfo("potassium_bromide_dust", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Potassium Bromide added 05/29/25 - Nyagi
+          new ItemInfo("sample_potassium_bromide", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //Pollution Items (Chemistry Subset)
           //  Sample of Generic Organic Tailings added 05/15/25 - Nyagi
           new ItemInfo("sample_organic_tailings_generic", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
             //  Sample of Light Organic Tailings added 05/15/25 - Nyagi
