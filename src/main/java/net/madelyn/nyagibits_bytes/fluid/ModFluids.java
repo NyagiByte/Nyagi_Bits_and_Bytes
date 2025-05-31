@@ -142,7 +142,11 @@ public class ModFluids {
         // Vinegar - Added 04/23/25
         new FluidInfo.Builder("vinegar", 0xA1ccc4ae),
         // Salt Water - Added 04/23/25
-        new FluidInfo.Builder("salt_water", 0xA189a5f5)
+        new FluidInfo.Builder("salt_water", 0xA189a5f5),
+        // Nickel Sulfate Solution - Added 05/29/25
+        new FluidInfo.Builder("solution_nickel_sulfate", 0xA14b7f30),
+        // Diluted Sulfuric Acid - Added 05/29/25
+        new FluidInfo.Builder("diluted_sulfuric_acid", 0xA1c9c682)
     );
 
     public static List<ItemInfo.Bucket> buckets = new ArrayList<>();
