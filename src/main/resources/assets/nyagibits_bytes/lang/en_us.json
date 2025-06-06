@@ -1147,6 +1147,12 @@
   "block.nyagibits_bytes.skystone_melt_included_andesite": "Skystone Melt-Included Andesite",
   "block.nyagibits_bytes.gypsum_block": "Gypsum Block",
   "block.nyagibits_bytes.volcanic_pumice_block": "Volcanic Pumice Block",
+  "block.nyagibits_bytes.glimmering_wood": "Glimmering Wood",
+  "block.nyagibits_bytes.glimmering_stripped_wood": "Stripped Glimmering Wood",
+  "block.nyagibits_bytes.glimmering_log": "Glimmering Log",
+  "block.nyagibits_bytes.glimmering_stripped_log": "Stripped Glimmering Log",
+  "block.nyagibits_bytes.glimmering_stone": "Glimmering Stone",
+  "block.nyagibits_bytes.glimmering_andesite": "Glimmering Andesite",
 
   "block.nyagibits_bytes.conglomerate_iron_ore": "Conglomerate Iron Ore",
   "block.nyagibits_bytes.dense_conglomerate_iron_ore": "Dense Conglomerate Iron Ore",

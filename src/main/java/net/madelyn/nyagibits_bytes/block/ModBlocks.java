@@ -127,7 +127,19 @@ public class ModBlocks {
         //Goshenite Block added 1/29/25 - Nyagi
         new BlockInfo("block_goshenite",Material.METAL, 2f, true, Tab.BLOCKS),
         //Waterproof Casing added 4/24/25 - Nyagi
-        new BlockInfo("waterproof_casing",Material.WOOD, 2f, true, Tab.BLOCKS)
+        new BlockInfo("waterproof_casing",Material.WOOD, 2f, true, Tab.BLOCKS),
+        //Glimmering Wood added 6/6/25 - Nyagi
+        new BlockInfo("glimmering_wood",Material.WOOD, 1f, true, Tab.BLOCKS),
+        //Stripped Glimmering Wood added 6/6/25 - Nyagi
+        new BlockInfo("glimmering_stripped_wood",Material.WOOD, 1f, true, Tab.BLOCKS),
+        //Glimmering Log added 6/6/25 - Nyagi
+        new BlockInfo("glimmering_log",Material.WOOD, 1f, true, Tab.BLOCKS),
+        //Stripped Glimmering Log added 6/6/25 - Nyagi
+        new BlockInfo("glimmering_stripped_log",Material.WOOD, 1f, true, Tab.BLOCKS),
+        //Glimmering Stone added 6/6/25 - Nyagi
+        new BlockInfo("glimmering_stone",Material.STONE, 1f, true, Tab.BLOCKS),
+        //Glimmering Andesite added 6/6/25 - Nyagi
+        new BlockInfo("glimmering_andesite",Material.STONE, 1f, true, Tab.BLOCKS)
     ));
 
     //A small helper function to add the data for all 5 conglomerate ores for each type.

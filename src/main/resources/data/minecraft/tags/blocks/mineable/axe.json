@@ -2,6 +2,10 @@
   "replace": false,
   "values": [
     "nyagibits_bytes:etched_living_wood",
-    "nyagibits_bytes:waterproof_casing"
+    "nyagibits_bytes:waterproof_casing",
+    "nyagibits_bytes:glimmering_wood",
+    "nyagibits_bytes:glimmering_stripped_wood",
+    "nyagibits_bytes:glimmering_log",
+    "nyagibits_bytes:glimmering_stripped_log"
   ]
 }
