@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:raw_kimberlite"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:raw_lamproite"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:raw_lazurite"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:raw_lapis_lazuli"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:raw_prime_beryllic_cluster"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:raw_fluorite"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:raw_chalcogenide_crystal_cluster"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:raw_salt_cluster"
+        }
+      ],
+      "rolls": 64.0
+    }
+  ]
+}

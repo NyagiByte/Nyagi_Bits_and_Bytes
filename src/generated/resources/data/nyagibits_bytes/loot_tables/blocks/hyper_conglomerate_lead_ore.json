@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:raw_galena"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:raw_lead_sulphide"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:raw_pyromorphite"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:raw_cerussite"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:raw_anglesite"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:raw_wulfenite"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:raw_vanadinite"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:raw_mimetite"
+        }
+      ],
+      "rolls": 64.0
+    }
+  ]
+}

@@ -133,11 +133,11 @@ public class ModBlocks {
     //A small helper function to add the data for all 5 conglomerate ores for each type.
     private static List<BlockInfo> generateConglomerates(String type){
         return List.of(
-            new BlockInfo("conglomerate_"+type+"_ore",Material.STONE, 6f, true, Tab.MINERALS),
-            new BlockInfo("dense_conglomerate_"+type+"_ore",Material.STONE, 12f, true, Tab.MINERALS),
-            new BlockInfo("hyper_conglomerate_"+type+"_ore",Material.STONE, 24f, true, Tab.MINERALS),
-            new BlockInfo("tectonic_conglomerate_"+type+"_ore",Material.STONE, 48f, true, Tab.MINERALS),
-            new BlockInfo("core_conglomerate_"+type+"_ore",Material.STONE, 96f, true, Tab.MINERALS)
+            new BlockInfo.Ore("conglomerate_"+type+"_ore",Material.STONE, 6f, true, Tab.MINERALS),
+            new BlockInfo.Ore("dense_conglomerate_"+type+"_ore",Material.STONE, 12f, true, Tab.MINERALS),
+            new BlockInfo.Ore("hyper_conglomerate_"+type+"_ore",Material.STONE, 24f, true, Tab.MINERALS),
+            new BlockInfo.Ore("tectonic_conglomerate_"+type+"_ore",Material.STONE, 48f, true, Tab.MINERALS),
+            new BlockInfo.Ore("core_conglomerate_"+type+"_ore",Material.STONE, 96f, true, Tab.MINERALS)
         );
     }
 

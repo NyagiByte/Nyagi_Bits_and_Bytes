@@ -4,7 +4,6 @@ import net.madelyn.nyagibits_bytes.NyagiBits_Bytes;
 import net.madelyn.nyagibits_bytes.block.ModBlocks;
 import net.madelyn.nyagibits_bytes.item.ItemInfo;
 import net.madelyn.nyagibits_bytes.item.ModItems;
-import net.madelyn.nyagibits_bytes.misc.Utils;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.material.Fluid;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -35,7 +34,7 @@ public class ModFluids {
     For info on the default values, or the available builder methods, see the FluidInfo.Builder class.
      */
 
-    private static final List<FluidInfo.Builder> FLUIDS_LIST = List.of(
+    public static final List<FluidInfo.Builder> FLUIDS_LIST = List.of(
         //Hydrocarbon Tar - Added 6/25/24
         new FluidInfo.Builder("hydrocarbon_tar", 0xff141414)
                 .setStillTexture(LAVA_STILL_RL)
@@ -70,9 +69,7 @@ public class ModFluids {
         //Petroleum - Added 12/12/24
         new FluidInfo.Builder("petroleum", 0xA4c89600),
         //Heavy Crude Oil - Added 12/12/24
-        new FluidInfo.Builder("heavy_crude_oil", 0xA400000a)
-                //Is this intentional?
-                .setOverlayTexture(Utils.NBNB("misc/in_petroleum")),
+        new FluidInfo.Builder("heavy_crude_oil", 0xA400000a),
         //Endstone-Leach Water - Added 12/12/24
         new FluidInfo.Builder("endstone_leach_water", 0xA1326496),
         // Bio-Glycerol Mix - Added 03/21/25

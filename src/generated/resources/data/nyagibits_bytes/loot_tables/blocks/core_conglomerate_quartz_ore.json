@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:tectonic_conglomerate_quartz_ore"
+        }
+      ],
+      "rolls": 64.0
+    }
+  ]
+}

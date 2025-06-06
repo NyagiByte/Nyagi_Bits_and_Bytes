@@ -3,6 +3,8 @@ package net.madelyn.nyagibits_bytes.datagen;
 import net.madelyn.nyagibits_bytes.NyagiBits_Bytes;
 import net.madelyn.nyagibits_bytes.block.BlockInfo;
 import net.madelyn.nyagibits_bytes.block.ModBlocks;
+import net.madelyn.nyagibits_bytes.fluid.FluidInfo;
+import net.madelyn.nyagibits_bytes.fluid.ModFluids;
 import net.madelyn.nyagibits_bytes.misc.Utils;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.server.packs.PackType;
@@ -31,6 +33,14 @@ public class BlockstateDatagen extends BlockStateProvider {
                         .modelFile(model)
                         .addModel();
             }
+        }
+        ModelFile model = models().getExistingFile(mcLoc("block/water"));
+        for(FluidInfo.Builder fluid : ModFluids.FLUIDS_LIST){
+            getVariantBuilder(Utils.fetchBlock(Utils.NBNB(fluid.id+"_block")))
+                    .partialState()
+                    .modelForState()
+                    .modelFile(model)
+                    .addModel();
         }
 
     }

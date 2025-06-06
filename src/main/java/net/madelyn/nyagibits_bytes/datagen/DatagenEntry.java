@@ -25,6 +25,9 @@ public class DatagenEntry {
             generator.addProvider(true, new BlockstateDatagen(generator, event.getExistingFileHelper()));
             generator.addProvider(true, new ItemModelDatagen(generator, event.getExistingFileHelper()));
         }
+        if(event.includeServer()){
+            generator.addProvider(true, new LootTableDatagen(generator, event.getExistingFileHelper()));
+        }
     }
 
     //This is to make datagen work for windows plebs. Forwards slashes and backslashes get mixed up on windows.

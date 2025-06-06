@@ -90,7 +90,7 @@ public class FluidInfo {
     //This lets us structure the registry as seen in ModFluids and be able to tell what each field is.
     public static class Builder {
         //These must be present to instantiate the builder
-        private final String id; //This is to build the other IDs
+        public final String id; //This is to build the other IDs
         private final int tintColor; //This used to be optional, but it really shouldn't be.
         //These are now generated on the fly
         private final String sourceId;
@@ -99,7 +99,7 @@ public class FluidInfo {
         //These must be present, but might not be called, so they get default values.
         private ResourceLocation stillTexture = new ResourceLocation("block/water_still");
         private ResourceLocation flowingTexture = new ResourceLocation("block/water_flow");
-        //This is now generated on the fly to be "nyagibits_bytes:misc/in_<fluidname>"
+        //This, i don't think it works. It's set to a default value to not fire missing asset warnings.
         //It can still be overwritten with the builder method.
         private ResourceLocation overlayTexture;
         //No one ever touched this. It can still be overwritten
@@ -124,7 +124,7 @@ public class FluidInfo {
             this.sourceId = id+"_fluid";
             this.flowingId = "flowing_"+id;
             this.fluidTypeId = sourceId;
-            this.overlayTexture = new ResourceLocation("misc/in_"+id);
+            this.overlayTexture = new ResourceLocation("misc/underwater");
             blockSupplier = () -> (LiquidBlock) Utils.fetchBlock((Utils.NBNB(id+"_block")));
             bucketSupplier = () -> Utils.fetchItem(Utils.NBNB("bucket_of_"+id));
             //The bare minimum to create the properties instance, the rest can be added down the line.

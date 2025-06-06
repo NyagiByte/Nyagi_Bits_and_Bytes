@@ -35,5 +35,11 @@ public class BlockInfo {
         if(requiresTool) props = props.requiresCorrectToolForDrops();
         return new Block(props);
     }
+    //This is mostly to enable instanceof shenanigans later in loot table datagen.
+    public static class Ore extends BlockInfo{
+        public Ore(String id, Material mat, float str, boolean tool, CreativeModeTab tab){
+            super(id, mat, str, tool, tab);
+        }
+    }
 
 }
