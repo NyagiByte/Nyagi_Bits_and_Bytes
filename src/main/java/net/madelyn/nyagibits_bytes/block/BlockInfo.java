@@ -2,6 +2,7 @@ package net.madelyn.nyagibits_bytes.block;
 
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.RotatedPillarBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
 
@@ -40,6 +41,22 @@ public class BlockInfo {
         public Ore(String id, Material mat, float str, boolean tool, CreativeModeTab tab){
             super(id, mat, str, tool, tab);
         }
+    }
+
+    public static class Rotatable extends BlockInfo{
+        public Rotatable(String id, Material mat, float str, boolean tool, CreativeModeTab tab){
+            super(id, mat, str, tool, tab);
+        }
+
+        @Override
+        public Block createBlock(){
+            BlockBehaviour.Properties props = BlockBehaviour.Properties.of
+                            (super.material)
+                    .strength(super.strength);
+            if(super.requiresTool) props = props.requiresCorrectToolForDrops();
+            return new RotatedPillarBlock(props);
+        }
+
     }
 
 }
