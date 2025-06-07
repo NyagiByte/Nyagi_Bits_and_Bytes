@@ -133,9 +133,9 @@ public class ModBlocks {
         //Stripped Glimmering Wood added 6/6/25 - Nyagi
         new BlockInfo("glimmering_stripped_wood",Material.WOOD, 1f, true, Tab.BLOCKS),
         //Glimmering Log added 6/6/25 - Nyagi
-        new BlockInfo("glimmering_log",Material.WOOD, 1f, true, Tab.BLOCKS),
+        new BlockInfo.Rotatable("glimmering_log",Material.WOOD, 1f, true, Tab.BLOCKS),
         //Stripped Glimmering Log added 6/6/25 - Nyagi
-        new BlockInfo("glimmering_stripped_log",Material.WOOD, 1f, true, Tab.BLOCKS),
+        new BlockInfo.Rotatable("glimmering_stripped_log",Material.WOOD, 1f, true, Tab.BLOCKS),
         //Glimmering Stone added 6/6/25 - Nyagi
         new BlockInfo("glimmering_stone",Material.STONE, 1f, true, Tab.BLOCKS),
         //Glimmering Andesite added 6/6/25 - Nyagi

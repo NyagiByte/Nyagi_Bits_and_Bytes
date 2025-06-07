@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/cube_column",
   "textures": {
-    "end": "minecraft:block/glimmering_wood_top",
-    "side": "minecraft:block/glimmering_wood"
+    "end": "nyagibits_bytes:block/glimmering_wood_top",
+    "side": "nyagibits_bytes:block/glimmering_wood"
   }
 }

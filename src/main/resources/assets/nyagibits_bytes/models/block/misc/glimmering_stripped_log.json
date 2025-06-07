@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "nyagibits_bytes:block/glimmering_stripped_wood_top",
+    "side": "nyagibits_bytes:block/glimmering_stripped_wood"
+  }
+}

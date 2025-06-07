@@ -1,4 +1,4 @@
-// 1.19.2	2025-06-06T16:04:47.6830988	Block Models: nyagibits_bytes
+// 1.19.2	2025-06-06T16:33:45.8779808	Block Models: nyagibits_bytes
 0c508d7507b136b77cc70141f61653812338b833 assets/nyagibits_bytes/models/block/2lbxyud1od.json
 36214c595adf7b1f09275371ce5b4125f209b39e assets/nyagibits_bytes/models/block/7y5r4jwg8m.json
 37818bbcbaf6b6f9156a76865a4d9712f78b7bbe assets/nyagibits_bytes/models/block/block_aquamarine.json
@@ -58,10 +58,11 @@ e66fb1733e8a9ad1ed2f7822b1bb1ecca94e877e assets/nyagibits_bytes/models/block/den
 3ff2c56cdd1c9eb16f43f566844e1ca0ee3cc516 assets/nyagibits_bytes/models/block/etched_living_wood.json
 9df46c58fa3da25050dd61e6fb1c11e9eb890393 assets/nyagibits_bytes/models/block/flake.json
 f6179c9cb4dac70ee63b8bbc6f331fb2c309b7d8 assets/nyagibits_bytes/models/block/glimmering_andesite.json
-dbb1d5ee58d00fcf56c01d08bf56cfde12fbe805 assets/nyagibits_bytes/models/block/glimmering_log.json
-acd0c7abf84f6558ed5b87bc27bf2d06d1c18809 assets/nyagibits_bytes/models/block/glimmering_log_horizontal.json
+736bdc2740132effef2b5e59dd236da08ba1ee8c assets/nyagibits_bytes/models/block/glimmering_log.json
+d281beae2b61eb18a3d12e32798164a0b3fd94c4 assets/nyagibits_bytes/models/block/glimmering_log_horizontal.json
 c923e9d9bbe02fc3625bf31604a7e27435c71e41 assets/nyagibits_bytes/models/block/glimmering_stone.json
-f8081fce5f2a7f148a48bdf910533ec578278b02 assets/nyagibits_bytes/models/block/glimmering_stripped_log.json
+eda842cd22a00cff2ba1ef808024a5a0b3458cff assets/nyagibits_bytes/models/block/glimmering_stripped_log.json
+903f8b4d3f72fbb19eb59c71169c4d529d7dbab3 assets/nyagibits_bytes/models/block/glimmering_stripped_log_horizontal.json
 88e1fec1349b47db45917639891d5e944d4f2b40 assets/nyagibits_bytes/models/block/glimmering_stripped_wood.json
 85c2188ce8456e477d51ccbc3031d514e20a34ad assets/nyagibits_bytes/models/block/glimmering_wood.json
 60bd57d396b4c445f0732999e9bdcc87822b4049 assets/nyagibits_bytes/models/block/gypsum_block.json

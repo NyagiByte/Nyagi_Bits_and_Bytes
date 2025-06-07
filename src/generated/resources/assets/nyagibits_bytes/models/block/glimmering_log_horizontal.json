@@ -1,3 +1,7 @@
 {
-  "parent": "nyagibits_bytes:block/misc/glimmering_log_horizontal"
+  "parent": "nyagibits_bytes:block/misc/glimmering_log_horizontal",
+  "textures": {
+    "end": "nyagibits_bytes:block/dev/glimmering_wood_top",
+    "side": "nyagibits_bytes:block/dev/glimmering_wood"
+  }
 }
