@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "nyagibits_bytes:block/misc/glimmering_wood",
   "textures": {
-    "all": "nyagibits_bytes:block/dev/glimmering_wood"
+    "end": "nyagibits_bytes:block/dev/glimmering_log",
+    "side": "nyagibits_bytes:block/dev/glimmering_log"
   }
 }

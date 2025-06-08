@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "nyagibits_bytes:block/glimmering_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "nyagibits_bytes:block/glimmering_wood"
+    },
+    "axis=z": {
+      "model": "nyagibits_bytes:block/glimmering_wood",
+      "x": 90
+    }
+  }
+}

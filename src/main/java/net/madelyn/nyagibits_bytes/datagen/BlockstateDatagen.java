@@ -26,21 +26,18 @@ public class BlockstateDatagen extends BlockStateProvider {
     protected void registerStatesAndModels() {
         for(BlockInfo block : ModBlocks.BLOCKS_LIST){
             if(!assetExists("blockstates/"+block.getId()+".json")){
+                //don't handle rotatable blocks, for now.
+                if(block instanceof BlockInfo.Rotatable rot) continue;
+
                 ModelFile model = models().getExistingFile(modLoc("block/"+block.getId()));
                 getVariantBuilder(Utils.fetchBlock(Utils.NBNB(block.getId())))
-                        .partialState()
-                        .modelForState()
-                        .modelFile(model)
-                        .addModel();
+                        .partialState().modelForState().modelFile(model).addModel();
             }
         }
         ModelFile model = models().getExistingFile(mcLoc("block/water"));
         for(FluidInfo.Builder fluid : ModFluids.FLUIDS_LIST){
             getVariantBuilder(Utils.fetchBlock(Utils.NBNB(fluid.id+"_block")))
-                    .partialState()
-                    .modelForState()
-                    .modelFile(model)
-                    .addModel();
+                    .partialState().modelForState().modelFile(model).addModel();
         }
 
     }
