@@ -1518,7 +1518,8 @@
   "item.nyagibits_bytes.incomplete_sterilized_quartz_glass_phenoxyethanol": "Incomplete Sterilized Quartz Glass [2-Phenoxyethanol]",
   "item.nyagibits_bytes.incomplete_petri_dish_glass": "Incomplete Petri Dish [Glass]",
   "item.nyagibits_bytes.incomplete_petri_dish_quartz_glass": "Incomplete Petri Dish [Quartz Glass]",
-  "item.nyagibits_bytes.incomplete_petri_dish_acetobacter": "Incomplete Acetobacter Capture Attempt",
+  "item.nyagibits_bytes.incomplete_petri_dish_acetobacter_initial": "Incomplete Acetobacter Petri Dish [Capture Attempt]",
+  "item.nyagibits_bytes.incomplete_petri_dish_acetobacter_reclaim": "Incomplete Acetobacter Petri Dish [Reclaim Starter]",
   "item.nyagibits_bytes.incomplete_skystone_shielding": "Incomplete Skystone Shielding [Un-doped]",
   "item.nyagibits_bytes.incomplete_skystone_shielding_boule": "Incomplete Skystone Shielding [Skystone Boule]",
 

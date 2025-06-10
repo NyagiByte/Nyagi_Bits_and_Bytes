@@ -1369,7 +1369,9 @@ public class ModItems {
           // Incomplete Petri Dish Quartz Glass added 1/4/25 - Nyagi
           new ItemInfo("incomplete_petri_dish_quartz_glass", Type.ITEM, Tab.SEQUENCE, "petri_dish_empty"),
           // Incomplete Petri Dish Acetobacter added 1/4/25 - Barza
-          new ItemInfo("incomplete_petri_dish_acetobacter", Type.ITEM, Tab.SEQUENCE, "petri_dish_agar_agar"),
+          new ItemInfo("incomplete_petri_dish_acetobacter_initial", Type.ITEM, Tab.SEQUENCE, "petri_dish_agar_agar"),
+          // Incomplete Petri Dish Acetobacter added 1/4/25 - Barza
+          new ItemInfo("incomplete_petri_dish_acetobacter_reclaim", Type.ITEM, Tab.SEQUENCE, "petri_dish_agar_agar"),
           // Incomplete Skystone Shielding added 1/4/25 - Nyagi
           new ItemInfo("incomplete_skystone_shielding", Type.ITEM, Tab.SEQUENCE, "skystone_shielding"),
           // Incomplete Skystone Shielding Boule added 1/4/25 - Nyagi

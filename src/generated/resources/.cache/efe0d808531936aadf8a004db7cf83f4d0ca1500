@@ -1,4 +1,4 @@
-// 1.19.2	2025-06-10T15:00:56.081984238	Item Models: nyagibits_bytes
+// 1.19.2	2025-06-10T17:29:15.589271861	Item Models: nyagibits_bytes
 e243c451bf3f2b3afeb641ddcb12eb5f8ad1906d assets/nyagibits_bytes/models/item/2d_textures.json
 a1570e6fb1739636dbe8e54f331e6b1fb92aab30 assets/nyagibits_bytes/models/item/2lbxyud1od.json
 156841b1102efba74884e0555b12faf6ff5a0424 assets/nyagibits_bytes/models/item/7y5r4jwg8m.json
@@ -300,7 +300,8 @@ fed98fa8eb00c07f81e511e9f3a3593e9caadfc9 assets/nyagibits_bytes/models/item/inco
 6f5b60bfecbef87fafad388409d73f47e0d90e0e assets/nyagibits_bytes/models/item/incomplete_me_storage_monitor.json
 6f5b60bfecbef87fafad388409d73f47e0d90e0e assets/nyagibits_bytes/models/item/incomplete_me_terminal.json
 6f5b60bfecbef87fafad388409d73f47e0d90e0e assets/nyagibits_bytes/models/item/incomplete_onek_me_storage_component.json
-1ad35bb09372e3dd3dfb1466d71f42ad54820429 assets/nyagibits_bytes/models/item/incomplete_petri_dish_acetobacter.json
+1ad35bb09372e3dd3dfb1466d71f42ad54820429 assets/nyagibits_bytes/models/item/incomplete_petri_dish_acetobacter_initial.json
+1ad35bb09372e3dd3dfb1466d71f42ad54820429 assets/nyagibits_bytes/models/item/incomplete_petri_dish_acetobacter_reclaim.json
 d302e7cdbbb78d50ccc2f8bf4cc8532ff8daccd7 assets/nyagibits_bytes/models/item/incomplete_petri_dish_glass.json
 d302e7cdbbb78d50ccc2f8bf4cc8532ff8daccd7 assets/nyagibits_bytes/models/item/incomplete_petri_dish_quartz_glass.json
 6981747119d52b669b55c653f53aff8269b688e2 assets/nyagibits_bytes/models/item/incomplete_raw_ametrine_polish.json
