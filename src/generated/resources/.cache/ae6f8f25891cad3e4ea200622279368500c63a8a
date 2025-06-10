@@ -1,4 +1,4 @@
-// 1.19.2	2025-06-08T14:55:58.087832289	Block States: nyagibits_bytes
+// 1.19.2	2025-06-10T14:41:53.403083931	Block States: nyagibits_bytes
 e5a33b4a2db42195222fa1709b3d9533ac41e453 assets/nyagibits_bytes/blockstates/2_phenoxyethanol_block.json
 d9ae04ffd8445a9bc120f16a0f862fcd55207479 assets/nyagibits_bytes/blockstates/2lbxyud1od.json
 e9fa99cce35676d249da74b4bcf545ffb953b459 assets/nyagibits_bytes/blockstates/7y5r4jwg8m.json
@@ -149,6 +149,7 @@ e5a33b4a2db42195222fa1709b3d9533ac41e453 assets/nyagibits_bytes/blockstates/trin
 3702695247c981a14b4f706033dd9399674b7a0c assets/nyagibits_bytes/blockstates/ughn6anla6.json
 48d14317831ae2f00225c42ce54e105f63cf071f assets/nyagibits_bytes/blockstates/vhzlw7iim4.json
 e5a33b4a2db42195222fa1709b3d9533ac41e453 assets/nyagibits_bytes/blockstates/vinegar_block.json
+e5a33b4a2db42195222fa1709b3d9533ac41e453 assets/nyagibits_bytes/blockstates/vinegar_starter_block.json
 049e39f3e029f808a17a3a1217e92a0439c850f2 assets/nyagibits_bytes/blockstates/volcanic_pumice_block.json
 3f113c73a719e44ff8fa01cde3f3d1fe350f0dc7 assets/nyagibits_bytes/blockstates/waterproof_casing.json
 e5a33b4a2db42195222fa1709b3d9533ac41e453 assets/nyagibits_bytes/blockstates/wet_biodiesel_block.json
