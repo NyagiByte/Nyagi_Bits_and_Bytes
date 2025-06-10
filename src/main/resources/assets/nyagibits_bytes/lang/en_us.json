@@ -1306,6 +1306,7 @@
   "fluid_type.nyagibits_bytes.salt_water_fluid": "Salt Water",
   "fluid_type.nyagibits_bytes.solution_nickel_sulfate_fluid": "Nickel Sulfate Solution",
   "fluid_type.nyagibits_bytes.diluted_sulfuric_acid_fluid": "Diluted Sulfuric Acid",
+  "fluid_type.nyagibits_bytes.thin_ink_fluid": "Thin Ink",
 
   "block.nyagibits_bytes.hydrocarbon_tar_block": "Hydrocarbon Tar",
   "block.nyagibits_bytes.raw_wood_vinegar_block": "Raw Wood Vinegar",
@@ -1357,6 +1358,7 @@
   "block.nyagibits_bytes.salt_water_block": "Salt Water",
   "block.nyagibits_bytes.solution_nickel_sulfate_block": "Nickel Sulfate Solution",
   "block.nyagibits_bytes.diluted_sulfuric_acid_block": "Diluted Sulfuric Acid",
+  "block.nyagibits_bytes.thin_ink_block": "Thin Ink",
 
   "item.nyagibits_bytes.sapphire": "Sapphire",
   "item.nyagibits_bytes.sapphire_dust": "Sapphire Dust",
@@ -1471,6 +1473,8 @@
   "item.nyagibits_bytes.bucket_of_vinegar_starter": "Vinegar Starter Bucket",
   "item.nyagibits_bytes.bucket_of_solution_nickel_sulfate": "Nickel Sulfate Solution Bucket",
   "item.nyagibits_bytes.bucket_of_diluted_sulfuric_acid": "Diluted Sulfuric Acid Bucket",
+  "item.nyagibits_bytes.bucket_of_thin_ink": "Thin Ink Bucket",
+
 
   "item.nyagibits_bytes.incomplete_controller": "Incomplete Controller",
   "item.nyagibits_bytes.incomplete_cell_workbench": "Incomplete Cell Workbench",
