@@ -506,6 +506,31 @@ public class ModItems {
           new ItemInfo("potassium_bromide_dust", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
           //  Sample of Potassium Bromide added 05/29/25 - Nyagi
           new ItemInfo("sample_potassium_bromide", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Commercial Grade Hydrogen Peroxide (3%) added 06/14/25 - Nyagi
+          new ItemInfo("sample_hydrogen_peroxide_003", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Concentrated Hydrogen Peroxide (15%) added 06/14/25 - Nyagi
+          new ItemInfo("sample_hydrogen_peroxide_015", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Industrial Grade Hydrogen Peroxide (32%) added 06/14/25 - Nyagi
+          new ItemInfo("sample_hydrogen_peroxide_032", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Explosives Grade Hydrogen Peroxide (75%) added 06/14/25 - Nyagi
+          new ItemInfo("sample_hydrogen_peroxide_075", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Anhydrous Hydrogen Peroxide (~99.9%) added 06/14/25 - Nyagi
+          new ItemInfo("sample_hydrogen_peroxide_100", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Sulfate added 06/14/25 - Nyagi
+          new ItemInfo("sample_sulfate", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sulfate Dust added 06/14/25 - Nyagi
+          new ItemInfo("sulfate_dust", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Unbleached Chitin Solution added 06/15/25 - Nyagi
+          new ItemInfo("sample_solution_unbleached_chitin", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Decolorized Chitin Solution added 06/15/25 - Nyagi
+          new ItemInfo("sample_solution_decolorized_chitin", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Chitosan Solution added 06/15/25 - Nyagi
+          new ItemInfo("sample_solution_chitosan", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Chitosan added 06/14/25 - Nyagi
+          new ItemInfo("sample_chitosan", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Chitosan Dust added 06/14/25 - Nyagi
+          new ItemInfo("chitosan_dust", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+
           //Pollution Items (Chemistry Subset)
           //  Sample of Generic Organic Tailings added 05/15/25 - Nyagi
           new ItemInfo("sample_organic_tailings_generic", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),

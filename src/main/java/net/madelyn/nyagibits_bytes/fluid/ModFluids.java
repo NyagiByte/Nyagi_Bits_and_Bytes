@@ -143,7 +143,23 @@ public class ModFluids {
         // Nickel Sulfate Solution - Added 05/29/25
         new FluidInfo.Builder("solution_nickel_sulfate", 0xA14b7f30),
         // Diluted Sulfuric Acid - Added 05/29/25
-        new FluidInfo.Builder("diluted_sulfuric_acid", 0xA1c9c682)
+        new FluidInfo.Builder("diluted_sulfuric_acid", 0xA1c9c682),
+        // Commercial Grade Hydrogen Peroxide (3%) - Added 06/15/25
+        new FluidInfo.Builder("hydrogen_peroxide_003", 0xA10d5e8b),
+        // Concentrated Hydrogen Peroxide (15%) - Added 06/15/25
+        new FluidInfo.Builder("hydrogen_peroxide_015", 0xA116869c),
+        // Industrial Grade Hydrogen Peroxide (32%) - Added 06/15/25
+        new FluidInfo.Builder("hydrogen_peroxide_032", 0xA11ea69f),
+        // Explosives Grade Hydrogen Peroxide (75%) - Added 06/15/25
+        new FluidInfo.Builder("hydrogen_peroxide_075", 0xA129b38f),
+        // Anhydrous Hydrogen Peroxide (~99.9%) - Added 06/15/25
+        new FluidInfo.Builder("hydrogen_peroxide_100", 0xA149ca99),
+        // Unbleached Chitin Solution - Added 06/15/25
+        new FluidInfo.Builder("solution_unbleached_chitin", 0xA19e8948),
+        // Decolorized Chitin Solution - Added 06/15/25
+        new FluidInfo.Builder("solution_decolorized_chitin", 0xA1613125),
+        // Chitosan Solution - Added 06/15/25
+        new FluidInfo.Builder("solution_chitosan", 0xA1974e39)
     );
 
     public static List<ItemInfo.Bucket> buckets = new ArrayList<>();
