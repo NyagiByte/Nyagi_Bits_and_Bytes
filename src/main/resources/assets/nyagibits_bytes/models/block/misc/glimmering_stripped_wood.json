@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/cube_column",
   "textures": {
-    "end": "nyagibits_bytes:block/dev/glimmering_stripped_log_top",
+    "end": "nyagibits_bytes:block/dev/glimmering_stripped_log",
     "side": "nyagibits_bytes:block/dev/glimmering_stripped_log"
   }
 }

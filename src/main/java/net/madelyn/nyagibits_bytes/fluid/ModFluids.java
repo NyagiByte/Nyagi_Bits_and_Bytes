@@ -144,6 +144,11 @@ public class ModFluids {
         new FluidInfo.Builder("solution_nickel_sulfate", 0xA14b7f30),
         // Diluted Sulfuric Acid - Added 05/29/25
         new FluidInfo.Builder("diluted_sulfuric_acid", 0xA1c9c682),
+        // Vinegar Starter - Added 06/10/25
+        new FluidInfo.Builder("vinegar_starter", 0xA152362D),
+        // Vinegar Starter - Added 06/10/25
+        new FluidInfo.Builder("thin_ink", 0xA1111111),
+        new FluidInfo.Builder("diluted_sulfuric_acid", 0xA1c9c682),
         // Commercial Grade Hydrogen Peroxide (3%) - Added 06/15/25
         new FluidInfo.Builder("hydrogen_peroxide_003", 0xA10d5e8b),
         // Concentrated Hydrogen Peroxide (15%) - Added 06/15/25

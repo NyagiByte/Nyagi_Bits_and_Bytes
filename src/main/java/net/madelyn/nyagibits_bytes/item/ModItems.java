@@ -571,6 +571,10 @@ public class ModItems {
           new ItemInfo("petri_dish_empty", Type.CUSTOM_TOOLTIP, Tab.BIOLOGY),
           // Agar-Agar Petri Dish added 3/20/24 - Nyagi
           new ItemInfo("petri_dish_agar_agar", Type.CUSTOM_TOOLTIP, Tab.BIOLOGY),
+          // Ruined Petri Dish added 6/10/25 - Barza
+          new ItemInfo("petri_dish_contaminated", Type.CUSTOM_TOOLTIP, Tab.BIOLOGY),
+          // Acetobacter Petri Dish added 6/10/25 - Barza
+          new ItemInfo("petri_dish_acetobacter", Type.CUSTOM_TOOLTIP, Tab.BIOLOGY),
           //  Stomach added 03/27/25 - Nyagi
           new ItemInfo("stomach", Type.CUSTOM_TOOLTIP, Tab.BIOLOGY),
           //  Ruminant Stomach added 03/27/25 - Nyagi
@@ -1389,6 +1393,10 @@ public class ModItems {
           new ItemInfo("incomplete_petri_dish_glass", Type.ITEM, Tab.SEQUENCE, "petri_dish_empty"),
           // Incomplete Petri Dish Quartz Glass added 1/4/25 - Nyagi
           new ItemInfo("incomplete_petri_dish_quartz_glass", Type.ITEM, Tab.SEQUENCE, "petri_dish_empty"),
+          // Incomplete Petri Dish Acetobacter added 1/4/25 - Barza
+          new ItemInfo("incomplete_petri_dish_acetobacter_initial", Type.ITEM, Tab.SEQUENCE, "petri_dish_agar_agar"),
+          // Incomplete Petri Dish Acetobacter added 1/4/25 - Barza
+          new ItemInfo("incomplete_petri_dish_acetobacter_reclaim", Type.ITEM, Tab.SEQUENCE, "petri_dish_agar_agar"),
           // Incomplete Skystone Shielding added 1/4/25 - Nyagi
           new ItemInfo("incomplete_skystone_shielding", Type.ITEM, Tab.SEQUENCE, "skystone_shielding"),
           // Incomplete Skystone Shielding Boule added 1/4/25 - Nyagi

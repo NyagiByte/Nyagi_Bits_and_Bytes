@@ -129,9 +129,9 @@ public class ModBlocks {
         //Waterproof Casing added 4/24/25 - Nyagi
         new BlockInfo("waterproof_casing",Material.WOOD, 2f, true, Tab.BLOCKS),
         //Glimmering Wood added 6/6/25 - Nyagi
-        new BlockInfo("glimmering_wood",Material.WOOD, 1f, true, Tab.BLOCKS),
+        new BlockInfo.Rotatable("glimmering_wood",Material.WOOD, 1f, true, Tab.BLOCKS),
         //Stripped Glimmering Wood added 6/6/25 - Nyagi
-        new BlockInfo("glimmering_stripped_wood",Material.WOOD, 1f, true, Tab.BLOCKS),
+        new BlockInfo.Rotatable("glimmering_stripped_wood",Material.WOOD, 1f, true, Tab.BLOCKS),
         //Glimmering Log added 6/6/25 - Nyagi
         new BlockInfo.Rotatable("glimmering_log",Material.WOOD, 1f, true, Tab.BLOCKS),
         //Stripped Glimmering Log added 6/6/25 - Nyagi

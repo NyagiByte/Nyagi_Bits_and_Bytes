@@ -1,0 +1,6 @@
+This folder contains models that aren't fully handled by datagen, for one reason or another.
+They still get texture remapping like all other block models.
+Each model that is here, should have a reason to. List them below.
+
+Flake: Complex model
+Glimmering log and wood: Painful to do in datagen, multiple cases to cover for not much benefit.
