@@ -482,6 +482,10 @@
   "item.nyagibits_bytes.leather_equidae.desc": "The skin of a equidae (horse-ish) but treated",
   "item.nyagibits_bytes.vine_cutting": "Vine Cutting",
   "item.nyagibits_bytes.vine_cutting.desc": "Biodegradable confetti",
+  "item.nyagibits_bytes.corporea_tunneler": "Corporea Tunneler",
+  "item.nyagibits_bytes.corporea_tunneler.desc": "By constraining the corporea fields a narrow tube\nof influence can be formed. This new tube can shuttle\nitems far further with the assistance of electricity",
+  "item.nyagibits_bytes.mini_mana_driven_kiwi": "Mini Mana-Driven KIWI-A",
+  "item.nyagibits_bytes.mini_mana_driven_kiwi.desc": "This contraption harnesses the power of mana-based explosives\ndown a controlled tube allowing for forward motion",
 
   "item.nyagibits_bytes.lab_notebook": "Lab Notebook",
   "item.nyagibits_bytes.lab_notebook.desc": "Science is fucking around\nand finding out, but you\nalso take some notes!",
@@ -1557,6 +1561,7 @@
   "item.nyagibits_bytes.incomplete_color_applicator": "Incomplete Color Applicator",
   "item.nyagibits_bytes.incomplete_energy_acceptor": "Incomplete Energy Acceptor",
   "item.nyagibits_bytes.incomplete_me_fluid_cell_housing": "Incomplete ME Fluid Cell Housing",
+  "item.nyagibits_bytes.incomplete_energy_cell": "Incomplete ME Energy Cell",
 
   "item.nyagibits_bytes.incomplete_logic_dud": "Incomplete Logic Dud",
   "item.nyagibits_bytes.incomplete_calculation_dud": "Incomplete Calculation Dud",

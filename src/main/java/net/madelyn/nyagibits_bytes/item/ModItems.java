@@ -420,6 +420,10 @@ public class ModItems {
           new ItemInfo("nicd_battery", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           //  NiCd Battery Bank added 05/27/25 - Nyagi
           new ItemInfo("nicd_battery_bank", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          //  Corporea Tunneler added 06/25/25 - Nyagi
+          new ItemInfo("corporea_tunneler", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          //  Mini Mana Driven KIWI-A added 06/25/25 - Nyagi
+          new ItemInfo("mini_mana_driven_kiwi", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
 
           //Chemistry
           // Bottle of Anthocyanin added 8/27/23 - Nyagi
@@ -530,6 +534,26 @@ public class ModItems {
           new ItemInfo("sample_chitosan", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
           //  Chitosan Dust added 06/14/25 - Nyagi
           new ItemInfo("chitosan_dust", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          /* Disabled until floatation line is ready
+          //  Sample of Potassium Manganate added 06/19/25 - Nyagi
+          new ItemInfo("sample_potassium_manganate", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Potassium Manganate Dust added 06/19/25 - Nyagi
+          new ItemInfo("potassium_manganate_dust", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Zinc-Specific Floatation Mix added 06/19/25 - Nyagi
+          new ItemInfo("sample_floatation_mix_zinc", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Sodium Sulfide added 06/19/25 - Nyagi
+          new ItemInfo("sample_sodium_sulfide", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sodium Sulfide Dust added 06/19/25 - Nyagi
+          new ItemInfo("sodium_sulfide_dust", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of OPA 1214 (dodecyl/tetradecyloxypropyl amine) added 06/19/25 - Nyagi
+          new ItemInfo("sample_opa", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of 5-Methyl-1,3-Cyclohexanedione added 06/19/25 - Nyagi
+          new ItemInfo("sample_5_methyl_1_3_cyclohexanedione", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Hydrochloric Acid Solution added 06/19/25 - Nyagi
+          new ItemInfo("sample_solution_hydrochloric_acid", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Bis(enol)ethers 1-Aminomethyl-3,5-Dimethoxy-2,5-Cyclohexadiene added 06/19/25 - Nyagi
+          new ItemInfo("sample_bis_enol_ether", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          */
 
           //Pollution Items (Chemistry Subset)
           //  Sample of Generic Organic Tailings added 05/15/25 - Nyagi
@@ -1379,6 +1403,8 @@ public class ModItems {
           new ItemInfo("incomplete_me_fluid_cell_housing", Type.ITEM, Tab.SEQUENCE),
           // Incomplete Energy Acceptor added 2/22/24 - Nyagi
           new ItemInfo("incomplete_energy_acceptor", Type.ITEM, Tab.SEQUENCE, "incomplete_ae2_assembly"),
+          // Incomplete Energy Cell added 6/25/24 - Nyagi
+          new ItemInfo("incomplete_energy_cell", Type.ITEM, Tab.SEQUENCE, "incomplete_ae2_assembly"),
           // Incomplete Logic Dud added 2/21/24 - Nyagi
           new ItemInfo("incomplete_logic_dud", Type.ITEM, Tab.SEQUENCE),
           // Incomplete Calculation Dud added 2/21/24 - Nyagi
