@@ -424,6 +424,10 @@ public class ModItems {
           new ItemInfo("corporea_tunneler", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           //  Mini Mana Driven KIWI-A added 06/25/25 - Nyagi
           new ItemInfo("mini_mana_driven_kiwi", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          //  Palladium On Carbon added 07/05/25 - Nyagi
+          new ItemInfo("on_carbon_palladium", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          //  Saturated Palladium On Carbon added 07/05/25 - Nyagi
+          new ItemInfo("on_carbon_saturated_palladium", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
 
           //Chemistry
           // Bottle of Anthocyanin added 8/27/23 - Nyagi
@@ -534,6 +538,74 @@ public class ModItems {
           new ItemInfo("sample_chitosan", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
           //  Chitosan Dust added 06/14/25 - Nyagi
           new ItemInfo("chitosan_dust", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Hydroquinone added 07/05/25 - Nyagi
+          new ItemInfo("sample_hydroquinone", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of 1,4-Napthoquinone added 07/05/25 - Nyagi
+          new ItemInfo("sample_1_4_napthoquinone", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of 9,10-Anthraquinone added 07/05/25 - Nyagi
+          new ItemInfo("sample_9_10_anthraquinone", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Bubbled Pre-Peroxide added 07/05/25 - Nyagi
+          new ItemInfo("sample_bubbled_pre_peroxide", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Mixed Peroxide Product added 07/05/25 - Nyagi
+          new ItemInfo("sample_mixed_peroxide_product", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Phosphorus Pentoxide added 07/05/25 - Nyagi
+          new ItemInfo("sample_phosphorus_pentoxide", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Phosphorus Pentoxide Dust added 07/05/25 - Nyagi
+          new ItemInfo("phosphorus_pentoxide_dust", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of 1,3-Butadiene added 07/05/25 - Nyagi
+          new ItemInfo("sample_1_3_butadiene", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Steam Cracked Ethylene added 07/05/25 - Nyagi
+          new ItemInfo("sample_steam_cracked_ethylene", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of White Phosphorus added 07/05/25 - Nyagi
+          new ItemInfo("sample_white_phosphorus", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  White Phosphorus Dust added 07/05/25 - Nyagi
+          new ItemInfo("white_phosphorus_dust", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Calcium Phosphate added 07/05/25 - Nyagi
+          new ItemInfo("sample_calcium_phosphate", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Calcium Phosphate Dust added 07/05/25 - Nyagi
+          new ItemInfo("calcium_phosphate_dust", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of HPA-4 added 07/05/25 - Nyagi
+          new ItemInfo("sample_hpa_4", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  HPA-4 Dust added 07/05/25 - Nyagi
+          new ItemInfo("hpa_4_dust", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Wet HPA-4 added 07/05/25 - Nyagi
+          new ItemInfo("sample_wet_hpa_4", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of HPA-4 Precursor 3 added 07/05/25 - Nyagi
+          new ItemInfo("sample_precursor_3_hpa_4", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of HPA-4 Precursor 2 added 07/05/25 - Nyagi
+          new ItemInfo("sample_precursor_2_hpa_4", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of HPA-4 Precursor 1 added 07/05/25 - Nyagi
+          new ItemInfo("sample_precursor_1_hpa_4", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Diethyl Ether added 07/05/25 - Nyagi
+          new ItemInfo("sample_diethyl_ether", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Sodium Molybdate Dihydrate added 07/05/25 - Nyagi
+          new ItemInfo("sample_sodium_molybdate_dihydrate", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sodium Molybdate Dihydrate Dust added 07/05/25 - Nyagi
+          new ItemInfo("sodium_molybdate_dihydrate_dust", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Molybdenum Trioxide added 07/05/25 - Nyagi
+          new ItemInfo("sample_molybdenum_trioxide", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Molybdenum Trioxide Dust added 07/05/25 - Nyagi
+          new ItemInfo("molybdenum_trioxide_dust", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Molybdenum Disulfide added 07/05/25 - Nyagi
+          new ItemInfo("sample_molybdenum_disulfide", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Molybdenum Disulfide Dust added 07/05/25 - Nyagi
+          new ItemInfo("molybdenum_disulfide_dust", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Sodium Metavanadate added 07/05/25 - Nyagi
+          new ItemInfo("sample_sodium_metavanadate", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sodium Metavanadate Dust added 07/05/25 - Nyagi
+          new ItemInfo("sodium_metavanadate_dust", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Vanadium Pentoxide added 07/05/25 - Nyagi
+          new ItemInfo("sample_vanadium_pentoxide", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Vanadium Pentoxide Dust added 07/05/25 - Nyagi
+          new ItemInfo("vanadium_pentoxide_dust", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of DSP added 07/05/25 - Nyagi
+          new ItemInfo("sample_dsp", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  DSP Dust added 07/05/25 - Nyagi
+          new ItemInfo("dsp_dust", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Dry Ice added 07/05/25 - Nyagi
+          new ItemInfo("sample_dry_ice", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Dry Ice Slab added 07/05/25 - Nyagi
+          new ItemInfo("dry_ice_slab", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
           /* Disabled until floatation line is ready
           //  Sample of Potassium Manganate added 06/19/25 - Nyagi
           new ItemInfo("sample_potassium_manganate", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
