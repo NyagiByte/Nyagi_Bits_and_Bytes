@@ -78,8 +78,7 @@ public class ItemInfo {
         public Item registerItem(){
             return new CustomToolItem( new Item.Properties()
                     .tab(getTab())
-                    .durability(durability)
-                    .stacksTo(1));
+                    .durability(durability));
 
         }
     }
