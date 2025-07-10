@@ -323,7 +323,7 @@ public class ModItems {
           // 79" x 28" TRIPLE-BAY 4s SERIES TOOLBOX added 4/25/24 - Nyagi
           new ItemInfo("triple_bay_4s_series_toolbox", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // Acetylene Tank added 4/25/24 - Nyagi
-          new ItemInfo("acetylene_tank", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          new ItemInfo.Tool("acetylene_tank", Tab.ITEMS, 128),
           // OSHA Approved Gear added 4/25/24 - Nyagi
           new ItemInfo("osha_approved_gear", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           // Crate Of Industrial Components added 4/25/24 - Nyagi

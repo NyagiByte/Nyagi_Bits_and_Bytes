@@ -1,10 +1,8 @@
 package net.madelyn.nyagibits_bytes.item;
 
-import net.madelyn.nyagibits_bytes.item.custom.CustomCurioItem;
-import net.madelyn.nyagibits_bytes.item.custom.CustomOreItem;
-import net.madelyn.nyagibits_bytes.item.custom.CustomTooltipItem;
-import net.madelyn.nyagibits_bytes.item.custom.LevitatingItem;
+import net.madelyn.nyagibits_bytes.item.custom.*;
 import net.madelyn.nyagibits_bytes.misc.Utils;
+import net.minecraft.util.RandomSource;
 import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.entity.ai.attributes.Attribute;
@@ -66,6 +64,24 @@ public class ItemInfo {
             case LEVITATING -> { return new LevitatingItem(new Item.Properties().tab(tab)); }
             default -> {return new Item(new Item.Properties().tab(tab));}
             }
+    }
+
+    public static class Tool extends ItemInfo {
+        private final RandomSource Random = RandomSource.create();
+        private int durability;
+
+        public Tool(String id, CreativeModeTab tab, int durability){
+            super(id, ModItems.Type.ITEM, tab);
+            this.durability = durability;
+        }
+        @Override
+        public Item registerItem(){
+            return new CustomToolItem( new Item.Properties()
+                    .tab(getTab())
+                    .durability(durability)
+                    .stacksTo(1));
+
+        }
     }
 
     //This subclass serves to register fluid buckets while bundling them in with the rest of the items to be registered.
