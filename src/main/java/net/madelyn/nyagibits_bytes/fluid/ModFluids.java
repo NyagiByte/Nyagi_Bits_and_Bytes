@@ -163,7 +163,31 @@ public class ModFluids {
         // Decolorized Chitin Solution - Added 06/15/25
         new FluidInfo.Builder("solution_decolorized_chitin", 0xA1613125),
         // Chitosan Solution - Added 06/15/25
-        new FluidInfo.Builder("solution_chitosan", 0xA1974e39)
+        new FluidInfo.Builder("solution_chitosan", 0xA1974e39),
+        // Hydroquinone - Added 07/06/25
+        new FluidInfo.Builder("hydroquinone", 0xA18a67ac),
+        // 1,4-Napthoquinone - Added 07/06/25
+        new FluidInfo.Builder("1_4_napthoquinone", 0xA13e4ab5),
+        // 9,10-Anthraquinone - Added 07/06/25
+        new FluidInfo.Builder("9_10_anthraquinone", 0xA1b03e74),
+        // Bubbled Pre-Peroxide - Added 07/06/25
+        new FluidInfo.Builder("bubbled_pre_peroxide", 0xA16081a1),
+        // Mixed Peroxide Product - Added 07/06/25
+        new FluidInfo.Builder("mixed_peroxide_product", 0xA1909b9c),
+        // Steam Cracked Ethylene - Added 07/06/25
+        new FluidInfo.Builder("steam_cracked_ethylene", 0xA178987e),
+        // 1,3-Butadiene - Added 07/06/25
+        new FluidInfo.Builder("1_3_butadiene", 0xA1868453),
+        // Wet HPA-4 - Added 07/06/25
+        new FluidInfo.Builder("wet_hpa_4", 0xA15b859e),
+        // HPA-4 Precursor #3 - Added 07/06/25
+        new FluidInfo.Builder("precursor_3_hpa_4", 0xA1787f87),
+        // HPA-4 Precursor #2- Added 07/06/25
+        new FluidInfo.Builder("precursor_2_hpa_4", 0xA152807c),
+        // HPA-4 Precursor #1 - Added 07/06/25
+        new FluidInfo.Builder("precursor_1_hpa_4", 0xA185997c),
+        // Diethyl Ether - Added 07/06/25
+        new FluidInfo.Builder("diethyl_ether", 0xA1ab8339)
     );
 
     public static List<ItemInfo.Bucket> buckets = new ArrayList<>();
