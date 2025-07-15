@@ -39,10 +39,5 @@ public class CustomToolItem extends CustomTooltipItem{
         return item;
     }
 
-    @Override
-    public boolean isRepairable(ItemStack stack){
-        return false;
-    }
-
 
 }
