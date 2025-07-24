@@ -517,6 +517,10 @@
   "item.nyagibits_bytes.on_carbon_palladium.desc": "By throwing palladium and activated carbon together\nthe surface area, and thus effective catalytic\nsurface, becomes larger and more efficient",
   "item.nyagibits_bytes.on_carbon_saturated_palladium": "Saturated Palladium On-Carbon",
   "item.nyagibits_bytes.on_carbon_saturated_palladium.desc": "Ah, better dry this to keep it fresh",
+  "item.nyagibits_bytes.calcium_silicate_dust": "Calcium Silicate Dust",
+  "item.nyagibits_bytes.calcium_silicate_dust.desc": "Comes in a few different flavors depending on how\nmuch silicon dioxide is complexed. Wollastonite,\nLarnite, and Alite are all naturally occurring\nflavors of calcium silicate",
+  "item.nyagibits_bytes.sample_calcium_silicate": "Sample of Calcium Silicate",
+  "item.nyagibits_bytes.sample_calcium_silicate.desc": "Main byproduct of pure magnesium production via the\nPidgeon process. Can be used as a cement-clinker, a\nsolid material for portland cement",
 
   "item.nyagibits_bytes.stomach": "Stomach",
   "item.nyagibits_bytes.stomach.desc": "This where da food go",

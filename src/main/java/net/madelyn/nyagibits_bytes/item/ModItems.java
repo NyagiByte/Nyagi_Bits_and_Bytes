@@ -606,6 +606,10 @@ public class ModItems {
           new ItemInfo("sample_dry_ice", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
           //  Dry Ice Slab added 07/05/25 - Nyagi
           new ItemInfo("dry_ice_slab", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Calcium Silicate Dust added 07/24/25 - Nyagi
+          new ItemInfo("calcium_silicate_dust", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Calcium Silicate added 07/24/25 - Nyagi
+          new ItemInfo("sample_calcium_silicate", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
           /* Disabled until floatation line is ready
           //  Sample of Potassium Manganate added 06/19/25 - Nyagi
           new ItemInfo("sample_potassium_manganate", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
