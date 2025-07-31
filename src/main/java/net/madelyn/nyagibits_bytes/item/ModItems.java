@@ -609,16 +609,16 @@ public class ModItems {
           //  Calcium Silicate Dust added 07/24/25 - Nyagi
           new ItemInfo("calcium_silicate_dust", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
           //  Sample of Calcium Silicate added 07/24/25 - Nyagi
-          new ItemInfo("sample_calcium_silicate", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),/*
-          //  Sample of Sludge added 07/25/25 - JJ
-          new ItemInfo("sample_sludge", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
-          //  Sample of Floc added 07/25/25 - JJ
-          new ItemInfo("sample_floc", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          new ItemInfo("sample_calcium_silicate", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sludge added 07/25/25 - JJ
+          new ItemInfo("sludge", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Floc added 07/25/25 - JJ
+          new ItemInfo("floc", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
           //  Sample of Iron(III) Chloride added 07/25/25 - JJ
           new ItemInfo("sample_iron_iii_chloride", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
           //  Sample of Iron Hydroxide added 07/25/25 - JJ
           new ItemInfo("sample_iron_iii_hydroxide", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
-          */
+
           /* Disabled until floatation line is ready
           //  Sample of Potassium Manganate added 06/19/25 - Nyagi
           new ItemInfo("sample_potassium_manganate", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
@@ -720,10 +720,10 @@ public class ModItems {
               //  Horse Equidae added 03/27/25 - Nyagi
               new ItemInfo("leather_equidae", Type.CUSTOM_TOOLTIP, Tab.BIOLOGY),
           //  Vine Cutting added 05/25/25 - Nyagi
-          new ItemInfo("vine_cutting", Type.CUSTOM_TOOLTIP, Tab.BIOLOGY),/*
+          new ItemInfo("vine_cutting", Type.CUSTOM_TOOLTIP, Tab.BIOLOGY),
           // Canola Seeds added 7/25/25 - JJ
           new ItemInfo("canola_seeds", Type.CUSTOM_TOOLTIP, Tab.BIOLOGY),
-          */
+
 
           //Custom Botania Runes
           // Blank Rune added 3/8/24 - Nyagi

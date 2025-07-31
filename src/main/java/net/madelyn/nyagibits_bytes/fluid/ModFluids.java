@@ -187,7 +187,7 @@ public class ModFluids {
         // HPA-4 Precursor #1 - Added 07/06/25
         new FluidInfo.Builder("precursor_1_hpa_4", 0xA185997c),
         // Diethyl Ether - Added 07/06/25
-        new FluidInfo.Builder("diethyl_ether", 0xA1ab8339)/*,
+        new FluidInfo.Builder("diethyl_ether", 0xA1ab8339),
         // Screened Water - Added 07/25/25
         new FluidInfo.Builder("screened_water", 0xA10c6ac8),
         // Flocculated Water - Added 07/25/25
@@ -201,7 +201,7 @@ public class ModFluids {
         // Filtered Water - Added 07/25/25
         new FluidInfo.Builder("filtered_water", 0xA12c88e4),
         // Contaminated Water - Added 07/25/25
-        new FluidInfo.Builder("contaminated_water", 0xA14e7eaf),
+        new FluidInfo.Builder("contaminated_water", 0xA16aa49b),
         // Deionised Water - Added 07/25/25
         new FluidInfo.Builder("deionised_water", 0xA14599ee),
         // Chlorine Dioxide - Added 07/25/25
@@ -216,7 +216,6 @@ public class ModFluids {
         new FluidInfo.Builder("type2_water", 0xA186b9ee),
         // Type 1 Water - Added 07/25/25
         new FluidInfo.Builder("type1_water", 0xA195bfeb)
-        */
     );
 
     public static List<ItemInfo.Bucket> buckets = new ArrayList<>();
