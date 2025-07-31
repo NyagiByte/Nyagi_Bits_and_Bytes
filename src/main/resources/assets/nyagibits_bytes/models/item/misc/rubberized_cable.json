@@ -1,8 +1,9 @@
 {
+	"format_version": "1.21.6",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "nyagibits_bytes:item/dev/rubberized_cable",
-		"particle": "nyagibits_bytes:item/dev/rubberized_cable"
+		"0": "nyagibits_bytes:item/rubberized_cable",
+		"particle": "nyagibits_bytes:item/rubberized_cable"
 	},
 	"elements": [
 		{
@@ -58,8 +59,7 @@
 			"translation": [0, 4.75, 0]
 		},
 		"ground": {
-			"rotation": [-88.26, 1.7, 26],
-			"translation": [0, -1.5, 0]
+			"translation": [0, 5.25, 0]
 		},
 		"gui": {
 			"rotation": [45, 45, 0],
