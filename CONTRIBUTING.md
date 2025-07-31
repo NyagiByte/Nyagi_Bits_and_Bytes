@@ -11,7 +11,7 @@ Since an american set the standard, most dates are in the MM/DD/YY format. Examp
 `//Slushy Ice added 5/16/24 - Nyagi`
 ### Naming Conventions
 Chemlib-style items should follow the naming conventions set in place to help them blend in with the also renamed chemlib items.  
-Chemical items (So beakers/flasks) should be named "Sample of <chemical name>" and have the id of "sample_<chemical_name>"  
+Chemical items (So beakers/flasks) should be named "Sample of <chemical_name>" and have the id of "sample_<chemical_name>"  
 Dusts follow a similar convention, although it might not be perfectly consistent.
 
 ## Items
@@ -21,7 +21,7 @@ Buckets and the item form of blocks are handled elsewhere. Do not register them 
 To add an item, head to the ModItems class.  
 There, add a new entry to the list like this.  
 `new ItemInfo("item_id", Type.CUSTOM_TOOLTIP, Tab.ITEMS),`  
-The item id must be in the format of minecraft item ids, without the namespace. This would create an item with id nyagibits_bytes:item_id.  
+The item id must be in the format of minecraft item ids, without the namespace. This would create an item with id `nyagibits_bytes:item_id`.  
 Type is an enum used by the helper class to register the correct type of items. You will mostly use CUSTOM_TOOLTIP, ITEM, and occasionally CUSTOM_ORE.  
 The types are:  
 - ITEM: A simple item with no other properties. Rarely used outside of stuff like incomplete assembly items.
@@ -46,12 +46,12 @@ Additionally, items of type CUSTOM_ORE should have an entry for the yields.
 ### Assets
 Remember to run datagen afterwards
 #### Simple items
-For basic, flat texture items, just drop the texture anywhere within assets/nyagibits_bytes/textures/item/dev/  
+For basic, flat texture items, just drop the texture anywhere within `assets/nyagibits_bytes/textures/item/dev/`  
 There are folders to keep things sorted. Datagen will handle the texture association.    
 **For this case, the texture's filename must be the item id. So item_id.png**  
 If there's a .mcmeta file for animated texture, put it in the same location as the png.
 #### Custom Modelled Items
-Go to assets/nyagibits_bytes/models/item and drop the model's json in any of the subfolders.  
+Go to `assets/nyagibits_bytes/models/item` and drop the model's json in any of the subfolders.  
 **DO NOT put the model in the models/item folder, it MUST be in a subfolder.**  
 Then take the textures and put them in the same place as basic textures.
 
@@ -59,22 +59,26 @@ Then take the textures and put them in the same place as basic textures.
 ### Things that should not be registered
 Do not register new sets of conglomerate ores one by one. Add them to the list of boulders and a whole set will be added.  
 ### Registering the block
-Go to ModBlocks.java and add a new entry to the list.  
+Go to the ModBlocks class and add a new entry to the list.  
 `new BlockInfo("block_id",Material.STONE, 1f, true, Tab.BLOCKS),`  
 The block id works the same as the item one. The material will set some properties, such as sounds. Autocomplete should work fine.  
 The third float parameter is strength, how tough the block is to break. Don't go overboard, unless it's intentional, then go crazy.  
-The 4th parameter dictates whether it needs a tool to break.  
+The 4th parameter dictates whether it needs a tool to get its drop.  
 Finally, Tab is again shorthand for a creative mode tab.
 ### Lang
 Blocks don't have tooltips, so only the lang for its name is needed.
 `"block.nyagibits_bytes.block_id": "Name of the Block",`
+### Mining Tags
+Go to `data/nyagibits_bytes/minecraft/tags/blocks`  
+In the mineable folder, you will find tags for axe, hoe, pickaxe and shovel. Adding the block to these will mark the tool as "suitable for this block"  
+Then there's the three "needs_X_tool.json" files. These determine mining level.
 ### Assets
-Assets work more or less the same as items, just with the block folder instead of the item folder.  
+Blocks' assets work more or less the same as items, just with the block folder instead of the item folder.  
 Datagen will automatically handle simple blocks with the same texture on all sides.
 ### Loot Tables
 Datagen automatically registers basic loot tables for blocks that should just drop themselves.  
-For more complex drops, add loot table jsons to data/nyagibits_bytes/loot_tables/blocks  
-**Do not add conglomerate ores here.** Those are handled in datagen as well. In LootTableDatagen.java there is a list of boulders and their drops. If a new boulder is added, add a new set of loot tables like this.  
+For more complex drops, add loot table jsons to `data/nyagibits_bytes/loot_tables/blocks`  
+**Do not add conglomerate ores here.** Those are handled in datagen as well. In the LootTableDatagen class, there is a list of boulders and their drops. If a new boulder is added, add a new set of loot tables like this.  
 `addBoulder("zinc", List.of("raw_zinc_carbonate", "raw_sphalerite", "raw_smithsonite", "raw_hemimorphite", "raw_wurtzite", "raw_hydrozincite", "raw_willemite", "raw_franklinite"));`
 ### Blockstates
 Blockstate jsons must be manually added for blocks with complex models or rotatable blocks. Again, look at existing ones. Simple ones are handled by datagen.
@@ -84,7 +88,7 @@ Datagen cannot handle their models, reference existing ones (like glimmering log
 
 ## Fluids
 ### Registering the fluid
-To add a new fluid, go to ModFluids.java and add a new entry to the list
+To add a new fluid, go to the ModFluids class and add a new entry to the list
 `new FluidInfo.Builder("fluid_id", 0xA1e7e2b2),`  
 Note that a bunch of different IDs will be built out of this one.  
 The second parameter is its tint and is formatted as 0x, followed by 4 hexadecimal values in the order of transparency, red, green, blue.  
@@ -99,5 +103,5 @@ For each fluid, three lang entries must be added:
 - Fluid Block: `"block.nyagibits_bytes.<fluid_id>_block": "<Fluid Name>",`
 - Bucket: `"item.nyagibits_bytes.bucket_of_<fluid_id>": "<Fluid Name> Bucket",`
 ### Assets
-Add the bucket's texture in assets/nyagibits_bytes/textures/item/dev/buckets and run datagen.  
-Technically not required to have the texture there, but might as well keep it somewhat organized.
+Add the bucket's texture in `assets/nyagibits_bytes/textures/item/dev/buckets` and run datagen.  
+Technically not required to have the texture in buckets specifically, but might as well keep it somewhat organized.
