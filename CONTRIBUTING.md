@@ -105,3 +105,31 @@ For each fluid, three lang entries must be added:
 ### Assets
 Add the bucket's texture in `assets/nyagibits_bytes/textures/item/dev/buckets` and run datagen.  
 Technically not required to have the texture in buckets specifically, but might as well keep it somewhat organized.
+### Chemical Items, Rules & Design
+Chemicals fall into 3 main groups: **Solids, Liquids, and Gasses**
+
+Solid-type chemicals must be registered with a dust or other "full unit" of itself as well as a "sample_of" version of itself.  
+Example: `"nyagibits_bytes:aluminum_trichloride_dust"` & `"nyagibits_bytes:sample_aluminum_trichloride"`
+
+Exceptions can be made if the full-unit of the chemical makes less sense as a dust item, see: Dry Ice  
+
+- Sample_Of items must be in the beaker-type of item. The actual pile of material inside can vary for visual flare.   
+- Alternative visual styles for the beakers of solid material is fine so long as it makes sense within the context of the beaker, see: Dry Ice & White Phosphorus having a glass dish above & a slight hue to indicate volatility 
+
+
+Liquid-type chemicals must be registered with a bucket of itself as well as a "sample_of" version of itself.  
+Example: `"nyagibits_bytes:bucket_of_solution_chitosan"` & `"nyagibits_bytes:sample_solution_chitosan"`
+
+- Sample_Of items must be in the flask-type of item. The actual liquid material inside can vary for visual flare.   
+- Alternative visual styles for the flasks of liquid material is fine so long as it makes sense within the context of the flasks, see: t-Butyllithium having a rubber stopper and hazard diamond, or, Oleum sending up fumes
+
+Gas-type chemicals must be registered with a bucket of itself as well as a "sample_of" version of itself.  
+Example: `"nyagibits_bytes:bucket_of_methyl_chloride"` & `"nyagibits_bytes:sample_methyl_chloride"`
+
+- Sample_Of items must be in the ampoule-type of item. The actual liquid material inside can vary for visual flare.   
+- Alternative visual styles for the ampoule of liquid material is fine so long as it makes sense within the context of the ampoule
+
+*Color of chemicals* should rarely follow real world counterparts as they tend to be white, yellow, gray, or clear, which is boring to look at & confusing to look at  
+Resulting compounds should be either a combination of colors associated to ChemLib or something entirely new  
+Compounds related to sequences or chains to eachother should have gradients, see: Hydrogen Peroxide Concentrations   
+Worth noting: Compounds are allowed to be white, yellow, gray, or clear, just not all of them
