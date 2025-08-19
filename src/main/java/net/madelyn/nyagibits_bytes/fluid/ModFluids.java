@@ -219,7 +219,19 @@ public class ModFluids {
         // Seawater - Added 08/18/25
         new FluidInfo.Builder("seawater", 0xA1bfcbed),
         // Hydrogen Bromide - Added 08/18/25
-        new FluidInfo.Builder("hydrogen_bromide", 0xA1812626)
+        new FluidInfo.Builder("hydrogen_bromide", 0xA1812626),
+        // Wet Hydrazine - Added 08/19/25
+        new FluidInfo.Builder("wet_hydrazine", 0xA1101065),
+        // Hydrazine - Added 08/19/25
+        new FluidInfo.Builder("hydrazine", 0xA1312b75),
+        // Hydrogen Iodide - Added 08/19/25
+        new FluidInfo.Builder("hydrogen_iodide", 0xA187336c),
+        // Iodomethane - Added 08/19/25
+        new FluidInfo.Builder("iodomethane", 0xA1b46ec7),
+        // DMSO - Added 08/19/25
+        new FluidInfo.Builder("dmso", 0xA18eb960),
+        // DMS - Added 08/19/25
+        new FluidInfo.Builder("dms", 0xA1d8cb63)
     );
 
     public static List<ItemInfo.Bucket> buckets = new ArrayList<>();

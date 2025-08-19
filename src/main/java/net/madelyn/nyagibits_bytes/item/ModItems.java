@@ -624,12 +624,28 @@ public class ModItems {
           new ItemInfo("sample_seawater", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
           //  Evaporated Brine added 08/18/25 - Nyagi
           new ItemInfo("evaporated_brine", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
-          //  Sample of Evaporated Brine added 08/18/25 - Nyagi
+          //  Sample of Evaporated Brine added 08/18/25 - Nyag
           new ItemInfo("sample_evaporated_brine", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
           //  Residue Brine Product added 08/18/25 - Nyagi
           new ItemInfo("residue_brine_product", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
           //  Sample of Residue Brine Product added 08/18/25 - Nyagi
           new ItemInfo("sample_residue_brine_product", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Wet Hydrazine added 08/19/25 - Nyagi
+          new ItemInfo("sample_wet_hydrazine", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Hydrazine added 08/19/25 - Nyagi
+          new ItemInfo("sample_hydrazine", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Hydrogen Iodide added 08/19/25 - Nyagi
+          new ItemInfo("sample_hydrogen_iodide", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Iodomethane added 08/19/25 - Nyagi
+          new ItemInfo("sample_iodomethane", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of DMSO added 08/19/25 - Nyagi
+          new ItemInfo("sample_dmso", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of DMS added 08/19/25 - Nyagi
+          new ItemInfo("sample_dms", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of 1,4-Dimethoxybenzene added 08/19/25 - Nyagi
+          new ItemInfo("sample_1_4_dimethoxybenzene", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  1,4-Dimethoxybenzene Dust added 08/18/25 - Nyagi
+          new ItemInfo("1_4_dimethoxybenzene_dust", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
 
           /* Disabled until floatation line is ready
           //  Sample of Potassium Manganate added 06/19/25 - Nyagi
