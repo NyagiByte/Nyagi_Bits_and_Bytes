@@ -531,6 +531,18 @@
   "item.nyagibits_bytes.sample_iron_iii_chloride.desc": "A compound that is mainly used in water treatment, etching & metal cleaning",
   "item.nyagibits_bytes.sample_iron_iii_hydroxide": "Sample of Iron III Hydroxide",
   "item.nyagibits_bytes.sample_iron_iii_hydroxide.desc": "A compound used in water treatment as well as cosmetics and inks",
+  "item.nyagibits_bytes.sample_seawater": "Sample of Seawater",
+  "item.nyagibits_bytes.sample_seawater.desc": "Probably has fish poop or something",
+  "item.nyagibits_bytes.sample_evaporated_brine": "Sample of Evaporated Brine",
+  "item.nyagibits_bytes.sample_evaporated_brine.desc": "Brine minus the water, basically impure salt",
+  "item.nyagibits_bytes.evaporated_brine": "Evaporated Brine",
+  "item.nyagibits_bytes.evaporated_brine.desc": "Slightly toxic fries seasoning",
+  "item.nyagibits_bytes.sample_residue_brine_product": "Sample of Residue Brine Product",
+  "item.nyagibits_bytes.sample_residue_brine_product.desc": "Shaken and stirred, all the big chunks have\nbeen sorted out ready for chemistry magic",
+  "item.nyagibits_bytes.residue_brine_product": "Residue Brine Product",
+  "item.nyagibits_bytes.residue_brine_product.desc": "Primary source of bromine, get used to seeing this",
+  "item.nyagibits_bytes.sample_hydrogen_bromide": "Sample of Hydrogen Bromide",
+  "item.nyagibits_bytes.sample_hydrogen_bromide.desc": "Important reagent in organic chemistry. Heavily used in\nepoxides and lactones, as well as many alkyne type compounds",
 
 
   "item.nyagibits_bytes.stomach": "Stomach",
@@ -1456,6 +1468,8 @@
   "fluid_type.nyagibits_bytes.type3_water_fluid": "Type 3 Water",
   "fluid_type.nyagibits_bytes.type2_water_fluid": "Type 2 Water",
   "fluid_type.nyagibits_bytes.type1_water_fluid": "Type 1 Water",
+  "fluid_type.nyagibits_bytes.seawater_fluid": "Seawater",
+  "fluid_type.nyagibits_bytes.hydrogen_bromide_fluid": "Hydrogen Bromide",
 
   "block.nyagibits_bytes.hydrocarbon_tar_block": "Hydrocarbon Tar",
   "block.nyagibits_bytes.raw_wood_vinegar_block": "Raw Wood Vinegar",
@@ -1505,6 +1519,8 @@
   "block.nyagibits_bytes.vinegar_block": "Vinegar",
   "block.nyagibits_bytes.vinegar_starter_block": "Vinegar Starter",
   "block.nyagibits_bytes.salt_water_block": "Salt Water",
+  "block.nyagibits_bytes.seawater_block": "Seawater",
+  "block.nyagibits_bytes.hydrogen_bromide_block": "Hydrogen Bromide",
   "block.nyagibits_bytes.solution_nickel_sulfate_block": "Nickel Sulfate Solution",
   "block.nyagibits_bytes.diluted_sulfuric_acid_block": "Diluted Sulfuric Acid",
   "block.nyagibits_bytes.thin_ink_block": "Thin Ink",
@@ -1677,6 +1693,8 @@
   "item.nyagibits_bytes.bucket_of_type3_water": "Type 3 Water Bucket",
   "item.nyagibits_bytes.bucket_of_type2_water": "Type 2 Water Bucket",
   "item.nyagibits_bytes.bucket_of_type1_water": "Type 1 Water Bucket",
+  "item.nyagibits_bytes.bucket_of_seawater": "Seawater Bucket",
+  "item.nyagibits_bytes.bucket_of_hydrogen_bromide": "Hydrogen Bromide Bucket",
 
 
   "item.nyagibits_bytes.incomplete_controller": "Incomplete Controller",

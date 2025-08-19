@@ -215,7 +215,11 @@ public class ModFluids {
         // Type 2 Water - Added 07/25/25
         new FluidInfo.Builder("type2_water", 0xA186b9ee),
         // Type 1 Water - Added 07/25/25
-        new FluidInfo.Builder("type1_water", 0xA195bfeb)
+        new FluidInfo.Builder("type1_water", 0xA195bfeb),
+        // Seawater - Added 08/18/25
+        new FluidInfo.Builder("seawater", 0xA1bfcbed),
+        // Hydrogen Bromide - Added 08/18/25
+        new FluidInfo.Builder("hydrogen_bromide", 0xA1812626)
     );
 
     public static List<ItemInfo.Bucket> buckets = new ArrayList<>();

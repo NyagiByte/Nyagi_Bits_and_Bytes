@@ -618,6 +618,18 @@ public class ModItems {
           new ItemInfo("sample_iron_iii_chloride", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
           //  Sample of Iron Hydroxide added 07/25/25 - JJ
           new ItemInfo("sample_iron_iii_hydroxide", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Hydrogen Bromide added 08/18/25 - Nyagi
+          new ItemInfo("sample_hydrogen_bromide", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Seawater added 08/18/25 - Nyagi
+          new ItemInfo("sample_seawater", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Evaporated Brine added 08/18/25 - Nyagi
+          new ItemInfo("evaporated_brine", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Evaporated Brine added 08/18/25 - Nyagi
+          new ItemInfo("sample_evaporated_brine", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Residue Brine Product added 08/18/25 - Nyagi
+          new ItemInfo("residue_brine_product", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Residue Brine Product added 08/18/25 - Nyagi
+          new ItemInfo("sample_residue_brine_product", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
 
           /* Disabled until floatation line is ready
           //  Sample of Potassium Manganate added 06/19/25 - Nyagi
