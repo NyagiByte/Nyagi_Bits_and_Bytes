@@ -231,7 +231,11 @@ public class ModFluids {
         // DMSO - Added 08/19/25
         new FluidInfo.Builder("dmso", 0xA18eb960),
         // DMS - Added 08/19/25
-        new FluidInfo.Builder("dms", 0xA1d8cb63)
+        new FluidInfo.Builder("dms", 0xA1d8cb63),
+        // Impure Methanol - Added 08/24/25
+        new FluidInfo.Builder("impure_methanol", 0xA19e64a3),
+        // Impure Acetone - Added 08/24/25
+        new FluidInfo.Builder("impure_acetone", 0xA19c9b97)
     );
 
     public static List<ItemInfo.Bucket> buckets = new ArrayList<>();
