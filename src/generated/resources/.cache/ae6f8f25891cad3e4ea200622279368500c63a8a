@@ -1,4 +1,4 @@
-// 1.19.2	2025-08-19T04:01:47.429218	Block States: nyagibits_bytes
+// 1.19.2	2025-08-26T23:01:21.5715481	Block States: nyagibits_bytes
 e5a33b4a2db42195222fa1709b3d9533ac41e453 assets/nyagibits_bytes/blockstates/1_3_butadiene_block.json
 e5a33b4a2db42195222fa1709b3d9533ac41e453 assets/nyagibits_bytes/blockstates/1_4_napthoquinone_block.json
 d9ae04ffd8445a9bc120f16a0f862fcd55207479 assets/nyagibits_bytes/blockstates/2lbxyud1od.json
@@ -121,6 +121,8 @@ e64b69614d6d87dcb650e5bb9d6e16d75ddb5700 assets/nyagibits_bytes/blockstates/hype
 617731b7e55b180e0f8bb57d6b8f7a08641407e7 assets/nyagibits_bytes/blockstates/hyper_conglomerate_tin_ore.json
 239f9f8405e84ec5e99843060f3f22b98d1e9643 assets/nyagibits_bytes/blockstates/hyper_conglomerate_uranium_ore.json
 72c8dc416971e5565f9f3d45dd7270a87b5d18e5 assets/nyagibits_bytes/blockstates/hyper_conglomerate_zinc_ore.json
+e5a33b4a2db42195222fa1709b3d9533ac41e453 assets/nyagibits_bytes/blockstates/impure_acetone_block.json
+e5a33b4a2db42195222fa1709b3d9533ac41e453 assets/nyagibits_bytes/blockstates/impure_methanol_block.json
 e5a33b4a2db42195222fa1709b3d9533ac41e453 assets/nyagibits_bytes/blockstates/iodomethane_block.json
 3c5333c36a8b8c7f9eea03f1602222518416a3cd assets/nyagibits_bytes/blockstates/k4k3ggaog2.json
 e5a33b4a2db42195222fa1709b3d9533ac41e453 assets/nyagibits_bytes/blockstates/ketone_mixture_block.json

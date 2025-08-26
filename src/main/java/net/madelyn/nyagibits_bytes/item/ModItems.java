@@ -646,6 +646,62 @@ public class ModItems {
           new ItemInfo("sample_1_4_dimethoxybenzene", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
           //  1,4-Dimethoxybenzene Dust added 08/18/25 - Nyagi
           new ItemInfo("1_4_dimethoxybenzene_dust", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Impure Methanol added 08/26/25 - JJ
+          new ItemInfo("sample_impure_methanol", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Impure Acetone added 08/26/25 - JJ
+          new ItemInfo("sample_impure_acetone", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Acetone added 08/26/25 - JJ
+          new ItemInfo("sample_acetone", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Screened Water added 08/26/25 - JJ
+          new ItemInfo("sample_screened_water", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Flocculated Water added 08/26/25 - JJ
+          new ItemInfo("sample_flocculated_water", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Settled Water added 08/26/25 - JJ
+          new ItemInfo("sample_settled_water", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Clarified Water added 08/26/25 - JJ
+          new ItemInfo("sample_clarified_water", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Sand Filtered Water added 08/26/25 - JJ
+          new ItemInfo("sample_sand_filtered_water", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Filtered Water added 08/26/25 - JJ
+          new ItemInfo("sample_filtered_water", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Contaminated Water added 08/26/25 - JJ
+          new ItemInfo("sample_contaminated_water", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Deionised Water added 08/26/25 - JJ
+          new ItemInfo("sample_deionised_water", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Disinfected Water added 08/26/25 - JJ
+          new ItemInfo("sample_disinfected_water", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Distilled Water added 08/26/25 - JJ
+          new ItemInfo("sample_distilled_water", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Type 3 Water added 08/26/25 - JJ
+          new ItemInfo("sample_type3_water", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Type 2 Water added 08/26/25 - JJ
+          new ItemInfo("sample_type2_water", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Type 1 Water added 08/26/25 - JJ
+          new ItemInfo("sample_type1_water", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Wet Methanol added 08/26/25 - JJ
+          new ItemInfo("sample_wet_methanol", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Crude Biodiesel added 08/26/25 - JJ
+          new ItemInfo("sample_crude_biodiesel", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Crude Glycerol added 08/26/25 - JJ
+          new ItemInfo("sample_crude_glycerol", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Alkaline Technical Grade Glycerol added 08/26/25 - JJ
+          new ItemInfo("sample_alkaline_technical_grade_glycerol", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Technical Grade Glycerol added 08/26/25 - JJ
+          new ItemInfo("sample_technical_grade_glycerol", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Colorless Glycerol added 08/26/25 - JJ
+          new ItemInfo("sample_colorless_glycerol", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Odourless Glycerol added 08/26/25 - JJ
+          new ItemInfo("sample_odourless_glycerol", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Distilled Glycerol added 08/26/25 - JJ
+          new ItemInfo("sample_distilled_glycerol", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Glycerol added 08/26/25 - JJ
+          new ItemInfo("sample_glycerol", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Wet Biodiesel added 08/26/25 - JJ
+          new ItemInfo("sample_wet_biodiesel", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Crude Plant Oil added 08/26/25 - JJ
+          new ItemInfo("sample_crude_plant_oil", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Chlorine Dioxide added 08/26/25 - JJ
+          new ItemInfo("sample_chlorine_dioxide", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
 
           /* Disabled until floatation line is ready
           //  Sample of Potassium Manganate added 06/19/25 - Nyagi
