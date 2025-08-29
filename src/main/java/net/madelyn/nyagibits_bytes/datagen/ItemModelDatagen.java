@@ -114,6 +114,7 @@ public class ItemModelDatagen extends ItemModelProvider {
             else if (DEV_TEXTURES.containsKey(item.getId())) modelBuilder.texture("layer0", modLoc("item/dev/"+DEV_TEXTURES.get(item.getId())));
             else{
                 NyagiBits_Bytes.LOGGER.error("Texture {} was not found anywhere", item.getId());
+                modelBuilder.texture("layer0", modLoc("item/dev/"+DEV_TEXTURES.get("placeholder")));
             }
             //If there's both a main and dev texture, create an entry for the programmer's art resourcepack.
             if(MAIN_TEXTURES.containsKey(item.getId()) && DEV_TEXTURES.containsKey(item.getId())){

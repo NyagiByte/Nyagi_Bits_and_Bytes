@@ -34,237 +34,242 @@ public class ModFluids {
     For info on the default values, or the available builder methods, see the FluidInfo.Builder class.
      */
 
-    public static final List<FluidInfo.Builder> FLUIDS_LIST = List.of(
+    public static final List<FluidInfo.Builder> FLUIDS_LIST = new ArrayList<>();
+    public static void add(FluidInfo.Builder fluid){
+        FLUIDS_LIST.add(fluid);
+    }
+    public static void populateList(){
         //Hydrocarbon Tar - Added 6/25/24
-        new FluidInfo.Builder("hydrocarbon_tar", 0xff141414)
+        add(new FluidInfo.Builder("hydrocarbon_tar", 0xff141414)
                 .setStillTexture(LAVA_STILL_RL)
                 .setFlowingTexture(LAVA_FLOWING_RL)
                 .setSlopeFindDistance(2)
                 .setLevelDecreasePerBlock(2)
                 .setDensity(15)
-                .setViscosity(2),
+                .setViscosity(2));
         //Raw Wood Vinegar - Added 6/25/24
-        new FluidInfo.Builder("raw_wood_vinegar", 0xC18a3a0a)
+        add(new FluidInfo.Builder("raw_wood_vinegar", 0xC18a3a0a)
                 .setSlopeFindDistance(4)
-                .setViscosity(5),
+                .setViscosity(5));
         //Pyroligneous Acid - Added 6/25/24
-        new FluidInfo.Builder("pyroligneous_acid", 0xA1be8d43)
-                .setSlopeFindDistance(4),
+        add(new FluidInfo.Builder("pyroligneous_acid", 0xA1be8d43)
+                .setSlopeFindDistance(4));
         //Acetone - Added 6/25/24
-        new FluidInfo.Builder("acetone", 0xA1bbb9b2),
+        add(new FluidInfo.Builder("acetone", 0xA1bbb9b2));
         //Gemstone Polish - Added 11/15/24
-        new FluidInfo.Builder("gemstone_polish", 0xA100b2a9),
+        add(new FluidInfo.Builder("gemstone_polish", 0xA100b2a9));
         //Molten Skystone - Added 11/15/24
-        new FluidInfo.Builder("molten_skystone", 0xff001400)
+        add(new FluidInfo.Builder("molten_skystone", 0xff001400)
                 .setStillTexture(LAVA_STILL_RL)
-                .setFlowingTexture(LAVA_FLOWING_RL),
+                .setFlowingTexture(LAVA_FLOWING_RL));
         //Heptafluoropropane - Added 11/29/24
-        new FluidInfo.Builder("heptafluoropropane", 0xA145ff64),
+        add(new FluidInfo.Builder("heptafluoropropane", 0xA145ff64));
         //Amorphous Cellulose - Added 11/29/24
-        new FluidInfo.Builder("amorphous_cellulose", 0xA4b6432),
+        add(new FluidInfo.Builder("amorphous_cellulose", 0xA4b6432));
         //Lithium-Alumino Solution - Added 12/12/24
-        new FluidInfo.Builder("lithium_alumino_solution", 0xA1c8fa),
+        add(new FluidInfo.Builder("lithium_alumino_solution", 0xA1c8fa));
         //Tailings - Added 12/12/24
-        new FluidInfo.Builder("tailings", 0xA4644b32),
+        add(new FluidInfo.Builder("tailings", 0xA4644b32));
         //Petroleum - Added 12/12/24
-        new FluidInfo.Builder("petroleum", 0xA4c89600),
+        add(new FluidInfo.Builder("petroleum", 0xA4c89600));
         //Heavy Crude Oil - Added 12/12/24
-        new FluidInfo.Builder("heavy_crude_oil", 0xA400000a),
+        add(new FluidInfo.Builder("heavy_crude_oil", 0xA400000a));
         //Endstone-Leach Water - Added 12/12/24
-        new FluidInfo.Builder("endstone_leach_water", 0xA1326496),
+        add(new FluidInfo.Builder("endstone_leach_water", 0xA1326496));
         // Bio-Glycerol Mix - Added 03/21/25
-        new FluidInfo.Builder("bio_glycerol_mix", 0xA04f4d0a),
+        add(new FluidInfo.Builder("bio_glycerol_mix", 0xA04f4d0a));
         // Crude Biodiesel - Added 02/13/25
-        new FluidInfo.Builder("crude_biodiesel", 0xA14f4d0a),
+        add(new FluidInfo.Builder("crude_biodiesel", 0xA14f4d0a));
         // Crude Glycerol - Added 02/13/25
-        new FluidInfo.Builder("crude_glycerol", 0xA1472b19),
+        add(new FluidInfo.Builder("crude_glycerol", 0xA1472b19));
         // Alkaline Technical Grade Glycerol - Added 02/13/25
-        new FluidInfo.Builder("alkaline_technical_glycerol", 0xA1804d2e),
+        add(new FluidInfo.Builder("alkaline_technical_glycerol", 0xA1804d2e));
         // Technical Grade Glycerol - Added 02/13/25
-        new FluidInfo.Builder("technical_glycerol", 0xA1a36e4e),
+        add(new FluidInfo.Builder("technical_glycerol", 0xA1a36e4e));
         // Colorless Glycerol - Added 02/13/25
-        new FluidInfo.Builder("colorless_glycerol", 0xA1ccc3be),
+        add(new FluidInfo.Builder("colorless_glycerol", 0xA1ccc3be));
         // Odourless Glycerol - Added 02/13/25
-        new FluidInfo.Builder("odourless_glycerol", 0xA1dbd1cc),
+        add(new FluidInfo.Builder("odourless_glycerol", 0xA1dbd1cc));
         // Distilled Glycerol - Added 02/13/25
-        new FluidInfo.Builder("distilled_glycerol", 0xA1f5e9e4),
+        add(new FluidInfo.Builder("distilled_glycerol", 0xA1f5e9e4));
         // Glycerol - Added 02/13/25
-        new FluidInfo.Builder("glycerol", 0xA1ededed),
+        add(new FluidInfo.Builder("glycerol", 0xA1ededed));
         // Wet Methanol - Added 02/13/25
-        new FluidInfo.Builder("wet_methanol", 0xA1e9b8f5),
+        add(new FluidInfo.Builder("wet_methanol", 0xA1e9b8f5));
         // Wet Biodiesel - Added 02/13/25
-        new FluidInfo.Builder("wet_biodiesel", 0xA1706e1a),
+        add(new FluidInfo.Builder("wet_biodiesel", 0xA1706e1a));
         // Crude Plant Oil - Added 02/13/25
-        new FluidInfo.Builder("crude_plant_oil", 0xA17d824d),
+        add(new FluidInfo.Builder("crude_plant_oil", 0xA17d824d));
         // Cyclohexanone - Added 02/20/25
-        new FluidInfo.Builder("cyclohexanone", 0xA1aad5cb),
+        add(new FluidInfo.Builder("cyclohexanone", 0xA1aad5cb));
         // Methylethyl Ketone - Added 02/20/25
-        new FluidInfo.Builder("methylethyl_ketone", 0xA15e9e8f),
+        add(new FluidInfo.Builder("methylethyl_ketone", 0xA15e9e8f));
         // Ketone Mixture - Added 02/20/25
-        new FluidInfo.Builder("ketone_mixture", 0xA1b0c484),
+        add(new FluidInfo.Builder("ketone_mixture", 0xA1b0c484));
         // Lithium Carboxylate - Added 02/20/25
-        new FluidInfo.Builder("lithium_carboxylate", 0xA1c3b0bb),
+        add(new FluidInfo.Builder("lithium_carboxylate", 0xA1c3b0bb));
         // t-Butyllithium - Added 02/20/25
-        new FluidInfo.Builder("tert_butyl_lithium", 0xA18c80ae),
+        add(new FluidInfo.Builder("tert_butyl_lithium", 0xA18c80ae));
         // t-Butylchloride - Added 02/20/25
-        new FluidInfo.Builder("tert_butyl_chloride", 0xA178aa99),
+        add(new FluidInfo.Builder("tert_butyl_chloride", 0xA178aa99));
         // Methylmagnesium Chloride Solution - Added 02/20/25
-        new FluidInfo.Builder("methylmagnesium_chloride_solution", 0xA1c7d9cd),
+        add(new FluidInfo.Builder("methylmagnesium_chloride_solution", 0xA1c7d9cd));
         // Tetrahydrofuran - Added 02/20/25
-        new FluidInfo.Builder("tetrahydrofuran", 0xA1e3c3af),
+        add(new FluidInfo.Builder("tetrahydrofuran", 0xA1e3c3af));
         // Formaldehyde - Added 02/20/25
-        new FluidInfo.Builder("formaldehyde", 0xA1d7933a),
+        add(new FluidInfo.Builder("formaldehyde", 0xA1d7933a));
         // Methyl Chloride - Added 04/23/25
-        new FluidInfo.Builder("methyl_chloride", 0xA19acdad),
+        add(new FluidInfo.Builder("methyl_chloride", 0xA19acdad));
         // Ethylene Oxide - Added 04/23/25
-        new FluidInfo.Builder("ethylene_oxide", 0xA198b1b6),
+        add(new FluidInfo.Builder("ethylene_oxide", 0xA198b1b6));
         // Trinitrotoluene - Added 04/23/25
-        new FluidInfo.Builder("trinitrotoluene", 0xA1e7dd7a),
+        add(new FluidInfo.Builder("trinitrotoluene", 0xA1e7dd7a));
         // Dinitrotoluene - Added 04/23/25
-        new FluidInfo.Builder("dinitrotoluene", 0xA1c6b097),
+        add(new FluidInfo.Builder("dinitrotoluene", 0xA1c6b097));
         // Mononitrotoluene - Added 04/23/25
-        new FluidInfo.Builder("mononitrotoluene", 0xA1b9b890),
+        add(new FluidInfo.Builder("mononitrotoluene", 0xA1b9b890));
         // Toluene - Added 04/23/25
-        new FluidInfo.Builder("toluene", 0xA1965517),
+        add(new FluidInfo.Builder("toluene", 0xA1965517));
         // 2-Phenoxyethanol - Added 04/23/25
-        new FluidInfo.Builder("2_phenoxyethanol", 0xA1918c58),
+        add(new FluidInfo.Builder("2_phenoxyethanol", 0xA1918c58));
         // Benzyl Alcohol - Added 04/23/25
-        new FluidInfo.Builder("benzyl_alcohol", 0xA1839367),
+        add(new FluidInfo.Builder("benzyl_alcohol", 0xA1839367));
         // Oleum - Added 04/23/25
-        new FluidInfo.Builder("oleum", 0xA1e7e2b2),
+        add(new FluidInfo.Builder("oleum", 0xA1e7e2b2));
         // Anthocyanin - Added 04/23/25
-        new FluidInfo.Builder("anthocyanin", 0xA1cc8aec),
+        add(new FluidInfo.Builder("anthocyanin", 0xA1cc8aec));
         // Malic & Citric Acid - Added 04/23/25
-        new FluidInfo.Builder("malic_and_citric_acid", 0xA1f0ae5a),
+        add(new FluidInfo.Builder("malic_and_citric_acid", 0xA1f0ae5a));
         // Vinegar - Added 04/23/25
-        new FluidInfo.Builder("vinegar", 0xA1ccc4ae),
+        add(new FluidInfo.Builder("vinegar", 0xA1ccc4ae));
         // Salt Water - Added 04/23/25
-        new FluidInfo.Builder("salt_water", 0xA189a5f5),
+        add(new FluidInfo.Builder("salt_water", 0xA189a5f5));
         // Nickel Sulfate Solution - Added 05/29/25
-        new FluidInfo.Builder("solution_nickel_sulfate", 0xA14b7f30),
+        add(new FluidInfo.Builder("solution_nickel_sulfate", 0xA14b7f30));
         // Diluted Sulfuric Acid - Added 05/29/25
-        new FluidInfo.Builder("diluted_sulfuric_acid", 0xA1c9c682),
+        add(new FluidInfo.Builder("diluted_sulfuric_acid", 0xA1c9c682));
         // Vinegar Starter - Added 06/10/25
-        new FluidInfo.Builder("vinegar_starter", 0xA152362D),
+        add(new FluidInfo.Builder("vinegar_starter", 0xA152362D));
         // Vinegar Starter - Added 06/10/25
-        new FluidInfo.Builder("thin_ink", 0xA1111111),
+        add(new FluidInfo.Builder("thin_ink", 0xA1111111));
         // Commercial Grade Hydrogen Peroxide (3%) - Added 06/15/25
-        new FluidInfo.Builder("hydrogen_peroxide_003", 0xA10d5e8b),
+        add(new FluidInfo.Builder("hydrogen_peroxide_003", 0xA10d5e8b));
         // Concentrated Hydrogen Peroxide (15%) - Added 06/15/25
-        new FluidInfo.Builder("hydrogen_peroxide_015", 0xA116869c),
+        add(new FluidInfo.Builder("hydrogen_peroxide_015", 0xA116869c));
         // Industrial Grade Hydrogen Peroxide (32%) - Added 06/15/25
-        new FluidInfo.Builder("hydrogen_peroxide_032", 0xA11ea69f),
+        add(new FluidInfo.Builder("hydrogen_peroxide_032", 0xA11ea69f));
         // Explosives Grade Hydrogen Peroxide (75%) - Added 06/15/25
-        new FluidInfo.Builder("hydrogen_peroxide_075", 0xA129b38f),
+        add(new FluidInfo.Builder("hydrogen_peroxide_075", 0xA129b38f));
         // Anhydrous Hydrogen Peroxide (~99.9%) - Added 06/15/25
-        new FluidInfo.Builder("hydrogen_peroxide_100", 0xA149ca99),
+        add(new FluidInfo.Builder("hydrogen_peroxide_100", 0xA149ca99));
         // Unbleached Chitin Solution - Added 06/15/25
-        new FluidInfo.Builder("solution_unbleached_chitin", 0xA19e8948),
+        add(new FluidInfo.Builder("solution_unbleached_chitin", 0xA19e8948));
         // Decolorized Chitin Solution - Added 06/15/25
-        new FluidInfo.Builder("solution_decolorized_chitin", 0xA1613125),
+        add(new FluidInfo.Builder("solution_decolorized_chitin", 0xA1613125));
         // Chitosan Solution - Added 06/15/25
-        new FluidInfo.Builder("solution_chitosan", 0xA1974e39),
+        add(new FluidInfo.Builder("solution_chitosan", 0xA1974e39));
         // Hydroquinone - Added 07/06/25
-        new FluidInfo.Builder("hydroquinone", 0xA18a67ac),
+        add(new FluidInfo.Builder("hydroquinone", 0xA18a67ac));
         // 1,4-Napthoquinone - Added 07/06/25
-        new FluidInfo.Builder("1_4_napthoquinone", 0xA13e4ab5),
+        add(new FluidInfo.Builder("1_4_napthoquinone", 0xA13e4ab5));
         // 9,10-Anthraquinone - Added 07/06/25
-        new FluidInfo.Builder("9_10_anthraquinone", 0xA1b03e74),
+        add(new FluidInfo.Builder("9_10_anthraquinone", 0xA1b03e74));
         // Bubbled Pre-Peroxide - Added 07/06/25
-        new FluidInfo.Builder("bubbled_pre_peroxide", 0xA16081a1),
+        add(new FluidInfo.Builder("bubbled_pre_peroxide", 0xA16081a1));
         // Mixed Peroxide Product - Added 07/06/25
-        new FluidInfo.Builder("mixed_peroxide_product", 0xA1909b9c),
+        add(new FluidInfo.Builder("mixed_peroxide_product", 0xA1909b9c));
         // Steam Cracked Ethylene - Added 07/06/25
-        new FluidInfo.Builder("steam_cracked_ethylene", 0xA178987e),
+        add(new FluidInfo.Builder("steam_cracked_ethylene", 0xA178987e));
         // 1,3-Butadiene - Added 07/06/25
-        new FluidInfo.Builder("1_3_butadiene", 0xA1868453),
+        add(new FluidInfo.Builder("1_3_butadiene", 0xA1868453));
         // Wet HPA-4 - Added 07/06/25
-        new FluidInfo.Builder("wet_hpa_4", 0xA15b859e),
+        add(new FluidInfo.Builder("wet_hpa_4", 0xA15b859e));
         // HPA-4 Precursor #3 - Added 07/06/25
-        new FluidInfo.Builder("precursor_3_hpa_4", 0xA1787f87),
+        add(new FluidInfo.Builder("precursor_3_hpa_4", 0xA1787f87));
         // HPA-4 Precursor #2- Added 07/06/25
-        new FluidInfo.Builder("precursor_2_hpa_4", 0xA152807c),
+        add(new FluidInfo.Builder("precursor_2_hpa_4", 0xA152807c));
         // HPA-4 Precursor #1 - Added 07/06/25
-        new FluidInfo.Builder("precursor_1_hpa_4", 0xA185997c),
+        add(new FluidInfo.Builder("precursor_1_hpa_4", 0xA185997c));
         // Diethyl Ether - Added 07/06/25
-        new FluidInfo.Builder("diethyl_ether", 0xA1ab8339),
+        add(new FluidInfo.Builder("diethyl_ether", 0xA1ab8339));
         // Screened Water - Added 07/25/25
-        new FluidInfo.Builder("screened_water", 0xA10c6ac8),
+        add(new FluidInfo.Builder("screened_water", 0xA10c6ac8));
         // Flocculated Water - Added 07/25/25
-        new FluidInfo.Builder("flocculated_water", 0xA10e6fd0),
+        add(new FluidInfo.Builder("flocculated_water", 0xA10e6fd0));
         // Settled Water - Added 07/25/25
-        new FluidInfo.Builder("settled_water", 0xA11073d7),
+        add(new FluidInfo.Builder("settled_water", 0xA11073d7));
         // Clarified Water - Added 07/25/25
-        new FluidInfo.Builder("clarified_water", 0xA11278df),
+        add(new FluidInfo.Builder("clarified_water", 0xA11278df));
         // Sand Filtered Water - Added 07/25/25
-        new FluidInfo.Builder("sand_filtered_water", 0xA1137ae2),
+        add(new FluidInfo.Builder("sand_filtered_water", 0xA1137ae2));
         // Filtered Water - Added 07/25/25
-        new FluidInfo.Builder("filtered_water", 0xA12c88e4),
+        add(new FluidInfo.Builder("filtered_water", 0xA12c88e4));
         // Contaminated Water - Added 07/25/25
-        new FluidInfo.Builder("contaminated_water", 0xA16aa49b),
+        add(new FluidInfo.Builder("contaminated_water", 0xA16aa49b));
         // Deionised Water - Added 07/25/25
-        new FluidInfo.Builder("deionised_water", 0xA14599ee),
+        add(new FluidInfo.Builder("deionised_water", 0xA14599ee));
         // Chlorine Dioxide - Added 07/25/25
-        new FluidInfo.Builder("chlorine_dioxide", 0xA1d1e614),
+        add(new FluidInfo.Builder("chlorine_dioxide", 0xA1d1e614));
         // Disinfected Water - Added 07/25/25
-        new FluidInfo.Builder("disinfected_water", 0xA15aa4f0),
+        add(new FluidInfo.Builder("disinfected_water", 0xA15aa4f0));
         // Distilled Water - Added 07/25/25
-        new FluidInfo.Builder("distilled_water", 0xA172b1f2),
+        add(new FluidInfo.Builder("distilled_water", 0xA172b1f2));
         // Type 3 Water - Added 07/25/25
-        new FluidInfo.Builder("type3_water", 0xA178b3f0),
+        add(new FluidInfo.Builder("type3_water", 0xA178b3f0));
         // Type 2 Water - Added 07/25/25
-        new FluidInfo.Builder("type2_water", 0xA186b9ee),
+        add(new FluidInfo.Builder("type2_water", 0xA186b9ee));
         // Type 1 Water - Added 07/25/25
-        new FluidInfo.Builder("type1_water", 0xA195bfeb),
+        add(new FluidInfo.Builder("type1_water", 0xA195bfeb));
         // Seawater - Added 08/18/25
-        new FluidInfo.Builder("seawater", 0xA1bfcbed),
+        add(new FluidInfo.Builder("seawater", 0xA1bfcbed));
         // Hydrogen Bromide - Added 08/18/25
-        new FluidInfo.Builder("hydrogen_bromide", 0xA1812626),
+        add(new FluidInfo.Builder("hydrogen_bromide", 0xA1812626));
         // Wet Hydrazine - Added 08/19/25
-        new FluidInfo.Builder("wet_hydrazine", 0xA1101065),
+        add(new FluidInfo.Builder("wet_hydrazine", 0xA1101065));
         // Hydrazine - Added 08/19/25
-        new FluidInfo.Builder("hydrazine", 0xA1312b75),
+        add(new FluidInfo.Builder("hydrazine", 0xA1312b75));
         // Hydrogen Iodide - Added 08/19/25
-        new FluidInfo.Builder("hydrogen_iodide", 0xA187336c),
+        add(new FluidInfo.Builder("hydrogen_iodide", 0xA187336c));
         // Iodomethane - Added 08/19/25
-        new FluidInfo.Builder("iodomethane", 0xA1b46ec7),
+        add(new FluidInfo.Builder("iodomethane", 0xA1b46ec7));
         // DMSO - Added 08/19/25
-        new FluidInfo.Builder("dmso", 0xA18eb960),
+        add(new FluidInfo.Builder("dmso", 0xA18eb960));
         // DMS - Added 08/19/25
-        new FluidInfo.Builder("dms", 0xA1d8cb63),
+        add(new FluidInfo.Builder("dms", 0xA1d8cb63));
         // Impure Methanol - Added 08/24/25
-        new FluidInfo.Builder("impure_methanol", 0xA19e64a3),
+        add(new FluidInfo.Builder("impure_methanol", 0xA19e64a3));
         // Impure Acetone - Added 08/24/25
-        new FluidInfo.Builder("impure_acetone", 0xA19c9b97),
+        add(new FluidInfo.Builder("impure_acetone", 0xA19c9b97));
         // Chloropropane - Added 08/27/25
-        new FluidInfo.Builder("chloropropane", 0xA15d3137),
+        add(new FluidInfo.Builder("chloropropane", 0xA15d3137));
         // Chlorooctane - Added 08/27/25
-        new FluidInfo.Builder("chlorooctane", 0xA17f5377),
+        add(new FluidInfo.Builder("chlorooctane", 0xA17f5377));
         // Bromooctane - Added 08/27/25
-        new FluidInfo.Builder("bromooctane", 0xA1512415),
+        add(new FluidInfo.Builder("bromooctane", 0xA1512415));
         // CHC 68 - Added 08/27/25
-        new FluidInfo.Builder("chc_68", 0xA145301f),
+        add(new FluidInfo.Builder("chc_68", 0xA145301f));
         // Anhydrous Toluene - Added 08/27/25
-        new FluidInfo.Builder("anhydrous_toluene", 0xA14e2f12),
+        add(new FluidInfo.Builder("anhydrous_toluene", 0xA14e2f12));
         // Octane - Added 08/27/25
-        new FluidInfo.Builder("octane", 0xA147124e),
+        add(new FluidInfo.Builder("octane", 0xA147124e));
         // Mixed Pre-Dimethoxybenzoic Acid Product - Added 08/27/25
-        new FluidInfo.Builder("mixed_pre_dimethoxybenzoic_acid_product", 0xA13d7081),
+        add(new FluidInfo.Builder("mixed_pre_dimethoxybenzoic_acid_product", 0xA13d7081));
         // Mixed Dimethoxybenzoic Acid Product - Added 08/27/25
-        new FluidInfo.Builder("mixed_dimethoxybenzoic_acid_product", 0xA1627397),
+        add(new FluidInfo.Builder("mixed_dimethoxybenzoic_acid_product", 0xA1627397));
         // Impure 2,5-Dimethoxybenzoic Acid - Added 08/27/25
-        new FluidInfo.Builder("impure_2_5_dimethoxybenzoic_acid", 0xA13e3c70),
+        add(new FluidInfo.Builder("impure_2_5_dimethoxybenzoic_acid", 0xA13e3c70));
         // Impure 2,5-Dimethoxy-1,4-Benzenedicarboxylic Acid - Added 08/27/25
-        new FluidInfo.Builder("impure_2_5_dimethoxy_1_4_benzenedicarboxylic_acid", 0xA1a9c8c6),
+        add(new FluidInfo.Builder("impure_2_5_dimethoxy_1_4_benzenedicarboxylic_acid", 0xA1a9c8c6));
         // 2,5-Dimethoxybenzoic Acid Solution - Added 08/27/25
-        new FluidInfo.Builder("2_5_dimethoxybenzoic_acid_solution", 0xA19274a4),
+        add(new FluidInfo.Builder("2_5_dimethoxybenzoic_acid_solution", 0xA19274a4));
         // 2,5-Dimethoxy-1,4-Benzenedicarboxylic Acid Solution - Added 08/27/25
-        new FluidInfo.Builder("2_5_dimethoxy_1_4_benzenedicarboxylic_acid_solution", 0xA1a4749d)
-    );
+        add(new FluidInfo.Builder("2_5_dimethoxy_1_4_benzenedicarboxylic_acid_solution", 0xA1a4749d));
+    }
 
     public static List<ItemInfo.Bucket> buckets = new ArrayList<>();
 
     static {
+        populateList();
         for(FluidInfo.Builder infoBuilder : FLUIDS_LIST){
             FluidInfo info = infoBuilder.build();
             FLUIDS.register(info.getSourceId(), info.getSourceFluid());
