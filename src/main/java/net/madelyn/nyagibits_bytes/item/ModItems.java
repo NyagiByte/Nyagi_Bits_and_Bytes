@@ -428,6 +428,8 @@ public class ModItems {
           new ItemInfo("on_carbon_palladium", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
           //  Saturated Palladium On Carbon added 07/05/25 - Nyagi
           new ItemInfo("on_carbon_saturated_palladium", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
+          //  Used Chromatography Kit added 07/05/25 - Nyagi
+          new ItemInfo("chromatography_kit_used", Type.CUSTOM_TOOLTIP, Tab.ITEMS),
 
           //Chemistry
           // Bottle of Anthocyanin added 8/27/23 - Nyagi
@@ -702,6 +704,42 @@ public class ModItems {
           new ItemInfo("sample_crude_plant_oil", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
           //  Sample of Chlorine Dioxide added 08/26/25 - JJ
           new ItemInfo("sample_chlorine_dioxide", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Chloropropane added 08/27/25 - Nyagi
+          new ItemInfo("sample_chloropropane", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Chlorooctane added 08/27/25 - Nyagi
+          new ItemInfo("sample_chlorooctane", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of CHC 68 added 08/27/25 - Nyagi
+          new ItemInfo("sample_chc_68", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Anhydrous Toluene added 08/27/25 - Nyagi
+          new ItemInfo("sample_anhydrous_toluene", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Mixed Pre-Dimethoxybenzoic Acid Product added 08/27/25 - Nyagi
+          new ItemInfo("sample_mixed_pre_dimethoxybenzoic_acid_product", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Mixed Dimethoxybenzoic Acid Product added 08/27/25 - Nyagi
+          new ItemInfo("sample_mixed_dimethoxybenzoic_acid_product", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Impure 2,5-Dimethoxybenzoic Acid added 08/27/25 - Nyagi
+          new ItemInfo("sample_impure_2_5_dimethoxybenzoic_acid", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Impure 2,5-Dimethoxy-1,4-Benzenedicarboxylic Acid added 08/27/25 - Nyagi
+          new ItemInfo("sample_impure_2_5_dimethoxy_1_4_benzenedicarboxylic_acid", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of 2,5-Dimethoxybenzoic Acid Solution added 08/27/25 - Nyagi
+          new ItemInfo("sample_2_5_dimethoxybenzoic_acid_solution", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of 2,5-Dimethoxy-1,4-Benzenedicarboxylic Acid Solution added 08/27/25 - Nyagi
+          new ItemInfo("sample_2_5_dimethoxy_1_4_benzenedicarboxylic_acid_solution", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Bromooctane added 08/27/25 - Nyagi
+          new ItemInfo("sample_bromooctane", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of Octane added 08/27/25 - Nyagi
+          new ItemInfo("sample_octane", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of 2,5-Dimethoxybenzoic Acid added 08/27/25 - Nyagi
+          new ItemInfo("sample_2_5_dimethoxybenzoic_acid", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  2,5-Dimethoxybenzoic Acid Crystal added 08/27/25 - Nyagi
+          new ItemInfo("2_5_dimethoxybenzoic_acid_dust", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  Sample of 2,5-Dimethoxy-1,4-Benzenedicarboxylic Acid added 08/27/25 - Nyagi
+          new ItemInfo("sample_2_5_dimethoxy_1_4_benzenedicarboxylic_acid", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  2,5-Dimethoxy-1,4-Benzenedicarboxylic Acid Crystal added 08/27/25 - Nyagi
+          new ItemInfo("2_5_dimethoxy_1_4_benzenedicarboxylic_acid_dust", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  2,5-Dimethoxybenzoic Acid Soaked Strip added 08/27/25 - Nyagi
+          new ItemInfo("2_5_dimethoxybenzoic_acid_strip", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
+          //  2,5-Dimethoxy-1,4-Benzenedicarboxylic Acid Soaked Strip added 08/27/25 - Nyagi
+          new ItemInfo("2_5_dimethoxy_1_4_benzenedicarboxylic_acid_strip", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS),
 
           /* Disabled until floatation line is ready
           //  Sample of Potassium Manganate added 06/19/25 - Nyagi

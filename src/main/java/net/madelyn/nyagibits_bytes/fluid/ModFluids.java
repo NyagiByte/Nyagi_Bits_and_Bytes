@@ -235,7 +235,31 @@ public class ModFluids {
         // Impure Methanol - Added 08/24/25
         new FluidInfo.Builder("impure_methanol", 0xA19e64a3),
         // Impure Acetone - Added 08/24/25
-        new FluidInfo.Builder("impure_acetone", 0xA19c9b97)
+        new FluidInfo.Builder("impure_acetone", 0xA19c9b97),
+        // Chloropropane - Added 08/27/25
+        new FluidInfo.Builder("chloropropane", 0xA15d3137),
+        // Chlorooctane - Added 08/27/25
+        new FluidInfo.Builder("chlorooctane", 0xA17f5377),
+        // Bromooctane - Added 08/27/25
+        new FluidInfo.Builder("bromooctane", 0xA1512415),
+        // CHC 68 - Added 08/27/25
+        new FluidInfo.Builder("chc_68", 0xA145301f),
+        // Anhydrous Toluene - Added 08/27/25
+        new FluidInfo.Builder("anhydrous_toluene", 0xA14e2f12),
+        // Octane - Added 08/27/25
+        new FluidInfo.Builder("octane", 0xA147124e),
+        // Mixed Pre-Dimethoxybenzoic Acid Product - Added 08/27/25
+        new FluidInfo.Builder("mixed_pre_dimethoxybenzoic_acid_product", 0xA13d7081),
+        // Mixed Dimethoxybenzoic Acid Product - Added 08/27/25
+        new FluidInfo.Builder("mixed_dimethoxybenzoic_acid_product", 0xA1627397),
+        // Impure 2,5-Dimethoxybenzoic Acid - Added 08/27/25
+        new FluidInfo.Builder("impure_2_5_dimethoxybenzoic_acid", 0xA13e3c70),
+        // Impure 2,5-Dimethoxy-1,4-Benzenedicarboxylic Acid - Added 08/27/25
+        new FluidInfo.Builder("impure_2_5_dimethoxy_1_4_benzenedicarboxylic_acid", 0xA1a9c8c6),
+        // 2,5-Dimethoxybenzoic Acid Solution - Added 08/27/25
+        new FluidInfo.Builder("2_5_dimethoxybenzoic_acid_solution", 0xA19274a4),
+        // 2,5-Dimethoxy-1,4-Benzenedicarboxylic Acid Solution - Added 08/27/25
+        new FluidInfo.Builder("2_5_dimethoxy_1_4_benzenedicarboxylic_acid_solution", 0xA1a4749d)
     );
 
     public static List<ItemInfo.Bucket> buckets = new ArrayList<>();
