@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:item/generated",
+  "parent": "nyagibits_bytes:item/alchemistry/chromatography_kit_used",
   "textures": {
-    "layer0": "nyagibits_bytes:item/dev/unused-unknown/placeholder"
+    "0": "nyagibits_bytes:item/dev/alchemistry/chromatography_kit_used",
+    "particle": "nyagibits_bytes:item/dev/alchemistry/chromatography_kit_used"
   }
 }
