@@ -43,8 +43,8 @@ public class FluidInfo {
         this.flowingId = builder.flowingId;
         this.fluidTypeId = builder.fluidTypeId;
         this.fluidProps = builder.fluidProps;//More supplier fuckery, yay!
-        this.sourceFluid = () -> new ForgeFlowingFluid.Source(fluidProps);
-        this.flowingFluid = () -> new ForgeFlowingFluid.Flowing(fluidProps);
+        this.sourceFluid = builder.isTicking ? () -> new TickingSource(fluidProps) : () -> new ForgeFlowingFluid.Source(fluidProps);
+        this.flowingFluid = builder.isTicking ? () -> new TickingFlowing(fluidProps) : () -> new ForgeFlowingFluid.Flowing(fluidProps);
         //This is part of why we use a builder. These 6 need to be available all at once.
         //The constructor would be massive and hard to read otherwise.
         this.fluidType = () -> new BaseFluidType(
@@ -115,6 +115,8 @@ public class FluidInfo {
         //More suppliers, wahoo
         private final Supplier<? extends LiquidBlock> blockSupplier;
         private final Supplier<? extends Item> bucketSupplier;
+        //Dictates whether the fluid will use the subclass that overwrites isRandomlyTicking()
+        private boolean isTicking = false;
 
         private ForgeFlowingFluid.Properties fluidProps;
         private FluidType.Properties fluidTypeProps = FluidType.Properties.create();
@@ -179,6 +181,10 @@ public class FluidInfo {
             this.viscosity = v;
             return this;
         }
+        public Builder setTicking(){
+            this.isTicking = true;
+            return this;
+        }
 
         //see setFluidProperties()
         public Builder setFluidTypeProperties(Consumer<FluidType.Properties> props){
@@ -200,5 +206,24 @@ public class FluidInfo {
         }
     }
 
+    //These two classes are to allow interacting with a mod that does stuff on random fluid ticks. To enable this for a fluid, append a setTicking() to its builder.
+    public static class TickingSource extends ForgeFlowingFluid.Source {
+        public TickingSource(ForgeFlowingFluid.Properties props){
+            super(props);
+        }
+        @Override
+        public boolean isRandomlyTicking(){
+            return true;
+        }
+    }
+    public static class TickingFlowing extends ForgeFlowingFluid.Flowing {
+        public TickingFlowing(ForgeFlowingFluid.Properties props){
+            super(props);
+        }
+        @Override
+        public boolean isRandomlyTicking(){
+            return true;
+        }
+    }
 
 }
