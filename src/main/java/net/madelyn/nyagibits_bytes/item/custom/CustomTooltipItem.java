@@ -22,4 +22,8 @@ public class CustomTooltipItem extends Item {
         if(I18n.exists(descKey)) for(String line : desc.getString().split("\n")) components.add(Component.literal(line).withStyle(ChatFormatting.GRAY));
         super.appendHoverText(stack, level, components, flag);
     }
+
+    public int getColor(ItemStack pItemStack, int pTintIndex) {
+        return 0xff00ff;
+    }
 }

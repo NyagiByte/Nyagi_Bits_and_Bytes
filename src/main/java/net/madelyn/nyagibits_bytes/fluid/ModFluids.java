@@ -54,8 +54,6 @@ public class ModFluids {
         //Pyroligneous Acid - Added 6/25/24
         add(new FluidInfo.Builder("pyroligneous_acid", 0xA1be8d43)
                 .setSlopeFindDistance(4));
-        //Acetone - Added 6/25/24
-        add(new FluidInfo.Builder("acetone", 0xA1bbb9b2));
         //Gemstone Polish - Added 11/15/24
         add(new FluidInfo.Builder("gemstone_polish", 0xA100b2a9));
         //Molten Skystone - Added 11/15/24
@@ -78,28 +76,6 @@ public class ModFluids {
         add(new FluidInfo.Builder("endstone_leach_water", 0xA1326496));
         // Bio-Glycerol Mix - Added 03/21/25
         add(new FluidInfo.Builder("bio_glycerol_mix", 0xA04f4d0a));
-        // Crude Biodiesel - Added 02/13/25
-        add(new FluidInfo.Builder("crude_biodiesel", 0xA14f4d0a));
-        // Crude Glycerol - Added 02/13/25
-        add(new FluidInfo.Builder("crude_glycerol", 0xA1472b19));
-        // Alkaline Technical Grade Glycerol - Added 02/13/25
-        add(new FluidInfo.Builder("alkaline_technical_glycerol", 0xA1804d2e));
-        // Technical Grade Glycerol - Added 02/13/25
-        add(new FluidInfo.Builder("technical_glycerol", 0xA1a36e4e));
-        // Colorless Glycerol - Added 02/13/25
-        add(new FluidInfo.Builder("colorless_glycerol", 0xA1ccc3be));
-        // Odourless Glycerol - Added 02/13/25
-        add(new FluidInfo.Builder("odourless_glycerol", 0xA1dbd1cc));
-        // Distilled Glycerol - Added 02/13/25
-        add(new FluidInfo.Builder("distilled_glycerol", 0xA1f5e9e4));
-        // Glycerol - Added 02/13/25
-        add(new FluidInfo.Builder("glycerol", 0xA1ededed));
-        // Wet Methanol - Added 02/13/25
-        add(new FluidInfo.Builder("wet_methanol", 0xA1e9b8f5));
-        // Wet Biodiesel - Added 02/13/25
-        add(new FluidInfo.Builder("wet_biodiesel", 0xA1706e1a));
-        // Crude Plant Oil - Added 02/13/25
-        add(new FluidInfo.Builder("crude_plant_oil", 0xA17d824d));
         // Cyclohexanone - Added 02/20/25
         add(new FluidInfo.Builder("cyclohexanone", 0xA1aad5cb));
         // Methylethyl Ketone - Added 02/20/25
@@ -192,34 +168,6 @@ public class ModFluids {
         add(new FluidInfo.Builder("precursor_1_hpa_4", 0xA185997c));
         // Diethyl Ether - Added 07/06/25
         add(new FluidInfo.Builder("diethyl_ether", 0xA1ab8339));
-        // Screened Water - Added 07/25/25
-        add(new FluidInfo.Builder("screened_water", 0xA10c6ac8));
-        // Flocculated Water - Added 07/25/25
-        add(new FluidInfo.Builder("flocculated_water", 0xA10e6fd0));
-        // Settled Water - Added 07/25/25
-        add(new FluidInfo.Builder("settled_water", 0xA11073d7));
-        // Clarified Water - Added 07/25/25
-        add(new FluidInfo.Builder("clarified_water", 0xA11278df));
-        // Sand Filtered Water - Added 07/25/25
-        add(new FluidInfo.Builder("sand_filtered_water", 0xA1137ae2));
-        // Filtered Water - Added 07/25/25
-        add(new FluidInfo.Builder("filtered_water", 0xA12c88e4));
-        // Contaminated Water - Added 07/25/25
-        add(new FluidInfo.Builder("contaminated_water", 0xA16aa49b));
-        // Deionised Water - Added 07/25/25
-        add(new FluidInfo.Builder("deionised_water", 0xA14599ee));
-        // Chlorine Dioxide - Added 07/25/25
-        add(new FluidInfo.Builder("chlorine_dioxide", 0xA1d1e614));
-        // Disinfected Water - Added 07/25/25
-        add(new FluidInfo.Builder("disinfected_water", 0xA15aa4f0));
-        // Distilled Water - Added 07/25/25
-        add(new FluidInfo.Builder("distilled_water", 0xA172b1f2));
-        // Type 3 Water - Added 07/25/25
-        add(new FluidInfo.Builder("type3_water", 0xA178b3f0));
-        // Type 2 Water - Added 07/25/25
-        add(new FluidInfo.Builder("type2_water", 0xA186b9ee));
-        // Type 1 Water - Added 07/25/25
-        add(new FluidInfo.Builder("type1_water", 0xA195bfeb));
         // Seawater - Added 08/18/25
         add(new FluidInfo.Builder("seawater", 0xA1bfcbed));
         // Hydrogen Bromide - Added 08/18/25
@@ -236,10 +184,6 @@ public class ModFluids {
         add(new FluidInfo.Builder("dmso", 0xA18eb960));
         // DMS - Added 08/19/25
         add(new FluidInfo.Builder("dms", 0xA1d8cb63));
-        // Impure Methanol - Added 08/24/25
-        add(new FluidInfo.Builder("impure_methanol", 0xA19e64a3));
-        // Impure Acetone - Added 08/24/25
-        add(new FluidInfo.Builder("impure_acetone", 0xA19c9b97));
         // Chloropropane - Added 08/27/25
         add(new FluidInfo.Builder("chloropropane", 0xA15d3137));
         // Chlorooctane - Added 08/27/25

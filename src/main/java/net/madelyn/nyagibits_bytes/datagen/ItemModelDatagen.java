@@ -6,6 +6,8 @@ import com.google.gson.JsonParser;
 import net.madelyn.nyagibits_bytes.NyagiBits_Bytes;
 import net.madelyn.nyagibits_bytes.block.BlockInfo;
 import net.madelyn.nyagibits_bytes.block.ModBlocks;
+import net.madelyn.nyagibits_bytes.chemical.ChemicalInfo;
+import net.madelyn.nyagibits_bytes.chemical.ModChemicals;
 import net.madelyn.nyagibits_bytes.fluid.ModFluids;
 import net.madelyn.nyagibits_bytes.item.ItemInfo;
 import net.madelyn.nyagibits_bytes.item.ModItems;
@@ -57,6 +59,10 @@ public class ItemModelDatagen extends ItemModelProvider {
         List<ItemInfo> items = new ArrayList<>();
         items.addAll(ModItems.ITEMS_LIST);
         items.addAll(ModFluids.buckets);
+        for(ChemicalInfo chem : ModChemicals.CHEM_LIST){
+            items.add(chem.getSample());
+            if(chem.getCompacted() != null) items.add(chem.getCompacted());
+        }
 
         //First, all found item models must be processed with texture redirects.
         for(Map.Entry<String, String> entry : MODELS.entrySet()){

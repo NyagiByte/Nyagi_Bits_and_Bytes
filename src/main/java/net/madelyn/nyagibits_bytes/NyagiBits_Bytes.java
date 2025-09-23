@@ -4,6 +4,7 @@ package net.madelyn.nyagibits_bytes;
 
 import com.mojang.logging.LogUtils;
 import net.madelyn.nyagibits_bytes.block.ModBlocks;
+import net.madelyn.nyagibits_bytes.chemical.ModChemicals;
 import net.madelyn.nyagibits_bytes.fluid.ModFluids;
 import net.madelyn.nyagibits_bytes.item.ModItems;
 import net.madelyn.nyagibits_bytes.misc.Utils;
@@ -34,6 +35,8 @@ public class NyagiBits_Bytes {
         ModBlocks.register(modEventBus);
         //Register adds fluids
         ModFluids.register(modEventBus);
+        //Register adds chemical item and fluids
+        ModChemicals.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
