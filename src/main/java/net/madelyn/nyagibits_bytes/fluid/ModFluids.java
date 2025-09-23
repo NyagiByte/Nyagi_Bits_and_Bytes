@@ -261,9 +261,14 @@ public class ModFluids {
         // Impure 2,5-Dimethoxy-1,4-Benzenedicarboxylic Acid - Added 08/27/25
         add(new FluidInfo.Builder("impure_2_5_dimethoxy_1_4_benzenedicarboxylic_acid", 0xA1a9c8c6));
         // 2,5-Dimethoxybenzoic Acid Solution - Added 08/27/25
-        add(new FluidInfo.Builder("2_5_dimethoxybenzoic_acid_solution", 0xA19274a4));
+        add(new FluidInfo.Builder("2_5_dimethoxybenzoic_acid_solution", 0xA19274a4)
+                .setTicking()
+        );
         // 2,5-Dimethoxy-1,4-Benzenedicarboxylic Acid Solution - Added 08/27/25
-        add(new FluidInfo.Builder("2_5_dimethoxy_1_4_benzenedicarboxylic_acid_solution", 0xA1a4749d));
+        add(new FluidInfo.Builder("2_5_dimethoxy_1_4_benzenedicarboxylic_acid_solution", 0xA1a4749d)
+                .setTicking()
+        );
+
     }
 
     public static List<ItemInfo.Bucket> buckets = new ArrayList<>();
