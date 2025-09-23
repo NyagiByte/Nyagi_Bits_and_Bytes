@@ -257,17 +257,17 @@ public class ModFluids {
         // Mixed Dimethoxybenzoic Acid Product - Added 08/27/25
         add(new FluidInfo.Builder("mixed_dimethoxybenzoic_acid_product", 0xA1627397));
         // Impure 2,5-Dimethoxybenzoic Acid - Added 08/27/25
-        add(new FluidInfo.Builder("impure_2_5_dimethoxybenzoic_acid", 0xA13e3c70));
+        add(new FluidInfo.Builder("impure_2_5_dimethoxybenzoic_acid", 0xA13e3c70)
+                .setTicking()
+        );
         // Impure 2,5-Dimethoxy-1,4-Benzenedicarboxylic Acid - Added 08/27/25
-        add(new FluidInfo.Builder("impure_2_5_dimethoxy_1_4_benzenedicarboxylic_acid", 0xA1a9c8c6));
+        add(new FluidInfo.Builder("impure_2_5_dimethoxy_1_4_benzenedicarboxylic_acid", 0xA1a9c8c6)
+                .setTicking()
+        );
         // 2,5-Dimethoxybenzoic Acid Solution - Added 08/27/25
-        add(new FluidInfo.Builder("2_5_dimethoxybenzoic_acid_solution", 0xA19274a4)
-                .setTicking()
-        );
+        add(new FluidInfo.Builder("2_5_dimethoxybenzoic_acid_solution", 0xA19274a4));
         // 2,5-Dimethoxy-1,4-Benzenedicarboxylic Acid Solution - Added 08/27/25
-        add(new FluidInfo.Builder("2_5_dimethoxy_1_4_benzenedicarboxylic_acid_solution", 0xA1a4749d)
-                .setTicking()
-        );
+        add(new FluidInfo.Builder("2_5_dimethoxy_1_4_benzenedicarboxylic_acid_solution", 0xA1a4749d));
 
     }
 
