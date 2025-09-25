@@ -1,7 +1,7 @@
 {
   "parent": "nyagibits_bytes:item/immersive/synchronous_electric_motor",
   "textures": {
-    "0": "nyagibits_bytes:item/dev/immersive/synchronous_electric_motor",
-    "particle": "nyagibits_bytes:item/dev/immersive/synchronous_electric_motor"
+    "0": "nyagibits_bytes:item/immersive/synchronous_electric_motor",
+    "particle": "nyagibits_bytes:item/immersive/synchronous_electric_motor"
   }
 }

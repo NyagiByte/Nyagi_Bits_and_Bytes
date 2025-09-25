@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "nyagibits_bytes:item/dev/components/on_carbon_saturated_palladium"
+    "layer0": "nyagibits_bytes:item/components/on_carbon_saturated_palladium"
   }
 }

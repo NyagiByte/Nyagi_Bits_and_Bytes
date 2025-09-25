@@ -1,7 +1,7 @@
 {
   "parent": "nyagibits_bytes:item/immersive/wd_40",
   "textures": {
-    "0": "nyagibits_bytes:item/dev/immersive/wd_40",
-    "particle": "nyagibits_bytes:item/dev/immersive/wd_40"
+    "0": "nyagibits_bytes:item/immersive/wd_40",
+    "particle": "nyagibits_bytes:item/immersive/wd_40"
   }
 }

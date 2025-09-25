@@ -1,7 +1,7 @@
 {
   "parent": "nyagibits_bytes:item/misc/sealed_pouch",
   "textures": {
-    "0": "nyagibits_bytes:item/dev/sealed_pouch",
-    "particle": "nyagibits_bytes:item/dev/sealed_pouch"
+    "0": "nyagibits_bytes:item/sealed_pouch",
+    "particle": "nyagibits_bytes:item/sealed_pouch"
   }
 }

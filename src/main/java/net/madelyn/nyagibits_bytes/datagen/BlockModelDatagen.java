@@ -23,16 +23,14 @@ import java.util.Map;
 
 public class BlockModelDatagen extends BlockModelProvider {
 
-    private Map<String, String> DEV_TEXTURES = new HashMap<>();
-    private Map<String, String> MAIN_TEXTURES = new HashMap<>();
+    private Map<String, String> TEXTURES = new HashMap<>();
     private Map<String, String> MODELS = new HashMap<>();
 
     private static final String PATH = "../src/main/resources/assets/nyagibits_bytes/";
 
     public BlockModelDatagen(DataGenerator generator, ExistingFileHelper helper){
         super(generator, NyagiBits_Bytes.MOD_ID, helper);
-        DatagenEntry.scanAssets(Path.of(PATH + "textures/block/dev"), DEV_TEXTURES, ".png");
-        DatagenEntry.scanAssets(Path.of(PATH + "textures/block/main"), MAIN_TEXTURES, ".png");
+        DatagenEntry.scanAssets(Path.of(PATH + "textures/block"), TEXTURES, ".png");
         DatagenEntry.scanAssets(Path.of(PATH + "models/block/"), MODELS, ".json");
     }
 
@@ -57,8 +55,7 @@ public class BlockModelDatagen extends BlockModelProvider {
                 String namespace = (!textureID.contains(":")) ? "minecraft" : textureID.substring(0, textureID.indexOf(":"));
                 textureID = textureID.substring(textureID.lastIndexOf("/")+1);
                 if(!namespace.equals("nyagibits_bytes")) try { modelBuilder.texture(texture.getKey(), texture.getValue().getAsString()); } catch (Exception ignored) {}
-                else if (MAIN_TEXTURES.containsKey(textureID)) modelBuilder.texture(texture.getKey(), modLoc("block/main/"+MAIN_TEXTURES.get(textureID)));
-                else if (DEV_TEXTURES.containsKey(textureID)) modelBuilder.texture(texture.getKey(), modLoc("block/dev/"+DEV_TEXTURES.get(textureID)));
+                else if (TEXTURES.containsKey(textureID)) modelBuilder.texture(texture.getKey(), modLoc("block/"+TEXTURES.get(textureID)));
                 else{
                     NyagiBits_Bytes.LOGGER.error("Texture {} was not found anywhere", textureID);
                 }
@@ -72,15 +69,9 @@ public class BlockModelDatagen extends BlockModelProvider {
             if(block instanceof BlockInfo.Rotatable) continue;
 
             BlockModelBuilder modelBuilder = withExistingParent("block/"+block.getId(), mcLoc("block/cube_all"));
-            if(MAIN_TEXTURES.containsKey(block.getId())) modelBuilder.texture("all", modLoc("block/main/"+MAIN_TEXTURES.get(block.getId())));
-            else if (DEV_TEXTURES.containsKey(block.getId())) modelBuilder.texture("all", modLoc("block/dev/"+DEV_TEXTURES.get(block.getId())));
+            if(TEXTURES.containsKey(block.getId())) modelBuilder.texture("all", modLoc("block/"+TEXTURES.get(block.getId())));
             else{
                 NyagiBits_Bytes.LOGGER.error("Texture {} was not found anywhere", block.getId());
-            }
-            //Handle resourcepack generation for simple items
-            if(MAIN_TEXTURES.containsKey(block.getId()) && DEV_TEXTURES.containsKey(block.getId())){
-                withExistingParent("nbnb-programmer-art/assets/nyagibits_bytes/models/block/"+block.getId(), mcLoc("block/generated"))
-                        .texture("all", modLoc("block/dev/"+DEV_TEXTURES.get(block.getId())));
             }
         }
     }

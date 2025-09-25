@@ -1,7 +1,7 @@
 {
   "parent": "nyagibits_bytes:item/misc/torn_hemp_ball",
   "textures": {
-    "0": "nyagibits_bytes:item/dev/torn_hemp_ball",
-    "particle": "nyagibits_bytes:item/dev/torn_hemp_ball"
+    "0": "nyagibits_bytes:item/torn_hemp_ball",
+    "particle": "nyagibits_bytes:item/torn_hemp_ball"
   }
 }

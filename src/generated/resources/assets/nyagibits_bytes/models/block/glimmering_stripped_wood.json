@@ -1,7 +1,7 @@
 {
   "parent": "nyagibits_bytes:block/misc/glimmering_stripped_wood",
   "textures": {
-    "end": "nyagibits_bytes:block/dev/glimmering_stripped_log",
-    "side": "nyagibits_bytes:block/dev/glimmering_stripped_log"
+    "end": "nyagibits_bytes:block/glimmering_stripped_log",
+    "side": "nyagibits_bytes:block/glimmering_stripped_log"
   }
 }

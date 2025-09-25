@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "nyagibits_bytes:item/dev/minerals/ender_pumice"
+    "layer0": "nyagibits_bytes:item/minerals/ender_pumice"
   }
 }

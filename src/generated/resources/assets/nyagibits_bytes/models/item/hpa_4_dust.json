@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "nyagibits_bytes:item/dev/chemicals/hpa_4_dust"
+    "layer0": "nyagibits_bytes:item/chemicals/hpa_4_dust"
   }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "nyagibits_bytes:item/dev/minerals/gems/pezzottaite_dust"
+    "layer0": "nyagibits_bytes:item/minerals/gems/pezzottaite_dust"
   }
 }

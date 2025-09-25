@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "nyagibits_bytes:block/dev/minerals/conglomerate_bauxite_ore"
+    "all": "nyagibits_bytes:block/minerals/conglomerate_bauxite_ore"
   }
 }

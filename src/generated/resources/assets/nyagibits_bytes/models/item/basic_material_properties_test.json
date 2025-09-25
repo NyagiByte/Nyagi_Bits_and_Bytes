@@ -1,15 +1,15 @@
 {
   "parent": "nyagibits_bytes:item/science/basic_material_properties_test",
   "textures": {
-    "0": "nyagibits_bytes:item/dev/science/sturdy_box",
-    "1": "nyagibits_bytes:item/dev/bmpt/high_strength_ratio_reducer",
-    "2": "nyagibits_bytes:item/dev/bmpt/base_copper_mesh_cube",
-    "3": "nyagibits_bytes:item/dev/bmpt/iron_interlink_mesh_segment",
-    "4": "nyagibits_bytes:item/dev/bmpt/engineer_hammer_model",
-    "5": "nyagibits_bytes:item/dev/inert_wood_single_plank",
-    "6": "nyagibits_bytes:item/dev/bmpt/industrial_composite_plate",
-    "7": "nyagibits_bytes:item/dev/bmpt/steel_machine_casing_mini",
-    "8": "nyagibits_bytes:item/dev/bmpt/single_use_bread_board_model",
-    "particle": "nyagibits_bytes:item/dev/bmpt/industrial_composite_plate"
+    "0": "nyagibits_bytes:item/science/sturdy_box",
+    "1": "nyagibits_bytes:item/bmpt/high_strength_ratio_reducer",
+    "2": "nyagibits_bytes:item/bmpt/base_copper_mesh_cube",
+    "3": "nyagibits_bytes:item/bmpt/iron_interlink_mesh_segment",
+    "4": "nyagibits_bytes:item/bmpt/engineer_hammer_model",
+    "5": "nyagibits_bytes:item/inert_wood_single_plank",
+    "6": "nyagibits_bytes:item/bmpt/industrial_composite_plate",
+    "7": "nyagibits_bytes:item/bmpt/steel_machine_casing_mini",
+    "8": "nyagibits_bytes:item/bmpt/single_use_bread_board_model",
+    "particle": "nyagibits_bytes:item/bmpt/industrial_composite_plate"
   }
 }

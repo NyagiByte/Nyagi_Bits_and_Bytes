@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "nyagibits_bytes:item/dev/threaded_composite_leather"
+    "layer0": "nyagibits_bytes:item/threaded_composite_leather"
   }
 }

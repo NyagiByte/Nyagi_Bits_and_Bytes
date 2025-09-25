@@ -1,11 +1,11 @@
 {
   "parent": "nyagibits_bytes:item/science/mana_bomb_calorimeter",
   "textures": {
-    "0": "nyagibits_bytes:item/dev/science/mbc/main_vessle",
-    "1": "nyagibits_bytes:item/dev/science/mbc/inner_wall",
-    "2": "nyagibits_bytes:item/dev/science/mbc/insulation_layer",
-    "3": "nyagibits_bytes:item/dev/science/mbc/bomb",
-    "5": "nyagibits_bytes:item/dev/science/mbc/interface_components",
-    "particle": "nyagibits_bytes:item/dev/science/mbc/main_vessle"
+    "0": "nyagibits_bytes:item/science/mbc/main_vessle",
+    "1": "nyagibits_bytes:item/science/mbc/inner_wall",
+    "2": "nyagibits_bytes:item/science/mbc/insulation_layer",
+    "3": "nyagibits_bytes:item/science/mbc/bomb",
+    "5": "nyagibits_bytes:item/science/mbc/interface_components",
+    "particle": "nyagibits_bytes:item/science/mbc/main_vessle"
   }
 }

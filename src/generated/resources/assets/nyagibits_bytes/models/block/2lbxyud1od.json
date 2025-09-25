@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "nyagibits_bytes:block/dev/2lbxyud1od"
+    "all": "nyagibits_bytes:block/2lbxyud1od"
   }
 }

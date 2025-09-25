@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "nyagibits_bytes:block/dev/glimmering_stone"
+    "all": "nyagibits_bytes:block/glimmering_stone"
   }
 }

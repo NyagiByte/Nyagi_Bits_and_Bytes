@@ -1,7 +1,7 @@
 {
   "parent": "nyagibits_bytes:item/science/lexicon",
   "textures": {
-    "0": "nyagibits_bytes:item/dev/science/lexicon",
-    "particle": "nyagibits_bytes:item/dev/science/lexicon"
+    "0": "nyagibits_bytes:item/science/lexicon",
+    "particle": "nyagibits_bytes:item/science/lexicon"
   }
 }

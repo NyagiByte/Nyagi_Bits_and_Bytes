@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "nyagibits_bytes:item/dev/low_voltage_capacitor"
+    "layer0": "nyagibits_bytes:item/low_voltage_capacitor"
   }
 }

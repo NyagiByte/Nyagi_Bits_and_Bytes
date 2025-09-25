@@ -1,7 +1,7 @@
 {
   "parent": "nyagibits_bytes:item/science/blank_blueprint",
   "textures": {
-    "0": "nyagibits_bytes:item/dev/science/blank_blueprint",
-    "particle": "nyagibits_bytes:item/dev/science/blank_blueprint"
+    "0": "nyagibits_bytes:item/science/blank_blueprint",
+    "particle": "nyagibits_bytes:item/science/blank_blueprint"
   }
 }

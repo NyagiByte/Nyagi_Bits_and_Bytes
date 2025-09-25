@@ -1,7 +1,7 @@
 {
   "parent": "nyagibits_bytes:item/misc/agar_gel",
   "textures": {
-    "0": "nyagibits_bytes:item/dev/agar_gel",
-    "particle": "nyagibits_bytes:item/dev/agar_gel"
+    "0": "nyagibits_bytes:item/agar_gel",
+    "particle": "nyagibits_bytes:item/agar_gel"
   }
 }

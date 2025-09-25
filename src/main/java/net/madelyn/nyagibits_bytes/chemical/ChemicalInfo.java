@@ -8,24 +8,27 @@ import net.madelyn.nyagibits_bytes.misc.Utils;
 public class ChemicalInfo {
     private final String id;
     private final int tintColor;
-    private static final int DEFAULT_TINT = 0xFFFF00FF;
-    private ItemInfo sample = null;
+    public static final int DEFAULT_TINT = 0xFFFF00FF;
+    private ItemInfo.Chem sample = null;
     private ItemInfo compacted = null;
     private FluidInfo.Builder fluid = null;
+    private Type state;
 
-    public ChemicalInfo(String id){
+    public ChemicalInfo(String id, Type state){
         this.id = id;
         this.tintColor = DEFAULT_TINT;
-        this.sample = new ItemInfo("sample_"+this.id, ModItems.Type.CUSTOM_TOOLTIP, Utils.Tab.CHEMICALS);
+        this.state = state;
+        this.sample = new ItemInfo.Chem("sample_"+this.id, Utils.Tab.CHEMICALS, tintColor, state);
     }
-    public ChemicalInfo(String id, int tint){
+    public ChemicalInfo(String id, int tint, Type state){
         this.id = id;
         this.tintColor = tint;
-        this.sample = new ItemInfo("sample_"+this.id, ModItems.Type.CUSTOM_TOOLTIP, Utils.Tab.CHEMICALS);
+        this.state = state;
+        this.sample = new ItemInfo.Chem("sample_"+this.id, Utils.Tab.CHEMICALS, tintColor, state);
     }
 
     public ChemicalInfo dust(){
-        this.compacted = new ItemInfo(this.id+"_dust", ModItems.Type.CUSTOM_TOOLTIP, Utils.Tab.CHEMICALS);
+        this.compacted = new ItemInfo.Chem(this.id+"_dust", Utils.Tab.CHEMICALS, this.tintColor, Type.DUST);
         return this;
     }
 
@@ -43,7 +46,7 @@ public class ChemicalInfo {
         return this;
     }
 
-    public ItemInfo getSample(){
+    public ItemInfo.Chem getSample(){
         return sample;
     }
     public ItemInfo getCompacted(){
@@ -51,6 +54,13 @@ public class ChemicalInfo {
     }
     public FluidInfo.Builder getFluid(){
         return fluid;
+    }
+
+    public enum Type{
+        SOLID, //Solid Sample
+        LIQUID, //Liquid Sample
+        GAS, //Gas Samplee
+        DUST //Compacted Dust
     }
 
 }

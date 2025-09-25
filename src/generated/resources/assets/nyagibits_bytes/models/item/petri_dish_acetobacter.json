@@ -1,7 +1,7 @@
 {
   "parent": "nyagibits_bytes:item/biology/petri_dish_acetobacter",
   "textures": {
-    "0": "nyagibits_bytes:item/dev/biology/petri_dish_acetobacter",
-    "particle": "nyagibits_bytes:item/dev/biology/petri_dish_acetobacter"
+    "0": "nyagibits_bytes:item/biology/petri_dish_acetobacter",
+    "particle": "nyagibits_bytes:item/biology/petri_dish_acetobacter"
   }
 }

@@ -1,7 +1,7 @@
 {
   "parent": "nyagibits_bytes:item/botania/semi_organic_substrate",
   "textures": {
-    "0": "nyagibits_bytes:item/dev/botania/semi_organic_substrate",
-    "particle": "nyagibits_bytes:item/dev/botania/semi_organic_substrate"
+    "0": "nyagibits_bytes:item/botania/semi_organic_substrate",
+    "particle": "nyagibits_bytes:item/botania/semi_organic_substrate"
   }
 }

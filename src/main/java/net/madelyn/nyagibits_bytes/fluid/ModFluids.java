@@ -3,8 +3,8 @@ package net.madelyn.nyagibits_bytes.fluid;
 import net.madelyn.nyagibits_bytes.NyagiBits_Bytes;
 import net.madelyn.nyagibits_bytes.block.ModBlocks;
 import net.madelyn.nyagibits_bytes.item.ItemInfo;
-import net.madelyn.nyagibits_bytes.item.ModItems;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.level.material.Fluid;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fluids.FluidType;
@@ -19,6 +19,8 @@ public class ModFluids {
             DeferredRegister.create(ForgeRegistries.FLUIDS, NyagiBits_Bytes.MOD_ID);
     public static final DeferredRegister<FluidType> FLUID_TYPES =
             DeferredRegister.create(ForgeRegistries.Keys.FLUID_TYPES, NyagiBits_Bytes.MOD_ID);
+    public static final DeferredRegister<Item> ITEMS =
+            DeferredRegister.create(ForgeRegistries.ITEMS, NyagiBits_Bytes.MOD_ID);
 
 
     //These are just some commonly used vanilla resourcelocations.
@@ -226,12 +228,13 @@ public class ModFluids {
             FLUID_TYPES.register(info.getFluidTypeId(), info.getFluidType());
             ItemInfo.Bucket bucket = info.createBucket();
             buckets.add(bucket); //This is to datagen the item models.
-            ModItems.ITEMS.register(bucket.getId(), bucket::registerItem);
+            ITEMS.register(bucket.getId(), bucket::registerItem);
             ModBlocks.BLOCKS.register(info.getBlockId(), info.createBlock());
         }
     }
 
     public static void register(IEventBus eventBus) {
+        ITEMS.register(eventBus);
         FLUIDS.register(eventBus);
         FLUID_TYPES.register(eventBus);
     }

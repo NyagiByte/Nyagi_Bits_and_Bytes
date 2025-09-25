@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "nyagibits_bytes:item/dev/minerals/misc-t2/de_mineralized_chalk"
+    "layer0": "nyagibits_bytes:item/minerals/misc-t2/de_mineralized_chalk"
   }
 }

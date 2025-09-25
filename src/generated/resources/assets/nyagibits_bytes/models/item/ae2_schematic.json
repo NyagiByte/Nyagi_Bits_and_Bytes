@@ -1,7 +1,7 @@
 {
   "parent": "nyagibits_bytes:item/science/ae2_schematic",
   "textures": {
-    "0": "nyagibits_bytes:item/dev/science/ae2_schematic",
-    "particle": "nyagibits_bytes:item/dev/science/ae2_schematic"
+    "0": "nyagibits_bytes:item/science/ae2_schematic",
+    "particle": "nyagibits_bytes:item/science/ae2_schematic"
   }
 }

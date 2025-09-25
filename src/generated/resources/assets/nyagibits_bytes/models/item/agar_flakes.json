@@ -1,7 +1,7 @@
 {
   "parent": "nyagibits_bytes:item/misc/agar_flakes",
   "textures": {
-    "0": "nyagibits_bytes:item/dev/agar_flakes",
-    "particle": "nyagibits_bytes:item/dev/agar_flakes"
+    "0": "nyagibits_bytes:item/agar_flakes",
+    "particle": "nyagibits_bytes:item/agar_flakes"
   }
 }

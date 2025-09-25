@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "nyagibits_bytes:item/dev/botania/everburn_tar"
+    "layer0": "nyagibits_bytes:item/botania/everburn_tar"
   }
 }

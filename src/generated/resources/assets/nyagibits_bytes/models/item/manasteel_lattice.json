@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "nyagibits_bytes:item/dev/manasteel_lattice"
+    "layer0": "nyagibits_bytes:item/manasteel_lattice"
   }
 }

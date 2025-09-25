@@ -1,0 +1,1 @@
+These assets are intended to be pieced together by datagen for tinted chemical items

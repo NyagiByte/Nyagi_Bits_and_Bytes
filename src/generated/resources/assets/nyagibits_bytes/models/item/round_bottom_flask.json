@@ -1,7 +1,7 @@
 {
   "parent": "nyagibits_bytes:item/alchemistry/round_bottom_flask",
   "textures": {
-    "0": "nyagibits_bytes:item/dev/alchemistry/round_bottom_flask",
-    "particle": "nyagibits_bytes:item/dev/alchemistry/round_bottom_flask"
+    "0": "nyagibits_bytes:item/alchemistry/round_bottom_flask",
+    "particle": "nyagibits_bytes:item/alchemistry/round_bottom_flask"
   }
 }

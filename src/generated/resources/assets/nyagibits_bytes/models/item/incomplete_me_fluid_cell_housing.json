@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "nyagibits_bytes:item/dev/ae2/incomplete_me_fluid_cell_housing"
+    "layer0": "nyagibits_bytes:item/ae2/incomplete_me_fluid_cell_housing"
   }
 }

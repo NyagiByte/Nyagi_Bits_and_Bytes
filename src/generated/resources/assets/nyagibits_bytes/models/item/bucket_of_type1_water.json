@@ -1,6 +1,7 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "nyagibits_bytes:item/dev/buckets/bucket_of_type1_water"
+    "layer0": "nyagibits_bytes:item/datagen/dg_bucket_layer0",
+    "layer1": "nyagibits_bytes:item/datagen/dg_bucket_layer1"
   }
 }

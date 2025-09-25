@@ -1,10 +1,10 @@
 {
   "parent": "nyagibits_bytes:item/immersive/osha_approved_gear",
   "textures": {
-    "0": "nyagibits_bytes:item/dev/immersive/organic_vapor_respirator",
-    "1": "nyagibits_bytes:item/dev/immersive/fire_extinguisher",
-    "2": "nyagibits_bytes:item/dev/immersive/protective_eye_wear",
-    "3": "nyagibits_bytes:item/dev/immersive/hard_hat",
-    "particle": "nyagibits_bytes:item/dev/immersive/hard_hat"
+    "0": "nyagibits_bytes:item/immersive/organic_vapor_respirator",
+    "1": "nyagibits_bytes:item/immersive/fire_extinguisher",
+    "2": "nyagibits_bytes:item/immersive/protective_eye_wear",
+    "3": "nyagibits_bytes:item/immersive/hard_hat",
+    "particle": "nyagibits_bytes:item/immersive/hard_hat"
   }
 }

@@ -1,7 +1,7 @@
 {
   "parent": "nyagibits_bytes:item/ae2/energized_wires",
   "textures": {
-    "0": "nyagibits_bytes:item/dev/ae2/energized_wires",
-    "particle": "nyagibits_bytes:item/dev/ae2/energized_wires"
+    "0": "nyagibits_bytes:item/ae2/energized_wires",
+    "particle": "nyagibits_bytes:item/ae2/energized_wires"
   }
 }

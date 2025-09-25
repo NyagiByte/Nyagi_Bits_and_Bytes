@@ -1,7 +1,7 @@
 {
   "parent": "nyagibits_bytes:item/ae2/matter_converters",
   "textures": {
-    "0": "nyagibits_bytes:item/dev/ae2/matter_converters",
-    "particle": "nyagibits_bytes:item/dev/ae2/matter_converters"
+    "0": "nyagibits_bytes:item/ae2/matter_converters",
+    "particle": "nyagibits_bytes:item/ae2/matter_converters"
   }
 }

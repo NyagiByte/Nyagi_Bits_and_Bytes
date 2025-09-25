@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "nyagibits_bytes:item/dev/chemicals/sodium_molybdate_dihydrate_dust"
+    "layer0": "nyagibits_bytes:item/chemicals/sodium_molybdate_dihydrate_dust"
   }
 }

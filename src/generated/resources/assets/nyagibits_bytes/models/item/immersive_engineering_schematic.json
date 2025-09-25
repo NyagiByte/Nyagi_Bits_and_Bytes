@@ -1,7 +1,7 @@
 {
   "parent": "nyagibits_bytes:item/science/immersive_engineering_schematic",
   "textures": {
-    "0": "nyagibits_bytes:item/dev/science/immersive_engineering_schematic",
-    "particle": "nyagibits_bytes:item/dev/science/immersive_engineering_schematic"
+    "0": "nyagibits_bytes:item/science/immersive_engineering_schematic",
+    "particle": "nyagibits_bytes:item/science/immersive_engineering_schematic"
   }
 }

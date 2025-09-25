@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "nyagibits_bytes:item/dev/minerals/raw/raw_smithsonite"
+    "layer0": "nyagibits_bytes:item/minerals/raw/raw_smithsonite"
   }
 }

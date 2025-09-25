@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "nyagibits_bytes:item/dev/buckets/bucket_of_precursor_1_hpa_4"
+    "layer0": "nyagibits_bytes:item/buckets/bucket_of_precursor_1_hpa_4"
   }
 }

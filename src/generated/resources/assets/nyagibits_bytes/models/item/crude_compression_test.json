@@ -1,7 +1,7 @@
 {
   "parent": "nyagibits_bytes:item/science/crude_compression_test",
   "textures": {
-    "0": "nyagibits_bytes:item/dev/science/crude_compression_test",
-    "particle": "nyagibits_bytes:item/dev/science/crude_compression_test"
+    "0": "nyagibits_bytes:item/science/crude_compression_test",
+    "particle": "nyagibits_bytes:item/science/crude_compression_test"
   }
 }

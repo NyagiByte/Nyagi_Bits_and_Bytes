@@ -1,7 +1,7 @@
 {
   "parent": "nyagibits_bytes:item/alchemistry/beaker",
   "textures": {
-    "0": "nyagibits_bytes:item/dev/alchemistry/beaker",
-    "particle": "nyagibits_bytes:item/dev/alchemistry/beaker"
+    "0": "nyagibits_bytes:item/alchemistry/beaker",
+    "particle": "nyagibits_bytes:item/alchemistry/beaker"
   }
 }

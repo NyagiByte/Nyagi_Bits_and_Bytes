@@ -1,7 +1,7 @@
 {
   "parent": "nyagibits_bytes:item/biology/petri_dish_agar_agar",
   "textures": {
-    "0": "nyagibits_bytes:item/dev/biology/petri_dish_agar_agar",
-    "particle": "nyagibits_bytes:item/dev/biology/petri_dish_agar_agar"
+    "0": "nyagibits_bytes:item/biology/petri_dish_agar_agar",
+    "particle": "nyagibits_bytes:item/biology/petri_dish_agar_agar"
   }
 }

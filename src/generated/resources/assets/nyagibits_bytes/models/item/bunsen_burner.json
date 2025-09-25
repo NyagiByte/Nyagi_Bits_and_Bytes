@@ -1,7 +1,7 @@
 {
   "parent": "nyagibits_bytes:item/alchemistry/bunsen_burner",
   "textures": {
-    "0": "nyagibits_bytes:item/dev/alchemistry/bunsen_burner",
-    "particle": "nyagibits_bytes:item/dev/alchemistry/bunsen_burner"
+    "0": "nyagibits_bytes:item/alchemistry/bunsen_burner",
+    "particle": "nyagibits_bytes:item/alchemistry/bunsen_burner"
   }
 }

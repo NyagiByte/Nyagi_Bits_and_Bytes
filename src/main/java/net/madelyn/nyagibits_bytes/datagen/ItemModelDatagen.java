@@ -29,8 +29,7 @@ import java.util.Map;
 
 public class ItemModelDatagen extends ItemModelProvider {
     //These three maps hold the data on where each texture or model actually is.
-    private Map<String, String> DEV_TEXTURES = new HashMap<>();
-    private Map<String, String> MAIN_TEXTURES = new HashMap<>();
+    private Map<String, String> TEXTURES = new HashMap<>();
     private Map<String, String> MODELS = new HashMap<>();
     //And yeah, this is already sinful. We are in the /run folder when in datagen.
     private static final String PATH = "../src/main/resources/assets/nyagibits_bytes/";
@@ -38,8 +37,7 @@ public class ItemModelDatagen extends ItemModelProvider {
     public ItemModelDatagen(DataGenerator gen, ExistingFileHelper helper){
         super(gen, NyagiBits_Bytes.MOD_ID, helper);
         //Scan the item textures and item folders and index where each file is.
-        DatagenEntry.scanAssets(Path.of(PATH + "textures/item/dev"), DEV_TEXTURES, ".png");
-        DatagenEntry.scanAssets(Path.of(PATH + "textures/item/main"), MAIN_TEXTURES, ".png");
+        DatagenEntry.scanAssets(Path.of(PATH + "textures/item"), TEXTURES, ".png");
         DatagenEntry.scanAssets(Path.of(PATH + "models/item/"), MODELS, ".json");
     }
     /*
@@ -55,14 +53,18 @@ public class ItemModelDatagen extends ItemModelProvider {
     @Override
     protected void registerModels(){
 
-        //Buckets aren't part of ITEMS_LIST, so we just add them.
         List<ItemInfo> items = new ArrayList<>();
         items.addAll(ModItems.ITEMS_LIST);
-        items.addAll(ModFluids.buckets);
+        List<ItemInfo.Chem> chemicals = new ArrayList<>();
         for(ChemicalInfo chem : ModChemicals.CHEM_LIST){
-            items.add(chem.getSample());
-            if(chem.getCompacted() != null) items.add(chem.getCompacted());
+            chemicals.add(chem.getSample());
+            if(chem.getCompacted() != null){
+                if(chem.getCompacted() instanceof ItemInfo.Chem dust) chemicals.add(dust);
+                else items.add(chem.getCompacted());
+            }
+
         }
+
 
         //First, all found item models must be processed with texture redirects.
         for(Map.Entry<String, String> entry : MODELS.entrySet()){
@@ -95,8 +97,7 @@ public class ItemModelDatagen extends ItemModelProvider {
                 //This is some yandere dev type shit. Anyway-
                 //It's a priority system.If the namespace if not NB&B, let the original texture through. If a texture exists in the main folder, use that. Otherwise, try to use a dev texture.
                 if(!namespace.equals("nyagibits_bytes")) try { modelBuilder.texture(texture.getKey(), texture.getValue().getAsString()); } catch (Exception ignored) {}
-                else if (MAIN_TEXTURES.containsKey(textureID)) modelBuilder.texture(texture.getKey(), modLoc("item/main/"+MAIN_TEXTURES.get(textureID)));
-                else if (DEV_TEXTURES.containsKey(textureID)) modelBuilder.texture(texture.getKey(), modLoc("item/dev/"+DEV_TEXTURES.get(textureID)));
+                else if (TEXTURES.containsKey(textureID)) modelBuilder.texture(texture.getKey(), modLoc("item/"+TEXTURES.get(textureID)));
                 else{
                     //If this shows up, check for typos or rogue item models that aren't supposed to be there.
                     NyagiBits_Bytes.LOGGER.error("Texture {} was not found anywhere", textureID);
@@ -116,18 +117,39 @@ public class ItemModelDatagen extends ItemModelProvider {
             //Create a simple item model with just one texture.
             ItemModelBuilder modelBuilder = withExistingParent("item/"+item.getId(), mcLoc("item/generated"));
             //Same deal as earlier, just without the namespace check. The item id becomes the key when searching for a texture.
-            if(MAIN_TEXTURES.containsKey(item.getId())) modelBuilder.texture("layer0", modLoc("item/main/"+MAIN_TEXTURES.get(item.getId())));
-            else if (DEV_TEXTURES.containsKey(item.getId())) modelBuilder.texture("layer0", modLoc("item/dev/"+DEV_TEXTURES.get(item.getId())));
+            if(TEXTURES.containsKey(item.getId())) modelBuilder.texture("layer0", modLoc("item/"+TEXTURES.get(item.getId())));
             else{
                 NyagiBits_Bytes.LOGGER.error("Texture {} was not found anywhere", item.getId());
-                modelBuilder.texture("layer0", modLoc("item/dev/"+DEV_TEXTURES.get("placeholder")));
-            }
-            //If there's both a main and dev texture, create an entry for the programmer's art resourcepack.
-            if(MAIN_TEXTURES.containsKey(item.getId()) && DEV_TEXTURES.containsKey(item.getId())){
-                withExistingParent("nbnb-programmer-art/assets/nyagibits_bytes/models/item/"+item.getId(), mcLoc("item/generated"))
-                        .texture("layer0", modLoc("item/dev/"+DEV_TEXTURES.get(item.getId())));
+                modelBuilder.texture("layer0", modLoc("item/"+TEXTURES.get("placeholder")));
             }
         }
+
+        for(ItemInfo.Bucket bucket : ModFluids.buckets){
+            ItemModelBuilder modelBuilder = withExistingParent("item/"+bucket.getId(), mcLoc("item/generated"));
+            if(TEXTURES.containsKey(bucket.getId())) modelBuilder.texture("layer0", modLoc("item/"+TEXTURES.get(bucket.getId())));
+            else{
+                modelBuilder.texture("layer0", modLoc("item/"+TEXTURES.get("dg_bucket_layer0")));
+                modelBuilder.texture("layer1", modLoc("item/"+TEXTURES.get("dg_bucket_layer1")));
+            }
+        }
+
+        for(ItemInfo.Chem chem : chemicals){
+            ItemModelBuilder modelBuilder = withExistingParent("item/"+chem.getId(), mcLoc("item/generated"));
+            if(TEXTURES.containsKey(chem.getId())) modelBuilder.texture("layer0", modLoc("item/"+TEXTURES.get(chem.getId())));
+            else{
+                String type = "";
+                switch (chem.getChemType()) {
+                    case SOLID -> type = "solid";
+                    case LIQUID -> type = "liquid";
+                    case GAS -> type = "gas";
+                    case DUST -> type = "dust";
+                }
+                    modelBuilder.texture("layer0", modLoc("item/"+TEXTURES.get("dg_blank_layer")));
+                    modelBuilder.texture("layer1", modLoc("item/"+TEXTURES.get("dg_"+type+"_layer1")));
+                    modelBuilder.texture("layer2", modLoc("item/"+TEXTURES.get("dg_"+type+"_layer2")));
+                }
+        }
+
 
         //Blocks need item models too. They just need to point to the respective block though, so it's not a big deal.
         for(BlockInfo block : ModBlocks.BLOCKS_LIST){

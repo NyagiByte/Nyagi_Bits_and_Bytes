@@ -1,7 +1,7 @@
 {
   "parent": "nyagibits_bytes:item/alchemistry/chromatography_kit_used",
   "textures": {
-    "0": "nyagibits_bytes:item/dev/alchemistry/chromatography_kit_used",
-    "particle": "nyagibits_bytes:item/dev/alchemistry/chromatography_kit_used"
+    "0": "nyagibits_bytes:item/alchemistry/chromatography_kit_used",
+    "particle": "nyagibits_bytes:item/alchemistry/chromatography_kit_used"
   }
 }

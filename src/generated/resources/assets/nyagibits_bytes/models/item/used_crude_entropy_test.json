@@ -1,7 +1,7 @@
 {
   "parent": "nyagibits_bytes:item/science/used_crude_entropy_test",
   "textures": {
-    "0": "nyagibits_bytes:item/dev/science/used_crude_entropy_test",
-    "particle": "nyagibits_bytes:item/dev/science/used_crude_entropy_test"
+    "0": "nyagibits_bytes:item/science/used_crude_entropy_test",
+    "particle": "nyagibits_bytes:item/science/used_crude_entropy_test"
   }
 }

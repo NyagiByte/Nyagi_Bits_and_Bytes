@@ -1,12 +1,12 @@
 {
   "parent": "nyagibits_bytes:item/alchemistry/chemical_grade_glassware",
   "textures": {
-    "0": "nyagibits_bytes:item/dev/alchemistry/tray",
-    "1": "nyagibits_bytes:item/dev/alchemistry/inlet",
-    "2": "nyagibits_bytes:item/dev/alchemistry/distillation_column",
-    "3": "nyagibits_bytes:item/dev/alchemistry/burette",
-    "4": "nyagibits_bytes:item/dev/alchemistry/round_bottom_flask",
-    "5": "nyagibits_bytes:item/dev/alchemistry/beaker",
-    "particle": "nyagibits_bytes:item/dev/alchemistry/tray"
+    "0": "nyagibits_bytes:item/alchemistry/tray",
+    "1": "nyagibits_bytes:item/alchemistry/inlet",
+    "2": "nyagibits_bytes:item/alchemistry/distillation_column",
+    "3": "nyagibits_bytes:item/alchemistry/burette",
+    "4": "nyagibits_bytes:item/alchemistry/round_bottom_flask",
+    "5": "nyagibits_bytes:item/alchemistry/beaker",
+    "particle": "nyagibits_bytes:item/alchemistry/tray"
   }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "nyagibits_bytes:item/dev/components/nicd_battery_assembly"
+    "layer0": "nyagibits_bytes:item/components/nicd_battery_assembly"
   }
 }

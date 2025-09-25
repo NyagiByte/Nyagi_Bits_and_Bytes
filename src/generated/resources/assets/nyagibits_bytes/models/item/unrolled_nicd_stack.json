@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "nyagibits_bytes:item/dev/ingots-plates/unrolled_nicd_stack"
+    "layer0": "nyagibits_bytes:item/ingots-plates/unrolled_nicd_stack"
   }
 }

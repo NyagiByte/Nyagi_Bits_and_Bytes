@@ -1,11 +1,11 @@
 {
   "parent": "nyagibits_bytes:item/misc/pile_of_basic_mechanical_parts",
   "textures": {
-    "0": "nyagibits_bytes:item/dev/science/sturdy_box",
-    "1": "nyagibits_bytes:item/dev/bmpt/high_strength_ratio_reducer",
-    "2": "nyagibits_bytes:item/dev/bmpt/base_copper_mesh_cube",
-    "3": "nyagibits_bytes:item/dev/bmpt/iron_interlink_mesh_segment",
-    "4": "nyagibits_bytes:item/dev/bmpt/engineer_hammer_model",
-    "particle": "nyagibits_bytes:item/dev/bmpt/base_copper_mesh_cube"
+    "0": "nyagibits_bytes:item/science/sturdy_box",
+    "1": "nyagibits_bytes:item/bmpt/high_strength_ratio_reducer",
+    "2": "nyagibits_bytes:item/bmpt/base_copper_mesh_cube",
+    "3": "nyagibits_bytes:item/bmpt/iron_interlink_mesh_segment",
+    "4": "nyagibits_bytes:item/bmpt/engineer_hammer_model",
+    "particle": "nyagibits_bytes:item/bmpt/base_copper_mesh_cube"
   }
 }

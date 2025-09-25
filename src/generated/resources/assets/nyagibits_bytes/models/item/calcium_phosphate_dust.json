@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "nyagibits_bytes:item/dev/chemicals/calcium_phosphate_dust"
+    "layer0": "nyagibits_bytes:item/chemicals/calcium_phosphate_dust"
   }
 }

@@ -1,10 +1,10 @@
 {
   "parent": "nyagibits_bytes:item/misc/botanical_core",
   "textures": {
-    "0": "nyagibits_bytes:item/dev/skystone_encrusted_boule",
-    "1": "nyagibits_bytes:item/dev/capacitors",
-    "2": "nyagibits_bytes:item/dev/manawire",
-    "3": "nyagibits_bytes:item/dev/electricwire",
-    "particle": "nyagibits_bytes:item/dev/skystone_encrusted_boule"
+    "0": "nyagibits_bytes:item/skystone_encrusted_boule",
+    "1": "nyagibits_bytes:item/capacitors",
+    "2": "nyagibits_bytes:item/manawire",
+    "3": "nyagibits_bytes:item/electricwire",
+    "particle": "nyagibits_bytes:item/skystone_encrusted_boule"
   }
 }

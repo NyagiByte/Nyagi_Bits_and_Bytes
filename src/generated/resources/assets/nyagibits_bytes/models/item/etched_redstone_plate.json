@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "nyagibits_bytes:item/dev/ingots-plates/etched_redstone_plate"
+    "layer0": "nyagibits_bytes:item/ingots-plates/etched_redstone_plate"
   }
 }

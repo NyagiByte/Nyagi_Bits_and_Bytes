@@ -1,6 +1,6 @@
 {
   "parent": "nyagibits_bytes:item/misc/chemically_inert_wood",
   "textures": {
-    "1": "nyagibits_bytes:item/dev/chemically_inert_wood"
+    "1": "nyagibits_bytes:item/chemically_inert_wood"
   }
 }

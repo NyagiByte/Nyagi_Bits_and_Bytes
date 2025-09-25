@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "nyagibits_bytes:item/dev/metamorphic_alloy"
+    "layer0": "nyagibits_bytes:item/metamorphic_alloy"
   }
 }

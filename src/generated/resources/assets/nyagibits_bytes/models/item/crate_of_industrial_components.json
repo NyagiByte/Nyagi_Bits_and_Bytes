@@ -1,14 +1,14 @@
 {
   "parent": "nyagibits_bytes:item/immersive/crate_of_industrial_components",
   "textures": {
-    "0": "nyagibits_bytes:item/dev/science/sturdy_box",
-    "1": "nyagibits_bytes:item/dev/dampener",
-    "2": "nyagibits_bytes:item/dev/reinforced_gearbox",
-    "3": "nyagibits_bytes:item/dev/immersive/v_belt",
-    "4": "nyagibits_bytes:item/dev/solenoid_component",
-    "5": "nyagibits_bytes:item/dev/immersive/synchronous_electric_motor",
-    "6": "nyagibits_bytes:item/dev/fasteners",
-    "7": "nyagibits_bytes:item/dev/hardened_mechanical_bearing",
-    "particle": "nyagibits_bytes:item/dev/hardened_mechanical_bearing"
+    "0": "nyagibits_bytes:item/science/sturdy_box",
+    "1": "nyagibits_bytes:item/dampener",
+    "2": "nyagibits_bytes:item/reinforced_gearbox",
+    "3": "nyagibits_bytes:item/immersive/v_belt",
+    "4": "nyagibits_bytes:item/solenoid_component",
+    "5": "nyagibits_bytes:item/immersive/synchronous_electric_motor",
+    "6": "nyagibits_bytes:item/fasteners",
+    "7": "nyagibits_bytes:item/hardened_mechanical_bearing",
+    "particle": "nyagibits_bytes:item/hardened_mechanical_bearing"
   }
 }

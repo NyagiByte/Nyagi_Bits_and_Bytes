@@ -1,7 +1,7 @@
 {
   "parent": "nyagibits_bytes:item/botania/living_frame",
   "textures": {
-    "0": "nyagibits_bytes:item/dev/living_frame",
-    "particle": "nyagibits_bytes:item/dev/living_frame"
+    "0": "nyagibits_bytes:item/living_frame",
+    "particle": "nyagibits_bytes:item/living_frame"
   }
 }

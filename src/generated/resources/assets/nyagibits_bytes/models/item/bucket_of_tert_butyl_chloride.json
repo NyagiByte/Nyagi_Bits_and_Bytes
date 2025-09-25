@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "nyagibits_bytes:item/dev/buckets/bucket_of_tert_butyl_chloride"
+    "layer0": "nyagibits_bytes:item/buckets/bucket_of_tert_butyl_chloride"
   }
 }

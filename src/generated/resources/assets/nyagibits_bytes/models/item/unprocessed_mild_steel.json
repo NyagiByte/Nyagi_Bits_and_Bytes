@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "nyagibits_bytes:item/dev/unprocessed_mild_steel"
+    "layer0": "nyagibits_bytes:item/unprocessed_mild_steel"
   }
 }

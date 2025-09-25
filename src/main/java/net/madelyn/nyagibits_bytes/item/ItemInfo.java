@@ -1,5 +1,6 @@
 package net.madelyn.nyagibits_bytes.item;
 
+import net.madelyn.nyagibits_bytes.chemical.ChemicalInfo;
 import net.madelyn.nyagibits_bytes.item.custom.*;
 import net.madelyn.nyagibits_bytes.misc.Utils;
 import net.minecraft.util.RandomSource;
@@ -64,6 +65,24 @@ public class ItemInfo {
             case LEVITATING -> { return new LevitatingItem(new Item.Properties().tab(tab)); }
             default -> {return new Item(new Item.Properties().tab(tab));}
             }
+    }
+
+    public static class Chem extends ItemInfo {
+        private final int tint;
+        private final ChemicalInfo.Type type;
+        public Chem(String id, CreativeModeTab tab, int tint, ChemicalInfo.Type type){
+            super(id, ModItems.Type.CUSTOM_TOOLTIP, Utils.Tab.CHEMICALS);
+            this.tint = tint;
+            this.type = type;
+        }
+
+        public ChemicalInfo.Type getChemType(){ return type; }
+        public int getTint(){ return tint; }
+
+        @Override
+        public Item registerItem(){
+            return new ChemicalItem(new Item.Properties().tab(getTab()), tint);
+        }
     }
 
     public static class Tool extends ItemInfo {

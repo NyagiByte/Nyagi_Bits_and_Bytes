@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "nyagibits_bytes:item/dev/lithium_alumino_inosilicate"
+    "layer0": "nyagibits_bytes:item/lithium_alumino_inosilicate"
   }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "nyagibits_bytes:block/dev/skystone_melt_included_andesite"
+    "all": "nyagibits_bytes:block/skystone_melt_included_andesite"
   }
 }

@@ -1,7 +1,7 @@
 {
   "parent": "nyagibits_bytes:item/botania/compacted_soil",
   "textures": {
-    "0": "nyagibits_bytes:item/dev/compacted_soil",
-    "particle": "nyagibits_bytes:item/dev/compacted_soil"
+    "0": "nyagibits_bytes:item/compacted_soil",
+    "particle": "nyagibits_bytes:item/compacted_soil"
   }
 }

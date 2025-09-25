@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "nyagibits_bytes:block/dev/block_goshenite"
+    "all": "nyagibits_bytes:block/block_goshenite"
   }
 }

@@ -1,7 +1,7 @@
 {
   "parent": "nyagibits_bytes:item/science/ink_cartridge",
   "textures": {
-    "0": "nyagibits_bytes:item/dev/science/ink_cartridge",
-    "particle": "nyagibits_bytes:item/dev/science/ink_cartridge"
+    "0": "nyagibits_bytes:item/science/ink_cartridge",
+    "particle": "nyagibits_bytes:item/science/ink_cartridge"
   }
 }

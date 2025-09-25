@@ -1,7 +1,7 @@
 {
   "parent": "nyagibits_bytes:item/misc/livisite_alloy_ground",
   "textures": {
-    "0": "nyagibits_bytes:item/dev/livisite_alloy_ground",
-    "particle": "nyagibits_bytes:item/dev/livisite_alloy_ground"
+    "0": "nyagibits_bytes:item/livisite_alloy_ground",
+    "particle": "nyagibits_bytes:item/livisite_alloy_ground"
   }
 }

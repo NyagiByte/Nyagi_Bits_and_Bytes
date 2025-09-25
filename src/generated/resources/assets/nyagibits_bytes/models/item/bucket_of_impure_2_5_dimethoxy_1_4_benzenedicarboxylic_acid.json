@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "nyagibits_bytes:item/dev/buckets/bucket_of_impure_2_5_dimethoxy_1_4_benzenedicarboxylic_acid"
+    "layer0": "nyagibits_bytes:item/buckets/bucket_of_impure_2_5_dimethoxy_1_4_benzenedicarboxylic_acid"
   }
 }

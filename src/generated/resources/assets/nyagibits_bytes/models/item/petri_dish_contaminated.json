@@ -1,7 +1,7 @@
 {
   "parent": "nyagibits_bytes:item/biology/petri_dish_contaminated",
   "textures": {
-    "0": "nyagibits_bytes:item/dev/biology/petri_dish_contaminated",
-    "particle": "nyagibits_bytes:item/dev/biology/petri_dish_contaminated"
+    "0": "nyagibits_bytes:item/biology/petri_dish_contaminated",
+    "particle": "nyagibits_bytes:item/biology/petri_dish_contaminated"
   }
 }

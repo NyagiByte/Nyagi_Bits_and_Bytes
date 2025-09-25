@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "nyagibits_bytes:block/dev/minerals/tectonic_conglomerate_redstone_ore"
+    "all": "nyagibits_bytes:block/minerals/tectonic_conglomerate_redstone_ore"
   }
 }

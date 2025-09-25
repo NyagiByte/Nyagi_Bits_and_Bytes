@@ -1,20 +1,20 @@
 {
   "parent": "nyagibits_bytes:item/alchemistry/alchemistry_assembly",
   "textures": {
-    "0": "nyagibits_bytes:item/dev/alchemistry/tray",
-    "1": "nyagibits_bytes:item/dev/alchemistry/inlet",
-    "10": "nyagibits_bytes:item/dev/alchemistry/strips",
-    "11": "nyagibits_bytes:item/dev/alchemistry/desiccation_powder",
-    "12": "nyagibits_bytes:item/dev/alchemistry/chromatography_kit",
-    "13": "nyagibits_bytes:item/dev/inert_wood_single_plank",
-    "2": "nyagibits_bytes:item/dev/alchemistry/distillation_column",
-    "3": "nyagibits_bytes:item/dev/alchemistry/burette",
-    "4": "nyagibits_bytes:item/dev/alchemistry/round_bottom_flask",
-    "5": "nyagibits_bytes:item/dev/alchemistry/beaker",
-    "6": "nyagibits_bytes:item/dev/alchemistry/bunsen_burner",
-    "7": "nyagibits_bytes:item/dev/alchemistry/electrolytic_core",
-    "8": "nyagibits_bytes:item/dev/fume_fan",
-    "9": "nyagibits_bytes:item/dev/alchemistry/ph_strips",
-    "particle": "nyagibits_bytes:item/dev/alchemistry/chromatography_kit"
+    "0": "nyagibits_bytes:item/alchemistry/tray",
+    "1": "nyagibits_bytes:item/alchemistry/inlet",
+    "10": "nyagibits_bytes:item/alchemistry/strips",
+    "11": "nyagibits_bytes:item/alchemistry/desiccation_powder",
+    "12": "nyagibits_bytes:item/alchemistry/chromatography_kit",
+    "13": "nyagibits_bytes:item/inert_wood_single_plank",
+    "2": "nyagibits_bytes:item/alchemistry/distillation_column",
+    "3": "nyagibits_bytes:item/alchemistry/burette",
+    "4": "nyagibits_bytes:item/alchemistry/round_bottom_flask",
+    "5": "nyagibits_bytes:item/alchemistry/beaker",
+    "6": "nyagibits_bytes:item/alchemistry/bunsen_burner",
+    "7": "nyagibits_bytes:item/alchemistry/electrolytic_core",
+    "8": "nyagibits_bytes:item/fume_fan",
+    "9": "nyagibits_bytes:item/alchemistry/ph_strips",
+    "particle": "nyagibits_bytes:item/alchemistry/chromatography_kit"
   }
 }

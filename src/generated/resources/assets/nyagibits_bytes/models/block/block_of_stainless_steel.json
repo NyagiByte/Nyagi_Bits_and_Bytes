@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "nyagibits_bytes:block/dev/block_of_stainless_steel"
+    "all": "nyagibits_bytes:block/block_of_stainless_steel"
   }
 }

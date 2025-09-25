@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "nyagibits_bytes:item/dev/chromatic_compound"
+    "layer0": "nyagibits_bytes:item/chromatic_compound"
   }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "nyagibits_bytes:item/dev/science/mbc/mercury_thermometer"
+    "layer0": "nyagibits_bytes:item/science/mbc/mercury_thermometer"
   }
 }

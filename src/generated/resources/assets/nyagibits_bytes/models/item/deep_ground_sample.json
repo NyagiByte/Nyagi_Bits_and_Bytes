@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "nyagibits_bytes:item/dev/minerals/deep_ground_sample"
+    "layer0": "nyagibits_bytes:item/minerals/deep_ground_sample"
   }
 }
