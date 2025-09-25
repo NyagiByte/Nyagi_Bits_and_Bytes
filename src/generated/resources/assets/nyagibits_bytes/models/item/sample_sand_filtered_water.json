@@ -1,8 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "nyagibits_bytes:item/datagen/dg_blank_layer",
-    "layer1": "nyagibits_bytes:item/datagen/dg_liquid_layer1",
-    "layer2": "nyagibits_bytes:item/datagen/dg_liquid_layer2"
+    "layer0": "nyagibits_bytes:item/chemicals/sample_sand_filtered_water"
   }
 }
