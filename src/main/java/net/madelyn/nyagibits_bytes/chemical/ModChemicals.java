@@ -274,7 +274,8 @@ public class ModChemicals {
         add(new ChemicalInfo("2_5_dimethoxybenzoic_acid", Type.SOLID)
                 .compacted("2_5_dimethoxybenzoic_acid_dust"));
         // 2,5-Dimethoxy-1,4-Benzenedicarboxylic Acid added 08/27/25 - Nyagi
-        add(new ChemicalInfo("2_5_dimethoxy_1_4_benzenedicarboxylic_acid", Type.SOLID).dust());
+        add(new ChemicalInfo("2_5_dimethoxy_1_4_benzenedicarboxylic_acid", Type.SOLID)
+                .compacted("2_5_dimethoxy_1_4_benzenedicarboxylic_acid_dust"));
     }
 
     public static void register(IEventBus eventBus) {
