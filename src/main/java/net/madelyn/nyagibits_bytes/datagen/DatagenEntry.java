@@ -24,6 +24,7 @@ public class DatagenEntry {
             generator.addProvider(true, new BlockModelDatagen(generator, event.getExistingFileHelper()));
             generator.addProvider(true, new BlockstateDatagen(generator, event.getExistingFileHelper()));
             generator.addProvider(true, new ItemModelDatagen(generator, event.getExistingFileHelper()));
+            generator.addProvider(true, new LangDatagen(generator, NyagiBits_Bytes.MOD_ID, "en_us"));
         }
         if(event.includeServer()){
             generator.addProvider(true, new LootTableDatagen(generator, event.getExistingFileHelper()));

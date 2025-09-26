@@ -18,17 +18,17 @@ public class ChemicalInfo {
         this.id = id;
         this.tintColor = DEFAULT_TINT;
         this.state = state;
-        this.sample = new ItemInfo.Chem("sample_"+this.id, Utils.Tab.CHEMICALS, tintColor, state);
+        this.sample = new ItemInfo.Chem("sample_"+this.id, Utils.Tab.CHEMICALS, tintColor, state, id);
     }
     public ChemicalInfo(String id, int tint, Type state){
         this.id = id;
         this.tintColor = tint;
         this.state = state;
-        this.sample = new ItemInfo.Chem("sample_"+this.id, Utils.Tab.CHEMICALS, tintColor, state);
+        this.sample = new ItemInfo.Chem("sample_"+this.id, Utils.Tab.CHEMICALS, tintColor, state, id);
     }
 
     public ChemicalInfo dust(){
-        this.compacted = new ItemInfo.Chem(this.id+"_dust", Utils.Tab.CHEMICALS, this.tintColor, Type.DUST);
+        this.compacted = new ItemInfo.Chem(this.id+"_dust", Utils.Tab.CHEMICALS, this.tintColor, Type.DUST, id);
         return this;
     }
 
@@ -45,7 +45,16 @@ public class ChemicalInfo {
         this.fluid = new FluidInfo.Builder(this.id, this.tintColor);
         return this;
     }
+    public ChemicalInfo tickingFluid(){
+        this.fluid = new FluidInfo.Builder(this.id, this.tintColor).setTicking();
+        return this;
+    }
+    public ChemicalInfo fluid(FluidInfo.Builder builder){
+        this.fluid = builder;
+        return this;
+    }
 
+    public String getId(){return id;}
     public ItemInfo.Chem getSample(){
         return sample;
     }

@@ -62,8 +62,7 @@ public class ModFluids {
         add(new FluidInfo.Builder("molten_skystone", 0xff001400)
                 .setStillTexture(LAVA_STILL_RL)
                 .setFlowingTexture(LAVA_FLOWING_RL));
-        //Heptafluoropropane - Added 11/29/24
-        add(new FluidInfo.Builder("heptafluoropropane", 0xA145ff64));
+
         //Amorphous Cellulose - Added 11/29/24
         add(new FluidInfo.Builder("amorphous_cellulose", 0xA4b6432));
         //Lithium-Alumino Solution - Added 12/12/24
@@ -78,42 +77,6 @@ public class ModFluids {
         add(new FluidInfo.Builder("endstone_leach_water", 0xA1326496));
         // Bio-Glycerol Mix - Added 03/21/25
         add(new FluidInfo.Builder("bio_glycerol_mix", 0xA04f4d0a));
-        // Cyclohexanone - Added 02/20/25
-        add(new FluidInfo.Builder("cyclohexanone", 0xA1aad5cb));
-        // Methylethyl Ketone - Added 02/20/25
-        add(new FluidInfo.Builder("methylethyl_ketone", 0xA15e9e8f));
-        // Ketone Mixture - Added 02/20/25
-        add(new FluidInfo.Builder("ketone_mixture", 0xA1b0c484));
-        // Lithium Carboxylate - Added 02/20/25
-        add(new FluidInfo.Builder("lithium_carboxylate", 0xA1c3b0bb));
-        // t-Butyllithium - Added 02/20/25
-        add(new FluidInfo.Builder("tert_butyl_lithium", 0xA18c80ae));
-        // t-Butylchloride - Added 02/20/25
-        add(new FluidInfo.Builder("tert_butyl_chloride", 0xA178aa99));
-        // Methylmagnesium Chloride Solution - Added 02/20/25
-        add(new FluidInfo.Builder("methylmagnesium_chloride_solution", 0xA1c7d9cd));
-        // Tetrahydrofuran - Added 02/20/25
-        add(new FluidInfo.Builder("tetrahydrofuran", 0xA1e3c3af));
-        // Formaldehyde - Added 02/20/25
-        add(new FluidInfo.Builder("formaldehyde", 0xA1d7933a));
-        // Methyl Chloride - Added 04/23/25
-        add(new FluidInfo.Builder("methyl_chloride", 0xA19acdad));
-        // Ethylene Oxide - Added 04/23/25
-        add(new FluidInfo.Builder("ethylene_oxide", 0xA198b1b6));
-        // Trinitrotoluene - Added 04/23/25
-        add(new FluidInfo.Builder("trinitrotoluene", 0xA1e7dd7a));
-        // Dinitrotoluene - Added 04/23/25
-        add(new FluidInfo.Builder("dinitrotoluene", 0xA1c6b097));
-        // Mononitrotoluene - Added 04/23/25
-        add(new FluidInfo.Builder("mononitrotoluene", 0xA1b9b890));
-        // Toluene - Added 04/23/25
-        add(new FluidInfo.Builder("toluene", 0xA1965517));
-        // 2-Phenoxyethanol - Added 04/23/25
-        add(new FluidInfo.Builder("2_phenoxyethanol", 0xA1918c58));
-        // Benzyl Alcohol - Added 04/23/25
-        add(new FluidInfo.Builder("benzyl_alcohol", 0xA1839367));
-        // Oleum - Added 04/23/25
-        add(new FluidInfo.Builder("oleum", 0xA1e7e2b2));
         // Anthocyanin - Added 04/23/25
         add(new FluidInfo.Builder("anthocyanin", 0xA1cc8aec));
         // Malic & Citric Acid - Added 04/23/25
@@ -122,98 +85,10 @@ public class ModFluids {
         add(new FluidInfo.Builder("vinegar", 0xA1ccc4ae));
         // Salt Water - Added 04/23/25
         add(new FluidInfo.Builder("salt_water", 0xA189a5f5));
-        // Nickel Sulfate Solution - Added 05/29/25
-        add(new FluidInfo.Builder("solution_nickel_sulfate", 0xA14b7f30));
-        // Diluted Sulfuric Acid - Added 05/29/25
-        add(new FluidInfo.Builder("diluted_sulfuric_acid", 0xA1c9c682));
         // Vinegar Starter - Added 06/10/25
         add(new FluidInfo.Builder("vinegar_starter", 0xA152362D));
         // Vinegar Starter - Added 06/10/25
         add(new FluidInfo.Builder("thin_ink", 0xA1111111));
-        // Commercial Grade Hydrogen Peroxide (3%) - Added 06/15/25
-        add(new FluidInfo.Builder("hydrogen_peroxide_003", 0xA10d5e8b));
-        // Concentrated Hydrogen Peroxide (15%) - Added 06/15/25
-        add(new FluidInfo.Builder("hydrogen_peroxide_015", 0xA116869c));
-        // Industrial Grade Hydrogen Peroxide (32%) - Added 06/15/25
-        add(new FluidInfo.Builder("hydrogen_peroxide_032", 0xA11ea69f));
-        // Explosives Grade Hydrogen Peroxide (75%) - Added 06/15/25
-        add(new FluidInfo.Builder("hydrogen_peroxide_075", 0xA129b38f));
-        // Anhydrous Hydrogen Peroxide (~99.9%) - Added 06/15/25
-        add(new FluidInfo.Builder("hydrogen_peroxide_100", 0xA149ca99));
-        // Unbleached Chitin Solution - Added 06/15/25
-        add(new FluidInfo.Builder("solution_unbleached_chitin", 0xA19e8948));
-        // Decolorized Chitin Solution - Added 06/15/25
-        add(new FluidInfo.Builder("solution_decolorized_chitin", 0xA1613125));
-        // Chitosan Solution - Added 06/15/25
-        add(new FluidInfo.Builder("solution_chitosan", 0xA1974e39));
-        // Hydroquinone - Added 07/06/25
-        add(new FluidInfo.Builder("hydroquinone", 0xA18a67ac));
-        // 1,4-Napthoquinone - Added 07/06/25
-        add(new FluidInfo.Builder("1_4_napthoquinone", 0xA13e4ab5));
-        // 9,10-Anthraquinone - Added 07/06/25
-        add(new FluidInfo.Builder("9_10_anthraquinone", 0xA1b03e74));
-        // Bubbled Pre-Peroxide - Added 07/06/25
-        add(new FluidInfo.Builder("bubbled_pre_peroxide", 0xA16081a1));
-        // Mixed Peroxide Product - Added 07/06/25
-        add(new FluidInfo.Builder("mixed_peroxide_product", 0xA1909b9c));
-        // Steam Cracked Ethylene - Added 07/06/25
-        add(new FluidInfo.Builder("steam_cracked_ethylene", 0xA178987e));
-        // 1,3-Butadiene - Added 07/06/25
-        add(new FluidInfo.Builder("1_3_butadiene", 0xA1868453));
-        // Wet HPA-4 - Added 07/06/25
-        add(new FluidInfo.Builder("wet_hpa_4", 0xA15b859e));
-        // HPA-4 Precursor #3 - Added 07/06/25
-        add(new FluidInfo.Builder("precursor_3_hpa_4", 0xA1787f87));
-        // HPA-4 Precursor #2- Added 07/06/25
-        add(new FluidInfo.Builder("precursor_2_hpa_4", 0xA152807c));
-        // HPA-4 Precursor #1 - Added 07/06/25
-        add(new FluidInfo.Builder("precursor_1_hpa_4", 0xA185997c));
-        // Diethyl Ether - Added 07/06/25
-        add(new FluidInfo.Builder("diethyl_ether", 0xA1ab8339));
-        // Seawater - Added 08/18/25
-        add(new FluidInfo.Builder("seawater", 0xA1bfcbed));
-        // Hydrogen Bromide - Added 08/18/25
-        add(new FluidInfo.Builder("hydrogen_bromide", 0xA1812626));
-        // Wet Hydrazine - Added 08/19/25
-        add(new FluidInfo.Builder("wet_hydrazine", 0xA1101065));
-        // Hydrazine - Added 08/19/25
-        add(new FluidInfo.Builder("hydrazine", 0xA1312b75));
-        // Hydrogen Iodide - Added 08/19/25
-        add(new FluidInfo.Builder("hydrogen_iodide", 0xA187336c));
-        // Iodomethane - Added 08/19/25
-        add(new FluidInfo.Builder("iodomethane", 0xA1b46ec7));
-        // DMSO - Added 08/19/25
-        add(new FluidInfo.Builder("dmso", 0xA18eb960));
-        // DMS - Added 08/19/25
-        add(new FluidInfo.Builder("dms", 0xA1d8cb63));
-        // Chloropropane - Added 08/27/25
-        add(new FluidInfo.Builder("chloropropane", 0xA15d3137));
-        // Chlorooctane - Added 08/27/25
-        add(new FluidInfo.Builder("chlorooctane", 0xA17f5377));
-        // Bromooctane - Added 08/27/25
-        add(new FluidInfo.Builder("bromooctane", 0xA1512415));
-        // CHC 68 - Added 08/27/25
-        add(new FluidInfo.Builder("chc_68", 0xA145301f));
-        // Anhydrous Toluene - Added 08/27/25
-        add(new FluidInfo.Builder("anhydrous_toluene", 0xA14e2f12));
-        // Octane - Added 08/27/25
-        add(new FluidInfo.Builder("octane", 0xA147124e));
-        // Mixed Pre-Dimethoxybenzoic Acid Product - Added 08/27/25
-        add(new FluidInfo.Builder("mixed_pre_dimethoxybenzoic_acid_product", 0xA13d7081));
-        // Mixed Dimethoxybenzoic Acid Product - Added 08/27/25
-        add(new FluidInfo.Builder("mixed_dimethoxybenzoic_acid_product", 0xA1627397));
-        // Impure 2,5-Dimethoxybenzoic Acid - Added 08/27/25
-        add(new FluidInfo.Builder("impure_2_5_dimethoxybenzoic_acid", 0xA13e3c70)
-                .setTicking()
-        );
-        // Impure 2,5-Dimethoxy-1,4-Benzenedicarboxylic Acid - Added 08/27/25
-        add(new FluidInfo.Builder("impure_2_5_dimethoxy_1_4_benzenedicarboxylic_acid", 0xA1a9c8c6)
-                .setTicking()
-        );
-        // 2,5-Dimethoxybenzoic Acid Solution - Added 08/27/25
-        add(new FluidInfo.Builder("2_5_dimethoxybenzoic_acid_solution", 0xA19274a4));
-        // 2,5-Dimethoxy-1,4-Benzenedicarboxylic Acid Solution - Added 08/27/25
-        add(new FluidInfo.Builder("2_5_dimethoxy_1_4_benzenedicarboxylic_acid_solution", 0xA1a4749d));
 
     }
 

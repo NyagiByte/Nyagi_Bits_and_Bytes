@@ -8,7 +8,6 @@ import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.entity.ai.attributes.Attribute;
 import net.minecraft.world.entity.ai.attributes.AttributeModifier;
-import net.minecraft.world.item.BucketItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
@@ -70,10 +69,12 @@ public class ItemInfo {
     public static class Chem extends ItemInfo {
         private final int tint;
         private final ChemicalInfo.Type type;
-        public Chem(String id, CreativeModeTab tab, int tint, ChemicalInfo.Type type){
+        private final String chemical;
+        public Chem(String id, CreativeModeTab tab, int tint, ChemicalInfo.Type type, String chemical){
             super(id, ModItems.Type.CUSTOM_TOOLTIP, Utils.Tab.CHEMICALS);
             this.tint = tint;
             this.type = type;
+            this.chemical = chemical;
         }
 
         public ChemicalInfo.Type getChemType(){ return type; }
@@ -81,7 +82,7 @@ public class ItemInfo {
 
         @Override
         public Item registerItem(){
-            return new ChemicalItem(new Item.Properties().tab(getTab()), tint);
+            return new ChemicalItem(new Item.Properties().tab(getTab()), tint, chemical);
         }
     }
 
@@ -106,20 +107,33 @@ public class ItemInfo {
     public static class Bucket extends ItemInfo{
 
         private final Supplier<? extends Fluid> fluid;
+        private String chemical;
 
         public Bucket (String id, Supplier<? extends Fluid> fluidSupplier){
             super(id, ModItems.Type.ITEM, Utils.Tab.FLUIDS);
             this.fluid = fluidSupplier;
+            chemical = "";
+        }
+        public Bucket (String id, Supplier<? extends Fluid> fluidSupplier, String chemical){
+            super(id, ModItems.Type.ITEM, Utils.Tab.FLUIDS);
+            this.fluid = fluidSupplier;
+            this.chemical = chemical;
+        }
+
+        public Bucket chemical(String chem){
+            this.chemical = chem;
+            return this;
         }
 
         //This should get called even in the context of the list of Item Info. Go back and interface some stuff if not.
         @Override
         public Item registerItem(){
-            return new BucketItem(fluid,
+            return new CustomBucketItem(fluid,
                     new Item.Properties()
                             .tab(Utils.Tab.FLUIDS)
                             .craftRemainder(Items.BUCKET)
-                            .stacksTo(1)
+                            .stacksTo(1),
+                    chemical
             );
         }
 

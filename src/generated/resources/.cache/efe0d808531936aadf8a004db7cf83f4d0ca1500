@@ -1,4 +1,4 @@
-// 1.19.2	2025-09-25T23:46:13.510649906	Item Models: nyagibits_bytes
+// 1.19.2	2025-09-26T19:06:59.263562432	Item Models: nyagibits_bytes
 f46f3ad7084615037f94f72c8a2e36f9d49a3814 assets/nyagibits_bytes/models/item/1_4_dimethoxybenzene_dust.json
 8fd5c004c9bd4953950b21aa65864c81f0d89dc7 assets/nyagibits_bytes/models/item/2_5_dimethoxy_1_4_benzenedicarboxylic_acid_dust.json
 47d382864808038b469cf5b4d05c7cf55272fc32 assets/nyagibits_bytes/models/item/2_5_dimethoxy_1_4_benzenedicarboxylic_acid_strip.json
@@ -413,6 +413,8 @@ f3f7a5d0314b41e7ccc894d3aaeee94490575e66 assets/nyagibits_bytes/models/item/ink_
 d96bc325eca5cad5fcfa19aeec8776ab42752139 assets/nyagibits_bytes/models/item/inlet.json
 59397b37a1d7130560a83bd17ce5139562c08c99 assets/nyagibits_bytes/models/item/insulating_washer.json
 9d33e15c2fa503e13919a17a630815c358abc7e8 assets/nyagibits_bytes/models/item/intestines.json
+efe5aad07a2a052ac997a6536386c79565b3a809 assets/nyagibits_bytes/models/item/iron_iii_chloride_dust.json
+e424d95ecb67305342db38af4caf9b309bae19c3 assets/nyagibits_bytes/models/item/iron_iii_hydroxide_dust.json
 2e6d36173d6101d87972f50aaf100496310f6549 assets/nyagibits_bytes/models/item/k4k3ggaog2.json
 fc5ce5630e4a675cb2bde54b6514743a48437286 assets/nyagibits_bytes/models/item/kidney.json
 8d4f683d4343b35f28505d46527a850846672b17 assets/nyagibits_bytes/models/item/lab_notebook.json
