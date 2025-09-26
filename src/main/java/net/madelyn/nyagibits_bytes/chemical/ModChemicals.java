@@ -7,7 +7,6 @@ import net.madelyn.nyagibits_bytes.fluid.FluidInfo;
 import net.madelyn.nyagibits_bytes.fluid.ModFluids;
 import net.madelyn.nyagibits_bytes.item.ItemInfo;
 import net.madelyn.nyagibits_bytes.item.ModItems;
-import net.madelyn.nyagibits_bytes.misc.Utils.Tab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.material.Fluid;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -132,7 +131,7 @@ public class ModChemicals {
         // Tert-Butyl Chloride added 02/20/25 - Nyagi FIXME: discrepancy in sample id and fluid id
         add(new ChemicalInfo("tertbutyl_chloride", 0xA178aa99, Type.LIQUID).fluid(new FluidInfo.Builder("tert_butyl_chloride", 0xA178aa99)));
         // Tert-Butyl Alcohol added 02/20/25 - Nyagi FIXME: discrepancy in sample id and dust id
-        add(new ChemicalInfo("tertbutyl_alcohol", Type.SOLID).compacted(new ItemInfo("tert_butyl_alcohol_dust", ModItems.Type.CUSTOM_TOOLTIP, Tab.CHEMICALS)));
+        add(new ChemicalInfo("tertbutyl_alcohol", Type.SOLID).compacted("tert_butyl_alcohol_dust"));
         // Methylmagnesium Chloride Solution - Added 02/20/25 - Nyagi
         add(new ChemicalInfo("methylmagnesium_chloride_solution", 0xA1c7d9cd, Type.LIQUID).fluid());
         // Tetrahydrofuran - Added 02/20/25 - Nyagi
@@ -218,7 +217,7 @@ public class ModChemicals {
         // DSP added 07/05/25 - Nyagi
         add(new ChemicalInfo("dsp", Type.SOLID).dust());
         // Dry Ice added 07/05/25 - Nyagi
-        add(new ChemicalInfo("dry_ice", Type.SOLID).compacted(new ItemInfo("dry_ice_slab", ModItems.Type.CUSTOM_TOOLTIP, Tab.CHEMICALS)));
+        add(new ChemicalInfo("dry_ice", Type.SOLID).compacted("dry_ice_slab"));
         // Calcium Silicate added 07/24/25 - Nyagi
         add(new ChemicalInfo("calcium_silicate", Type.SOLID).dust());
         // Iron(III) Chloride added 07/25/25 - JJ
@@ -230,9 +229,9 @@ public class ModChemicals {
         // Seawater - Added 08/18/25 - Nyagi
         add(new ChemicalInfo("seawater", 0xA1bfcbed, Type.LIQUID).fluid());
         // Evaporated Brine added 08/18/25 - Nyagi FIXME: should it be _dust?
-        add(new ChemicalInfo("evaporated_brine", Type.SOLID).compacted(new ItemInfo("evaporated_brine", ModItems.Type.CUSTOM_TOOLTIP, Tab.CHEMICALS)));
+        add(new ChemicalInfo("evaporated_brine", Type.SOLID).compacted("evaporated_brine"));
         // Residue Brine Product added 08/18/25 - Nyagi FIXME: should it be _dust?
-        add(new ChemicalInfo("residue_brine_product", Type.SOLID).compacted(new ItemInfo("residue_brine_product", ModItems.Type.CUSTOM_TOOLTIP, Tab.CHEMICALS)));
+        add(new ChemicalInfo("residue_brine_product", Type.SOLID).compacted("residue_brine_product"));
         // Wet Hydrazine - Added 08/19/25 - Nyagi
         add(new ChemicalInfo("wet_hydrazine", 0xA1101065, Type.LIQUID).fluid());
         // Hydrazine - Added 08/19/25 - Nyagi
@@ -273,7 +272,7 @@ public class ModChemicals {
         add(new ChemicalInfo("2_5_dimethoxy_1_4_benzenedicarboxylic_acid_solution", 0xA1a4749d, Type.LIQUID).fluid());
         // 2,5-Dimethoxybenzoic Acid added 08/27/25 - Nyagi NOTE: This is correct. The "dust" is actually a crystal.
         add(new ChemicalInfo("2_5_dimethoxybenzoic_acid", Type.SOLID)
-                .compacted(new ItemInfo("2_5_dimethoxybenzoic_acid_dust", ModItems.Type.CUSTOM_TOOLTIP, Tab.CHEMICALS)));
+                .compacted("2_5_dimethoxybenzoic_acid_dust"));
         // 2,5-Dimethoxy-1,4-Benzenedicarboxylic Acid added 08/27/25 - Nyagi
         add(new ChemicalInfo("2_5_dimethoxy_1_4_benzenedicarboxylic_acid", Type.SOLID).dust());
     }
