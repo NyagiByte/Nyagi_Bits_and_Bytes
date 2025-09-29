@@ -631,6 +631,8 @@
   "item.nyagibits_bytes.2_5_dimethoxy_1_4_benzenedicarboxylic_acid_strip.desc": "A chromatography strip with a segment of 2,5-Dimethoxy-1,\n4-Benzenedicarboxylic Acid snipped off. Needs to be crushed\nto release the liquid",
   "item.nyagibits_bytes.chromatography_kit_used": "Used Chromatography Kit",
   "item.nyagibits_bytes.chromatography_kit_used.desc": "The container is still good, but needs some replacements",
+  "item.nyagibits_bytes.calcinated_agar": "Calcinated Agar",
+  "item.nyagibits_bytes.calcinated_agar.desc": "I think you burned it",
 
 
   "item.nyagibits_bytes.stomach": "Stomach",

@@ -1,4 +1,4 @@
-// 1.19.2	2025-09-26T14:03:30.3090693	Item Models: nyagibits_bytes
+// 1.19.2	2025-09-29T16:03:56.4440413	Item Models: nyagibits_bytes
 f46f3ad7084615037f94f72c8a2e36f9d49a3814 assets/nyagibits_bytes/models/item/1_4_dimethoxybenzene_dust.json
 943e7c163efff69fd7b3eef7ec4178f28ae343e6 assets/nyagibits_bytes/models/item/2d_textures.json
 a1570e6fb1739636dbe8e54f331e6b1fb92aab30 assets/nyagibits_bytes/models/item/2lbxyud1od.json
@@ -165,6 +165,7 @@ e10c8c6c130ef7ed95704ea90be020d3767d1923 assets/nyagibits_bytes/models/item/buck
 f7832ea6d87e1c16cbe0ef3d04de19d307c6ffb1 assets/nyagibits_bytes/models/item/burette.json
 5cf51beeeaa77ff91b69acfe7838244a29f87e17 assets/nyagibits_bytes/models/item/cadmium_nitrate_crystal.json
 b756e3c4076dfa68abace53aec2e561ecc5fbaf5 assets/nyagibits_bytes/models/item/cadmium_oxide_dust.json
+3126648c3f205eea939a59d01c78bdaf50b41b40 assets/nyagibits_bytes/models/item/calcinated_agar.json
 a6139a86de4cfc94b7ae81b387f8d27be3659cf3 assets/nyagibits_bytes/models/item/calcium_phosphate_dust.json
 6e0cf1a234183a95895b4dcd1f090c8e5e198721 assets/nyagibits_bytes/models/item/calcium_silicate_dust.json
 862de31cdc997395dcfb3c2a62d0712c3695d376 assets/nyagibits_bytes/models/item/calculation_dud.json

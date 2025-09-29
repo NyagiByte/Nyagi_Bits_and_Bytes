@@ -436,6 +436,8 @@ public class ModItems {
     add(new ItemInfo("on_carbon_saturated_palladium", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
     //  Used Chromatography Kit added 07/05/25 - Nyagi
     add(new ItemInfo("chromatography_kit_used", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  Used Chromatography Kit added 09/29/25 - Toda
+    add(new ItemInfo("calcinated_agar", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
 
     //Chemistry
     // Bottle of Anthocyanin added 8/27/23 - Nyagi
