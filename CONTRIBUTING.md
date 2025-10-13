@@ -10,13 +10,15 @@ Add a comment above each addition saying when it was added, and who added it.
 Since an american set the standard, most dates are in the MM/DD/YY format. Example:  
 `//Slushy Ice added 5/16/24 - Nyagi`
 ### Naming Conventions
+Update: See the lang section for chemicals,   
 Chemlib-style items should follow the naming conventions set in place to help them blend in with the also renamed chemlib items.  
 Chemical items (So beakers/flasks) should be named "Sample of <chemical_name>" and have the id of "sample_<chemical_name>"  
 Dusts follow a similar convention, although it might not be perfectly consistent.
 
 ## Items
 ### Things that should not be registered
-Buckets and the item form of blocks are handled elsewhere. Do not register them here.
+Buckets and the item form of blocks are handled elsewhere. Do not register them here.  
+Chemlib-style samples and dusts are handled in their own system, keep them there.
 ### Registering the item
 To add an item, head to the ModItems class.  
 There, add a new entry to the list like this.  
@@ -87,6 +89,8 @@ To register a block that can be placed in multiple orientations, add a BlockInfo
 Datagen cannot handle their models, reference existing ones (like glimmering logs)
 
 ## Fluids
+### Things that should not be registered
+Do not register fluids that are intended to be paired with a chemlib-style sample. Use the chemical registry for that.
 ### Registering the fluid
 To add a new fluid, go to the ModFluids class and add a new entry to the list
 `new FluidInfo.Builder("fluid_id", 0xA1e7e2b2),`  
@@ -103,9 +107,63 @@ For each fluid, three lang entries must be added:
 - Fluid Block: `"block.nyagibits_bytes.<fluid_id>_block": "<Fluid Name>",`
 - Bucket: `"item.nyagibits_bytes.bucket_of_<fluid_id>": "<Fluid Name> Bucket",`
 ### Assets
-Add the bucket's texture in `assets/nyagibits_bytes/textures/item/dev/buckets` and run datagen.  
+A texture for the bucket is optional, as the mod can create a basic bucket with tinted fluid with datagen.  
+If a custom texture is made, add the bucket's texture in `assets/nyagibits_bytes/textures/item/dev/buckets` and run datagen.  
 Technically not required to have the texture in buckets specifically, but might as well keep it somewhat organized.
-### Chemical Items, Rules & Design
+## Chemicals
+Chemlib-style items are registered independently of everything else.
+### Registering the chemical
+Go to the ModChemicals class and add a new entry.  
+```add(new ChemicalInfo("glycerol", 0xA1ededed, Type.LIQUID).fluid());```  
+The parameters, in order, are:
+- Chemical ID: The item IDs will be generated from that. (Example: "sample_of_glycerol")
+- Tint: An ARGB color used for fluids and by datagen to tint the default assets (more on that later)
+- Chemical Type: Can be SOLID, LIQUID or GAS. There's also DUST, but it is for internal use only.
+
+Additionally, other methods can be appended, here's a list of them:
+- .dust(): Will also create a dust item
+- .fluid(): Will register a complete fluid, with the specified tint
+- .tickingFluid(): Same as fluid(), but the fluid will be randomly ticking. Used for Lychee compat.
+- .compacted(): tack on a "compacted" form of the chemical that isn't a dust. Note that some datagen elements only work on dusts. Accepts either a String for an item ID or a full ItemInfo to denote a correlation, but bypass any defaults.
+
+### Registered things
+Each entry will register the following things.  
+"chemical" fills in for the specified chemical id
+- sample_of_chemical The basic sample item, always registred.
+- If .dust() was appended:
+  - chemical_dust: The dust item, registered if .dust() is appended.  
+- If .fluid() or .tickingFluid() was appended:
+  - bucket_of_chemical: The bucket item belonging to the fluid
+  - chemical_fluid: The fluid itself, this is the format used in recipes.
+  - chemical_block: The fluid block, needs to be present, but rarely interacted with.
+- If .compacted() was appended:
+  - Whatever was its parameter
+
+### Lang
+Chemical items have a lot of datagen around them, including for english lang.  
+**Remember to runData after making changes**  
+For each chemical, these are the lang entries:
+- `"chemical.nyagibits_bytes.(chemical_id).name": "(Chemical's Name)`: Technically optional, but heavily recommended, if omitted, you'll need to add item name entries for the other items.  
+  If not added, must add these ones instead:
+  - `"item.nyagibits_bytes.sample_of_(chemical_id)": "Sample of (Chemical's Name)"`
+  - `"item.nyagibits_bytes.(chemical_id)_dust": "(Chemical's Name) Dust"`(.dust() Only)
+  - `"fluid_type.nyagibits_bytes.(chemical_id)_fluid", "(Chemical's Name)` (Fluid Only)
+  - `"block.nyagibits_bytes.(chemical_id)_block", "(Chemical's Name)"`(Fluid Onlt)
+  - `"item.nyagibits_bytes.bucket_of_"+chem.getFluid().id, "(Chemical's Name) Bucket"`(Fluid Only)
+- `"chemical.nyagibits_bytes.(chemical_id).desc": "(Generic tooltip for the chemical)`: Optional: This allows for a single tooltip to be applied to a chemical across sample, dust or bucket. If omitted, item specific tooltips should be added as seen in Item Lang  
+- If a custom .compacted() item was defined, follow normal item lang rules for it.
+                        
+### Assets
+Chemical items's textures work like normal item ones, but with some caveats.
+If the texture is missing, datagen will kick in and assign it a default texture, which is then tinted.  
+**Remember to runData after making changes**  
+The texture used for samples is determined by the Type parameter (SOLID, LIQUID or GAS), and the tint is also from the parameters.  
+This is fine for simpler items, although if any visual flair is needed, a full texture must be made.  
+The tinting is applied to layer1, so when making custom textures, stick to either just layer0 or skip layer1 if needed.  
+Texture datagen can handle samples, dusts and fluid buckets. **It cannot handle items tacked on with .compacted(), give those full textures**
+
+### Chemical Items, Rules & Design  
+**This section is mostly about the established design standards, a lot of this has been taken care of by datagen**  
 Chemicals fall into 3 main groups: **Solids, Liquids, and Gasses**
 
 Solid-type chemicals must be registered with a dust or other "full unit" of itself as well as a "sample_of" version of itself.  

@@ -1011,6 +1011,8 @@
   "item.nyagibits_bytes.incomplete_me_storage_monitor": "Incomplete ME Storage Monitor",
   "item.nyagibits_bytes.incomplete_me_terminal": "Incomplete ME Terminal",
   "item.nyagibits_bytes.incomplete_onek_me_storage_component": "Incomplete 1k ME Storage Component",
+  "item.nyagibits_bytes.incomplete_petri_dish_acetobacter_initial": "Incomplete Acetobacter Petri Dish [Initial]",
+  "item.nyagibits_bytes.incomplete_petri_dish_acetobacter_recaim": "Incomplete Acetobacter Dish [Reclaim]",
   "item.nyagibits_bytes.incomplete_petri_dish_glass": "Incomplete Petri Dish [Glass]",
   "item.nyagibits_bytes.incomplete_petri_dish_quartz_glass": "Incomplete Petri Dish [Quartz Glass]",
   "item.nyagibits_bytes.incomplete_raw_ametrine_polish": "Incomplete Raw Ametrine [Polish]",

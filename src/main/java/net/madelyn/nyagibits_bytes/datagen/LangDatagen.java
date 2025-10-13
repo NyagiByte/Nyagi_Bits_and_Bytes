@@ -24,9 +24,13 @@ public class LangDatagen extends LanguageProvider {
 
     @Override
     protected void addTranslations() {
+        //So only one "true" lang file is allowed to exist at any given time. You can't have part of lang in normal assets and another in generated assets.
+        //So we need ALL lang entries in generated assets. This step takes the en_us json file and grabs all its entries. 
+        //(Note: I18n does not work in this datagen context so we also need it to check for existing lang)
         try {
             FileReader reader = new FileReader(Path.of("../src/main/resources/assets/nyagibits_bytes/lang/en_us.json").toFile());
             EN_LANG = gson.fromJson(reader, LinkedHashMap.class);
+            //This adds all the existing entries to the generated lang file, for the reasons outlined above.
             EN_LANG.forEach(this::add);
 
         } catch (Exception e){
@@ -35,19 +39,23 @@ public class LangDatagen extends LanguageProvider {
         }
 
         for(ChemicalInfo chem : ModChemicals.CHEM_LIST){
+            //This is a special lang entry used to create the others.
             String chemLangId = "chemical.nyagibits_bytes."+chem.getId()+".name";
             if(EN_LANG.containsKey(chemLangId)){
                 String chemName = EN_LANG.get(chemLangId);
+                //addLang is a method that checks if the entry already exists, if not, adds it.
                 addLang("item.nyagibits_bytes."+chem.getSample().getId(), "Sample of "+chemName);
+                //If there's a dust specifically, add its entry
                 if(chem.getCompacted() != null && chem.getCompacted() instanceof ItemInfo.Chem dust) addLang("item.nyagibits_bytes."+dust.getId(), chemName+" Dust");
                 if(chem.getFluid() != null){
-                    addLang("fluid_type.nyagibits_bytes."+chem.getFluid().id+"_fluid", chemName);
-                    addLang("block.nyagibits_bytes."+chem.getFluid().id+"_block", chemName);
-                    addLang("item.nyagibits_bytes.bucket_of_"+chem.getFluid().id, chemName+" Bucket");
+                    //Same thing for the fluids
+                        addLang("fluid_type.nyagibits_bytes."+chem.getFluid().id+"_fluid", chemName);
+                        addLang("block.nyagibits_bytes."+chem.getFluid().id+"_block", chemName);
+                        addLang("item.nyagibits_bytes.bucket_of_"+chem.getFluid().id, chemName+" Bucket");
                 }
             }
         }
-
+        //More of the same, but for non-chemical fluids
         for(FluidInfo.Builder fluid : ModFluids.FLUIDS_LIST){
             String fluidLangId = "fluid.nyagibits_bytes."+fluid.id+".name";
             if(EN_LANG.containsKey(fluidLangId)){
