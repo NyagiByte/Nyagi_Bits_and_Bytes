@@ -276,6 +276,20 @@ public class ModChemicals {
         // 2,5-Dimethoxy-1,4-Benzenedicarboxylic Acid added 08/27/25 - Nyagi
         add(new ChemicalInfo("2_5_dimethoxy_1_4_benzenedicarboxylic_acid", Type.SOLID)
                 .compacted("2_5_dimethoxy_1_4_benzenedicarboxylic_acid_dust"));
+        // Ascorbic Acid added 09/30/25 - Toda
+        add(new ChemicalInfo("ascorbic_acid", Type.SOLID).dust());
+        // Copper Iodide added 10/16/25 - Toda
+        add(new ChemicalInfo("copper_iodide", Type.SOLID).dust());
+        // Copper Iodide Solution added 10/16/25 - Toda
+        add(new ChemicalInfo("copper_iodide_solution", 0xA1c87eaa, Type.LIQUID).fluid());
+        // Acidified Agar Solution added 10/16/25 - Toda
+        add(new ChemicalInfo("acidified_agar_solution", 0xA1c5cd9d, Type.LIQUID).fluid());
+        // Filtered Agar Solution added 10/16/25 - Toda
+        add(new ChemicalInfo("filtered_agar_solution", 0xA1deddcb, Type.LIQUID).fluid());
+        // Lead Acetate added 10/16/25 - Toda
+        add(new ChemicalInfo("lead_acetate", Type.SOLID).dust());
+        // Impure Ascorbic Acid added 10/16/25 - Toda
+        add(new ChemicalInfo("impure_ascorbic_acid", Type.SOLID).dust());
     }
 
     public static void register(IEventBus eventBus) {

@@ -89,7 +89,12 @@ public class ModFluids {
         add(new FluidInfo.Builder("vinegar_starter", 0xA152362D));
         // Vinegar Starter - Added 06/10/25
         add(new FluidInfo.Builder("thin_ink", 0xA1111111));
-
+        // Chorus Juice - Added 10/16/25
+        add(new FluidInfo.Builder("chorus_juice", 0xA1a900dc));
+        // De-citrated Chorus Juice - Added 10/16/25
+        add(new FluidInfo.Builder("decitrated_chorus_juice", 0xA1420496));
+        // De-leaded De-citrated Chorus Juice - Added 10/16/25
+        add(new FluidInfo.Builder("deleaded_decitrated_chorus_juice", 0xA1280060));
     }
 
     public static List<ItemInfo.Bucket> buckets = new ArrayList<>();
