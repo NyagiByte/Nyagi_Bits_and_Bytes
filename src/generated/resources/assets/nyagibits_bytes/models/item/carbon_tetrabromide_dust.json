@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "nyagibits_bytes:item/chemicals/carbon_tetrabromide_dust"
+  }
+}

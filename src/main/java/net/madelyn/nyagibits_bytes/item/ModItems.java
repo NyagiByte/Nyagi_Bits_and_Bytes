@@ -438,6 +438,10 @@ public class ModItems {
     add(new ItemInfo("chromatography_kit_used", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
     //  Used Chromatography Kit added 09/29/25 - Toda
     add(new ItemInfo("calcinated_agar", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  Copper-Bismuth Crystal added 10/19/25 - Nyagi
+    add(new ItemInfo("copper_bismuth_crystal", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  FASIL Multi-Material Catalyst added 10/19/25 - Nyagi
+    add(new ItemInfo("fasil_multi_material_catalyst", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
 
     //Chemistry
     // Bottle of Anthocyanin added 8/27/23 - Nyagi

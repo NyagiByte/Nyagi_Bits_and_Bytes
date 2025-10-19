@@ -290,6 +290,38 @@ public class ModChemicals {
         add(new ChemicalInfo("lead_acetate", Type.SOLID).dust());
         // Impure Ascorbic Acid added 10/16/25 - Toda
         add(new ChemicalInfo("impure_ascorbic_acid", Type.SOLID).dust());
+        // 1,4-Butynediol added 10/19/25 - Nyagi
+        add(new ChemicalInfo("1_4_butynediol", 0xA1bab72e, Type.LIQUID).fluid());
+        // 1,4-Butanediol added 10/19/25 - Nyagi
+        add(new ChemicalInfo("1_4_butanediol", 0xA196ba2e, Type.LIQUID).fluid());
+        // Sodium Aluminum Hydride added 08/19/25
+        add(new ChemicalInfo("sodium_aluminum_hydride", Type.SOLID).dust());
+        // Lithium Aluminum Hydride added 08/19/25
+        add(new ChemicalInfo("lithium_aluminum_hydride", Type.SOLID).dust());
+        // Lithium Aluminum Hydride Solution added 10/19/25 - Nyagi
+        add(new ChemicalInfo("lithium_aluminum_hydride_solution", 0xA18d4343, Type.LIQUID).fluid());
+        // α-Cresol added 10/19/25 - Nyagi
+        add(new ChemicalInfo("a_cresol", 0xA15436a1, Type.LIQUID).fluid());
+        // DCM added 10/19/25 - Nyagi
+        add(new ChemicalInfo("dcm", 0xA14fb9ae, Type.LIQUID).fluid());
+        // Carbon Tetrachloride added 10/19/25 - Nyagi
+        add(new ChemicalInfo("carbon_tetrachloride", 0xA1a8cac6, Type.LIQUID).fluid());
+        // Aluminum Bromide added 10/19/25
+        add(new ChemicalInfo("aluminum_bromide", Type.SOLID).dust());
+        // Carbon Tetrabromide added 10/19/25
+        add(new ChemicalInfo("carbon_tetrabromide", Type.SOLID).dust());
+        // Bromobenzene added 10/19/25
+        add(new ChemicalInfo("bromobenzene", 0xA1452f2f, Type.LIQUID).fluid());
+        // Phenylmagnesium Bromide added 10/19/25
+        add(new ChemicalInfo("phenylmagnesium_bromide", 0xA1704a44, Type.LIQUID).fluid());
+        // Phenylmagnesium Bromide Solution added 10/19/25
+        add(new ChemicalInfo("phenylmagnesium_bromide_solution", 0xA1945f57, Type.LIQUID).fluid());
+        // Phosphorus Trichloride added 10/19/25
+        add(new ChemicalInfo("phosphorus_trichloride", Type.SOLID).dust());
+        // Triphenylphosphene added 10/19/25
+        add(new ChemicalInfo("triphenylphosphene", Type.SOLID).dust());
+        // Hydroxymethyl Bromide added 10/19/25
+        add(new ChemicalInfo("hydroxymethyl_bromide", Type.SOLID).dust());
     }
 
     public static void register(IEventBus eventBus) {
