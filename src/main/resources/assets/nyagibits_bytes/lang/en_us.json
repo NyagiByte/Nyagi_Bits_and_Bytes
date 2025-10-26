@@ -691,8 +691,8 @@
   "chemical.nyagibits_bytes.phosphorus_trichloride.desc": "Readily reacts with the water in your eyes and lungs to create\nhydrochloric acid and phosphoric acid. Used to produce\nglyphosate based herbicides and conversions of secondary\nalcohols to chlorides.",
   "chemical.nyagibits_bytes.triphenylphosphene.name": "Triphenylphosphene",
   "chemical.nyagibits_bytes.triphenylphosphene.desc": "An industrially useful reagent in organic synthesis as it behaves\nas a ligand, allowing for much more controlled reactions. While\nnot directly used, it can be used alongside various metals\nand recycled",
-  "chemical.nyagibits_bytes.hydroxymethyl_bromide.name": "Hydroxymethyl Bromide",
-  "chemical.nyagibits_bytes.hydroxymethyl_bromide.desc": "Primarily exists as a precursor to other chemicals. Tho I'm\nsure if you look hard enough it can do other things",
+  "chemical.nyagibits_bytes.hydroxymethyl_bromide.name": "4-Hydroxyphenyl Bromide",
+  "chemical.nyagibits_bytes.hydroxymethyl_bromide.desc": "Phenyl Bromides fall under a regulated class of chemicals due\nto their ability to make illicit compounds such as fentanyl",
 
   "item.nyagibits_bytes.stomach": "Stomach",
   "item.nyagibits_bytes.stomach.desc": "This where da food go",
