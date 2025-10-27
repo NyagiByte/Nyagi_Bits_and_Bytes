@@ -1,7 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "nyagibits_bytes:item/datagen/dg_bucket_layer0",
-    "layer1": "nyagibits_bytes:item/datagen/dg_bucket_layer1"
+    "layer0": "nyagibits_bytes:item/buckets/bucket_of_phenylmagnesium_bromide_solution"
   }
 }

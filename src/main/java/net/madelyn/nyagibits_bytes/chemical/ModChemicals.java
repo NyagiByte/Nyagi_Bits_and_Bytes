@@ -322,6 +322,20 @@ public class ModChemicals {
         add(new ChemicalInfo("triphenylphosphene", Type.SOLID).dust());
         // Hydroxymethyl Bromide added 10/19/25
         add(new ChemicalInfo("hydroxymethyl_bromide", Type.SOLID).dust());
+        // Methyl Isobutyl Ketone added 10/26/25
+        add(new ChemicalInfo("methyl_isobutyl_ketone", 0xA1b4e6ff, Type.LIQUID).fluid());
+        // Lithium Amide added 10/19/25
+        add(new ChemicalInfo("lithium_amide", Type.SOLID).dust());
+        // 1-Aminomethyl-3,5-Dimethoxybenzene added 10/26/25
+        add(new ChemicalInfo("1_aminomethyl_3_5_dimethoxybenzene", 0xA172cdc1, Type.LIQUID).fluid());
+        // 1-Aminomethyl-3,5-Dimethoxy-2,5-Cyclohexadiene added 10/26/25
+        add(new ChemicalInfo("1_aminomethyl_3_5_dimethoxy_2_5_cyclohexadiene", 0xA12f8551, Type.LIQUID).fluid());
+        // 1-Aminomethyl-3,5-Cyclohexanedione added 10/26/25
+        add(new ChemicalInfo("1_aminomethyl_3_5_cyclohexanedione", 0xA123561c, Type.LIQUID).fluid());
+        // HCl Solution added 10/26/25
+        add(new ChemicalInfo("hcl_solution", 0xA1414794, Type.LIQUID).fluid());
+        // OPA 1214 added 10/26/25
+        add(new ChemicalInfo("opa_1214", 0xA1382711, Type.LIQUID).fluid());
     }
 
     public static void register(IEventBus eventBus) {
