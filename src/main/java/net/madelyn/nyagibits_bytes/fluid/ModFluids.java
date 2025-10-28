@@ -95,6 +95,182 @@ public class ModFluids {
         add(new FluidInfo.Builder("decitrated_chorus_juice", 0xA1420496));
         // De-leaded De-citrated Chorus Juice - Added 10/16/25
         add(new FluidInfo.Builder("deleaded_decitrated_chorus_juice", 0xA1280060));
+
+        //OPA-Related Contaminated Fluid & Froth
+        // Aluminum Contaminated OPA - Added 10/27/25
+        add(new FluidInfo.Builder("opa_aluminum", 0xA1342d25));
+        // Aluminum-Sourced Froth Layer - Added 10/27/25
+        add(new FluidInfo.Builder("froth_opa_aluminum", 0xA1504732));
+
+        // Scandium Contaminated OPA - Added 10/27/25
+        add(new FluidInfo.Builder("opa_scandium", 0xA1594f20));
+        // Scandium-Sourced Froth Layer - Added 10/27/25
+        add(new FluidInfo.Builder("froth_opa_scandium", 0xA1736d3b));
+
+        // Titanium Contaminated OPA - Added 10/27/25
+        add(new FluidInfo.Builder("opa_titanium", 0xA129232b));
+        // Titanium-Sourced Froth Layer - Added 10/27/25
+        add(new FluidInfo.Builder("froth_opa_titanium", 0xA1554e4d));
+
+        // Vanadium Contaminated OPA - Added 10/27/25
+        add(new FluidInfo.Builder("opa_vanadium", 0xA1332b1f));
+        // Vanadium-Sourced Froth Layer - Added 10/27/25
+        add(new FluidInfo.Builder("froth_opa_vanadium", 0xA1514d3e));
+
+        // Chromium Contaminated OPA - Added 10/27/25
+        add(new FluidInfo.Builder("opa_chromium", 0xA1271e17));
+        // Chromium-Sourced Froth Layer - Added 10/27/25
+        add(new FluidInfo.Builder("froth_opa_chromium", 0xA14f4639));
+
+        // Manganese Contaminated OPA - Added 10/27/25
+        add(new FluidInfo.Builder("opa_manganese", 0xA1392b1c));
+        // Manganese-Sourced Froth Layer - Added 10/27/25
+        add(new FluidInfo.Builder("froth_opa_manganese", 0xA164563d));
+
+        // Iron Contaminated OPA - Added 10/27/25
+        add(new FluidInfo.Builder("opa_iron", 0xA11c150d));
+        // Iron-Sourced Froth Layer - Added 10/27/25
+        add(new FluidInfo.Builder("froth_opa_iron", 0xA13a3427));
+
+        // Cobalt Contaminated OPA - Added 10/27/25
+        add(new FluidInfo.Builder("opa_cobalt", 0xA139325f));
+        // Cobalt-Sourced Froth Layer - Added 10/27/25
+        add(new FluidInfo.Builder("froth_opa_cobalt", 0xA16d6586));
+
+        // Nickel Contaminated OPA - Added 10/27/25
+        add(new FluidInfo.Builder("opa_nickel", 0xA130301c));
+        // Nickel-Sourced Froth Layer - Added 10/27/25
+        add(new FluidInfo.Builder("froth_opa_nickel", 0xA1646243));
+
+        // Copper Contaminated OPA - Added 10/27/25
+        add(new FluidInfo.Builder("opa_copper", 0xA1412d1f));
+        // Copper-Sourced Froth Layer - Added 10/27/25
+        add(new FluidInfo.Builder("froth_opa_copper", 0xA1756046));
+
+        // Zinc Contaminated OPA - Added 10/27/25
+        add(new FluidInfo.Builder("opa_zinc", 0xA14d4432));
+        // Zinc-Sourced Froth Layer - Added 10/27/25
+        add(new FluidInfo.Builder("froth_opa_zinc", 0xA1796f53));
+
+        // Gallium Contaminated OPA - Added 10/27/25
+        add(new FluidInfo.Builder("opa_gallium", 0xA145403f));
+        // Gallium-Sourced Froth Layer - Added 10/27/25
+        add(new FluidInfo.Builder("froth_opa_gallium", 0xA1797367));
+
+        // Yttrium Contaminated OPA - Added 10/27/25
+        add(new FluidInfo.Builder("opa_yttrium", 0xA14a2d40));
+        // Yttrium-Sourced Froth Layer - Added 10/27/25
+        add(new FluidInfo.Builder("froth_opa_yttrium", 0xA17e5f68));
+
+        // Zirconium Contaminated OPA - Added 10/27/25
+        add(new FluidInfo.Builder("opa_zirconium", 0xA1534631));
+        // Zirconium-Sourced Froth Layer - Added 10/27/25
+        add(new FluidInfo.Builder("froth_opa_zirconium", 0xA1877958));
+
+        // Niobium Contaminated OPA - Added 10/27/25
+        add(new FluidInfo.Builder("opa_niobium", 0xA133221e));
+        // Niobium-Sourced Froth Layer - Added 10/27/25
+        add(new FluidInfo.Builder("froth_opa_niobium", 0xA15b4e39));
+
+        // Molybdenum Contaminated OPA - Added 10/27/25
+        add(new FluidInfo.Builder("opa_molybdenum", 0xA1313133));
+        // Molybdenum-Sourced Froth Layer - Added 10/27/25
+        add(new FluidInfo.Builder("froth_opa_molybdenum", 0xA16a675c));
+
+        // Ruthenium Contaminated OPA - Added 10/27/25
+        add(new FluidInfo.Builder("opa_ruthenium", 0xA1322822));
+        // Ruthenium-Sourced Froth Layer - Added 10/27/25
+        add(new FluidInfo.Builder("froth_opa_ruthenium", 0xA16b5e4b));
+
+        // Rhodium Contaminated OPA - Added 10/27/25
+        add(new FluidInfo.Builder("opa_rhodium", 0xA1372e24));
+        // Rhodium-Sourced Froth Layer - Added 10/27/25
+        add(new FluidInfo.Builder("froth_opa_rhodium", 0xA170644d));
+
+        // Palladium Contaminated OPA - Added 10/27/25
+        add(new FluidInfo.Builder("opa_palladium", 0xA1342121));
+        // Palladium-Sourced Froth Layer - Added 10/27/25
+        add(new FluidInfo.Builder("froth_opa_palladium", 0xA16c5749));
+
+        // Silver Contaminated OPA - Added 10/27/25
+        add(new FluidInfo.Builder("opa_silver", 0xA14a4640));
+        // Silver-Sourced Froth Layer - Added 10/27/25
+        add(new FluidInfo.Builder("froth_opa_silver", 0xA1827c69));
+
+        // Cadmium Contaminated OPA - Added 10/27/25
+        add(new FluidInfo.Builder("opa_cadmium", 0xA13e2019));
+        // Cadmium-Sourced Froth Layer - Added 10/27/25
+        add(new FluidInfo.Builder("froth_opa_cadmium", 0xA1775642));
+
+        // Indium Contaminated OPA - Added 10/27/25
+        add(new FluidInfo.Builder("opa_indium", 0xA138322a));
+        // Indium-Sourced Froth Layer - Added 10/27/25
+        add(new FluidInfo.Builder("froth_opa_indium", 0xA1716853));
+
+        // Tin Contaminated OPA - Added 10/27/25
+        add(new FluidInfo.Builder("opa_tin", 0xA1262019));
+        // Tin-Sourced Froth Layer - Added 10/27/25
+        add(new FluidInfo.Builder("froth_opa_tin", 0xA15e5642));
+
+        // Hafnium Contaminated OPA - Added 10/27/25
+        add(new FluidInfo.Builder("opa_hafnium", 0xA1252024));
+        // Hafnium-Sourced Froth Layer - Added 10/27/25
+        add(new FluidInfo.Builder("froth_opa_hafnium", 0xA15e564d));
+
+        // Tantalum Contaminated OPA - Added 10/27/25
+        add(new FluidInfo.Builder("opa_tantalum", 0xA143201a));
+        // Tantalum-Sourced Froth Layer - Added 10/27/25
+        add(new FluidInfo.Builder("froth_opa_tantalum", 0xA17c5642));
+
+        // Tungsten Contaminated OPA - Added 10/27/25
+        add(new FluidInfo.Builder("opa_tungsten", 0xA11e1812));
+        // Tungsten-Sourced Froth Layer - Added 10/27/25
+        add(new FluidInfo.Builder("froth_opa_tungsten", 0xA1564e3b));
+
+        // Rhenium Contaminated OPA - Added 10/27/25
+        add(new FluidInfo.Builder("opa_rhenium", 0xA117120c));
+        // Rhenium-Sourced Froth Layer - Added 10/27/25
+        add(new FluidInfo.Builder("froth_opa_rhenium", 0xA1514832));
+
+        // Osmium Contaminated OPA - Added 10/27/25
+        add(new FluidInfo.Builder("opa_osmium", 0xA13a4148));
+        // Osmium-Sourced Froth Layer - Added 10/27/25
+        add(new FluidInfo.Builder("froth_opa_osmium", 0xA1727771));
+
+        // Iridium Contaminated OPA - Added 10/27/25
+        add(new FluidInfo.Builder("opa_iridium", 0xA125284c));
+        // Iridium-Sourced Froth Layer - Added 10/27/25
+        add(new FluidInfo.Builder("froth_opa_iridium", 0xA15e5e75));
+
+        // Platinum Contaminated OPA - Added 10/27/25
+        add(new FluidInfo.Builder("opa_platinum", 0xA14f4a44));
+        // Platinum-Sourced Froth Layer - Added 10/27/25
+        add(new FluidInfo.Builder("froth_opa_platinum", 0xA188806d));
+
+        // Gold Contaminated OPA - Added 10/27/25
+        add(new FluidInfo.Builder("opa_gold", 0xA14e3e19));
+        // Gold-Sourced Froth Layer - Added 10/27/25
+        add(new FluidInfo.Builder("froth_opa_gold", 0xA1867442));
+
+        // Thallium Contaminated OPA - Added 10/27/25
+        add(new FluidInfo.Builder("opa_thallium", 0xA135251a));
+        // Thallium-Sourced Froth Layer - Added 10/27/25
+        add(new FluidInfo.Builder("froth_opa_thallium", 0xA16d5a43));
+
+        // Lead Contaminated OPA - Added 10/27/25
+        add(new FluidInfo.Builder("opa_lead", 0xA125201f));
+        // Lead-Sourced Froth Layer - Added 10/27/25
+        add(new FluidInfo.Builder("froth_opa_lead", 0xA15d5648));
+
+        // Bismuth Contaminated OPA - Added 10/27/25
+        add(new FluidInfo.Builder("opa_bismuth", 0xA125362c));
+        // Bismuth-Sourced Froth Layer - Added 10/27/25
+        add(new FluidInfo.Builder("froth_opa_bismuth", 0xA15d6c55));
+
+        // Polonium Contaminated OPA - Added 10/27/25
+        add(new FluidInfo.Builder("opa_polonium", 0xA117120c));
+        // Polonium-Sourced Froth Layer - Added 10/27/25
+        add(new FluidInfo.Builder("froth_opa_polonium", 0xA1504834));
     }
 
     public static List<ItemInfo.Bucket> buckets = new ArrayList<>();
