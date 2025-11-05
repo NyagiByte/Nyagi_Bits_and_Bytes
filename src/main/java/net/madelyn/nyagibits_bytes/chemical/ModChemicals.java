@@ -336,6 +336,7 @@ public class ModChemicals {
         add(new ChemicalInfo("hcl_solution", 0xA1414794, Type.LIQUID).fluid());
         // OPA 1214 added 10/26/25
         add(new ChemicalInfo("opa_1214", 0xA1382711, Type.LIQUID).fluid());
+
     }
 
     public static void register(IEventBus eventBus) {

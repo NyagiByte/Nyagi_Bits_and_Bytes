@@ -75,6 +75,14 @@ public class ModCreativeModeTab {
         }
       };
 
+public static final CreativeModeTab NYAGIBITS_BYTES_ELEMENTS =
+        new CreativeModeTab("nyagibits_bytes_tab_fluids") {
+            @Override
+            public ItemStack makeIcon() {
+                return new ItemStack(Utils.fetchItem(Utils.NBNB("sample_dcm")));
+            }
+        };
+
   public static final CreativeModeTab
       NYAGIBITS_BYTES_INCOMPLETE_SEQUENCE_ITEMS =
           new CreativeModeTab("nyagibits_bytes_tab_incomplete_sequence_items") {

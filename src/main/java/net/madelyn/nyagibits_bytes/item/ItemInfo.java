@@ -86,6 +86,27 @@ public class ItemInfo {
         }
     }
 
+    public static class Pure extends ItemInfo {
+        private final int tint;
+        private final String element;
+        public Pure(String id, int tint, String element){
+            super(id, ModItems.Type.CUSTOM_TOOLTIP, Utils.Tab.ELEMENTS);
+            this.tint = tint;
+            this.element = element;
+        }
+
+        public String getElement() {
+            return element;
+        }
+
+        public int getTint(){ return tint; }
+
+        @Override
+        public Item registerItem(){
+            return new PureItem(new Item.Properties().tab(getTab()), tint, element);
+        }
+    }
+
     public static class Tool extends ItemInfo {
         private final RandomSource Random = RandomSource.create();
         private int durability;
