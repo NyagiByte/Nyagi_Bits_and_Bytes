@@ -16,7 +16,7 @@ public class LevitatingItem extends CustomTooltipItem{
     @Override //This makes the item float. Can also have some fiendish fun by using entity.setDeltaMovement()
     public boolean onEntityItemUpdate(ItemStack stack, ItemEntity entity){
 
-        Level level = entity.level;
+        Level level = entity.level();
         Vec3 pos = entity.position();
         if(level.isClientSide){ //We don't want to spawn particles on the server's side.
             float particleChance = Mth.clamp(entity.getItem().getCount()-10, 5, 100) / 64f;

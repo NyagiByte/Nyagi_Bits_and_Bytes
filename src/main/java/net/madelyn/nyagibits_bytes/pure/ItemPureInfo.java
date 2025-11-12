@@ -4,7 +4,7 @@ import net.madelyn.nyagibits_bytes.block.BlockInfo;
 import net.madelyn.nyagibits_bytes.fluid.FluidInfo;
 import net.madelyn.nyagibits_bytes.item.ItemInfo;
 import net.madelyn.nyagibits_bytes.misc.Utils;
-import net.minecraft.world.level.material.Material;
+import net.minecraft.world.level.block.SoundType;
 
 public class ItemPureInfo {
     private final String id;
@@ -30,7 +30,7 @@ public class ItemPureInfo {
         this.nugget = new ItemInfo.Pure("pure_"+this.id+"_nugget", tintColor, "nugget");
         this.ingot = new ItemInfo.Pure("pure_"+this.id+"_ingot", tintColor, "ingot");
 
-        this.block = new BlockInfo("pure_block_of_"+this.id, Material.METAL, 5f, true, Utils.Tab.ELEMENTS);
+        this.block = new BlockInfo("pure_block_of_"+this.id, SoundType.METAL, 5f, true, Utils.Tab.ELEMENTS);
         this.molten = new FluidInfo.Builder("pure_molten_"+this.id, tintColor);
     }
     public String getId(){

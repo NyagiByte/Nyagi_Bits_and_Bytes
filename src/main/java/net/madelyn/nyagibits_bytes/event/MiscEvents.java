@@ -21,6 +21,7 @@ import java.util.Map;
 
 //This is just a place to collect non clientsided events.
 @Mod.EventBusSubscriber
+@SuppressWarnings("deprecation")
 public class MiscEvents {
     //Note: We use strings here because the blocks might not exist yet when this runs.
     protected static final Map<String, String> STRIPPABLES = (new ImmutableMap.Builder<String, String>())

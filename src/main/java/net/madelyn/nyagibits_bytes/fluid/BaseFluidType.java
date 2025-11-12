@@ -5,11 +5,12 @@ import com.mojang.blaze3d.systems.RenderSystem;
 import net.minecraft.client.Camera;
 import net.minecraft.client.multiplayer.ClientLevel;
 import net.minecraft.client.renderer.FogRenderer;
+import net.minecraft.world.phys.Vec3;
 import net.minecraftforge.client.extensions.common.IClientFluidTypeExtensions;
 import net.minecraftforge.fluids.FluidType;
 import net.minecraft.resources.ResourceLocation;
-import com.mojang.math.Vector3f;
 import org.jetbrains.annotations.NotNull;
+import org.joml.Vector3f;
 
 import javax.annotation.Nullable;
 import java.util.function.Consumer;
@@ -19,13 +20,13 @@ public class BaseFluidType extends FluidType {
     private final ResourceLocation flowingTexture;
     private final ResourceLocation overlayTexture;
     private final int tintColor;
-    private final Vector3f fogColor;
+    private final Vec3 fogColor;
 
     public BaseFluidType (final ResourceLocation stillTexture,
                           final ResourceLocation flowingTexture,
                           final ResourceLocation overlayTexture,
                           final int tintColor,
-                          final Vector3f fogColor,
+                          final Vec3 fogColor,
                           final Properties properties){
         super(properties);
         this.stillTexture = stillTexture;
@@ -48,7 +49,7 @@ public class BaseFluidType extends FluidType {
     public ResourceLocation getOverlayTexture() {
         return overlayTexture;
     }
-    public Vector3f getFogColor() {
+    public Vec3 getFogColor() {
         return fogColor;
     }
 
@@ -75,7 +76,7 @@ public class BaseFluidType extends FluidType {
             @Override
             public @NotNull Vector3f modifyFogColor (Camera camera, float partialTick, ClientLevel level,
                                                      int renderDistance, float darkenWorldAmount, Vector3f fluidFogColor) {
-                return fogColor;
+                return fogColor.toVector3f();
             }
             @Override
             public void  modifyFogRender (Camera camera, FogRenderer.FogMode mode, float renderDistance, float partialTick,

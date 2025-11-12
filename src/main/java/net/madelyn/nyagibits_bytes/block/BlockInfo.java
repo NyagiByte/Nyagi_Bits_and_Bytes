@@ -4,18 +4,18 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.RotatedPillarBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.material.Material;
+import net.minecraft.world.level.block.SoundType;
 
 public class BlockInfo {
     private final String id;
-    private final Material material;
+    private final SoundType soundtype;
     private final float strength;
     private final boolean requiresTool;
     private final CreativeModeTab tab;
 
-    public BlockInfo(String id, Material mat, float str, boolean tool, CreativeModeTab tab){
+    public BlockInfo(String id, SoundType soundtype, float str, boolean tool, CreativeModeTab tab){
         this.id = id;
-        this.material = mat;
+        this.soundtype = soundtype;
         this.strength = str;
         this.requiresTool = tool;
         this.tab = tab;
@@ -30,29 +30,27 @@ public class BlockInfo {
     }
 
     public Block createBlock(){
-        BlockBehaviour.Properties props = BlockBehaviour.Properties.of
-                (material)
-                .strength(strength);
+        BlockBehaviour.Properties props = BlockBehaviour.Properties.of()
+                .strength(strength).sound(soundtype);
         if(requiresTool) props = props.requiresCorrectToolForDrops();
         return new Block(props);
     }
     //This is mostly to enable instanceof shenanigans later in loot table datagen.
     public static class Ore extends BlockInfo{
-        public Ore(String id, Material mat, float str, boolean tool, CreativeModeTab tab){
-            super(id, mat, str, tool, tab);
+        public Ore(String id, SoundType soundtype, float str, boolean tool, CreativeModeTab tab){
+            super(id, soundtype, str, tool, tab);
         }
     }
 
     public static class Rotatable extends BlockInfo{
-        public Rotatable(String id, Material mat, float str, boolean tool, CreativeModeTab tab){
-            super(id, mat, str, tool, tab);
+        public Rotatable(String id, SoundType soundtype, float str, boolean tool, CreativeModeTab tab){
+            super(id, soundtype, str, tool, tab);
         }
 
         @Override
         public Block createBlock(){
-            BlockBehaviour.Properties props = BlockBehaviour.Properties.of
-                            (super.material)
-                    .strength(super.strength);
+            BlockBehaviour.Properties props = BlockBehaviour.Properties.of()
+                    .strength(super.strength).sound(super.soundtype);
             if(super.requiresTool) props = props.requiresCorrectToolForDrops();
             return new RotatedPillarBlock(props);
         }

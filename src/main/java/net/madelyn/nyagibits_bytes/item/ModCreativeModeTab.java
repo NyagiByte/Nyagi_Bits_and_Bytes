@@ -14,7 +14,7 @@ public class ModCreativeModeTab {
   public static final CreativeModeTab NYAGIBITS_BYTES_ITEMS =
       new CreativeModeTab("nyagibits_bytes_tab_items") {
         @Override
-        public ItemStack makeIcon() {
+        public ItemStack getIconItem() {
           return new ItemStack(Utils.fetchItem(Utils.NBNB("livisite_alloy")));
         }
       };

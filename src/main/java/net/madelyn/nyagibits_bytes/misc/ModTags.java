@@ -17,8 +17,5 @@ public class ModTags {
             return BlockTags.create(Utils.NBNB(name));
         }
 
-        private static TagKey<Block> forgeTag(String name) {
-            return BlockTags.create(new ResourceLocation("forge", name));
-        }
     }
 }

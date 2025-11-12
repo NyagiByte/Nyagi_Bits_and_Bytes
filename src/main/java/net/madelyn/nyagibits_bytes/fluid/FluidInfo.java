@@ -1,6 +1,5 @@
 package net.madelyn.nyagibits_bytes.fluid;
 
-import com.mojang.math.Vector3f;
 import net.madelyn.nyagibits_bytes.item.ItemInfo;
 import net.madelyn.nyagibits_bytes.misc.Utils;
 import net.minecraft.resources.ResourceLocation;
@@ -11,6 +10,7 @@ import net.minecraft.world.level.block.LiquidBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.FlowingFluid;
 import net.minecraft.world.level.material.Fluid;
+import net.minecraft.world.phys.Vec3;
 import net.minecraftforge.common.SoundAction;
 import net.minecraftforge.fluids.FluidType;
 import net.minecraftforge.fluids.ForgeFlowingFluid;
@@ -97,13 +97,13 @@ public class FluidInfo {
         private final String flowingId;
         private final String fluidTypeId;
         //These must be present, but might not be called, so they get default values.
-        private ResourceLocation stillTexture = new ResourceLocation("block/water_still");
-        private ResourceLocation flowingTexture = new ResourceLocation("block/water_flow");
+        private ResourceLocation stillTexture = ResourceLocation.parse("block/water_still");
+        private ResourceLocation flowingTexture = ResourceLocation.parse("block/water_flow");
         //This, i don't think it works. It's set to a default value to not fire missing asset warnings.
         //It can still be overwritten with the builder method.
         private ResourceLocation overlayTexture;
         //No one ever touched this. It can still be overwritten
-        private Vector3f fogColor = new Vector3f(1f / 255f, 1f / 255f, 1f/255f);
+        private Vec3 fogColor = new Vec3(1f / 255f, 1f / 255f, 1f/255f);
         //Fluid properties and fluid type properties defaults.
         //Some of these might be a bit whack, especially density and viscosity, TODO: re-evaluate default values
         //If access to other properties is needed, use the old consumer methods for fluid props and fluid type props.
@@ -126,7 +126,7 @@ public class FluidInfo {
             this.sourceId = id+"_fluid";
             this.flowingId = "flowing_"+id;
             this.fluidTypeId = sourceId;
-            this.overlayTexture = new ResourceLocation("misc/underwater");
+            this.overlayTexture = ResourceLocation.parse("misc/underwater");
             blockSupplier = () -> (LiquidBlock) Utils.fetchBlock((Utils.NBNB(id+"_block")));
             bucketSupplier = () -> Utils.fetchItem(Utils.NBNB("bucket_of_"+id));
             //The bare minimum to create the properties instance, the rest can be added down the line.
@@ -156,7 +156,7 @@ public class FluidInfo {
             this.overlayTexture = tex;
             return this;
         }
-        public Builder setFogColor(Vector3f fog){
+        public Builder setFogColor(Vec3 fog){
             this.fogColor = fog;
             return this;
         }
