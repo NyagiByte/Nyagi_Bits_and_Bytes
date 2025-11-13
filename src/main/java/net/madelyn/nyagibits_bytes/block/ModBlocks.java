@@ -2,6 +2,7 @@ package net.madelyn.nyagibits_bytes.block;
 
 import net.madelyn.nyagibits_bytes.NyagiBits_Bytes;
 import net.madelyn.nyagibits_bytes.item.ModItems;
+import net.madelyn.nyagibits_bytes.misc.Utils;
 import net.madelyn.nyagibits_bytes.misc.Utils.Tab;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -161,13 +162,18 @@ public class ModBlocks {
     //--------------------------------------------------------------------------------------
     // DO NOT TOUCH BELOW
     //--------------------------------------------------------------------------------------
-    private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
+    private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block, Utils.Tab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name,block);
         registerBlockItem(name, toReturn, tab);
         return toReturn;
     }
-    private static <T extends Block> RegistryObject<Item> registerBlockItem(String name, RegistryObject<T> block, CreativeModeTab tab) {
-        return ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
+    private static <T extends Block> RegistryObject<Item> registerBlockItem(String name, RegistryObject<T> block, Utils.Tab tab) {
+
+        return ModItems.ITEMS.register(name, () -> {
+            BlockItem item = new BlockItem(block.get(), new Item.Properties());
+            Utils.CREATIVE_CACHE.get(tab).add(item);
+            return item;
+        });
     }
 
     //--------------------------------------------------------------------------------------

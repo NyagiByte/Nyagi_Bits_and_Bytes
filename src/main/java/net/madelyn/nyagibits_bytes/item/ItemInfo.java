@@ -15,21 +15,22 @@ import net.minecraft.world.level.material.Fluid;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 import java.util.function.Supplier;
 
 public class ItemInfo {
     private final String id;
     private final ModItems.Type type;
-    private final CreativeModeTab tab;
+    private final Utils.Tab tab;
     private String parentModel = "";
 
-    public ItemInfo(String id, ModItems.Type type, CreativeModeTab tab){
+    public ItemInfo(String id, ModItems.Type type, Utils.Tab tab){
         this.id = id;
         this.type = type;
         this.tab = tab;
     }
 
-    public ItemInfo(String id, ModItems.Type type, CreativeModeTab tab, String parentModel){
+    public ItemInfo(String id, ModItems.Type type, Utils.Tab tab, String parentModel){
         this.id = id;
         this.type = type;
         this.tab = tab;
@@ -42,7 +43,7 @@ public class ItemInfo {
     public ModItems.Type getType(){
         return type;
     }
-    public CreativeModeTab getTab(){
+    public Utils.Tab getTab(){
         return tab;
     }
 
@@ -58,19 +59,22 @@ public class ItemInfo {
 
 
     public Item registerItem(){
+        Item ret = null;
         switch (type){
-            case CUSTOM_TOOLTIP -> { return new CustomTooltipItem(new Item.Properties().tab(tab)); }
-            case CUSTOM_ORE -> { return new CustomOreItem(new Item.Properties().tab(tab)); }
-            case LEVITATING -> { return new LevitatingItem(new Item.Properties().tab(tab)); }
-            default -> {return new Item(new Item.Properties().tab(tab));}
+            case CUSTOM_TOOLTIP -> { ret = new CustomTooltipItem(new Item.Properties()); }
+            case CUSTOM_ORE -> { ret = new CustomOreItem(new Item.Properties()); }
+            case LEVITATING -> { ret = new LevitatingItem(new Item.Properties()); }
+            default -> {ret = new Item(new Item.Properties());}
             }
+            Utils.CREATIVE_CACHE.get(tab).add(ret);
+            return ret;
     }
 
     public static class Chem extends ItemInfo {
         private final int tint;
         private final ChemicalInfo.Type type;
         private final String chemical;
-        public Chem(String id, CreativeModeTab tab, int tint, ChemicalInfo.Type type, String chemical){
+        public Chem(String id, Utils.Tab tab, int tint, ChemicalInfo.Type type, String chemical){
             super(id, ModItems.Type.CUSTOM_TOOLTIP, Utils.Tab.CHEMICALS);
             this.tint = tint;
             this.type = type;
@@ -82,7 +86,9 @@ public class ItemInfo {
 
         @Override
         public Item registerItem(){
-            return new ChemicalItem(new Item.Properties().tab(getTab()), tint, chemical);
+            Item ret = new ChemicalItem(new Item.Properties(), tint, chemical);
+            Utils.CREATIVE_CACHE.get(getTab()).add(ret);
+            return ret;
         }
     }
 
@@ -103,7 +109,9 @@ public class ItemInfo {
 
         @Override
         public Item registerItem(){
-            return new PureItem(new Item.Properties().tab(getTab()), tint, element);
+            Item ret = new PureItem(new Item.Properties(), tint, element);
+            Utils.CREATIVE_CACHE.get(getTab()).add(ret);
+            return ret;
         }
     }
 
@@ -111,16 +119,16 @@ public class ItemInfo {
         private final RandomSource Random = RandomSource.create();
         private int durability;
 
-        public Tool(String id, CreativeModeTab tab, int durability){
+        public Tool(String id, Utils.Tab tab, int durability){
             super(id, ModItems.Type.ITEM, tab);
             this.durability = durability;
         }
         @Override
         public Item registerItem(){
-            return new CustomToolItem( new Item.Properties()
-                    .tab(getTab())
+            Item ret = new CustomToolItem( new Item.Properties()
                     .durability(durability));
-
+            Utils.CREATIVE_CACHE.get(getTab()).add(ret);
+            return ret;
         }
     }
 
@@ -149,13 +157,14 @@ public class ItemInfo {
         //This should get called even in the context of the list of Item Info. Go back and interface some stuff if not.
         @Override
         public Item registerItem(){
-            return new CustomBucketItem(fluid,
+            Item ret = new CustomBucketItem(fluid,
                     new Item.Properties()
-                            .tab(Utils.Tab.FLUIDS)
                             .craftRemainder(Items.BUCKET)
                             .stacksTo(1),
                     chemical
             );
+            Utils.CREATIVE_CACHE.get(getTab()).add(ret);
+            return ret;
         }
 
     }
@@ -193,7 +202,9 @@ public class ItemInfo {
 
         @Override
         public Item registerItem(){
-            return new CustomCurioItem(new Item.Properties().tab(getTab()), modifiers, effects, flags);
+            Item ret = new CustomCurioItem(new Item.Properties(), modifiers, effects, flags);
+            Utils.CREATIVE_CACHE.get(getTab()).add(ret);
+            return ret;
         }
     }
 

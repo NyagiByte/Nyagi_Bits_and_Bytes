@@ -24,10 +24,10 @@ public class ModFluids {
 
 
     //These are just some commonly used vanilla resourcelocations.
-    public static final ResourceLocation WATER_STILL_RL = new ResourceLocation("block/water_still");
-    public static final ResourceLocation WATER_FLOWING_RL = new ResourceLocation("block/water_flow");
-    public static final ResourceLocation LAVA_STILL_RL = new ResourceLocation("block/lava_still");
-    public static final ResourceLocation LAVA_FLOWING_RL = new ResourceLocation("block/lava_flow");
+    public static final ResourceLocation WATER_STILL_RL = ResourceLocation.parse("block/water_still");
+    public static final ResourceLocation WATER_FLOWING_RL = ResourceLocation.parse("block/water_flow");
+    public static final ResourceLocation LAVA_STILL_RL =  ResourceLocation.parse("block/lava_still");
+    public static final ResourceLocation LAVA_FLOWING_RL = ResourceLocation.parse("block/lava_flow");
 
     /*
     Each FluidInfo.Builder creates everything necessary to register one fluid

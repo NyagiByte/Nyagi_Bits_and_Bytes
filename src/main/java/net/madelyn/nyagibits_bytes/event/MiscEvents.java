@@ -5,6 +5,7 @@ import net.madelyn.nyagibits_bytes.NyagiBits_Bytes;
 import net.madelyn.nyagibits_bytes.item.custom.CustomCurioItem;
 import net.madelyn.nyagibits_bytes.misc.Utils;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.enchantment.EnchantmentHelper;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraftforge.common.ToolActions;
@@ -21,7 +22,6 @@ import java.util.Map;
 
 //This is just a place to collect non clientsided events.
 @Mod.EventBusSubscriber
-@SuppressWarnings("deprecation")
 public class MiscEvents {
     //Note: We use strings here because the blocks might not exist yet when this runs.
     protected static final Map<String, String> STRIPPABLES = (new ImmutableMap.Builder<String, String>())
@@ -42,14 +42,19 @@ public class MiscEvents {
         }
     }
 
+
     @SubscribeEvent //Apply the aqua affinity curio property
     public static void aquaAffinityFlagCheck(PlayerEvent.BreakSpeed e){
         if(!e.getEntity().isUnderWater()) return; //If the player is not underwater, abort.
         if(EnchantmentHelper.hasAquaAffinity(e.getEntity())) return; //If the player already has aqua affinity, abort.
         //This feels sinful.
-        List<SlotResult> curios = CuriosApi.getCuriosHelper().findCurios(e.getEntity(), stack -> stack.getItem() instanceof CustomCurioItem);
-        for(SlotResult slot : curios) {
-            CustomCurioItem curio = (CustomCurioItem) slot.stack().getItem();
+        //List<SlotResult> curios = CuriosApi.getCuriosHelper().findCurios(e.getEntity(), stack -> stack.getItem() instanceof CustomCurioItem);
+        List<ItemStack> curios = CuriosApi.getCuriosInventory(e.getEntity())
+                .map(i -> i.findCurios(c -> c.getItem() instanceof CustomCurioItem)).get()
+                .stream().map(SlotResult::stack).toList();
+
+        for(ItemStack slot : curios) {
+            CustomCurioItem curio = (CustomCurioItem) slot.getItem();
             if(curio.getCurioFlags().contains(CustomCurioItem.CurioFlags.AQUA_AFFINITY)){
                 e.setNewSpeed(e.getOriginalSpeed()*5); //The game divides the breaking speed by 5 while underwater unless aqua affinity is present.
                 break; //We stop at the first one we find that passes the check.

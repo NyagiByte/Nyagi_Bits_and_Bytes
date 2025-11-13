@@ -2,6 +2,9 @@ package net.madelyn.nyagibits_bytes.datagen;
 
 import net.madelyn.nyagibits_bytes.NyagiBits_Bytes;
 import net.minecraft.data.DataGenerator;
+import net.minecraft.data.loot.LootTableProvider;
+import net.minecraft.world.level.storage.loot.parameters.LootContextParamSet;
+import net.minecraft.world.level.storage.loot.parameters.LootContextParamSets;
 import net.minecraftforge.data.event.GatherDataEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -9,6 +12,9 @@ import net.minecraftforge.fml.common.Mod;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.List;
 import java.util.Map;
 
 @Mod.EventBusSubscriber(modid = NyagiBits_Bytes.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -27,7 +33,15 @@ public class DatagenEntry {
             generator.addProvider(true, new LangDatagen(generator, NyagiBits_Bytes.MOD_ID, "en_us"));
         }
         if(event.includeServer()){
-            generator.addProvider(true, new LootTableDatagen(generator, event.getExistingFileHelper()));
+            generator.addProvider(true, new LootTableProvider(
+                    generator.getPackOutput(),
+                    Collections.emptySet(),
+                    List.of(new LootTableProvider.SubProviderEntry(
+                            () -> new BlockLootTableDatagen(event.getExistingFileHelper()),
+                            LootContextParamSets.BLOCK
+                    ))
+            ));
+            // generator.addProvider(true, new LootTableDatagen(generator, event.getExistingFileHelper()));
         }
     }
 

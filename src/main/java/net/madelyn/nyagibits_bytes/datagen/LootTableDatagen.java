@@ -1,5 +1,5 @@
 package net.madelyn.nyagibits_bytes.datagen;
-
+/*
 import com.mojang.datafixers.util.Pair;
 import net.madelyn.nyagibits_bytes.block.BlockInfo;
 import net.madelyn.nyagibits_bytes.block.ModBlocks;
@@ -36,7 +36,7 @@ public class LootTableDatagen extends LootTableProvider {
     private ExistingFileHelper existingFileHelper = null;
 
     public LootTableDatagen(DataGenerator generator, ExistingFileHelper helper) {
-        super(generator);
+        super(generator.getPackOutput());
         this.existingFileHelper = helper;
     }
 
@@ -119,3 +119,4 @@ public class LootTableDatagen extends LootTableProvider {
     }
 
 }
+*/

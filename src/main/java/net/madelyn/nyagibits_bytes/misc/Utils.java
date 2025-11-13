@@ -17,13 +17,26 @@ import net.minecraftforge.fluids.FluidType;
 import net.minecraftforge.registries.ForgeRegistries;
 import org.slf4j.Logger;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 public class Utils {
 
     private static final Logger LOGGER = LogUtils.getLogger();
 
+    public static Map<Tab, List<Item>> CREATIVE_CACHE = new HashMap<>();
+
+    static { //Init the creative tab cache
+        for(Tab tab : Tab.values()){
+            CREATIVE_CACHE.put(tab, new ArrayList<>());
+        }
+    }
+
     //Because i was getting tired of using the full thing.
     public static ResourceLocation NBNB(String s){
-        return new ResourceLocation(NyagiBits_Bytes.MOD_ID, s);
+        return ResourceLocation.tryBuild(NyagiBits_Bytes.MOD_ID, s);
     }
 
     //The following methods call ForgeRegistries to fetch something and return a fallback entry if nothing is found
@@ -64,18 +77,18 @@ public class Utils {
         return type;
     }
 
-    //This is just a list of shorthands to make the lists cleaner.
-    public static class Tab{
-        public static CreativeModeTab ITEMS = ModCreativeModeTab.NYAGIBITS_BYTES_ITEMS;
-        public static CreativeModeTab BLOCKS = ModCreativeModeTab.NYAGIBITS_BYTES_BLOCKS;
-        public static CreativeModeTab SCIENCE = ModCreativeModeTab.NYAGIBITS_BYTES_SCIENCE;
-        public static CreativeModeTab SCHEMATICS = ModCreativeModeTab.NYAGIBITS_BYTES_SCHEMATICS;
-        public static CreativeModeTab SEQUENCE = ModCreativeModeTab.NYAGIBITS_BYTES_INCOMPLETE_SEQUENCE_ITEMS;
-        public static CreativeModeTab FLUIDS = ModCreativeModeTab.NYAGIBITS_BYTES_FLUIDS;
-        public static CreativeModeTab MINERALS = ModCreativeModeTab.NYAGIBITS_BYTES_MINERALS;
-        public static CreativeModeTab BIOLOGY = ModCreativeModeTab.NYAGIBITS_BYTES_BIOLOGY;
-        public static CreativeModeTab CHEMICALS = ModCreativeModeTab.NYAGIBITS_BYTES_CHEMICALS;
-        public static CreativeModeTab ELEMENTS = ModCreativeModeTab.NYAGIBITS_BYTES_ELEMENTS;
+    //This is to cache data for creative tab registry
+    public enum Tab{
+        ITEMS,
+        BLOCKS,
+        SCIENCE,
+        SCHEMATICS,
+        SEQUENCE,
+        FLUIDS,
+        MINERALS,
+        BIOLOGY,
+        CHEMICALS,
+        ELEMENTS
     }
 
     //This is a helper class to hold the data needed to apply one curio attribute modifier

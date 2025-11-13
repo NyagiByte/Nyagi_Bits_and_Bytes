@@ -19,7 +19,7 @@ public class LangDatagen extends LanguageProvider {
     private final static Gson gson = new Gson();
 
     public LangDatagen(DataGenerator gen, String modid, String locale) {
-        super(gen, modid, locale);
+        super(gen.getPackOutput(), modid, locale);
     }
 
     @Override

@@ -29,7 +29,7 @@ public class BlockModelDatagen extends BlockModelProvider {
     private static final String PATH = "../src/main/resources/assets/nyagibits_bytes/";
 
     public BlockModelDatagen(DataGenerator generator, ExistingFileHelper helper){
-        super(generator, NyagiBits_Bytes.MOD_ID, helper);
+        super(generator.getPackOutput(), NyagiBits_Bytes.MOD_ID, helper);
         DatagenEntry.scanAssets(Path.of(PATH + "textures/block"), TEXTURES, ".png");
         DatagenEntry.scanAssets(Path.of(PATH + "models/block/"), MODELS, ".json");
     }

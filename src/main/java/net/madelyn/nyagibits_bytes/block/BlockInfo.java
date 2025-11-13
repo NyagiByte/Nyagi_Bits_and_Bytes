@@ -1,5 +1,6 @@
 package net.madelyn.nyagibits_bytes.block;
 
+import net.madelyn.nyagibits_bytes.misc.Utils;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.RotatedPillarBlock;
@@ -11,9 +12,9 @@ public class BlockInfo {
     private final SoundType soundtype;
     private final float strength;
     private final boolean requiresTool;
-    private final CreativeModeTab tab;
+    private final Utils.Tab tab;
 
-    public BlockInfo(String id, SoundType soundtype, float str, boolean tool, CreativeModeTab tab){
+    public BlockInfo(String id, SoundType soundtype, float str, boolean tool, Utils.Tab tab){
         this.id = id;
         this.soundtype = soundtype;
         this.strength = str;
@@ -25,7 +26,7 @@ public class BlockInfo {
         return id;
     }
 
-    public CreativeModeTab getTab(){
+    public Utils.Tab getTab(){
         return tab;
     }
 
@@ -37,13 +38,13 @@ public class BlockInfo {
     }
     //This is mostly to enable instanceof shenanigans later in loot table datagen.
     public static class Ore extends BlockInfo{
-        public Ore(String id, SoundType soundtype, float str, boolean tool, CreativeModeTab tab){
+        public Ore(String id, SoundType soundtype, float str, boolean tool, Utils.Tab tab){
             super(id, soundtype, str, tool, tab);
         }
     }
 
     public static class Rotatable extends BlockInfo{
-        public Rotatable(String id, SoundType soundtype, float str, boolean tool, CreativeModeTab tab){
+        public Rotatable(String id, SoundType soundtype, float str, boolean tool, Utils.Tab tab){
             super(id, soundtype, str, tool, tab);
         }
 

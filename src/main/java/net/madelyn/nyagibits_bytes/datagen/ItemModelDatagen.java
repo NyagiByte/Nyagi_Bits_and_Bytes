@@ -35,7 +35,7 @@ public class ItemModelDatagen extends ItemModelProvider {
     private static final String PATH = "../src/main/resources/assets/nyagibits_bytes/";
 
     public ItemModelDatagen(DataGenerator gen, ExistingFileHelper helper){
-        super(gen, NyagiBits_Bytes.MOD_ID, helper);
+        super(gen.getPackOutput(), NyagiBits_Bytes.MOD_ID, helper);
         //Scan the item textures and item folders and index where each file is.
         DatagenEntry.scanAssets(Path.of(PATH + "textures/item"), TEXTURES, ".png");
         DatagenEntry.scanAssets(Path.of(PATH + "models/item/"), MODELS, ".json");

@@ -19,7 +19,7 @@ public class BlockstateDatagen extends BlockStateProvider {
     private ExistingFileHelper existingFileHelper = null;
 
     public BlockstateDatagen(DataGenerator generator, ExistingFileHelper helper){
-        super(generator, NyagiBits_Bytes.MOD_ID, helper);
+        super(generator.getPackOutput(), NyagiBits_Bytes.MOD_ID, helper);
         this.existingFileHelper = helper;
     }
     //For the record, i'm reasonably sure this is not the correct way to do it.
