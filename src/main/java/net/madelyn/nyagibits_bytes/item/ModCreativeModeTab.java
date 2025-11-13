@@ -22,7 +22,6 @@ public class ModCreativeModeTab {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, NyagiBits_Bytes.MOD_ID);
 
     public static void registerCreativeTab(String id, ResourceLocation icon, Utils.Tab tab){
-        if(Utils.CREATIVE_CACHE.get(tab).isEmpty()) return; //Registering a tab with no items within will actually just leave a hole in the tabs.
         RegistryObject<CreativeModeTab> creativeTab =
                 TABS.register("nyagibits_bytes_tab_"+id, () -> CreativeModeTab.builder()
                         .icon(() -> new ItemStack(Utils.fetchItem(icon)))
@@ -41,7 +40,8 @@ public class ModCreativeModeTab {
         registerCreativeTab("biology", Utils.NBNB("stomach"), Utils.Tab.BIOLOGY);
         registerCreativeTab("chemicals", Utils.NBNB("sample_oleum"), Utils.Tab.CHEMICALS);
         registerCreativeTab("fluids", Utils.NBNB("bucket_of_hydrocarbon_tar"), Utils.Tab.FLUIDS);
-        registerCreativeTab("elements", Utils.NBNB("sample_dcm"), Utils.Tab.ELEMENTS);
+        //NOTE: UNCOMMENT WHEN ACTUALLY ADDING STUFF
+        //registerCreativeTab("elements", Utils.NBNB("sample_dcm"), Utils.Tab.ELEMENTS);
         registerCreativeTab("incomplete_sequence_items", Utils.NBNB("incomplete_controller"), Utils.Tab.SEQUENCE);
     }
 

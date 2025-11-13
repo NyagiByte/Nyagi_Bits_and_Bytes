@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
-  "loader": "forge:separate-perspective",
+  "loader": "forge:separate_transforms",
   "base": {
     "parent": "nyagibits_bytes:item/livisite_alloy_ground"
   },
