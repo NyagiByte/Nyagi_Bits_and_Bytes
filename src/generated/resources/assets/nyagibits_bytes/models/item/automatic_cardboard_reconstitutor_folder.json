@@ -1,0 +1,12 @@
+{
+  "parent": "nyagibits_bytes:item/modeled_items/automatic_cardboard_reconstitutor_folder/automatic_cardboard_reconstitutor_folder",
+  "textures": {
+    "10": "nyagibits_bytes:item/modeled_items/automatic_cardboard_reconstitutor_folder/saw_blade",
+    "5": "nyagibits_bytes:item/modeled_items/automatic_cardboard_reconstitutor_folder/mini_piston",
+    "6": "nyagibits_bytes:item/modeled_items/automatic_cardboard_reconstitutor_folder/supports",
+    "7": "nyagibits_bytes:item/modeled_items/automatic_cardboard_reconstitutor_folder/base",
+    "8": "nyagibits_bytes:item/modeled_items/automatic_cardboard_reconstitutor_folder/arm",
+    "9": "nyagibits_bytes:item/modeled_items/automatic_cardboard_reconstitutor_folder/mini_crafter",
+    "particle": "nyagibits_bytes:item/modeled_items/automatic_cardboard_reconstitutor_folder/base"
+  }
+}
