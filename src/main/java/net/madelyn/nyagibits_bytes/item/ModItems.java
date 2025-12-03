@@ -444,6 +444,10 @@ public class ModItems {
     add(new ItemInfo("fasil_multi_material_catalyst", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
     //  Palladium Catalyst-Doped Exchange Resin added 10/26/25 - Nyagi
     add(new ItemInfo("palladium_catalyst_doped_exchange_resin", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  Automatic Cardboard Reconstitutor & Folder added 12/2/25 - Nyagi
+    add(new ItemInfo("automatic_cardboard_reconstitutor_folder", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  Semi Automatic Round Labeling Machine added 12/2/25 - Nyagi
+    add(new ItemInfo("semi_automatic_round_labeling_machine", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
 
     //Chemistry
     // Bottle of Anthocyanin added 8/27/23 - Nyagi

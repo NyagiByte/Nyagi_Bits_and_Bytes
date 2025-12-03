@@ -1,0 +1,11 @@
+{
+  "parent": "nyagibits_bytes:item/modeled_items/semi_automatic_round_labeling_machine/semi_automatic_round_labeling_machine",
+  "textures": {
+    "0": "nyagibits_bytes:item/science/pen",
+    "1": "nyagibits_bytes:item/modeled_items/semi_automatic_round_labeling_machine/paper_roll",
+    "2": "nyagibits_bytes:item/modeled_items/semi_automatic_round_labeling_machine/mini_observer",
+    "3": "nyagibits_bytes:item/modeled_items/semi_automatic_round_labeling_machine/sarl_base",
+    "4": "nyagibits_bytes:item/modeled_items/semi_automatic_round_labeling_machine/sarl_frame",
+    "particle": "nyagibits_bytes:item/science/pen"
+  }
+}

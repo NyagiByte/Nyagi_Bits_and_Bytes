@@ -1,4 +1,4 @@
-// 1.19.2	2025-10-27T21:18:34.9423599	Item Models: nyagibits_bytes
+// 1.19.2	2025-12-02T20:34:59.8209135	Item Models: nyagibits_bytes
 f46f3ad7084615037f94f72c8a2e36f9d49a3814 assets/nyagibits_bytes/models/item/1_4_dimethoxybenzene_dust.json
 943e7c163efff69fd7b3eef7ec4178f28ae343e6 assets/nyagibits_bytes/models/item/2d_textures.json
 a1570e6fb1739636dbe8e54f331e6b1fb92aab30 assets/nyagibits_bytes/models/item/2lbxyud1od.json
@@ -27,6 +27,7 @@ b9b6c8b81b8f89f6016df030411c687fbe0cba0e assets/nyagibits_bytes/models/item/allu
 467c163c0bd182074a6ce6fceb2207cd01fee490 assets/nyagibits_bytes/models/item/aquamarine_dust.json
 47fc69280208286190797d0d9d89d118f23ee5d6 assets/nyagibits_bytes/models/item/ascorbic_acid_dust.json
 4c24976f19538924a8b3f57ba5ef3dfc8bb93c2d assets/nyagibits_bytes/models/item/ash.json
+9bc2866520bd90b2d29bfb327bb08472e2d19ce8 assets/nyagibits_bytes/models/item/automatic_cardboard_reconstitutor_folder.json
 a3ceb39d081d08db6fef781d9242ecd8f2d1414f assets/nyagibits_bytes/models/item/ball_bearing.json
 c07fb4d57523f6f298873d15957c59920d0bde76 assets/nyagibits_bytes/models/item/basic_arcana_core.json
 87dbf97e54890e83e181c78537aa9278fc956b01 assets/nyagibits_bytes/models/item/basic_composite_material.json
@@ -951,6 +952,7 @@ b1c1bb6b3302f259a55dbd3b02314e83e358f7ce assets/nyagibits_bytes/models/item/samp
 dcd26f92506fe292b1155c4c65c49a3f6c7cefe4 assets/nyagibits_bytes/models/item/scrap_meat.json
 45ba1310efeed05daae1c52b8a1ca615d8820c0c assets/nyagibits_bytes/models/item/sealant.json
 f93ecee1ad91a02b62db4098343c2392ec68117b assets/nyagibits_bytes/models/item/sealed_pouch.json
+2ae2b6b85c29e4e28e88f7bea041d27c9e024a27 assets/nyagibits_bytes/models/item/semi_automatic_round_labeling_machine.json
 15698e305a543837216f112465f3573a8a56f3d9 assets/nyagibits_bytes/models/item/semi_organic_substrate.json
 c630cc5ec84cfd1131c1d5c4fb16ef52cda4c5b3 assets/nyagibits_bytes/models/item/shadow_steel.json
 12ce863f9d70c86ed88b5fe79245450df4ef8b13 assets/nyagibits_bytes/models/item/single_use_mana_ablatives_demonstration.json
