@@ -1740,6 +1740,7 @@
   "item.nyagibits_bytes.incomplete_energy_acceptor": "Incomplete Energy Acceptor",
   "item.nyagibits_bytes.incomplete_me_fluid_cell_housing": "Incomplete ME Fluid Cell Housing",
   "item.nyagibits_bytes.incomplete_energy_cell": "Incomplete ME Energy Cell",
+  "item.nyagibits_bytes.incomplete_resonance_generator": "Incomplete Resonance Generator",
 
   "item.nyagibits_bytes.incomplete_logic_dud": "Incomplete Logic Dud",
   "item.nyagibits_bytes.incomplete_calculation_dud": "Incomplete Calculation Dud",

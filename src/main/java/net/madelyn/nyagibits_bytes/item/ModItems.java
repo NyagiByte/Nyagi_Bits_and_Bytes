@@ -1342,6 +1342,8 @@ public class ModItems {
     add(new ItemInfo("incomplete_energy_acceptor", Type.ITEM, Tab.SEQUENCE, "incomplete_ae2_assembly"));
     // Incomplete Energy Cell added 6/25/24 - Nyagi
     add(new ItemInfo("incomplete_energy_cell", Type.ITEM, Tab.SEQUENCE, "incomplete_ae2_assembly"));
+    // Incomplete Resonance Generator added 12/04/25 - Nyagi
+      add(new ItemInfo("incomplete_resonance_generator", Type.ITEM, Tab.SEQUENCE, "incomplete_ae2_assembly"));
     // Incomplete Logic Dud added 2/21/24 - Nyagi
     add(new ItemInfo("incomplete_logic_dud", Type.ITEM, Tab.SEQUENCE));
     // Incomplete Calculation Dud added 2/21/24 - Nyagi

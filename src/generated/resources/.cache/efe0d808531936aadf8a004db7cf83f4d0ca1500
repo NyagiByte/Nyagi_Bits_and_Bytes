@@ -1,4 +1,4 @@
-// 1.20.1	2025-12-03T11:25:32.4056933	Item Models: nyagibits_bytes
+// 1.20.1	2025-12-04T12:39:01.9514809	Item Models: nyagibits_bytes
 f46f3ad7084615037f94f72c8a2e36f9d49a3814 assets/nyagibits_bytes/models/item/1_4_dimethoxybenzene_dust.json
 943e7c163efff69fd7b3eef7ec4178f28ae343e6 assets/nyagibits_bytes/models/item/2d_textures.json
 a1570e6fb1739636dbe8e54f331e6b1fb92aab30 assets/nyagibits_bytes/models/item/2lbxyud1od.json
@@ -499,6 +499,7 @@ d8f0b144b38161d3bc3f8d6f216a37e37e77aab8 assets/nyagibits_bytes/models/item/inco
 207f173c342d78e1b460b192361e0bb7c2add1bb assets/nyagibits_bytes/models/item/incomplete_raw_rutilated_quartz_polish.json
 2562e4341fc55d347a0a0d0a050bcc42eb2c6dff assets/nyagibits_bytes/models/item/incomplete_raw_spinel_polish.json
 ac0f1f19921161d32c29fa4e39389a12c225dece assets/nyagibits_bytes/models/item/incomplete_raw_turquoise_polish.json
+6f5b60bfecbef87fafad388409d73f47e0d90e0e assets/nyagibits_bytes/models/item/incomplete_resonance_generator.json
 771ace153a404cca9c517ef475f0e731652d3562 assets/nyagibits_bytes/models/item/incomplete_skystone_shielding.json
 771ace153a404cca9c517ef475f0e731652d3562 assets/nyagibits_bytes/models/item/incomplete_skystone_shielding_boule.json
 6f5b60bfecbef87fafad388409d73f47e0d90e0e assets/nyagibits_bytes/models/item/incomplete_skystone_tank.json
