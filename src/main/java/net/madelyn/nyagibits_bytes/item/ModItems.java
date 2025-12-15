@@ -448,6 +448,14 @@ public class ModItems {
     add(new ItemInfo("automatic_cardboard_reconstitutor_folder", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
     //  Semi Automatic Round Labeling Machine added 12/2/25 - Nyagi
     add(new ItemInfo("semi_automatic_round_labeling_machine", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  Synthetic Plagioclase Feldspar added 12/15/25 - Nyagi
+    add(new ItemInfo("synthetic_plagioclase_feldspar", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  Synthetic Biotite added 12/15/25 - Nyagi
+    add(new ItemInfo("synthetic_biotite", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  Pyroxene Mix added 12/15/25 - Nyagi
+    add(new ItemInfo("pyroxene_mix", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  Synthetic Pyroxene added 12/15/25 - Nyagi
+    add(new ItemInfo("synthetic_pyroxene", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
 
     //Chemistry
     // Bottle of Anthocyanin added 8/27/23 - Nyagi

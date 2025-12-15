@@ -1,4 +1,4 @@
-// 1.20.1	2025-12-04T12:39:01.9514809	Item Models: nyagibits_bytes
+// 1.20.1	2025-12-15T15:01:03.1762952	Item Models: nyagibits_bytes
 f46f3ad7084615037f94f72c8a2e36f9d49a3814 assets/nyagibits_bytes/models/item/1_4_dimethoxybenzene_dust.json
 943e7c163efff69fd7b3eef7ec4178f28ae343e6 assets/nyagibits_bytes/models/item/2d_textures.json
 a1570e6fb1739636dbe8e54f331e6b1fb92aab30 assets/nyagibits_bytes/models/item/2lbxyud1od.json
@@ -644,6 +644,7 @@ b29ef0b349c6e4328dc3211343a84e7e98f4d75f assets/nyagibits_bytes/models/item/pota
 4061ae7ae5a57371357e2e01980ee2d19a9bfe8f assets/nyagibits_bytes/models/item/processor_stack.json
 f0fdb1ce9c69ac020332532bfa64de2dec7fc222 assets/nyagibits_bytes/models/item/protective_eye_wear.json
 58ad2fcd3dee5aac9c458c30d7549c9bc57fcba7 assets/nyagibits_bytes/models/item/pulp.json
+50e35f413c8d1f88ec374c26c00187c445a33909 assets/nyagibits_bytes/models/item/pyroxene_mix.json
 cdb61c062b76f6a20119236b7ed50ad0e792b5cb assets/nyagibits_bytes/models/item/quenched_thermalsidian.json
 7956f5743ae527344dc5ab7010ecae57fe9fff4f assets/nyagibits_bytes/models/item/raw_allanite.json
 47a4508561d9a0539404e93d8a7a8f678847e7fa assets/nyagibits_bytes/models/item/raw_amblygonite.json
@@ -1060,7 +1061,10 @@ cfe8ff71cfe082c3288565799b7886ebf2ce44f4 assets/nyagibits_bytes/models/item/stom
 b00bf6b704caef8dfb421e1bfab792e30ec8f833 assets/nyagibits_bytes/models/item/sturdy_tray.json
 067c4446bb9f5ac3df4bbfdd81e457ab75fb483b assets/nyagibits_bytes/models/item/sulfate_dust.json
 5c3d7f180a6eb6b4e4d200afcea92ce5efde9315 assets/nyagibits_bytes/models/item/synchronous_electric_motor.json
+f6288ec8b7180cec480fee882acbaf2e6a76de91 assets/nyagibits_bytes/models/item/synthetic_biotite.json
 811d29845ffaa453e8596c0432d0fdc15912a8c6 assets/nyagibits_bytes/models/item/synthetic_mica.json
+69a5ed70b76e25183ab2b863d19882144ae1e29f assets/nyagibits_bytes/models/item/synthetic_plagioclase_feldspar.json
+464b94ab92c85f066a3876780d2e4b1a7fa2acc8 assets/nyagibits_bytes/models/item/synthetic_pyroxene.json
 79ac29863315ea0e7eb98916cb79e1c5468097f4 assets/nyagibits_bytes/models/item/szd6kmksx8.json
 00dcbef0fb62ac60a830cf86e19b0b197032dfd2 assets/nyagibits_bytes/models/item/tectonic_conglomerate_bauxite_ore.json
 f55a0495bdcef25aa62bc01e2c88b73e678ae68b assets/nyagibits_bytes/models/item/tectonic_conglomerate_coal_ore.json

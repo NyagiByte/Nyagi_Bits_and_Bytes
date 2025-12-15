@@ -712,6 +712,11 @@
   "item.nyagibits_bytes.automatic_cardboard_reconstitutor_folder.desc": "Sending things in cardboard boxes needs some way\nto break them down and refold them! Thankfully\nthis little fella is more than happy to do so. Just\nuh, be careful, it can't tell the difference between\ncardboard and flesh",
   "item.nyagibits_bytes.semi_automatic_round_labeling_machine": "Semi Automatic Round Labeling Machine",
   "item.nyagibits_bytes.semi_automatic_round_labeling_machine.desc": "Packages without proper documentation on destination\nmight as well be worthless trash! Don't forget to tape\non your Standardized Huristical Infrastructural\nTelemetry (S.H.I.T.) to the box!",
+  "item.nyagibits_bytes.synthetic_plagioclase_feldspar": "Synthetic Plagioclase Feldspar",
+  "item.nyagibits_bytes.synthetic_biotite": "Synthetic Biotite",
+  "item.nyagibits_bytes.pyroxene_mix": "Pyroxene Mix",
+  "item.nyagibits_bytes.synthetic_pyroxene": "Synthetic Pyroxene",
+
 
   "item.nyagibits_bytes.stomach": "Stomach",
   "item.nyagibits_bytes.stomach.desc": "This where da food go",
