@@ -456,6 +456,30 @@ public class ModItems {
     add(new ItemInfo("pyroxene_mix", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
     //  Synthetic Pyroxene added 12/15/25 - Nyagi
     add(new ItemInfo("synthetic_pyroxene", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  Wetted Cardboard Pulp added 12/29/25 - Nyagi
+    add(new ItemInfo("wetted_cardboard_pulp", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  Impregnated Cardboard Pulp added 12/29/25 - Nyagi
+    add(new ItemInfo("impregnated_cardboard_pulp", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  Cooked Wood Chips added 12/29/25 - Nyagi
+    add(new ItemInfo("cooked_wood_chips", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  Dried Wood Chips added 12/29/25 - Nyagi
+    add(new ItemInfo("dried_wood_chips", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  Large Shives added 12/29/25 - Nyagi
+    add(new ItemInfo("large_shives", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  Wood Knots added 12/29/25 - Nyagi
+    add(new ItemInfo("wood_knots", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  Processed Pulp added 12/29/25 - Nyagi
+    add(new ItemInfo("processed_pulp", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  Heavy Black Liquor added 12/29/25 - Nyagi
+    add(new ItemInfo("heavy_black_liquor", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  Cement Binder added 12/29/25 - Nyagi
+    add(new ItemInfo("cement_binder", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  Wood Sealant added 12/29/25 - Nyagi
+    add(new ItemInfo("wood_sealant", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  Nitrocellulose added 12/29/25 - Nyagi
+    add(new ItemInfo("nitrocellulose", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  Floral Fruit Flavoring added 12/29/25 - Nyagi
+    add(new ItemInfo("floral_fruit_flavoring", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
 
     //Chemistry
     // Bottle of Anthocyanin added 8/27/23 - Nyagi
@@ -1362,6 +1386,8 @@ public class ModItems {
     add(new ItemInfo("incomplete_sterilized_quartz_glass_vinegar", Type.ITEM, Tab.SEQUENCE, "sterilized_quartz_glass"));
     // Incomplete Sterilized Quartz Glass Phenoxyethanol added 1/4/25 - Nyagi
     add(new ItemInfo("incomplete_sterilized_quartz_glass_phenoxyethanol", Type.ITEM, Tab.SEQUENCE, "sterilized_quartz_glass"));
+    // Incomplete Sterilized Quartz Glass Turpentine Vapor added 12/29/25 - Nyagi
+    add(new ItemInfo("incomplete_sterilized_quartz_glass_turpentine_vapor", Type.ITEM, Tab.SEQUENCE, "sterilized_quartz_glass"));
     // Incomplete Petri Dish Glass added 1/4/25 - Nyagi
     add(new ItemInfo("incomplete_petri_dish_glass", Type.ITEM, Tab.SEQUENCE, "petri_dish_empty"));
     // Incomplete Petri Dish Quartz Glass added 1/4/25 - Nyagi

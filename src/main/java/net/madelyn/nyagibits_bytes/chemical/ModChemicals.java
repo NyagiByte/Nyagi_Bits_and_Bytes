@@ -336,6 +336,28 @@ public class ModChemicals {
         add(new ChemicalInfo("hcl_solution", 0xA1414794, Type.LIQUID).fluid());
         // OPA 1214 added 10/26/25
         add(new ChemicalInfo("opa_1214", 0xA1382711, Type.LIQUID).fluid());
+        // Geraniol added 12/29/25
+        add(new ChemicalInfo("geraniol", 0xA1eb95c0, Type.LIQUID).fluid());
+        // α-Terpineol added 12/29/25
+        add(new ChemicalInfo("a_terpineol", 0xA1e57325, Type.LIQUID).fluid());
+        // Camphor Solution added 12/29/25
+        add(new ChemicalInfo("camphor_solution", 0xA186dae6, Type.LIQUID).fluid());
+        // Linalool added 12/29/25
+        add(new ChemicalInfo("linalool", 0xA1aa67e2, Type.LIQUID).fluid());
+        // Polyacrylamide added 12/30/25
+        add(new ChemicalInfo("polyacrylamide", 0xA18ba4a3, Type.LIQUID).fluid());
+        // Polydiallyldimethylammonium Chloride added 12/30/25
+        add(new ChemicalInfo("polydadmac", 0xA180b830, Type.LIQUID).fluid());
+        // Polydimethylsiloxane  added 12/30/25
+        add(new ChemicalInfo("polydimethylsiloxane", 0xA1dac092, Type.LIQUID).fluid());
+        // DOWSIL 102F Additive  added 12/30/25
+        add(new ChemicalInfo("dowsil_102f_additive", 0xA113c632, Type.LIQUID).fluid());
+        // 1,4-Dioxane  added 12/30/25
+        add(new ChemicalInfo("1_4_dioxane", 0xA1dc7c93, Type.LIQUID).fluid());
+        // Glutaraldehyde  added 12/30/25
+        add(new ChemicalInfo("glutaraldehyde", 0xA187804e, Type.LIQUID).fluid());
+        // AMeX Solution  added 12/30/25
+        add(new ChemicalInfo("amex_solution", 0xA13b9ead, Type.LIQUID).fluid());
 
     }
 

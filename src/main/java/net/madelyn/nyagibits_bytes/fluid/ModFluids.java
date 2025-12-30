@@ -95,6 +95,18 @@ public class ModFluids {
         add(new FluidInfo.Builder("decitrated_chorus_juice", 0xA1420496));
         // De-leaded De-citrated Chorus Juice - Added 10/16/25
         add(new FluidInfo.Builder("deleaded_decitrated_chorus_juice", 0xA1280060));
+        // White Liquor - Added 12/29/25
+        add(new FluidInfo.Builder("white_liquor", 0xA1d1b4a1));
+        // Weak White Liquor - Added 12/29/25
+        add(new FluidInfo.Builder("white_liquor_weak", 0xA1e0c9ba));
+        // Black Liquor - Added 12/29/25
+        add(new FluidInfo.Builder("black_liquor", 0xA14b2a13));
+        // Weak Black Liquor - Added 12/29/25
+        add(new FluidInfo.Builder("black_liquor_weak", 0xA17c4e2e));
+        // Tall Oil - Added 12/29/25
+        add(new FluidInfo.Builder("tall_oil", 0xA1371604));
+        // Turpentine Vapor - Added 12/29/25
+        add(new FluidInfo.Builder("turpentine_vapor", 0xA1280060));
 
         //OPA-Related Contaminated Fluid & Froth
         // Aluminum Contaminated OPA - Added 10/27/25
