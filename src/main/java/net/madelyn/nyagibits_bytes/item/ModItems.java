@@ -1441,6 +1441,15 @@ public class ModItems {
     // Incomplete Raw Spinel Polish added 1/5/25 - Nyagi
     add(new ItemInfo("incomplete_raw_spinel_polish", Type.ITEM, Tab.SEQUENCE, "raw_spinel"));
 
+    // Processed Pulp [Formaldehyde] added 12/21/25 - Nyagi
+    add(new ItemInfo("incomplete_processed_pulp_formaldehyde", Type.ITEM, Tab.SEQUENCE, "processed_pulp"));
+    // Processed Pulp [Potassium Permanganate] added 12/21/25 - Nyagi
+    add(new ItemInfo("incomplete_processed_pulp_potassium_permanganate", Type.ITEM, Tab.SEQUENCE, "processed_pulp"));
+    // Processed Pulp [Glutaraldehyde] added 12/21/25 - Nyagi
+    add(new ItemInfo("incomplete_processed_pulp_glutaraldehyde", Type.ITEM, Tab.SEQUENCE, "processed_pulp"));
+    // Processed Pulp [AMeX] added 12/21/25 - Nyagi
+    add(new ItemInfo("incomplete_processed_pulp_amex", Type.ITEM, Tab.SEQUENCE, "processed_pulp"));
+
     //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     // Sintered/Polished Tier 1 Items
     //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

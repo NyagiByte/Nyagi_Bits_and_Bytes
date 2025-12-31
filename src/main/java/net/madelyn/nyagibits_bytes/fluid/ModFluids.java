@@ -106,7 +106,7 @@ public class ModFluids {
         // Tall Oil - Added 12/29/25
         add(new FluidInfo.Builder("tall_oil", 0xA1371604));
         // Turpentine Vapor - Added 12/29/25
-        add(new FluidInfo.Builder("turpentine_vapor", 0xA1280060));
+        add(new FluidInfo.Builder("turpentine_vapor", 0xA17d790f));
 
         //OPA-Related Contaminated Fluid & Froth
         // Aluminum Contaminated OPA - Added 10/27/25
