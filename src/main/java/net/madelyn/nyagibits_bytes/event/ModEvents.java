@@ -41,7 +41,7 @@ public class ModEvents {
                         supplier, //The pack description is in the pack.mcmeta file
                         Pack.readPackInfo(name, supplier),
                         PackType.CLIENT_RESOURCES,
-                        Pack.Position.BOTTOM,
+                        Pack.Position.TOP,
                         false,
                         PackSource.DEFAULT //There's more options here. DEFAULT works fine though, so I'm not messing with the others.
                 ));
