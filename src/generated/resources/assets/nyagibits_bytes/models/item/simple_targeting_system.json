@@ -1,0 +1,9 @@
+{
+  "parent": "nyagibits_bytes:item/modeled_items/simple_targeting_system/simple_targeting_system",
+  "textures": {
+    "0": "nyagibits_bytes:item/modeled_items/simple_targeting_system/cage",
+    "1": "nyagibits_bytes:item/modeled_items/simple_targeting_system/mini_snow_golem",
+    "2": "nyagibits_bytes:item/modeled_items/simple_targeting_system/targets",
+    "particle": "nyagibits_bytes:item/modeled_items/simple_targeting_system/cage"
+  }
+}

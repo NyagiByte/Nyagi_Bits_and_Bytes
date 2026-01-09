@@ -480,6 +480,10 @@ public class ModItems {
     add(new ItemInfo("nitrocellulose", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
     //  Floral Fruit Flavoring added 12/29/25 - Nyagi
     add(new ItemInfo("floral_fruit_flavoring", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  Simple Targeting System added 12/31/25 - Nyagi
+    add(new ItemInfo("simple_targeting_system", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  Brain On A Dish added 1/5/26 - Nyagi
+    add(new ItemInfo("brain_on_a_dish", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
 
     //Chemistry
     // Bottle of Anthocyanin added 8/27/23 - Nyagi

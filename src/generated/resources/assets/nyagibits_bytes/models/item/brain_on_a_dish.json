@@ -1,0 +1,10 @@
+{
+  "parent": "nyagibits_bytes:item/modeled_items/brain_on_a_dish/brain_on_a_dish",
+  "textures": {
+    "0": "nyagibits_bytes:item/modeled_items/brain_on_a_dish/petri_dish_agar_agar",
+    "1": "nyagibits_bytes:item/modeled_items/brain_on_a_dish/brain_tissue",
+    "2": "nyagibits_bytes:item/modeled_items/brain_on_a_dish/frame",
+    "3": "nyagibits_bytes:item/modeled_items/brain_on_a_dish/feeder",
+    "particle": "nyagibits_bytes:item/modeled_items/brain_on_a_dish/petri_dish_agar_agar"
+  }
+}

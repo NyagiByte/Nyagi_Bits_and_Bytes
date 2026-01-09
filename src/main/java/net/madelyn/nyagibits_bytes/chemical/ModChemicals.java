@@ -358,6 +358,20 @@ public class ModChemicals {
         add(new ChemicalInfo("glutaraldehyde", 0xA187804e, Type.LIQUID).fluid());
         // AMeX Solution  added 12/30/25
         add(new ChemicalInfo("amex_solution", 0xA13b9ead, Type.LIQUID).fluid());
+        // Benzene  added 1/7/26
+        add(new ChemicalInfo("benzene", 0xA1313131, Type.LIQUID).fluid());
+        // Ethylene  added 1/7/26
+        add(new ChemicalInfo("ethylene", 0xA1c780cc, Type.LIQUID).fluid());
+        // Raw Gasoline Additives  added 1/7/26
+        add(new ChemicalInfo("gasoline_additives_raw", 0xA1a98d4f, Type.LIQUID).fluid());
+        // Processed Gasoline Additives  added 1/7/26
+        add(new ChemicalInfo("gasoline_additives_processed", 0xA1cccb88, Type.LIQUID).fluid());
+        // Cracked Lubricant  added 1/7/26
+        add(new ChemicalInfo("lubricant_cracked", 0xA1c5c21c, Type.LIQUID).fluid());
+        // Cracked Naphtha  added 1/7/26
+        add(new ChemicalInfo("naphtha_cracked", 0xA1994856, Type.LIQUID).fluid());
+        // Propylene  added 1/7/26
+        add(new ChemicalInfo("propylene", 0xA1a6b365, Type.LIQUID).fluid());
 
     }
 
