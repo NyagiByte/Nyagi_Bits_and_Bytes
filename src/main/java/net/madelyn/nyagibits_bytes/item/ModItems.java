@@ -484,6 +484,24 @@ public class ModItems {
     add(new ItemInfo("simple_targeting_system", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
     //  Brain On A Dish added 1/5/26 - Nyagi
     add(new ItemInfo("brain_on_a_dish", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  Metal Scrap added 1/14/26 - Nyagi
+    add(new ItemInfo("scrap_metal", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  Insulation Scrap added 1/14/26 - Nyagi
+    add(new ItemInfo("scrap_insulation", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  Structural Scrap added 1/14/26 - Nyagi
+    add(new ItemInfo("scrap_structural", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  Component Scrap added 1/14/26 - Nyagi
+    add(new ItemInfo("scrap_component", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  Organic Scrap added 1/14/26 - Nyagi
+    add(new ItemInfo("scrap_organic", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  Waste Scrap added 1/14/26 - Nyagi
+    add(new ItemInfo("scrap_waste", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  Electronic Scrap added 1/14/26 - Nyagi
+    add(new ItemInfo("scrap_electronic", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  Hazardous Scrap added 1/14/26 - Nyagi
+    add(new ItemInfo("scrap_hazardous", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  Nuclear Scrap added 1/14/26 - Nyagi
+    add(new ItemInfo("scrap_nuclear", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
 
     //Chemistry
     // Bottle of Anthocyanin added 8/27/23 - Nyagi

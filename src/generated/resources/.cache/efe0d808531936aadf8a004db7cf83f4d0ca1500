@@ -1,4 +1,4 @@
-// 1.20.1	2026-01-08T18:16:43.8817179	Item Models: nyagibits_bytes
+// 1.20.1	2026-01-14T14:24:07.7159144	Item Models: nyagibits_bytes
 f46f3ad7084615037f94f72c8a2e36f9d49a3814 assets/nyagibits_bytes/models/item/1_4_dimethoxybenzene_dust.json
 943e7c163efff69fd7b3eef7ec4178f28ae343e6 assets/nyagibits_bytes/models/item/2d_textures.json
 a1570e6fb1739636dbe8e54f331e6b1fb92aab30 assets/nyagibits_bytes/models/item/2lbxyud1od.json
@@ -1008,7 +1008,16 @@ b1c1bb6b3302f259a55dbd3b02314e83e358f7ce assets/nyagibits_bytes/models/item/samp
 2de00cd6e7dd219367b91e8ce579ee650813f1b8 assets/nyagibits_bytes/models/item/sapphire.json
 6d7d9e8b129e886d897270ec5416826e9375fbd8 assets/nyagibits_bytes/models/item/sapphire_dust.json
 020a55d7a1a1d173154c15fe72b27cc26897b07a assets/nyagibits_bytes/models/item/saturated_carbon_waste.json
+15a14d8ab506e33b399d2037e80ac40d42227209 assets/nyagibits_bytes/models/item/scrap_component.json
+18522fe2d2fccc284fa5038a76d6bf122989da75 assets/nyagibits_bytes/models/item/scrap_electronic.json
+b8e763ae488e69931f6fcd47840e32a01d638b04 assets/nyagibits_bytes/models/item/scrap_hazardous.json
+e94bbb6f0623d2a4849b171cbfa83a0d15ab17d5 assets/nyagibits_bytes/models/item/scrap_insulation.json
 dcd26f92506fe292b1155c4c65c49a3f6c7cefe4 assets/nyagibits_bytes/models/item/scrap_meat.json
+fbed08104880cbaf6dffb4a193b9a2d9a866560c assets/nyagibits_bytes/models/item/scrap_metal.json
+61534f97a5fbdabd364523abb96064bc41f1ebd9 assets/nyagibits_bytes/models/item/scrap_nuclear.json
+4c3de9cb55e98b50b5e305d75e3953425b0ff2f5 assets/nyagibits_bytes/models/item/scrap_organic.json
+bc784d81ac42f5fc8fd2186c54de8fdaa3f44bdd assets/nyagibits_bytes/models/item/scrap_structural.json
+a1ff2f36300855ce22ef40d7153fb312268f2060 assets/nyagibits_bytes/models/item/scrap_waste.json
 45ba1310efeed05daae1c52b8a1ca615d8820c0c assets/nyagibits_bytes/models/item/sealant.json
 f93ecee1ad91a02b62db4098343c2392ec68117b assets/nyagibits_bytes/models/item/sealed_pouch.json
 2ae2b6b85c29e4e28e88f7bea041d27c9e024a27 assets/nyagibits_bytes/models/item/semi_automatic_round_labeling_machine.json
