@@ -502,6 +502,24 @@ public class ModItems {
     add(new ItemInfo("scrap_hazardous", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
     //  Nuclear Scrap added 1/14/26 - Nyagi
     add(new ItemInfo("scrap_nuclear", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  Fiberglass Batt added 1/14/26 - Nyagi
+    add(new ItemInfo("fiberglass_batt", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  Vermiculite Asbestos Blend added 1/14/26 - Nyagi
+    add(new ItemInfo("vermiculite_asbestos_blend", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  Foam Board added 1/14/26 - Nyagi
+    add(new ItemInfo("foam_board", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  Hardened Polyurethane Foam  added 1/14/26 - Nyagi
+    add(new ItemInfo("hardened_polyurethane_foam", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  Trinitite  added 1/14/26 - Nyagi
+    add(new ItemInfo("trinitite", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  Cobalt 60 Tube  added 1/14/26 - Nyagi
+    add(new ItemInfo("cobalt_60_tube", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  Tritium Tube  added 1/14/26 - Nyagi
+    add(new ItemInfo("tritium_tube", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  Embrittled Fuel Casing  added 1/14/26 - Nyagi
+    add(new ItemInfo("embrittled_fuel_casing", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  Embrittled Zircaloy-4 Plating  added 1/14/26 - Nyagi
+    add(new ItemInfo("embrittled_plating_zircaloy_4", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
 
     //Chemistry
     // Bottle of Anthocyanin added 8/27/23 - Nyagi
