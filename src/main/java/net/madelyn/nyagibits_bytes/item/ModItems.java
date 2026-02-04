@@ -520,6 +520,14 @@ public class ModItems {
     add(new ItemInfo("embrittled_fuel_casing", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
     //  Embrittled Zircaloy-4 Plating  added 1/14/26 - Nyagi
     add(new ItemInfo("embrittled_plating_zircaloy_4", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  Plastonium Paste I  added 2/3/26 - Nyagi
+    add(new ItemInfo("ball_plastic_i", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  Plastonium Paste II  added 2/3/26 - Nyagi
+    add(new ItemInfo("ball_plastic_ii", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  Plastonium Paste III  added 2/3/26 - Nyagi
+    add(new ItemInfo("ball_plastic_iii", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  Plastonium Paste IV  added 2/3/26 - Nyagi
+    add(new ItemInfo("ball_plastic_iv", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
 
     //Chemistry
     // Bottle of Anthocyanin added 8/27/23 - Nyagi
