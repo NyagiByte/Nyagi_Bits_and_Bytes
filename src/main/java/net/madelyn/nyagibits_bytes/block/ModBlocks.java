@@ -144,6 +144,8 @@ public class ModBlocks {
         add(new BlockInfo("glimmering_stone",SoundType.STONE, 1f, true, Tab.BLOCKS));
         //Glimmering Andesite added 6/6/25 - Nyagi
         add(new BlockInfo("glimmering_andesite",SoundType.STONE, 1f, true, Tab.BLOCKS));
+        //Compact Industrial Scrap added 3/24/25 - Nyagi
+        add(new BlockInfo("scrap_industrial",SoundType.SAND, 1f, true, Tab.BLOCKS));
     }
 
     //A small helper function to add the data for all 5 conglomerate ores for each type.

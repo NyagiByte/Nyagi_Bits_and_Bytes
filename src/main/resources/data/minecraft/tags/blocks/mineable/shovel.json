@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "nyagibits_bytes:volcanic_pumice_block"
+    "nyagibits_bytes:volcanic_pumice_block",
+    "nyagibits_bytes:scrap_industrial"
   ]
 }

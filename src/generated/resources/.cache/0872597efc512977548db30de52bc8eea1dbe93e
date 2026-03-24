@@ -1,4 +1,4 @@
-// 1.20.1	2025-11-13T14:38:53.947411883	Block Models: nyagibits_bytes
+// 1.20.1	2026-03-24T01:18:39.6474358	Block Models: nyagibits_bytes
 3083216b170c7691e5d09f45d6ef9c87c1657371 assets/nyagibits_bytes/models/block/2lbxyud1od.json
 f360f09fad6409df7c343929df4dc73518b73f1e assets/nyagibits_bytes/models/block/7y5r4jwg8m.json
 5c2f445ae4e3cb4d689a4de290a1a15aeaecdc3d assets/nyagibits_bytes/models/block/block_aquamarine.json
@@ -89,6 +89,7 @@ f0b2dbf774c5bb397b072e387340bfdba444019f assets/nyagibits_bytes/models/block/mwj
 2ea2be3c25dfa6bfec41151e8bd0b46772999d7e assets/nyagibits_bytes/models/block/polished_livisite.json
 b94c9d2fb722cf18e5485df548036260108bbed7 assets/nyagibits_bytes/models/block/pulp.json
 691b6a122390bcce865f6d7021e57154638b5c30 assets/nyagibits_bytes/models/block/rtesw3kpoi.json
+77b74c061d73f15f6c9b98253fa29a62ff883792 assets/nyagibits_bytes/models/block/scrap_industrial.json
 db25b174bb46fdcaf1f6e643a23033e8e3b708f2 assets/nyagibits_bytes/models/block/skystone_melt_included_andesite.json
 21594de391a2ebbe6811276c2647caa9da677318 assets/nyagibits_bytes/models/block/slushy_ice.json
 5878d426ef0ad03786203e1b205a7ae0d0496012 assets/nyagibits_bytes/models/block/steel_casing.json

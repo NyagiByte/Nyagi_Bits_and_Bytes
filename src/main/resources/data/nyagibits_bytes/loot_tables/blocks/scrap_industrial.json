@@ -1,0 +1,64 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 4,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:scrap_metal",
+          "weight": 30,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:scrap_structural",
+          "weight": 40,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:scrap_insulation",
+          "weight": 5,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:scrap_waste",
+          "weight": 10,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:scrap_organic",
+          "weight": 5,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:scrap_component",
+          "weight": 6,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:scrap_electronic",
+          "weight": 2,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:scrap_hazardous",
+          "weight": 1,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:scrap_nuclear",
+          "weight": 1,
+          "quality": 1
+        }
+      ]
+    }
+  ]
+}

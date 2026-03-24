@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "nyagibits_bytes:glimmering_stone",
-    "nyagibits_bytes:glimmering_andesite"
+    "nyagibits_bytes:glimmering_andesite",
+    "nyagibits_bytes:scrap_industrial"
   ]
 }

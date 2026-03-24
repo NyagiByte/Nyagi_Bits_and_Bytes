@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "nyagibits_bytes:block/scrap_industrial"
+    }
+  }
+}
