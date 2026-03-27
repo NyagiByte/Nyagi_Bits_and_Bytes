@@ -3,6 +3,9 @@
   "values": [
     "nyagibits_bytes:glimmering_stone",
     "nyagibits_bytes:glimmering_andesite",
-    "nyagibits_bytes:scrap_industrial"
+    "nyagibits_bytes:scrap_industrial",
+    "nyagibits_bytes:carbometallic_rock",
+    "nyagibits_bytes:basalt_tholeiitic_solid",
+    "nyagibits_bytes:ejecta"
   ]
 }

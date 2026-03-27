@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "create:crushed_raw_zinc",
+          "weight": 25,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "create:crushed_raw_copper",
+          "weight": 25,
+          "quality": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:raw_azurite",
+          "weight": 5,
+          "quality": 1
+        }
+      ]
+    }
+  ]
+}

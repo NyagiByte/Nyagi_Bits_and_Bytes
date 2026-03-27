@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "nyagibits_bytes:block/basalt_boninite_pseudo"
+    }
+  }
+}

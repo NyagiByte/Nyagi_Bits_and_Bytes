@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:raw_basaltic_powder",
+          "weight": 25,
+          "quality": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thermal:slag",
+          "weight": 25,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:pyroxene_mix",
+          "weight": 5,
+          "quality": 2
+        }
+      ]
+    }
+  ]
+}

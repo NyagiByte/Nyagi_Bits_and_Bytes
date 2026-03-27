@@ -1565,6 +1565,13 @@
   "block.nyagibits_bytes.glimmering_stone": "Glimmering Stone",
   "block.nyagibits_bytes.glimmering_andesite": "Glimmering Andesite",
   "block.nyagibits_bytes.scrap_industrial": "Compact Industrial Scrap",
+  "block.nyagibits_bytes.carbometallic_rock": "Agglomerated Carbo-Metallic Rock",
+  "block.nyagibits_bytes.basalt_tholeiitic_solid": "Solidified Tholeiitic Basalt",
+  "block.nyagibits_bytes.basalt_boninite_pseudo": "Pseudo Boninite Basalt",
+  "block.nyagibits_bytes.breccia": "Impact Breccia",
+  "block.nyagibits_bytes.lechatelierite": "Lechatelierite",
+  "block.nyagibits_bytes.iridium_tektite_rock": "Iridium Enriched Tektite Rock",
+  "block.nyagibits_bytes.ejecta": "Loose Ejecta",
 
   "block.nyagibits_bytes.conglomerate_iron_ore": "Conglomerate Iron Ore",
   "block.nyagibits_bytes.dense_conglomerate_iron_ore": "Dense Conglomerate Iron Ore",

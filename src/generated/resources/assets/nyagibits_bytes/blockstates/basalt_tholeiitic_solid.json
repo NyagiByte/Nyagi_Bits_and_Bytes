@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "nyagibits_bytes:block/basalt_tholeiitic_solid"
+    }
+  }
+}

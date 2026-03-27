@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "immersiveengineering:slag_glass",
+          "weight": 25,
+          "quality": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "chemlib:iridium_dust",
+          "weight": 25,
+          "quality": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:deepslate",
+          "weight": 50,
+          "quality": 1
+        }
+      ]
+    }
+  ]
+}

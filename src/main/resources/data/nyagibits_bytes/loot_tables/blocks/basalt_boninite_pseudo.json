@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:andesite",
+          "weight": 25,
+          "quality": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:raw_basaltic_powder",
+          "weight": 25,
+          "quality": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nyagibits_bytes:raw_salt_cluster",
+          "weight": 5,
+          "quality": 2
+        }
+      ]
+    }
+  ]
+}

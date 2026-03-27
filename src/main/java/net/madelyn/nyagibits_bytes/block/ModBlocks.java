@@ -146,6 +146,21 @@ public class ModBlocks {
         add(new BlockInfo("glimmering_andesite",SoundType.STONE, 1f, true, Tab.BLOCKS));
         //Compact Industrial Scrap added 3/24/25 - Nyagi
         add(new BlockInfo("scrap_industrial",SoundType.SAND, 1f, true, Tab.BLOCKS));
+        //Agglomerated Carbo-Metallic Rock added 3/25/25 - Nyagi
+        add(new BlockInfo("carbometallic_rock",SoundType.STONE, 1f, true, Tab.BLOCKS));
+        //Solidified Tholeiitic Basalt added 3/25/25 - Nyagi
+        add(new BlockInfo("basalt_tholeiitic_solid",SoundType.STONE, 1f, true, Tab.BLOCKS));
+        //Pseudo Boninite Basalt  added 3/25/25 - Nyagi
+        //https://www.scirp.org/journal/paperinformation?paperid=81718
+        add(new BlockInfo("basalt_boninite_pseudo",SoundType.STONE, 1f, true, Tab.BLOCKS));
+        //Impact Breccia added 3/25/25 - Nyagi
+        add(new BlockInfo("breccia",SoundType.METAL, 1f, true, Tab.BLOCKS));
+        //Lechatelierite added 3/25/25 - Nyagi
+        add(new BlockInfo("lechatelierite",SoundType.GLASS, 1f, true, Tab.BLOCKS));
+        //Iridium Enriched Tektite Rock added 3/25/25 - Nyagi
+        add(new BlockInfo("iridium_tektite_rock",SoundType.GLASS, 1f, true, Tab.BLOCKS));
+        //Loose Ejecta added 3/25/25 - Nyagi
+        add(new BlockInfo("ejecta",SoundType.SAND, 1f, true, Tab.BLOCKS));
     }
 
     //A small helper function to add the data for all 5 conglomerate ores for each type.
