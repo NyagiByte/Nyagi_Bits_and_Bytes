@@ -689,6 +689,7 @@
   "chemical.nyagibits_bytes.wet_methanol.name": "Wet Methanol",
   "chemical.nyagibits_bytes.white_phosphorus.desc": "An angry waxy solid. This is pyrophoric meaning it will\njust burst into flames whenever it feels like it (is\nexposed to air). It's also insanely toxic and carcinogenic\non top of just burning and exploding pieces of burning\ncancer all over the place. Truly horrible stuff",
   "chemical.nyagibits_bytes.white_phosphorus.name": "White Phosphorus",
+  "enchantment.nyagibits_bytes.excavating": "Excavating",
   "fluid.nyagibits_bytes.amorphous_cellulose.name": "Amorphous Cellulose",
   "fluid.nyagibits_bytes.anthocyanin.name": "Anthocyanin",
   "fluid.nyagibits_bytes.bio_glycerol_mix.name": "Bio-Glycerol Mix",

@@ -1910,6 +1910,8 @@
   "item.nyagibits_bytes.incomplete_raw_chalcedony_polish": "Incomplete Raw Chalcedony [Polish]",
   "item.nyagibits_bytes.incomplete_raw_spinel_polish": "Incomplete Raw Spinel [Polish]",
 
+  "enchantment.nyagibits_bytes.excavating": "Excavating",
+
   "itemGroup.nyagibits_bytes_tab_items": "Nyagi's Bits & Bytes Items",
   "itemGroup.nyagibits_bytes_tab_blocks": "Nyagi's Bits & Bytes Blocks",
   "itemGroup.nyagibits_bytes_tab_science": "Nyagi's Bits & Bytes Science",
