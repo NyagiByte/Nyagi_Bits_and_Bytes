@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "nyagibits_bytes:item/datagen/dg_blank_layer",
+    "layer1": "nyagibits_bytes:item/datagen/dg_plate_layer1"
+  }
+}

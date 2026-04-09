@@ -36,6 +36,8 @@ public class FluidInfo {
     private final Supplier<? extends Fluid> flowingFluid;
     private final Supplier<? extends FluidType> fluidType;
 
+    private final boolean isFrotn;
+
     //All the info needs to be available at once. So we use a builder instead, defined below.
     public FluidInfo(Builder builder){
         this.id = builder.id;
@@ -45,6 +47,7 @@ public class FluidInfo {
         this.fluidProps = builder.fluidProps;//More supplier fuckery, yay!
         this.sourceFluid = builder.isTicking ? () -> new TickingSource(fluidProps) : () -> new ForgeFlowingFluid.Source(fluidProps);
         this.flowingFluid = builder.isTicking ? () -> new TickingFlowing(fluidProps) : () -> new ForgeFlowingFluid.Flowing(fluidProps);
+        this.isFrotn = builder.isFroth;
         //This is part of why we use a builder. These 6 need to be available all at once.
         //The constructor would be massive and hard to read otherwise.
         this.fluidType = () -> new BaseFluidType(
@@ -77,7 +80,9 @@ public class FluidInfo {
     }
     //These 3 methods define the bucket item and the fluid block. We're going to register them here for convenience, outside of ModItems and ModBlocks
     public ItemInfo.Bucket createBucket(){
-        return new ItemInfo.Bucket("bucket_of_"+id, () -> Utils.fetchFluid(Utils.NBNB(sourceId)));
+        ItemInfo.Bucket bucket = new ItemInfo.Bucket("bucket_of_"+id, () -> Utils.fetchFluid(Utils.NBNB(sourceId)));
+        if(isFrotn) bucket = bucket.froth();
+        return bucket;
     }
     public String getBlockId(){
         return id+"_block";
@@ -117,6 +122,8 @@ public class FluidInfo {
         private final Supplier<? extends Item> bucketSupplier;
         //Dictates whether the fluid will use the subclass that overwrites isRandomlyTicking()
         private boolean isTicking = false;
+        //Whether a datagenned bucket should use the OPA Froth-specific texture
+        private boolean isFroth = false;
 
         private ForgeFlowingFluid.Properties fluidProps;
         private FluidType.Properties fluidTypeProps = FluidType.Properties.create();
@@ -183,6 +190,10 @@ public class FluidInfo {
         }
         public Builder setTicking(){
             this.isTicking = true;
+            return this;
+        }
+        public Builder setFroth(){
+            this.isFroth = true;
             return this;
         }
 

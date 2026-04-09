@@ -12,6 +12,7 @@ import net.madelyn.nyagibits_bytes.fluid.ModFluids;
 import net.madelyn.nyagibits_bytes.item.ItemInfo;
 import net.madelyn.nyagibits_bytes.item.ModItems;
 import net.madelyn.nyagibits_bytes.misc.Utils;
+import net.madelyn.nyagibits_bytes.pure.OPAPurifiedMetals;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.server.packs.PackType;
 import net.minecraftforge.client.model.generators.ItemModelBuilder;
@@ -64,6 +65,7 @@ public class ItemModelDatagen extends ItemModelProvider {
             }
 
         }
+        chemicals.addAll(OPAPurifiedMetals.ITEM_LIST);
 
 
         //First, all found item models must be processed with texture redirects.
@@ -128,8 +130,9 @@ public class ItemModelDatagen extends ItemModelProvider {
             ItemModelBuilder modelBuilder = withExistingParent("item/"+bucket.getId(), mcLoc("item/generated"));
             if(TEXTURES.containsKey(bucket.getId())) modelBuilder.texture("layer0", modLoc("item/"+TEXTURES.get(bucket.getId())));
             else{
+                String layer1ID = bucket.isFroth() ? "bucket_froth" : "bucket";
                 modelBuilder.texture("layer0", modLoc("item/"+TEXTURES.get("dg_bucket_layer0")));
-                modelBuilder.texture("layer1", modLoc("item/"+TEXTURES.get("dg_bucket_layer1")));
+                modelBuilder.texture("layer1", modLoc("item/"+TEXTURES.get("dg_"+layer1ID+"_layer1")));
             }
         }
 
@@ -143,10 +146,12 @@ public class ItemModelDatagen extends ItemModelProvider {
                     case LIQUID -> type = "liquid";
                     case GAS -> type = "gas";
                     case DUST -> type = "dust";
+                    case INGOT -> type = "ingot";
+                    case PLATE -> type = "plate";
                 }
                     modelBuilder.texture("layer0", modLoc("item/"+TEXTURES.get("dg_blank_layer")));
                     modelBuilder.texture("layer1", modLoc("item/"+TEXTURES.get("dg_"+type+"_layer1")));
-                    modelBuilder.texture("layer2", modLoc("item/"+TEXTURES.get("dg_"+type+"_layer2")));
+                    if(!type.matches("ingot") && !type.matches("plate")) modelBuilder.texture("layer2", modLoc("item/"+TEXTURES.get("dg_"+type+"_layer2")));
                 }
         }
 

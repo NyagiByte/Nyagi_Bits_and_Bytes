@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.madelyn.nyagibits_bytes.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "nyagibits_bytes.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

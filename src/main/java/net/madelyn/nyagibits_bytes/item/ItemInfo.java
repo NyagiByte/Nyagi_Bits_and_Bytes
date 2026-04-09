@@ -8,14 +8,12 @@ import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.entity.ai.attributes.Attribute;
 import net.minecraft.world.entity.ai.attributes.AttributeModifier;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.material.Fluid;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 import java.util.function.Supplier;
 
 public class ItemInfo {
@@ -75,7 +73,7 @@ public class ItemInfo {
         private final ChemicalInfo.Type type;
         private final String chemical;
         public Chem(String id, Utils.Tab tab, int tint, ChemicalInfo.Type type, String chemical){
-            super(id, ModItems.Type.CUSTOM_TOOLTIP, Utils.Tab.CHEMICALS);
+            super(id, ModItems.Type.CUSTOM_TOOLTIP, tab);
             this.tint = tint;
             this.type = type;
             this.chemical = chemical;
@@ -137,6 +135,7 @@ public class ItemInfo {
 
         private final Supplier<? extends Fluid> fluid;
         private String chemical;
+        private boolean isFroth = false;
 
         public Bucket (String id, Supplier<? extends Fluid> fluidSupplier){
             super(id, ModItems.Type.ITEM, Utils.Tab.FLUIDS);
@@ -152,6 +151,13 @@ public class ItemInfo {
         public Bucket chemical(String chem){
             this.chemical = chem;
             return this;
+        }
+        public Bucket froth(){
+            this.isFroth = true;
+            return this;
+        }
+        public boolean isFroth(){
+            return isFroth;
         }
 
         //This should get called even in the context of the list of Item Info. Go back and interface some stuff if not.
