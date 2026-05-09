@@ -69,7 +69,9 @@ public class ChemicalInfo {
         SOLID, //Solid Sample
         LIQUID, //Liquid Sample
         GAS, //Gas Samplee
-        DUST //Compacted Dust
+        DUST, //Compacted Dust
+        INGOT, //Ingots (for OPA metals)
+        PLATE //Plates (for OPA metals)
     }
 
 }

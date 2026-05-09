@@ -67,6 +67,10 @@ public class BlockModelDatagen extends BlockModelProvider {
 
             //Do not handle rotatable blocks, for now. Not until a whole refactor of this.
             if(block instanceof BlockInfo.Rotatable) continue;
+            if(block.isTinted()){
+                withExistingParent("block/"+block.getId(), modLoc("block/dg_pure_metal_block"));
+                continue;
+            }
 
             BlockModelBuilder modelBuilder = withExistingParent("block/"+block.getId(), mcLoc("block/cube_all"));
             if(TEXTURES.containsKey(block.getId())) modelBuilder.texture("all", modLoc("block/"+TEXTURES.get(block.getId())));

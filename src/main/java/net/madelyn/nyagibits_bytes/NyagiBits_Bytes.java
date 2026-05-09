@@ -5,17 +5,21 @@ package net.madelyn.nyagibits_bytes;
 import com.mojang.logging.LogUtils;
 import net.madelyn.nyagibits_bytes.block.ModBlocks;
 import net.madelyn.nyagibits_bytes.chemical.ModChemicals;
+import net.madelyn.nyagibits_bytes.enchant.ModEnchantments;
 import net.madelyn.nyagibits_bytes.fluid.ModFluids;
 import net.madelyn.nyagibits_bytes.item.ModCreativeModeTab;
 import net.madelyn.nyagibits_bytes.item.ModItems;
 import net.madelyn.nyagibits_bytes.misc.Utils;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.tags.BlockTags;
+import net.minecraft.tags.TagKey;
+import net.minecraft.world.level.block.Block;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
@@ -27,6 +31,9 @@ import org.slf4j.Logger;
 public class NyagiBits_Bytes {
     public static final String MOD_ID = "nyagibits_bytes";
     public static final Logger LOGGER = LogUtils.getLogger();
+
+    public static final TagKey<Block> EXCAVATING_BLACKLIST = BlockTags.create(ResourceLocation.fromNamespaceAndPath(MOD_ID, "excavating_blacklist"));
+
     public NyagiBits_Bytes(FMLJavaModLoadingContext ctx) {
         IEventBus modEventBus = ctx.getModEventBus(); //Oh the irony, fixing this by referencing 1.20 Immersive Petroleum
 
@@ -40,6 +47,8 @@ public class NyagiBits_Bytes {
         ModChemicals.register(modEventBus);
         //Register adds creative mode tabs
         ModCreativeModeTab.register(modEventBus);
+        //Register adds new enchantments
+        ModEnchantments.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);

@@ -6,6 +6,8 @@ import net.madelyn.nyagibits_bytes.chemical.ModChemicals;
 import net.madelyn.nyagibits_bytes.fluid.FluidInfo;
 import net.madelyn.nyagibits_bytes.fluid.ModFluids;
 import net.madelyn.nyagibits_bytes.item.ItemInfo;
+import net.madelyn.nyagibits_bytes.misc.Utils;
+import net.madelyn.nyagibits_bytes.pure.OPAPurifiedMetals;
 import net.minecraft.data.DataGenerator;
 import net.minecraftforge.common.data.LanguageProvider;
 
@@ -55,6 +57,23 @@ public class LangDatagen extends LanguageProvider {
                 }
             }
         }
+
+        for(Utils.OPAPureMetal opaMetal : OPAPurifiedMetals.PURE_METALS){
+            String id = opaMetal.id();
+            String opaLangId = "opaMetal.nyagibits_bytes."+id+".name";
+            if(EN_LANG.containsKey(opaLangId)){
+                String name = EN_LANG.get(opaLangId);
+                addLang("item.nyagibits_bytes.sample_pure_"+id, "Sample of Pure "+name);
+                addLang("item.nyagibits_bytes.pure_"+id+"_dust", "Pure "+name+" Dust");
+                addLang("item.nyagibits_bytes.float_separated_"+id+"_dust", "Float-Separated "+name+" Dust");
+                addLang("item.nyagibits_bytes.pure_"+id+"_ingot", "Pure "+name+" Ingot");
+                addLang("item.nyagibits_bytes.pure_"+id+"_plate", "Pure "+name+" Plate");
+                addLang("block.nyagibits_bytes.pure_"+id+"_block", "Block of Pure "+name);
+                addLang("fluid.nyagibits_bytes.opa_"+id+".name", name+" Contaminated OPA"); //These two will also contribute to the other fluid parts below.
+                addLang("fluid.nyagibits_bytes.froth_opa_"+id+".name", name+"-Sourced Froth");
+            }
+        }
+
         //More of the same, but for non-chemical fluids
         for(FluidInfo.Builder fluid : ModFluids.FLUIDS_LIST){
             String fluidLangId = "fluid.nyagibits_bytes."+fluid.id+".name";
@@ -72,7 +91,10 @@ public class LangDatagen extends LanguageProvider {
 
     //All lang additions must have a check if they're already present.
     private void addLang(String key, String value){
-        if(!EN_LANG.containsKey(key)) add(key, value);
+        if(!EN_LANG.containsKey(key)) {
+            EN_LANG.put(key, value); //this is cause since we dropped OPA fluids into ModFluids.
+            add(key, value);
+        }
     }
 
 }

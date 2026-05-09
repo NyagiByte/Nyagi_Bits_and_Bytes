@@ -32,6 +32,12 @@ public class BlockstateDatagen extends BlockStateProvider {
                 if(block instanceof BlockInfo.Rotatable rot) continue;
 
                 ModelFile model = models().getExistingFile(modLoc("block/"+block.getId()));
+
+                if(block.isTinted()){
+                    simpleBlock(Utils.fetchBlock(Utils.NBNB(block.getId())), model);
+                    continue;
+                }
+
                 getVariantBuilder(Utils.fetchBlock(Utils.NBNB(block.getId())))
                         .partialState().modelForState().modelFile(model).addModel();
             }

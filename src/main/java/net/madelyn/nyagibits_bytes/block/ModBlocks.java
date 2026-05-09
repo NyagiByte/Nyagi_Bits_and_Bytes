@@ -4,8 +4,8 @@ import net.madelyn.nyagibits_bytes.NyagiBits_Bytes;
 import net.madelyn.nyagibits_bytes.item.ModItems;
 import net.madelyn.nyagibits_bytes.misc.Utils;
 import net.madelyn.nyagibits_bytes.misc.Utils.Tab;
+import net.madelyn.nyagibits_bytes.pure.OPAPurifiedMetals;
 import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
@@ -184,10 +184,16 @@ public class ModBlocks {
         registerBlockItem(name, toReturn, tab);
         return toReturn;
     }
+
     private static <T extends Block> RegistryObject<Item> registerBlockItem(String name, RegistryObject<T> block, Utils.Tab tab) {
 
         return ModItems.ITEMS.register(name, () -> {
-            BlockItem item = new BlockItem(block.get(), new Item.Properties());
+            if(block.get() instanceof TintedBlock tinted){
+                TintedBlockItem item = new TintedBlockItem(block.get(), new Item.Properties(), tinted.getTint());
+                Utils.CREATIVE_CACHE.get(tab).add(item);
+                return item;
+            }
+            BlockItem item =  new BlockItem(block.get(), new Item.Properties());
             Utils.CREATIVE_CACHE.get(tab).add(item);
             return item;
         });
@@ -199,6 +205,7 @@ public class ModBlocks {
     //Then registers all the blocks
     static{
         populateList();
+        BLOCKS_LIST.addAll(OPAPurifiedMetals.BLOCK_LIST);
         for(String ore : BOULDER_TYPES){
             BLOCKS_LIST.addAll(generateConglomerates(ore));
         }

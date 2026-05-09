@@ -1,0 +1,7 @@
+{
+  "parent": "nyagibits_bytes:block/datagen/dg_pure_metal_block",
+  "textures": {
+    "all": "minecraft:block/iron_block",
+    "particle": "#all"
+  }
+}

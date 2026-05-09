@@ -7,6 +7,7 @@ import net.madelyn.nyagibits_bytes.fluid.FluidInfo;
 import net.madelyn.nyagibits_bytes.fluid.ModFluids;
 import net.madelyn.nyagibits_bytes.item.ItemInfo;
 import net.madelyn.nyagibits_bytes.item.ModItems;
+import net.madelyn.nyagibits_bytes.pure.OPAPurifiedMetals;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.material.Fluid;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -383,6 +384,7 @@ public class ModChemicals {
 
     static{
         populateList();
+
         for(ChemicalInfo chem : CHEM_LIST){
             ItemInfo item = chem.getSample();
             RegistryObject<Item> registeredSample = ITEMS.register(item.getId(), item::registerItem);
@@ -406,6 +408,9 @@ public class ModChemicals {
                 ModFluids.ITEMS.register(bucket.getId(), bucket::registerItem);
                 ModBlocks.BLOCKS.register(info.getBlockId(), info.createBlock());
             }
+        }
+        for(ItemInfo.Chem pureItem : OPAPurifiedMetals.ITEM_LIST){
+            ITEMS.register(pureItem.getId(), pureItem::registerItem);
         }
     }
 

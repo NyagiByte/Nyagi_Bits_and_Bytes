@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "nyagibits_bytes:block/pure_yttrium_block"
+    }
+  }
+}

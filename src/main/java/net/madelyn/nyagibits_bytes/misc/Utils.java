@@ -2,11 +2,9 @@ package net.madelyn.nyagibits_bytes.misc;
 
 import com.mojang.logging.LogUtils;
 import net.madelyn.nyagibits_bytes.NyagiBits_Bytes;
-import net.madelyn.nyagibits_bytes.item.ModCreativeModeTab;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.ai.attributes.Attribute;
 import net.minecraft.world.entity.ai.attributes.AttributeModifier;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.Block;
@@ -108,6 +106,8 @@ public class Utils {
         public AttributeModifier.Operation getOperation(){return operation;}
         public double getValue(){return value;}
     }
+
+    public record OPAPureMetal(String id, int opaTint, int frothTint, int metalTint){}
 
 
 }
