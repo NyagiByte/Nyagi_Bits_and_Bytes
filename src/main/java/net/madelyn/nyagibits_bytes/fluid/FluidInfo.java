@@ -2,14 +2,18 @@ package net.madelyn.nyagibits_bytes.fluid;
 
 import net.madelyn.nyagibits_bytes.item.ItemInfo;
 import net.madelyn.nyagibits_bytes.misc.Utils;
+import net.minecraft.core.BlockPos;
+import net.minecraft.core.Direction;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.LiquidBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.FlowingFluid;
 import net.minecraft.world.level.material.Fluid;
+import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.phys.Vec3;
 import net.minecraftforge.common.SoundAction;
 import net.minecraftforge.fluids.FluidType;
@@ -45,7 +49,7 @@ public class FluidInfo {
         this.flowingId = builder.flowingId;
         this.fluidTypeId = builder.fluidTypeId;
         this.fluidProps = builder.fluidProps;//More supplier fuckery, yay!
-        this.sourceFluid = builder.isTicking ? () -> new TickingSource(fluidProps) : () -> new ForgeFlowingFluid.Source(fluidProps);
+        this.sourceFluid = builder.isTicking ? () -> new TickingSource(fluidProps) : () -> new NBNBSourceFluid(fluidProps);
         this.flowingFluid = builder.isTicking ? () -> new TickingFlowing(fluidProps) : () -> new ForgeFlowingFluid.Flowing(fluidProps);
         this.isFrotn = builder.isFroth;
         //This is part of why we use a builder. These 6 need to be available all at once.
@@ -98,8 +102,8 @@ public class FluidInfo {
         public final String id; //This is to build the other IDs
         private final int tintColor; //This used to be optional, but it really shouldn't be.
         //These are now generated on the fly
-        private final String sourceId;
-        private final String flowingId;
+        public final String sourceId;
+        public final String flowingId;
         private final String fluidTypeId;
         //These must be present, but might not be called, so they get default values.
         private ResourceLocation stillTexture = ResourceLocation.parse("block/water_still");
@@ -107,8 +111,8 @@ public class FluidInfo {
         //This, i don't think it works. It's set to a default value to not fire missing asset warnings.
         //It can still be overwritten with the builder method.
         private ResourceLocation overlayTexture;
-        //No one ever touched this. It can still be overwritten
-        private Vec3 fogColor = new Vec3(1f / 255f, 1f / 255f, 1f/255f);
+        //This is now set to the tint, to prevent pitch black fluids when seen through glass.
+        private Vec3 fogColor;// = new Vec3(1f / 255f, 1f / 255f, 1f/255f);
         //Fluid properties and fluid type properties defaults.
         //Some of these might be a bit whack, especially density and viscosity, TODO: re-evaluate default values
         //If access to other properties is needed, use the old consumer methods for fluid props and fluid type props.
@@ -124,6 +128,8 @@ public class FluidInfo {
         private boolean isTicking = false;
         //Whether a datagenned bucket should use the OPA Froth-specific texture
         private boolean isFroth = false;
+
+
 
         private ForgeFlowingFluid.Properties fluidProps;
         private FluidType.Properties fluidTypeProps = FluidType.Properties.create();
@@ -142,6 +148,11 @@ public class FluidInfo {
                     () -> Utils.fetchFluidType(Utils.NBNB(fluidTypeId)),
                     () -> Utils.fetchFluid(Utils.NBNB(sourceId)),
                     () -> Utils.fetchFluid(Utils.NBNB(flowingId))
+            );
+            this.fogColor = new Vec3(
+                    ((tint >> 16) & 0xFF) / 255.0F,
+                    ((tint >> 8) & 0xFF) / 255.0F,
+                    (tint & 0xFF) / 255.0F
             );
         }
         //This lets us do the properties ->{do stuff} in the registry. It's better than making builder function for each parameter.
@@ -218,7 +229,7 @@ public class FluidInfo {
     }
 
     //These two classes are to allow interacting with a mod that does stuff on random fluid ticks. To enable this for a fluid, append a setTicking() to its builder.
-    public static class TickingSource extends ForgeFlowingFluid.Source {
+    public static class TickingSource extends NBNBSourceFluid {
         public TickingSource(ForgeFlowingFluid.Properties props){
             super(props);
         }
@@ -234,6 +245,17 @@ public class FluidInfo {
         @Override
         public boolean isRandomlyTicking(){
             return true;
+        }
+    }
+
+    public static class NBNBSourceFluid extends ForgeFlowingFluid.Source {
+        public NBNBSourceFluid(ForgeFlowingFluid.Properties props){
+            super(props);
+        }
+        @Override
+        protected boolean canBeReplacedWith(FluidState state, BlockGetter level, BlockPos pos, Fluid fluidIn, Direction direction)
+        {
+            return false;
         }
     }
 
