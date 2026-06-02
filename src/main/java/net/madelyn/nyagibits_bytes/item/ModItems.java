@@ -520,6 +520,24 @@ public class ModItems {
     add(new ItemInfo("embrittled_fuel_casing", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
     //  Embrittled Zircaloy-4 Plating  added 1/14/26 - Nyagi
     add(new ItemInfo("embrittled_plating_zircaloy_4", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  Alloy Powder Billet added 6/1/26 - Nyagi
+    add(new ItemInfo("billet_empty", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+      //  Bulk-Packed Iron Billet  added 6/1/26 - Nyagi
+      add(new ItemInfo("billet_iron_bulk", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+      //  Bulk-Packed 1080 Mix Billet  added 6/1/26 - Nyagi
+      add(new ItemInfo("billet_1080", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+      //  Bulk-Packed 15N20 Mix Billet  added 6/1/26 - Nyagi
+      add(new ItemInfo("billet_15n20", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+      //  Bulk-Packed Stainless Mix Billet  added 6/1/26 - Nyagi
+      add(new ItemInfo("billet_stainless", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+      //  Blast-Smelted 1080 Mix Billet  added 6/1/26 - Nyagi
+      add(new ItemInfo("billet_blasted_1080", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+      //  Blast-Smelted 15N20 Mix Billet  added 6/1/26 - Nyagi
+      add(new ItemInfo("billet_blasted_15n20", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+      //  Blast-Smelted Stainless Mix Billet  added 6/1/26 - Nyagi
+      add(new ItemInfo("billet_blasted_stainless", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+
+    //Scrap system
     //  Plastonium Paste I  added 2/3/26 - Nyagi
     add(new ItemInfo("ball_plastic_i", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
     //  Plastonium Paste II  added 2/3/26 - Nyagi
@@ -528,6 +546,11 @@ public class ModItems {
     add(new ItemInfo("ball_plastic_iii", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
     //  Plastonium Paste IV  added 2/3/26 - Nyagi
     add(new ItemInfo("ball_plastic_iv", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+
+
+    //Tequeño
+      //  Tequeño 0  added 2/3/26 - Nyagi
+      add(new ItemInfo("tequeno_t0", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
 
     //Chemistry
     // Bottle of Anthocyanin added 8/27/23 - Nyagi
