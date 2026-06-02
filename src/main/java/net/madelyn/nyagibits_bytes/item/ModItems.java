@@ -550,7 +550,7 @@ public class ModItems {
 
     //Tequeño
       //  Tequeño 0  added 2/3/26 - Nyagi
-      add(new ItemInfo("tequeno_t0", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+      add(new ItemInfo("tequeno_t0", Type.CUSTOM_TOOLTIP, Tab.TEQUENO));
 
     //Chemistry
     // Bottle of Anthocyanin added 8/27/23 - Nyagi

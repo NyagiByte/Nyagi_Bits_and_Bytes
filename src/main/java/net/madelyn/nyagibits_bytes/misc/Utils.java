@@ -86,7 +86,8 @@ public class Utils {
         MINERALS,
         BIOLOGY,
         CHEMICALS,
-        ELEMENTS
+        ELEMENTS,
+        TEQUENO
     }
 
     //This is a helper class to hold the data needed to apply one curio attribute modifier

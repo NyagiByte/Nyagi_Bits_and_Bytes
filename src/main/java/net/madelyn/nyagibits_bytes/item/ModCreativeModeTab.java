@@ -36,7 +36,7 @@ public class ModCreativeModeTab {
         registerCreativeTab("biology", Utils.NBNB("stomach"), Utils.Tab.BIOLOGY);
         registerCreativeTab("chemicals", Utils.NBNB("sample_oleum"), Utils.Tab.CHEMICALS);
         registerCreativeTab("fluids", Utils.NBNB("bucket_of_hydrocarbon_tar"), Utils.Tab.FLUIDS);
-        //registerCreativeTab("tequeno", Utils.NBNB("tequeno_t0"), Utils.Tab.TEQUENO);
+        registerCreativeTab("tequeno", Utils.NBNB("tequeno_t0"), Utils.Tab.TEQUENO);
         //NOTE: UNCOMMENT WHEN ACTUALLY ADDING STUFF
         registerCreativeTab("elements", Utils.NBNB("sample_dcm"), Utils.Tab.ELEMENTS);
         registerCreativeTab("incomplete_sequence_items", Utils.NBNB("incomplete_controller"), Utils.Tab.SEQUENCE);

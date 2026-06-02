@@ -2955,6 +2955,7 @@
   "itemGroup.nyagibits_bytes_tab_minerals": "Nyagi's Bits & Bytes Minerals",
   "itemGroup.nyagibits_bytes_tab_schematics": "Nyagi's Bits & Bytes Schematics",
   "itemGroup.nyagibits_bytes_tab_science": "Nyagi's Bits & Bytes Science",
+  "itemGroup.nyagibits_bytes_tab_tequeno": "Nyagi's Bits & Bytes Tequeño",
   "nyagi_bits_bytes.tooltip.god_heart.hardcore": "You get one chance. Don't waste it.",
   "nyagi_bits_bytes.tooltip.god_heart.more_deaths": "You have perished %s times.",
   "nyagi_bits_bytes.tooltip.god_heart.no_deaths": "You have yet to perish.",
