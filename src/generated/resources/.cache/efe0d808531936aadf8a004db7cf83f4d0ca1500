@@ -1,4 +1,4 @@
-// 1.20.1	2026-06-01T23:43:23.4420983	Item Models: nyagibits_bytes
+// 1.20.1	2026-06-13T14:32:51.8932567	Item Models: nyagibits_bytes
 f46f3ad7084615037f94f72c8a2e36f9d49a3814 assets/nyagibits_bytes/models/item/1_4_dimethoxybenzene_dust.json
 943e7c163efff69fd7b3eef7ec4178f28ae343e6 assets/nyagibits_bytes/models/item/2d_textures.json
 a1570e6fb1739636dbe8e54f331e6b1fb92aab30 assets/nyagibits_bytes/models/item/2lbxyud1od.json
@@ -404,6 +404,7 @@ d208c033db02ae340b4fb56552dfc1c85439eaa9 assets/nyagibits_bytes/models/item/de_m
 4768d365aa19799fea0bdd8af1db1ae747e1d002 assets/nyagibits_bytes/models/item/de_mineralized_trona.json
 0e085dc745ba0af0a994d283e6f4c42af91db5de assets/nyagibits_bytes/models/item/de_mineralized_volcanic_sulfur.json
 d6a7c7e7d4eec64ee74b550eb8a16bca466a3564 assets/nyagibits_bytes/models/item/diamond_shard.json
+b0e4452c06c6fff005e949d76c710975380982b5 assets/nyagibits_bytes/models/item/dirty_glassware.json
 92143c315b8da1c6d27eb834b7e1021593dd144d assets/nyagibits_bytes/models/item/distillation_column.json
 e762aca246b4d139b2a750773126ba61ec092d1c assets/nyagibits_bytes/models/item/dried_wood_chips.json
 5ddf1d0886fa2423536c21910746b7aef6cbeff7 assets/nyagibits_bytes/models/item/dry_ice_slab.json

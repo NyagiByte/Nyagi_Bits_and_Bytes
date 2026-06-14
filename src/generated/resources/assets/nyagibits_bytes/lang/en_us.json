@@ -1489,6 +1489,8 @@
   "item.nyagibits_bytes.desiccation_powder.desc": "Sometimes water is in your reaction.\nThis lets you dry liquids to get rid\noh the water. Dry liquid!",
   "item.nyagibits_bytes.diamond_shard": "Diamond Shard",
   "item.nyagibits_bytes.diamond_shard.desc": "These edges are incredibly sharp",
+  "item.nyagibits_bytes.dirty_glassware": "Dirty Chemical Grade Glassware",
+  "item.nyagibits_bytes.dirty_glassware.desc": "Full of the arch nemesis. Tar! Clean it up!",
   "item.nyagibits_bytes.distillation_column": "Distillation Column",
   "item.nyagibits_bytes.distillation_column.desc": "The outer glass tube allows for cold\nwater to be flushed in, condensing\ngasses and other volatiles into liquid",
   "item.nyagibits_bytes.dried_wood_chips": "Dried Wood Chips",

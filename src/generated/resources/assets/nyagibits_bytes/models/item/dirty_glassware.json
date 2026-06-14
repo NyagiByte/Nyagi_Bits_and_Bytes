@@ -1,0 +1,13 @@
+{
+  "parent": "nyagibits_bytes:item/modeled_items/dirty_glassware/dirty_glassware",
+  "textures": {
+    "0": "nyagibits_bytes:item/modeled_items/dirty_glassware/dirty_tray",
+    "1": "nyagibits_bytes:item/modeled_items/dirty_glassware/dirty_inlet",
+    "2": "nyagibits_bytes:item/modeled_items/dirty_glassware/dirty_distillation_column",
+    "3": "nyagibits_bytes:item/modeled_items/dirty_glassware/dirty_burette",
+    "4": "nyagibits_bytes:item/modeled_items/dirty_glassware/dirty_round_bottom_flask",
+    "5": "nyagibits_bytes:item/modeled_items/dirty_glassware/dirty_beaker",
+    "6": "nyagibits_bytes:item/modeled_items/dirty_glassware/grime",
+    "particle": "nyagibits_bytes:item/modeled_items/dirty_glassware/dirty_tray"
+  }
+}

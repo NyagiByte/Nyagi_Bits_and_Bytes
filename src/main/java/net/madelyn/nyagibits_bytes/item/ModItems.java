@@ -536,6 +536,8 @@ public class ModItems {
       add(new ItemInfo("billet_blasted_15n20", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
       //  Blast-Smelted Stainless Mix Billet  added 6/1/26 - Nyagi
       add(new ItemInfo("billet_blasted_stainless", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  Dirty Glassware added 6/13/26 - Nyagi
+    add(new ItemInfo("dirty_glassware", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
 
     //Scrap system
     //  Plastonium Paste I  added 2/3/26 - Nyagi
