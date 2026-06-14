@@ -373,6 +373,8 @@ public class ModChemicals {
         add(new ChemicalInfo("naphtha_cracked", 0xA1994856, Type.LIQUID).fluid());
         // Propylene  added 1/7/26
         add(new ChemicalInfo("propylene", 0xA1a6b365, Type.LIQUID).fluid());
+        // Piranha Solution  added 6/14/26
+        add(new ChemicalInfo("solution_piranha", 0xA1fefdd6, Type.LIQUID).fluid());
 
     }
 

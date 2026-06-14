@@ -834,6 +834,8 @@
   "item.nyagibits_bytes.billet_blasted_stainless.desc": "The goodies must be released from their smouldering prison",
   "item.nyagibits_bytes.dirty_glassware": "Dirty Chemical Grade Glassware",
   "item.nyagibits_bytes.dirty_glassware.desc": "Full of the arch nemesis. Tar! Clean it up!",
+  "chemical.nyagibits_bytes.solution_piranha.name": "Piranha Solution",
+  "chemical.nyagibits_bytes.solution_piranha.desc": "A mix of sulfuric acid and industrial hydrogen peroxide\nthat will completely obliterate organic matter on\ncontact, reducing it to nothing but CO₂ gas and water.",
 
   "item.nyagibits_bytes.ball_plastic_i": "Plastonium Paste I",
   "item.nyagibits_bytes.ball_plastic_i.desc": "Grongoᵗᵐ Corpᵗᵐ proprietaryᵗᵐ plasticᵗᵐ",
