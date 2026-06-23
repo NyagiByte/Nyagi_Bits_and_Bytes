@@ -836,6 +836,10 @@
   "item.nyagibits_bytes.dirty_glassware.desc": "Full of the arch nemesis. Tar! Clean it up!",
   "chemical.nyagibits_bytes.solution_piranha.name": "Piranha Solution",
   "chemical.nyagibits_bytes.solution_piranha.desc": "A mix of sulfuric acid and industrial hydrogen peroxide\nthat will completely obliterate organic matter on\ncontact, reducing it to nothing but CO₂ gas and water.",
+  "chemical.nyagibits_bytes.sodium_pyrosulfate.name": "Sodium Pyrosulfate",
+  "chemical.nyagibits_bytes.sodium_pyrosulfate.desc": "Not to be confused for sodium pyrosulfite, this substance\nis much more useless. The only real relevance this chemical\nhas is being cracked into sulfur trioxide.",
+  "chemical.nyagibits_bytes.sodium_sulfide.name": "Sodium Sulfide",
+  "chemical.nyagibits_bytes.sodium_sulfide.desc": "Mainly finds use in the kraft process for pulping and\npaper-making. Works great as a sulfonation agent in\nrubber making, ore flotation, oil recovery, dye making,\nand leather processing. Quite the multitasker!",
 
   "item.nyagibits_bytes.ball_plastic_i": "Plastonium Paste I",
   "item.nyagibits_bytes.ball_plastic_i.desc": "Grongoᵗᵐ Corpᵗᵐ proprietaryᵗᵐ plasticᵗᵐ",

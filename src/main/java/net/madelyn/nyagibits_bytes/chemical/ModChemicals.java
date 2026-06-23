@@ -375,6 +375,10 @@ public class ModChemicals {
         add(new ChemicalInfo("propylene", 0xA1a6b365, Type.LIQUID).fluid());
         // Piranha Solution  added 6/14/26
         add(new ChemicalInfo("solution_piranha", 0xA1fefdd6, Type.LIQUID).fluid());
+        // Sodium Pyrosulfate  added 6/14/26
+        add(new ChemicalInfo("sodium_pyrosulfate", 0xA1b06f37, Type.SOLID).dust());
+        // Sodium Sulfide  added 6/14/26
+        add(new ChemicalInfo("sodium_sulfide", 0xA1b09b37, Type.SOLID).dust());
 
     }
 
