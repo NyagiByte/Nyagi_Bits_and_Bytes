@@ -538,6 +538,30 @@ public class ModItems {
       add(new ItemInfo("billet_blasted_stainless", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
     //  Dirty Glassware added 6/13/26 - Nyagi
     add(new ItemInfo("dirty_glassware", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  Cream added 6/29/26 - Nyagi
+    add(new ItemInfo("cream", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  Saturated Filter added 6/29/26 - Nyagi
+    add(new ItemInfo("filter_saturated", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  Precipitated Casein added 6/29/26 - Nyagi
+    add(new ItemInfo("casein_precipitated", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  High-Grade Casein added 6/29/26 - Nyagi
+    add(new ItemInfo("casein_high", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  Low-Grade Casein added 6/29/26 - Nyagi
+    add(new ItemInfo("casein_low", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  Casein Powder added 6/29/26 - Nyagi
+    add(new ItemInfo("casein_powder", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  Whey Powder added 6/29/26 - Nyagi
+    add(new ItemInfo("whey_powder", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  Peptone added 6/29/26 - Nyagi
+    add(new ItemInfo("peptone", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  Sabouraud Agar added 6/29/26 - Nyagi
+    add(new ItemInfo("petri_dish_sabouraud", Type.CUSTOM_TOOLTIP, Tab.BIOLOGY));
+    //  Mushroom Culture added 6/29/26 - Nyagi
+    add(new ItemInfo("petri_dish_mushrooms_vanilla", Type.CUSTOM_TOOLTIP, Tab.BIOLOGY));
+    //  Compacted Wood Pile added 6/29/26 - Nyagi
+    add(new ItemInfo("compacted_wood_pile", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  Inoculated Wood Pile added 6/29/26 - Nyagi
+    add(new ItemInfo("inoculated_wood_pile", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
 
     //Scrap system
     //  Plastonium Paste I  added 2/3/26 - Nyagi

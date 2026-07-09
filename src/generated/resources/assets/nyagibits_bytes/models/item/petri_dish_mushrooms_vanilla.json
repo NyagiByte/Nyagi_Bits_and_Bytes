@@ -1,0 +1,11 @@
+{
+  "parent": "nyagibits_bytes:item/modeled_items/petri_dish_mushrooms_vanilla/petri_dish_mushrooms_vanilla",
+  "textures": {
+    "0": "nyagibits_bytes:item/modeled_items/petri_dish_mushrooms_vanilla/petri_dish_sabouraud",
+    "1": "nyagibits_bytes:item/modeled_items/petri_dish_mushrooms_vanilla/brown_1",
+    "2": "nyagibits_bytes:item/modeled_items/petri_dish_mushrooms_vanilla/brown_2",
+    "3": "nyagibits_bytes:item/modeled_items/petri_dish_mushrooms_vanilla/red_1",
+    "4": "nyagibits_bytes:item/modeled_items/petri_dish_mushrooms_vanilla/red_2",
+    "particle": "nyagibits_bytes:item/modeled_items/petri_dish_mushrooms_vanilla/petri_dish_sabouraud"
+  }
+}

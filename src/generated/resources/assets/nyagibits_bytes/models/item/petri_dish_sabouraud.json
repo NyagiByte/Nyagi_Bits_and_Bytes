@@ -1,0 +1,7 @@
+{
+  "parent": "nyagibits_bytes:item/biology/petri_dish_sabouraud",
+  "textures": {
+    "0": "nyagibits_bytes:item/modeled_items/petri_dish_mushrooms_vanilla/petri_dish_sabouraud",
+    "particle": "nyagibits_bytes:item/modeled_items/petri_dish_mushrooms_vanilla/petri_dish_sabouraud"
+  }
+}

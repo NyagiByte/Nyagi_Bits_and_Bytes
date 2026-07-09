@@ -108,6 +108,16 @@ public class ModFluids {
         add(new FluidInfo.Builder("tall_oil", 0xA1371604));
         // Turpentine Vapor - Added 12/29/25
         add(new FluidInfo.Builder("turpentine_vapor", 0xA17d790f));
+        // Screened Milk - Added 6/28/26
+        add(new FluidInfo.Builder("milk_screened", 0xA1f1fbfc));
+        // Pasteurized Milk - Added 6/28/26
+        add(new FluidInfo.Builder("milk_pasteurized", 0xA1ffffff));
+        // Skim Milk - Added 6/28/26
+        add(new FluidInfo.Builder("milk_skim", 0xC1ffffff));
+        // Lowfat Milk - Added 6/28/26
+        add(new FluidInfo.Builder("milk_lowfat", 0xB1ffffff));
+        // Rennet Clot Suspension - Added 6/28/26
+        add(new FluidInfo.Builder("rennet_clot_suspension", 0xA19efbc7));
 
 
     }
