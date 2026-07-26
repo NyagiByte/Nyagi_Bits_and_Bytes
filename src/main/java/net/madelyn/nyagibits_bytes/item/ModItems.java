@@ -562,6 +562,14 @@ public class ModItems {
     add(new ItemInfo("compacted_wood_pile", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
     //  Inoculated Wood Pile added 6/29/26 - Nyagi
     add(new ItemInfo("inoculated_wood_pile", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  Uncut Porcelain Slab added 7/25/26 - Nyagi
+    add(new ItemInfo("porcelain_slab_uncut", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  Small-Tile Porcelain added 7/25/26 - Nyagi
+    add(new ItemInfo("porcelain_slab_small", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  Medium-Tile Porcelain added 7/25/26 - Nyagi
+    add(new ItemInfo("porcelain_slab_med", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  Large-Tile Porcelain added 7/25/26 - Nyagi
+    add(new ItemInfo("porcelain_slab_large", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
 
     //Scrap system
     //  Plastonium Paste I  added 2/3/26 - Nyagi

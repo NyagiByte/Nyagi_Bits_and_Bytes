@@ -874,6 +874,18 @@
   "item.nyagibits_bytes.compacted_wood_pile.desc": "A highly compacted brick of lumber",
   "item.nyagibits_bytes.inoculated_wood_pile": "Inoculated Wood Pile",
   "item.nyagibits_bytes.inoculated_wood_pile.desc": "A nitrogen balanced and very moldy hunk of wood. Ready for composting!",
+  "item.nyagibits_bytes.porcelain_slab_uncut": "Uncut Porcelain Slab",
+  "item.nyagibits_bytes.porcelain_slab_uncut.desc": "A freshly roasted slab of fancy clay",
+  "item.nyagibits_bytes.porcelain_slab_small": "Small-Tile Porcelain",
+  "item.nyagibits_bytes.porcelain_slab_small.desc": "Crunchy chips",
+  "item.nyagibits_bytes.porcelain_slab_med": "Medium-Tile Porcelain",
+  "item.nyagibits_bytes.porcelain_slab_med.desc": "Crunchy chips",
+  "item.nyagibits_bytes.porcelain_slab_large": "Large-Tile Porcelain",
+  "item.nyagibits_bytes.porcelain_slab_large.desc": "Crunchy chips",
+  "item.nyagibits_bytes.bucket_of_ceramic_glaze": "Bucket of Ceramic Glaze",
+  "item.nyagibits_bytes.bucket_of_ceramic_glaze.desc": "Water with various silicon dioxides and metals dissolved\nin order to coat ceramics to give them protective and\npretty top layers",
+  "fluid.nyagibits_bytes.ceramic_glaze.name": "Ceramic Glaze",
+
 
   "item.nyagibits_bytes.ball_plastic_i": "Plastonium Paste I",
   "item.nyagibits_bytes.ball_plastic_i.desc": "Grongoᵗᵐ Corpᵗᵐ proprietaryᵗᵐ plasticᵗᵐ",

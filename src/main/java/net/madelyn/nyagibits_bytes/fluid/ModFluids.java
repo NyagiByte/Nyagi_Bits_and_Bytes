@@ -118,6 +118,8 @@ public class ModFluids {
         add(new FluidInfo.Builder("milk_lowfat", 0xB1ffffff));
         // Rennet Clot Suspension - Added 6/28/26
         add(new FluidInfo.Builder("rennet_clot_suspension", 0xA19efbc7));
+        // Ceramic Glaze - Added 7/25/26
+        add(new FluidInfo.Builder("ceramic_glaze", 0xA12054c4));
 
 
     }
