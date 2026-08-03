@@ -586,6 +586,11 @@ public class ModItems {
       //  Tequeño 0  added 2/3/26 - Nyagi
       add(new ItemInfo("tequeno_t0", Type.CUSTOM_TOOLTIP, Tab.TEQUENO));
 
+    //Questbook & Ponder Objects
+
+      //  Questbook Object T0-7063B8BCE64899C9 added 7/25/26 - Nyagi
+      add(new ItemInfo("qo_t0_7063b8bce64899c9", Type.CUSTOM_TOOLTIP, Tab.TEQUENO));
+
     //Chemistry
     // Bottle of Anthocyanin added 8/27/23 - Nyagi
     add(new ItemInfo("bottle_of_anthocyanin", Type.CUSTOM_TOOLTIP, Tab.CHEMICALS));

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "nyagibits_bytes:item/q_p_objects/questbook/qo_t0_7063b8bce64899c9"
+  }
+}

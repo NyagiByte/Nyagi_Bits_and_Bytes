@@ -1,4 +1,4 @@
-// 1.20.1	2026-07-25T22:53:12.303483	Item Models: nyagibits_bytes
+// 1.20.1	2026-08-02T21:47:37.2384417	Item Models: nyagibits_bytes
 f46f3ad7084615037f94f72c8a2e36f9d49a3814 assets/nyagibits_bytes/models/item/1_4_dimethoxybenzene_dust.json
 943e7c163efff69fd7b3eef7ec4178f28ae343e6 assets/nyagibits_bytes/models/item/2d_textures.json
 a1570e6fb1739636dbe8e54f331e6b1fb92aab30 assets/nyagibits_bytes/models/item/2lbxyud1od.json
@@ -907,6 +907,7 @@ fbb2e8db0b34d61dbc116bc050589bbab49d568c assets/nyagibits_bytes/models/item/pure
 47d0a0ba701cc6880d19f2c7afe3801aee7b1971 assets/nyagibits_bytes/models/item/pure_zirconium_ingot.json
 0f8fcf12931905138d8534056a5e5f2e41be3f92 assets/nyagibits_bytes/models/item/pure_zirconium_plate.json
 50e35f413c8d1f88ec374c26c00187c445a33909 assets/nyagibits_bytes/models/item/pyroxene_mix.json
+ea682095e63b3d855fd30f81c55f1b169f5e665e assets/nyagibits_bytes/models/item/qo_t0_7063b8bce64899c9.json
 cdb61c062b76f6a20119236b7ed50ad0e792b5cb assets/nyagibits_bytes/models/item/quenched_thermalsidian.json
 7956f5743ae527344dc5ab7010ecae57fe9fff4f assets/nyagibits_bytes/models/item/raw_allanite.json
 47a4508561d9a0539404e93d8a7a8f678847e7fa assets/nyagibits_bytes/models/item/raw_amblygonite.json
