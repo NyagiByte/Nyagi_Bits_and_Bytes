@@ -12,10 +12,9 @@ import net.madelyn.nyagibits_bytes.item.ModItems;
 import net.madelyn.nyagibits_bytes.misc.Utils;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.tags.BlockTags;
-import net.minecraft.tags.TagKey;
-import net.minecraft.world.level.block.Block;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
+import net.minecraft.world.level.block.ComposterBlock;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -32,7 +31,7 @@ public class NyagiBits_Bytes {
     public static final String MOD_ID = "nyagibits_bytes";
     public static final Logger LOGGER = LogUtils.getLogger();
 
-    public static final TagKey<Block> EXCAVATING_BLACKLIST = BlockTags.create(ResourceLocation.fromNamespaceAndPath(MOD_ID, "excavating_blacklist"));
+
 
     public NyagiBits_Bytes(FMLJavaModLoadingContext ctx) {
         IEventBus modEventBus = ctx.getModEventBus(); //Oh the irony, fixing this by referencing 1.20 Immersive Petroleum
@@ -55,6 +54,22 @@ public class NyagiBits_Bytes {
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
+        /*
+        NOTE: the chance is not intended to go past 1f.
+        OVerloading the change like this is NOT what makes the insta-fill work.
+        That's handled by the "nyagibits_bytes:max_fills_composter" item tag.
+        This is to make EMI display it as "700%"
+         */
+        makeCompostable("inoculated_wood_pile", 7f);
+    }
+
+    private static void makeCompostable(String id, float chance){
+        Item item = Utils.fetchItem(Utils.NBNB(id));
+        if (item == Items.BARRIER){
+            NyagiBits_Bytes.LOGGER.error("Attempted to make an invalid item compostable: {}", id);
+            return;
+        }
+        ComposterBlock.COMPOSTABLES.put(item, chance);
     }
 
     // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent

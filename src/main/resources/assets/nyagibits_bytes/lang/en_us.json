@@ -873,7 +873,7 @@
   "item.nyagibits_bytes.compacted_wood_pile": "Compacted Wood Pile",
   "item.nyagibits_bytes.compacted_wood_pile.desc": "A highly compacted brick of lumber",
   "item.nyagibits_bytes.inoculated_wood_pile": "Inoculated Wood Pile",
-  "item.nyagibits_bytes.inoculated_wood_pile.desc": "A nitrogen balanced and very moldy hunk of wood. Ready for composting!",
+  "item.nyagibits_bytes.inoculated_wood_pile.desc": "A nitrogen balanced and very moldy hunk of wood. Ready for composting!\n\u00A7aInstantly fills composters",
   "item.nyagibits_bytes.porcelain_slab_uncut": "Uncut Porcelain Slab",
   "item.nyagibits_bytes.porcelain_slab_uncut.desc": "A freshly roasted slab of fancy clay",
   "item.nyagibits_bytes.porcelain_slab_small": "Small-Tile Porcelain",

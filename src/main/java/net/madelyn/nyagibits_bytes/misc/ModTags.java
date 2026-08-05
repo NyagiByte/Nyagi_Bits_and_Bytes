@@ -1,8 +1,9 @@
 package net.madelyn.nyagibits_bytes.misc;
 
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.BlockTags;
+import net.minecraft.tags.ItemTags;
 import net.minecraft.tags.TagKey;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 
 public class ModTags {
@@ -13,9 +14,21 @@ public class ModTags {
         public static final TagKey<Block> NEEDS_ALFSTEEL_TOOL = tag("needs_alfsteel_tool");
         public static final TagKey<Block> NEEDS_FLAKE_TOOL = tag("needs_flake_tool");
 
+        public static final TagKey<Block> EXCAVATING_BLACKLIST = tag("excavating_blacklist");
+
+
         private static TagKey<Block> tag(String name) {
             return BlockTags.create(Utils.NBNB(name));
         }
 
+    }
+
+    public static class Items{
+
+        public static final TagKey<Item> SUPER_COMPOST = tag("max_fills_composter");
+
+        private static TagKey<Item> tag(String name) {
+            return ItemTags.create(Utils.NBNB(name));
+        }
     }
 }

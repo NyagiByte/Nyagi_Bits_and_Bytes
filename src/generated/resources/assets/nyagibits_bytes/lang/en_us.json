@@ -1784,7 +1784,7 @@
   "item.nyagibits_bytes.inlet": "Inlet",
   "item.nyagibits_bytes.inlet.desc": "A connection point between chemistry\nglassware. Can be greased with acid\nor well... grease",
   "item.nyagibits_bytes.inoculated_wood_pile": "Inoculated Wood Pile",
-  "item.nyagibits_bytes.inoculated_wood_pile.desc": "A nitrogen balanced and very moldy hunk of wood. Ready for composting!",
+  "item.nyagibits_bytes.inoculated_wood_pile.desc": "A nitrogen balanced and very moldy hunk of wood. Ready for composting!\n§aInstantly fills composters",
   "item.nyagibits_bytes.insulating_washer": "Insulating Washer",
   "item.nyagibits_bytes.insulating_washer.desc": "A useful component for electronics and not\ngetting the zippy zaps",
   "item.nyagibits_bytes.intestines": "Intestines",

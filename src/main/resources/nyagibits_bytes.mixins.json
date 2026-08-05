@@ -5,6 +5,7 @@
   "compatibilityLevel": "JAVA_17",
   "refmap": "nyagibits_bytes.refmap.json",
   "mixins": [
+    "ComposterMixin"
   ],
   "client": [
   ],

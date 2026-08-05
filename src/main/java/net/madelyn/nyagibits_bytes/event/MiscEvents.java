@@ -4,6 +4,7 @@ import com.google.common.collect.ImmutableMap;
 import net.madelyn.nyagibits_bytes.NyagiBits_Bytes;
 import net.madelyn.nyagibits_bytes.enchant.ModEnchantments;
 import net.madelyn.nyagibits_bytes.item.custom.CustomCurioItem;
+import net.madelyn.nyagibits_bytes.misc.ModTags;
 import net.madelyn.nyagibits_bytes.misc.Utils;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -99,7 +100,7 @@ public class MiscEvents {
                         .withOptionalParameter(LootContextParams.BLOCK_ENTITY, blockEntity);
 
 
-                if((tool.isCorrectToolForDrops(state) && !state.is(NyagiBits_Bytes.EXCAVATING_BLACKLIST)) || (i == 0 && j == 0)){
+                if((tool.isCorrectToolForDrops(state) && !state.is(ModTags.Blocks.EXCAVATING_BLACKLIST)) || (i == 0 && j == 0)){
                     level.destroyBlock(target, false, e.getPlayer());
                     if(dropItems){
                         state.getDrops(builder).forEach(stack -> {
