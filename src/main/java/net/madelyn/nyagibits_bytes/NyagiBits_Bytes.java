@@ -56,11 +56,12 @@ public class NyagiBits_Bytes {
     private void commonSetup(final FMLCommonSetupEvent event) {
         /*
         NOTE: the chance is not intended to go past 1f.
-        OVerloading the change like this is NOT what makes the insta-fill work.
+        Overloading the change like this is NOT what makes the insta-fill work.
         That's handled by the "nyagibits_bytes:max_fills_composter" item tag.
         This is to make EMI display it as "700%"
          */
         makeCompostable("inoculated_wood_pile", 7f);
+        makeCompostable("mixed_seeds", 0.5f);
     }
 
     private static void makeCompostable(String id, float chance){
