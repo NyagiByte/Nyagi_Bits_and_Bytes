@@ -570,6 +570,20 @@ public class ModItems {
     add(new ItemInfo("porcelain_slab_med", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
     //  Large-Tile Porcelain added 7/25/26 - Nyagi
     add(new ItemInfo("porcelain_slab_large", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  Mini-Frasch Apparatus added 8/7/26 - Nyagi
+    add(new ItemInfo("mini_frasch_apparatus", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  Un-Sifted Sulfur Pellets added 8/7/26 - Nyagi
+    add(new ItemInfo("sulfur_pellets_unsifted", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  Uniform Grade Sulfur Pellets added 8/7/26 - Nyagi
+    add(new ItemInfo("sulfur_pellets_uniform", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  Misshapen Sulfur Pellets added 8/7/26 - Nyagi
+    add(new ItemInfo("sulfur_pellets_misshapen", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  Metal-Mesh Filter added 8/7/26 - Nyagi
+    add(new ItemInfo("filter_metal_mesh", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  Jammed Metal-Mesh Filter added 8/7/26 - Nyagi
+    add(new ItemInfo("filter_metal_mesh_jammed", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  Roll Sulfur added 8/7/26 - Nyagi
+    add(new ItemInfo("sulfur_roll", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
 
     //Scrap system
     //  Plastonium Paste I  added 2/3/26 - Nyagi

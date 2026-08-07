@@ -120,6 +120,14 @@ public class ModFluids {
         add(new FluidInfo.Builder("rennet_clot_suspension", 0xA19efbc7));
         // Ceramic Glaze - Added 7/25/26
         add(new FluidInfo.Builder("ceramic_glaze", 0xA12054c4));
+        // Molten Sulfur - Added 8/7/26
+        add(new FluidInfo.Builder("sulfur_molten", 0xA13b3f01));
+        // Screened Molten Sulfur - Added 8/7/26
+        add(new FluidInfo.Builder("sulfur_molten_screened", 0xA1696e02));
+        // Uniform Molten Sulfur - Added 8/7/26
+        add(new FluidInfo.Builder("sulfur_molten_uniform", 0xA1929202));
+        // Sulfury Volatile Organics - Added 8/7/26
+        add(new FluidInfo.Builder("sulfur_volatile_organics", 0xA1dcdebd));
 
 
     }
