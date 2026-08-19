@@ -907,6 +907,8 @@
   "item.nyagibits_bytes.filter_metal_mesh.desc": "A reinforced filter to not instantly die",
   "item.nyagibits_bytes.filter_metal_mesh_jammed": "Jammed Metal-Mesh Filter",
   "item.nyagibits_bytes.filter_metal_mesh_jammed.desc": "Whoops it broke.\nBetter recover what can be recovered",
+  "item.nyagibits_bytes.tres_blazes_cake": "Tres' Blazes Cake",
+  "item.nyagibits_bytes.tres_blazes_cake.desc": "Absolutely Decadent...\nfor beings who enjoy being on fire",
 
 
   "item.nyagibits_bytes.ball_plastic_i": "Plastonium Paste I",

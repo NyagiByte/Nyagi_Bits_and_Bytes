@@ -584,6 +584,8 @@ public class ModItems {
     add(new ItemInfo("filter_metal_mesh_jammed", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
     //  Roll Sulfur added 8/7/26 - Nyagi
     add(new ItemInfo("sulfur_roll", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
+    //  Tres' Blazes Cake added 8/18/26 - Nyagi
+    add(new ItemInfo("tres_blazes_cake", Type.CUSTOM_TOOLTIP, Tab.ITEMS));
 
     //Scrap system
     //  Plastonium Paste I  added 2/3/26 - Nyagi

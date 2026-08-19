@@ -1,4 +1,4 @@
-// 1.20.1	2026-08-07T09:54:55.7399016	Item Models: nyagibits_bytes
+// 1.20.1	2026-08-18T23:11:24.1926277	Item Models: nyagibits_bytes
 f46f3ad7084615037f94f72c8a2e36f9d49a3814 assets/nyagibits_bytes/models/item/1_4_dimethoxybenzene_dust.json
 943e7c163efff69fd7b3eef7ec4178f28ae343e6 assets/nyagibits_bytes/models/item/2d_textures.json
 a1570e6fb1739636dbe8e54f331e6b1fb92aab30 assets/nyagibits_bytes/models/item/2lbxyud1od.json
@@ -1439,6 +1439,7 @@ d3da52d71c935b35b6ce5e4b204ac3d13575fc30 assets/nyagibits_bytes/models/item/tiny
 d4aeb1baca66663e4ead14ce73819c697dc1e110 assets/nyagibits_bytes/models/item/torn_wool_ball.json
 b4685772e3c03dc5dd881d2f715fbbf6970f2abb assets/nyagibits_bytes/models/item/tough_bag.json
 9d9d97a83d2a8f6128ccfcf9ddcaecb6138ebdf8 assets/nyagibits_bytes/models/item/tpv_cell.json
+95dc057055106792f79a390574c9788d61df4b34 assets/nyagibits_bytes/models/item/tres_blazes_cake.json
 43456f9eb7633fcd3b8d4b07338919b91c8da645 assets/nyagibits_bytes/models/item/trinitite.json
 095ecebc60573adba0771febd10882b89e5f1859 assets/nyagibits_bytes/models/item/triphenylphosphene_dust.json
 f75d20ae6af36b314015d1ff98b18fcfe5152889 assets/nyagibits_bytes/models/item/triple_bay_4s_series_toolbox.json
