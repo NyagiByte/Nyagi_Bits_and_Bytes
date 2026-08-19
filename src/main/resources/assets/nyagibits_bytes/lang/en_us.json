@@ -909,6 +909,15 @@
   "item.nyagibits_bytes.filter_metal_mesh_jammed.desc": "Whoops it broke.\nBetter recover what can be recovered",
   "item.nyagibits_bytes.tres_blazes_cake": "Tres' Blazes Cake",
   "item.nyagibits_bytes.tres_blazes_cake.desc": "Absolutely Decadent...\nfor beings who enjoy being on fire",
+  "item.nyagibits_bytes.sample_organic_tailings_generic": "Sample of Generic Organic Tailings",
+  "item.nyagibits_bytes.sample_organic_tailings_light": "Sample of Light Organic Tailings",
+  "item.nyagibits_bytes.sample_organic_tailings_heavy": "Sample of Heavy Organic Tailings",
+  "item.nyagibits_bytes.sample_lithic_tailings_generic": "Sample of Generic Lithic Tailings",
+  "item.nyagibits_bytes.sample_lithic_tailings_light": "Sample of Light Lithic Tailings",
+  "item.nyagibits_bytes.sample_lithic_tailings_heavy": "Sample of Heavy Lithic Tailings",
+  "item.nyagibits_bytes.sample_unidentified_solid_metallic_tailings_generic": "Sample of Unidentified Generic Solid Metallic Tailings",
+  "item.nyagibits_bytes.sample_unidentified_dissolved_metallic_tailings_generic": "Sample of Unidentified Generic Dissolved Metallic Tailings",
+  "item.nyagibits_bytes.tert_butyl_alcohol_dust": "t-Butyl Alcohol Dust",
 
 
   "item.nyagibits_bytes.ball_plastic_i": "Plastonium Paste I",
