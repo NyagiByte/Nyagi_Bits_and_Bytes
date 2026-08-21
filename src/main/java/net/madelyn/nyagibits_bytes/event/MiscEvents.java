@@ -61,6 +61,10 @@ public class MiscEvents {
     public static void excavatingAOECheck(BlockEvent.BreakEvent e){
         if(e.getPlayer().isShiftKeyDown()) return; //Crouch to disable the effects
         BlockHitResult target = (BlockHitResult) e.getPlayer().pick(10, 1, false); //This gets the targeted block's face.
+        if(!target.getBlockPos().equals(e.getPos())){
+            //This fixes an issue where the hit result gives a different block, causing another block to get instamined regardless of blacklists.
+            return;
+        }
         ItemStack tool = e.getPlayer().getMainHandItem();
         /*if(tool.getEnchantmentLevel(ModEnchantments.BLASTING.get()) > 0){
             excavate(e, target.getBlockPos(), target.getDirection(), false, tool);
@@ -68,7 +72,7 @@ public class MiscEvents {
             return; //The enchants should be mutually exclusive, but better be safe.
         }*/
         if(tool.getEnchantmentLevel(ModEnchantments.EXCAVATING.get()) > 0 && tool.isCorrectToolForDrops(e.getState())){
-            excavate(e, target.getBlockPos(), target.getDirection(), true, tool);
+            excavate(e, e.getPos(), target.getDirection(), true, tool);
             e.setCanceled(true);
         }
     }

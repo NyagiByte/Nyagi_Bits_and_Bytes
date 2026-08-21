@@ -115,7 +115,7 @@ public class ItemInfo {
 
     public static class Tool extends ItemInfo {
         private final RandomSource Random = RandomSource.create();
-        private int durability;
+        private final int durability;
 
         public Tool(String id, Utils.Tab tab, int durability){
             super(id, ModItems.Type.ITEM, tab);
@@ -125,6 +125,21 @@ public class ItemInfo {
         public Item registerItem(){
             Item ret = new CustomToolItem( new Item.Properties()
                     .durability(durability));
+            Utils.CREATIVE_CACHE.get(getTab()).add(ret);
+            return ret;
+        }
+    }
+
+    public static class Fuel extends ItemInfo {
+        private final int burnTime;
+
+        public Fuel(String id, Utils.Tab tab, int time){
+            super(id, ModItems.Type.ITEM, tab);
+            this.burnTime = time;
+        }
+        @Override
+        public Item registerItem(){
+            Item ret = new CustomFuelItem(new Item.Properties(), burnTime);
             Utils.CREATIVE_CACHE.get(getTab()).add(ret);
             return ret;
         }
