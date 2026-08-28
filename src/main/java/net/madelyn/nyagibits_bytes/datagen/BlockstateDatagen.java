@@ -1,12 +1,9 @@
 package net.madelyn.nyagibits_bytes.datagen;
 
 import net.madelyn.nyagibits_bytes.NyagiBits_Bytes;
-import net.madelyn.nyagibits_bytes.block.BlockInfo;
-import net.madelyn.nyagibits_bytes.block.ModBlocks;
-import net.madelyn.nyagibits_bytes.chemical.ChemicalInfo;
-import net.madelyn.nyagibits_bytes.chemical.ModChemicals;
-import net.madelyn.nyagibits_bytes.fluid.FluidInfo;
-import net.madelyn.nyagibits_bytes.fluid.ModFluids;
+import net.madelyn.nyagibits_bytes.registry.ModRegistries;
+import net.madelyn.nyagibits_bytes.registry.helpers.BlockInfo;
+import net.madelyn.nyagibits_bytes.registry.helpers.FluidInfo;
 import net.madelyn.nyagibits_bytes.misc.Utils;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.server.packs.PackType;
@@ -26,11 +23,11 @@ public class BlockstateDatagen extends BlockStateProvider {
     //But it does what i need it to do, so whatever.
     @Override
     protected void registerStatesAndModels() {
-        for(BlockInfo block : ModBlocks.BLOCKS_LIST){
-            if(!assetExists("blockstates/"+block.getId()+".json")){
+        for(BlockInfo block : ModRegistries.BLOCKS_LIST){
+            NyagiBits_Bytes.LOGGER.info(block.getId());
+            if(!assetExists("blockstates/"+block.getId()+".json")){;
                 //don't handle rotatable blocks, for now.
                 if(block instanceof BlockInfo.Rotatable rot) continue;
-
                 ModelFile model = models().getExistingFile(modLoc("block/"+block.getId()));
 
                 if(block.isTinted()){
@@ -43,17 +40,10 @@ public class BlockstateDatagen extends BlockStateProvider {
             }
         }
         ModelFile model = models().getExistingFile(mcLoc("block/water"));
-        for(FluidInfo.Builder fluid : ModFluids.FLUIDS_LIST){
+        for(FluidInfo.Builder fluid : ModRegistries.FLUIDS_LIST){
             getVariantBuilder(Utils.fetchBlock(Utils.NBNB(fluid.id+"_block")))
                     .partialState().modelForState().modelFile(model).addModel();
         }
-        for(ChemicalInfo chem : ModChemicals.CHEM_LIST){
-            if(chem.getFluid() == null) continue;
-            FluidInfo.Builder fluid = chem.getFluid();
-            getVariantBuilder(Utils.fetchBlock(Utils.NBNB(fluid.id+"_block")))
-                    .partialState().modelForState().modelFile(model).addModel();
-        }
-
 
     }
 

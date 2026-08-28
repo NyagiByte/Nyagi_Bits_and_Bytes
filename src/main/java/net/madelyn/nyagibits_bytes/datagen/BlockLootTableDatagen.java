@@ -1,13 +1,13 @@
 package net.madelyn.nyagibits_bytes.datagen;
 
-import net.madelyn.nyagibits_bytes.block.BlockInfo;
-import net.madelyn.nyagibits_bytes.block.ModBlocks;
+import net.madelyn.nyagibits_bytes.NyagiBits_Bytes;
+import net.madelyn.nyagibits_bytes.registry.ModRegistries;
+import net.madelyn.nyagibits_bytes.registry.helpers.BlockInfo;
+import net.madelyn.nyagibits_bytes.registry.categories.ModBlocks;
 import net.madelyn.nyagibits_bytes.misc.Utils;
 import net.minecraft.data.loot.BlockLootSubProvider;
 import net.minecraft.server.packs.PackType;
-import net.minecraft.world.flag.FeatureFlagSet;
 import net.minecraft.world.flag.FeatureFlags;
-import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.LiquidBlock;
 import net.minecraft.world.level.storage.loot.LootPool;
@@ -21,7 +21,6 @@ import org.jetbrains.annotations.NotNull;
 
 import java.util.Collections;
 import java.util.List;
-import java.util.Set;
 
 import static net.madelyn.nyagibits_bytes.misc.Utils.NBNB;
 import static net.madelyn.nyagibits_bytes.misc.Utils.fetchBlock;
@@ -42,7 +41,7 @@ public class BlockLootTableDatagen extends BlockLootSubProvider {
     //Declare too much? It will break if you don't actually datagen all of that.
     //Declare too little? It will break if you datagen a single undeclared loot table
     protected @NotNull Iterable<Block> getKnownBlocks() {
-        return ModBlocks.BLOCKS.getEntries().stream().map(RegistryObject::get).filter(block -> !(block instanceof LiquidBlock)) //filter out fluid blocks
+        return ModRegistries.BLOCKS.getEntries().stream().map(RegistryObject::get).filter(block -> !(block instanceof LiquidBlock)) //filter out fluid blocks
                 .filter(block -> { //And filter out blocks that already have a defined loot table outside datagen.
                     String path = ForgeRegistries.BLOCKS.getKey(block).getPath();
                     return !assetExists("loot_tables/blocks/"+path+".json");
@@ -51,12 +50,13 @@ public class BlockLootTableDatagen extends BlockLootSubProvider {
 
     @Override
     protected void generate() {
-        for(BlockInfo block : ModBlocks.BLOCKS_LIST){
+        for(BlockInfo block : ModRegistries.BLOCKS_LIST){
+            //NyagiBits_Bytes.LOGGER.info("Generating: {}", block.getId());
             //Don't handle conglomerates or items with more unique loot tables
             if(!(block instanceof BlockInfo.Ore) && (!assetExists("loot_tables/blocks/"+block.getId()+".json"))){
                 dropSelf( fetchBlock(NBNB(block.getId())) );
             }
-
+            //NyagiBits_Bytes.LOGGER.info("Done: {}", block.getId());
         }
         //I HOPE I didn't mess any of these up. That would be bad.
         addBoulder("bauxite", List.of("raw_bauxite", "raw_feldspar", "raw_clustered_beryl", "raw_cryolite", "raw_spinel", "raw_turquoise", "raw_garnet_slush", "raw_native_aluminum"));

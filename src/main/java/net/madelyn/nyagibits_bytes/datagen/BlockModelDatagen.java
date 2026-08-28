@@ -4,8 +4,9 @@ import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import net.madelyn.nyagibits_bytes.NyagiBits_Bytes;
-import net.madelyn.nyagibits_bytes.block.BlockInfo;
-import net.madelyn.nyagibits_bytes.block.ModBlocks;
+import net.madelyn.nyagibits_bytes.registry.ModRegistries;
+import net.madelyn.nyagibits_bytes.registry.helpers.BlockInfo;
+import net.madelyn.nyagibits_bytes.registry.categories.ModBlocks;
 import net.madelyn.nyagibits_bytes.misc.Utils;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.server.packs.PackType;
@@ -62,7 +63,7 @@ public class BlockModelDatagen extends BlockModelProvider {
             }
 
         }
-        for(BlockInfo block : ModBlocks.BLOCKS_LIST){
+        for(BlockInfo block : ModRegistries.BLOCKS_LIST){
             if(assetExists("models/block/"+block.getId()+".json")) continue;
 
             //Do not handle rotatable blocks, for now. Not until a whole refactor of this.
@@ -71,7 +72,7 @@ public class BlockModelDatagen extends BlockModelProvider {
                 withExistingParent("block/"+block.getId(), modLoc("block/dg_pure_metal_block"));
                 continue;
             }
-
+            NyagiBits_Bytes.LOGGER.info("Building model for {}", block.getId());
             BlockModelBuilder modelBuilder = withExistingParent("block/"+block.getId(), mcLoc("block/cube_all"));
             if(TEXTURES.containsKey(block.getId())) modelBuilder.texture("all", modLoc("block/"+TEXTURES.get(block.getId())));
             else{

@@ -3,12 +3,8 @@ package net.madelyn.nyagibits_bytes;
 --------------------------------------------------------------------------------*/
 
 import com.mojang.logging.LogUtils;
-import net.madelyn.nyagibits_bytes.block.ModBlocks;
-import net.madelyn.nyagibits_bytes.chemical.ModChemicals;
-import net.madelyn.nyagibits_bytes.enchant.ModEnchantments;
-import net.madelyn.nyagibits_bytes.fluid.ModFluids;
-import net.madelyn.nyagibits_bytes.item.ModCreativeModeTab;
-import net.madelyn.nyagibits_bytes.item.ModItems;
+import net.madelyn.nyagibits_bytes.registry.ModRegistries;
+import net.madelyn.nyagibits_bytes.registry.categories.*;
 import net.madelyn.nyagibits_bytes.misc.Utils;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
@@ -23,6 +19,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.minecraftforge.registries.RegisterEvent;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -36,22 +33,22 @@ public class NyagiBits_Bytes {
     public NyagiBits_Bytes(FMLJavaModLoadingContext ctx) {
         IEventBus modEventBus = ctx.getModEventBus(); //Oh the irony, fixing this by referencing 1.20 Immersive Petroleum
 
-        //Registers adds items
-        ModItems.register(modEventBus);
-        //Register adds blocks
-        ModBlocks.register(modEventBus);
-        //Register adds fluids
-        ModFluids.register(modEventBus);
-        //Register adds chemical item and fluids
-        ModChemicals.register(modEventBus);
-        //Register adds creative mode tabs
-        ModCreativeModeTab.register(modEventBus);
-        //Register adds new enchantments
-        ModEnchantments.register(modEventBus);
+        ModItems.init();
+        ModBlocks.init();
+        ModChemicals.init();
+        ModFluids.init();
+        ModEnchantments.init();
+        ModCreativeModeTab.init();
+        ModOPAMetals.init();
+
+        ModRegistries.initRegistry();
+
+        ModRegistries.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
     }
+
 
     private void commonSetup(final FMLCommonSetupEvent event) {
         /*

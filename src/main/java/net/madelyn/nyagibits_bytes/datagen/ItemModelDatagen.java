@@ -4,15 +4,12 @@ import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import net.madelyn.nyagibits_bytes.NyagiBits_Bytes;
-import net.madelyn.nyagibits_bytes.block.BlockInfo;
-import net.madelyn.nyagibits_bytes.block.ModBlocks;
-import net.madelyn.nyagibits_bytes.chemical.ChemicalInfo;
-import net.madelyn.nyagibits_bytes.chemical.ModChemicals;
-import net.madelyn.nyagibits_bytes.fluid.ModFluids;
-import net.madelyn.nyagibits_bytes.item.ItemInfo;
-import net.madelyn.nyagibits_bytes.item.ModItems;
+import net.madelyn.nyagibits_bytes.content.item.NBNBItem;
 import net.madelyn.nyagibits_bytes.misc.Utils;
-import net.madelyn.nyagibits_bytes.pure.OPAPurifiedMetals;
+import net.madelyn.nyagibits_bytes.registry.ModRegistries;
+import net.madelyn.nyagibits_bytes.registry.categories.ModFluids;
+import net.madelyn.nyagibits_bytes.registry.helpers.BlockInfo;
+import net.madelyn.nyagibits_bytes.registry.helpers.ItemInfo;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.server.packs.PackType;
 import net.minecraftforge.client.model.generators.ItemModelBuilder;
@@ -23,10 +20,10 @@ import javax.annotation.Nullable;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.StandardCopyOption;
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
+
+import static net.madelyn.nyagibits_bytes.registry.ModRegistries.ITEMS_LIST;
 
 public class ItemModelDatagen extends ItemModelProvider {
     //These three maps hold the data on where each texture or model actually is.
@@ -53,20 +50,6 @@ public class ItemModelDatagen extends ItemModelProvider {
     //Oh boy, here we go.
     @Override
     protected void registerModels(){
-
-        List<ItemInfo> items = new ArrayList<>();
-        items.addAll(ModItems.ITEMS_LIST);
-        List<ItemInfo.Chem> chemicals = new ArrayList<>();
-        for(ChemicalInfo chem : ModChemicals.CHEM_LIST){
-            chemicals.add(chem.getSample());
-            if(chem.getCompacted() != null){
-                if(chem.getCompacted() instanceof ItemInfo.Chem dust) chemicals.add(dust);
-                else items.add(chem.getCompacted());
-            }
-
-        }
-        chemicals.addAll(OPAPurifiedMetals.ITEM_LIST);
-
 
         //First, all found item models must be processed with texture redirects.
         for(Map.Entry<String, String> entry : MODELS.entrySet()){
@@ -107,7 +90,7 @@ public class ItemModelDatagen extends ItemModelProvider {
             }
         }
         //Now it's time to go over the items and generate models for items that don't have any.
-        for(ItemInfo item : items){
+        for(ItemInfo item : ITEMS_LIST){
             //If an item has the parent model field set, make a redirect to that instead and don't do anything else.
             if(!item.getParentModel().isEmpty()){
                 //if(MODELS.containsKey(item.getParentModel())) withExistingParent("item/"+item.getId(), modLoc("item/"+MODELS.get(item.getParentModel())));
@@ -116,13 +99,30 @@ public class ItemModelDatagen extends ItemModelProvider {
             }
             //If the model already exists, either premade or generated, skip to the next item.
             if(assetExists("models/item/"+item.getId()+".json")) continue;
+
             //Create a simple item model with just one texture.
             ItemModelBuilder modelBuilder = withExistingParent("item/"+item.getId(), mcLoc("item/generated"));
+
             //Same deal as earlier, just without the namespace check. The item id becomes the key when searching for a texture.
             if(TEXTURES.containsKey(item.getId())) modelBuilder.texture("layer0", modLoc("item/"+TEXTURES.get(item.getId())));
             else{
-                NyagiBits_Bytes.LOGGER.error("Texture {} was not found anywhere", item.getId());
-                modelBuilder.texture("layer0", modLoc("item/"+TEXTURES.get("placeholder")));
+                if(item.getTraits().contains(NBNBItem.ItemTraits.IS_CHEMICAL) && item.getChemType() != ItemInfo.ChemType.NONE){
+                    String type = "";
+                    switch (item.getChemType()) {
+                        case SOLID -> type = "solid";
+                        case LIQUID -> type = "liquid";
+                        case GAS -> type = "gas";
+                        case DUST, FLOAT_DUST -> type = "dust";
+                        case INGOT -> type = "ingot";
+                        case PLATE -> type = "plate";
+                    }
+                    modelBuilder.texture("layer0", modLoc("item/"+TEXTURES.get("dg_blank_layer")));
+                    modelBuilder.texture("layer1", modLoc("item/"+TEXTURES.get("dg_"+type+"_layer1")));
+                    if(!type.matches("ingot") && !type.matches("plate")) modelBuilder.texture("layer2", modLoc("item/"+TEXTURES.get("dg_"+type+"_layer2")));
+                }else{
+                    NyagiBits_Bytes.LOGGER.error("Texture {} was not found anywhere", item.getId());
+                    modelBuilder.texture("layer0", modLoc("item/"+TEXTURES.get("placeholder")));
+                }
             }
         }
 
@@ -136,28 +136,8 @@ public class ItemModelDatagen extends ItemModelProvider {
             }
         }
 
-        for(ItemInfo.Chem chem : chemicals){
-            ItemModelBuilder modelBuilder = withExistingParent("item/"+chem.getId(), mcLoc("item/generated"));
-            if(TEXTURES.containsKey(chem.getId())) modelBuilder.texture("layer0", modLoc("item/"+TEXTURES.get(chem.getId())));
-            else{
-                String type = "";
-                switch (chem.getChemType()) {
-                    case SOLID -> type = "solid";
-                    case LIQUID -> type = "liquid";
-                    case GAS -> type = "gas";
-                    case DUST -> type = "dust";
-                    case INGOT -> type = "ingot";
-                    case PLATE -> type = "plate";
-                }
-                    modelBuilder.texture("layer0", modLoc("item/"+TEXTURES.get("dg_blank_layer")));
-                    modelBuilder.texture("layer1", modLoc("item/"+TEXTURES.get("dg_"+type+"_layer1")));
-                    if(!type.matches("ingot") && !type.matches("plate")) modelBuilder.texture("layer2", modLoc("item/"+TEXTURES.get("dg_"+type+"_layer2")));
-                }
-        }
-
-
         //Blocks need item models too. They just need to point to the respective block though, so it's not a big deal.
-        for(BlockInfo block : ModBlocks.BLOCKS_LIST){
+        for(BlockInfo block : ModRegistries.BLOCKS_LIST){
             if(!assetExists("models/item/"+block.getId()+".json")){
                 withExistingParent("item/"+block.getId(), Utils.NBNB("block/"+block.getId()));
             }

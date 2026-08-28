@@ -1,13 +1,10 @@
 package net.madelyn.nyagibits_bytes.datagen;
 
 import com.google.gson.Gson;
-import net.madelyn.nyagibits_bytes.chemical.ChemicalInfo;
-import net.madelyn.nyagibits_bytes.chemical.ModChemicals;
-import net.madelyn.nyagibits_bytes.fluid.FluidInfo;
-import net.madelyn.nyagibits_bytes.fluid.ModFluids;
-import net.madelyn.nyagibits_bytes.item.ItemInfo;
-import net.madelyn.nyagibits_bytes.misc.Utils;
-import net.madelyn.nyagibits_bytes.pure.OPAPurifiedMetals;
+import net.madelyn.nyagibits_bytes.content.item.NBNBItem;
+import net.madelyn.nyagibits_bytes.registry.ModRegistries;
+import net.madelyn.nyagibits_bytes.registry.helpers.FluidInfo;
+import net.madelyn.nyagibits_bytes.registry.helpers.ItemInfo;
 import net.minecraft.data.DataGenerator;
 import net.minecraftforge.common.data.LanguageProvider;
 
@@ -40,49 +37,53 @@ public class LangDatagen extends LanguageProvider {
             return;
         }
 
-        for(ChemicalInfo chem : ModChemicals.CHEM_LIST){
-            //This is a special lang entry used to create the others.
-            String chemLangId = "chemical.nyagibits_bytes."+chem.getId()+".name";
+
+        for(ItemInfo item : ModRegistries.ITEMS_LIST){
+            if(!item.getTraits().contains(NBNBItem.ItemTraits.IS_CHEMICAL)) continue;
+            String chemLangId = "chemical.nyagibits_bytes."+item.getChemical()+".name";
             if(EN_LANG.containsKey(chemLangId)){
                 String chemName = EN_LANG.get(chemLangId);
-                //addLang is a method that checks if the entry already exists, if not, adds it.
-                addLang("item.nyagibits_bytes."+chem.getSample().getId(), "Sample of "+chemName);
-                //If there's a dust specifically, add its entry
-                if(chem.getCompacted() != null && chem.getCompacted() instanceof ItemInfo.Chem dust) addLang("item.nyagibits_bytes."+dust.getId(), chemName+" Dust");
-                if(chem.getFluid() != null){
-                    //Same thing for the fluids
-                        addLang("fluid_type.nyagibits_bytes."+chem.getFluid().id+"_fluid", chemName);
-                        addLang("block.nyagibits_bytes."+chem.getFluid().id+"_block", chemName);
-                        addLang("item.nyagibits_bytes.bucket_of_"+chem.getFluid().id, chemName+" Bucket");
+                switch (item.getChemType()){
+                    case SOLID, LIQUID, GAS -> {
+                        addLang("item.nyagibits_bytes."+item.getId(), "Sample of "+chemName);
+                    }
+                    case DUST -> {
+                        addLang("item.nyagibits_bytes."+item.getId(), chemName+" Dust");
+                    }
+                    case INGOT -> {
+                        addLang("item.nyagibits_bytes."+item.getId(), chemName+" Ingot");
+                    }
+                    case PLATE -> {
+                        addLang("item.nyagibits_bytes."+item.getId(), chemName+" Plate");
+                    }
+                    case FLOAT_DUST -> {
+                        addLang("item.nyagibits_bytes."+item.getId(), "Float-Separated"+chemName+" Dust");
+                    }
+                    default -> {
+                        continue;
+                    }
                 }
-            }
-        }
 
-        for(Utils.OPAPureMetal opaMetal : OPAPurifiedMetals.PURE_METALS){
-            String id = opaMetal.id();
-            String opaLangId = "opaMetal.nyagibits_bytes."+id+".name";
-            if(EN_LANG.containsKey(opaLangId)){
-                String name = EN_LANG.get(opaLangId);
-                addLang("item.nyagibits_bytes.sample_pure_"+id, "Sample of Pure "+name);
-                addLang("item.nyagibits_bytes.pure_"+id+"_dust", "Pure "+name+" Dust");
-                addLang("item.nyagibits_bytes.float_separated_"+id+"_dust", "Float-Separated "+name+" Dust");
-                addLang("item.nyagibits_bytes.pure_"+id+"_ingot", "Pure "+name+" Ingot");
-                addLang("item.nyagibits_bytes.pure_"+id+"_plate", "Pure "+name+" Plate");
-                addLang("block.nyagibits_bytes.pure_"+id+"_block", "Block of Pure "+name);
-                addLang("fluid.nyagibits_bytes.opa_"+id+".name", name+" Contaminated OPA"); //These two will also contribute to the other fluid parts below.
-                addLang("fluid.nyagibits_bytes.froth_opa_"+id+".name", name+"-Sourced Froth");
             }
         }
 
         //More of the same, but for non-chemical fluids
-        for(FluidInfo.Builder fluid : ModFluids.FLUIDS_LIST){
+        for(FluidInfo.Builder fluid : ModRegistries.FLUIDS_LIST){
             String fluidLangId = "fluid.nyagibits_bytes."+fluid.id+".name";
+            String chemLangId = "chemical.nyagibits_bytes."+fluid.id+".name";
+            String fluidName = "";
             if(EN_LANG.containsKey(fluidLangId)){
-                String fluidName = EN_LANG.get(fluidLangId);
+                fluidName = EN_LANG.get(fluidLangId);
+            } else if(EN_LANG.containsKey(chemLangId)){
+                fluidName = EN_LANG.get(chemLangId);
+            }
+
+            if(!fluidName.isEmpty()){
                 addLang("fluid_type.nyagibits_bytes."+fluid.id+"_fluid", fluidName);
                 addLang("block.nyagibits_bytes."+fluid.id+"_block", fluidName);
                 addLang("item.nyagibits_bytes.bucket_of_"+fluid.id, fluidName+" Bucket");
             }
+
         }
 
 

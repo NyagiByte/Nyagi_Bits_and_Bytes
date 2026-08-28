@@ -108,7 +108,5 @@ public class Utils {
         public double getValue(){return value;}
     }
 
-    public record OPAPureMetal(String id, int opaTint, int frothTint, int metalTint){}
-
 
 }

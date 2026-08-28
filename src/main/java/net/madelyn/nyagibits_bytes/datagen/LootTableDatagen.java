@@ -1,8 +1,8 @@
 package net.madelyn.nyagibits_bytes.datagen;
 /*
 import com.mojang.datafixers.util.Pair;
-import net.madelyn.nyagibits_bytes.block.BlockInfo;
-import net.madelyn.nyagibits_bytes.block.ModBlocks;
+import net.madelyn.nyagibits_bytes.registry.helpers.BlockInfo;
+import net.madelyn.nyagibits_bytes.registry.categories.ModBlocks;
 import net.madelyn.nyagibits_bytes.misc.Utils;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.loot.BlockLoot;

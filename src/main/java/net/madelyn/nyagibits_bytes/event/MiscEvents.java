@@ -2,8 +2,8 @@ package net.madelyn.nyagibits_bytes.event;
 
 import com.google.common.collect.ImmutableMap;
 import net.madelyn.nyagibits_bytes.NyagiBits_Bytes;
-import net.madelyn.nyagibits_bytes.enchant.ModEnchantments;
-import net.madelyn.nyagibits_bytes.item.custom.CustomCurioItem;
+import net.madelyn.nyagibits_bytes.registry.categories.ModEnchantments;
+import net.madelyn.nyagibits_bytes.content.item.CustomCurioItem;
 import net.madelyn.nyagibits_bytes.misc.ModTags;
 import net.madelyn.nyagibits_bytes.misc.Utils;
 import net.minecraft.core.BlockPos;

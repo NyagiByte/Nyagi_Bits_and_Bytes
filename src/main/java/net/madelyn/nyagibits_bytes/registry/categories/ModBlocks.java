@@ -1,0 +1,174 @@
+package net.madelyn.nyagibits_bytes.registry.categories;
+
+import net.madelyn.nyagibits_bytes.NyagiBits_Bytes;
+import net.madelyn.nyagibits_bytes.registry.ModRegistries;
+import net.madelyn.nyagibits_bytes.registry.helpers.BlockInfo;
+import net.madelyn.nyagibits_bytes.misc.Utils.Tab;
+import net.minecraft.world.level.block.SoundType;
+
+import java.util.List;
+
+public class ModBlocks {
+    /*--------------------------------------------------------------------------------------
+    Block authors:
+    Nyagi: [Livisite_Stone, Livisite_Cobble, Polished Livisite, Flake, Etched Living Wood]
+    Flooter: []
+
+    Texture authors:
+    SoulRacer: [Livisite_Stone,  Livisite_Cobble, Polished Livisite, Flake, Etched Living Wood]
+    Tralomine: [Flake]
+    ---------------------------------------------------------------------------------------*/
+
+    //Not sure what to do with these since i mulched all the individual bits for these.
+    //ORE BLOCKS
+    //Iron Related added 11/10/23 - Nyagi
+    //Coal Related added 11/10/23 - Nyagi
+    //Copper Related added 11/10/23 - Nyagi
+    //Tin generated 2023/10/11 - Flooter
+    //Uranium generated 2023/10/11 - Flooter
+    //Nickel generated 2023/10/11 - Flooter
+    //Lead generated 2023/10/11 - Flooter
+    //Bauxite generated 2023/10/11 - Flooter
+    //Zinc generated 2023/10/11 - Flooter
+    //Quartz generated 2023/10/11 - Flooter
+    //Gemstones generated 2023/10/11 - Flooter
+    //Redstone generated 2023/10/11 - Flooter
+    //Electrum generated 2023/10/11 - Flooter
+    //Migmamite generated 2023/10/11 - Flooter
+
+
+    //This is used to generate and register all the conglomerate ores
+    private static final List<String> BOULDER_TYPES = List.of("iron", "coal", "copper", "tin", "uranium", "nickel", "lead", "bauxite", "zinc", "quartz", "gemstones", "redstone", "electrum", "migmamite");
+
+    //Do not register conglomerate ores here if adding new boulders. Use the list above.
+    //FORMAT: Block Id (String), Material, Strength (float), Requires Tool (boolean), Creative Tab (for the item form)
+    public static void add(BlockInfo block){
+        ModRegistries.BLOCKS_LIST.add(block);
+    }
+    public static void populateList() {
+        //All Color Puzzle Block added 1/12/25 - Nyagi
+        //new BlockInfo("a",Material.GLASS, 10000f, true, Tab.BLOCKS),
+        //------- Block added 1/16/25 - Nyagi
+        add(new BlockInfo("7y5r4jwg8m", SoundType.GLASS, 10000f, true, Tab.BLOCKS));
+        //------- Block added 1/16/25 - Nyagi
+        add(new BlockInfo("szd6kmksx8",SoundType.GLASS, 10000f, true, Tab.BLOCKS));
+        //------- Block added 1/16/25 - Nyagi
+        add(new BlockInfo("mwjfdqlzgx",SoundType.GLASS, 10000f, true, Tab.BLOCKS));
+        //------- Block added 1/16/25 - Nyagi
+        add(new BlockInfo("ughn6anla6",SoundType.GLASS, 10000f, true, Tab.BLOCKS));
+        //------- Back Block added 1/16/25 - Nyagi
+        add(new BlockInfo("h1g1tl8dx7",SoundType.GLASS, 10000f, true, Tab.BLOCKS));
+        //------- Block added 1/16/25 - Nyagi
+        add(new BlockInfo("k4k3ggaog2",SoundType.GLASS, 10000f, true, Tab.BLOCKS));
+        //------- Block added 1/16/25 - Nyagi
+        add(new BlockInfo("d0e9458sgj",SoundType.GLASS, 10000f, true, Tab.BLOCKS));
+        //------- Block added 1/18/25 - Nyagi
+        add(new BlockInfo("2lbxyud1od",SoundType.GLASS, 10000f, true, Tab.BLOCKS));
+        //------- Block added 1/18/25 - Nyagi
+        add(new BlockInfo("ceug19q0vj",SoundType.GLASS, 10000f, true, Tab.BLOCKS));
+        //------- Block added 1/18/25 - Nyagi
+        add(new BlockInfo("rtesw3kpoi",SoundType.GLASS, 10000f, true, Tab.BLOCKS));
+        //------- Block added 1/18/25 - Nyagi
+        add(new BlockInfo("vhzlw7iim4",SoundType.GLASS, 10000f, true, Tab.BLOCKS));
+
+        //Livisite Stone added 7/11/23 - Nyagi
+        add(new BlockInfo("livisite_stone", SoundType.STONE, 2f, true, Tab.BLOCKS));
+        //Livisite Cobble added 7/11/23 - Nyagi
+        add(new BlockInfo("livisite_cobble", SoundType.STONE, 2f, true, Tab.BLOCKS));
+        //Polished Livisite added 7/11/23 - Nyagi
+        add(new BlockInfo("polished_livisite", SoundType.STONE, 2f, true, Tab.BLOCKS));
+        //Flake added 7/11/23 - Nyagi - Texture: Tralomine
+        add(new BlockInfo("flake", (SoundType.AMETHYST), 150000f, true, Tab.BLOCKS));
+        //Etched Living Wood added 7/11/23 - Nyagi
+        add(new BlockInfo("etched_living_wood", SoundType.WOOD, 1f, true, Tab.BLOCKS));
+        //Pulp added 5/16/24 - Nyagi
+        add(new BlockInfo("pulp",(SoundType.MUD), 1f, false, Tab.BLOCKS));
+        //Steel Casing added 5/16/24 - Nyagi
+        add(new BlockInfo("steel_casing",SoundType.METAL, 4f, true, Tab.BLOCKS));
+        //Mana Infused Casing added 5/16/24 - Nyagi
+        add(new BlockInfo("mana_infused_casing",SoundType.METAL, 4f, true, Tab.BLOCKS));
+        //Slushy Ice added 5/16/24 - Nyagi
+        add(new BlockInfo("slushy_ice",SoundType.GLASS, 1f, false, Tab.BLOCKS));
+        //Damascus Steel Block added 5/16/24 - Nyagi
+        add(new BlockInfo("block_of_damascus_steel",SoundType.METAL, 4f, true, Tab.BLOCKS));
+        //1080 High Carbon Steel Block added 5/16/24 - Nyagi
+        add(new BlockInfo("block_of_1080_high_carbon_steel",SoundType.METAL, 4f, true, Tab.BLOCKS));
+        //15N20 High Carbon Steel Block added 5/16/24 - Nyagi
+        add(new BlockInfo("block_of_15n20_high_carbon_steel",SoundType.METAL, 4f, true, Tab.BLOCKS));
+        //Stainless Steel Block added 5/16/24 - Nyagi
+        add(new BlockInfo("block_of_stainless_steel",SoundType.METAL, 4f, true, Tab.BLOCKS));
+        //Skystone Melt Included Andesite added 11/21/24 - Nyagi
+        add(new BlockInfo("skystone_melt_included_andesite",SoundType.STONE, 4f, true, Tab.BLOCKS));
+        //Gypsum Block added 11/21/24 - Nyagi
+        add(new BlockInfo("gypsum_block",SoundType.STONE, 4f, true, Tab.BLOCKS));
+        //Volcanic Pumice Block Block added 11/21/24 - Nyagi
+        add(new BlockInfo("volcanic_pumice_block",SoundType.SAND, 2f, true, Tab.BLOCKS));
+        //Heliodor Block added 1/29/25 - Nyagi
+        add(new BlockInfo("block_heliodor",SoundType.METAL, 2f, true, Tab.BLOCKS));
+        //Morganite Block added 1/29/25 - Nyagi
+        add(new BlockInfo("block_morganite",SoundType.METAL, 2f, true, Tab.BLOCKS));
+        //Aquamarine Block added 1/29/25 - Nyagi
+        add(new BlockInfo("block_aquamarine",SoundType.METAL, 2f, true, Tab.BLOCKS));
+        //Pezzottaite Block added 1/29/25 - Nyagi
+        add(new BlockInfo("block_pezzottaite",SoundType.METAL, 2f, true, Tab.BLOCKS));
+        //Bixbite Block added 1/29/25 - Nyagi
+        add(new BlockInfo("block_bixbite",SoundType.METAL, 2f, true, Tab.BLOCKS));
+        //Goshenite Block added 1/29/25 - Nyagi
+        add(new BlockInfo("block_goshenite",SoundType.METAL, 2f, true, Tab.BLOCKS));
+        //Waterproof Casing added 4/24/25 - Nyagi
+        add(new BlockInfo("waterproof_casing",SoundType.WOOD, 2f, true, Tab.BLOCKS));
+        //Glimmering Wood added 6/6/25 - Nyagi
+        add(new BlockInfo.Rotatable("glimmering_wood",SoundType.WOOD, 1f, true, Tab.BLOCKS));
+        //Stripped Glimmering Wood added 6/6/25 - Nyagi
+        add(new BlockInfo.Rotatable("glimmering_stripped_wood",SoundType.WOOD, 1f, true, Tab.BLOCKS));
+        //Glimmering Log added 6/6/25 - Nyagi
+        add(new BlockInfo.Rotatable("glimmering_log",SoundType.WOOD, 1f, true, Tab.BLOCKS));
+        //Stripped Glimmering Log added 6/6/25 - Nyagi
+        add(new BlockInfo.Rotatable("glimmering_stripped_log",SoundType.WOOD, 1f, true, Tab.BLOCKS));
+        //Glimmering Stone added 6/6/25 - Nyagi
+        add(new BlockInfo("glimmering_stone",SoundType.STONE, 1f, true, Tab.BLOCKS));
+        //Glimmering Andesite added 6/6/25 - Nyagi
+        add(new BlockInfo("glimmering_andesite",SoundType.STONE, 1f, true, Tab.BLOCKS));
+        //Compact Industrial Scrap added 3/24/25 - Nyagi
+        add(new BlockInfo("scrap_industrial",SoundType.SAND, 1f, true, Tab.BLOCKS));
+        //Agglomerated Carbo-Metallic Rock added 3/25/25 - Nyagi
+        add(new BlockInfo("carbometallic_rock",SoundType.STONE, 1f, true, Tab.BLOCKS));
+        //Solidified Tholeiitic Basalt added 3/25/25 - Nyagi
+        add(new BlockInfo("basalt_tholeiitic_solid",SoundType.STONE, 1f, true, Tab.BLOCKS));
+        //Pseudo Boninite Basalt  added 3/25/25 - Nyagi
+        //https://www.scirp.org/journal/paperinformation?paperid=81718
+        add(new BlockInfo("basalt_boninite_pseudo",SoundType.STONE, 1f, true, Tab.BLOCKS));
+        //Impact Breccia added 3/25/25 - Nyagi
+        add(new BlockInfo("breccia",SoundType.METAL, 1f, true, Tab.BLOCKS));
+        //Lechatelierite added 3/25/25 - Nyagi
+        add(new BlockInfo("lechatelierite",SoundType.GLASS, 1f, true, Tab.BLOCKS));
+        //Iridium Enriched Tektite Rock added 3/25/25 - Nyagi
+        add(new BlockInfo("iridium_tektite_rock",SoundType.GLASS, 1f, true, Tab.BLOCKS));
+        //Loose Ejecta added 3/25/25 - Nyagi
+        add(new BlockInfo("ejecta",SoundType.SAND, 1f, true, Tab.BLOCKS));
+    }
+
+    //A small helper function to add the data for all 5 conglomerate ores for each type.
+    private static List<BlockInfo> generateConglomerates(String type){
+        return List.of(
+            new BlockInfo.Ore("conglomerate_"+type+"_ore",SoundType.STONE, 6f, true, Tab.MINERALS),
+            new BlockInfo.Ore("dense_conglomerate_"+type+"_ore",SoundType.STONE, 12f, true, Tab.MINERALS),
+            new BlockInfo.Ore("hyper_conglomerate_"+type+"_ore",SoundType.STONE, 24f, true, Tab.MINERALS),
+            new BlockInfo.Ore("tectonic_conglomerate_"+type+"_ore",SoundType.STONE, 48f, true, Tab.MINERALS),
+            new BlockInfo.Ore("core_conglomerate_"+type+"_ore",SoundType.STONE, 96f, true, Tab.MINERALS)
+        );
+    }
+
+    //NOTICE: Fluid block registration is no longer handled here, but it has been compressed into FluidInfo and ModFluids.
+
+
+    //Generates all the conglomerate ores
+    public static void init(){
+        NyagiBits_Bytes.LOGGER.info("Registering Blocks");
+        populateList();
+        for(String ore : BOULDER_TYPES){
+            ModRegistries.BLOCKS_LIST.addAll(generateConglomerates(ore));
+        }
+    }
+
+}
