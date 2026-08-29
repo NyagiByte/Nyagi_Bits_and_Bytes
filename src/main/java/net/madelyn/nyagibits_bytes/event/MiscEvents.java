@@ -59,7 +59,7 @@ public class MiscEvents {
 
     @SubscribeEvent
     public static void excavatingAOECheck(BlockEvent.BreakEvent e){
-        if(e.getPlayer().isShiftKeyDown()) return; //Crouch to disable the effects
+        if(e.getPlayer().isCrouching()) return; //Crouch to disable the effects
         BlockHitResult target = (BlockHitResult) e.getPlayer().pick(10, 1, false); //This gets the targeted block's face.
         if(!target.getBlockPos().equals(e.getPos())){
             //This fixes an issue where the hit result gives a different block, causing another block to get instamined regardless of blacklists.
