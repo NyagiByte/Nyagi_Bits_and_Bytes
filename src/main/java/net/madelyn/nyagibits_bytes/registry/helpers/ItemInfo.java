@@ -24,6 +24,7 @@ public class ItemInfo {
     private int burnTime = -1;
     private int tint = -1;
     private String chemical = "";
+    private String abbreviation = "";
     private ChemType chemType = ChemType.NONE;
     private int durability = -1;
 
@@ -59,6 +60,12 @@ public class ItemInfo {
         traits.add(NBNBItem.ItemTraits.IS_CHEMICAL);
         this.chemType = chemType;
         this.chemical = chemID;
+        return this;
+    }
+
+    public ItemInfo abbreviation(String element){
+        traits.add(NBNBItem.ItemTraits.HAS_ABBREVIATION);
+        this.abbreviation = element;
         return this;
     }
 
@@ -104,7 +111,7 @@ public class ItemInfo {
     public Item registerItem(){
         Item.Properties props = new Item.Properties();
         if(traits.contains(NBNBItem.ItemTraits.HAS_DURABILITY)) props.durability(durability);
-        Item ret = new NBNBItem(props, traits, burnTime, tint, chemical);
+        Item ret = new NBNBItem(props, traits, burnTime, tint, chemical, abbreviation);
         Utils.CREATIVE_CACHE.get(tab).add(ret);
         return ret;
     }

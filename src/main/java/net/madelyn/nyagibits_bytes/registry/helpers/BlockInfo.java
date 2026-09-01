@@ -1,6 +1,6 @@
 package net.madelyn.nyagibits_bytes.registry.helpers;
 
-import net.madelyn.nyagibits_bytes.content.block.TintedBlock;
+import net.madelyn.nyagibits_bytes.content.block.NBNBBlock;
 import net.madelyn.nyagibits_bytes.misc.Utils;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.RotatedPillarBlock;
@@ -15,6 +15,7 @@ public class BlockInfo {
     private final Utils.Tab tab;
     private int tint = -1;
     private boolean isTinted = false;
+    private String abbreviation = "";
 
 
     public BlockInfo(String id, SoundType soundtype, float str, boolean tool, Utils.Tab tab){
@@ -30,6 +31,12 @@ public class BlockInfo {
         this.tint = tint;
         return this;
     }
+
+    public BlockInfo abbreviation(String abbreviation){
+        this.abbreviation = abbreviation;
+        return this;
+    }
+
     public boolean isTinted(){
         return isTinted;
     }
@@ -46,11 +53,15 @@ public class BlockInfo {
         return tab;
     }
 
+    public String getAbbreviation(){
+        return abbreviation;
+    }
+
     public Block createBlock(){
         BlockBehaviour.Properties props = BlockBehaviour.Properties.of()
                 .strength(strength).sound(soundtype);
         if(requiresTool) props = props.requiresCorrectToolForDrops();
-        return isTinted ? new TintedBlock(props, tint) : new Block(props);
+        return isTinted ? new NBNBBlock(props, tint) : new NBNBBlock(props);
     }
     //This is mostly to enable instanceof shenanigans later in loot table datagen.
     public static class Ore extends BlockInfo{

@@ -1,14 +1,13 @@
 package net.madelyn.nyagibits_bytes.registry;
 
 import net.madelyn.nyagibits_bytes.NyagiBits_Bytes;
-import net.madelyn.nyagibits_bytes.content.block.TintedBlockItem;
+import net.madelyn.nyagibits_bytes.content.block.NBNBBlockItem;
 import net.madelyn.nyagibits_bytes.misc.Utils;
 import net.madelyn.nyagibits_bytes.registry.helpers.BlockInfo;
 import net.madelyn.nyagibits_bytes.registry.helpers.ChemicalInfo;
 import net.madelyn.nyagibits_bytes.registry.helpers.FluidInfo;
 import net.madelyn.nyagibits_bytes.registry.helpers.ItemInfo;
 import net.minecraft.core.registries.Registries;
-import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.enchantment.Enchantment;
@@ -59,8 +58,8 @@ public class ModRegistries {
             RegistryObject<Block> registeredBlock = BLOCKS.register(info.getId(), info::createBlock);
             RegistryObject<Item> blockItem = ITEMS.register(info.getId(), () -> {
                 Item item = info.isTinted() ?
-                        new TintedBlockItem(registeredBlock.get(), new Item.Properties(), info.getTint()) :
-                        new BlockItem(registeredBlock.get(), new Item.Properties());
+                        new NBNBBlockItem(registeredBlock.get(), new Item.Properties(), info.getTint(), info.getAbbreviation()) :
+                        new NBNBBlockItem(registeredBlock.get(), new Item.Properties(), info.getAbbreviation());
                 Utils.CREATIVE_CACHE.get(info.getTab()).add(item);
                 return item;
             });

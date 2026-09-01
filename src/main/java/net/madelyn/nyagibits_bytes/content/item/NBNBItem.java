@@ -1,5 +1,6 @@
 package net.madelyn.nyagibits_bytes.content.item;
 
+import net.madelyn.nyagibits_bytes.registry.helpers.IAbbreviatedItem;
 import net.minecraft.ChatFormatting;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.client.resources.language.I18n;
@@ -21,7 +22,7 @@ import javax.annotation.Nullable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class NBNBItem extends Item {
+public class NBNBItem extends Item implements IAbbreviatedItem {
     public static final RandomSource random = RandomSource.createNewThreadLocalInstance();
 
     private final List<ItemTraits> traits;
@@ -29,6 +30,7 @@ public class NBNBItem extends Item {
     private final int tint;
 
     private final String chemical;
+    private final String abbreviation;
 
 
     public NBNBItem(Properties props) {
@@ -37,14 +39,16 @@ public class NBNBItem extends Item {
         this.burnTime = -1;
         this.tint = -1;
         this.chemical = "";
+        this.abbreviation = "";
     }
 
-    public NBNBItem(Properties props, List<ItemTraits> traits, int burnTime, int tint, String chemical){
+    public NBNBItem(Properties props, List<ItemTraits> traits, int burnTime, int tint, String chemical, String abbreviation){
         super(props);
         this.traits = traits;
         this.burnTime = burnTime;
         this.tint = tint;
         this.chemical = chemical;
+        this.abbreviation = abbreviation;
     }
 
     @Override
@@ -121,13 +125,23 @@ public class NBNBItem extends Item {
         return layer == 1 ? tint : -1;
     }
 
+    @Override
+    public boolean isAbbreviated() {
+        return traits.contains(ItemTraits.HAS_ABBREVIATION);
+    }
+    @Override
+    public String getAbbreviation(){
+        return abbreviation;
+    }
+
     public enum ItemTraits{
         HAS_DURABILITY,
         IS_CHEMICAL,
         IS_TINTED,
         IS_FUEL,
         IS_ORE,
-        LEVITATES
+        LEVITATES,
+        HAS_ABBREVIATION
     }
 
 }

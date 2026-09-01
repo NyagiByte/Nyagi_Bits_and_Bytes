@@ -7,7 +7,9 @@
   "mixins": [
     "ComposterMixin"
   ],
-  "client": [],
+  "client": [
+    "GuiGraphicsMixin"
+  ],
   "injectors": {
     "defaultRequire": 1
   }
