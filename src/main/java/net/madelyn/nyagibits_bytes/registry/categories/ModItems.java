@@ -577,6 +577,20 @@ public class ModItems {
     add(new ItemInfo("sulfur_roll", Tab.ITEMS));
     //  Tres' Blazes Cake added 8/18/26 - Nyagi
     add(new ItemInfo("tres_blazes_cake", Tab.ITEMS).fuel(128000));
+    //  Anode Grade Coke added 9/3/26 - Nyagi
+    add(new ItemInfo("coke_anode_grade", Tab.ITEMS));
+    //  Anode Baking Rack added 9/3/26 - Nyagi
+    add(new ItemInfo("anode_baking_rack", Tab.ITEMS));
+    //  Wet Coke added 9/3/26 - Nyagi
+    add(new ItemInfo("coke_wet", Tab.ITEMS));
+    //  Coking Residue added 9/3/26 - Nyagi
+    add(new ItemInfo("coke_residue", Tab.ITEMS));
+    //  Miniaturized High Pressure System added 9/3/26 - Nyagi
+    add(new ItemInfo("miniaturized_high_pressure_system", Tab.ITEMS));
+    //  Porous Insulating Firebrick added 9/3/26 - Nyagi
+    add(new ItemInfo("porous_insulating_firebrick", Tab.ITEMS));
+    //  Raw Residual Solids added 9/3/26 - Nyagi
+    add(new ItemInfo("residual_solids_raw", Tab.ITEMS));
 
     //Scrap system
     //  Plastonium Paste I  added 2/3/26 - Nyagi

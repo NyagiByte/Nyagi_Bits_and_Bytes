@@ -114,6 +114,16 @@ public class ModFluids {
         add(new FluidInfo.Builder("sulfur_molten_uniform", 0xA1929202));
         // Sulfury Volatile Organics - Added 8/7/26
         add(new FluidInfo.Builder("sulfur_volatile_organics", 0xA1dcdebd));
+        // Gas Oil Fraction - Added 9/3/26
+        add(new FluidInfo.Builder("gas_oil_fraction", 0xA1d5903b));
+        // Light Oil - Added 9/3/26
+        add(new FluidInfo.Builder("light_oil", 0xA1ebca90));
+        // Pre-Reflux Fraction - Added 9/3/26
+        add(new FluidInfo.Builder("pre_reflux_fraction", 0xA1abd261));
+        // Hydrocarbon Rich Offgas - Added 9/3/26
+        add(new FluidInfo.Builder("hydrocarbon_rich_offgas", 0xA132b07b));
+        // Sour Water - Added 9/3/26
+        add(new FluidInfo.Builder("sour_water", 0xA1a8b032));
 
 
     }
