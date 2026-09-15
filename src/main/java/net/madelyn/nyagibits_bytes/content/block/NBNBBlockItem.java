@@ -34,7 +34,7 @@ public class NBNBBlockItem extends BlockItem implements IAbbreviatedItem {
         this.abbreviation = abbreviation;
     }
 
-    @Override //This is like the one in CustomTooltipItem, but with a secondary fallback tooltip describing the chemical as a whole.
+    @Override //This is like the one in CustomTooltipItem, but shorter since there's not as much logic to handle
     public void appendHoverText(ItemStack stack, @Nullable Level level, List<Component> components, TooltipFlag flag) {
         String descKey = "block." + ForgeRegistries.ITEMS.getResourceKey(this).get().location().toString().replace(':', '.') + ".desc";
         Component desc = Component.translatable(descKey);

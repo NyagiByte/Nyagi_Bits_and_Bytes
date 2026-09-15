@@ -24,7 +24,6 @@ public class BlockstateDatagen extends BlockStateProvider {
     @Override
     protected void registerStatesAndModels() {
         for(BlockInfo block : ModRegistries.BLOCKS_LIST){
-            NyagiBits_Bytes.LOGGER.info(block.getId());
             if(!assetExists("blockstates/"+block.getId()+".json")){;
                 //don't handle rotatable blocks, for now.
                 if(block instanceof BlockInfo.Rotatable rot) continue;

@@ -13,6 +13,7 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 @Mixin(GuiGraphics.class) //Yep. We're doing this, buckle up.
+//This adds the chemlib-style abbreviations to items
 public abstract class GuiGraphicsMixin {
 
     @Shadow
