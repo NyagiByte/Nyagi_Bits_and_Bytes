@@ -591,6 +591,14 @@ public class ModItems {
     add(new ItemInfo("porous_insulating_firebrick", Tab.ITEMS));
     //  Raw Residual Solids added 9/3/26 - Nyagi
     add(new ItemInfo("residual_solids_raw", Tab.ITEMS));
+    //  Red Mud added 10/8/26 - Nyagi
+    add(new ItemInfo("red_mud", Tab.ITEMS));
+    //  Perovskite added 10/8/26 - Nyagi
+    add(new ItemInfo("perovskite", Tab.ITEMS));
+    //  Sodalite added 10/8/26 - Nyagi
+    add(new ItemInfo("sodalite", Tab.ITEMS));
+    //  Electrowinning Device added 10/8/26 - Nyagi
+    add(new ItemInfo("electrowinning_device", Tab.ITEMS));
 
     //Scrap system
     //  Plastonium Paste I  added 2/3/26 - Nyagi

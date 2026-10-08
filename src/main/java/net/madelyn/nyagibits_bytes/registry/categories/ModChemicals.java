@@ -358,6 +358,30 @@ public class ModChemicals {
         add(new ChemicalInfo("sodium_pyrosulfate", 0xA1b06f37, ChemType.SOLID).dust());
         // Sodium Sulfide  added 6/14/26
         add(new ChemicalInfo("sodium_sulfide", 0xA1b09b37, ChemType.SOLID).dust());
+        // Calcium Fluoride  added 10/8/26
+        add(new ChemicalInfo("calcium_fluoride", 0xA1b09b37, ChemType.SOLID).dust());
+        // Titanium Dioxide  added 10/8/26
+        add(new ChemicalInfo("titanium_dioxide", 0xA1b09b37, ChemType.SOLID).dust());
+        // Sodium Peroxide  added 10/8/26
+        add(new ChemicalInfo("sodium_peroxide", 0xA1b09b37, ChemType.SOLID).dust());
+        // Sodium Cyanide  added 10/8/26
+        add(new ChemicalInfo("sodium_cyanide", 0xA1b09b37, ChemType.SOLID).dust());
+        // Sodium Tetracyanozincate  added 10/8/26
+        add(new ChemicalInfo("sodium_tetracyanozincate", 0xA1b09b37, ChemType.SOLID).dust());
+        // Oxalic Acid  added 10/8/26
+        add(new ChemicalInfo("oxalic_acid", 0xA1b59ce2, ChemType.LIQUID).fluid());
+        // Sodium Methoxide  added 10/8/26
+        add(new ChemicalInfo("sodium_methoxide", 0xA1b09b37, ChemType.SOLID).dust());
+        // Formamide  added 10/8/26
+        add(new ChemicalInfo("formamide", 0xA1c466c6, ChemType.LIQUID).fluid());
+        // Ammonium Sulfate  added 10/8/26
+        add(new ChemicalInfo("ammonium_sulfate", 0xA1b09b37, ChemType.SOLID).dust());
+        // Formic Acid  added 10/8/26
+        add(new ChemicalInfo("formic_acid", 0xA15a6314, ChemType.LIQUID).fluid());
+        // Ammonium Hydroxide  added 10/8/26
+        add(new ChemicalInfo("ammonium_hydroxide", 0xA1257685, ChemType.LIQUID).fluid());
+        // Ammonium Fluoride  added 10/8/26
+        add(new ChemicalInfo("ammonium_fluoride", 0xA1b09b37, ChemType.SOLID).dust());
 
     }
 

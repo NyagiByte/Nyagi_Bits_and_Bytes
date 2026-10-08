@@ -124,6 +124,16 @@ public class ModFluids {
         add(new FluidInfo.Builder("hydrocarbon_rich_offgas", 0xA132b07b));
         // Sour Water - Added 9/3/26
         add(new FluidInfo.Builder("sour_water", 0xA1a8b032));
+        // Gallium Rich White Liquor - Added 10/8/26
+        add(new FluidInfo.Builder("white_liquor_gallium", 0xA1a6abbc));
+        // Low Concentration Rare Earth Slurry - Added 10/8/26
+        add(new FluidInfo.Builder("rare_earth_slurry_low", 0xA1a98430));
+        // Rhodium Precipitate - Added 10/8/26
+        add(new FluidInfo.Builder("rhodium_precipitate", 0xA1554c44));
+        // Formic Acid Mixture - Added 10/8/26
+        add(new FluidInfo.Builder("mixture_formic_acid", 0xA16c822c));
+        // Raw Natural Gas - Added 10/8/26
+        add(new FluidInfo.Builder("natural_gas_raw", 0xA1ccf066));
 
 
     }
