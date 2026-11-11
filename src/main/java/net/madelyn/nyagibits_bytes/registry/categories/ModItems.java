@@ -597,8 +597,30 @@ public class ModItems {
     add(new ItemInfo("perovskite", Tab.ITEMS));
     //  Sodalite added 10/8/26 - Nyagi
     add(new ItemInfo("sodalite", Tab.ITEMS));
-    //  Electrowinning Device added 10/8/26 - Nyagi
+    // Electrowinning Device added 10/8/26 - Nyagi
     add(new ItemInfo("electrowinning_device", Tab.ITEMS));
+    // Fitted Pick (Mohs Hardness I) added 11/8/26 - Nyagi
+    add(new ItemInfo("mohs_pick_01", Tab.ITEMS));
+    // Fitted Pick (Mohs Hardness II) added 11/8/26 - Nyagi
+    add(new ItemInfo("mohs_pick_02", Tab.ITEMS));
+    // Fitted Pick (Mohs Hardness III) added 11/8/26 - Nyagi
+    add(new ItemInfo("mohs_pick_03", Tab.ITEMS));
+    // Fitted Pick (Mohs Hardness VI) added 11/8/26 - Nyagi
+    add(new ItemInfo("mohs_pick_04", Tab.ITEMS));
+    // Fitted Pick (Mohs Hardness V) added 11/8/26 - Nyagi
+    add(new ItemInfo("mohs_pick_05", Tab.ITEMS));
+    // Fitted Pick (Mohs Hardness VI) added 11/8/26 - Nyagi
+    add(new ItemInfo("mohs_pick_06", Tab.ITEMS));
+    // Fitted Pick (Mohs Hardness VII) added 11/8/26 - Nyagi
+    add(new ItemInfo("mohs_pick_07", Tab.ITEMS));
+    // Fitted Pick (Mohs Hardness VIII) added 11/8/26 - Nyagi
+    add(new ItemInfo("mohs_pick_08", Tab.ITEMS));
+    // Fitted Pick (Mohs Hardness IX) added 11/8/26 - Nyagi
+    add(new ItemInfo("mohs_pick_09", Tab.ITEMS));
+    // Fitted Pick (Mohs Hardness X) added 11/8/26 - Nyagi
+    add(new ItemInfo("mohs_pick_10", Tab.ITEMS));
+    // Fitted Pick (Mohs Hardness XI) added 11/8/26 - Nyagi
+    add(new ItemInfo("mohs_pick_11", Tab.ITEMS));
 
     //Scrap system
     //  Plastonium Paste I  added 2/3/26 - Nyagi

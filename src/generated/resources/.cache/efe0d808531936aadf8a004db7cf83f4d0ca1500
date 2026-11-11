@@ -1,4 +1,4 @@
-// 1.20.1	2026-10-08T15:16:05.0012142	Item Models: nyagibits_bytes
+// 1.20.1	2026-11-11T00:21:06.3154413	Item Models: nyagibits_bytes
 f46f3ad7084615037f94f72c8a2e36f9d49a3814 assets/nyagibits_bytes/models/item/1_4_dimethoxybenzene_dust.json
 943e7c163efff69fd7b3eef7ec4178f28ae343e6 assets/nyagibits_bytes/models/item/2d_textures.json
 a1570e6fb1739636dbe8e54f331e6b1fb92aab30 assets/nyagibits_bytes/models/item/2lbxyud1od.json
@@ -720,6 +720,17 @@ c4cacadec5b9db39945452c4016dec79387542a4 assets/nyagibits_bytes/models/item/mixe
 2fefc8cb7dd3fdcb1cdeb137d20607904b83f44b assets/nyagibits_bytes/models/item/mix_steel_1080.json
 6aea6329da5acf3ba4948866b3d2798418156530 assets/nyagibits_bytes/models/item/mix_steel_15n20.json
 610f93aad1bf685a01816dfc67d8e37b3bb49bf8 assets/nyagibits_bytes/models/item/mix_steel_stainless.json
+057e2e5ad5c196c5413c0a32f29a1b6a8363a096 assets/nyagibits_bytes/models/item/mohs_pick_01.json
+08e4d8824cebf956cc657b51d8307d461c7a77b0 assets/nyagibits_bytes/models/item/mohs_pick_02.json
+b645919156489c283dae2b1da50b8b4e35eea5b0 assets/nyagibits_bytes/models/item/mohs_pick_03.json
+002ee674e6275acfd679dfb563f8597f04dee144 assets/nyagibits_bytes/models/item/mohs_pick_04.json
+e20e1aeed78c1aec1dec25f8698b6e837c1069fd assets/nyagibits_bytes/models/item/mohs_pick_05.json
+c5e1c47f956482ee42c40c9a428e9baa8f829ba2 assets/nyagibits_bytes/models/item/mohs_pick_06.json
+f2216752602f958e588e72306e085c8adb4bb4e2 assets/nyagibits_bytes/models/item/mohs_pick_07.json
+666b0bb17111e52d01bb7c2fe1050dd7fec55137 assets/nyagibits_bytes/models/item/mohs_pick_08.json
+6b10629894f45b94aa1129cb785262cfa3309da5 assets/nyagibits_bytes/models/item/mohs_pick_09.json
+41a68eaa4f30e85ea54133ebad62fad47afdc819 assets/nyagibits_bytes/models/item/mohs_pick_10.json
+1f44a908b00fee0c3d515e6fb0d2d2e0ffb456d0 assets/nyagibits_bytes/models/item/mohs_pick_11.json
 9863e754881ce1441893084658002c2f4424b276 assets/nyagibits_bytes/models/item/mold_insulating_washer.json
 d18c46df576b9a667f63cdb6480d626bca701564 assets/nyagibits_bytes/models/item/molybdenum_disulfide_dust.json
 e2cf55aaa6d291abb18b64d0c973889d6827b76b assets/nyagibits_bytes/models/item/molybdenum_trioxide_dust.json
