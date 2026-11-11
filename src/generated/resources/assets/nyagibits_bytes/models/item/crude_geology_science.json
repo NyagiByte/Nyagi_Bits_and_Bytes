@@ -1,0 +1,20 @@
+{
+  "parent": "nyagibits_bytes:item/modeled_items/crude_geology_science/crude_geology_science",
+  "textures": {
+    "0": "nyagibits_bytes:item/components/plastic_container",
+    "1": "nyagibits_bytes:item/modeled_items/crude_geology_science/core_sample",
+    "10": "nyagibits_bytes:item/modeled_items/crude_geology_science/pick_seven_head",
+    "11": "nyagibits_bytes:item/modeled_items/crude_geology_science/pick_eight_head",
+    "12": "nyagibits_bytes:item/modeled_items/crude_geology_science/pick_nine_head",
+    "13": "nyagibits_bytes:item/modeled_items/crude_geology_science/pick_ten_head",
+    "2": "nyagibits_bytes:item/modeled_items/crude_geology_science/flask",
+    "3": "nyagibits_bytes:item/modeled_items/crude_geology_science/pick_core",
+    "4": "nyagibits_bytes:item/modeled_items/crude_geology_science/pick_one_head",
+    "5": "nyagibits_bytes:item/modeled_items/crude_geology_science/pick_two_head",
+    "6": "nyagibits_bytes:item/modeled_items/crude_geology_science/pick_three_head",
+    "7": "nyagibits_bytes:item/modeled_items/crude_geology_science/pick_four_head",
+    "8": "nyagibits_bytes:item/modeled_items/crude_geology_science/pick_five_head",
+    "9": "nyagibits_bytes:item/modeled_items/crude_geology_science/pick_six_head",
+    "particle": "nyagibits_bytes:item/components/plastic_container"
+  }
+}

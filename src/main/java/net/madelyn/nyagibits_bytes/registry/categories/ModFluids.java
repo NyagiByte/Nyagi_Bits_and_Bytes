@@ -134,6 +134,16 @@ public class ModFluids {
         add(new FluidInfo.Builder("mixture_formic_acid", 0xA16c822c));
         // Raw Natural Gas - Added 10/8/26
         add(new FluidInfo.Builder("natural_gas_raw", 0xA1ccf066));
+        // Monazite Sludge - Added 11/11/26
+        add(new FluidInfo.Builder("sludge_monazite", 0xA633c22));
+        // Cerite Sludge - Added 11/11/26
+        add(new FluidInfo.Builder("sludge_cerite", 0xA17780a2));
+        // Allanite Sludge - Added 11/11/26
+        add(new FluidInfo.Builder("sludge_allanite", 0xA1fcaf69));
+        // Bastnäsite Sludge - Added 11/11/26
+        add(new FluidInfo.Builder("sludge_bastnasite", 0xA1571e38));
+        // Xenotime Sludge - Added 11/11/26
+        add(new FluidInfo.Builder("sludge_xenotime", 0xA14a3c2a));
 
 
     }

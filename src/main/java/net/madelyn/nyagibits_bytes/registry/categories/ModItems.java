@@ -621,6 +621,16 @@ public class ModItems {
     add(new ItemInfo("mohs_pick_10", Tab.ITEMS));
     // Fitted Pick (Mohs Hardness XI) added 11/8/26 - Nyagi
     add(new ItemInfo("mohs_pick_11", Tab.ITEMS));
+    // Plastic Container added 11/11/26 - Nyagi
+    add(new ItemInfo("plastic_container", Tab.ITEMS));
+    // Mohs Hardness Fitted Pick Container added 11/11/26 - Nyagi
+    add(new ItemInfo("mohs_container", Tab.ITEMS));
+    // Rare-Earth Sludge Sampling added 11/11/26 - Nyagi
+    add(new ItemInfo("rare_earth_sludge_sampling", Tab.ITEMS));
+    // Undercrust Sampling added 11/11/26 - Nyagi
+    add(new ItemInfo("undercrust_sampling", Tab.ITEMS));
+    // Magimorphic Catalytic System added 11/11/26 - Nyagi
+    add(new ItemInfo("magimorphic_catalytic_system", Tab.ITEMS));
 
     //Scrap system
     //  Plastonium Paste I  added 2/3/26 - Nyagi
@@ -826,6 +836,10 @@ public class ModItems {
     add(new ItemInfo("basic_material_properties_test", Tab.SCIENCE));
     // Used Basic Material Properties Test added 10/27/24 - Nyagi
     add(new ItemInfo("used_basic_material_properties_test", Tab.SCIENCE));
+    // Crude Geology Test added 11/11/26 - Nyagi
+    add(new ItemInfo("crude_geology_test", Tab.SCIENCE));
+    // Used Crude Geology Test added 11/11/26 - Nyagi
+    add(new ItemInfo("used_crude_geology_test", Tab.SCIENCE));
 
       /*
          SCIENCE DATA STORAGE
@@ -845,6 +859,8 @@ public class ModItems {
     add(new ItemInfo("lab_notebook_with_crude_natural_arcana_data", Tab.SCIENCE));
     // Lab Notebook With Crude Material Properties Data added 8/27/23 - Nyagi
     add(new ItemInfo("lab_notebook_with_crude_material_properties_data", Tab.SCIENCE));
+    // Lab Notebook With Crude Geology Data added 11/11/26 - Nyagi
+    add(new ItemInfo("lab_notebook_with_crude_geology_data", Tab.SCIENCE));
     // Pen added 8/10/23 - Nyagi
     add(new ItemInfo("pen", Tab.ITEMS));
     // Pen Assembly added 8/10/23 - Nyagi
