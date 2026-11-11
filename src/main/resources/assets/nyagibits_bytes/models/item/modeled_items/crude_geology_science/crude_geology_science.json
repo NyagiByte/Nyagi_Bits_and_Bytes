@@ -2,7 +2,7 @@
 	"format_version": "1.9.0",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "nyagibits_bytes:item/modeled_items/crude_geology_science/plastic_container",
+		"0": "nyagibits_bytes:item/modeled_items/crude_geology_science/plastic_container_model",
 		"1": "nyagibits_bytes:item/modeled_items/crude_geology_science/core_sample",
 		"2": "nyagibits_bytes:item/modeled_items/crude_geology_science/flask",
 		"3": "nyagibits_bytes:item/modeled_items/crude_geology_science/pick_core",
@@ -16,7 +16,7 @@
 		"11": "nyagibits_bytes:item/modeled_items/crude_geology_science/pick_eight_head",
 		"12": "nyagibits_bytes:item/modeled_items/crude_geology_science/pick_nine_head",
 		"13": "nyagibits_bytes:item/modeled_items/crude_geology_science/pick_ten_head",
-		"particle": "nyagibits_bytes:item/modeled_items/crude_geology_science/plastic_container"
+		"particle": "nyagibits_bytes:item/modeled_items/crude_geology_science/plastic_container_model"
 	},
 	"elements": [
 		{
