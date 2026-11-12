@@ -3252,6 +3252,8 @@
   "item.nyagibits_bytes.used_crude_compression_test.desc": "Well that... definitely did something",
   "item.nyagibits_bytes.used_crude_entropy_test": "Used Crude Entropy Test",
   "item.nyagibits_bytes.used_crude_entropy_test.desc": "Mmmm yup, it's hot",
+  "item.nyagibits_bytes.used_crude_geology_test": "Used Crude Geology Test",
+  "item.nyagibits_bytes.used_crude_geology_test.desc": "Such a dizzying array of oxides, sulfides, and other -ides",
   "item.nyagibits_bytes.used_crude_material_properties_test": "Used Crude Material Properties Test",
   "item.nyagibits_bytes.used_crude_material_properties_test.desc": "Not as durable as anticipated...\nstill quite useful however",
   "item.nyagibits_bytes.used_crude_natural_arcana_test": "Used Crude Natural Arcana Test",
