@@ -1024,6 +1024,18 @@
   "item.nyagibits_bytes.bucket_of_sludge_xenotime.desc": "Xenotime turned to goop",
   "item.nyagibits_bytes.magimorphic_catalytic_system": "Magimorphic Catalytic System",
   "item.nyagibits_bytes.magimorphic_catalytic_system.desc": "By funneling materials through a spread out\nmarimorphosis flower, a catalytic-like effect\ncan be achieved with various minerals and\ncompounds, giving insight into new weird chemistry",
+  "item.nyagibits_bytes.bone_char": "Bone Char",
+  "item.nyagibits_bytes.bone_char.desc": "Charcoal made out of bones. Chemically distinct to\nregular charcoal due to the large amount of calcium\ncarbonate and hydroxyapatite present",
+  "item.nyagibits_bytes.petroleum_jelly": "Petroleum Jelly",
+  "item.nyagibits_bytes.petroleum_jelly.desc": "Useful as a topical ointment. Industrially relevant\nin the production as a releasing agent for molds and\nexplosive production",
+  "item.nyagibits_bytes.cordite": "Cordite",
+  "item.nyagibits_bytes.cordite.desc": "A smokeless propellant.\nPlease don't confuse it for Filini pasta",
+  "chemical.nyagibits_bytes.nitroglycerine.name": "Nitroglycerine",
+  "chemical.nyagibits_bytes.nitroglycerine.desc": "An incredibly sensitive explosive liquid. And because\nthe universe has a sense of humor, works as heart\nmedication, treating Angina Pectoris",
+  "chemical.nyagibits_bytes.nitroguanidine.name": "Nitroguanidine",
+  "chemical.nyagibits_bytes.nitroguanidine.desc": "A highly sensitive explosive powder. Somehow useful\nas an insecticide as well due to having a similar\nneurological effect as nicotine",
+  "chemical.nyagibits_bytes.oleum_nitric.name": "Nitric Oleum",
+  "chemical.nyagibits_bytes.oleum_nitric.desc": "More commonly known as fuming nitric acid",
 
 
 

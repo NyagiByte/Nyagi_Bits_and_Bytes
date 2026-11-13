@@ -631,6 +631,12 @@ public class ModItems {
     add(new ItemInfo("undercrust_sampling", Tab.ITEMS));
     // Magimorphic Catalytic System added 11/11/26 - Nyagi
     add(new ItemInfo("magimorphic_catalytic_system", Tab.ITEMS));
+    // Bone Char added 11/13/26 - Nyagi
+    add(new ItemInfo("bone_char", Tab.ITEMS));
+    // Petroleum Jelly added 11/13/26 - Nyagi
+    add(new ItemInfo("petroleum_jelly", Tab.ITEMS));
+    // Cordite added 11/13/26 - Nyagi
+    add(new ItemInfo("cordite", Tab.ITEMS));
 
     //Scrap system
     //  Plastonium Paste I  added 2/3/26 - Nyagi

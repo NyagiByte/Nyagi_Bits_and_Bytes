@@ -382,6 +382,12 @@ public class ModChemicals {
         add(new ChemicalInfo("ammonium_hydroxide", 0xA1257685, ChemType.LIQUID).fluid());
         // Ammonium Fluoride  added 10/8/26
         add(new ChemicalInfo("ammonium_fluoride", 0xA1b09b37, ChemType.SOLID).dust());
+        // Nitroglycerine  added 10/8/26
+        add(new ChemicalInfo("nitroglycerine", 0xA13fd275, ChemType.LIQUID).fluid());
+        // Nitroguanidine  added 10/8/26
+        add(new ChemicalInfo("nitroguanidine", 0xA1b09b37, ChemType.SOLID).dust());
+        // Nitric Oleum  added 10/8/26
+        add(new ChemicalInfo("oleum_nitric", 0xA192aedb, ChemType.LIQUID).fluid());
 
     }
 
